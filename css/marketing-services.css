@@ -124,6 +124,80 @@
 .ms-platforms > ul { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 15px; margin: 0; padding: 0; list-style: none; }
 .ms-platforms li { display: flex; align-items: center; gap: 4px; color: #071d36; font-size: 12px; font-weight: 650; }.ms-platforms .ms-icon { width: 21px; height: 21px; }.ms-platforms li:first-child .ms-icon { width: 26px; }
 .ms-selection-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+[data-ms-campaign-view][hidden], .ms-web-view[hidden] { display: none; }
+.ms-web-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin: 3px 0 17px; }
+.ms-web-title { display: flex; flex-wrap: wrap; align-items: center; gap: 13px; }
+.ms-web-title h3 { margin: 0; font-size: 15px; font-weight: 750; letter-spacing: -.035em; }
+.ms-published { padding: 4px 8px; border-radius: 999px; background: #dffce7; color: #009740; font-size: 9px; font-weight: 600; white-space: nowrap; }
+.ms-web-heading p { display: flex; align-items: center; gap: 6px; margin: 8px 0 0; color: #587ea6; font-size: 12px; }
+.ms-web-heading p .ms-icon { width: 13px; height: 13px; }
+.ms-edit-site { display: flex; align-items: center; gap: 6px; padding: 9px 12px; font-size: 10px; }
+.ms-edit-site .ms-icon { width: 15px; height: 15px; color: currentColor; }
+.ms-site-previews { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr); gap: 17px; align-items: stretch; }
+.ms-site-desktop, .ms-site-mobile { min-width: 0; overflow: hidden; background: #fff; border: 1px solid #e2ecf6; box-shadow: 0 4px 10px #477fb409; }
+.ms-site-desktop { border-radius: 12px; padding: 7px; }
+.ms-browser-bar { display: flex; align-items: center; gap: 5px; height: 21px; padding: 0 6px; background: #eaf1f7; }
+.ms-browser-bar i { width: 6px; height: 6px; border-radius: 50%; background: #ff6265; }.ms-browser-bar i:nth-child(2) { background: #ffcc35; }.ms-browser-bar i:nth-child(3) { background: #00c75a; }
+.ms-site-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 41px; padding: 10px 7px; }
+.ms-site-nav > strong { font-size: 11px; font-weight: 800; letter-spacing: -.045em; }
+.ms-site-nav > div { display: flex; align-items: center; gap: 10px; font-size: 5px; color: #46688c; }
+.ms-site-nav b { padding: 6px 9px; border-radius: 4px; background: #122b44; color: #fff; font-weight: 500; }
+.ms-example-hero { display: grid; grid-template-columns: 1.1fr 1fr; min-height: 329px; padding-top: 28px; background: linear-gradient(140deg, #f7f9fa, #f2f5f7); }
+.ms-example-copy { position: relative; z-index: 1; min-width: 0; padding: 18px 8px 20px; }
+.ms-example-kicker { margin: 0 0 16px; color: #5f7aa0; font-size: 6px; font-weight: 700; letter-spacing: .15em; }
+.ms-example-copy h4 { margin: 0 0 12px; color: #0b1531; font-size: clamp(20px, 1.7vw, 26px); font-weight: 800; line-height: 1.04; letter-spacing: -.055em; }
+.ms-example-description { margin: 0 0 19px; color: #46688c; font-size: 9px; line-height: 1.4; }
+.ms-example-actions { display: flex; align-items: center; gap: 8px; width: max-content; max-width: 220%; }
+.ms-example-actions > span { display: flex; align-items: center; gap: 6px; padding: 9px 10px; border-radius: 5px; background: #142d45; color: #fff; font-size: 7px; white-space: nowrap; }
+.ms-example-actions > span + span { background: #fff; color: #122b44; }
+.ms-example-actions .ms-icon { width: 10px; height: 10px; color: currentColor; }
+.ms-example-photo { position: relative; overflow: hidden; min-width: 0; margin: 0; border-radius: 0 0 7px 7px; }
+.ms-example-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 58% center; }
+.ms-example-photo figcaption { position: absolute; top: 18%; left: 17%; width: 58%; padding: 12px 7px; background: #eee9dcf0; box-shadow: 0 0 0 2px #6f64564d; color: #17212c; font-size: 10px; font-weight: 700; line-height: 1.2; letter-spacing: -.04em; }
+.ms-site-mobile { margin-top: 4px; padding: 7px 7px 0; border-radius: 25px; border: 3px solid #e7eff7; }
+.ms-phone-top { height: 8px; margin: -1px 0 0; border-radius: 16px 16px 0 0; background: #edf2f7; }
+.ms-site-mobile .ms-site-nav { padding: 10px 4px; min-height: 35px; }.ms-site-mobile .ms-site-nav > strong { font-size: 10px; }
+.ms-example-menu { display: grid; gap: 2px; }.ms-example-menu i { width: 10px; height: 1px; background: #5b7b9a; }
+.ms-site-mobile .ms-example-hero { display: flex; flex-direction: column; min-height: 0; padding: 0; background: #fff; }
+.ms-site-mobile .ms-example-copy { padding: 12px 4px 17px; }
+.ms-site-mobile .ms-example-kicker { font-size: 4.5px; margin-bottom: 10px; letter-spacing: .12em; }
+.ms-site-mobile .ms-example-copy h4 { font-size: 18px; margin-bottom: 10px; }
+.ms-site-mobile .ms-example-description { font-size: 7px; margin-bottom: 13px; }
+.ms-site-mobile .ms-example-actions { width: 100%; }.ms-site-mobile .ms-example-actions > span { justify-content: center; width: 100%; font-size: 6px; padding: 8px 5px; }
+.ms-site-mobile .ms-example-photo { height: 135px; flex: none; margin: 0 4px; border-radius: 0; }.ms-site-mobile .ms-example-photo figcaption { top: 14%; font-size: 8px; padding: 7px 5px; }
+.ms-site-pages-title { margin: 19px 0 10px; font-size: 12px; font-weight: 650; letter-spacing: -.03em; }
+.ms-site-pages { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; }
+.ms-site-pages li { min-width: 0; padding: 12px 8px; border: 1px solid #e5eef7; border-radius: 8px; background: #fff9; }
+.ms-site-pages li > div { display: flex; align-items: center; gap: 7px; margin-bottom: 7px; }
+.ms-site-pages .ms-icon { width: 17px; height: 17px; }.ms-site-pages .ms-icon:last-child { width: 9px; height: 12px; margin-left: auto; }
+.ms-site-pages strong { font-size: 9px; font-weight: 600; letter-spacing: -.04em; }
+.ms-site-pages .ms-active-status { display: flex; width: fit-content; margin-inline: auto; font-size: 7px; }
+.marketing-services-showcase[data-ms-active="web"] .ms-benefits { gap: 27px; }
+.marketing-services-showcase[data-ms-active="web"] .ms-benefit-note { margin-top: 44px; }
+.marketing-services-showcase[data-ms-active="web"] .ms-tab.is-active .ms-icon { color: #087bff; }
+@media (min-width: 1201px) {
+  .marketing-services-showcase[data-ms-active="web"] .ms-dashboard { grid-template-columns: 118px minmax(0, 1fr); }
+}
+@media (min-width: 1600px) {
+  .ms-example-hero { min-height: 337px; }.ms-example-description { font-size: 10px; }
+  .ms-site-mobile .ms-example-copy h4 { font-size: 20px; }.ms-site-mobile .ms-example-description { font-size: 8px; }
+  .ms-site-nav > div { font-size: 6px; }.ms-site-pages strong { font-size: 10px; }
+}
+@media (max-width: 1200px) {
+  .ms-site-previews { gap: 12px; }.ms-site-pages { gap: 6px; }.ms-site-pages li { padding-inline: 6px; }.ms-site-pages li > div { gap: 4px; }
+}
+@media (max-width: 540px) {
+  .ms-web-title { gap: 7px; }.ms-web-title h3 { font-size: 16px; }.ms-published { font-size: 8px; }.ms-edit-site { font-size: 9px; padding: 8px; }
+  .ms-site-previews { grid-template-columns: 1fr; gap: 18px; }
+  .ms-site-desktop .ms-example-hero { min-height: 308px; }.ms-site-desktop .ms-example-copy h4 { font-size: 25px; }.ms-site-desktop .ms-example-description { font-size: 10px; }
+  .ms-site-desktop .ms-site-nav > div { gap: 8px; }.ms-example-actions { gap: 6px; }.ms-example-actions > span { padding: 9px 8px; }
+  .ms-site-mobile { width: 208px; max-width: 100%; margin: 0 auto; padding: 10px 10px 0; }
+  .ms-site-mobile .ms-site-nav { min-height: 44px; }.ms-site-mobile .ms-site-nav > strong { font-size: 13px; }
+  .ms-site-mobile .ms-example-copy { padding: 15px 8px 20px; }.ms-site-mobile .ms-example-kicker { font-size: 6px; }
+  .ms-site-mobile .ms-example-copy h4 { font-size: 26px; }.ms-site-mobile .ms-example-description { font-size: 10px; }
+  .ms-site-mobile .ms-example-actions > span { font-size: 8px; padding: 10px; }.ms-site-mobile .ms-example-photo { height: 180px; }.ms-site-mobile .ms-example-photo figcaption { font-size: 11px; }
+  .ms-site-pages { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }.ms-site-pages li { padding: 13px; }.ms-site-pages strong { font-size: 11px; }.ms-site-pages .ms-active-status { font-size: 9px; }
+}
 .ms-creatives[hidden], .ms-search-ads[hidden] { display: none; }
 .ms-search-ads { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; min-height: 214px; }
 .ms-search-ad { display: flex; flex-direction: column; min-width: 0; padding: 12px 9px 11px; border: 1px solid #e0ebf7; border-radius: 8px; background: #fff; }

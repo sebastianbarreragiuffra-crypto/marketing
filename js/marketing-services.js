@@ -46,13 +46,17 @@
       line: 'M30 92 60 89 90 72 120 75 150 62 180 67 210 64 240 51 270 43 300 45 330 27 360 35 390 22 405 15'
     },
     web: {
-      name: 'Desarrollo Web', heading: 'Rendimiento del sitio web',
-      metrics: [['12.480', 'Visitas al sitio', '↑ 38%'], ['428', 'Consultas recibidas', '↑ 26%'], ['1,2 s', 'Tiempo de carga', '↓ 31%'], ['3,4%', 'Conversión estimada', '↑ 22%']],
-      chart: 'Visitas y oportunidades', legend: 'Consultas', growth: '+26%', growthLabel: 'más consultas que el período anterior',
-      creatives: 'Páginas de campaña', status: 'Publicada',
-      intro: defaultIntro, sidebar: defaultSidebar, presentation: 'creative',
-      secondaryLegend: 'Inversión', scale: [300, 200, 100], secondaryLine: defaultSecondaryLine,
-      line: 'M30 108 60 103 90 95 120 96 150 85 180 88 210 70 240 77 270 68 300 60 330 55 360 47 390 34 405 28'
+      name: 'Desarrollo Web', presentation: 'website',
+      intro: {
+        title: ['Tu marca, lista', 'para crecer.'],
+        lead: 'Diseñamos sitios modernos, rápidos y enfocados en convertir visitantes en clientes.',
+        benefits: [
+          ['monitor', 'Diseño a medida', ['Sitios únicos que reflejan', 'la identidad de tu marca.']],
+          ['search', 'SEO básico', ['Estructura optimizada para', 'que te encuentren en Google.']],
+          ['lightning', 'Optimizado y rápido', ['Sitios veloces, seguros y', 'listos para escalar.']]
+        ]
+      },
+      sidebar: [['home', 'Resumen'], ['monitor', 'Sitios Web'], ['keywords', 'Páginas'], ['palette', 'Diseño'], ['mail', 'Formularios'], ['seo', 'SEO'], ['web', 'Dominios'], ['bars', 'Reportes'], ['settings', 'Configuración']]
     }
   };
 
@@ -118,6 +122,14 @@
       plan.classList.toggle('is-active', active);
     });
     panel.setAttribute('aria-labelledby', `ms-tab-${id}`);
+    const isWebsite = service.presentation === 'website';
+    section.querySelector('[data-ms-campaign-view]').hidden = isWebsite;
+    section.querySelector('[data-ms-web-view]').hidden = !isWebsite;
+    section.querySelector('[data-ms-caption]').textContent = isWebsite
+      ? 'Interfaz ilustrativa · Sitio y estados de ejemplo'
+      : 'Interfaz ilustrativa · Cifras de ejemplo';
+    if (announce) section.querySelector('.ms-selection-status').textContent = `Servicio seleccionado: ${service.name}. El panel muestra ${isWebsite ? 'un sitio de ejemplo en escritorio y móvil' : 'datos de ejemplo'}.`;
+    if (isWebsite) return;
     section.querySelector('[data-ms-heading]').textContent = service.heading;
     service.metrics.forEach(([value, label, delta], i) => {
       section.querySelector(`[data-ms-value="${i}"]`).textContent = value;
@@ -140,7 +152,6 @@
     section.querySelector('.ms-creatives').hidden = service.presentation === 'search';
     section.querySelector('[data-ms-search-ads]').hidden = service.presentation !== 'search';
     section.querySelectorAll('[data-ms-status]').forEach(status => { status.textContent = service.status; });
-    if (announce) section.querySelector('.ms-selection-status').textContent = `Servicio seleccionado: ${service.name}. El panel muestra datos de ejemplo.`;
   }
 
   tabs.forEach((tab, i) => {
