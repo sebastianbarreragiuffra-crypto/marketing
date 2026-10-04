@@ -1,0 +1,26 @@
+# Local publication copies and generated archives
+site-publish/
+site-publish-current/
+cloudflare-pages-dist/
+site-deploy-*.tar
+
+# Local tooling and caches
+.webmaster/
+.webmaster-backups/
+.wrangler/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Generated previews and validation reports
+preview-*.png
+*-validation.json
+validation.json
+palette-before.json
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

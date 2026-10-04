@@ -1,0 +1,52 @@
+/* Alcance — light editorial section, built in HTML/CSS from the supplied composition. */
+.ag{--ag-ink:#15181a;--ag-muted:#4a5148;--ag-line:#e4e6dc;--ag-lime:#eaf4bd;--ag-lime-line:#c9e27a;position:relative;background:#fbfaf6;color:var(--ag-ink);padding:44px 0 40px;font-family:Newsreader,Georgia,"Times New Roman",serif}
+.ag-wrap{width:min(100% - 100px,1500px);margin-inline:auto}
+.ag-head{text-align:center;margin-bottom:26px}
+.ag h2{position:relative;display:inline-block;margin:0 0 12px;font:500 clamp(32px,3.6vw,56px)/1.06 Newsreader,Georgia,serif;letter-spacing:-.035em}
+.ag-spark{position:absolute;left:100%;top:34%;width:clamp(50px,5vw,80px);margin-left:12px}
+.ag-head p{margin:0;color:var(--ag-muted);font-size:clamp(16px,1.35vw,21px)}
+.ag-grid{display:grid;grid-template-columns:1fr 1.05fr 1fr;gap:20px;align-items:stretch}
+.ag-card{display:flex;flex-direction:column;min-width:0;padding:22px 26px 24px;border:1px solid var(--ag-line);border-radius:14px;background:#fff;box-shadow:0 8px 24px #1a21140a}
+.ag-card-hl{border-color:var(--ag-lime-line);background:linear-gradient(180deg,#f6fadd,#fbfcf1)}
+.ag-card-head{display:flex;align-items:center;gap:18px;margin-bottom:12px}
+.ag-card-head h3{margin:0;font:500 clamp(22px,1.9vw,30px)/1.1 Newsreader,Georgia,serif;letter-spacing:-.025em}
+.ag-kicker{margin:6px 0 0;color:#5a6157;font:500 11px/1 "DM Sans",Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase}
+.ag-ico{display:grid;place-items:center;flex:none;width:56px;height:56px;border-radius:50%;background:#f1f0ea;color:var(--ag-ink)}
+.ag-ico svg{width:26px;height:26px}
+.ag-ico-lime{background:var(--ag-lime)}
+.ag-desc{margin:0 0 16px;color:var(--ag-muted);font-size:clamp(15px,1.15vw,18px);line-height:1.4;max-width:420px}
+.ag-checks{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.ag-checks li{position:relative;padding-left:46px;min-height:30px;display:flex;align-items:center;font-size:clamp(15px,1.15vw,18px);line-height:1.25}
+.ag-checks li::before{content:"";position:absolute;left:0;top:50%;width:30px;height:30px;margin-top:-15px;border-radius:50%;background:var(--ag-lime) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2315181a' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m7 12.500 3.200 3.200L17 8.800'/%3E%3C/svg%3E") center/16px no-repeat}
+.ag-duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:auto}
+.ag-sub{padding:12px 14px 14px;border:1px solid var(--ag-line);border-radius:12px;background:#fff}
+.ag-sub-title{display:flex;align-items:center;gap:10px;margin:0 0 10px;font-size:clamp(17px,1.35vw,21px)}
+.ag-sub-title svg{width:26px;height:26px}
+.ag-dot{width:26px;height:26px;border:2px solid var(--ag-ink);border-radius:50%;box-shadow:0 0 0 4px #dcec9a}
+.ag-sub .ag-checks{gap:6px}
+.ag-sub .ag-checks li{padding-left:40px;min-height:28px}
+.ag-sub .ag-checks li::before{width:28px;height:28px;margin-top:-14px}
+.ag-grid>.ag-card:not(.ag-card-hl) .ag-checks{margin-top:6px}
+.ag-banner{display:flex;align-items:center;justify-content:center;gap:18px;margin:18px 0 0;padding:12px 24px;border:1px solid var(--ag-lime-line);border-radius:14px;background:linear-gradient(90deg,#f0f7cf,#f6fadd)}
+.ag-banner .ag-ico{width:52px;height:52px}
+.ag-banner-text{padding-left:18px;border-left:1px solid #cfd5b8;font-size:clamp(16px,1.4vw,22px);letter-spacing:-.01em}
+@media(max-width:1180px){
+  .ag-wrap{width:min(100% - 56px,1050px)}
+  .ag-grid{grid-template-columns:1fr 1fr}
+  .ag-card-hl{grid-column:1/-1}
+  .ag-spark{display:none}
+}
+@media(max-width:700px){
+  .ag{padding:44px 0 36px}
+  .ag-wrap{width:min(100% - 36px,520px)}
+  .ag-head{text-align:left;margin-bottom:22px}
+  .ag h2{font-size:clamp(30px,9vw,40px)}.ag h2 br{display:none}
+  .ag-grid{grid-template-columns:1fr;gap:14px}
+  .ag-card{padding:20px 18px}
+  
+  .ag-duo{grid-template-columns:1fr 1fr;gap:10px}
+  .ag-banner{padding:14px 16px;gap:12px;align-items:flex-start}
+  .ag-banner .ag-ico{width:44px;height:44px}.ag-banner .ag-ico svg{width:22px;height:22px}
+  .ag-banner-text{padding-left:12px;font-size:16px}
+}
+@media(max-width:380px){.ag-duo{grid-template-columns:1fr}}

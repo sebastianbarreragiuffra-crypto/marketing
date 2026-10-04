@@ -1,0 +1,38 @@
+/* Marketing section: an editorial map of the managed work. */
+.marketing-method{background:#eae6dc}
+.marketing-method-grid{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:7%;align-items:center}
+.marketing-method-copy h2{font-size:clamp(44px,4.5vw,69px);line-height:1.08;letter-spacing:-.055em;max-width:650px;margin-bottom:24px}
+.marketing-method-copy h2 em{color:#668349}
+.marketing-method-copy>p:not(.section-label):not(.method-note){font-size:16px;line-height:1.8;color:#4c594a;max-width:540px;margin-bottom:30px}
+.method-responsibilities{border-top:1px solid #aeb8a6;margin:30px 0 26px}
+.method-responsibilities>div{display:grid;grid-template-columns:37px 118px minmax(0,1fr);gap:12px;align-items:start;padding:17px 0;border-bottom:1px solid #aeb8a6}
+.method-responsibilities span{font-size:11px;font-weight:800;color:#638146;padding-top:3px}
+.method-responsibilities strong{font-size:14px}
+.method-responsibilities p{font-size:13px;line-height:1.5;color:#586556;margin:0}
+.marketing-method-copy .inline-cta{display:inline-flex;margin-top:8px}
+.marketing-method-copy .method-note{font-size:11px;color:#65715f;line-height:1.6;margin-top:22px;max-width:450px}
+.campaign-map{min-width:0;margin:0;background:#14241a;color:#f4f6e9;border-radius:14px;padding:23px;box-shadow:0 28px 70px #1a2e1d30}
+.campaign-map-head{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #677a61;padding:3px 2px 17px;color:#c7e9af;font-size:10px;font-weight:800;letter-spacing:.13em}
+.campaign-map-body{display:grid;gap:10px;margin-top:14px}
+.map-brief{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:180px;padding:23px 25px;background:#f5f4e9;color:#1e2a1d;border-radius:6px;overflow:hidden}
+.map-brief:after{content:'01';position:absolute;right:-10px;top:-17px;color:#dde6d4;font:800 190px/.8 Manrope,Arial,sans-serif;letter-spacing:-.1em;pointer-events:none}
+.map-brief small,.map-piece small,.map-media small{position:relative;z-index:1;font-size:9px;font-weight:800;letter-spacing:.11em}
+.map-brief strong{position:relative;z-index:1;display:block;font:750 clamp(32px,3vw,46px)/1.02 Manrope,Arial,sans-serif;letter-spacing:-.055em;margin:20px 0 7px}
+.map-brief>span{position:relative;z-index:1;color:#566450;font-size:12px}
+.map-assembly{display:grid;grid-template-columns:1.15fr .85fr;gap:10px}
+.map-piece{display:flex;flex-direction:column;justify-content:space-between;min-height:205px;padding:23px;background:#c7f45b;color:#142817;border-radius:6px}
+.map-piece strong{font:750 clamp(27px,2.6vw,39px)/1.06 Manrope,Arial,sans-serif;letter-spacing:-.055em}
+.map-piece>span{font-size:9px;font-weight:800;letter-spacing:.12em;border-top:1px solid #597c39;padding-top:10px}
+.map-media{display:flex;flex-direction:column;gap:8px;min-height:205px;padding:20px;background:#31503a;border:1px solid #657b60;border-radius:6px}
+.map-media b{display:block;border:1px solid #9fb993;border-radius:99px;padding:9px 11px;font-size:12px;font-weight:600}
+.map-media b:first-of-type{margin-top:auto}
+.map-media>span{font-size:8px;letter-spacing:.09em;color:#bdd7af;margin-top:8px}
+.map-review{display:grid;grid-template-columns:1fr auto;align-items:end;gap:10px;min-height:130px;padding:23px;background:#e3ecd8;color:#1c301f;border-radius:6px}
+.map-review-index{grid-column:1/-1;font-size:9px;font-weight:800;letter-spacing:.11em;color:#527145}
+.map-review strong{font:750 clamp(23px,2.3vw,33px)/1.05 Manrope,Arial,sans-serif;letter-spacing:-.05em}
+.map-review strong em{color:#668c48}
+.map-review>span:last-child{font-size:29px}
+.campaign-map figcaption{color:#bed0b5;font-size:10px;line-height:1.5;margin:15px 3px 2px}
+@media(max-width:1000px){.marketing-method-grid{gap:4%}.marketing-method-copy h2{font-size:clamp(42px,4.4vw,58px)}.method-responsibilities>div{grid-template-columns:26px 1fr;gap:6px 9px}.method-responsibilities p{grid-column:2}.campaign-map{padding:15px}}
+@media(max-width:760px){.marketing-method-grid{grid-template-columns:1fr;gap:44px}.marketing-method-copy h2{font-size:clamp(43px,8vw,62px)}.campaign-map{max-width:620px;width:100%;margin-inline:auto}.method-responsibilities>div{grid-template-columns:32px 110px 1fr}.method-responsibilities p{grid-column:3}.map-brief{min-height:170px}.map-assembly .map-piece,.map-assembly .map-media{min-height:180px}}
+@media(max-width:430px){.marketing-method-copy h2{font-size:42px}.method-responsibilities>div{grid-template-columns:26px minmax(0,1fr)}.method-responsibilities p{grid-column:2}.campaign-map{padding:12px}.campaign-map-head{font-size:8px}.map-brief{min-height:155px;padding:19px}.map-brief strong{font-size:34px}.map-assembly{grid-template-columns:1fr 1fr;gap:6px}.map-piece,.map-media{padding:12px!important;min-height:185px!important}.map-piece strong{font-size:25px}.map-media b{font-size:10px;padding:7px}.map-media>span{font-size:7px}.map-review{min-height:120px;padding:17px}.map-review strong{font-size:25px}}

@@ -1,0 +1,81 @@
+/* Approved page-level 2A: keep the three purchase routes and shorten repeated detail. */
+.choose-section.section-pad,.marketing-method.section-pad{padding-top:94px;padding-bottom:94px}
+.choose-section .section-head{margin-bottom:30px}
+.offer-map{grid-template-rows:minmax(220px,1fr) minmax(220px,1fr);gap:11px}
+.offer-panel-marketing{min-height:450px}
+.offer-panel{padding:24px 26px 22px}
+.panel-art{height:125px;margin:14px 0 4px}
+.creative-sample{height:110px;padding:12px 15px}
+.creative-sample b{font-size:23px}
+.offer-panel-marketing .panel-copy h3{font-size:clamp(44px,4.4vw,66px)}
+.panel-copy h3{margin:9px 0 10px}
+.panel-path{margin-bottom:15px}
+.marketing-method-grid{gap:6%}
+.marketing-method-copy h2{font-size:clamp(43px,4.2vw,62px)}
+.marketing-method-copy>p:not(.section-label):not(.method-note){margin-bottom:16px}
+.marketing-method-copy .method-note{margin-top:17px}
+.start-band{background:#e1efbe;color:#182419}
+.start-band.section-pad{padding-top:78px;padding-bottom:78px}
+.start-band-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:9%;align-items:center}
+.start-band h2{font-size:clamp(43px,4.7vw,70px);line-height:1.07;letter-spacing:-.06em;max-width:700px;margin:0}
+.start-band h2 em{color:#53743c}
+.start-band-copy>p{font-size:17px;line-height:1.7;color:#3d5637;max-width:530px;margin:0 0 26px}
+.start-band-terms{display:flex;flex-wrap:wrap;gap:7px}
+.start-band-terms span{font-size:10px;font-weight:800;color:#2b4a28;border:1px solid #8cae73;border-radius:99px;padding:8px 12px}
+.faq-home.section-pad{padding-top:89px;padding-bottom:89px}
+.faq-home-grid{gap:6%}
+.faq-home-intro h2{font-size:clamp(44px,4.5vw,65px)}
+.faq-home .faq-list summary{padding-top:22px;padding-bottom:22px}
+.contact.section-pad{padding-top:95px;padding-bottom:95px}
+@media(max-width:760px){.choose-section.section-pad,.marketing-method.section-pad{padding-top:76px;padding-bottom:76px}.offer-map{gap:9px}.offer-panel-marketing{min-height:420px}.offer-panel-software,.offer-panel-custom{min-height:255px}.marketing-method-grid{gap:26px}.start-band-grid{grid-template-columns:1fr;gap:20px}.start-band h2{max-width:680px}.faq-home.section-pad{padding-top:76px;padding-bottom:76px}}
+@media(max-width:430px){.commerce-hero-grid{gap:24px;padding-top:53px;padding-bottom:27px}.hero-composition{height:520px}.choose-section.section-pad,.marketing-method.section-pad{padding-top:70px;padding-bottom:70px}.choose-section .section-head{margin-bottom:25px}.offer-panel{padding:19px}.offer-panel-marketing{min-height:390px}.offer-panel-software,.offer-panel-custom{min-height:225px}.panel-art{height:102px;margin:10px 0 2px}.creative-sample{height:96px;padding:10px 12px}.creative-sample b{font-size:19px}.offer-panel-marketing .panel-copy h3{font-size:43px}.panel-copy h3{font-size:29px}.panel-copy p{font-size:13px;line-height:1.5}.panel-path{display:none}.panel-link{padding-top:12px}.marketing-method-copy h2{font-size:40px}.marketing-method-copy>p:not(.section-label):not(.method-note){font-size:15px;line-height:1.7}.campaign-map{padding:12px}.map-brief{min-height:110px;padding:16px}.map-brief strong{font-size:31px;margin:8px 0 3px}.map-brief>span{font-size:11px}.map-assembly .map-piece,.map-assembly .map-media{min-height:128px!important}.map-piece,.map-media{padding:11px!important}.map-piece strong{font-size:23px}.map-review{min-height:94px;padding:14px}.map-review strong{font-size:23px}.start-band.section-pad{padding-top:66px;padding-bottom:66px}.start-band h2{font-size:42px}.start-band-copy>p{font-size:15px;line-height:1.7;margin-bottom:18px}.faq-home.section-pad,.contact.section-pad{padding-top:70px;padding-bottom:70px}.faq-home-grid{gap:25px}.faq-home-intro h2{font-size:42px;margin-bottom:17px}.faq-home-intro>p:not(.section-label){font-size:14px}.faq-home .faq-list summary{padding-top:18px;padding-bottom:18px}}
+
+/* Final review: one explanatory composition in the hero and one method map. */
+.offer-map{grid-template-rows:minmax(190px,1fr) minmax(190px,1fr)}
+.offer-panel-marketing{min-height:390px}
+.offer-panel-marketing .panel-copy{margin:auto 0}
+.panel-top,.panel-copy small{font-size:11px}
+.panel-link{font-size:13px}
+.composition-head,.campaign-map-head{font-size:11px}
+.hero-composition figcaption,.campaign-map figcaption{font-size:12px}
+.sheet-index,.board-label,.conversation-top,.map-brief small,.map-piece small,.map-media small,.map-review-index{font-size:11px}
+.board-main span,.conversation-flow>div,.map-piece>span,.map-media>span{font-size:11px}
+.conversation-tail{font-size:10px}
+.marketing-method-copy .method-note{font-size:12px}
+
+@media(max-width:760px){
+  .offer-panel-marketing{min-height:310px}
+  .offer-panel-software,.offer-panel-custom{min-height:235px}
+}
+@media(max-width:430px){
+  .commerce-hero-grid{gap:18px;padding-top:38px;padding-bottom:20px}
+  .hero-composition{height:390px}
+  .composition-stage{inset:27px 0 38px}
+  .composition-head{font-size:11px;letter-spacing:.04em}
+  .campaign-sheet{width:77%;height:46%;left:3%;top:5%;transform:rotate(-3deg)}
+  .sheet-top,.board-foot,.conversation-tail,.composition-side{display:none}
+  .campaign-board{display:none}
+  .sheet-body{padding:11px}
+  .sheet-index{font-size:11px;letter-spacing:.04em}
+  .sheet-body>strong{font-size:22px;margin:8px 0 9px}
+  .board-label{font-size:10px;padding:5px 8px}
+  .board-main{min-height:64px;padding:8px}
+  .board-main span{font-size:10px}
+  .board-main b{font-size:16px;margin-top:6px}
+  .conversation-sheet{width:77%;right:2%;bottom:5%;padding:10px;transform:rotate(3deg)}
+  .conversation-top{font-size:11px;letter-spacing:.04em}
+  .conversation-sheet>strong{font-size:20px;margin:8px 0}
+  .conversation-flow>div{font-size:11px;padding:4px 5px;grid-template-columns:17px 1fr}
+  .conversation-flow i{font-size:9px}
+  .hero-composition figcaption{font-size:11px;line-height:1.35}
+  .choose-section.section-pad{padding-top:58px;padding-bottom:58px}
+  .offer-panel-marketing{min-height:285px}
+  .offer-panel-software,.offer-panel-custom{min-height:220px}
+  .panel-copy small{font-size:11px}
+  .panel-copy p{font-size:14px}
+  .campaign-map-head{font-size:11px}
+  .map-brief small,.map-piece small,.map-media small,.map-review-index{font-size:11px;letter-spacing:.04em}
+  .map-piece>span,.map-media>span{font-size:11px;letter-spacing:.02em}
+  .map-media b{font-size:11px}
+  .campaign-map figcaption{font-size:12px}
+}

@@ -1,0 +1,7 @@
+# Hero de Inicio · mockup de software · 2026-09-28
+
+Origen: el usuario aprobó el texto y la estructura del hero, pero señaló que las dos tarjetas ilustradas eran demasiado simples y preguntó si debían mostrar un mockup de software. Se sustituyó solo el visual del hero en `index.html`; copy, dos rutas principales y las seis secciones de Inicio permanecen.
+
+El nuevo visual presenta una bandeja comercial ilustrativa como elemento principal: lista de consultas, conversación seleccionada, equipo responsable y siguiente paso. Un bloque separado muestra el trabajo de campañas de la agencia —oferta/mensaje, creatividad y publicidad— para no sugerir que ambos son un único producto. La maqueta no usa nombres de clientes, resultados, canales conectados ni una captura no verificada. Se identifica como «vista ilustrativa» y el pie aclara que no es la interfaz real. Estilos en `css/hero-software-mock.css`.
+
+Se inspeccionaron renders a 320, 390, 768 y 1440 px (`preview-hero-software-*.png`). La interfaz se reorganiza en móvil para mostrar una consulta y su siguiente paso sin texto cortado. Se comprobó ausencia de desbordamiento horizontal y de contenido interno recortado también cerca del cambio de layout (900, 1050, 1051 y 1100 px). `verify-landing.cjs` pasó en 390/768/1440 px para las cuatro páginas de oferta: enlaces, anclas, menú, FAQ, H1 e imágenes, sin errores JS. `landing-validation.json` contiene la regresión. Esta validación local no confirma que el mockup coincida con el producto real; una captura autorizada podrá reemplazarlo cuando exista.

@@ -1,0 +1,4 @@
+.soon{font-size:12px;line-height:1.5;max-width:150px;margin-top:2px}
+footer .brand{gap:0}
+body>.contact{color:#111611}
+@media(max-width:480px){.soon{font-size:12px;max-width:125px}.identity p{font-size:12px}}

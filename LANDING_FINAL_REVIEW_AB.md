@@ -1,0 +1,29 @@
+# Inicio · revisión independiente A+B · 2026-09-28
+
+Alcance: `index.html` tras la compactación aprobada; revisión de dirección, no implementación. Fundación: `SITE_PAGES_BRIEF.md` v1.0, `WEBMASTER_CONTEXT.md`, `WEBMASTER_DECISIONS.md` y `PROJECT_MEMORY.md`. Search Gate: REQUIRED; Inicio público/indexable previsto. Datos de usuarios, CTR orgánico y conversión: NOT AVAILABLE. A y B fueron revisores separados con lectura inicial propia; después contrastaron hallazgos. Se inspeccionaron HTML/CSS y capturas locales a 390 y 1440 px; `landing-validation.json` aporta regresión previa a 390/768/1440, no prueba de conversión ni de Safari real.
+
+## Lecturas iniciales
+
+**Directorio A — REFINAR.** Mantener seis bloques y el mapa de tres compras. El hero identifica agencia y equipo del cliente, y las dos rutas principales son visibles en la primera pantalla móvil. Marketing explica el método y separa inversión publicitaria del servicio. Bloqueos para publicación: contacto desactivado, precios ficticios y acceso no operativo en navegación pública. Para cierre visual: jerarquía móvil, textos de 8–10 px en esquemas y repetición entre composiciones conceptuales. No inventar prueba comercial.
+
+**Directorio B — REFINAR.** Las composiciones ahora guardan relación con lo vendido; no hay motivo para un rediseño total ni para reemplazarlas por fotos genéricas. El recorrido termina en un botón de contacto desactivado; Precios e Iniciar sesión crean expectativas que la maqueta no satisface. La página depende de diagramas conceptuales y carece de prueba verificable del producto o trabajo. En móvil, hero y selector ocupan bastante scroll; la repetición entre selector y Marketing merece un ajuste pequeño, no un recorte automático.
+
+## Contraste y acuerdo
+
+A objeta usar la altura del hero como defecto probado: mensaje y rutas aparecen antes del pliegue; no hay datos que relacionen scroll con abandono. A preserva Marketing porque describe oferta, creatividad, medios y revisión, una función distinta de la tarjeta del selector. B acepta ambos matices y precisa que una captura real de software no es requisito absoluto: un esquema honesto, legible y rotulado puede ser suficiente hasta contar con material autorizado. Ambos separan cierre del diseño visual de preparación para publicación.
+
+## 2A FINAL — REFINAR
+
+La arquitectura de seis bloques y las tres rutas de compra son la dirección final propuesta para Inicio. No añadir secciones ni rehacer el lenguaje visual completo. Antes de declarar **cerrado el diseño visual**, ajustar los microtextos que contienen información, revisar el ritmo hero/selector/Marketing a 320/390/1440 px, decidir si se conserva un solo esquema dominante o se incorporan activos reales autorizados, y fijar marca/logo y presencia de Precios/Iniciar sesión. Mantener explícitas las responsabilidades de agencia y equipo, la suscripción independiente y la separación entre honorarios e inversión publicitaria.
+
+Antes de declarar **lista para publicar**, activar y probar un canal de contacto real, sustituir o retirar tarifas ficticias y no ofrecer un inicio de sesión inoperante como si fuera una función disponible. Validar Safari/iPhone real y accesibilidad manual. Una captura o caso auténtico sería útil para confianza, pero solo si existe autorización y datos verificables; no es condición para mantener la composición conceptual honesta.
+
+Originalidad/interchangeability: la división visual de campañas gestionadas y consultas atendidas por el equipo refleja el modelo comercial propio; las tarjetas/diagramas se parecen entre sí y pueden ganar especificidad con menos repetición. Ninguna métrica propia permite afirmar que este diseño maximiza conversión ni que será el último tras aprender de usuarios. Google tampoco fija una longitud ideal de contenido: [guía de contenido centrado en personas](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). Organic CTR hypothesis: rutas más claras podrían mejorar pertinencia; NOT OBSERVED. CTA conversion: NOT AVAILABLE.
+
+Condiciones observables para una revisión posterior: las tres compras reconocibles en un primer recorrido, textos esenciales legibles en móvil, enlaces correctos, ausencia de desbordamiento/errores, CTA con destino real antes de publicar y decisiones comerciales visibles coherentes con su estado. Los ajustes de espaciado, tipografía y responsive corresponden a ejecución; cambios de oferta, marca o arquitectura requieren nueva decisión del usuario.
+
+## Implementación autorizada por el usuario
+
+Tras «Hazlo», se aplicó la pasada de refinamiento al proyecto: hero móvil más compacto y con solo dos mensajes visuales legibles (agencia/campañas y equipo/consultas); tarjeta de Marketing del selector sin las dos piezas decorativas que repetían esa idea; etiquetas útiles del hero y mapa de campaña ampliadas; y navegación/footer públicos reducidos a Inicio, Marketing, Software y Automatizaciones. `precios.html` e `iniciar-sesion.html` siguen disponibles como maquetas por URL directa y ahora incluyen `noindex, nofollow`; dejaron de estar enlazadas desde las cuatro páginas de oferta. El footer de dos columnas conserva identidad y tres soluciones.
+
+En 390 px, Inicio mide ahora 6.308 px (frente a 6.920 px antes de esta pasada); no se interpreta el cambio de altura como mejora de conversión. Se revisaron visualmente 320, 390, 768 y 1440 px, sin desbordamiento horizontal. `verify-landing.cjs` volvió a pasar para las cuatro páginas de oferta en 390, 768 y 1440 px: H1, imágenes, anclas, estado de navegación, menú móvil, FAQ y errores JS. Evidencia: `landing-validation.json` y `preview-home-final-*.png`. El nombre/logo provisional y el número real de ventas siguen pendientes; no se sustituyeron con datos inventados. La publicación sigue bloqueada por el contacto desactivado y las decisiones comerciales finales sobre tarifas/acceso.

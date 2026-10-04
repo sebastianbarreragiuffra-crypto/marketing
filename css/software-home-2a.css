@@ -1,0 +1,42 @@
+/* Software section: the commercial workflow, separate from agency coordination. */
+.software-home{background:#14241a}
+.software-home-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:7%;align-items:center}
+.software-home-copy h2{font-size:clamp(43px,4.4vw,67px);line-height:1.08;letter-spacing:-.055em;max-width:570px;margin-bottom:25px}
+.software-home-copy h2 em{color:var(--lime)}
+.software-home-copy>p:not(.section-label):not(.software-home-note){color:#c7d5c1;font-size:16px;line-height:1.8;max-width:510px}
+.software-job-list{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 31px}
+.software-job-list span{display:inline-flex;align-items:center;gap:8px;border:1px solid #667d5b;border-radius:99px;padding:9px 12px;color:#eff4e9;font-size:10px;font-weight:700;white-space:nowrap}
+.software-job-list b{color:var(--lime);font-size:9px}
+.software-home-copy .software-home-note{font-size:11px;color:#aebfab;line-height:1.6;margin-top:19px;max-width:440px}
+.software-workboard{min-width:0;margin:0;padding:16px;background:#e8eee0;color:#1a261a;border:1px solid #9db295;border-radius:13px;box-shadow:0 30px 70px #0004}
+.software-workboard-top{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:4px 5px 15px;font-size:9px;font-weight:800;letter-spacing:.1em}
+.software-workboard-top span:last-child{color:#597749}
+.software-workboard-main{display:grid;grid-template-columns:39% 61%;min-height:430px;background:#fbfbf5;border:1px solid #cfdbca;border-radius:7px;overflow:hidden}
+.software-queue{background:#f3f5ec;border-right:1px solid #d7e0d2}
+.queue-title{display:flex;justify-content:space-between;align-items:baseline;gap:7px;padding:23px 16px 18px}
+.queue-title strong{font:750 23px Manrope,Arial,sans-serif;letter-spacing:-.04em}
+.queue-title span{font-size:7px;font-weight:800;letter-spacing:.1em;color:#608354}
+.queue-row{display:flex;gap:9px;align-items:center;min-height:78px;padding:12px;border-top:1px solid #dce5d7}
+.queue-row.selected{background:#d8ecc4;border-left:4px solid #7cb357;padding-left:8px}
+.queue-row i{display:grid;place-items:center;flex:none;width:29px;height:29px;border-radius:50%;background:#759c66;color:white;font:800 11px Manrope,Arial,sans-serif}
+.queue-row>div{min-width:0}
+.queue-row strong,.queue-row small{display:block}
+.queue-row strong{font-size:10px;line-height:1.25}
+.queue-row small{font-size:8px;color:#697f63;margin-top:5px;line-height:1.3}
+.queue-row>span{margin-left:auto;font-size:17px;color:#426b36}
+.software-case{display:flex;flex-direction:column;padding:26px 24px;min-width:0}
+.case-kicker{font-size:9px;font-weight:800;letter-spacing:.09em;color:#648254}
+.software-case>strong{font:750 clamp(27px,2.6vw,39px)/1.08 Manrope,Arial,sans-serif;letter-spacing:-.055em;margin:23px 0 15px}
+.software-case>p{font-size:13px;line-height:1.6;color:#64705f;max-width:330px;margin:0}
+.case-facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto;padding-top:25px}
+.case-facts>div{min-height:88px;padding:14px 12px;background:#e3f0d7;border:1px solid #c8e1b6;border-radius:6px}
+.case-facts small,.case-facts b{display:block}
+.case-facts small{font-size:8px;font-weight:800;letter-spacing:.09em;color:#5c7b49}
+.case-facts b{font-size:11px;line-height:1.35;margin-top:10px}
+.case-progress{display:flex;justify-content:space-between;align-items:center;gap:6px;border-top:1px solid #d4dfcd;margin-top:20px;padding-top:17px;font-size:8px;font-weight:800;letter-spacing:.03em;color:#476438}
+.case-progress b{font-size:14px;font-weight:400}
+.software-workboard figcaption{font-size:10px;line-height:1.5;color:#55704d;margin:14px 5px 2px}
+@media(max-width:1100px){.software-home-grid{gap:4%}.software-home-copy h2{font-size:clamp(42px,4.2vw,57px)}.software-workboard{padding:10px}.software-workboard-main{grid-template-columns:36% 64%}.software-case{padding:20px 17px}.case-facts{grid-template-columns:1fr}.case-facts>div{min-height:62px}}
+@media(max-width:900px){.software-home-grid{grid-template-columns:1fr;gap:42px}.software-home-copy h2{font-size:clamp(43px,7.4vw,64px)}.software-workboard{max-width:720px;width:100%}.software-workboard-main{grid-template-columns:39% 61%}.case-facts{grid-template-columns:1fr 1fr}}
+@media(max-width:550px){.software-home-copy h2{font-size:clamp(42px,10vw,54px)}.software-job-list{gap:7px}.software-job-list span{font-size:9px}.software-workboard-main{grid-template-columns:1fr}.software-queue{border-right:0;border-bottom:1px solid #d7e0d2}.queue-title{padding:16px 15px}.queue-title strong{font-size:20px}.queue-row{min-height:58px;padding:9px 12px}.queue-row:nth-child(4){display:none}.software-case{padding:21px 16px}.software-case>strong{font-size:31px;margin:15px 0}.case-facts{margin-top:10px;padding-top:14px}.case-progress{font-size:7px}.software-workboard-top{font-size:8px}}
+@media(max-width:360px){.case-facts{grid-template-columns:1fr}.software-case>strong{font-size:28px}.software-home-copy h2{font-size:41px}}

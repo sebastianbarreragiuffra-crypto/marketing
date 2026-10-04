@@ -1,0 +1,30 @@
+/* Approved palette: shared surfaces and accessible color accents. */
+:root{--paper:#f6f3eb;--cream:#eeeae0;--dark:#0b0d0b;--lime:#c7f45b;--palette-panel:#171d17;--palette-accent-text:#48622e;--palette-muted:#596152;--palette-light-muted:#bbc3b4;--palette-border:#cccdbf}
+.choose-section,.page-intro,.feature-section,.price-section,.plans-section,.pricing-faq{background:var(--paper)}
+.marketing-method,.service-section,.automation-section,.product-section,.start-band{background:var(--cream)}
+.page-hero,.faq-home,.portal-section,.flow-section{background:var(--dark);color:var(--paper)}
+.commerce-hero{background:radial-gradient(circle at 74% 38%,var(--palette-panel) 0,var(--dark) 49%)}
+.choose-section h2 em,.marketing-method h2 em,.start-band h2 em,.page-intro h2 em,.service-section h2 em,.product-section h2 em,.feature-section h2 em,.price-section h2 em,.automation-section h2 em,.pricing-faq h2 em{color:var(--palette-accent-text)}
+.start-band-copy>p,.marketing-method-copy>p:not(.section-label):not(.method-note){color:var(--palette-muted)}
+.start-band{border-top:1px solid var(--palette-border)}
+.start-band-terms span{color:var(--palette-accent-text);border-color:#989f8d}
+.offer-panel-software,.campaign-map,.service-visual-head,.marketing-visual-media,.automation-visual-design{background:var(--palette-panel)}
+.offer-panel-custom,.map-review,.map-brief,.marketing-visual-creative,.automation-visual-current{background:var(--cream);color:#111611}
+.map-review strong em{color:var(--palette-accent-text)}
+.map-media,.automation-visual-questions>div{background:#262e24;border-color:#56634c}
+.campaign-map figcaption,.map-media>span,.marketing-visual-media>small,.automation-visual-design>p{color:var(--palette-light-muted)}
+.faq-home{border-color:#343b30}
+.faq-home .faq-list,.faq-home .faq-list details{border-color:#56634c}
+.faq-home .faq-list details[open]{background:var(--palette-panel);border-color:#849276}
+.faq-home-intro>p:not(.section-label),.faq-home .faq-list details p{color:var(--palette-light-muted)}
+.faq-home-count,.faq-home .section-label{color:var(--lime)}
+.contact{background:var(--paper);color:#111611}
+.contact h2 em{color:var(--palette-accent-text)}
+.contact-grid>div:first-child>p:not(.section-label){color:var(--palette-muted)}
+.contact-tags span{border-color:#989f8d;color:var(--palette-accent-text)}
+.contact-card{background:#fffdf8;border-color:var(--palette-border);box-shadow:0 22px 45px #1116110a}
+.contact-kicker,.contact-card p,.contact-card small{color:var(--palette-muted)}
+.contact-card button:disabled{background:#e1e4d9;color:#536044}
+.contact .section-label,.marketing-method .section-label,.choose-section .section-label,.start-band .section-label{color:var(--palette-accent-text)}
+.portal-section .section-label,.flow-section .section-label{color:var(--lime)}
+.portal-section .section-label span,.flow-section .section-label span{color:var(--palette-light-muted)}
