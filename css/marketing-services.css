@@ -124,6 +124,39 @@
 .ms-platforms > ul { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 15px; margin: 0; padding: 0; list-style: none; }
 .ms-platforms li { display: flex; align-items: center; gap: 4px; color: #071d36; font-size: 12px; font-weight: 650; }.ms-platforms .ms-icon { width: 21px; height: 21px; }.ms-platforms li:first-child .ms-icon { width: 26px; }
 .ms-selection-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.ms-creatives[hidden], .ms-search-ads[hidden] { display: none; }
+.ms-search-ads { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; min-height: 214px; }
+.ms-search-ad { display: flex; flex-direction: column; min-width: 0; padding: 12px 9px 11px; border: 1px solid #e0ebf7; border-radius: 8px; background: #fff; }
+.ms-search-ad-top { display: flex; align-items: center; gap: 5px; margin-bottom: 12px; color: #44678d; font-size: 7px; white-space: nowrap; }
+.ms-search-ad-top > strong { color: #071d36; font-weight: 700; }
+.ms-search-ad-top > span:not(.ms-search-dots) { overflow: hidden; text-overflow: ellipsis; }
+.ms-search-dots { margin-left: auto; color: #143d66; font-size: 17px; line-height: .8; }
+.ms-search-ad h5 { margin: 0 0 11px; color: #0655ff; font-size: 12px; font-weight: 500; line-height: 1.28; letter-spacing: -.035em; }
+.ms-search-ad > p { margin: 0 0 16px; color: #46688d; font-size: 10px; line-height: 1.5; }
+.ms-search-stats { display: grid; grid-template-columns: .85fr .75fr 1fr; gap: 4px; margin: auto 0 0; padding-top: 11px; border-top: 1px solid #edf2f8; }
+.ms-search-stats > div { display: flex; flex-direction: column-reverse; min-width: 0; padding-left: 5px; border-left: 1px solid #edf2f8; }
+.ms-search-stats > div:first-child { padding-left: 0; border: 0; }
+.ms-search-stats dt { margin-top: 3px; color: #5d7da0; font-size: 8px; white-space: nowrap; }
+.ms-search-stats dd { margin: 0; color: #071d36; font-size: 11px; font-weight: 700; letter-spacing: -.045em; }
+.marketing-services-showcase[data-ms-active="google"] .ms-performance { padding-top: 13px; padding-bottom: 15px; }
+.marketing-services-showcase[data-ms-active="google"] .ms-intro-lead { max-width: 350px; }
+@media (min-width: 1201px) {
+  .marketing-services-showcase[data-ms-active="google"] .ms-dashboard { grid-template-columns: 118px minmax(0, 1fr); }
+}
+@media (min-width: 1600px) {
+  .ms-search-ad-top { font-size: 8px; }
+  .ms-search-ad h5 { font-size: 13px; }
+  .ms-search-ad > p { font-size: 11px; }
+  .ms-search-stats dd { font-size: 12px; }.ms-search-stats dt { font-size: 9px; }
+}
+@media (max-width: 540px) {
+  .ms-search-ads { grid-template-columns: 1fr; gap: 10px; }
+  .ms-search-ad { min-height: 168px; padding: 14px 13px; }
+  .ms-search-ad-top { font-size: 9px; margin-bottom: 10px; }
+  .ms-search-ad h5 { font-size: 15px; margin-bottom: 7px; }
+  .ms-search-ad > p { font-size: 12px; margin-bottom: 13px; }
+  .ms-search-stats dd { font-size: 14px; }.ms-search-stats dt { font-size: 10px; }
+}
 @media (min-width: 1600px) {
   .ms-intro { padding-right: 24px; }
   .ms-dashboard { grid-template-columns: 118px minmax(0, 1fr); }
