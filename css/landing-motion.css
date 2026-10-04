@@ -1,0 +1,48 @@
+/* Motion supports the service story; the page remains visible without JavaScript. */
+@media (prefers-reduced-motion: no-preference) {
+  .hx-frame.is-switching .hx-kpi,
+  .hx-frame.is-switching .hx-opps li,
+  .hx-frame.is-switching .hx-alert,
+  .hx-frame.is-switching .hx-follow {
+    animation: landing-item-in .32s both;
+  }
+  .hx-frame.is-switching .hx-kpi:nth-child(2),
+  .hx-frame.is-switching .hx-opps li:nth-child(2) { animation-delay: .08s; }
+  .hx-frame.is-switching .hx-kpi:nth-child(3),
+  .hx-frame.is-switching .hx-opps li:nth-child(3) { animation-delay: .16s; }
+  .hx-frame.is-switching .hx-alert { animation-delay: .14s; }
+  .hx-frame.is-switching .hx-follow { animation-delay: .22s; }
+
+  .landing-motion-target { transition: opacity .38s ease, transform .38s cubic-bezier(.2,.7,.2,1); }
+  .landing-pending { opacity: .65; transform: translateY(10px); }
+  .landing-entered { opacity: 1; transform: none; }
+  .mk-card.landing-motion-target { transition-delay: var(--landing-delay, 0ms); }
+
+  .sol-marketing.landing-entered .sol-ad-left { animation: landing-ad-left .44s .16s both; }
+  .sol-marketing.landing-entered .sol-ad-right { animation: landing-ad-right .44s .21s both; }
+  .sol-marketing.landing-entered .sol-ad-main { animation: landing-item-in .44s .25s both; }
+  .sol-software.landing-entered .sol-detail { animation: landing-item-in .42s .16s both; }
+  .sol-auto.landing-entered .sol-step-ico { animation: landing-node-in .36s both; }
+  .sol-auto.landing-entered .sol-steps li:nth-child(3) .sol-step-ico { animation-delay: .12s; }
+  .sol-auto.landing-entered .sol-steps li:nth-child(5) .sol-step-ico { animation-delay: .24s; }
+
+  @keyframes landing-item-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes landing-node-in { from { opacity: .5; transform: scale(.88); } to { opacity: 1; transform: scale(1); } }
+  @keyframes landing-ad-left { from { opacity: 0; transform: translate(18px, 12px) rotate(-4deg); } to { opacity: 1; transform: rotate(-7deg); } }
+  @keyframes landing-ad-right { from { opacity: 0; transform: translate(-18px, 12px) rotate(4deg); } to { opacity: 1; transform: rotate(6deg); } }
+
+  @media (max-width: 700px) {
+    .hx-frame.is-switching .hx-kpi,
+    .hx-frame.is-switching .hx-opps li,
+    .hx-frame.is-switching .hx-alert,
+    .hx-frame.is-switching .hx-follow { animation: none; }
+    .mk-card.landing-motion-target { transition-delay: 0ms; }
+    .sol-marketing.landing-entered .sol-ad-left,
+    .sol-marketing.landing-entered .sol-ad-right { animation: none; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hx-tab, .sol-btn, .ct-btn, .fq details, .fq-chev { transition: none; }
+  .hx .button-outline:hover, .sol-btn:hover, .ct-btn:hover { transform: none; }
+}

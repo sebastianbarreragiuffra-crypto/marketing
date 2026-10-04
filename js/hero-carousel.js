@@ -10,6 +10,7 @@
       tab.setAttribute('aria-selected', String(on));
       tab.tabIndex = on ? 0 : -1;
       panels[i].hidden = !on;
+      panels[i].classList.toggle('is-switching', on);
     });
     hero.dataset.slide = String(index);
     if (focus) tabs[index].focus();
