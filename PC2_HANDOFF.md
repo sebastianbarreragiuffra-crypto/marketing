@@ -23,7 +23,7 @@ The project is a static website: HTML, CSS, JavaScript and local images. No buil
    python live_preview.py --port 8767
    ```
 
-   Open http://127.0.0.1:8767/marketing. Saved changes reload automatically while this terminal is running. The same server also serves Home and Software.
+   Open http://127.0.0.1:8767/branches/ to choose a local branch. Saved changes reload automatically while this terminal is running. Each branch link also shows Home, Marketing, and Software on refresh.
 
 ## Moving between computers
 

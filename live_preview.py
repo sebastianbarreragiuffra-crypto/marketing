@@ -2,13 +2,14 @@
 
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from html import escape
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import argparse
 import hashlib
 import json
 
-from auto_publish import MEDIA_EXTENSIONS, public_files
+from auto_publish import MEDIA_EXTENSIONS, public_files, worktrees
 
 
 ROOT = Path(__file__).resolve().parent
@@ -30,7 +31,7 @@ LIVE_SCRIPT = """(() => {
   let previous;
   async function check() {
     try {
-      const response = await fetch('/__version', {cache: 'no-store'});
+      const response = await fetch('./__version', {cache: 'no-store'});
       if (!response.ok) return;
       const current = await response.text();
       if (previous !== undefined && current !== previous) location.reload();
@@ -72,6 +73,16 @@ def active_root() -> Path:
     return ROOT
 
 
+def branch_roots() -> dict[str, Path]:
+    roots: dict[str, Path] = {}
+    for root, branch in worktrees().items():
+        if branch != "detached":
+            alias = "".join(char.lower() if char.isalnum() and char.isascii() else "-" for char in branch)
+            if alias and alias not in roots:
+                roots[alias] = root
+    return roots
+
+
 def latest_version(root: Path) -> str:
     paths = public_files(root)
     paths.extend(root / name for name in MOCKUP_FILES)
@@ -100,8 +111,39 @@ class PreviewHandler(SimpleHTTPRequestHandler):
             self.wfile.write(content)
 
     def serve(self, body: bool):
-        root = active_root()
         path = unquote(urlsplit(self.path).path)
+        if path in {"/branches", "/branches/"}:
+            entries = sorted(branch_roots().items())
+            links = "".join(
+                f'<li><a href="/b/{escape(alias)}/">{escape(alias)}</a></li>'
+                for alias, _ in entries
+            )
+            page = (
+                '<!doctype html><html lang="es"><meta charset="utf-8">'
+                '<meta name="viewport" content="width=device-width,initial-scale=1">'
+                '<title>Vistas en vivo de Órbita</title>'
+                '<style>body{font:18px system-ui;max-width:720px;margin:4rem auto;padding:0 1rem}'
+                'li{margin:.7rem 0}a{color:#246244}</style>'
+                '<h1>Ramas en vivo</h1><p>Los cambios escritos en este computador '
+                'aparecen al refrescar cada vista.</p><ul>' + links + '</ul></html>'
+            )
+            self.respond(page.encode("utf-8"), "text/html; charset=utf-8", body)
+            return
+        root = active_root()
+        if path.startswith("/b/"):
+            pieces = path.split("/", 3)
+            alias = pieces[2]
+            selected = branch_roots().get(alias)
+            if selected is None:
+                self.send_error(404)
+                return
+            if len(pieces) == 3:
+                self.send_response(302)
+                self.send_header("Location", path + "/")
+                self.end_headers()
+                return
+            root = selected
+            path = "/" + pieces[3]
         if path == "/__version":
             self.respond(latest_version(root).encode(), "text/plain; charset=utf-8", body)
             return
@@ -121,7 +163,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
             return
         if target.suffix == ".html":
             html = target.read_text(encoding="utf-8")
-            html = html.replace("</body>", '<script src="/__live.js"></script>\n</body>')
+            html = html.replace("</body>", '<script src="./__live.js"></script>\n</body>')
             self.respond(html.encode("utf-8"), "text/html; charset=utf-8", body)
             return
         self.path = path
