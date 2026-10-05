@@ -4,6 +4,8 @@ Repository: https://github.com/sebastianbarreragiuffra-crypto/marketing
 
 Public website: https://orbita-marketing.pages.dev
 
+Verified on 2026-10-05: the stable Pages URL still serves an older version. The current Wrangler account has no accessible `orbita-marketing` project. Deployment requires signing in to the account that owns the existing project; do not create a duplicate. The temporary preview serves the current local files.
+
 The project is a static website: HTML, CSS, JavaScript and local images. No build step is required. This handoff preserves the current pages, assets, mockups, design reviews and local preview/publishing scripts.
 
 ## First time on PC 2
@@ -36,12 +38,12 @@ git pull --ff-only origin main
 When you finish work, save the edited files, then upload them:
 
 ```powershell
-git add .
+git add index.html css/navigation.css
 git commit -m "Update Orbita website"
 git push origin main
 ```
 
-Finish and push from one computer before pulling and editing on the other. If pulling reports local changes or conflicting history, resolve those changes before continuing; do not overwrite them. GitHub carries saved, committed project files between the computers.
+Replace the example filenames with only the files belonging to your task. Finish and push from one computer before pulling and editing on the other. If pulling reports local changes or conflicting history, resolve those changes before continuing; do not overwrite them. GitHub carries saved, committed project files between the computers.
 
 ## Public updates from PC 2
 
@@ -58,11 +60,14 @@ Leave the publisher running during edits. It watches the project's local Git wor
 
 Use one publishing computer per branch at a time, so PC 1 and PC 2 do not replace each other's branch version. Authentication and local runtime state are configured separately on PC 2; credentials are excluded from Git. Branches that exist only on GitHub are not watched until checked out in a local worktree.
 
-A `trycloudflare.com` tunnel is a separate temporary link tied to the computer running it. Its URL cannot be transferred by cloning the repository. Start a new tunnel on PC 2 if you need a public preview with immediate reload; use the stable Pages URL for the published website. The old tunnel was not resolving during the latest check.
+A `trycloudflare.com` tunnel is a separate temporary link tied to the computer running it. Its URL cannot be transferred by cloning the repository. Start a new tunnel on PC 2 if you need a public preview with immediate reload; use the stable Pages URL after a verified deployment. The current temporary URL is `https://promotions-red-double-volumes.trycloudflare.com/b/main/`; verify that it still responds before reusing it.
 
 ## Current design state
 
 - Keep the Órbita brand. Design at 1440 px; at 1920 px keep useful content centered with a maximum width of 1440 px. Verify desktop and mobile before publishing visual changes.
+- Keep the existing homepage hero. Its current body is hero → Marketing and Diseño Web → contact invitation, with optional GISBA mentioned below the offers. Moving that mention inside Marketing is a recorded direction, not part of the navigation fix.
+- All six pages now share Inicio, Marketing, GISBA and Hablemos, plus the same footer. `css/navigation.css` owns shared header dimensions; Software retains its approved light theme. Page bodies were preserved during this fix.
+- Booking, inquiry delivery, authentication and commercial prices remain in stand by. The homepage meeting button remains disabled until a real booking channel is supplied. Pending pages remain directly accessible but outside primary navigation.
 - Marketing has exactly three main sections: the hero, the dynamic Meta Ads / Google Ads / Desarrollo Web section, and Contáctanos. The revised light contact card is now installed in the actual page, not only in the separate mockup.
 - Contact supports optional, combinable Meta Ads, Google Ads, Desarrollo Web and Software interests; optional business context and company; and one required email or phone field. Its button only reviews the inquiry locally. A receiving service has not been configured.
 - The latest Software page includes the hero, consultation flow, reports and final contact section. Its interface, conversations and metrics are illustrative.

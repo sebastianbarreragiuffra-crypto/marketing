@@ -44,6 +44,4 @@
 .home-contact-panel p{margin:0 0 22px;font-size:16px}
 .home-contact-panel button{width:100%;min-height:54px;border:0;border-radius:9px;background:#a9b5a4;color:#25352a;font:700 16px Manrope,Arial,sans-serif;cursor:not-allowed}
 .home-contact-panel small{display:block;margin-top:14px;color:#d3ded0;font-size:13px;line-height:1.5}
-.footer-2a .footer-main{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:8%}
 @media(max-width:800px){.home-offers-wrap,.home-contact-wrap{width:min(100% - 36px,620px)}.home-offers-grid,.home-contact-wrap{grid-template-columns:1fr}.home-contact-wrap{gap:30px}.home-offer-visual img{height:180px}.home-gisba{align-items:flex-start;flex-direction:column}.home-contact-panel{padding:24px}}
-@media(max-width:520px){.footer-2a .footer-main{grid-template-columns:1fr}}
