@@ -1,0 +1,38 @@
+---
+description: Flow 2A — decisiones de diseño y control de cambios de Órbita
+alwaysApply: true
+---
+
+# Flow 2A actualizado
+
+Aplicar a decisiones mayores de negocio, producto o página. Para ajustes locales,
+evaluar únicamente el delta y conservar lo demás.
+
+0. Registrar restricciones: congelado, abierto, rechazado y en prueba.
+1. Enmarcar el problema del cliente, no la sección que se quiere añadir.
+2. Ejecutar Directory Z para asegurar una arquitectura comercial comprensible y veraz.
+3. A: evaluar dolor, frecuencia, valor comercial, claridad inmediata y simplicidad.
+4. B: desafiar la idea con alternativas más simples, proactivas e inesperadas pero alcanzables.
+5. Comparar al menos tres conceptos materialmente distintos cuando corresponda.
+6. Rechazar antes de puntuar por fallos graves de audiencia, estrategia, claridad,
+   diferenciación, viabilidad o duplicación. C intenta romper la solución:
+   datos, APIs, permisos, frescura, fiabilidad, coste, revisión humana y casos límite.
+7. Puntuar como juicio comparativo: valor 25%, claridad 20%, diferenciación 20%,
+   viabilidad 15%, interés 10%, encaje estratégico 10%. Explicitar penalizaciones
+   por complejidad o SaaS genérico; no presentar puntuaciones como medición real.
+8. Cruzar objeciones A/B/C; mostrar sólo desacuerdos significativos.
+9. Preguntar si falta una alternativa materialmente más fuerte; resolverla antes de diseñar.
+10. Elegir y registrar razones, alternativas descartadas, congelado y pendiente.
+    Distinguir recomendación de aprobación del usuario; no atribuir aprobación inexistente.
+11. Crear el mockup después de la decisión, a 1440 px, frontal y con la paleta aprobada.
+
+## Control de cambios
+
+- Clasificar feedback nuevo como refinamiento local, idea aditiva o contradicción material.
+- Reabrir sólo por cambios materiales de claridad, conversión, viabilidad,
+  estrategia, ingresos o veracidad. Una frase más bonita no basta.
+- Evaluar qué se gana y qué se pierde respecto de la versión aprobada.
+- Feedback de amigos es evidencia que se evalúa, no una orden de rediseñar.
+- Conservar los visuales y secciones de GISBA aprobados; no rediseñar elementos adyacentes automáticamente.
+- A/B/C/Z son perspectivas analíticas. No afirmar revisión independiente si se hicieron en un mismo agente.
+- Delegación real sólo con autorización del usuario o instrucciones aplicables que la requieran.
