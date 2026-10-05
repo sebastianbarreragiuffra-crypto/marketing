@@ -1,4 +1,4 @@
-"""Keep the single Cloudflare Pages preview on the most recently edited Git worktree.
+"""Publish each edited Git worktree to its own Cloudflare Pages branch URL.
 
 Usage: python auto_publish.py --once | --watch | --dry-run
 This intentionally publishes uncommitted changes. Only public site assets are staged.
@@ -27,6 +27,7 @@ STAGE = DATA / "stage"
 ACTIVE = DATA / "active_source.json"
 LAST_DEPLOYED = DATA / "last_deployed.json"
 PROJECT = "orbita-marketing"
+PRODUCTION_BRANCH = "main"
 PRODUCTION_URL = f"https://{PROJECT}.pages.dev"
 PAGES = (
     "index.html",
@@ -113,6 +114,15 @@ def source_label(root: Path, branch: str) -> str:
     return branch if branch != "detached" else f"detached-{root.name}"
 
 
+def branch_url(branch: str) -> str:
+    if branch == PRODUCTION_BRANCH:
+        return PRODUCTION_URL
+    alias = re.sub(r"[^a-z0-9]", "-", branch.lower())
+    if not alias or len(alias) > 63:
+        raise ValueError(f"Branch cannot have a Pages preview alias: {branch}")
+    return f"https://{alias}.{PROJECT}.pages.dev"
+
+
 def select_live_source(root: Path, branch: str) -> None:
     atomic_json(ACTIVE, {"root": str(root), "branch": source_label(root, branch)})
     print(f"Live tunnel now serves {source_label(root, branch)}", flush=True)
@@ -146,11 +156,12 @@ def prepare_stage(root: Path, branch: str, version: str) -> int:
     return count
 
 
-def verify_remote(version: str) -> bool:
+def verify_remote(version: str, branch: str) -> bool:
+    url = branch_url(branch)
     for attempt in range(10):
         try:
             request = urllib.request.Request(
-                f"{PRODUCTION_URL}/__preview.json?check={time.time_ns()}",
+                f"{url}/__preview.json?check={time.time_ns()}",
                 headers={"Cache-Control": "no-cache", "User-Agent": "OrbitaPreviewVerifier/1.0"},
             )
             with urllib.request.urlopen(request, timeout=10) as response:
@@ -164,6 +175,8 @@ def verify_remote(version: str) -> bool:
 
 
 def deploy(root: Path, branch: str, version: str, dry_run: bool = False) -> bool:
+    if branch == "detached":
+        raise ValueError("A detached worktree has no branch preview URL")
     count = prepare_stage(root, branch, version)
     label = source_label(root, branch)
     print(f"Staged {count} public files from {label} ({version[:12]})", flush=True)
@@ -174,7 +187,7 @@ def deploy(root: Path, branch: str, version: str, dry_run: bool = False) -> bool
         raise RuntimeError("npx is unavailable")
     command = [
         npx, "--yes", "wrangler", "pages", "deploy", str(STAGE),
-        "--project-name", PROJECT, "--branch", "main",
+        "--project-name", PROJECT, "--branch", branch,
         "--commit-message", f"Live preview: {label}", "--commit-dirty=true",
     ]
     result = subprocess.run(
@@ -185,77 +198,78 @@ def deploy(root: Path, branch: str, version: str, dry_run: bool = False) -> bool
     if result.returncode:
         print(result.stderr[-3000:].encode("ascii", "backslashreplace").decode("ascii"), file=sys.stderr, flush=True)
         return False
-    if not verify_remote(version):
-        print("Deployment finished, but the stable URL has not shown the new version yet.", file=sys.stderr, flush=True)
+    if not verify_remote(version, branch):
+        print(f"Deployment finished, but {branch_url(branch)} has not shown the new version yet.", file=sys.stderr, flush=True)
         return False
-    atomic_json(LAST_DEPLOYED, {"root": str(root), "branch": label, "version": version})
-    print(f"Verified {PRODUCTION_URL} at {version[:12]} from {label}", flush=True)
+    deployments = last_deployments()
+    deployments[branch] = {"root": str(root), "version": version}
+    atomic_json(LAST_DEPLOYED, deployments)
+    print(f"Verified {branch_url(branch)} at {version[:12]} from {label}", flush=True)
     return True
 
 
-def last_deployment() -> dict:
+def last_deployments() -> dict[str, dict]:
     try:
-        return json.loads(LAST_DEPLOYED.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
+        data = json.loads(LAST_DEPLOYED.read_text(encoding="utf-8"))
+        if "version" in data and "branch" in data:
+            return {data["branch"]: {"root": data.get("root", ""), "version": data["version"]}}
+        return {branch: value for branch, value in data.items() if isinstance(value, dict)}
+    except (OSError, ValueError, TypeError):
         return {}
 
 
 def watch() -> None:
     known: dict[Path, tuple[str, str]] = {}
-    pending: tuple[Path, str, str] | None = None
-    last_change = 0.0
-    retry_after = 0.0
+    pending: dict[Path, tuple[str, str, float]] = {}
+    retry_after: dict[Path, float] = {}
     first_poll = True
-    print(f"Watching all Git worktrees; one URL: {PRODUCTION_URL}", flush=True)
+    print(f"Watching Git worktrees; {PRODUCTION_BRANCH}: {PRODUCTION_URL}; other branches: separate preview URLs", flush=True)
     while True:
         current = worktrees()
         for root, branch in current.items():
+            if branch == "detached":
+                continue
             version = fingerprint(root, branch)
             previous = known.get(root)
             known[root] = (branch, version)
-            # New worktrees discovered after startup are also new editing sources.
-            changed = not first_poll and (previous is None or previous != (branch, version))
+            changed = previous != (branch, version)
             if changed:
-                pending = (root, branch, version)
-                last_change = time.monotonic()
-                select_live_source(root, branch)
-        for missing in set(known) - set(current):
+                if not first_poll:
+                    select_live_source(root, branch)
+                if last_deployments().get(branch, {}).get("version") != version:
+                    pending[root] = (branch, version, time.monotonic() + (0 if first_poll else DEBOUNCE_SECONDS))
+        for missing in set(known) - {root for root, branch in current.items() if branch != "detached"}:
             known.pop(missing)
-            if pending and pending[0] == missing:
-                pending = None
-                fallback = next(iter(current), None)
-                if fallback is not None:
-                    select_live_source(fallback, current[fallback])
+            pending.pop(missing, None)
+            retry_after.pop(missing, None)
         if first_poll and known:
-            deployed = last_deployment()
+            deployed = last_deployments().get(PRODUCTION_BRANCH, {})
             deployed_root = Path(deployed.get("root", str(REPO))).resolve()
             source = deployed_root if deployed_root in known else REPO
             if source not in known:
                 source = next(iter(known))
-            branch, version = known[source]
+            branch, _ = known[source]
             select_live_source(source, branch)
-            if deployed.get("version") != version:
-                pending = (source, branch, version)
-                last_change = time.monotonic() - DEBOUNCE_SECONDS
-            first_poll = False
-        if pending and time.monotonic() >= max(last_change + DEBOUNCE_SECONDS, retry_after):
-            root, branch, version = pending
-            latest = fingerprint(root, branch) if root.is_dir() else ""
+        first_poll = False
+        for root, (branch, version, due_at) in list(pending.items()):
+            if time.monotonic() < max(due_at, retry_after.get(root, 0)):
+                continue
+            latest = fingerprint(root, branch)
             if latest != version:
-                pending = (root, branch, latest)
-                last_change = time.monotonic()
-            elif last_deployment().get("version") == version:
-                pending = None
-            else:
-                try:
-                    if deploy(root, branch, version):
-                        pending = None
-                        retry_after = 0.0
-                    else:
-                        retry_after = time.monotonic() + 20
-                except (OSError, RuntimeError, subprocess.TimeoutExpired) as error:
-                    print(f"Deploy failed: {error}", file=sys.stderr, flush=True)
-                    retry_after = time.monotonic() + 20
+                pending[root] = (branch, latest, time.monotonic() + DEBOUNCE_SECONDS)
+                continue
+            if last_deployments().get(branch, {}).get("version") == version:
+                pending.pop(root, None)
+                continue
+            try:
+                if deploy(root, branch, version):
+                    pending.pop(root, None)
+                    retry_after.pop(root, None)
+                else:
+                    retry_after[root] = time.monotonic() + 20
+            except (OSError, RuntimeError, ValueError, subprocess.TimeoutExpired) as error:
+                print(f"Deploy failed for {branch}: {error}", file=sys.stderr, flush=True)
+                retry_after[root] = time.monotonic() + 20
         time.sleep(POLL_SECONDS)
 
 
@@ -263,7 +277,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--once", action="store_true", help="Deploy current checkout once")
-    mode.add_argument("--watch", action="store_true", help="Watch all worktrees and deploy latest edit")
+    mode.add_argument("--watch", action="store_true", help="Watch all worktrees and publish each branch separately")
     mode.add_argument("--dry-run", action="store_true", help="Stage current checkout without deploying")
     args = parser.parse_args()
     if args.watch:

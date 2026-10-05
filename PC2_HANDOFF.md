@@ -54,9 +54,9 @@ npx --yes wrangler login
 python auto_publish.py --watch
 ```
 
-Leave the publisher running during edits. It watches the project's Git worktrees and publishes the most recently edited source after four seconds without another edit. Refresh the public URL after publication finishes. It does not combine different branches into one site. To publish once instead, run `python auto_publish.py --once`.
+Leave the publisher running during edits. It watches the project's local Git worktrees and publishes each branch to its own Pages URL after four seconds without another edit. `main` remains at `https://orbita-marketing.pages.dev`; a branch such as `design/hero` appears at `https://design-hero.orbita-marketing.pages.dev`. Refresh the branch URL after Cloudflare finishes publishing. No commit or push is needed for local edits, but the editor must write the file first. To publish the current branch once, run `python auto_publish.py --once`.
 
-Use one publishing computer at a time, so PC 1 and PC 2 do not replace each other's public version. Authentication and local runtime state are configured separately on PC 2; credentials are excluded from Git.
+Use one publishing computer per branch at a time, so PC 1 and PC 2 do not replace each other's branch version. Authentication and local runtime state are configured separately on PC 2; credentials are excluded from Git. Branches that exist only on GitHub are not watched until checked out in a local worktree.
 
 A `trycloudflare.com` tunnel is a separate temporary link tied to the computer running it. Its URL cannot be transferred by cloning the repository. Start a new tunnel on PC 2 if you need a public preview with immediate reload; use the stable Pages URL for the published website. The old tunnel was not resolving during the latest check.
 
