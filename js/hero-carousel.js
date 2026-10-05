@@ -5,23 +5,32 @@
   const panels = tabs.map(t => document.getElementById(t.getAttribute('aria-controls')));
   const toggle = hero.querySelector('.hx-auto-toggle');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const mobile = window.matchMedia('(max-width: 700px)');
   const canObserve = 'IntersectionObserver' in window;
-  const interval = 7500;
   let activeIndex = tabs.findIndex(tab => tab.getAttribute('aria-selected') === 'true');
   let playing = !reduced.matches && canObserve;
-  let visible = false;
+  let tabsVisible = false;
+  let stageVisible = false;
+  let firstMobileCycle = true;
   let timer;
   let frame;
 
+  function isVisible() {
+    return mobile.matches ? stageVisible : tabsVisible;
+  }
+
   function canRotate() {
-    return playing && visible && !document.hidden && !reduced.matches && tabs.length > 1;
+    return playing && isVisible() && !document.hidden && !reduced.matches && tabs.length > 1;
   }
 
   function schedule() {
     window.clearTimeout(timer);
     window.cancelAnimationFrame(frame);
     const rotating = canRotate();
+    const interval = mobile.matches ? (firstMobileCycle ? 3000 : 5000) : 7500;
+    hero.style.setProperty('--hx-interval', `${interval}ms`);
     hero.classList.remove('is-rotating');
+    hero.classList.toggle('is-in-view', isVisible());
     toggle.hidden = reduced.matches || !canObserve;
     toggle.textContent = playing ? 'Pausar' : 'Reanudar';
     toggle.setAttribute('aria-label', `${playing ? 'Pausar' : 'Reanudar'} cambio automático de vistas`);
@@ -31,6 +40,7 @@
       hero.classList.add('is-rotating');
       timer = window.setTimeout(() => {
         show((activeIndex + 1) % tabs.length, false);
+        if (mobile.matches) firstMobileCycle = false;
         schedule();
       }, interval);
     });
@@ -82,13 +92,18 @@
     if (reduced.matches) playing = false;
     schedule();
   });
+  mobile.addEventListener('change', schedule);
   if (canObserve) {
-    const observer = new IntersectionObserver(entries => {
-      visible = entries[0].intersectionRatio >= 0.5;
-      hero.classList.toggle('is-in-view', visible);
+    const tabsObserver = new IntersectionObserver(entries => {
+      tabsVisible = entries[0].intersectionRatio >= 0.5;
       schedule();
     }, { threshold: 0.5 });
-    observer.observe(hero.querySelector('.hx-tabs'));
+    tabsObserver.observe(hero.querySelector('.hx-tabs'));
+    const stageObserver = new IntersectionObserver(entries => {
+      stageVisible = entries[0].isIntersecting;
+      schedule();
+    }, { rootMargin: '-80px 0px -80px 0px' });
+    stageObserver.observe(hero.querySelector('.hx-stage'));
   }
   schedule();
 })();

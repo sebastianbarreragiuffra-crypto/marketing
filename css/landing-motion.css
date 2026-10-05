@@ -10,7 +10,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .hx-tab { position:relative;overflow:hidden; }
-  .hx.is-rotating .hx-tab[aria-selected="true"]::after { content:"";position:absolute;left:9px;right:9px;bottom:3px;height:2px;border-radius:2px;background:#193318;transform-origin:left;animation:landing-tab-progress 7.5s linear both; }
+  .hx.is-rotating .hx-tab[aria-selected="true"]::after { content:"";position:absolute;left:9px;right:9px;bottom:3px;height:2px;border-radius:2px;background:#193318;transform-origin:left;animation:landing-tab-progress var(--hx-interval, 7500ms) linear both; }
   .hx::before { animation: landing-glow-drift 9s ease-in-out infinite alternate; }
   .hx::after { animation: landing-orbit-glow 11s ease-in-out infinite alternate; }
   .hx-copy { animation: landing-hero-intro .7s ease-out both; }
