@@ -1,0 +1,38 @@
+/* Three approved content blocks: hero, dynamic services, contact. */
+.marketing-compact .ms-intro-cta { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 46px; margin-top: 23px; padding: 11px 17px; border: 1px solid #a8d674; border-radius: 12px; background: #c7fb7f; color: #071d36; font-size: 14px; font-weight: 700; }
+.marketing-compact .ms-intro-cta:hover { background: #b5ef66; }
+.marketing-compact .ms-intro-cta .ms-icon { width: 21px; height: 21px; color: currentColor; }
+.marketing-compact .ms-benefit-note { margin-top: 20px; }
+.marketing-compact .ms-demo-label { display: inline-block; margin: -5px 0 14px; padding: 5px 8px; border-radius: 6px; background: #edf2f7; color: #375474; font-size: 12px; line-height: 1.4; }
+.marketing-compact .ms-prices-note { margin: 12px 0 0; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-scope-note { margin: 11px 0 0; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-preview-label { margin: 0 0 13px; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-dashboard-caption { font-size: 12px; color: #426185; }
+.marketing-compact .ms-software-note { margin: 25px auto 0; max-width: 690px; color: #426185; font-size: 12px; line-height: 1.6; text-align: center; }
+.marketing-compact .ms-software-note a { color: #184e88; text-decoration: underline; text-underline-offset: 3px; }
+.marketing-compact .contact { padding: 90px 0; }
+.marketing-compact .contact > .shell { width: min(100% - 96px, 1440px); }
+.marketing-compact .contact-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, .85fr); gap: 8%; }
+.marketing-compact .contact h2 { font-size: clamp(48px, 5.5vw, 76px); }
+.marketing-compact .contact-service-picker { display: flex; flex-wrap: wrap; gap: 9px; margin: 25px 0 0; padding: 0; border: 0; }
+.marketing-compact .contact-service-picker legend { margin-bottom: 12px; font-size: 13px; color: #596152; }
+.marketing-compact .contact-choice { min-height: 44px; padding: 10px 15px; border: 1px solid #989f8d; border-radius: 999px; background: transparent; color: #48622e; font-size: 12px; font-weight: 700; }
+.marketing-compact .contact-choice[aria-pressed="true"] { border-color: #456324; background: #def2ba; color: #294414; }
+.marketing-compact .contact-choice:hover { background: #e8eedb; }
+.marketing-compact .contact-request { margin: 0 0 22px; padding: 16px 18px; border-radius: 10px; background: #f0f4e9; color: #48622e; }
+.marketing-compact .contact-request > span { display: block; font-size: 11px; }
+.marketing-compact .contact-request > strong { display: block; margin: 5px 0 0; font-size: 20px; line-height: 1.3; }
+.marketing-compact .contact-card > strong { margin-top: 22px; font-size: 25px; }
+.marketing-compact .contact-card > small { font-size: 12px; }
+@media (max-width: 1050px) {
+  .marketing-compact .contact > .shell { width: min(100% - 48px, 920px); }
+  .marketing-compact .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+  .marketing-compact .contact-card { width: 100%; max-width: 600px; }
+}
+@media (max-width: 760px) {
+  .marketing-compact .ms-intro-cta { display: flex; width: 100%; margin-top: 22px; }
+  .marketing-compact .ms-software-note { margin-top: 22px; font-size: 12px; text-align: left; }
+  .marketing-compact .contact { padding: 65px 0; }
+  .marketing-compact .contact > .shell { width: min(100% - 36px, 600px); }
+  .marketing-compact .contact-grid > div:first-child > p:not(.section-label) { font-size: 16px; }
+}
