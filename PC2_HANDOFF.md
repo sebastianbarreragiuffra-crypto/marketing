@@ -64,6 +64,16 @@ A `trycloudflare.com` tunnel is a separate temporary link tied to the computer r
 
 ## Current design state
 
+### Latest conversation context — 2026-10-05
+
+The latest discussion is in **Continue Órbita website work**. The user clarified that Órbita is the digital agency and uses GISBA software. Do not describe GISBA as software developed by Órbita. The discussion shifted toward including access to GISBA with Marketing, rather than presenting it as an optional extra that the visitor must select.
+
+The user explicitly asked to keep analyzing **without changing the website yet**. The proposed headline is “Gestionamos tus campañas. Tú sabes cómo avanzan.” Supporting copy would explain that GISBA is software for seeing campaign progress and following up with people who contact the business. These exact texts remain candidates, not approved final copy.
+
+The proposed structure preserves the existing hero, places the explanation of GISBA inside Marketing, keeps Diseño Web as a separate service, and ends with a meeting invitation. The later clarification leaves selling GISBA independently through Órbita unresolved; do not carry that earlier assumption forward as a confirmed commercial offer. Included functions, users, setup, extra charges and access after Marketing ends remain to be defined. Booking, authentication and inquiry delivery remain in stand by.
+
+The bullets below describe the implemented website. They do not mean the latest copy and packaging proposals have been implemented or approved. The older local rules still describe GISBA as optional; reconcile them with the latest user decisions when implementation is requested.
+
 - Keep the Órbita brand. Design at 1440 px; at 1920 px keep useful content centered with a maximum width of 1440 px. Verify desktop and mobile before publishing visual changes.
 - Keep the existing homepage hero. Its current body is hero → Marketing and Diseño Web → contact invitation, with optional GISBA mentioned below the offers. Moving that mention inside Marketing is a recorded direction, not part of the navigation fix.
 - All six pages now share Inicio, Marketing, GISBA and Hablemos, plus the same footer. `css/navigation.css` owns shared header dimensions; Software retains its approved light theme. Page bodies were preserved during this fix.
