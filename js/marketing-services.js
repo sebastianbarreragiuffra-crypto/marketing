@@ -5,6 +5,8 @@
   const tabs = [...section.querySelectorAll('[role="tab"]')];
   const plans = [...section.querySelectorAll('[data-ms-plan]')];
   const panel = section.querySelector('[role="tabpanel"]');
+  const mobileLayout = window.matchMedia('(max-width: 760px)');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const defaultIntro = {
     title: ['Campañas', 'diseñadas alrededor', 'de tu negocio.'],
     lead: 'Estrategia, creatividad y optimización constante para que llegues a las personas correctas y consigas más clientes.',
@@ -181,6 +183,15 @@
       tabs[next].focus();
     });
   });
-  plans.forEach(plan => plan.addEventListener('click', () => selectService(plan.dataset.msPlan)));
+  plans.forEach(plan => plan.addEventListener('click', () => {
+    selectService(plan.dataset.msPlan);
+    if (!mobileLayout.matches) return;
+    const heading = section.querySelector('#ms-title');
+    heading.focus({ preventScroll: true });
+    section.querySelector('.ms-intro').scrollIntoView({
+      behavior: reducedMotion.matches ? 'auto' : 'smooth',
+      block: 'start'
+    });
+  }));
   selectService('meta', false);
 })();

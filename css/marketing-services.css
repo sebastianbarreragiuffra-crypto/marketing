@@ -262,6 +262,7 @@
   .ms-dashboard { grid-column: 1; grid-row: 3; }.ms-plans { grid-column: 2; grid-row: 3; }
 }
 @media (max-width: 760px) {
+  .ms-intro { scroll-margin-top: 104px; }
   .ms-shell { width: min(100% - 36px, 600px); }
   .ms-layout { display: flex; flex-direction: column; gap: 20px; }.ms-layout > * { width: 100%; }
   .ms-intro { padding: 0 0 5px; }.ms-intro h2 { font-size: clamp(32px, 8.5vw, 44px); line-height: 1.1; }.ms-intro-lead { font-size: 16px; }
