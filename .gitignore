@@ -8,7 +8,9 @@ site-deploy-*.tar
 .webmaster/
 .webmaster-backups/
 .wrangler/
+.preview-sync/
 node_modules/
+__pycache__/
 .DS_Store
 Thumbs.db
 

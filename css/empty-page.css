@@ -1,0 +1,5 @@
+/* Temporary blank canvas while these two pages are rebuilt. */
+.empty-page {
+  min-height: max(520px, calc(100svh - 90px));
+  background: var(--paper);
+}

@@ -3,38 +3,225 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0d0b">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f5faff">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="description" content="Software para ecommerce: bandeja compartida, respuestas automatizadas y seguimiento de consultas comerciales. Disponible sin contratar campañas.">
+  <meta name="description" content="Conecta tus campañas, consultas y seguimiento comercial en un solo lugar con el software de Órbita.">
   <title>Software de atención y seguimiento | Órbita</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/refresh.css">
-  <script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="css/styles.css?v=20261004-nav2"><link rel="stylesheet" href="css/refresh.css">
+  <script src="js/main.js?v=20261004-nav1" defer></script>
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/footer-2a.css">
   <link rel="stylesheet" href="css/palette.css">
+  <link rel="stylesheet" href="css/software-hero.css">
+  <link rel="stylesheet" href="css/software-flow.css">
+  <link rel="stylesheet" href="css/software-report.css">
+  <link rel="stylesheet" href="css/software-closing.css">
 </head>
-<body id="inicio-pagina">
+<body id="inicio-pagina" class="software-page">
   <a class="skip-link" href="#contenido">Ir al contenido</a>
   <header class="site-header" id="arriba"><div class="shell header-inner">
     <a class="brand" href="index.html" aria-label="Órbita, ir al inicio"><span class="brand-symbol" aria-hidden="true">✳</span><span>ÓRBITA<span class="brand-dot">.</span></span></a>
     <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
-    <nav class="main-nav" id="main-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="marketing.html">Marketing</a><a href="software.html" aria-current="page">Software</a><a href="precios.html">Precios</a><a href="iniciar-sesion.html">Iniciar sesión</a><a class="nav-cta" href="#contacto">Hablemos <span aria-hidden="true"><svg class="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></nav>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="marketing.html">Marketing</a><a href="software.html" aria-current="page">Software</a><a href="precios.html">Precios</a><a href="iniciar-sesion.html">Iniciar sesión</a><a class="nav-cta" href="index.html#contacto">Agenda una reunión <span aria-hidden="true">→</span></a></nav>
   </div></header>
   <main id="contenido">
-    <section class="page-hero software-hero" aria-labelledby="hero-title"><div class="page-glow" aria-hidden="true"></div><div class="shell page-hero-inner reveal"><p class="eyebrow"><span></span> 02 / SOFTWARE PARA TU EQUIPO</p><h1 id="hero-title">Cada consulta, en contexto.<br><em>Cada paso, a la vista.</em></h1><p>Un espacio de trabajo para reunir conversaciones, responder con contexto y seguir cada oportunidad. Puedes contratar el software aunque tus campañas las gestione otro equipo.</p><div class="hero-actions"><a class="button button-primary" href="#producto">Explorar el producto <span aria-hidden="true"><svg class="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="text-link" href="#contacto">Solicitar una demo <span aria-hidden="true">↓</span></a></div></div><div class="shell page-hero-foot"><span>CONVERSACIONES</span><span>AUTOMATIZACIÓN</span><span>SEGUIMIENTO</span></div></section>
+    <svg class="sw-symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <symbol id="sw-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></symbol>
+      <symbol id="sw-megaphone" viewBox="0 0 24 24"><path d="M3 10v4h4l9 4V6l-9 4zM7 14l1 6h3l-1-5M19 9a4 4 0 0 1 0 6"/></symbol>
+      <symbol id="sw-chat" viewBox="0 0 24 24"><path d="M4 5h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M7 11h10M7 14h6"/></symbol>
+      <symbol id="sw-users" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2zM17 4a3 3 0 0 1 0 6M17 14a5 5 0 0 1 4 5v1"/></symbol>
+      <symbol id="sw-gear" viewBox="0 0 24 24"><path d="M10 2h4l.5 2.5 2 .9 2.2-1.3 2.8 2.8-1.3 2.2.9 2L23 12l-1.9 1 .9 2 1.3 2.2-2.8 2.8-2.2-1.3-2 .9L14 22h-4l-.5-2.4-2-.9-2.2 1.3-2.8-2.8 1.3-2.2-.9-2L1 12l1.9-1-.9-2-1.3-2.2 2.8-2.8 2.2 1.3 2-.9z" transform="translate(1 0) scale(.91 1)"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="sw-bars" viewBox="0 0 24 24"><rect x="3" y="13" width="4" height="8" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></symbol>
+      <symbol id="sw-check" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="m8 12 3 3 5-6"/></symbol>
+      <symbol id="sw-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2M3 4l-1 3M21 4l1 3"/></symbol>
+      <symbol id="sw-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3.2"/></symbol>
+      <symbol id="sw-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/></symbol>
+      <symbol id="sw-folder" viewBox="0 0 24 24"><path d="M2 6a2 2 0 0 1 2-2h6l2 3h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/></symbol>
+      <symbol id="sw-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+      <symbol id="sw-pie" viewBox="0 0 24 24"><path d="M11 2a10 10 0 1 0 11 11H11zM14 2v8h8a10 10 0 0 0-8-8z"/></symbol>
+      <symbol id="sw-flag" viewBox="0 0 24 24"><path d="M4 22V3m0 1c5-3 9 3 16 0v12c-7 3-11-3-16 0"/></symbol>
+      <symbol id="sw-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 8-3 9h18c0-1-3-2-3-9zM10 21h4"/></symbol>
+    </svg>
+    <section class="sw-hero" aria-labelledby="sw-title">
+      <div class="sw-hero-grid">
+        <div class="sw-copy">
+          <p class="sw-eyebrow">Software</p>
+          <h1 id="sw-title">Tu marketing y<br class="sw-break"> tus nuevas consultas,<br class="sw-break"> <span>conectados.</span></h1>
+          <p class="sw-lead">Gestionamos tus campañas si lo necesitas. Tu equipo ve los avances y responde a las personas que llegan a tu negocio desde un mismo lugar.</p>
+          <div class="sw-actions">
+            <a class="sw-primary" href="index.html#contacto">Solicitar una demo <span aria-hidden="true">→</span></a>
+            <a class="sw-secondary" href="#sw-preview"><span class="sw-play" aria-hidden="true">▶</span> Ver cómo funciona</a>
+          </div>
+          <ul class="sw-checks">
+            <li>Sin complicaciones</li>
+            <li>Todo en un solo lugar</li>
+            <li>Acompañamiento de nuestro equipo</li>
+          </ul>
+        </div>
 
-    <section class="page-intro section-pad" aria-labelledby="intro-title"><div class="shell split-intro"><p class="section-label reveal"><span>01 /</span> EL PROBLEMA</p><div class="reveal"><h2 id="intro-title">Cada mensaje trae contexto.<br><em>Que no se pierda entre canales.</em></h2><p>Cuando las preguntas llegan por distintos lugares, responder rápido es solo el comienzo. También importa saber quién se hizo cargo, qué necesita el comprador y qué quedó pendiente.</p></div></div></section>
+        <div class="sw-dashboard-wrap" id="sw-preview">
+          <div class="sw-dashboard" role="img" aria-label="Vista ilustrativa del software Órbita: resumen de campañas, consultas, conversaciones y aprobaciones con datos de ejemplo.">
+            <aside class="sw-sidebar" aria-hidden="true">
+              <div class="sw-app-brand">Órbita<span>.</span></div>
+              <div class="sw-side-item selected"><svg class="sw-glyph"><use href="#sw-home"/></svg> Resumen</div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-megaphone"/></svg> Campañas</div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-chat"/></svg> Conversaciones <b>12</b></div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-users"/></svg> Contactos</div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-gear"/></svg> Automatizaciones</div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-bars"/></svg> Reportes</div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-check"/></svg> Aprobaciones <b class="sw-alert">3</b></div>
+              <div class="sw-side-item"><svg class="sw-glyph"><use href="#sw-gear"/></svg> Configuración</div>
+              <div class="sw-account"><span>TC</span><div><strong>Tienda Central</strong><small>Plan de ejemplo</small></div>⌄</div>
+            </aside>
+            <div class="sw-app-main" aria-hidden="true">
+              <div class="sw-app-top"><div><strong>¡Hola, Carolina!</strong><span>Aquí tienes un resumen de la actividad de tu negocio.</span></div><span class="sw-date">▣ &nbsp; Últimos 30 días &nbsp;⌄</span></div>
+              <div class="sw-metrics">
+                <div class="sw-metric"><span class="sw-metric-icon"><svg class="sw-glyph"><use href="#sw-megaphone"/></svg></span><div><small>Campañas activas</small><strong>6</strong><em>↑ 50%</em><span>vs. mes anterior</span></div></div>
+                <div class="sw-metric"><span class="sw-metric-icon"><svg class="sw-glyph"><use href="#sw-chat"/></svg></span><div><small>Nuevas consultas</small><strong>248</strong><em>↑ 32%</em><span>vs. mes anterior</span></div></div>
+                <div class="sw-metric"><span class="sw-metric-icon"><svg class="sw-glyph"><use href="#sw-clock"/></svg></span><div><small>Consultas por responder</small><strong>24</strong><em>↓ 18%</em><span>vs. mes anterior</span></div></div>
+                <div class="sw-metric"><span class="sw-metric-icon"><svg class="sw-glyph"><use href="#sw-bars"/></svg></span><div><small>Tasa de respuesta</small><strong>78%</strong><em>↑ 12%</em><span>vs. mes anterior</span></div></div>
+              </div>
+              <div class="sw-panels">
+                <section class="sw-panel sw-campaigns"><div class="sw-panel-title"><strong>Campañas en curso</strong><span>＋ Nueva campaña</span></div>
+                  <div class="sw-campaign"><i class="sw-thumb thumb-one"></i><div><strong>Verano 2025</strong><small>Google Ads · Búsqueda</small><b>124 <span>consultas generadas</span></b></div><div><em>● Activa</em><b>$385 <span>costo por consulta</span></b></div></div>
+                  <div class="sw-campaign"><i class="sw-thumb thumb-two"></i><div><strong>Cocina a medida</strong><small>Instagram · Leads</small><b>89 <span>consultas generadas</span></b></div><div><em>● Activa</em><b>$412 <span>costo por consulta</span></b></div></div>
+                  <div class="sw-campaign"><i class="sw-thumb thumb-three"></i><div><strong>Espacios que inspiran</strong><small>Meta Ads · Tráfico</small><b>61 <span>consultas generadas</span></b></div><div><em>● Activa</em><b>$521 <span>costo por consulta</span></b></div></div>
+                  <div class="sw-panel-foot">Ver todas las campañas &nbsp;→</div>
+                </section>
+                <section class="sw-panel sw-conversations"><div class="sw-panel-title"><strong>Conversaciones</strong><span>Ver todas &nbsp;→</span></div>
+                  <div class="sw-message"><i class="sw-channel google">G</i><i class="sw-avatar avatar-one">MG</i><div><strong>Nueva consulta de Google Ads</strong><b>María González</b><small>Hola, ¿tienen opciones para mi negocio?</small></div><em>Sin responder</em></div>
+                  <div class="sw-message"><i class="sw-channel instagram">◎</i><i class="sw-avatar avatar-two">JP</i><div><strong>Consulta desde Instagram</strong><b>Juan Pérez</b><small>¿Cuánto cuesta una asesoría?</small></div><em class="pending">En seguimiento</em></div>
+                  <div class="sw-message"><i class="sw-channel whatsapp">◉</i><i class="sw-avatar avatar-three">LT</i><div><strong>Mensaje de WhatsApp</strong><b>Lucía Torres</b><small>Me interesa recibir más información.</small></div><em>Sin responder</em></div>
+                  <div class="sw-message"><i class="sw-channel meta">∞</i><i class="sw-avatar avatar-four">CR</i><div><strong>Lead desde Meta Ads</strong><b>Carlos Rivas</b><small>Quisiera agendar una visita.</small></div><em class="answered">Respondida</em></div>
+                </section>
+                <section class="sw-panel sw-approvals"><div class="sw-panel-title"><strong>Aprobaciones pendientes</strong><span>Ver todas &nbsp;→</span></div><div class="sw-approval"><i class="sw-thumb thumb-two"></i><div><strong>Anuncio · Nueva colección</strong><small>Para publicar en Google Ads</small></div><span>Revisar</span></div><div class="sw-approval"><i class="sw-thumb thumb-three"></i><div><strong>Landing page · Verano</strong><small>Cambios de texto e imágenes</small></div><span>Revisar</span></div></section>
+                <section class="sw-panel sw-activity"><div class="sw-panel-title"><strong>Actividad reciente</strong><span>Ver todas &nbsp;→</span></div><div><b>◉</b><span>Nueva consulta de Google Ads<small>María González · Hace 12 min</small></span></div><div><b>▥</b><span>Campaña Verano superó su meta<small>+32% más consultas · Hace 3 horas</small></span></div><div><b>▤</b><span>Lucía respondió una conversación<small>WhatsApp · Hace 4 horas</small></span></div></section>
+              </div>
+            </div>
+          </div>
+          <p class="sw-demo-note">Vista ilustrativa · métricas y conversaciones de ejemplo</p>
+        </div>
+      </div>
+      <div class="sw-benefits" aria-label="Beneficios del software">
+        <div><svg class="sw-benefit-icon sw-glyph" aria-hidden="true"><use href="#sw-eye"/></svg><p><strong>Más visibilidad</strong><small>Tu negocio donde están tus clientes.</small></p></div>
+        <div><svg class="sw-benefit-icon sw-glyph" aria-hidden="true"><use href="#sw-users"/></svg><p><strong>Más consultas</strong><small>Personas reales, con verdadero interés.</small></p></div>
+        <div><svg class="sw-benefit-icon sw-glyph" aria-hidden="true"><use href="#sw-gear"/></svg><p><strong>Más control</strong><small>Marketing y conversaciones en un lugar.</small></p></div>
+        <div><svg class="sw-benefit-icon sw-glyph" aria-hidden="true"><use href="#sw-bars"/></svg><p><strong>Más resultados</strong><small>Convierte oportunidades en clientes.</small></p></div>
+      </div>
+    </section>
+    <section class="sw-flow" id="flujo-consultas" aria-labelledby="sw-flow-title">
+      <div class="sw-flow-inner">
+        <div class="sw-flow-copy">
+          <p class="sw-flow-eyebrow">De la campaña a la conversación</p>
+          <h2 id="sw-flow-title">Que ninguna<br> consulta se pierda.</h2>
+          <p>Las consultas que generan tus campañas llegan a un solo lugar. Tu equipo sabe de dónde vienen, cuáles necesitan atención y puede responderlas directamente.</p>
+        </div>
+        <div class="sw-flow-visual">
+          <div class="sw-flow-steps" aria-label="Campaña activa, nueva consulta y atención del equipo">
+            <div class="sw-flow-step"><span class="sw-flow-step-icon campaign"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-megaphone"/></svg></span><span><strong>Campaña activa</strong><small>Atrae personas</small></span></div>
+            <span class="sw-flow-arrow" aria-hidden="true">⟶</span>
+            <div class="sw-flow-step"><span class="sw-flow-step-icon query"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-chat"/></svg></span><span><strong>Nueva consulta</strong><small>Llega una oportunidad</small></span></div>
+            <span class="sw-flow-arrow" aria-hidden="true">⟶</span>
+            <div class="sw-flow-step team"><span class="sw-flow-step-icon team"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-users"/></svg></span><span><strong>Tu equipo interviene</strong><small>Cuando el cliente lo necesita</small></span></div>
+          </div>
 
-    <section class="product-section section-pad" id="producto" aria-labelledby="product-title"><div class="shell product-grid"><div class="reveal"><p class="section-label"><span>02 /</span> BANDEJA COMERCIAL</p><h2 id="product-title">Una vista para <em>seguir la conversación.</em></h2><p>Tu equipo puede organizar las consultas comerciales y avanzar cada una con un responsable y un siguiente paso. Los canales disponibles se confirman al configurar la operación.</p><div class="pill-row"><span>Canales a validar en la demo</span><span>Configuración según tu operación</span></div></div><div class="inbox-mock reveal" role="img" aria-label="Vista ilustrativa de una bandeja de consultas con responsable y siguiente paso"><div class="mock-top"><span>✳ BANDEJA COMERCIAL</span><span>VISTA ILUSTRATIVA</span></div><div class="inbox-mock-body"><div class="inbox-list"><div class="inbox-list-title">Conversaciones <span>03</span></div><div class="inbox-list-row active"><i>V</i><div><b>Consulta de producto</b><small>Instagram · nueva</small></div></div><div class="inbox-list-row"><i>M</i><div><b>Disponibilidad</b><small>WhatsApp · en curso</small></div></div><div class="inbox-list-row"><i>C</i><div><b>Seguimiento de compra</b><small>Facebook · pendiente</small></div></div></div><div class="conversation"><div class="conversation-head"><b>Consulta de producto</b><span>Asignada a ventas</span></div><div class="chat-bubble incoming">Hola, ¿tienen este modelo disponible?</div><div class="chat-bubble outgoing">¡Hola! Revisamos tu consulta y te ayudamos a elegir la mejor opción.</div><div class="conversation-next"><small>SIGUIENTE PASO</small><strong>Confirmar disponibilidad y responder</strong></div></div></div></div></div><p class="shell mock-caption">Ilustración conceptual. La interfaz y cada conexión pueden variar según la implementación.</p></section>
-
-    <section class="feature-section section-pad" aria-labelledby="features-title"><div class="shell"><div class="section-head reveal"><div><p class="section-label"><span>03 /</span> CAPACIDADES</p><h2 id="features-title">Menos mensajes sueltos.<br><em>Más continuidad.</em></h2></div><p>El alcance de cada función se define en la demostración y configuración.</p></div><div class="feature-grid"><article class="feature-card reveal"><span>01 /</span><h3>Bandeja compartida</h3><p>Un lugar para que el equipo vea y atienda consultas sin perder el hilo.</p></article><article class="feature-card reveal"><span>02 /</span><h3>Respuestas y agentes</h3><p>Automatiza pasos repetitivos y deriva a una persona cuando corresponde.</p></article><article class="feature-card reveal"><span>03 /</span><h3>Seguimiento comercial</h3><p>Responsables, estados y próximos pasos visibles para cada oportunidad.</p></article></div></div></section>
-
-    <section class="price-section section-pad" aria-labelledby="price-title"><div class="shell price-grid"><div class="reveal"><p class="section-label"><span>04 /</span> CÓMO SE CONTRATA</p><h2 id="price-title">Software como <em>oferta propia.</em></h2><p>La suscripción y la implementación se definirán según las funciones, canales y volumen que necesite tu equipo. No hace falta contratar campañas para usarlo.</p></div><div class="price-card reveal"><span class="demo-ribbon">PRECIO FICTICIO · SOLO MAQUETA</span><p>Ejemplo visual de plan de software</p><strong>CLP $149.000 <small>/ mes</small></strong><ul><li>Bandeja para tu equipo</li><li>Flujos de atención acordados</li><li>Implementación por definir</li></ul><span class="price-disclaimer">Este valor no es una tarifa comercial.</span></div></div></section>
-
-    <section class="contact section-pad" id="contacto" aria-labelledby="contact-title"><div class="shell contact-grid"><div class="reveal"><p class="section-label"><span>05 /</span> CONOCE EL SOFTWARE</p><h2 id="contact-title">Míralo con <em>tu propio caso.</em></h2><p>Una demo útil parte de los canales, preguntas y tareas reales de tu equipo comercial.</p><div class="contact-tags"><span>Bandeja</span><span>IA</span><span>Seguimiento</span></div></div><div class="contact-card reveal"><span class="contact-kicker">CONTACTO DE MUESTRA</span><strong>WhatsApp de ventas</strong><p>+56 9 XXXX XXXX</p><button type="button" disabled>Solicitar demo <span aria-hidden="true"><svg class="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></span></button><small>Maqueta visual. El número y el enlace real aún no están configurados.</small></div></div></section>
+          <div class="sw-inbox" role="img" aria-label="Vista ilustrativa de una bandeja de consultas. Cuatro oportunidades llegan desde WhatsApp, Google Ads, Instagram y Meta Ads. Una consulta de Google Ads requiere atención humana y permite ver su origen, el mensaje y las acciones de llamada y respuesta.">
+            <div class="sw-inbox-list" aria-hidden="true">
+              <div class="sw-inbox-list-head"><h3>Nuevas consultas <span>4</span></h3><span class="sw-inbox-filter">Todas las fuentes <b>⌄</b></span></div>
+              <div class="sw-inbox-row"><span class="sw-inbox-source wa"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a12.8 12.8 0 0 0-11 19.3L3 29l6.9-1.9A12.8 12.8 0 1 0 16 3Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M11 10c-.7 0-1.2.5-1.4 1.3-.5 2 1.1 5 3.4 7.3 2.1 2.1 4.7 3.4 6.5 3 .8-.2 2.2-1.8 2-2.5-.1-.5-2.7-1.6-3.1-1.5-.4.1-.8 1.2-1.4 1.1-1.1-.2-3.4-2.3-3.7-3.4-.2-.5.8-1 .9-1.5.1-.3-1-2.5-1.6-3.1-.1-.1-.4-.1-.6-.1Z" fill="currentColor"/></svg></span><span class="sw-inbox-person"><strong>WhatsApp</strong><small>María Soto</small></span><time>Hace 2 min</time><span class="sw-inbox-status new">Nueva</span><span class="sw-inbox-chevron">›</span></div>
+              <div class="sw-inbox-row selected"><span class="sw-inbox-source ads"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 7a5 5 0 0 1 9 0l14 23a5 5 0 0 1-9 5L14 12a5 5 0 0 1 0-5Z" fill="#4285f4"/><path d="M14 7a5 5 0 0 1 9 0l3 5-14 23a5 5 0 1 1-9-5L14 7Z" fill="#34a853"/><circle cx="8" cy="32" r="5" fill="#fbbc04"/></svg></span><span class="sw-inbox-person"><strong>Google Ads</strong><small>Sebastián Ruiz</small></span><time>Hace 6 min</time><span class="sw-inbox-status call">Solicita llamada</span><span class="sw-inbox-chevron">›</span></div>
+              <div class="sw-inbox-row"><span class="sw-inbox-source insta"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="5" width="22" height="22" rx="6" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="16" cy="16" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="23" cy="9" r="1.5" fill="currentColor"/></svg></span><span class="sw-inbox-person"><strong>Instagram</strong><small>Camila Pérez</small></span><time>Hace 12 min</time><span class="sw-inbox-status answered">Respondida</span><span class="sw-inbox-chevron">›</span></div>
+              <div class="sw-inbox-row"><span class="sw-inbox-source meta">∞</span><span class="sw-inbox-person"><strong>Meta Ads</strong><small>Empresa Demo</small></span><time>Hace 18 min</time><span class="sw-inbox-status pending">Por responder</span><span class="sw-inbox-chevron">›</span></div>
+            </div>
+            <div class="sw-inbox-detail" aria-hidden="true">
+              <div class="sw-inbox-origin"><strong>Origen de esta consulta</strong><span><i class="sw-inbox-origin-logo"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 7a5 5 0 0 1 9 0l14 23a5 5 0 0 1-9 5L14 12a5 5 0 0 1 0-5Z" fill="#4285f4"/><path d="M14 7a5 5 0 0 1 9 0l3 5-14 23a5 5 0 1 1-9-5L14 7Z" fill="#34a853"/><circle cx="8" cy="32" r="5" fill="#fbbc04"/></svg></i><span><b>Google Ads</b><small>Campaña: Servicios para empresas</small></span></span></div>
+              <div class="sw-inbox-contact"><span class="sw-inbox-avatar">SR</span><span><strong>Sebastián Ruiz</strong><small>Hace 6 min</small></span><span class="sw-human-alert"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="5.5" r="3.5"/><path d="M3.2 17c.5-3.5 2.8-5.3 6.8-5.3s6.3 1.8 6.8 5.3Z"/></svg>Requiere atención humana</span></div>
+              <p class="sw-human-note">El cliente pidió hablar con una persona.</p>
+              <span class="sw-call-pref">☎ &nbsp; Prefiere llamada</span>
+              <div class="sw-inbox-bubble">Hola, quisiera cotizar el servicio para mi negocio.</div>
+              <div class="sw-inbox-compose"><span>Escribe una respuesta...</span><div><span class="sw-paperclip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 12.5 6.4-6.4a3.2 3.2 0 0 1 4.5 4.5l-8.6 8.6a5 5 0 0 1-7.1-7.1l9-9"/></svg></span><span class="sw-inbox-call">☎ &nbsp; Llamar</span><span class="sw-inbox-reply">➤ &nbsp; Responder</span></div></div>
+            </div>
+          </div>
+          <p class="sw-flow-note">Vista ilustrativa · consultas y mensajes de ejemplo</p>
+        </div>
+      </div>
+    </section>
+    <section class="sw-report" id="reportes" aria-labelledby="sw-report-title">
+      <div class="sw-report-inner">
+        <div class="sw-report-copy">
+          <p class="sw-report-kicker"><strong>03</strong><span>Reportes</span></p>
+          <h2 id="sw-report-title">Siempre sabes<br class="sw-report-desktop-break"> qué está pasando<br class="sw-report-desktop-break"> con <span>tus campañas.</span></h2>
+          <p class="sw-report-lead">Recibe reportes claros y automáticos. La agencia te cuenta qué hicimos, cómo se usó el presupuesto, qué resultados logramos y qué viene ahora.</p>
+          <div class="sw-report-points">
+            <div><span class="sw-report-point-icon"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-bars"/></svg></span><p><strong>Resultados claros</strong><small>Las métricas que realmente importan para tu negocio.</small></p></div>
+            <div><span class="sw-report-point-icon"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-users"/></svg></span><p><strong>Qué hicimos por ti</strong><small>La agencia te muestra las acciones, cambios y optimizaciones.</small></p></div>
+            <div><span class="sw-report-point-icon"><svg class="sw-glyph" aria-hidden="true"><use href="#sw-calendar"/></svg></span><p><strong>Lo que viene</strong><small>Conoce los próximos pasos y si necesitamos algo de tu parte.</small></p></div>
+          </div>
+          <a class="sw-report-cta" href="index.html#contacto">Solicitar una demo <span aria-hidden="true">→</span></a>
+          <p class="sw-report-cta-note">Sin compromiso. Te mostramos cómo se ve con tus campañas.</p>
+        </div>
+        <div class="sw-report-visual">
+          <p class="sw-report-handnote" aria-hidden="true"><span>↙</span> La agencia te cuenta<br>qué hizo, en qué se invirtió<br>y qué sigue.</p>
+          <div class="sw-report-app" role="img" aria-label="Vista ilustrativa de un reporte semanal de Órbita. Muestra nuevas consultas, costo por consulta, inversión total, acciones de la agencia, distribución del presupuesto, resultados clave y próximos pasos; cifras de ejemplo.">
+            <div class="sw-report-chrome" aria-hidden="true"><span class="sw-report-dots"><i></i><i></i><i></i></span><span><svg class="sw-glyph"><use href="#sw-bell"/></svg><b>TC</b> Tienda Central <em>⌄</em></span></div>
+            <div class="sw-report-body" aria-hidden="true">
+              <aside class="sw-report-sidebar">
+                <div class="sw-report-brand"><span>✳</span> Órbita.</div>
+                <div><svg class="sw-glyph"><use href="#sw-home"/></svg> Inicio</div>
+                <div><svg class="sw-glyph"><use href="#sw-chat"/></svg> Consultas <b>12</b></div>
+                <div><svg class="sw-glyph"><use href="#sw-bars"/></svg> Campañas</div>
+                <div class="active"><svg class="sw-glyph"><use href="#sw-bars"/></svg> Reportes</div>
+                <div><svg class="sw-glyph"><use href="#sw-calendar"/></svg> Calendario</div>
+                <div><svg class="sw-glyph"><use href="#sw-folder"/></svg> Archivos</div>
+                <div><svg class="sw-glyph"><use href="#sw-gear"/></svg> Ajustes</div>
+                <span class="sw-report-account"><b>TC</b> Tienda Central <em>⌄</em></span>
+              </aside>
+              <div class="sw-report-main">
+                <div class="sw-report-main-head"><div><strong>Reporte semanal</strong><small>Resumen de lo más importante de tus campañas</small></div><span>Semana de ejemplo <svg class="sw-glyph"><use href="#sw-calendar"/></svg></span></div>
+                <div class="sw-report-top-metrics">
+                  <div class="sw-report-metric"><i class="blue"><svg class="sw-glyph"><use href="#sw-chat"/></svg></i><strong>42</strong><small>nuevas consultas</small><em>↑ +18%</em><span>vs. semana anterior</span></div>
+                  <div class="sw-report-metric"><i class="green">$</i><strong>$4.820</strong><small>costo por consulta</small><em>↓ -12%</em><span>vs. semana anterior</span></div>
+                  <div class="sw-report-metric"><i class="purple"><svg class="sw-glyph"><use href="#sw-users"/></svg></i><strong>$203.440</strong><small>inversión total</small><span class="sw-report-progress"></span><span>Presupuesto: $200.000</span></div>
+                  <div class="sw-report-metric"><i class="pink"><svg class="sw-glyph"><use href="#sw-target"/></svg></i><b>Servicios empresas</b><small>mejor rendimiento</small><em>↑ 19 consultas</em><em>↓ 21% menor costo</em></div>
+                </div>
+                <div class="sw-report-panels">
+                  <div class="sw-report-panel sw-report-actions-panel"><div class="sw-report-panel-title"><i><svg class="sw-glyph"><use href="#sw-gear"/></svg></i><span><strong>Qué hicimos esta semana</strong><small>Acciones y optimizaciones del equipo de marketing.</small></span></div>
+                    <div class="sw-report-action"><i class="google">G</i><p><strong>Google Ads</strong><small>Aumentamos el presupuesto en la campaña de mejor rendimiento.</small></p><time>26 sept.</time></div>
+                    <div class="sw-report-action"><i class="meta">∞</i><p><strong>Meta Ads</strong><small>Activamos una nueva creatividad en video para probar audiencias.</small></p><time>25 sept.</time></div>
+                    <div class="sw-report-action"><i class="meta">∞</i><p><strong>Meta Ads</strong><small>Redistribuimos presupuesto hacia los anuncios con mejores consultas.</small></p><time>24 sept.</time></div>
+                    <div class="sw-report-action"><i class="google">G</i><p><strong>Google Ads</strong><small>Ajustamos palabras clave y anuncios para mejorar la calidad.</small></p><time>23 sept.</time></div>
+                  </div>
+                  <div class="sw-report-panel sw-report-budget-panel"><div class="sw-report-panel-title"><i><svg class="sw-glyph"><use href="#sw-pie"/></svg></i><span><strong>Distribución del presupuesto</strong><small>Cómo se invirtió en cada canal.</small></span></div>
+                    <div class="sw-report-budget-body"><div class="sw-report-donut"><span><strong>$203.440</strong><small>inversión total</small></span></div><div class="sw-report-legend"><div><i class="gads"></i> Google Ads <b>52%</b></div><div><i class="mads"></i> Meta Ads <b>36%</b></div><div><i class="creative"></i> Producción creativa <b>8%</b></div><div><i class="other"></i> Otros <b>4%</b></div></div></div>
+                    <p class="sw-report-insight">ⓘ &nbsp; Se utilizó el presupuesto planificado. La mayor inversión se destinó a las campañas con mejor rendimiento.</p>
+                  </div>
+                  <div class="sw-report-panel sw-report-results-panel"><div class="sw-report-panel-title"><i><svg class="sw-glyph"><use href="#sw-bars"/></svg></i><span><strong>Resultados clave</strong><small>Comparativa con la semana anterior.</small></span></div><div class="sw-report-mini-metrics"><div><strong>42</strong><small>nuevas consultas</small><em>↑ +18%</em></div><div><strong>$4.820</strong><small>costo por consulta</small><em>↓ -12%</em></div><div><strong>3,2%</strong><small>tasa de conversión</small><em>↑ +0,6 pp</em></div><div><strong>125.430</strong><small>personas alcanzadas</small><em>↑ +28%</em></div></div></div>
+                  <div class="sw-report-panel sw-report-next-panel"><div class="sw-report-panel-title"><i><svg class="sw-glyph"><use href="#sw-flag"/></svg></i><span><strong>Lo que viene</strong><small>Próximos pasos del plan de campañas.</small></span></div><ul><li>Lanzar nueva creatividad en Google Ads.</li><li>Probar una nueva audiencia en Meta Ads.</li><li>Revisar rendimiento y ajustar presupuesto.</li></ul><div class="sw-report-attention">⚠ <span><strong>Necesitamos tu atención</strong><small>2 consultas esperan respuesta en tu bandeja.</small></span><b>›</b></div></div>
+                </div>
+                <div class="sw-report-bottom"><span>✦</span><p>Tu agencia se encarga del marketing.<br>Tú solo revisas los avances.</p><span class="sw-report-view">Ver reporte completo &nbsp; →</span></div>
+              </div>
+            </div>
+          </div>
+          <p class="sw-report-demo-note">Vista ilustrativa · campañas, cifras y acciones de ejemplo</p>
+        </div>
+      </div>
+      <p class="sw-report-tagline"><span></span> Más claridad. Mejores decisiones. Un negocio que avanza. <span></span></p>
+    </section>
+    <section class="sw-closing" id="siguiente-paso" aria-labelledby="sw-closing-title">
+      <div class="sw-closing-inner">
+        <p class="sw-closing-kicker"><span class="sw-closing-rule" aria-hidden="true"></span><strong>04</strong><span class="sw-closing-divider" aria-hidden="true"></span><span>Da el siguiente paso</span><span class="sw-closing-rule" aria-hidden="true"></span></p>
+        <p class="sw-closing-handnote" aria-hidden="true">Más control.<br>Más claridad.<br>Mejores resultados.<svg viewBox="0 0 120 130" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M108 4C68 10 35 38 32 97m0 0-20-22m20 22 19-19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></p>
+        <h2 id="sw-closing-title">¿Quieres verlo<br>en <span>tu empresa?</span></h2>
+        <p class="sw-closing-lead">Conversemos y te mostramos cómo podría funcionar<br class="sw-closing-desktop-break"> para tu negocio.</p>
+        <a class="sw-closing-cta" href="index.html#contacto">Contáctanos <span aria-hidden="true">→</span></a>
+        <p class="sw-closing-note">Sin compromiso. Te mostramos una propuesta para tu negocio.</p>
+        <p class="sw-closing-tagline"><span aria-hidden="true"></span> Tu marketing, en un solo lugar <span aria-hidden="true"></span></p>
+      </div>
+    </section>
   </main>
   <footer class="site-footer footer-2a" aria-label="Pie de página">
     <div class="shell">

@@ -1,0 +1,73 @@
+# Continue Órbita on PC 2
+
+Repository: https://github.com/sebastianbarreragiuffra-crypto/marketing
+
+Public website: https://orbita-marketing.pages.dev
+
+The project is a static website: HTML, CSS, JavaScript and local images. No build step is required. This handoff preserves the current pages, assets, mockups, design reviews and local preview/publishing scripts.
+
+## First time on PC 2
+
+1. Install Git and Python 3. Install Node.js if you will publish to Cloudflare from this computer.
+2. In a terminal, from the folder where you want to keep the project, run:
+
+   ```powershell
+   git clone https://github.com/sebastianbarreragiuffra-crypto/marketing.git
+   cd marketing
+   ```
+
+3. Open this cloned `marketing` folder as your project. Read `AGENTS.md` for the local design rules and this file for the current state.
+4. Start the preview:
+
+   ```powershell
+   python live_preview.py --port 8767
+   ```
+
+   Open http://127.0.0.1:8767/marketing. Saved changes reload automatically while this terminal is running. The same server also serves Home and Software.
+
+## Moving between computers
+
+Before starting work on either computer:
+
+```powershell
+git pull --ff-only origin main
+```
+
+When you finish work, save the edited files, then upload them:
+
+```powershell
+git add .
+git commit -m "Update Orbita website"
+git push origin main
+```
+
+Finish and push from one computer before pulling and editing on the other. If pulling reports local changes or conflicting history, resolve those changes before continuing; do not overwrite them. GitHub carries saved, committed project files between the computers.
+
+## Public updates from PC 2
+
+The stable Cloudflare Pages website remains online when PC 1 is turned off. GitHub stores the source; the existing local publisher updates Pages separately.
+
+To publish from PC 2, sign in to the Cloudflare account with access to the existing `orbita-marketing` Pages project:
+
+```powershell
+npx --yes wrangler login
+python auto_publish.py --watch
+```
+
+Leave the publisher running during edits. It watches the project's Git worktrees and publishes the most recently edited source after four seconds without another edit. Refresh the public URL after publication finishes. It does not combine different branches into one site. To publish once instead, run `python auto_publish.py --once`.
+
+Use one publishing computer at a time, so PC 1 and PC 2 do not replace each other's public version. Authentication and local runtime state are configured separately on PC 2; credentials are excluded from Git.
+
+A `trycloudflare.com` tunnel is a separate temporary link tied to the computer running it. Its URL cannot be transferred by cloning the repository. Start a new tunnel on PC 2 if you need a public preview with immediate reload; use the stable Pages URL for the published website. The old tunnel was not resolving during the latest check.
+
+## Current design state
+
+- Keep the Órbita brand. Design at 1440 px; at 1920 px keep useful content centered with a maximum width of 1440 px. Verify desktop and mobile before publishing visual changes.
+- Marketing has exactly three main sections: the hero, the dynamic Meta Ads / Google Ads / Desarrollo Web section, and Contáctanos. The revised light contact card is now installed in the actual page, not only in the separate mockup.
+- Contact supports optional, combinable Meta Ads, Google Ads, Desarrollo Web and Software interests; optional business context and company; and one required email or phone field. Its button only reviews the inquiry locally. A receiving service has not been configured.
+- The latest Software page includes the hero, consultation flow, reports and final contact section. Its interface, conversations and metrics are illustrative.
+- Automatizaciones is hidden from the primary navigation and currently keeps the shared navigation/footer with its main content cleared for redesign. Precios keeps the example plan comparison, with the previous FAQ removed. Earlier page content is saved under `mockups/pre-content-reset-2026-10-04/` and in Git history.
+- Login is a visual preview; authentication is not connected. Example prices are not confirmed commercial rates.
+- Independent A/B deliberation and decisions are preserved in the Marketing review files, including `MARKETING_CONTACT_2A.md`, `MARKETING_QUALITY_2A.md` and `MARKETING_THREE_SECTIONS_2A.md`. Continue from those decisions instead of restarting the design.
+
+The `.webmaster/` installation, `.preview-sync/`, publishing copies, caches and credentials are local and ignored by Git. Project rules and review documents are included. If you need the local Webmaster workflow on PC 2, install it there before requesting that workflow.
