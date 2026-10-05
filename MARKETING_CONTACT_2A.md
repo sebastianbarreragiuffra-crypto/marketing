@@ -1,6 +1,6 @@
 # Contáctanos — selección y datos de consulta / 2A
 
-2026-10-04 · v1.0 · 2A FINAL / REFINAR · MATERIAL SECTION · aprobación del formulario final PENDING
+2026-10-04 · v1.1 · dirección 2A FINAL / REFINAR · UI revisada por feedback · aprobación del formulario público PENDING
 
 Solicitud: evaluar con A/B independientes selección de Meta Ads, Google Ads, Desarrollo Web y Software, tipo de negocio ecommerce/B2B, empresa y elección número/correo. La solicitud reabre expresamente el cierre de Marketing para diseñar/evaluar esa propuesta; no autoriza inventar un receptor de consultas, un backend ni una nueva oferta. Se construye una propuesta concreta interactiva antes de solicitar la decisión final si sustituye el contacto aprobado.
 
@@ -39,3 +39,13 @@ Renders finales vistos por el runtime en320/390/1440/1920; A/B vieron390/1440/19
 Originalidad de sección: KEEP — SPECIFIC AND DEFENSIBLE. Patrones de formulario familiares; especificidad en combinar trabajo gestionado, web y software independiente, conservando Órbita y contexto no excluyente. No se propone diferenciación exclusiva por el formulario. Search sin cambios; CTR orgánico/CTAconversion NOT AVAILABLE. No hay desacuerdo material A/B.
 
 Approval basis: PENDING decisión sobre este mockup concreto. El usuario autorizó evaluar las nuevas opciones con2A; no se registra aprobación humana ficticia ni un backend por autorización histórica de correcciones. La publicación del nuevo mecanismo de contacto es el paso final de decisión, conforme a `.webmaster/2A_PROTOCOL.md` §8. El resto de la página y publicaciones concurrentes se preservan. NOTHING REUSABLE; sin cambios en Webmaster canónico.
+
+## UI v1.1 — corrección solicitada con captura
+
+El usuario señaló que el formulario oscuro de V1 no era fácil de usar. Se revisó la presentación e interacción visual del mockup existente, sin un nuevo pass A/B ni alterar los datos, la obligatoriedad, la selección múltiple, la intención, el resumen local o el mecanismo de envío. V1 original preservado en commit `572dd5a`; mismos archivos/ruta muestran ahora la revisión UI. No se declara aprobada ni publicada en `marketing.html`.
+
+Panel claro dentro del cierre verde oscuro, menos texto repetido, encabezado legible y estado elegido sin llenar todas las opciones de lima. Servicios en dos columnas incluso a320; empresa antes del contexto; tipo de negocio pasa de tres tarjetas a casillas compactas; canal exclusivo en un selector dividido, con foco visible y semántica radio nativa. Checkbox sigue siendo nativo con trazo propio y fallback forced-colors. Se preservan los cuatro servicios y Ecommerce/B2B/Otro combinables. Todos los controles son de al menos44px en su área de etiqueta, inputs16px, y solo correo o teléfono activo obligatorio. La nota de vista previa queda una sola vez junto al CTA. No se añade un wizard ni campos.
+
+QA funcional revisada pasó en320/390/768/1024/1440/1920: combinación, contexto simultáneo, ambas vías/valores conservados, errores/foco, teclado, CTA aditivo y genérico, revisión/edición, ausencia de envío/almacenamiento y guardia sinJS/scriptbloqueado. Renders vacíos y con datos ficticios en320/390/560/1440/1920, prefijo `preview-marketing-contact-ux-*`; evidencia local `marketing-contact-ux-validation.json` y `marketing-contact-ux-render-validation.json`. Sin overflow ni erroresJS. Cierre≈1079px a390 frente1419 del V1, y1118 frente1645 a320; reducción de recorrido observada, no conversión medida. Desktop sigue máximo útil1440, con1344/margen48 a1440 y1440/margen240 a1920.
+
+URL de revisión con autorecarga existente: http://127.0.0.1:8768/mockups/marketing-contact-v1-a.html#contacto. Este feedback autoriza corregir la UI del artefacto mostrado; la instalación del nuevo mecanismo público y receptor real conservan su estado anterior. Se preservan fuentes/publicaciones concurrentes de otras tareas.

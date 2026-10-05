@@ -1,40 +1,51 @@
-/* Proposal isolated from product styles. Base1440; useful maximum1440 at1920. */
+/* Contact mockup: compact choices and a light form within the approved dark section. */
+.marketing-compact .contact-proposal { scroll-margin-top: 77px; }
 .marketing-compact .contact-proposal .contact-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8%; }
-.marketing-compact .contact.contact-proposal .contact-copy > p.cp-preview-note { margin-top: 38px; font-size: 13px; line-height: 1.7; color: #a5baa9; }
-.contact-proposal .cp-card { padding: 32px; min-width: 0; }
-.contact-proposal .cp-form-help { margin: 15px 0 25px; color: #c4d0c7; font-size: 14px; line-height: 1.6; }
+.marketing-compact .contact-proposal .cp-card { padding: 32px; min-width: 0; background: #fbfcf9; border-color: #d8dfd3; color: #18271c; box-shadow: 0 20px 50px #0002; }
+.contact-proposal .cp-card-title { margin: 0; font: 700 25px/1.3 Manrope, sans-serif; letter-spacing: -.035em; }
+.contact-proposal .cp-form-help { margin: 9px 0 24px; color: #596a5c; font-size: 13px; line-height: 1.6; }
 .contact-proposal .cp-controls { margin: 0; padding: 0; border: 0; min-width: 0; }
-.contact-proposal .cp-fieldset { border: 0; padding: 0; margin: 0 0 22px; min-width: 0; }
-.contact-proposal .cp-fieldset legend, .contact-proposal .cp-field > label { color: #f8faf7; font-size: 15px; line-height: 1.5; font-weight: 600; }
-.contact-proposal .cp-optional, .contact-proposal .cp-required { color: #a5baa9; font-size: 12px; font-weight: 400; }
-.contact-proposal .cp-help { margin: 5px 0 12px; color: #bdcfc1; font-size: 12px; line-height: 1.5; }
-.contact-proposal .cp-service-grid, .contact-proposal .cp-channel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
-.contact-proposal .cp-context-grid { display: grid; grid-template-columns: 1.15fr 1.35fr .6fr; gap: 9px; }
-.contact-proposal .cp-choice { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 12px 14px; color: #e2ebe3; border: 1px solid #607567; border-radius: 10px; cursor: pointer; font-size: 14px; line-height: 1.4; }
-.contact-proposal .cp-choice input { flex: 0 0 auto; width: 17px; height: 17px; margin: 0; accent-color: #c7f45b; cursor: pointer; }
-.contact-proposal .cp-choice:has(input:checked) { border-color: #c7f45b; background: #c7f45b; color: #14220e; }
-.contact-proposal .cp-choice:hover { border-color: #c7f45b; }
-.contact-proposal .cp-choice:focus-within { outline: 2px solid #c7f45b; outline-offset: 3px; }
+.contact-proposal .cp-fieldset { border: 0; padding: 0; margin: 0 0 20px; min-width: 0; }
+.contact-proposal .cp-fieldset legend, .contact-proposal .cp-field > label { color: #18271c; font-size: 14px; line-height: 1.5; font-weight: 600; }
+.contact-proposal .cp-optional, .contact-proposal .cp-required { color: #596a5c; font-size: 12px; font-weight: 400; }
+.contact-proposal .cp-help { margin: 4px 0 10px; color: #596a5c; font-size: 12px; line-height: 1.5; }
+.contact-proposal .cp-service-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.contact-proposal .cp-choice { position: relative; display: flex; align-items: center; gap: 9px; min-height: 46px; padding: 10px 14px; color: #263a2a; border: 1px solid #d3dccd; border-radius: 10px; background: #fff; cursor: pointer; font-size: 14px; line-height: 1.4; }
+.contact-proposal .cp-choice input[type="checkbox"] { appearance: none; flex: 0 0 auto; display: grid; place-items: center; width: 16px; height: 16px; margin: 0; border: 1px solid #7e9077; border-radius: 4px; background: transparent; cursor: pointer; }
+.contact-proposal .cp-choice input[type="checkbox"]:checked { background: #416328; border-color: #416328; }
+.contact-proposal .cp-choice input[type="checkbox"]:checked::before { content: ""; width: 8px; height: 5px; border: solid #fff; border-width: 0 0 2px 2px; transform: translateY(-1px) rotate(-45deg); }
+.contact-proposal .cp-service-grid .cp-choice:has(input:checked) { border-color: #8aaa64; background: #edf4e3; color: #243919; }
+.contact-proposal .cp-choice:hover { border-color: #6b8555; }
+.contact-proposal .cp-choice:focus-within { outline: 2px solid #416328; outline-offset: 3px; }
 .contact-proposal .cp-choice input:focus-visible { outline: none; }
-.marketing-compact .contact-proposal .cp-choice small { display: block; margin: 2px 0 0; color: inherit; font-size: 12px; font-weight: 400; line-height: 1.4; }
-.contact-proposal .cp-field { margin: 0 0 22px; }
-.contact-proposal .cp-field > label { display: block; margin-bottom: 8px; }
-.contact-proposal .cp-field > input { width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid #607567; border-radius: 10px; background: #0c1d13; color: #f8faf7; font: inherit; font-size: 16px; }
-.contact-proposal .cp-field > input::placeholder { color: #a5baa9; opacity: 1; }
-.contact-proposal .cp-field > input:focus-visible { outline: 2px solid #c7f45b; outline-offset: 3px; }
-.contact-proposal .cp-channel-group { margin-bottom: 15px; }
-.contact-proposal .cp-channel-group legend { margin-bottom: 10px; }
-.contact-proposal .cp-error { color: #ffc8bb; font-size: 13px; line-height: 1.5; margin: -9px 0 15px; }
-.contact-proposal input[aria-invalid="true"] { border-color: #ffc8bb; }
-.marketing-compact .contact-proposal .cp-action-note { color: #a5baa9; font-size: 12px; line-height: 1.5; margin: 12px 0 0; }
+.contact-proposal .cp-context-grid { display: flex; flex-wrap: wrap; gap: 0 18px; margin-top: 2px; }
+.contact-proposal .cp-context { min-height: 44px; padding: 0; border: 0; border-radius: 4px; background: transparent; gap: 7px; font-size: 13px; }
+.contact-proposal .cp-context:has(input:checked) { color: #2d4b1a; }
+.contact-proposal .cp-business-group { margin-bottom: 15px; }
+.contact-proposal .cp-field { margin: 0 0 18px; }
+.contact-proposal .cp-field > label { display: block; margin-bottom: 7px; }
+.contact-proposal .cp-field > input { width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid #85917e; border-radius: 9px; background: #fff; color: #18271c; font: inherit; font-size: 16px; }
+.contact-proposal .cp-field > input::placeholder { color: #687563; opacity: 1; }
+.contact-proposal .cp-field > input:focus-visible { outline: 2px solid #416328; outline-offset: 3px; }
+.contact-proposal .cp-channel-group { margin-bottom: 14px; }
+.contact-proposal .cp-channel-group legend { margin-bottom: 8px; }
+.contact-proposal .cp-channel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; padding: 4px; border-radius: 11px; background: #e9eee4; }
+.contact-proposal .cp-channel-grid .cp-choice { justify-content: center; min-height: 44px; padding: 10px; border: 0; border-radius: 8px; background: transparent; color: #596a5c; }
+.contact-proposal .cp-channel-grid .cp-choice:has(input:checked) { background: #fff; color: #18271c; box-shadow: 0 1px 4px #2439191c; font-weight: 600; }
+.contact-proposal .cp-channel-grid input[type="radio"], .contact-proposal .cp-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; clip-path: inset(50%); overflow: hidden; white-space: nowrap; border: 0; }
+.contact-proposal .cp-error { color: #9b301d; font-size: 13px; line-height: 1.5; margin: -7px 0 13px; }
+.contact-proposal input[aria-invalid="true"] { border-color: #9b301d; }
+.marketing-compact .contact-proposal .cp-card .cp-submit { min-height: 52px; padding: 14px 19px; border-radius: 10px; }
+.marketing-compact .contact-proposal .cp-action-note { color: #596a5c; font-size: 12px; line-height: 1.5; margin: 10px 0 0; }
 .contact-proposal .cp-review h3 { margin: 22px 0; font-size: 27px; letter-spacing: -.035em; }
 .contact-proposal .cp-review dl { margin: 0; }
-.contact-proposal .cp-review dl > div { padding: 16px 0; border-bottom: 1px solid #405447; }
-.contact-proposal .cp-review dt { color: #a5baa9; font-size: 12px; margin-bottom: 5px; }
+.contact-proposal .cp-review dl > div { padding: 14px 0; border-bottom: 1px solid #d8dfd3; }
+.contact-proposal .cp-review dt { color: #596a5c; font-size: 12px; margin-bottom: 5px; }
 .contact-proposal .cp-review dd { margin: 0; font-size: 16px; overflow-wrap: anywhere; }
-.contact-proposal .cp-review p { color: #c4d0c7; font-size: 13px; line-height: 1.6; margin: 20px 0; }
-.marketing-compact .contact-proposal .cp-edit { min-height: 48px; border: 1px solid #607567; border-radius: 10px; background: transparent; color: #e2ebe3; opacity: 1; justify-content: center; }
+.contact-proposal .cp-review p { color: #596a5c; font-size: 13px; line-height: 1.6; margin: 18px 0; }
+.marketing-compact .contact-proposal .cp-edit { min-height: 48px; border: 1px solid #bdcbb7; border-radius: 10px; background: transparent; color: #263a2a; opacity: 1; justify-content: center; }
 .contact-proposal [hidden] { display: none !important; }
-@media (max-width: 1050px) { .marketing-compact .contact-proposal .contact-grid { gap: 32px; } .contact-proposal .cp-card { padding: 24px; } .contact-proposal .cp-context-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 760px) { .marketing-compact .contact-proposal .contact-grid { grid-template-columns: 1fr; gap: 28px; } .marketing-compact .contact.contact-proposal .contact-copy > p.cp-preview-note { margin-top: 22px; } }
-@media (max-width: 360px) { .contact-proposal .cp-card { padding: 18px; } .contact-proposal .cp-service-grid, .contact-proposal .cp-context-grid { grid-template-columns: 1fr; } }
+@media (max-width: 1050px) { .marketing-compact .contact-proposal .contact-grid { gap: 32px; } .marketing-compact .contact-proposal .cp-card { padding: 24px; } }
+@media (max-width: 760px) { .marketing-compact .contact-proposal .contact-grid { grid-template-columns: 1fr; gap: 24px; } .marketing-compact .contact-proposal .contact-signoff { display: none; } .contact-proposal .cp-card-title { font-size: 23px; } .contact-proposal .cp-form-help { margin-bottom: 20px; } }
+@media (max-width: 360px) { .marketing-compact .contact-proposal .cp-card { padding: 18px; } .contact-proposal .cp-service-grid .cp-choice { padding: 10px; gap: 7px; font-size: 13px; min-height: 52px; } .contact-proposal .cp-context-grid { column-gap: 13px; } }
+@media (forced-colors: active) { .contact-proposal .cp-choice input[type="checkbox"] { appearance: auto; } .contact-proposal .cp-choice input[type="checkbox"]:checked::before { content: none; } .contact-proposal .cp-choice:has(input:checked) { outline: 1px solid Highlight; } }

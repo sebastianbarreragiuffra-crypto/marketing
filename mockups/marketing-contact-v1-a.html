@@ -224,18 +224,17 @@
         <div class="contact-copy reveal">
           <p class="section-label"><span>03 /</span> TU PRÓXIMO PASO</p>
           <h2 id="contact-title" tabindex="-1">Contáctanos<span aria-hidden="true">.</span></h2>
-          <p>Cuéntanos qué necesita tu negocio. Puedes combinar campañas, desarrollo web y software en una misma consulta.</p>
+          <p>Cuéntanos qué necesita tu negocio y encontremos el siguiente paso.</p>
           <div class="contact-signoff"><span class="contact-signoff-line" aria-hidden="true"></span>Primero tu necesidad. Después, la propuesta.</div>
-          <p class="cp-preview-note">Propuesta 2A · Prueba con datos ficticios.<br>Esta vista no envía ni guarda tu consulta.</p>
         </div>
         <div class="contact-card reveal cp-card">
-          <span class="contact-kicker">HABLEMOS DE TU NEGOCIO</span>
+          <h3 class="cp-card-title">Hablemos de tu proyecto</h3>
           <form id="contact-proposal-form" novalidate aria-describedby="cp-form-help">
             <fieldset class="cp-controls" disabled>
-            <p id="cp-form-help" class="cp-form-help">Solo necesitamos una vía para responderte. El resto es opcional.</p>
+            <p id="cp-form-help" class="cp-form-help">Solo tu correo o teléfono es obligatorio.</p>
             <fieldset class="cp-fieldset" aria-describedby="cp-services-help">
-              <legend>¿Qué te interesa? <span class="cp-optional">(opcional)</span></legend>
-              <p id="cp-services-help" class="cp-help">Puedes elegir varios o dejarlo abierto.</p>
+              <legend>¿Qué necesitas?</legend>
+              <p id="cp-services-help" class="cp-help">Elige uno o varios servicios, o déjalo por definir.</p>
               <div class="cp-service-grid">
                 <label class="cp-choice"><input type="checkbox" name="services" value="meta"><span>Meta Ads</span></label>
                 <label class="cp-choice"><input type="checkbox" name="services" value="google"><span>Google Ads</span></label>
@@ -243,21 +242,21 @@
                 <label class="cp-choice"><input type="checkbox" name="services" value="software"><span>Software</span></label>
               </div>
             </fieldset>
-            <fieldset class="cp-fieldset" aria-describedby="cp-business-help">
-              <legend>¿Cómo vende tu negocio? <span class="cp-optional">(opcional)</span></legend>
-              <p id="cp-business-help" class="cp-help">Puedes marcar tienda online y venta a empresas a la vez.</p>
-              <div class="cp-context-grid">
-                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="ecommerce"><span>Tienda online<small>Ecommerce</small></span></label>
-                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="b2b"><span>Venta a empresas<small>B2B</small></span></label>
-                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="other"><span>Otro</span></label>
-              </div>
-            </fieldset>
             <div class="cp-field">
               <label for="cp-company">Empresa o marca <span class="cp-optional">(opcional)</span></label>
               <input id="cp-company" name="company" type="text" autocomplete="organization" maxlength="120" placeholder="Nombre de tu negocio">
             </div>
+            <fieldset class="cp-fieldset cp-business-group" aria-describedby="cp-business-help">
+              <legend>Tipo de negocio <span class="cp-optional">(opcional)</span></legend>
+              <p id="cp-business-help" class="cp-sr-only">Puedes marcar ambas: tienda online y venta a empresas.</p>
+              <div class="cp-context-grid">
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="ecommerce"><span>Tienda online</span></label>
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="b2b" aria-label="Venta a empresas (B2B)"><span>B2B</span></label>
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="other"><span>Otro</span></label>
+              </div>
+            </fieldset>
             <fieldset class="cp-fieldset cp-channel-group">
-              <legend>¿Cómo prefieres que te contactemos?</legend>
+              <legend>¿Dónde te respondemos?</legend>
               <div class="cp-channel-grid">
                 <label class="cp-choice"><input type="radio" name="channel" value="email" checked><span>Correo</span></label>
                 <label class="cp-choice"><input type="radio" name="channel" value="phone"><span>Teléfono</span></label>
@@ -274,7 +273,7 @@
             </div>
             <p class="cp-error" id="cp-error" role="alert" hidden></p>
             <button class="contact-submit cp-submit" type="submit">Revisar mi consulta <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
-            <p class="cp-action-note">Vista previa · No se enviará ningún dato.</p>
+            <p class="cp-action-note">Vista previa · Tu consulta no se enviará.</p>
             </fieldset>
           </form>
           <div id="cp-review" class="cp-review" hidden aria-labelledby="cp-review-title">
@@ -292,6 +291,7 @@
         </div>
       </div>
     </section>
+
 
 
   </main>
