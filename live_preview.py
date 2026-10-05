@@ -113,6 +113,16 @@ class PreviewHandler(SimpleHTTPRequestHandler):
     def serve(self, body: bool):
         path = unquote(urlsplit(self.path).path)
         if path in {"/branches", "/branches/"}:
+            branches = branch_roots()
+            preferred = "main" if "main" in branches else next(iter(branches), None)
+            if preferred is None:
+                self.send_error(404)
+                return
+            self.send_response(302)
+            self.send_header("Location", f"/b/{preferred}/")
+            self.end_headers()
+            return
+        if path in {"/branch-list", "/branch-list/"}:
             entries = sorted(branch_roots().items())
             links = "".join(
                 f'<li><a href="/b/{escape(alias)}/">{escape(alias)}</a></li>'
