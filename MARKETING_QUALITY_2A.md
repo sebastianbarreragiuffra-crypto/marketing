@@ -1,6 +1,6 @@
 # Marketing — revisión independiente de calidad 2A
 
-2026-10-04 · v1.0 · READY FOR 2A
+2026-10-04 · v1.0 · 2A FINAL / REFINAR DENTRO DEL BRIEF APROBADO
 
 Encargo: evaluar si la versión actual es la mejor solución justificable y comparar mejoras concretas. Scope PAGE, revisión de calidad dentro de la arquitectura aprobada. Brief padre: `MARKETING_THREE_SECTIONS_2A.md` v2.1 y corrección visual posterior; foundation `SITE_PAGES_BRIEF.md` v1.0. Search Gate REQUIRED heredado y resuelto en el brief padre con investigación del mismo día; no se proponen nuevos temas, buyer o page mapping. CTR orgánico y conversión: NOT AVAILABLE. No sostener que un criterio estético pruebe conversión.
 
@@ -24,4 +24,6 @@ Durante la revisión, la tarea de ejecución de Marketing publicó `26aaee3` y `
 
 QA del mockup y de la implementación en 320/390/768/1024/1440/1920 y tres estados: tres secciones, una H1, intención de cotización, teclado, anclas, foco, menú, imágenes y notas legibles; sin overflow ni errores JS. DOM y orden visual móvil anteponen tablist; desktop conserva tres columnas. Geometría: ancho útil1344 a1440 y1440 a1920, portátil1040 y H177. Captura del hero a12px. Prueba adicional de los tres saltos en320/390/1440/1920: móvil paneltop≈104 frente a header77, foco ms-service-panel, ejemplos Meta/Google empiezan y≈600 y Web≈215, dentro del viewport; desktop sin cambio de scroll. Renders postclick revisados por A/B y runtime. Los overlays fijos se ocultaron solo al capturar elementos largos, sin quitar el enlace accesible del producto.
 
-Resultado: refinamiento defendible por claridad y elección, no prueba de máxima conversión. Contacto real se omite por instrucción del usuario. NOTHING REUSABLE: método vigente aplicado; sin promoción al Webmaster canónico. Pendiente registrar despliegue y verificación pública final.
+Resultado: refinamiento defendible por claridad y elección, no prueba de máxima conversión. Contacto real se omite por instrucción del usuario. NOTHING REUSABLE: método vigente aplicado; sin promoción al Webmaster canónico.
+
+Publicado en https://orbita-marketing.pages.dev/marketing el2026-10-04, despliegue `cf12c76a`, código `96c9b6a` en GitHub. QA pública final en los seis anchos y tres estados confirma los mismos resultados, sin errores ni desbordamiento. Los doce casos adicionales de selección inferior (tres servicios por320/390/1440/1920) conservan foco/ejemplo visible y desktop sin salto. Página y recursos propios respondieron200; renders públicos revisados. Solo se sincronizaron los tres archivos propios de Marketing sobre la carpeta compartida; cambios de navegación ajenos en trabajo se preservaron y se excluyeron del commit mediante staging parcial.
