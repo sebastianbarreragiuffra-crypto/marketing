@@ -1,0 +1,47 @@
+.ms-preview-controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 13px;
+}
+
+.ms-preview-controls .ms-preview-label { flex: 1; min-width: 0; margin: 0; }
+
+.ms-auto-toggle {
+  flex: none;
+  min-height: 30px;
+  padding: 5px 10px;
+  border: 1px solid #b7cfe7;
+  border-radius: 999px;
+  background: #f7fbff;
+  color: #16436b;
+  font: 700 11px/1.2 Manrope, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.ms-auto-toggle:hover { background: #e7f3ff; }
+.ms-auto-toggle:focus-visible { outline: 3px solid #2477d7; outline-offset: 2px; }
+.ms-auto-toggle[hidden] { display: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .ms-tab { position: relative; overflow: hidden; }
+  .marketing-services-showcase.is-ms-rotating .ms-tab[aria-selected="true"]::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 2px;
+    height: 2px;
+    border-radius: 2px;
+    background: #087bff;
+    transform-origin: left;
+    animation: ms-autoplay-progress 3s linear both;
+  }
+  .marketing-services-showcase.is-ms-switching .ms-dashboard-main {
+    animation: ms-preview-enter .28s ease-out both;
+  }
+}
+
+@keyframes ms-autoplay-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes ms-preview-enter { from { opacity: .6; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

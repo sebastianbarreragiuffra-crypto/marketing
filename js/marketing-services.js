@@ -183,6 +183,7 @@
       tabs[next].focus();
     });
   });
+  section.addEventListener('orbita:marketing-auto-select', event => selectService(event.detail, false));
   plans.forEach(plan => plan.addEventListener('click', () => {
     selectService(plan.dataset.msPlan);
     if (!mobileLayout.matches) return;
