@@ -4,7 +4,7 @@ Repository: https://github.com/sebastianbarreragiuffra-crypto/marketing
 
 Public website: https://orbita-marketing.pages.dev
 
-Verified on 2026-10-05: the stable Pages URL still serves an older version. The current Wrangler account has no accessible `orbita-marketing` project. Deployment requires signing in to the account that owns the existing project; do not create a duplicate. The temporary preview serves the current local files.
+Verified on 2026-10-05: this computer has not redeployed Pages. The current Wrangler account has no accessible `orbita-marketing` project. Deployment requires signing in to the account that owns the existing project; do not create a duplicate. The temporary preview serves the current local files.
 
 The project is a static website: HTML, CSS, JavaScript and local images. No build step is required. This handoff preserves the current pages, assets, mockups, design reviews and local preview/publishing scripts.
 
@@ -38,7 +38,7 @@ git pull --ff-only origin main
 When you finish work, save the edited files, then upload them:
 
 ```powershell
-git add index.html css/navigation.css
+git add index.html css/styles.css
 git commit -m "Update Orbita website"
 git push origin main
 ```
@@ -75,9 +75,9 @@ The proposed structure preserves the existing hero, places the explanation of GI
 The bullets below describe the implemented website. They do not mean the latest copy and packaging proposals have been implemented or approved. The older local rules still describe GISBA as optional; reconcile them with the latest user decisions when implementation is requested.
 
 - Keep the Órbita brand. Design at 1440 px; at 1920 px keep useful content centered with a maximum width of 1440 px. Verify desktop and mobile before publishing visual changes.
-- Keep the existing homepage hero. Its current body is hero → Marketing and Diseño Web → contact invitation, with optional GISBA mentioned below the offers. Moving that mention inside Marketing is a recorded direction, not part of the navigation fix.
-- All six pages now share Inicio, Marketing, GISBA and Hablemos, plus the same footer. `css/navigation.css` owns shared header dimensions; Software retains its approved light theme. Page bodies were preserved during this fix.
-- Booking, inquiry delivery, authentication and commercial prices remain in stand by. The homepage meeting button remains disabled until a real booking channel is supplied. Pending pages remain directly accessible but outside primary navigation.
+- The implemented visual baseline is the final commit from 2026-10-04 at 23:12 Chile time: `b8cb40e43df50cc0b421540ef5631be578e2ea99`. All six HTML pages match that commit. The next day's simplified homepage and navigation overrides were removed through a new restoration commit, preserving Git history.
+- Inicio retains its six-section layout. Marketing retains the laptop hero, dynamic service previews and revised contact card. Software retains its approved hero, consultation flow, reports and closing section. The original headers and footers are restored.
+- Booking, inquiry delivery, authentication and commercial prices remain in stand by. Precios and login remain draft pages linked by the original navigation; Automatizaciones stays outside primary navigation.
 - Marketing has exactly three main sections: the hero, the dynamic Meta Ads / Google Ads / Desarrollo Web section, and Contáctanos. The revised light contact card is now installed in the actual page, not only in the separate mockup.
 - Contact supports optional, combinable Meta Ads, Google Ads, Desarrollo Web and Software interests; optional business context and company; and one required email or phone field. Its button only reviews the inquiry locally. A receiving service has not been configured.
 - The latest Software page includes the hero, consultation flow, reports and final contact section. Its interface, conversations and metrics are illustrative.

@@ -30,7 +30,7 @@ Abre `index.html` en el navegador o inicia un servidor estático en esta carpeta
 
 Cloudflare Pages: https://orbita-marketing.pages.dev
 
-Estado verificado el 5 de octubre de 2026: ese enlace estable conserva una versión anterior. La cuenta conectada en Wrangler no muestra el proyecto `orbita-marketing`; la publicación de Pages está pendiente de acceso a la cuenta que lo contiene. No crear un proyecto duplicado. La vista temporal sí sirve los archivos actuales del computador.
+Estado verificado el 5 de octubre de 2026: no se ha realizado un despliegue de Pages desde este computador. La cuenta conectada en Wrangler no muestra el proyecto `orbita-marketing`; una nueva publicación está pendiente de acceso a la cuenta que lo contiene. No crear un proyecto duplicado. La vista temporal sí sirve los archivos actuales del computador.
 
 https://orbita-marketing-ecommerce.s-barrera651416.chatgpt.site
 
@@ -50,4 +50,4 @@ La carpeta principal contiene el código editable. Las copias de publicación y 
 
 Clona el repositorio en PC 2 y abre la carpeta `marketing`. La guía [PC2_HANDOFF.md](PC2_HANDOFF.md) incluye el estado actual, cómo ver los cambios locales y cómo volver a publicar. Antes de trabajar en cualquiera de los dos computadores, trae la última versión de `main`; al terminar, confirma y sube los cambios antes de pasar al otro.
 
-La navegación pública es la misma en las seis páginas: Inicio, Marketing, GISBA y Hablemos. `css/navigation.css` fija las proporciones compartidas y mantiene los colores de cada página. Precios, login y automatizaciones siguen pendientes y quedan fuera de la navegación principal. Las reservas y el envío de consultas no están conectados.
+La versión visual vigente se recuperó del cierre del 4 de octubre de 2026, commit `b8cb40e`. Las seis páginas coinciden con ese cierre; se retiraron los cambios de portada y navegación aplicados el día siguiente. Marketing conserva el portátil, el bloque dinámico de servicios y el contacto revisado. Precios y login siguen como maquetas; automatizaciones conserva su contenido pendiente. Las reservas, la autenticación y el envío de consultas no están conectados.
