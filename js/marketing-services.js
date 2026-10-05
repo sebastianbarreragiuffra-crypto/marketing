@@ -186,9 +186,9 @@
   plans.forEach(plan => plan.addEventListener('click', () => {
     selectService(plan.dataset.msPlan);
     if (!mobileLayout.matches) return;
-    const heading = section.querySelector('#ms-title');
-    heading.focus({ preventScroll: true });
-    section.querySelector('.ms-intro').scrollIntoView({
+    const selectedTab = tabs.find(tab => tab.dataset.msService === plan.dataset.msPlan);
+    selectedTab.focus({ preventScroll: true });
+    section.querySelector('.ms-tabs').scrollIntoView({
       behavior: reducedMotion.matches ? 'auto' : 'smooth',
       block: 'start'
     });
