@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="css/marketing-services.css?v=20261004-m2">
   <script src="js/marketing-services.js?v=20261004-m3" defer></script>
   <link rel="stylesheet" href="css/marketing-compact.css?v=20261004-2a1">
-  <script src="js/marketing-contact.js" defer></script>
+  <link rel="stylesheet" href="css/marketing-contact.css?v=20261004-c1">
+  <script src="js/marketing-contact.js?v=20261004-c1" defer></script>
   <link rel="stylesheet" href="css/marketing-autoplay.css?v=20261004-m3">
   <script src="js/marketing-autoplay.js?v=20261004-m3" defer></script>
   <link rel="stylesheet" href="css/experience-motion.css?v=20261004-x1">
@@ -219,17 +220,75 @@
       </div>
     </section>
 
-    <section class="contact section-pad" id="contacto" aria-labelledby="contact-title">
+    <section class="contact section-pad contact-proposal" id="contacto" aria-labelledby="contact-title">
       <div class="shell contact-grid">
-        <div class="contact-copy reveal"><p class="section-label"><span>03 /</span> TU PRÓXIMO PASO</p><h2 id="contact-title" tabindex="-1">Contáctanos<span aria-hidden="true">.</span></h2><p>Tu próximo proyecto empieza con una conversación. Cuéntanos qué quieres lograr y definamos el alcance de tus campañas o sitio web.</p>
-          <div class="contact-signoff"><span class="contact-signoff-line" aria-hidden="true"></span>De la primera idea al siguiente paso.</div>
+        <div class="contact-copy reveal">
+          <p class="section-label"><span>03 /</span> TU PRÓXIMO PASO</p>
+          <h2 id="contact-title" tabindex="-1">Contáctanos<span aria-hidden="true">.</span></h2>
+          <p>Cuéntanos qué necesita tu negocio y encontremos el siguiente paso.</p>
+          <div class="contact-signoff"><span class="contact-signoff-line" aria-hidden="true"></span>Primero tu necesidad. Después, la propuesta.</div>
         </div>
-        <div class="contact-card reveal">
-          <span class="contact-kicker">HABLEMOS DE TU NEGOCIO</span>
-          <div class="contact-request"><span>Tu consulta</span><strong data-contact-request>Consulta de marketing</strong></div>
-          <fieldset class="contact-service-picker"><legend>¿Qué te interesa cotizar?</legend><button class="contact-choice" type="button" data-contact-service="meta" aria-pressed="false">Meta Ads</button><button class="contact-choice" type="button" data-contact-service="google" aria-pressed="false">Google Ads</button><button class="contact-choice" type="button" data-contact-service="web" aria-pressed="false">Desarrollo Web</button></fieldset>
-          <button class="contact-submit" type="button" disabled><span data-contact-submit>Solicitar propuesta</span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
-          <small>Vista previa · Contacto todavía no habilitado.</small>
+        <div class="contact-card reveal cp-card">
+          <h3 class="cp-card-title">Hablemos de tu proyecto</h3>
+          <form id="contact-proposal-form" novalidate aria-describedby="cp-form-help">
+            <fieldset class="cp-controls" disabled>
+            <p id="cp-form-help" class="cp-form-help">Solo tu correo o teléfono es obligatorio.</p>
+            <fieldset class="cp-fieldset" aria-describedby="cp-services-help">
+              <legend>¿Qué necesitas?</legend>
+              <p id="cp-services-help" class="cp-help">Elige uno o varios servicios, o déjalo por definir.</p>
+              <div class="cp-service-grid">
+                <label class="cp-choice"><input type="checkbox" name="services" value="meta"><span>Meta Ads</span></label>
+                <label class="cp-choice"><input type="checkbox" name="services" value="google"><span>Google Ads</span></label>
+                <label class="cp-choice"><input type="checkbox" name="services" value="web"><span>Desarrollo Web</span></label>
+                <label class="cp-choice"><input type="checkbox" name="services" value="software"><span>Software</span></label>
+              </div>
+            </fieldset>
+            <div class="cp-field">
+              <label for="cp-company">Empresa o marca <span class="cp-optional">(opcional)</span></label>
+              <input id="cp-company" name="company" type="text" autocomplete="organization" maxlength="120" placeholder="Nombre de tu negocio">
+            </div>
+            <fieldset class="cp-fieldset cp-business-group" aria-describedby="cp-business-help">
+              <legend>Tipo de negocio <span class="cp-optional">(opcional)</span></legend>
+              <p id="cp-business-help" class="cp-sr-only">Puedes marcar ambas: tienda online y venta a empresas.</p>
+              <div class="cp-context-grid">
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="ecommerce"><span>Tienda online</span></label>
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="b2b" aria-label="Venta a empresas (B2B)"><span>B2B</span></label>
+                <label class="cp-choice cp-context"><input type="checkbox" name="business" value="other"><span>Otro</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="cp-fieldset cp-channel-group">
+              <legend>¿Dónde te respondemos?</legend>
+              <div class="cp-channel-grid">
+                <label class="cp-choice"><input type="radio" name="channel" value="email" checked><span>Correo</span></label>
+                <label class="cp-choice"><input type="radio" name="channel" value="phone"><span>Teléfono</span></label>
+              </div>
+            </fieldset>
+            <div class="cp-field" data-cp-channel="email">
+              <label for="cp-email">Correo electrónico <span class="cp-required">(obligatorio)</span></label>
+              <input id="cp-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="cp-error" placeholder="nombre@empresa.cl">
+            </div>
+            <div class="cp-field" data-cp-channel="phone" hidden>
+              <label for="cp-phone">Número de teléfono <span class="cp-required">(obligatorio)</span></label>
+              <input id="cp-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" disabled aria-describedby="cp-phone-help cp-error" placeholder="+56 9 1234 5678">
+              <p id="cp-phone-help" class="cp-help">Incluye el código de país.</p>
+            </div>
+            <p class="cp-error" id="cp-error" role="alert" hidden></p>
+            <button class="contact-submit cp-submit" type="submit">Revisar mi consulta <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+            <p class="cp-action-note">Vista previa · Tu consulta no se enviará.</p>
+            </fieldset>
+          </form>
+          <div id="cp-review" class="cp-review" hidden aria-labelledby="cp-review-title">
+            <h3 id="cp-review-title" tabindex="-1">Revisa tu consulta</h3>
+            <dl>
+              <div><dt>Intereses</dt><dd data-cp-summary="services"></dd></div>
+              <div><dt>Negocio</dt><dd data-cp-summary="business"></dd></div>
+              <div><dt>Empresa</dt><dd data-cp-summary="company"></dd></div>
+              <div><dt>Contacto</dt><dd data-cp-summary="contact"></dd></div>
+            </dl>
+            <p>Resumen de prueba. La consulta no se ha enviado.</p>
+            <button class="cp-edit" type="button" data-cp-edit>Volver a editar</button>
+          </div>
+          <noscript><p>Activa JavaScript para probar la vista previa. No se enviarán datos.</p></noscript>
         </div>
       </div>
     </section>
