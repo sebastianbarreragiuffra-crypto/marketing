@@ -7,11 +7,11 @@
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const mobile = window.matchMedia('(max-width: 700px)');
   const canObserve = 'IntersectionObserver' in window;
+  const interval = 3000;
   let activeIndex = tabs.findIndex(tab => tab.getAttribute('aria-selected') === 'true');
   let playing = !reduced.matches && canObserve;
   let tabsVisible = false;
   let stageVisible = false;
-  let firstMobileCycle = true;
   let timer;
   let frame;
 
@@ -27,7 +27,6 @@
     window.clearTimeout(timer);
     window.cancelAnimationFrame(frame);
     const rotating = canRotate();
-    const interval = mobile.matches ? (firstMobileCycle ? 3000 : 5000) : 7500;
     hero.style.setProperty('--hx-interval', `${interval}ms`);
     hero.classList.remove('is-rotating');
     hero.classList.toggle('is-in-view', isVisible());
@@ -40,7 +39,6 @@
       hero.classList.add('is-rotating');
       timer = window.setTimeout(() => {
         show((activeIndex + 1) % tabs.length, false);
-        if (mobile.matches) firstMobileCycle = false;
         schedule();
       }, interval);
     });
