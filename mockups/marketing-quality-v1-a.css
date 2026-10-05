@@ -1,0 +1,17 @@
+/* V1-A: content refinement within the approved Marketing brief. */
+.marketing-compact .mh-laptop figcaption {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #d9e4dc;
+  background: #020d08e6;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+@media (max-width: 1050px) {
+  .marketing-compact .ms-tabs { grid-column: 1 / -1; grid-row: 1; }
+  .marketing-compact .ms-intro { grid-row: 2; }
+  .marketing-compact .ms-tabs-note { display: none; }
+}
+@media (max-width: 760px) {
+  .marketing-compact .ms-dashboard { scroll-margin-top: 104px; }
+}
