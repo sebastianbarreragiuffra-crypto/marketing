@@ -8,6 +8,7 @@ from urllib.parse import unquote, urlsplit
 import argparse
 import hashlib
 import json
+import re
 
 from auto_publish import MEDIA_EXTENSIONS, public_files, worktrees
 
@@ -41,6 +42,29 @@ LIVE_SCRIPT = """(() => {
   check();
   setInterval(check, 1500);
 })();"""
+
+
+STYLESHEET = re.compile(r'<link\s+rel="stylesheet"\s+href="(css/[^"?]+\.css)(?:\?[^\"]*)?"\s*>')
+
+
+def inline_preview_styles(html: str, root: Path) -> str:
+    """Avoid partial styles when a tunnel drops parallel stylesheet requests.
+
+    This changes only the temporary preview response; source HTML keeps its
+    normal stylesheet links for static hosting and CSS files stay editable.
+    """
+    def replace(match: re.Match[str]) -> str:
+        relative = match.group(1)
+        if not is_allowed('/' + relative, root):
+            return match.group(0)
+        source = (root / relative).resolve()
+        if not source.is_relative_to(root) or not source.is_file():
+            return match.group(0)
+        css = source.read_text(encoding="utf-8")
+        css = css.replace('../assets/', 'assets/')
+        return f'<style data-preview-source="{escape(relative)}">\n{css}\n</style>'
+
+    return STYLESHEET.sub(replace, html)
 
 
 def is_allowed(path: str, root: Path) -> bool:
@@ -173,6 +197,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
             return
         if target.suffix == ".html":
             html = target.read_text(encoding="utf-8")
+            html = inline_preview_styles(html, root)
             html = html.replace("</body>", '<script src="./__live.js"></script>\n</body>')
             self.respond(html.encode("utf-8"), "text/html; charset=utf-8", body)
             return
