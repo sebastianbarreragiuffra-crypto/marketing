@@ -1,0 +1,40 @@
+/* Proposal isolated from product styles. Base1440; useful maximum1440 at1920. */
+.marketing-compact .contact-proposal .contact-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8%; }
+.marketing-compact .contact.contact-proposal .contact-copy > p.cp-preview-note { margin-top: 38px; font-size: 13px; line-height: 1.7; color: #a5baa9; }
+.contact-proposal .cp-card { padding: 32px; min-width: 0; }
+.contact-proposal .cp-form-help { margin: 15px 0 25px; color: #c4d0c7; font-size: 14px; line-height: 1.6; }
+.contact-proposal .cp-controls { margin: 0; padding: 0; border: 0; min-width: 0; }
+.contact-proposal .cp-fieldset { border: 0; padding: 0; margin: 0 0 22px; min-width: 0; }
+.contact-proposal .cp-fieldset legend, .contact-proposal .cp-field > label { color: #f8faf7; font-size: 15px; line-height: 1.5; font-weight: 600; }
+.contact-proposal .cp-optional, .contact-proposal .cp-required { color: #a5baa9; font-size: 12px; font-weight: 400; }
+.contact-proposal .cp-help { margin: 5px 0 12px; color: #bdcfc1; font-size: 12px; line-height: 1.5; }
+.contact-proposal .cp-service-grid, .contact-proposal .cp-channel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+.contact-proposal .cp-context-grid { display: grid; grid-template-columns: 1.15fr 1.35fr .6fr; gap: 9px; }
+.contact-proposal .cp-choice { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 12px 14px; color: #e2ebe3; border: 1px solid #607567; border-radius: 10px; cursor: pointer; font-size: 14px; line-height: 1.4; }
+.contact-proposal .cp-choice input { flex: 0 0 auto; width: 17px; height: 17px; margin: 0; accent-color: #c7f45b; cursor: pointer; }
+.contact-proposal .cp-choice:has(input:checked) { border-color: #c7f45b; background: #c7f45b; color: #14220e; }
+.contact-proposal .cp-choice:hover { border-color: #c7f45b; }
+.contact-proposal .cp-choice:focus-within { outline: 2px solid #c7f45b; outline-offset: 3px; }
+.contact-proposal .cp-choice input:focus-visible { outline: none; }
+.marketing-compact .contact-proposal .cp-choice small { display: block; margin: 2px 0 0; color: inherit; font-size: 12px; font-weight: 400; line-height: 1.4; }
+.contact-proposal .cp-field { margin: 0 0 22px; }
+.contact-proposal .cp-field > label { display: block; margin-bottom: 8px; }
+.contact-proposal .cp-field > input { width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid #607567; border-radius: 10px; background: #0c1d13; color: #f8faf7; font: inherit; font-size: 16px; }
+.contact-proposal .cp-field > input::placeholder { color: #a5baa9; opacity: 1; }
+.contact-proposal .cp-field > input:focus-visible { outline: 2px solid #c7f45b; outline-offset: 3px; }
+.contact-proposal .cp-channel-group { margin-bottom: 15px; }
+.contact-proposal .cp-channel-group legend { margin-bottom: 10px; }
+.contact-proposal .cp-error { color: #ffc8bb; font-size: 13px; line-height: 1.5; margin: -9px 0 15px; }
+.contact-proposal input[aria-invalid="true"] { border-color: #ffc8bb; }
+.marketing-compact .contact-proposal .cp-action-note { color: #a5baa9; font-size: 12px; line-height: 1.5; margin: 12px 0 0; }
+.contact-proposal .cp-review h3 { margin: 22px 0; font-size: 27px; letter-spacing: -.035em; }
+.contact-proposal .cp-review dl { margin: 0; }
+.contact-proposal .cp-review dl > div { padding: 16px 0; border-bottom: 1px solid #405447; }
+.contact-proposal .cp-review dt { color: #a5baa9; font-size: 12px; margin-bottom: 5px; }
+.contact-proposal .cp-review dd { margin: 0; font-size: 16px; overflow-wrap: anywhere; }
+.contact-proposal .cp-review p { color: #c4d0c7; font-size: 13px; line-height: 1.6; margin: 20px 0; }
+.marketing-compact .contact-proposal .cp-edit { min-height: 48px; border: 1px solid #607567; border-radius: 10px; background: transparent; color: #e2ebe3; opacity: 1; justify-content: center; }
+.contact-proposal [hidden] { display: none !important; }
+@media (max-width: 1050px) { .marketing-compact .contact-proposal .contact-grid { gap: 32px; } .contact-proposal .cp-card { padding: 24px; } .contact-proposal .cp-context-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .marketing-compact .contact-proposal .contact-grid { grid-template-columns: 1fr; gap: 28px; } .marketing-compact .contact.contact-proposal .contact-copy > p.cp-preview-note { margin-top: 22px; } }
+@media (max-width: 360px) { .contact-proposal .cp-card { padding: 18px; } .contact-proposal .cp-service-grid, .contact-proposal .cp-context-grid { grid-template-columns: 1fr; } }
