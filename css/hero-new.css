@@ -3,7 +3,7 @@
 .hx::before,.hx::after{content:"";position:absolute;z-index:-1;pointer-events:none;border-radius:50%}
 .hx::before{width:620px;height:620px;right:-300px;top:-260px;background:radial-gradient(circle,#a5f94d7a 0,#66c53537 28%,transparent 64%);filter:blur(12px)}
 .hx::after{width:650px;height:650px;left:-540px;bottom:-440px;border:1px solid #b4ff74a1;box-shadow:0 0 35px #97ee5790,0 0 100px #76db3b56}
-.hx-grid{width:min(100% - 100px,1580px);margin-inline:auto;display:grid;grid-template-columns:minmax(470px,540px) minmax(0,1fr);gap:40px;align-items:center;padding:44px 0 40px}
+.hx-grid{width:min(100% - 100px,1440px);margin-inline:auto;display:grid;grid-template-columns:minmax(420px,500px) minmax(0,1fr);gap:40px;align-items:center;padding:44px 0 40px}
 .hx-copy{max-width:580px}
 .hx h1{margin:0 0 24px;font:800 clamp(40px,3.95vw,68px)/1.02 Manrope,"DM Sans",Arial,sans-serif;letter-spacing:-.06em}
 .hx h1 em{font-style:normal;color:#c7f45b}
@@ -94,6 +94,7 @@
 .hx-steps span{color:#6f73a8}
 .hx-caption{margin:12px 0 0;text-align:center;color:#8f9b8b;font-size:12px}
 @media(max-width:1180px){.hx-grid{width:min(100% - 56px,1050px);grid-template-columns:minmax(320px,.9fr) minmax(0,1.4fr);gap:24px}.hx .button{padding:13px 16px;font-size:12px}.hx-actions{gap:8px}.hx-frame{grid-template-columns:1fr}.hx-side{display:none}.hx-panel{grid-template-columns:1fr}.hx-aside{display:none}}
+@media(min-width:901px) and (max-width:1350px){.hx-actions{flex-wrap:wrap}}
 @media(max-width:900px){.hx-grid{width:min(100% - 48px,720px);grid-template-columns:1fr;gap:36px;padding:48px 0 36px}.hx-copy{max-width:620px}.hx-tabs{margin-inline:0}}
 @media(max-width:640px){
   .hx-grid{width:min(100% - 36px,520px);gap:28px;padding:36px 0 30px}
@@ -177,8 +178,6 @@
 @media(min-width:1181px){.hx h1{white-space:nowrap}}
 @media(min-width:1181px) and (max-width:1439px){.hx-grid{grid-template-columns:minmax(380px,.7fr) minmax(0,1.3fr);gap:28px}.hx h1{font-size:clamp(40px,3.7vw,52px)}}
 
-@media(min-width:1440px){.hx-frame{zoom:1.15}}
-@media(min-width:1500px){.hx-frame{zoom:1.2}}
 
 /* Fictional company logos */
 .hx-av{display:block;flex:none;width:34px;height:34px;border-radius:10px;overflow:hidden}

@@ -3,7 +3,7 @@
 .mk::before,.mk::after{content:"";position:absolute;z-index:-1;pointer-events:none;border-radius:50%}
 .mk::before{width:600px;height:600px;right:-300px;top:-300px;background:radial-gradient(circle,#9be83a66 0,transparent 66%)}
 .mk::after{width:700px;height:420px;left:-200px;bottom:-300px;background:radial-gradient(ellipse,#8be13a50 0,transparent 66%)}
-.mk-wrap{width:min(100% - 100px,1500px);margin-inline:auto}
+.mk-wrap{width:min(100% - 100px,1440px);margin-inline:auto}
 .mk-head{text-align:center;margin-bottom:26px}
 .mk-label{margin:0 0 10px;color:#c7f45b;font-size:12px;font-weight:600;letter-spacing:.32em}
 .mk h2{margin:0 0 10px;font:800 clamp(32px,3.5vw,54px)/1.05 Manrope,"DM Sans",Arial,sans-serif;letter-spacing:-.055em}
