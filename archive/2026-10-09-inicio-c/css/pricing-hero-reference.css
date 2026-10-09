@@ -1,0 +1,121 @@
+/* Editable pricing hero. Amounts and ad previews are illustrative. */
+.pr-hero{background:var(--dark);color:var(--paper);padding:18px 0 17px}
+.pr-shell{width:min(100% - 80px,1440px);margin-inline:auto}
+.pr-kicker-row{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:13px}
+.pr-kicker{margin:0;color:var(--lime);font-size:13px;font-weight:600;letter-spacing:.14em;line-height:1.5}
+.pr-demo-badge{color:#b7beaf;border:1px solid #3d4930;border-radius:999px;padding:3px 11px;font-size:10px;line-height:1.4}
+.pr-hero h1{margin:0 0 14px;font:700 clamp(40px,4.15vw,64px)/1.08 "DM Sans",Arial,sans-serif;letter-spacing:-.055em}
+.pr-hero h1 em{color:var(--lime)}
+.pr-intro{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:18px}
+.pr-intro>p{max-width:680px;margin:0;color:#b6b8b0;font-size:18px;line-height:1.5;letter-spacing:-.025em}
+.pr-actions{display:flex;align-items:center;gap:24px;flex:none}
+.pr-meeting{display:inline-flex;align-items:center;justify-content:center;gap:13px;min-height:49px;padding:12px 23px;border-radius:999px;background:var(--lime);color:var(--dark);font-size:16px;font-weight:700;white-space:nowrap}
+.pr-meeting span{font-size:21px;font-weight:400;line-height:1}
+.pr-meeting:hover{background:#d9ff7c}
+.pr-meeting:focus-visible,.pr-hero a:focus-visible,.pr-other-services summary:focus-visible{outline:2px solid var(--lime);outline-offset:5px}
+.pr-other-services{position:relative;font-size:14px;color:#e4e5db}
+.pr-other-services summary{display:flex;align-items:center;gap:6px;list-style:none;padding:5px 0;border-bottom:1px solid #6c7065;cursor:pointer;white-space:nowrap}
+.pr-other-services summary::-webkit-details-marker{display:none}
+.pr-other-services[open] summary span{transform:rotate(180deg)}
+.pr-other-services nav{position:absolute;z-index:5;top:calc(100% + 10px);right:0;min-width:285px;display:grid;gap:0;padding:8px 14px;background:#192017;border:1px solid #455635;border-radius:12px;box-shadow:0 14px 35px #0005}
+.pr-other-services nav a{display:flex;justify-content:space-between;gap:14px;padding:12px 2px;color:var(--paper);font-size:13px;line-height:1.4}
+.pr-other-services nav a+a{border-top:1px solid #ffffff1c}
+.pr-other-services nav a:hover{color:var(--lime)}
+.pr-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,.94fr);gap:0;border-block:1px solid #ffffff18}
+.pr-channel{min-width:0;padding:20px 25px 12px 0}
+.pr-channel+.pr-channel{border-left:1px solid #ffffff18;padding-left:28px}
+.pr-channel h2{margin:0 0 5px;font:700 23px/1.25 "DM Sans",Arial,sans-serif;letter-spacing:-.025em}
+.pr-channel-description{min-height:44px;margin:0 0 10px;color:#b6b8b0;font-size:15px;line-height:1.45;letter-spacing:-.015em}
+.pr-price{display:flex;align-items:baseline;gap:6px;margin:0 0 12px;white-space:nowrap}
+.pr-price strong{font:700 37px/1.1 "DM Sans",Arial,sans-serif;letter-spacing:-.045em}
+.pr-price>span{color:#b6b8b0;font-size:14px;letter-spacing:-.02em}
+.pr-example{margin:0}
+.pr-channel:first-child .pr-example{margin-right:28px}
+.pr-example figcaption{margin:0 0 7px;color:#b3b6ac;font-size:10px;line-height:1.4;letter-spacing:.07em}
+.pr-ad-preview{display:block;width:100%;height:auto;aspect-ratio:546/432;border-radius:13px;overflow:hidden}
+.pr-tiktok-preview{border-radius:16px}
+.pr-combination{align-self:start;margin:20px 0 0 20px;min-width:0;padding:23px 23px 25px;border:1px solid #617d2e;border-radius:23px;background:#181e15}
+.pr-combination h2{margin:0 0 20px;color:var(--lime);font:600 12px/1.4 "DM Sans",Arial,sans-serif;letter-spacing:.06em}
+.pr-combination-label{margin:0 0 5px;color:#b6b8b0;font-size:14px;line-height:1.4}
+.pr-combination h3{margin:0 0 20px;font:700 19px/1.3 "DM Sans",Arial,sans-serif;letter-spacing:-.025em}
+.pr-combination .pr-price{margin-bottom:20px}
+.pr-combination .pr-price strong{font-size:34px}
+.pr-guidance{margin:0;padding-top:15px;border-top:1px solid #ffffff1c;font-size:14px;line-height:1.5;color:#b6b8b0}
+.pr-guidance strong{font-weight:400;color:var(--paper)}
+.pr-inclusions{display:flex;align-items:center;flex-wrap:wrap;gap:10px 28px;padding:14px 0 12px}
+.pr-inclusions p{margin:0;color:var(--paper);font-size:14px;line-height:1.5;letter-spacing:-.015em}
+.pr-inclusions p>span{color:#b6b8b0}
+.pr-inclusions .pr-included{display:flex;align-items:center;flex-wrap:wrap;gap:7px;color:var(--lime);font-weight:600}
+.pr-included>span{color:var(--lime)!important}
+.pr-included a{margin-left:2px;color:var(--paper);font-weight:400;border-bottom:1px solid #707465;line-height:1.4}
+.pr-illustrative{margin-left:auto;padding:5px 11px;border:1px solid #617d2e;border-radius:999px;color:var(--lime);font-size:12px;line-height:1.4}
+.pr-terms{display:flex;justify-content:space-between;gap:24px;padding-top:14px}
+.pr-terms p{margin:0;color:#b3b6ac;font-size:12px;line-height:1.5;letter-spacing:-.01em}
+.pr-terms strong{font-weight:500;color:#d4d6cc}
+.pr-terms p:first-child{max-width:810px}
+.pr-terms p:last-child{max-width:400px;text-align:right}
+@media(min-width:1600px){
+  .pr-hero{padding-top:34px;padding-bottom:34px}
+  .pr-channel{padding-block:24px}
+  .pr-channel h2{font-size:24px}
+  .pr-channel-description{font-size:16px;min-height:48px}
+  .pr-price strong{font-size:39px}
+}
+@media(max-width:1300px){
+  .pr-intro{align-items:flex-start;flex-direction:column;gap:16px}
+  .pr-intro>p{max-width:none}
+  .pr-actions{justify-content:space-between;width:100%}
+  .pr-channel{padding-right:18px}
+  .pr-channel+.pr-channel{padding-left:18px}
+  .pr-price strong{font-size:32px}
+  .pr-combination{margin-left:10px;padding:20px 17px}
+  .pr-combination .pr-price strong{font-size:30px}
+}
+@media(max-width:1050px){
+  .pr-shell{width:calc(100% - 48px)}
+  .pr-hero h1{font-size:clamp(42px,5.5vw,58px);max-width:900px}
+  .pr-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .pr-combination{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:0 30px;margin:14px 0 22px;padding:24px}
+  .pr-combination h2{grid-column:1;grid-row:1;margin-bottom:13px}
+  .pr-combination-label{grid-column:1;grid-row:2}
+  .pr-combination h3{grid-column:1;grid-row:3;margin-bottom:0}
+  .pr-combination .pr-price{grid-column:2;grid-row:1/3;margin-bottom:12px}
+  .pr-guidance{grid-column:2;grid-row:3;padding-top:13px}
+  .pr-terms{flex-direction:column;gap:10px}
+  .pr-terms p:last-child{max-width:none;text-align:left}
+}
+@media(max-width:700px){
+  .pr-shell{width:calc(100% - 36px)}
+  .pr-hero{padding-top:32px;padding-bottom:30px}
+  .pr-kicker-row{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:23px}
+  .pr-kicker{font-size:11px}
+  .pr-demo-badge{font-size:10px}
+  .pr-hero h1{font-size:clamp(37px,9vw,52px);line-height:1.09;margin-bottom:20px}
+  .pr-intro{margin-bottom:27px}
+  .pr-intro>p{font-size:16px;line-height:1.5}
+  .pr-actions{flex-direction:column;align-items:stretch;gap:18px}
+  .pr-meeting{order:-1;min-height:53px;font-size:17px}
+  .pr-other-services{align-self:flex-start;font-size:14px}
+  .pr-other-services nav{left:0;right:auto;min-width:min(285px,calc(100vw - 36px));max-width:calc(100vw - 36px)}
+  .pr-grid{grid-template-columns:1fr}
+  .pr-channel,.pr-channel+.pr-channel{padding:25px 0;border:0}
+  .pr-channel+.pr-channel{border-top:1px solid #ffffff18}
+  .pr-channel h2{font-size:25px;margin-bottom:9px}
+  .pr-channel-description{font-size:16px;min-height:0;max-width:450px;margin-bottom:19px}
+  .pr-price{margin-bottom:21px}
+  .pr-price strong{font-size:40px}.pr-price>span{font-size:16px}
+  .pr-example{max-width:460px}
+  .pr-channel:first-child .pr-example{margin-right:0}
+  .pr-example figcaption{font-size:11px}
+  .pr-combination{display:block;margin:8px 0 26px;padding:27px;border-radius:22px}
+  .pr-combination h2{font-size:13px;margin-bottom:22px}
+  .pr-combination-label{font-size:16px}
+  .pr-combination h3{font-size:23px;margin-bottom:23px}
+  .pr-combination .pr-price strong{font-size:39px}
+  .pr-guidance{padding-top:19px;font-size:16px}
+  .pr-inclusions{align-items:flex-start;flex-direction:column;gap:13px;padding:24px 0 12px}
+  .pr-inclusions p{font-size:15px}
+  .pr-illustrative{margin-left:0}
+  .pr-terms{padding-top:17px;gap:14px}
+  .pr-terms p{font-size:12px;line-height:1.6}
+}

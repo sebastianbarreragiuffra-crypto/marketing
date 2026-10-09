@@ -1,0 +1,29 @@
+/* Specific next steps without implying that the preview contact channel is live. */
+.offer-next{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:30px;align-items:center;border-top:1px solid #bfc7b5;margin-top:26px;padding-top:22px}
+.offer-next p{font-size:15px;line-height:1.5;color:#40513c;margin:0}
+.offer-next p strong{display:block;color:#1b2c1c;font-size:20px;letter-spacing:-.04em}
+.offer-next-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.offer-next-links a{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:52px;padding:12px 14px;border:1px solid #8fa585;border-radius:8px;font-size:12px;font-weight:800;line-height:1.3;color:#1e351f;background:#fafbf3;transition:background .2s,border-color .2s}
+.offer-next-links a:first-child{background:#d8f69b;border-color:#a7d866}
+.offer-next-links a:hover{background:#d9ecb6;border-color:#678f4b}
+.offer-next-links a span{font-size:18px;font-weight:400}
+.offer-next-links a:focus-visible,.method-actions a:focus-visible,.start-band-cta:focus-visible,.faq-action:focus-visible,.contact-card-choice button:focus-visible{outline:3px solid #507e30;outline-offset:3px}
+.method-actions{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-top:10px}
+.method-actions .button-primary{min-height:52px;padding:16px 22px}
+.method-actions .inline-cta{margin-top:0}
+.start-band-cta,.faq-action{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid currentColor;font-size:13px;font-weight:800;line-height:1.4;padding:10px 0}
+.start-band-cta{color:#213e25;margin-top:14px}
+.faq-action{color:#cff45e;margin-top:24px;max-width:320px}
+.start-band-cta:hover,.faq-action:hover{opacity:.72}
+.contact-card-choice strong{margin-top:22px;font-size:28px;line-height:1.15}
+.contact-card-choice p{font-size:14px;line-height:1.6;margin-bottom:20px}
+.contact-intent-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-bottom:15px}
+.contact-card .contact-choice{display:block;width:auto;min-height:42px;padding:9px 5px;border:1px solid #9cb687;border-radius:8px;background:transparent;color:#36522f;font-size:11px;line-height:1.2;text-align:center;opacity:1;cursor:pointer}
+.contact-card .contact-choice[aria-pressed="true"]{background:#d7efac;border-color:#699c46;color:#203b1d}
+.contact-card .contact-submit{margin-top:0}
+.contact-card .contact-submit:disabled{cursor:not-allowed}
+.contact-card-choice small{font-size:12px}
+@media(max-width:1050px){.offer-next{grid-template-columns:1fr;gap:14px}}
+@media(max-width:760px){.offer-next-links{grid-template-columns:1fr}.offer-next-links a{min-height:46px}.offer-next{margin-top:20px}.method-actions{align-items:flex-start}.method-actions .button-primary{min-height:48px}.faq-action{margin-top:18px}}
+@media(max-width:430px){.offer-next p strong{font-size:18px}.offer-next-links a{font-size:13px}.contact-card-choice{padding:24px}.contact-card-choice strong{font-size:25px}.contact-card .contact-choice{font-size:10px}.start-band-cta,.faq-action{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.offer-next-links a{transition:none}}

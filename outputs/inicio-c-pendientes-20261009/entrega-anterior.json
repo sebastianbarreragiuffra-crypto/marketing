@@ -1,0 +1,100 @@
+{
+  "objetivo": "Inicio: movimiento que explique los anuncios y una tarea GISBA frontal y legible. Estrategia comercial conservada.",
+  "metodo": "Webmaster local 2.7.0; exclusivamente Directorio C actualizado. Revision del mismo agente, sin A/B/Z/Flujo 2A ni subagentes.",
+  "resultado": "IMPLEMENTADO; validacion de navegador PARCIAL por controles de emulacion no disponibles.",
+  "archivos_modificados": [
+    "index.html",
+    "js/hero-carousel.js",
+    "js/landing-motion.js",
+    "css/landing-motion.css",
+    "css/hero-marketing-reference.css",
+    "css/home-offer-2a.css",
+    "css/directory-c-home.css",
+    "site-manifest.json"
+  ],
+  "propietarios": {
+    "hero": "hero-marketing-reference.css: composicion, reserva natural de las dos vistas y captions. landing-motion.css: entradas y transicion de 240 ms. hero-carousel.js: seleccion manual y entrada unica.",
+    "gisba": "home-offer-2a.css: tarea frontal a 14-16 px. directory-c-home.css: distribucion de escritorio existente, retirando la subdivision diminuta. landing-motion.js: recorrido manual finito.",
+    "faq": "Se conserva el acordeon nativo y su apertura de 220 ms ya existente; verificados teclado, indicador y foco. No se modifico su hoja compartida."
+  },
+  "cambios_visibles": [
+    "Hero sin cambio automatico ni boton de reproduccion, sin flotacion. Instagram primero, Google y TikTok despues; una entrada por carga.",
+    "Cotizacion enviada / cliente sin responder / hacer seguimiento visibles desde el inicio. Ver ejemplo solo resalta pasos, no contacta ni envia mensajes.",
+    "Empaques y cliente Constructora del Sol coherentes entre hero y Soluciones: 500 unidades, 12 de mar 10:24, cotizacion 11:03, sin respuesta hace 2 dias. Se reutilizan dos recursos existentes."
+  ],
+  "verificados": [
+    "Navegador IAB localhost, viewports 360x1000, 390x1000, 1440x1000 y 1920x1000: sin overflow horizontal, tarjetas dentro de la columna y texto legible; capturas reales, no mockups.",
+    "Pestanas con click y flechas/Home/End; aria-selected, tabindex y panel visible coherentes; foco de 2 px. Controles de 44 px o mas.",
+    "Altura del hero igual entre ambas vistas en cada ancho: {'360': [1453.609375, 1453.609375], '390': [1515.359375, 1515.359375], '1440': [665.765625, 665.765625], '1920': [670.515625, 670.515625]}. No desplazamiento por la animacion manual.",
+    "Entrada real observada en movil: principal estable, Google con retraso 240 ms y TikTok 340 ms, desplazamiento hasta 8 px. Al terminar: opacidad 1, transform none. Al volver por scroll: ninguna animacion.",
+    "Transicion manual real observada: contenido home-view-in 240 ms; marco animation none.",
+    "Secuencia real observada: quote, state, next y complete. Caja constante de 513 px en la lectura temporal de escritorio. Repeticion por Enter y click; final estable.",
+    "FAQ nativa abre/cierra por Enter, estado expandido accesible, chevron coherente y foco visible; primera respuesta conservada.",
+    "Manrope y DM Sans cargadas segun document.fonts.check. Sin errores de consola en la vista probada.",
+    "Sin animaciones infinitas observadas en el contenido; pseudo-elementos de hero, Soluciones, Marketing y FAQ sin animacion permanente.",
+    "Preservacion por comparacion con snapshot: navegacion, hero comercial, vista Software del hero, textos comerciales de Soluciones, GISBA independiente, metadatos, Marketing/FAQ/contacto/footer sin alteracion.",
+    "77 recursos preexistentes sin cambios; paginas interiores y sus recursos propios conservados. Cambios de la hoja compartida directory-c-home limitados a selectores de Inicio ausentes en Hablemos.",
+    "Sintaxis de ambos scripts correcta. Manifiesto actualizado y python site_state.py --check: COINCIDE, 83 recursos, sin faltantes ni referencias no publicas.",
+    "Sin nuevas librerias, imagenes ni fuentes. Se redujeron los propietarios de movimiento: CSS de 7373 a 2035 bytes; scripts combinados de 5171 a 4416 bytes."
+  ],
+  "pendientes": [
+    {
+      "comprobacion": "Movimiento reducido real en navegador",
+      "motivo": "Las capacidades anunciadas del IAB solo ofrecen visibility y viewport; no existe control de prefers-reduced-motion. CSS y JS revisados: contenido base visible, entradas/transiciones desactivadas y secuencia final inmediata. Falta comprobarlo con la preferencia real activada."
+    },
+    {
+      "comprobacion": "Carga real con JavaScript desactivado o fallido",
+      "motivo": "El IAB no ofrece desactivar JavaScript. Revisado en fuente: anuncios iniciales y tres pasos completos estan en HTML, FAQ nativa y controles que requieren JS inicialmente disabled. Falta comprobar la carga real sin scripts."
+    },
+    {
+      "comprobacion": "CLS de carga inicial y rendimiento cuantitativo",
+      "motivo": "Se verifico estabilidad de las interacciones y geometria reservada, pero no se ejecuto una captura instrumentada de CLS de carga, Lighthouse ni medicion de campo. No se atribuyen mejoras de velocidad o conversion."
+    },
+    {
+      "comprobacion": "Dispositivos tactiles reales y otros navegadores",
+      "motivo": "Pruebas de click y teclado en viewport movil IAB; no equivalen a una prueba en telefonos fisicos o navegadores adicionales."
+    }
+  ],
+  "no_aplica": [
+    {
+      "control": "Integraciones, contacto real, mensajes enviados, automatizaciones",
+      "motivo": "Recorrido ilustrativo local; no se habilitaron servicios ni envios. Formulario de vista previa conservado."
+    },
+    {
+      "control": "Publicacion, commit, push o despliegue",
+      "motivo": "Fuera del alcance y expresamente no autorizados."
+    },
+    {
+      "control": "Conversion, rebote, CTR o validacion con usuarios",
+      "motivo": "No hay medicion propia ni pruebas con visitantes."
+    }
+  ],
+  "comparaciones": {
+    "entorno": "Mismo navegador IAB y pagina localhost, altura 1000 px. Comparaciones GISBA con el mismo ancla de titulo; las tomas de tarjeta completa son adicionales. Las capturas no son exportaciones de mockups.",
+    "escritorio": [
+      "antes-gisba-1440.jpg",
+      "despues-comparacion-1440.jpg",
+      "despues-gisba-1440.jpg"
+    ],
+    "movil": [
+      "antes-gisba-390.jpg",
+      "despues-comparacion-390.jpg",
+      "despues-gisba-390.jpg"
+    ],
+    "hero": [
+      "antes-hero-1440.jpg",
+      "despues-hero-1440.jpg",
+      "antes-hero-390.jpg",
+      "despues-hero-390.jpg"
+    ],
+    "resto": "Capturas antes/despues a 360 y 1920 guardadas en esta misma carpeta."
+  },
+  "estado_fuente": {
+    "manifiesto": "74dc68c85e0585476198ac4af4bca1187c9beb571067480dbe4c6f3f5c9f1eb4",
+    "HEAD_conservado": "7f3c8d6fe5d4f91026aa43055b13878704cfb436",
+    "publicado": false,
+    "snapshot": "archive/2026-10-09-inicio-c"
+  },
+  "aprendizaje_metodo": "NOTHING REUSABLE: los metodos existentes ya cubren inspeccion de cascada, evidencia proporcional y limites de validacion. Webmaster no modificado.",
+  "siguiente_paso": "Comprobar preferencias reales de movimiento reducido y carga sin JS cuando el entorno lo permita; no se requieren mas cambios de diseno."
+}

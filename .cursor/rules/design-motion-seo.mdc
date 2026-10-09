@@ -1,0 +1,41 @@
+---
+description: Decisiones de layout, imágenes y movimiento por tarea para Órbita/GISBA
+alwaysApply: true
+---
+
+# Diseño y movimiento v2 — 2026-10-08
+
+## Dirección visual por página
+- Inicio responde qué contratamos, para quién, relación agencia/software y próximo paso. Marketing demuestra trabajo de campañas; Software demuestra tareas del producto; Precios permite comparar alcance e inversión.
+- Revisar el ritmo del conjunto: alternar composiciones cuando cambia la pregunta del comprador; no repetir título + tres tarjetas + dashboard en cada sección ni variar por decoración.
+- Comparar patrones pertinentes: imagen protagonista con copy lateral; escena frontal amplia con detalle ampliado; recorrido por etapas; comparación alineada; prueba con contexto de cliente. Elegir por contenido, no por moda.
+- En decisiones materiales, las alternativas deben cambiar jerarquía/recorrido/composición, no sólo colores, titulares o cantidad de tarjetas. Evaluar siempre conservar/refinar la composición actual.
+- Establecer un foco dominante por escena y permitir lectura rápida seguida de detalle opcional. Usar espacio para agrupar y separar; no agrandar huecos para aparentar calidad ni reducir texto hasta perder información de compra.
+- Contrastar título, imagen, CTA y etiquetas de ejemplo juntos. La interfaz puede tener su propia paleta funcional aprobada; mantener coherencia de marca sin recolorear pantallas aprobadas de manera automática.
+
+## Imágenes, capas y producto
+- Elegir explícitamente el recurso: fotografía de negocio/personas, anuncio, pantalla real, interfaz ilustrativa, recorte, diagrama o video. Registrar qué explica mejor que el texto y qué disponibilidad requiere.
+- Marketing: explorar creatividades/campañas y trabajo de agencia frente al portátil con métricas. Software: una tarea y próximo paso frente a un tablero completo. Son alternativas a comprobar, no reemplazos aprobados.
+- Las capas flotantes deben señalar un estado, acción o resultado conectado con la escena. Probar primero un detalle destacado; añadir más sólo si cada uno explica algo distinto. No tapar texto/controles ni flotar precios o KPI mientras se leen.
+- Mantener el producto frontal y legible. Si un recorte es ampliación ilustrativa, no hacerlo pasar por captura literal del software. Un gráfico debe responder una pregunta comercial; no añadirlo sólo para llenar espacio.
+- Crear continuidad visual entre escenas y evitar datos contradictorios. Evidencia de confianza: caso verificable, entrega real, responsable/proceso o alcance claro; nunca logos/testimonios inventados.
+- Elegir fotografía humana cuando explique contexto o confianza, con procedencia y permiso adecuados; una foto genérica de gerente no demuestra clientes reales.
+- Por activo registrar ruta/fuente, licencia si aplica, dimensiones, bytes, tamaño renderizado, encuadre móvil, DPR objetivo, variantes, prioridad de carga y original editable. Usar una miniatura apropiada para miniaturas.
+- Revisar nitidez en el tamaño final y texto esencial fuera del bitmap. Responsive significa reencuadrar/recomponer cuando hace falta; no encoger sin límite una pantalla de escritorio.
+
+## Contrato de movimiento
+- Antes de añadir efectos, inventariar los existentes y comprobar selector, disparador, cascada, estilo computado, ancho, duración, repetición y estado final. Keyframes o archivos motion no prueban ejecución.
+- Clasificar efecto: entrada para orientar; transición para preservar contexto; feedback para confirmar acción; demostración para enseñar una tarea; decorativo. Justificar el decorativo y retirarlo si compite con la lectura.
+- Evaluar entrada suave, cambio de pestaña, apertura de detalles, feedback, secuencia de tarea, capas flotantes y scroll; incorporar/conservar/descartar cada recurso según utilidad. No exigir todos en cada sección.
+- Especificar inicio → acción → resultado, disparador, duración propuesta, repetición, pausa, foco, móvil, reduced-motion y fallback estático. Para una imagen de mockup, adjuntar esta descripción; validar el movimiento requiere prototipo navegable.
+- Como punto de partida de diseño, probar feedback de 120–200 ms, transición de 180–300 ms y entrada de 300–500 ms; ajustar al recorrido observado. Son rangos propuestos, no estándares ni prueba de mejor UX.
+- Preferir estados estables y control manual para leer/comparar. Ninguna información esencial debe depender de ver una secuencia completa, hover, arrastrar o esperar un carrusel.
+- Si existe reproducción automática, comprobar controles aplicables de pausa/parada y declarar su alcance: cambiar vistas y animar elementos son comportamientos diferentes. Reduced-motion no reemplaza controles de pausa exigibles.
+- No secuestrar scroll ni imponer fijaciones largas. Sticky sólo si ayuda a comparar/navegar y no tapa contenido o foco; verificar header/anclas y teclado.
+- Preservar contenido útil si falla JavaScript. Detener trabajo fuera de vista cuando sea pertinente. Evitar una nueva librería si CSS/SVG o una secuencia sencilla resuelven el propósito.
+
+## Ficha de decisión obligatoria
+- Una sola ficha compartida por A/B/C/Z, proporcional a la fase definida en directory-c.mdc. En concepto describir intención, recurso y comportamiento; completar especificaciones de activos, compatibilidad y pruebas al implementar. Comparar movimiento frente a estático cuando sea una decisión pertinente, no como trámite en cada encargo.
+- Página/sección y pregunta del comprador; evidencia actual; alternativas; referencia puntual y adaptación; layout elegido; imagen/activo; contrato de movimiento; composición móvil; datos reales/ejemplo; prueba y criterio de aceptación/reversión.
+- Para pruebas y SEO aplicar design-validation.mdc; para investigar referencias aplicar visual-reference-library.mdc. Registrar lo aún no probado sin detener el trabajo conceptual independiente.
+- Cerrar la iteración con hasta tres prioridades y qué se conserva. Un nuevo mockup debe mostrar un delta identificable ligado al feedback; no generar la misma composición sin explicación.

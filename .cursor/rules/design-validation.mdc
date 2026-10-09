@@ -1,0 +1,46 @@
+---
+description: Protocolo de comprobación de UX, accesibilidad, SEO, activos y conversión para Directorio C
+alwaysApply: false
+---
+
+# Verificación visual y orgánica — 2026-10-08
+
+## Evidencia antes de recomendar
+- Declarar código leído, render observado, interacción probada, laboratorio, datos reales o hipótesis. VERIFICADO exige evidencia pertinente al tipo de afirmación, no sólo aprobación del agente.
+- Registrar URL/archivo activo, fecha, ancho y estado de carga. Revisar 1440/1920 y móvil 390/360 según alcance; no afirmar pruebas que no se hicieron. Una captura no cubre el recorrido completo.
+- Comparar contra baseline y preservar cambios ajenos. Al revisar un ajuste, verificar su antes/después y efectos próximos; no reabrir la arquitectura completa sin un problema material.
+- Mantener un dueño claro de cada comportamiento; comprobar overrides, selectores huérfanos, assets/versiones viejas y eventos duplicados antes de añadir otra hoja correctora.
+
+## Recorrido corto de UX y accesibilidad
+- Comprensión objetivo en menos de un minuto: sin explicación previa, preguntar qué se contrata, para quién sirve, qué incluye GISBA, quién responde consultas y dónde pedir ayuda. Registrar respuestas/dudas y primer clic; una simulación del agente no cuenta como prueba humana.
+- Comprobar lectura al tamaño renderizado y zoom/reflow; reflow a320 CSS px según criterio aplicable y excepciones, además de composición360/390. Verificar contraste de texto/controles/estados y no comunicar sólo con color. Recortar/recomponer antes de volver ilegible una UI; una captura o tamaño de fuente aislado no prueban accesibilidad.
+- Probar menú, tabs, ejemplos desplegables, FAQ, anclas, CTA, formularios/errores, teclado, Escape, foco visible/no tapado y orden de lectura. Mantener controles comprensibles sin hover y las elecciones del visitante.
+- Objetivo interno de comodidad táctil: 44 px donde corresponda; el mínimo AA de WCAG 2.2 SC2.5.8 es 24×24 CSS px o excepciones aplicables, no confundir ambos.
+- Revisar reduced-motion y alcance real de pausa: carrusel, video y animación CSS pueden necesitar controles diferentes. No inferir cumplimiento de WCAG completo a partir de una prueba puntual.
+- Información esencial de compra visible; FAQ y detalle avanzado pueden abrirse a demanda con etiqueta/estado evidentes. Establecer aperturas iniciales por contexto, sin reiniciar elecciones al redimensionar.
+
+## Rendimiento y activos
+- Inventario por imagen: bytes en disco frente a transferencia real, dimensión original/renderizada, srcset/sizes cuando proceda, formato, compresión, prioridad y lazy loading. Priorizar variantes adecuadas y legibilidad antes de comprar infraestructura.
+- Reservar dimensiones para evitar saltos. No retrasar el visual principal con lazy loading; dar prioridad alta sólo a candidatos justificados a LCP, normalmente uno o dos. No precargar indiscriminadamente ejemplos inicialmente ocultos.
+- Medir baseline/después con mismo entorno/dispositivo; separar laboratorio de campo y no inventar datos si no hay tráfico suficiente. Lighthouse no equivale a experiencia real ni conversión.
+- Referencia de campo Core Web Vitals al percentil75: LCP <=2,5 s; INP <=200 ms; CLS <=0,1. Registrar cada métrica aplicable, sin prometer rankings por cumplirlas.
+- Movimiento debe justificar su costo de carga, ejecución y mantenimiento; preferir transform/opacity cuando resuelvan el efecto y verificar que el resultado no altera lectura/layout. No aprobar una librería sólo por el ejemplo de otra web.
+
+## SEO según fase y búsqueda real
+- Declarar maqueta/local, staging o producción, dominio confirmado y propósito de indexación. No quitar noindex ni inventar canonical/sitemap para localhost durante una auditoría visual.
+- Mapa de intención: página, necesidad/búsqueda, respuesta principal, prueba y CTA. Confirmar demanda con datos disponibles; una idea de palabra clave no es volumen de búsqueda medido.
+- Revisar títulos/metadescripciones descriptivos, encabezados semánticos, contenido propio útil, enlaces internos rastreables y texto alternativo según función; evitar repetir contenido o términos para aparentar SEO.
+- No confundir crecimiento orgánico con agregar palabras o efectos. SEO necesita contenido que resuelva búsquedas y rastreo/indexación; la interfaz debe ayudar a leerlo y actuar.
+- Antes de publicación autorizada: URLs finales, códigos HTTP, robots/meta/cabeceras, canonical, sitemap cuando proceda, enlaces y Search Console. Structured data sólo si corresponde a contenido real/elegible; no prometer rich results.
+
+## Conversión, evidencia y cierre
+- Definir resultado: solicitud aceptada por destino real, reserva confirmada o oportunidad calificada. Un clic, resumen local de formulario o animación de éxito no prueban recepción.
+- Diagnósticos: CTA visto/clic, inicio/error/abandono, profundidad y dispositivo/fuente. Rebote, exit rate, tiempo y conversión son métricas distintas; documentar definición y período. No elegir un benchmark universal de buen rebote.
+- Instrumentar sólo con encargo y sin PII en eventos; comprobar duplicados y consentimiento aplicable. Con poco tráfico preferir pruebas de tareas y comparar fallos, sin declarar A/B ganador por muestras insuficientes.
+- Toda recomendación incluye impacto esperado, confianza basada en evidencia, esfuerzo, dependencia y aceptación/reversión. Corregir primero pérdida de comprensión/función, luego claridad/diferenciación y después detalle decorativo.
+- Estados por control: VERIFICADO, PENDIENTE, NO APLICA con razón, BLOQUEADO. Cerrar lo conceptual con límites; no equipararlo a implementación, SEO publicado o mejora comercial demostrada.
+
+## Fuentes primarias
+- Google: https://developers.google.com/search/docs/fundamentals/seo-starter-guide ; https://developers.google.com/search/docs/crawling-indexing/block-indexing ; https://web.dev/articles/optimize-lcp ; https://web.dev/articles/vitals
+- W3C: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html ; https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html ; https://www.w3.org/WAI/WCAG22/Techniques/css/C39
+- GA4: https://support.google.com/analytics/answer/12195621?hl=en

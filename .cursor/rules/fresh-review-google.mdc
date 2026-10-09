@@ -1,0 +1,42 @@
+---
+description: Revisión independiente sin conclusiones heredadas y medición de Google, Ads y experiencia
+alwaysApply: false
+---
+
+# Revisión fresca y evidencia - 2026-10-08
+
+## Cuándo y cómo
+- Aplicar cuando el usuario pida otra mirada, revisión sin memoria/opiniones previas o novedades de Google/Ads/UX. Complementa A/B/C/Z y Flujo 2A; no sustituye sus controles comerciales ni autoriza implementación.
+- Preparar un briefing neutral: objetivo del usuario, comprador, oferta confirmada, capacidades verificadas/pendientes, restricciones y página/archivos actuales. Excluir ganadores, puntuaciones, recomendaciones y diagnósticos anteriores de la primera lectura.
+- Conservar instrucciones obligatorias y decisiones aprobadas como límites; distinguirlas de opiniones del asistente. No presentar una propuesta anterior como aprobación ni ocultar una restricción al revisor.
+- Si se delega, usar revisores con contexto nuevo cuando esté disponible. Declarar quién inspeccionó código, imagen, navegador o sólo documentación; son agentes analíticos, no empleados de Google ni compradores reales.
+- Solicitar primero observación, evidencia local/primaria, explicación alternativa y prueba que refutaría la recomendación. Congelar esa primera respuesta antes de compartir conclusiones antiguas o de otros revisores.
+- Sólo después contrastar con A/B/C/Z, feedback pendiente y decisiones anteriores. Coincidencia entre agentes no es validación con usuarios ni una mejora medida; registrar también desacuerdos y elementos a conservar.
+- En futuras rondas, no entregar fresh-review-findings-20261008.mdc ni otros informes fechados antes de la primera respuesta independiente. Leerlos después para detectar cambios, duplicados y asuntos resueltos.
+
+## Investigación y alcance
+- Buscar documentación y publicaciones primarias vigentes. Registrar fecha de anuncio, actualización, consulta, producto, disponibilidad por navegador/cuenta/país y límites. Una guía permanente no es una novedad del año.
+- Preferir la corrección fechada más reciente a resúmenes automáticos y texto anterior contradictorio. Revalidar cronogramas y funciones antes de implementar; google-updates-20261008.mdc es evidencia fechada, no garantía futura.
+- Examinar la cadena intención/búsqueda -> anuncio o resultado -> destino/estado inicial -> oferta -> contacto recibido -> calidad comercial. Probar URL directa, recarga, móvil y navegación, no sólo clics dentro de la página.
+- A revisa comprensión; B intenta refutar alternativas; C diseña layout, imágenes, movimiento y valida tecnología; Z contrasta oferta, costo, responsabilidad y verdad comercial. No exigir cinco agentes ni fingir independencia por renombrar perspectivas.
+
+## Métricas separadas
+- CTR Ads = clics del anuncio / impresiones del anuncio. CTR orgánico = clics / impresiones en Search Console, con sus filtros/agregación. La animación de la landing ocurre después del clic; no adjudicarle mejora directa del CTR sin mecanismo y evidencia.
+- Para interacción interna definir explícitamente clics de CTA por sesiones expuestas (u otro denominador consistente); no llamarlo CTR de Google. Mantener una sola definición entre versiones.
+- GA4: rebote = sesiones sin interacción / sesiones. Verificar umbral de tiempo configurado (10 s por defecto), eventos clave y vistas. No fabricar eventos ni alargar esperas para hacer bajar rebote.
+- Resultado principal de landing: sesiones con solicitud válida recibida / sesiones elegibles. Definir aparte lead calificado, reserva y cliente. La tasa de conversión de Ads usa interacciones rastreables, no necesariamente sesiones.
+- Segmentar por fuente/campaña, dispositivo, destino, versión y período. Comprobar incidencias oficiales, configuración y cambios de tráfico antes de atribuir una variación al diseño.
+- Sin GA4/Ads/Search Console/CRM reales, registrar métricas PENDIENTES; un localhost o formulario simulado no permite concluir mejora de rebote, CTR o ventas. Visibilidad en IA no equivale a clic, ingreso ni integración de GISBA.
+
+## Diseño y prueba
+- Comparar una versión estática legible y una con movimiento funcional: cambio de estado, relación entre anuncio y consulta, foco en próxima acción. Evitar cambiar oferta durante lectura sin control del visitante.
+- Para capas flotantes especificar qué explican, anclaje, oclusión, activación, pausa, móvil y reduced-motion. Conservar el contenido y CTA sin animación ni soporte de API; no secuestrar scroll ni demorar la lectura.
+- Distinguir View Transitions básicas, extensiones por componente, scroll-driven y scroll-triggered. Verificar soporte de la función concreta; una novedad de Chrome no prueba soporte universal ni beneficio comercial.
+- Prueba de comprensión propuesta: tras 45-60 s, una persona nueva explica qué vende Órbita, qué hace GISBA, quién responde, qué se paga aparte y cómo contactar. Registrar respuestas abiertas; el plazo es un objetivo interno, no estándar de Google.
+- Elegir hasta tres cambios para la siguiente iteración. Por cada uno: evidencia -> hipótesis -> cambio mínimo -> métrica/tarea -> criterio de aceptación/reversión. Mantener bloqueos adicionales visibles.
+- No probar simultáneamente diseño, targeting, presupuesto y definición de conversión si se pretende atribuir el resultado a uno. Con poco tráfico usar tareas observadas; no declarar ganadores estadísticos con muestra insuficiente.
+- Cerrar con VERIFICADO / PENDIENTE / NO APLICA con razón / BLOQUEADO. La investigación puede concluir sin afirmar que la web quedó optimizada. Registrar si sólo se actualizaron reglas.
+
+## Fuentes de definición
+- CTR Ads: https://support.google.com/google-ads/answer/2615875?hl=en ; conversión Ads: https://support.google.com/google-ads/answer/2684489?hl=en
+- GA4: https://support.google.com/analytics/answer/12195621?hl=en ; Search Console: https://support.google.com/webmasters/answer/7576553?hl=en

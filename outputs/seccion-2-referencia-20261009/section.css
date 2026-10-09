@@ -1,0 +1,71 @@
+/* Hero caption is shared with the first, preserved section. */
+.ha-campaign-note{display:block;margin-bottom:4px;color:#e3e9db;font-size:12px;font-weight:500}
+
+/* Section 2: editable campaign example approved on 2026-10-09. */
+.home-marketing-example{--hm-paper:#f6f3eb;--hm-ink:#0b0d0b;--hm-lime:#c7f45b;--hm-olive:#476032;--hm-muted:#595e53;--hm-line:#d8d8ce;background:var(--hm-paper);color:var(--hm-ink);padding:56px 0 32px;font:16px/1.5 'DM Sans',Arial,sans-serif;scroll-margin-top:96px}
+.home-marketing-example,.home-marketing-example *{box-sizing:border-box}
+.home-marketing-example :is(p,h2,h3,figure,ul,ol){margin:0}
+.home-marketing-example .hm-wrap{width:min(calc(100% - 160px),1440px);margin-inline:auto}
+.home-marketing-example .hm-main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:0}
+.home-marketing-example .hm-copy{max-width:550px;padding-right:30px;min-width:0}
+.home-marketing-example .hm-label{font-size:12px;letter-spacing:.15em;font-weight:700;color:var(--hm-olive)}
+.home-marketing-example h2{margin-top:20px;font:800 clamp(48px,4.45vw,64px)/1.06 Manrope,Arial,sans-serif;letter-spacing:-.048em}
+.home-marketing-example h2 em{color:var(--hm-olive);font-style:normal}
+.home-marketing-example .hm-lead{font-size:19px;line-height:1.5;margin-top:27px}
+.home-marketing-example .hm-channels{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin-top:16px}
+.home-marketing-example .hm-channels li{display:flex;align-items:center;gap:8px;min-height:36px;border:1px solid var(--hm-line);border-radius:30px;padding:6px 11px;background:#fff;font-size:14px;white-space:nowrap}
+.home-marketing-example .hm-channels svg{width:18px;height:18px;flex:none}
+.home-marketing-example .hm-scope{font-size:14px;color:var(--hm-muted);margin-top:9px}
+.home-marketing-example .hm-review{font-size:16px;color:var(--hm-muted);margin-top:17px;line-height:1.6}
+.home-marketing-example .hm-meeting{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:58px;margin-top:29px;padding:16px 28px;background:var(--hm-lime);border-radius:32px;color:var(--hm-ink);font-size:17px;font-weight:700;text-decoration:none;transition:background-color .15s}
+.home-marketing-example .hm-meeting:hover{background:#b9e84c}
+.home-marketing-example :is(.hm-meeting,.hm-secondary a):focus-visible{outline:3px solid var(--hm-olive);outline-offset:5px}
+.home-marketing-example .hm-meeting-note{font-size:13px;color:var(--hm-muted);margin-top:15px;line-height:1.6}
+.home-marketing-example .hm-example{min-width:0}
+.home-marketing-example .hm-example-intro{margin-bottom:16px}
+.home-marketing-example .hm-example-intro p:first-child{font-size:13px;line-height:1.6;color:var(--hm-muted);letter-spacing:.04em}
+.home-marketing-example .hm-example-intro strong{color:var(--hm-olive);font-size:11px;letter-spacing:.14em}
+.home-marketing-example .hm-example-intro p+p{font-size:18px;line-height:1.5;font-weight:600;margin-top:5px}
+.home-marketing-example .hm-example-body{display:grid;grid-template-columns:340px minmax(0,1fr);gap:30px;align-items:center}
+.home-marketing-example .hm-post{min-width:0;overflow:hidden;border:1px solid #d7d7ce;border-radius:16px;background:#fff;box-shadow:0 16px 26px -22px #10181066}
+.home-marketing-example .hm-account{display:flex;align-items:center;gap:10px;min-height:49px;padding:9px 12px;font-size:13px;line-height:1.2}
+.home-marketing-example .hm-account strong{display:block;font-size:14px}
+.home-marketing-example .hm-account div>span{display:block;color:#666;font-size:12px}
+.home-marketing-example .hm-avatar{display:grid;place-items:center;flex:none;width:32px;height:32px;border-radius:50%;background:#263b26;color:var(--hm-lime);border:2px solid #718c36;box-shadow:inset 0 0 0 2px #fff;font-weight:700;font-size:12px}
+.home-marketing-example .hm-dots{margin-left:auto;font-size:22px;color:#666;line-height:1}
+.home-marketing-example .hm-creative{display:grid;grid-template-columns:minmax(0,.49fr) minmax(0,.51fr);background:#263b26;height:340px}
+.home-marketing-example .hm-ad-copy{min-width:0;padding:24px 17px 21px;display:flex;flex-direction:column;color:#f8faf0}
+.home-marketing-example .hm-ad-label{font-size:10px;font-weight:700;letter-spacing:.15em;color:#d5e4cd}
+.home-marketing-example .hm-ad-title{position:relative;font:800 27px/1.06 Manrope,Arial,sans-serif;letter-spacing:-.045em;margin-top:14px}
+.home-marketing-example .hm-number{display:inline-grid;place-items:center;flex:none;width:19px;height:19px;border-radius:50%;background:var(--hm-lime);color:#263b26;font:700 11px/1 'DM Sans',Arial,sans-serif;letter-spacing:0;vertical-align:middle}
+.home-marketing-example .hm-ad-title .hm-number{position:absolute;right:-7px;top:15px}
+.home-marketing-example .hm-ad-detail{margin-top:auto;padding-top:9px;border-top:1px solid #53664e;font-size:13px;color:#d5e4cd}
+.home-marketing-example .hm-creative img{display:block;min-width:0;width:100%;height:100%;object-fit:cover;object-position:60% 50%}
+.home-marketing-example .hm-ad-action{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;padding:8px 12px;background:#f3f3f3;font-size:14px;font-weight:700}
+.home-marketing-example .hm-ad-action>span:first-child{display:flex;align-items:center;gap:8px}
+.home-marketing-example .hm-ad-action>span:last-child{font-size:24px;font-weight:400;line-height:1}
+.home-marketing-example .hm-post-footer{padding:12px;font-size:13px;line-height:1.45}
+.home-marketing-example .hm-social-icons{display:flex;gap:12px;margin-bottom:8px}
+.home-marketing-example .hm-social-icons svg{width:22px;height:22px;fill:none;stroke:var(--hm-ink);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.home-marketing-example .hm-social-icons .hm-save{margin-left:auto}
+.home-marketing-example .hm-annotations h3{font-size:14px;line-height:1.5;font-weight:700;margin-bottom:15px;font-family:'DM Sans',Arial,sans-serif;letter-spacing:0}
+.home-marketing-example .hm-annotations ol{display:grid;gap:17px;padding:0;list-style:none}
+.home-marketing-example .hm-annotations li{display:flex;align-items:flex-start;gap:12px;font-size:15px;line-height:1.4}
+.home-marketing-example .hm-annotations li>.hm-number{margin-top:2px}
+.home-marketing-example .hm-annotations strong{font-weight:700}
+.home-marketing-example .hm-annotations p{color:var(--hm-muted)}
+.home-marketing-example .hm-conditions{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1.05fr) minmax(0,1fr);gap:40px;border-top:1px solid var(--hm-line);padding-top:22px;margin-top:24px;align-items:start}
+.home-marketing-example .hm-condition{display:flex;align-items:flex-start;gap:14px;min-width:0}
+.home-marketing-example .hm-condition-icon{display:grid;place-items:center;flex:none;width:36px;height:36px;background:#263b26;color:var(--hm-lime);border-radius:10px}
+.home-marketing-example .hm-condition-icon svg{width:20px;height:20px}
+.home-marketing-example .hm-condition strong{display:block;font-size:16px;line-height:1.45}
+.home-marketing-example .hm-condition p{font-size:14px;line-height:1.5;color:var(--hm-muted);margin-top:3px}
+.home-marketing-example .hm-condition p+p{margin-top:2px}
+.home-marketing-example .hm-secondary{align-self:center;text-align:right;font-size:13px;line-height:1.65}
+.home-marketing-example .hm-secondary p+p{margin-top:4px}
+.home-marketing-example .hm-secondary a{color:var(--hm-ink);text-decoration:underline;text-underline-offset:4px}
+@media(min-width:1600px){.home-marketing-example .hm-main{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}.home-marketing-example .hm-copy{max-width:590px}.home-marketing-example .hm-example-body{grid-template-columns:360px minmax(0,1fr);gap:32px}.home-marketing-example .hm-creative{height:360px}}
+@media(max-width:1200px){.home-marketing-example .hm-wrap{width:calc(100% - 80px)}.home-marketing-example .hm-main{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}.home-marketing-example .hm-copy{padding-right:0}.home-marketing-example h2{font-size:48px}.home-marketing-example .hm-example-body{grid-template-columns:minmax(0,1fr);gap:20px}.home-marketing-example .hm-post{width:min(100%,340px);margin-inline:auto}.home-marketing-example .hm-annotations ol{grid-template-columns:1fr 1fr;gap:14px}.home-marketing-example .hm-annotations h3{text-align:center;margin-bottom:10px}.home-marketing-example .hm-conditions{gap:24px;grid-template-columns:1fr 1fr}.home-marketing-example .hm-secondary{grid-column:1/-1;text-align:left}}
+@media(max-width:760px){.home-marketing-example{padding:38px 0 30px}.home-marketing-example .hm-wrap{width:calc(100% - 44px)}.home-marketing-example .hm-main{grid-template-columns:minmax(0,1fr);gap:32px}.home-marketing-example h2{font-size:clamp(35px,9.6vw,48px);max-width:510px;line-height:1.1;margin-top:16px}.home-marketing-example .hm-lead{font-size:17px;margin-top:22px}.home-marketing-example .hm-channels{gap:7px;margin-top:14px}.home-marketing-example .hm-channels li{font-size:13px;padding:6px 10px;gap:6px}.home-marketing-example .hm-review{font-size:15px}.home-marketing-example .hm-meeting{font-size:16px;margin-top:24px;min-height:54px}.home-marketing-example .hm-meeting-note{font-size:13px}.home-marketing-example .hm-example-intro p:first-child{font-size:12px;line-height:1.7}.home-marketing-example .hm-example-intro p+p{font-size:16px}.home-marketing-example .hm-example-body{gap:20px}.home-marketing-example .hm-annotations h3{text-align:left;font-size:15px}.home-marketing-example .hm-annotations li{gap:9px;font-size:14px}.home-marketing-example .hm-conditions{grid-template-columns:minmax(0,1fr);gap:23px;margin-top:28px;padding-top:24px}.home-marketing-example .hm-condition strong{font-size:15px}.home-marketing-example .hm-secondary{grid-column:auto;font-size:14px;text-align:left}.home-marketing-example .hm-condition br{display:none}}
+@media(max-width:350px){.home-marketing-example .hm-wrap{width:calc(100% - 36px)}.home-marketing-example .hm-channels{gap:7px}.home-marketing-example .hm-channels li{font-size:12px;padding-inline:8px}.home-marketing-example .hm-creative{height:310px}.home-marketing-example .hm-ad-copy{padding-inline:13px}.home-marketing-example .hm-ad-title{font-size:23px}.home-marketing-example .hm-ad-label{font-size:9px;letter-spacing:.1em}.home-marketing-example .hm-ad-title .hm-number{right:-5px}.home-marketing-example .hm-post-footer{font-size:12px}.home-marketing-example .hm-annotations ol{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.home-marketing-example .hm-meeting{transition:none}}

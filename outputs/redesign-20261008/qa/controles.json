@@ -1,0 +1,141 @@
+{
+  "mode": "SAME_AGENT_CHALLENGE",
+  "memory_used": false,
+  "implementation": "LOCAL; sin commit, push, publicación ni despliegue",
+  "source": "Páginas raíz vigentes; comparación con revision-abcz-sin-memoria.json del 2026-10-08",
+  "already_resolved": [
+    "Público ecommerce/B2B",
+    "GISBA incluido y ruta independiente",
+    "TikTok en pestañas y formulario",
+    "Pestañas manuales",
+    "Tarifas centralizadas en Precios"
+  ],
+  "alternatives": [
+    {
+      "concept": "Actual refinada",
+      "gain": "Menor cambio",
+      "loss": "Conserva tres frentes simultáneos en servicios y cuatro indicadores en reportes"
+    },
+    {
+      "concept": "Resumen primero",
+      "selected": true,
+      "gain": "Campañas y condiciones primero; un ejemplo legible; detalle opcional",
+      "loss": "Ficha, otras consultas y calidad requieren apertura opcional"
+    },
+    {
+      "concept": "Caso guiado completo",
+      "gain": "Responsabilidades concretas",
+      "loss": "Reduce la visibilidad de otras ofertas; exige capacidades confirmadas"
+    }
+  ],
+  "scoring": "NO APLICA como ranking comercial definitivo: tarifas, elegibilidad y funciones pendientes. Elección de distribución autorizada por el encargo, sin afirmar superioridad medida.",
+  "perspectives": {
+    "A": {
+      "status": "VERIFICADO",
+      "finding": "Campañas separadas de Web; información básica de compra visible y CTA reunión conservado; comprensión real pendiente"
+    },
+    "B": {
+      "status": "VERIFICADO",
+      "finding": "Se compararon tres alternativas; eliminado selector duplicado de servicios y sistema miniatura; FAQ y reportes preservados"
+    },
+    "C": {
+      "status": "VERIFICADO para interfaz",
+      "finding": "Estados diferenciados, prioridad marcada por equipo, sin visto; escenas propuestas y controles de envío deshabilitados. No verifica integraciones"
+    },
+    "Z": {
+      "status": "VERIFICADO para coherencia de textos",
+      "finding": "Agencia/proveedor separados; un usuario incluido, adicionales y publicidad aparte; GISBA independiente y Web por proyecto. No se resuelven tarifas"
+    }
+  },
+  "changes": {
+    "marketing": [
+      "Hero y H1 conservados",
+      "Servicios reorganizados en campañas + Web por proyecto + capacidad a medida",
+      "Un anuncio por pestaña; control manual con flechas/Home/End",
+      "Alcance y condiciones visibles, enlace secundario a Precios",
+      "Añadido noindex faltante conforme al estado de revisión"
+    ],
+    "software": [
+      "Hero y H1 conservados; contratación abreviada",
+      "Una conversación visible; otras consultas y ficha en detalle opcional",
+      "Próxima acción y responsable visibles",
+      "Tres indicadores; calidad y definiciones en desplegable",
+      "Móvil resume hero y evita repetir conversación"
+    ],
+    "precios": [
+      "Comparación sin repetir inclusiones por canal; condiciones comunes visibles",
+      "Anuncios opcionales",
+      "Planes compactados sin cambiar usuarios, importes o límites",
+      "Recomendado retirado",
+      "Desglose, mini FAQ y cierre conservados"
+    ]
+  },
+  "verified": [
+    "Navegador 1440/1920/390; sin overflow horizontal",
+    "Imágenes observadas sin fallos y fuentes cargadas",
+    "Un H1; sin IDs duplicados",
+    "Enlaces locales y anclas sin faltantes",
+    "Pestañas Home/End y foco",
+    "Desplegables anuncios/calidad/ficha/FAQ/funciones con teclado",
+    "Contacto existente en vista previa y botón de envío deshabilitado",
+    "noindex en tres páginas",
+    "Sintaxis de scripts Marketing",
+    "Manifiesto coincide",
+    "Cifras del reporte: 121464+80976=202440; 60%+40%=100%; 202440/42=4820; 202440/24=8435",
+    "Navegación móvil: menú abre y enlace Precios navega",
+    "Contraste de combinaciones principales de texto nuevas >=4.5:1"
+  ],
+  "pending": [
+    "Prueba con visitantes nuevos de comprensión en 60 segundos",
+    "Tarifas, modalidades, alcance y soporte",
+    "Diferencia $25.000 por acceso Marketing y $20.000 GISBA independiente",
+    "Bot, límites y cobro de WhatsApp; no interpretar 500/mes",
+    "Funciones, conexiones y puesta en marcha de GISBA",
+    "Conexión real de formulario/calendario y verificación de recepción",
+    "Hosting, dominio y mantenimiento Web"
+  ],
+  "not_applicable": [
+    "Publicación/commit/push: expresamente excluidos",
+    "Exportación de mockup PNG 1440x810: se entregan capturas reales JPEG, no mockups",
+    "Revisión independiente: no autorizada",
+    "Medición de conversión: sin datos"
+  ],
+  "blocked": [],
+  "screenshots": "qa/*-1440.jpg, *-1920.jpg, *-390.jpg; viewport indicado, imagen de contenido puede excluir scrollbar",
+  "modified_active_files": [
+    "marketing.html",
+    "software.html",
+    "precios.html",
+    "js/marketing-services.js",
+    "css/compra-clara-20261008.css",
+    "site-manifest.json"
+  ],
+  "backup": "archive/2026-10-08-jerarquia-tres-paginas/",
+  "evidence": [
+    "navegador.json",
+    "estructura.json"
+  ],
+  "limits": "La captura no prueba software funcional, recepción, conversión ni comprensión. Conservados cambios previos en checkout.",
+  "contrast_new_text": [
+    {
+      "foreground": "#48622e",
+      "background": "#f6f3eb",
+      "ratio": 6.18
+    },
+    {
+      "foreground": "#0b0d0b",
+      "background": "#c7f45b",
+      "ratio": 15.34
+    },
+    {
+      "foreground": "#bbc3b4",
+      "background": "#0b0d0b",
+      "ratio": 10.75
+    },
+    {
+      "foreground": "#c7f45b",
+      "background": "#0b0d0b",
+      "ratio": 15.34
+    }
+  ]
+}

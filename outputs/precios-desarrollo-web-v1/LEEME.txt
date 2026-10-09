@@ -1,0 +1,46 @@
+PROPUESTA DE PRECIOS · DESARROLLO WEB · V1
+Fecha: 2026-10-06
+
+ALCANCE
+Copia separada de Precios. Ningún archivo existente se modificó. La página precios.html y el trabajo previo en Inicio, Marketing, Software, CSS/JS y reglas se conservaron. Los 65 archivos del baseline tienen los mismos hashes.
+
+Orden en la copia: Hero Marketing por canal, Mensualidad, GISBA independiente, Desarrollo web, FAQ/reunión oscuro y footer heredado. La página actual no tenía FAQ: el bloque oscuro es nuevo y propuesto en esta copia.
+
+ARCHIVOS NUEVOS
+precios-propuesta.html: copia completa navegable de Precios con el bloque nuevo y FAQ oscuro.
+section.html y section.css: sección Web + FAQ, contenido editable y estilos propios.
+previews.html y previews.css: escenas ficticias de Clínica Brisa, Constructora Andes y Paso Norte, con navegador + celular y SVG propios.
+mockup.html: lámina aislada de Desarrollo web para revisión/exportación.
+orbita-precios-desarrollo-web-v1-1440.png: exportación de 1440 × 1392 px reales; original JPEG conservado.
+faq-propuesto-v1-1440.png: captura de la transición Web → FAQ/reunión con navegación y footer como contexto; 1440 × 1342 px.
+baseline.json y verificacion.json: preservación y resultados de controles.
+
+VERIFICADO
+Render a 1440, 1920 y 390 px. Sin desbordamiento horizontal. A 1920 el contenido ocupa 1440 px centrados.
+En escritorio las cuatro columnas tienen la misma posición vertical y ancho ~199 px a 1440. Los doce ítems ocupan una sola línea y sus tres filas coinciden en altura entre columnas. Nota de Google en una línea, sin desbordarse.
+Paleta, Manrope/DM Sans, marfil y FAQ oscuro. No se usa lima como texto sobre marfil: las marcas de check lima tienen fondo oscuro.
+Tres previews con etiquetas ilustrativas, celulares superpuestos, SVG nativos y sin imágenes externas ni interfaces/logos reales. Tres zapatillas de distinto color, cada una con precio y botón ilustrativo.
+GISBA: No incluido. Hosting y dominio: Por definir. Mantenimiento: Por definir.
+Montos $990.000 y $890.000 y productos ficticios cubiertos por nota de ejemplos ilustrativos en CLP, no tarifas comerciales. Marcas ficticias; no son trabajos de Órbita.
+14 botones nuevos deshabilitados (12 en previews, Web y FAQ). No se añaden enlaces de acción, formularios, scripts ni manejadores de eventos dentro de las nuevas secciones. El FAQ nativo abre/cierra; recepción de reunión no validada.
+HTTP local 200 para propuesta. Rutas de HTML/CSS de propuesta: HTTP 404 en el túnel público. Precios público conserva sus tres secciones previas. No publicación ni despliegue.
+
+PENDIENTE
+Confirmación comercial de tipos de proyecto y lo incluido: diseño, rondas de cambios, plugins, registro/SEO, carga, conexiones Ads y medición. La maqueta no valida estas capacidades.
+Hosting, dominio, mantenimiento y destino real de reunión. El CTA queda deshabilitado y se marca pendiente.
+Los CTA heredados de las tres secciones previas se conservan; su presencia no valida reservas ni recepción real.
+Plazos, propiedad, soporte o garantías: no se definen ni prometen en esta propuesta.
+
+NO APLICA
+Commit, push, despliegue y publicación: expresamente fuera del encargo.
+Rediseñar ofertas, páginas adyacentes o los tres bloques previos: fuera del alcance.
+Nuevos conceptos alternativos o puntuación comercial: el usuario definió la composición y contenido de esta propuesta visual; no se congela una nueva arquitectura ni se estiman conversiones.
+
+REVISIÓN 2A / A / B / Z / C
+A/B/Z, SAME_AGENT: Web se distingue por proyecto único, separado de Marketing, sin GISBA; aclaraciones de inclusión y pendientes permanecen visibles. Automatizaciones es un cierre secundario a medida. No se retiran responsabilidades ni información de las secciones previas.
+C, INDEPENDENT_REVIEW real de código/condiciones: un subagente leyó solicitud, reglas y archivos de propuesta; no detectó objeciones comerciales materiales. Señaló originalmente ausencia de FAQ, necesidad de bloquear CTA y evitar publicación accidental; se resolvió con FAQ propuesto, botones deshabilitados y carpeta no expuesta. Su lectura no valida el render; el agente principal lo comprobó en navegador.
+Un segundo subagente construyó solo los previews en archivos nuevos. No se simulan votos o independencia de toda la revisión.
+
+VISTA PRIVADA
+http://127.0.0.1:8771/outputs/precios-desarrollo-web-v1/precios-propuesta.html#pw-desarrollo-web
+Servidor ligado a 127.0.0.1:8771, sesión 70771, sin túnel. El preview público existente no admite rutas outputs/. No mover estos archivos a rutas públicas ni modificar precios.html sin autorización posterior de implementación/publicación.

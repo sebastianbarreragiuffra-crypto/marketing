@@ -1,0 +1,33 @@
+/* Hero 2A: the visual shows the actual division of work in the offer. */
+.commerce-hero-grid{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:7%;padding-top:84px;padding-bottom:84px}
+.commerce-copy h1{max-width:700px;font-size:clamp(45px,4.65vw,71px);line-height:1.07}
+.commerce-copy>p:not(.eyebrow){max-width:590px}
+.commerce-copy .hero-actions{flex-wrap:wrap}
+.hero-system{width:100%;min-width:0;padding:18px;background:#1c281c;border:1px solid #475b42;border-radius:14px;box-shadow:0 34px 80px #0005}
+.hero-system-top{display:flex;justify-content:space-between;gap:12px;margin:2px 3px 16px;color:#c8dcba;font-size:10px;font-weight:800;letter-spacing:.14em}
+.hero-service-card,.hero-software-card{position:relative;overflow:hidden;border-radius:10px;padding:23px 25px 24px}
+.hero-service-card{background:#edf0e4;color:#19231b}
+.hero-software-card{background:#c7f45b;color:#17231b;margin-top:10px}
+.hero-card-heading{display:flex;align-items:center;gap:10px;font-size:9px;font-weight:800;letter-spacing:.1em}
+.hero-card-heading>span:last-child{margin-left:auto;font-size:19px;font-weight:400}
+.hero-card-index{display:grid;place-items:center;width:24px;height:24px;border:1px solid currentColor;border-radius:50%;font-size:9px;flex:none}
+.hero-service-card>strong,.hero-software-card>strong{display:block;position:relative;z-index:1;font:750 clamp(22px,2.1vw,32px)/1.1 Manrope,Arial,sans-serif;letter-spacing:-.055em;margin:19px 0 22px}
+.hero-service-art{display:grid;grid-template-columns:auto 1fr;gap:9px 16px;align-items:end;border-top:1px solid #b5c2ae;padding-top:15px}
+.hero-ad-chip{font-size:8px;font-weight:800;letter-spacing:.09em;border:1px solid #718663;border-radius:99px;padding:6px 8px;white-space:nowrap}
+.hero-ad-sheet{grid-row:span 2;display:grid;grid-template-columns:1.6fr .8fr .8fr;gap:5px;align-items:stretch;height:65px;background:#dbe6cc;border:1px solid #a6b89b;border-radius:5px;padding:7px}
+.hero-ad-sheet i{display:block;background:linear-gradient(145deg,#6e8d5a,#304c36);border-radius:2px}
+.hero-ad-sheet i:nth-child(2){background:linear-gradient(155deg,#b5ce89,#58794d)}
+.hero-ad-sheet i:nth-child(3){background:linear-gradient(150deg,#a9c9a3,#416345)}
+.hero-ad-caption{font-size:8px;font-weight:700;letter-spacing:.04em;line-height:1.4}
+.hero-software-card>strong{margin-bottom:17px}
+.hero-inbox{display:grid;grid-template-columns:1fr;gap:5px;background:#e8f6c7;border:1px solid #92b85f;border-radius:7px;padding:7px}
+.hero-inbox-row{display:grid;grid-template-columns:8px 1fr auto;gap:9px;align-items:center;background:#f9fbe9;border-radius:4px;padding:8px 10px;font-size:10px;font-weight:700}
+.hero-inbox-row small{font-size:9px;color:#637f4a}
+.hero-inbox-dot{width:7px;height:7px;background:#48692f;border-radius:50%}
+.hero-inbox-row:last-child{background:#172b1d;color:#eff9df}
+.hero-inbox-row:last-child .hero-inbox-dot{background:#c7f45b}
+.hero-inbox-row:last-child small{color:#c7f45b}
+.hero-system figcaption{color:#adbea5;font-size:10px;line-height:1.5;margin:13px 3px 1px}
+@media(max-width:1000px){.commerce-hero-grid{gap:4%}.commerce-copy h1{font-size:clamp(40px,4.8vw,58px)}.hero-service-card,.hero-software-card{padding:18px}.hero-card-heading{font-size:8px}}
+@media(max-width:760px){.commerce-hero-grid{grid-template-columns:1fr;gap:37px;padding-top:58px;padding-bottom:46px}.commerce-copy h1{max-width:620px;font-size:clamp(43px,8.4vw,62px)}.commerce-copy .hero-actions{gap:18px}.hero-system{max-width:580px;margin-inline:auto}.hero-service-card>strong,.hero-software-card>strong{font-size:clamp(23px,6vw,31px)}}
+@media(max-width:430px){.hero-system{padding:10px}.hero-service-card,.hero-software-card{padding:16px}.hero-card-heading{gap:7px;font-size:7px}.hero-service-art{grid-template-columns:1fr}.hero-ad-sheet{grid-row:auto}.hero-ad-chip,.hero-ad-caption{justify-self:start}}

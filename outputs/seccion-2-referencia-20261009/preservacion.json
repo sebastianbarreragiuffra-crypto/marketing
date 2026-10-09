@@ -1,0 +1,16 @@
+{
+  "changed_existing_files": [
+    "index.html",
+    "site-manifest.json",
+    ".preview-sync/live-preview.log",
+    "css/directory-c-home.css",
+    "css/home-offer-2a.css"
+  ],
+  "hero_identical": true,
+  "following_sections_identical": true,
+  "duplicate_ids": [],
+  "old_section_removed": true,
+  "new_section_count": 1,
+  "other_pages_identical": true,
+  "photo_bytes": 137766
+}

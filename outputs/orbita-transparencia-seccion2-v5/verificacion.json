@@ -1,0 +1,31 @@
+{
+  "VERIFICADO": {
+    "archivo": "C:\\Users\\SEBAS\\Desktop\\marketing\\outputs\\orbita-transparencia-seccion2-v5\\orbita-transparencia-seccion2-v5-1440.png",
+    "formato": "PNG",
+    "dimensiones": [
+      1440,
+      960
+    ],
+    "original": [
+      1536,
+      1024
+    ],
+    "textos": "Comprobación visual completa; todos los textos requeridos presentes, sin cortes.",
+    "aritmetica": {
+      "roas": 3.2,
+      "costo_formulario": 4896.0
+    },
+    "etiquetas_ilustrativas": true,
+    "ejemplos_separados": true,
+    "archivos_web_intactos": 69
+  },
+  "PENDIENTE": [
+    "Capacidad de reporte en GISBA",
+    "Ubicación de la sección GISBA",
+    "Validación responsive e interacción: esta entrega solo es una imagen"
+  ],
+  "NO_APLICA": [
+    "Edición de web, publicación, commit/push",
+    "Pruebas con usuarios: no realizadas"
+  ]
+}

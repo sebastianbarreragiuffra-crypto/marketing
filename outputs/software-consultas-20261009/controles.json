@@ -1,0 +1,16 @@
+{
+  "review": "SAME_AGENT, delta de apertura inicial.",
+  "initial": {
+    "examples": 3,
+    "open": true,
+    "overflow": false,
+    "recordOpen": false
+  },
+  "keyboard": {
+    "closed": false,
+    "reopened": true
+  },
+  "manifest": "VERIFICADO: coincide, sin referencias faltantes.",
+  "scope": "Solo atributo open en purchase-other-queries y actualización de manifiesto. Variante móvil y ficha de prioridad conservadas.",
+  "notApplicable": "Rediseño, nuevas imágenes, animaciones, SEO y rendimiento: no se modifican en este ajuste."
+}

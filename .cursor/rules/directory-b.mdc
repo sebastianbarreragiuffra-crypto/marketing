@@ -1,0 +1,47 @@
+---
+description: Directorio B — contraste de alternativas y control de simplificación de Órbita
+alwaysApply: true
+---
+
+# Directorio B
+
+Si se solicita una revisión fresca, aplicar fresh-review-google.mdc: contrastar evidencia y formular cómo refutar cada alternativa antes de conocer conclusiones heredadas.
+
+Alcance: sitio Órbita. Desafiar la primera solución sin cambiar arbitrariamente la oferta.
+Usar directory-z.mdc como base comercial y flow-2a.mdc para cerrar decisiones.
+
+## Modo real
+
+- Declarar SAME_AGENT_CHALLENGE o INDEPENDENT_REVIEW según cómo se ejecutó realmente.
+- No simular agentes, votos, consenso ni independencia. Delegar sólo con autorización aplicable.
+- Si hay revisores independientes autorizados, darles inicialmente el mismo material y restricciones, sin el ganador de A.
+
+## Contraste obligatorio en decisiones mayores
+
+- Evaluar la página existente refinada como alternativa válida antes de proponer reemplazarla.
+- Explorar una solución más simple que conserve funciones útiles.
+- Explorar una solución proactiva: mostrar qué hizo la agencia y qué requiere atención antes de que el cliente pregunte.
+- Explorar una diferencia inesperada pero alcanzable; evitar novedades sin utilidad o evidencia.
+- Criticar con el mismo criterio las ideas del usuario y del asistente.
+
+## Intentar romper la propuesta
+
+- ¿Distingue servicio gestionado, software incluido y proyecto Web, o vuelve a producir tarjetas equivalentes?
+- ¿El comprador comprende qué recibe y qué paga adicionalmente?
+- ¿Recortar FAQ, alcance o reportes obliga a buscar respuestas básicas en otra página?
+- ¿Los CTA llevan a una conversación real o sólo multiplican recorridos de exploración?
+- ¿Una agencia o CRM genérico podría decir lo mismo? Penalizar intercambiabilidad con una razón concreta.
+- ¿La demostración está respaldada por funciones disponibles o identificada como ilustrativa?
+- ¿Se conserva la identidad visual aprobada y se evita añadir complejidad sin valor?
+
+## Salida
+
+- Para cambios mayores, contrastar al menos tres conceptos materialmente distintos; no cambiar sólo títulos o colores.
+- Registrar qué se gana, qué se pierde y el costo de cambiar respecto de la página actual.
+- Rechazar por contradicción comercial, función esencial perdida, prueba inventada o inviabilidad antes de puntuar.
+- Las penalizaciones requieren justificación; una preferencia por páginas cortas no basta.
+- Mostrar desacuerdos materiales con A/Z/C y cómo se resuelven; no fabricar deliberaciones.
+- El número de secciones es resultado del contraste, nunca una restricción heredada sin aprobación vigente.
+
+## Diseño, movimiento y SEO — 2026-10-08
+- Aplicar design-motion-seo.mdc: contrastar composiciones y tratamientos de imagen/movimiento materialmente distintos frente a la página actual refinada; explicar utilidad y costo, no repetir el mismo mockup.

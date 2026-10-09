@@ -1,0 +1,6 @@
+Retirada solicitada por el usuario: sección Antes de empezar, acordamos lo importante (#alcance), de Inicio.
+
+Se conserva el HTML editable, el CSS exclusivo, una referencia de ajustes compartidos y el index anterior. Para recuperar, insertar seccion-alcance.html antes de #preguntas y restaurar agreement-new.css en css/ con su enlace. No reemplazar index completo porque puede contener cambios posteriores.
+
+La sección ya no pertenece a la web activa ni al inventario público. FAQ, método, contacto y ofertas se conservan intactos. Revisión A/B/C/Z del mismo agente sobre esta retirada: no cambian condiciones comerciales ni funciones; el texto de alcance queda archivado, no movido.
+No se publicó, desplegó ni hizo commit/push.

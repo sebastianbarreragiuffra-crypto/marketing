@@ -1,0 +1,21 @@
+{
+  "client": [
+    1440,
+    1380
+  ],
+  "fonts": "loaded",
+  "section": {
+    "bottom": 1324.171875,
+    "height": 1324.171875,
+    "left": 0,
+    "right": 1440,
+    "top": 0,
+    "width": 1440,
+    "x": 0,
+    "y": 0
+  },
+  "viewport": [
+    1440,
+    1380
+  ]
+}

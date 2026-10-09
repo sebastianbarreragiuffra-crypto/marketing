@@ -1,0 +1,32 @@
+/* CTA final — built in HTML/CSS from the supplied composition. */
+.ct{position:relative;isolation:isolate;overflow:hidden;background:#06100a;color:#f4f7f1;padding:48px 0 52px}
+.ct::before,.ct::after{content:"";position:absolute;z-index:-1;pointer-events:none;border-radius:50%}
+.ct::before{width:900px;height:900px;left:-520px;bottom:-560px;border:1px solid #6be05acc;box-shadow:0 0 40px #4fd44a70,0 0 130px #3cc03a38}
+.ct::after{width:900px;height:900px;right:-520px;top:-460px;border:1px solid #6be05acc;box-shadow:0 0 40px #4fd44a70,0 0 130px #3cc03a38}
+.ct-wrap{width:min(100% - 100px,1180px);margin-inline:auto}
+.ct-head{text-align:center;margin-bottom:28px}
+.ct h2{margin:0 0 12px;font:800 clamp(34px,4vw,62px)/1.04 Manrope,"DM Sans",Arial,sans-serif;letter-spacing:-.058em}
+.ct h2 em{font-style:normal;color:#b9f26e}
+.ct-head p{margin:0;color:#d4dbd0;font-size:clamp(15px,1.3vw,20px)}
+.ct-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.ct-card{display:flex;flex-direction:column;gap:14px;padding:24px 26px 26px;border:1px solid #243d26;border-radius:14px;background:linear-gradient(160deg,#0e1a10cc,#09120bcc)}
+.ct-card-head{display:flex;align-items:center;gap:18px}
+.ct-card h3{margin:0;font:700 clamp(19px,1.6vw,25px)/1.2 Manrope,Arial,sans-serif;letter-spacing:-.035em}
+.ct-ico{display:grid;place-items:center;flex:none;width:58px;height:58px;border:1px solid #2b4a2c;border-radius:12px;background:#0f2314;color:#b9f26e}
+.ct-ico svg{width:28px;height:28px}
+.ct-card p{margin:0 0 6px;color:#d4dbd0;font-size:clamp(14px,1.1vw,17px);line-height:1.45;min-height:2.9em}
+.ct-btn{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:auto;min-height:50px;padding:0 20px;border:1px solid #c7f45b;border-radius:8px;color:#c7f45b;font:700 clamp(14px,1.05vw,16px) Manrope,Arial,sans-serif;white-space:nowrap;transition:transform .2s,background .2s,box-shadow .2s}
+.ct-btn svg{width:18px;height:18px}
+.ct-btn:hover{transform:translateY(-2px);background:#c7f45b14}
+.ct-btn-fill{background:#b9f26e;color:#10180d;border-color:#b9f26e}
+.ct-btn-fill:hover{background:#c7f77f;box-shadow:0 10px 26px #a9f66d3a}
+.ct-btn:focus-visible{outline:2px solid #fff;outline-offset:3px}
+@media(max-width:1000px){.ct-wrap{width:min(100% - 56px,720px)}.ct-grid{grid-template-columns:1fr}.ct-card p{min-height:0}}
+@media(max-width:700px){
+  .ct{padding:44px 0 40px}
+  .ct-wrap{width:min(100% - 36px,520px)}
+  .ct-head{text-align:left;margin-bottom:22px}
+  .ct h2{font-size:clamp(34px,10vw,44px)}.ct h2 br{display:none}
+  .ct-card{padding:20px 18px}
+  .ct-ico{width:50px;height:50px}.ct-ico svg{width:24px;height:24px}
+}

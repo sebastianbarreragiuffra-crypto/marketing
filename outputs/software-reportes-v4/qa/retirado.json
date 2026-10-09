@@ -1,0 +1,15 @@
+{
+  "CSS_exclusivo": "css/software-report.css",
+  "selectores_retirados_de_css_compartido": 113,
+  "simbolos_SVG_exclusivos": [
+    "sw-bell",
+    "sw-calendar",
+    "sw-flag",
+    "sw-folder",
+    "sw-gear",
+    "sw-pie",
+    "sw-target"
+  ],
+  "scripts_exclusivos": [],
+  "imagenes_exclusivas": []
+}

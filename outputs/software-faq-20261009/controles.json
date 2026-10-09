@@ -1,0 +1,20 @@
+{
+  "review": "SAME_AGENT, delta de estado inicial.",
+  "verified": {
+    "overflow": false,
+    "states": [
+      true,
+      false,
+      false
+    ],
+    "url": "http://127.0.0.1:8767/software.html#preguntas-gisba",
+    "width": 1280
+  },
+  "keyboard": "Enter permite cerrar y volver a abrir. Comprobado también en la pestaña móvil.",
+  "manifest": "--check coincide, sin referencias faltantes.",
+  "notApplicable": "Rediseño, imágenes, nuevas animaciones, SEO y rendimiento: no se modifican con este atributo; contenidos y dependencias conservados.",
+  "changed": [
+    "software.html: open en primera FAQ",
+    "site-manifest.json: huella actualizada"
+  ]
+}

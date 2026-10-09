@@ -1,0 +1,43 @@
+{
+  "details": [
+    {
+      "class": "pr-other-services",
+      "open": false
+    },
+    {
+      "class": "pg-functions",
+      "open": false
+    }
+  ],
+  "h1": 1,
+  "images": [],
+  "overflow": [],
+  "pageOverflow": false,
+  "sections": [
+    {
+      "h": 744.125,
+      "id": "",
+      "w": 1905,
+      "y": 89
+    },
+    {
+      "h": 735.515625,
+      "id": "mensualidad",
+      "w": 1905,
+      "y": 833.125
+    },
+    {
+      "h": 658.90625,
+      "id": "gisba-independiente",
+      "w": 1905,
+      "y": 1568.640625
+    },
+    {
+      "h": 444.5625,
+      "id": "asesoria",
+      "w": 1905,
+      "y": 2227.546875
+    }
+  ],
+  "viewport": 1920
+}

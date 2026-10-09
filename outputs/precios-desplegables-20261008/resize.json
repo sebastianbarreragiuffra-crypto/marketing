@@ -1,0 +1,41 @@
+{
+  "choices": [
+    true,
+    false,
+    true
+  ],
+  "resizeChecks": [
+    {
+      "width": 390,
+      "states": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "width": 760,
+      "states": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "width": 1440,
+      "states": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "width": 1920,
+      "states": [
+        true,
+        false,
+        true
+      ]
+    }
+  ]
+}

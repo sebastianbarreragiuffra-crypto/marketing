@@ -1,0 +1,15 @@
+---
+description: Mockups de escritorio de Órbita con 1440 px de ancho real
+alwaysApply: true
+---
+
+# Tamaño de los mockups de Órbita
+
+- Aplicar a imágenes de revisión de la landing y sus secciones; no a otros proyectos o imágenes ajenas.
+- Entregar los PNG de escritorio con **1440 px reales de ancho** por defecto. Diseñar a 1440 o pedir ese tamaño al generador no confirma las dimensiones del archivo.
+- Para un hero 16:9, exportar **1440 × 810 px**. Para láminas verticales u otras proporciones, calcular la altura proporcional, redondeada al píxel.
+- Conservar composición, contenido y proporciones al ajustar el tamaño; evitar recortes o rediseños por una solicitud de dimensiones.
+- Mantener el original y guardar una copia con sufijo `-1440`; no sobrescribir versiones aprobadas.
+- Comprobar las dimensiones del archivo final antes de mostrarlo o afirmar que es 1440.
+- Un tamaño solicitado explícitamente después por el usuario prevalece sobre este estándar.
+- Este tamaño de exportación no sustituye la comprobación de la web a 1440, 1920 y móvil, ni valida interacciones o publicación.

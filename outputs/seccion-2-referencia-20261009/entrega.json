@@ -1,0 +1,44 @@
+{
+  "fecha": "2026-10-09",
+  "fase": "IMPLEMENTACION LOCAL",
+  "revision": "SAME_AGENT A/B/C/Z y Flujo 2A, limitada al delta aprobado",
+  "ruta": "http://127.0.0.1:8767/index.html#soluciones",
+  "alcance_confirmado": "Sustituir el bloque debajo del hero por la referencia adjunta; conservar el hero y las demás secciones.",
+  "referencia": "C:/Users/SEBAS/AppData/Local/Temp/codex-clipboard-99432e85-0e07-4ebd-b287-56a9e79e6a37.png",
+  "foto_fuente": "C:/Users/SEBAS/Documents/Codex/2026-10-05/want/outputs/seccion-2-marketing-v6/campana-ropa-deportiva.png",
+  "decisiones": [
+    "REEMPLAZAR las tarjetas por la composición aprobada: mensaje y CTA a la izquierda, anuncio y explicaciones a la derecha.",
+    "CONSERVAR condiciones visibles: GISBA para un usuario, adicionales de pago, inversión aparte, Web por proyecto y enlace GISBA independiente.",
+    "CONSERVAR el hero, sus pestañas, FAQ, contacto y páginas interiores. Etiquetar el anuncio como ilustrativo; sin controles publicitarios operativos."
+  ],
+  "alternativas": "NO APLICA generar nuevas alternativas: el usuario ya eligió una referencia concreta. La versión anterior se inspeccionó y se archivó; se adaptó la fotografía del prototipo, sin copiar su composición anterior.",
+  "archivos_activos_modificados": [
+    "index.html",
+    "css/home-offer-2a.css",
+    "css/directory-c-home.css",
+    "site-manifest.json"
+  ],
+  "archivo_activo_nuevo": "assets/hero/campana-ropa-deportiva.webp",
+  "retirado_de_carga": ["css/solutions-2a.css", "css/solutions-new.css", "js/landing-motion.js"],
+  "recursos_retirados": "Conservados por referencias históricas y copia en archive/2026-10-09-seccion-2-referencia. El contenido anterior no está oculto en la página activa.",
+  "preservacion": "preservacion.json confirma hero y secciones siguientes idénticos en HTML y ninguna modificación a las otras páginas. El log del servidor cambió automáticamente durante la validación.",
+  "controles": {
+    "layout": {"estado":"VERIFICADO","evidencia":"Render y geometría a 1440, 1920 y 390; también reflujo a 320, 360 y 760. Sin desbordamiento. Ancho máximo 1440 en escritorio amplio."},
+    "imagenes": {"estado":"VERIFICADO","evidencia":"Fotografía original conservada; WebP de 1122x1402, 137766 bytes. Carga y encuadre observados. Títulos, etiquetas, llamada ilustrativa y condiciones son HTML editable."},
+    "teclado": {"estado":"VERIFICADO","evidencia":"Tab y Enter en reunión y GISBA; foco de 3px con separación de 5px. Flechas en pestañas del hero y Enter en FAQ conservados."},
+    "fuentes": {"estado":"VERIFICADO","evidencia":"Estado de fuentes loaded; familias computadas Manrope para el título y DM Sans para lectura."},
+    "movimiento": {"estado":"VERIFICADO","evidencia":"Nueva sección estática con animation:none. Sin temporizadores, carruseles ni contenido oculto. Solo cambio de fondo de 150ms en hover del CTA."},
+    "reduced_motion": {"estado":"PENDIENTE","evidencia":"Regla de reducción de la transición revisada en código; no se emuló la preferencia del sistema en esta prueba."},
+    "sin_javascript": {"estado":"PENDIENTE","evidencia":"Todo el bloque está en HTML y CSS, sin dependencia de JavaScript; falta una ejecución de navegador con scripts bloqueados para esta versión."},
+    "seo_local": {"estado":"VERIFICADO","evidencia":"H2 de sección, un H1 en la página, alt de fotografía y enlaces rastreables; metadatos existentes conservados. Sin IDs duplicados."},
+    "manifiesto": {"estado":"VERIFICADO","evidencia":"site_state.py --write y --check; 81 recursos activos, sin faltantes ni referencias privadas. Huella cab513b698b76d1f7f4543f09cbfd95990d508753d3d4b31060f335576dd21e4."},
+    "contacto_destino": {"estado":"VERIFICADO","evidencia":"Enter llevó a marketing.html#contacto; la página mantiene Vista previa · Tu consulta no se enviará."},
+    "recepcion_y_reservas": {"estado":"PENDIENTE","evidencia":"No se habilitaron envíos ni reservas y no se probó recepción real."},
+    "rendimiento": {"estado":"PENDIENTE","evidencia":"Peso de foto reducido de 2188927 a 137766 bytes, carga diferida y dimensiones reservadas. No se midieron LCP, INP ni CLS de esta versión."},
+    "usuarios_y_conversion": {"estado":"PENDIENTE","evidencia":"Sin pruebas con visitantes, tráfico o medición comercial. No se afirma mejora de conversión."},
+    "publicacion": {"estado":"NO APLICA","evidencia":"Implementación local; no commit, push, despliegue ni sincronización con otro PC."},
+    "integraciones_y_funciones": {"estado":"NO APLICA","evidencia":"El anuncio es ilustrativo; este cambio no implementa ni valida capacidades de GISBA o canales publicitarios."}
+  },
+  "capturas": ["despues-1440.jpg", "despues-1920.jpg", "despues-390.jpg", "foco-390.jpg"],
+  "evidencia_navegador": "navegador.json"
+}

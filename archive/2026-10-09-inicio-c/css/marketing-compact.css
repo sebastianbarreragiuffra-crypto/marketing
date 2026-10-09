@@ -1,0 +1,70 @@
+/* Three approved content blocks: hero, dynamic services, contact. */
+.marketing-compact .ms-intro-cta { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 46px; margin-top: 23px; padding: 11px 17px; border: 1px solid #a8d674; border-radius: 12px; background: #c7fb7f; color: #071d36; font-size: 14px; font-weight: 700; }
+.marketing-compact .ms-intro-cta:hover { background: #b5ef66; }
+.marketing-compact .ms-intro-cta .ms-icon { width: 21px; height: 21px; color: currentColor; }
+.marketing-compact .ms-benefit-note { margin-top: 20px; }
+.marketing-compact .ms-demo-label { display: inline-block; margin: -5px 0 14px; padding: 5px 8px; border-radius: 6px; background: #edf2f7; color: #375474; font-size: 12px; line-height: 1.4; }
+.marketing-compact .ms-prices-note { margin: 12px 0 0; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-scope-note { margin: 11px 0 0; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-preview-label { margin: 0 0 13px; color: #426185; font-size: 12px; line-height: 1.5; }
+.marketing-compact .ms-dashboard-caption { font-size: 12px; color: #426185; }
+.marketing-compact .ms-software-note { margin: 25px auto 0; max-width: 690px; color: #426185; font-size: 12px; line-height: 1.6; text-align: center; }
+.marketing-compact .ms-software-note a { color: #184e88; text-decoration: underline; text-underline-offset: 3px; }
+.marketing-compact .contact { position: relative; isolation: isolate; overflow: hidden; padding: 76px 0; background: #07150e; color: #f8faf7; border-bottom: 1px solid #26382c; }
+.marketing-compact .contact::before { content: ""; position: absolute; z-index: -1; inset: 0; background: radial-gradient(ellipse at 80% 55%, #17432a80, transparent 65%); pointer-events: none; }
+.marketing-compact .contact > .shell { width: min(100% - 96px, 1440px); }
+.marketing-compact .contact-grid { grid-template-columns: minmax(0, 1fr) minmax(0, .8fr); gap: 9%; align-items: center; }
+.marketing-compact .contact .section-label { color: #c7f45b; margin-bottom: 23px; }
+.marketing-compact .contact .section-label span { color: #a2b5a8; }
+.marketing-compact .contact h2 { font-size: clamp(48px, 5.2vw, 74px); margin-bottom: 24px; letter-spacing: -.055em; }
+.marketing-compact .contact h2 > span { color: #c7f45b; }
+.marketing-compact .contact .contact-copy > p:not(.section-label) { max-width: 510px; color: #c4d0c7; font-size: 18px; line-height: 1.65; }
+.marketing-compact .contact-signoff { display: flex; align-items: center; gap: 13px; margin-top: 32px; color: #a5baa9; font-size: 13px; }
+.marketing-compact .contact-signoff-line { width: 34px; height: 1px; background: #c7f45b; }
+.marketing-compact .contact-card { width: 100%; max-width: none; padding: 32px; border: 1px solid #405447; border-radius: 22px; background: #14271b; box-shadow: 0 20px 45px #0002; }
+.marketing-compact .contact-kicker { display: block; color: #bdcfc1; font-size: 11px; letter-spacing: .16em; }
+.marketing-compact .contact-service-picker { display: flex; flex-wrap: wrap; gap: 9px; margin: 25px 0 24px; padding: 0; border: 0; }
+.marketing-compact .contact-service-picker legend { margin-bottom: 12px; font-size: 13px; color: #c4d0c7; }
+.marketing-compact .contact-choice { display: inline-flex; align-items: center; justify-content: center; width: auto; min-height: 44px; padding: 10px 15px; border: 1px solid #607567; border-radius: 999px; background: transparent; color: #e2ebe3; font-size: 13px; font-weight: 500; opacity: 1; }
+.marketing-compact .contact-choice[aria-pressed="true"] { border-color: #c7f45b; background: #c7f45b; color: #14220e; }
+.marketing-compact .contact-choice:hover { border-color: #c7f45b; }
+.marketing-compact .contact :focus-visible { outline-color: #c7f45b; }
+.marketing-compact .contact-request { margin: 26px 0 0; padding: 0; background: transparent; color: #f8faf7; }
+.marketing-compact .contact-request > span { display: block; color: #a5baa9; font-size: 13px; }
+.marketing-compact .contact-request > strong { display: block; margin: 7px 0 0; font-size: 28px; line-height: 1.3; letter-spacing: -.035em; }
+.marketing-compact .contact-card .contact-submit { min-height: 56px; padding: 16px 22px; border-radius: 12px; background: #c7f45b; color: #14220e; font-size: 15px; opacity: 1; }
+.marketing-compact .contact-card > small { margin-top: 13px; color: #a5baa9; font-size: 12px; }
+@media (max-width: 1050px) {
+  .marketing-compact .contact > .shell { width: min(100% - 48px, 920px); }
+  .marketing-compact .contact-grid { grid-template-columns: 1fr 1fr; gap: 35px; }
+}
+@media (max-width: 760px) {
+  .marketing-compact .ms-intro-cta { display: flex; width: 100%; margin-top: 22px; }
+  .marketing-compact .ms-software-note { margin-top: 22px; font-size: 12px; text-align: left; }
+  .marketing-compact .contact { padding: 54px 0; }
+  .marketing-compact .contact > .shell { width: min(100% - 36px, 600px); }
+  .marketing-compact .contact-grid { grid-template-columns: 1fr; gap: 30px; }
+  .marketing-compact .contact .contact-copy > p:not(.section-label) { font-size: 16px; }
+  .marketing-compact .contact-signoff { margin-top: 22px; font-size: 12px; }
+  .marketing-compact .contact-card { padding: 24px; border-radius: 18px; }
+  .marketing-compact .contact-request > strong { font-size: 25px; }
+  .marketing-compact .contact-choice { font-size: 12px; padding-inline: 12px; }
+}
+
+/* V1-A: content refinement within the approved Marketing brief. */
+.marketing-compact .mh-laptop figcaption {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #d9e4dc;
+  background: #020d08e6;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+@media (max-width: 1050px) {
+  .marketing-compact .ms-tabs { grid-column: 1 / -1; grid-row: 1; }
+  .marketing-compact .ms-intro { grid-row: 2; }
+  .marketing-compact .ms-tabs-note { display: none; }
+}
+@media (max-width: 760px) {
+  .marketing-compact .ms-dashboard { scroll-margin-top: 104px; }
+}

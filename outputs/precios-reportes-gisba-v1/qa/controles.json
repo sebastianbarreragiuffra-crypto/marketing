@@ -1,0 +1,43 @@
+{
+  "VERIFICADO": {
+    "png": [
+      1440,
+      960
+    ],
+    "calculos": {
+      "202440/42": 4820,
+      "202440/24": 8435
+    },
+    "texto_contraste_minimo": 5.708860973781475,
+    "barras_contraste_minimo": 3.4377148161521234,
+    "eje_cero_y_alturas_proporcionales": true,
+    "cuatro_kpis_alineados": true,
+    "responsables_columna_fija": true,
+    "sin_logos_google_meta": true,
+    "paginas_raiz_sin_cambios": true,
+    "manifiesto_sin_cambios": true,
+    "desktop_1440_1920_y_movil_390_sin_overflow": true,
+    "ubicacion_confirmada": "Después del hero, antes de Mensualidad; únicamente en copia de revisión",
+    "resto_de_precios_preservado": true
+  },
+  "PENDIENTE": [
+    "Confirmar que GISBA permite marcar solicitudes aptas para cotizar; si no existe, retirar tarjeta destacada antes de implementar",
+    "Detalle al pasar el mouse: no implementado ni verificado; imagen y gráfico estáticos",
+    "Destino real de reunión: botón de esta propuesta es ilustrativo/deshabilitado"
+  ],
+  "NO_APLICA": [
+    "Publicación, despliegue, commit y push: prohibidos",
+    "Integraciones reales o validación de datos reales: no autorizadas",
+    "Reemplazo de Inicio, Marketing o Software: fuera de alcance"
+  ],
+  "modalidad_revision": "SAME_AGENT A/B/C/Z sobre el delta; sin revisores independientes ni usuarios de prueba",
+  "archivos_propuesta": [
+    "reportes.html",
+    "reportes-gisba.css",
+    "reportes-gisba-v1-1440.png",
+    "prototipo/precios.html",
+    "prototipo/css/reportes-gisba-v1.css"
+  ],
+  "anteriores": "anteriores/precios-antes.html",
+  "estado": "Integrada después del hero en copia aislada de Precios; web vigente sin cambios"
+}

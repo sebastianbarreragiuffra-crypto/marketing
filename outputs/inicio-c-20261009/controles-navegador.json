@@ -1,0 +1,1002 @@
+{
+  "checks": [
+    {
+      "label": "1440 Marketing final",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 756.453125,
+          "height": 513,
+          "left": 825.421875,
+          "right": 1369.984375,
+          "top": 243.453125,
+          "width": 544.5625,
+          "x": 825.421875,
+          "y": 243.453125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": -75.234375,
+          "height": 665.765625,
+          "left": 0,
+          "right": 1425,
+          "top": -741,
+          "width": 1425,
+          "x": 0,
+          "y": -741
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": -91.234375,
+          "height": 633.765625,
+          "left": 576,
+          "right": 1385,
+          "top": -725,
+          "width": 809,
+          "x": 576,
+          "y": -725
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 1440
+      }
+    },
+    {
+      "label": "1440 Software final",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 1572.453125,
+          "height": 513,
+          "left": 825.421875,
+          "right": 1369.984375,
+          "top": 1059.453125,
+          "width": 544.5625,
+          "x": 825.421875,
+          "y": 1059.453125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 740.765625,
+          "height": 665.765625,
+          "left": 0,
+          "right": 1425,
+          "top": 75,
+          "width": 1425,
+          "x": 0,
+          "y": 75
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "1",
+        "stage": {
+          "bottom": 724.765625,
+          "height": 633.765625,
+          "left": 576,
+          "right": 1385,
+          "top": 91,
+          "width": 809,
+          "x": 576,
+          "y": 91
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          },
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          }
+        ],
+        "width": 1440
+      }
+    },
+    {
+      "label": "390 Marketing",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 3146.28125,
+          "height": 627,
+          "left": 37,
+          "right": 338,
+          "top": 2519.28125,
+          "width": 301,
+          "x": 37,
+          "y": 2519.28125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 1201.359375,
+          "height": 1515.359375,
+          "left": 0,
+          "right": 375,
+          "top": -314,
+          "width": 375,
+          "x": 0,
+          "y": -314
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": 1165.359375,
+          "height": 975.90625,
+          "left": 18,
+          "right": 357,
+          "top": 189.453125,
+          "width": 339,
+          "x": 18,
+          "y": 189.453125
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 390
+      }
+    },
+    {
+      "label": "390 Software por teclado",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 3430.28125,
+          "height": 627,
+          "left": 37,
+          "right": 338,
+          "top": 2803.28125,
+          "width": 301,
+          "x": 37,
+          "y": 2803.28125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 1485.359375,
+          "height": 1515.359375,
+          "left": 0,
+          "right": 375,
+          "top": -30,
+          "width": 375,
+          "x": 0,
+          "y": -30
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "1",
+        "stage": {
+          "bottom": 1449.359375,
+          "height": 975.90625,
+          "left": 18,
+          "right": 357,
+          "top": 473.453125,
+          "width": 339,
+          "x": 18,
+          "y": 473.453125
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          },
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          }
+        ],
+        "width": 390
+      }
+    },
+    {
+      "label": "390 GISBA",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 813.28125,
+          "height": 627,
+          "left": 37,
+          "right": 338,
+          "top": 186.28125,
+          "width": 301,
+          "x": 37,
+          "y": 186.28125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": -931.640625,
+          "height": 1515.359375,
+          "left": 0,
+          "right": 375,
+          "top": -2447,
+          "width": 375,
+          "x": 0,
+          "y": -2447
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": -967.640625,
+          "height": 975.90625,
+          "left": 18,
+          "right": 357,
+          "top": -1943.546875,
+          "width": 339,
+          "x": 18,
+          "y": -1943.546875
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 390
+      }
+    },
+    {
+      "label": "360 Marketing",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 3309.359375,
+          "height": 627,
+          "left": 37,
+          "right": 308,
+          "top": 2682.359375,
+          "width": 271,
+          "x": 37,
+          "y": 2682.359375
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 1530.609375,
+          "height": 1453.609375,
+          "left": 0,
+          "right": 345,
+          "top": 77,
+          "width": 345,
+          "x": 0,
+          "y": 77
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": 1494.609375,
+          "height": 920.90625,
+          "left": 18,
+          "right": 327,
+          "top": 573.703125,
+          "width": 309,
+          "x": 18,
+          "y": 573.703125
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 360
+      }
+    },
+    {
+      "label": "360 Software",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 3208.359375,
+          "height": 627,
+          "left": 37,
+          "right": 308,
+          "top": 2581.359375,
+          "width": 271,
+          "x": 37,
+          "y": 2581.359375
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 1429.609375,
+          "height": 1453.609375,
+          "left": 0,
+          "right": 345,
+          "top": -24,
+          "width": 345,
+          "x": 0,
+          "y": -24
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "1",
+        "stage": {
+          "bottom": 1393.609375,
+          "height": 920.90625,
+          "left": 18,
+          "right": 327,
+          "top": 472.703125,
+          "width": 309,
+          "x": 18,
+          "y": 472.703125
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          },
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          }
+        ],
+        "width": 360
+      }
+    },
+    {
+      "label": "360 GISBA teclado",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 303.359375,
+          "height": 627,
+          "left": 37,
+          "right": 308,
+          "top": -323.640625,
+          "width": 271,
+          "x": 37,
+          "y": -323.640625
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": -1475.390625,
+          "height": 1453.609375,
+          "left": 0,
+          "right": 345,
+          "top": -2929,
+          "width": 345,
+          "x": 0,
+          "y": -2929
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": -1511.390625,
+          "height": 920.90625,
+          "left": 18,
+          "right": 327,
+          "top": -2432.296875,
+          "width": 309,
+          "x": 18,
+          "y": -2432.296875
+        },
+        "step": "quote",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 360
+      }
+    },
+    {
+      "label": "1920 Marketing",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 1570.203125,
+          "height": 492,
+          "left": 1071.96875,
+          "right": 1657.484375,
+          "top": 1078.203125,
+          "width": 585.515625,
+          "x": 1071.96875,
+          "y": 1078.203125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 759.515625,
+          "height": 670.515625,
+          "left": 0,
+          "right": 1905,
+          "top": 89,
+          "width": 1905,
+          "x": 0,
+          "y": 89
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "0",
+        "stage": {
+          "bottom": 743.515625,
+          "height": 638.515625,
+          "left": 768.5,
+          "right": 1672.5,
+          "top": 105,
+          "width": 904,
+          "x": 768.5,
+          "y": 105
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          },
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          }
+        ],
+        "width": 1920
+      }
+    },
+    {
+      "label": "1920 Software",
+      "data": {
+        "animations": [
+          {
+            "name": "none",
+            "s": ".hx-copy",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-stage",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".hx-frame:not([hidden])",
+            "transform": "none"
+          },
+          {
+            "name": "none",
+            "s": ".ha-instagram",
+            "transform": "none"
+          }
+        ],
+        "demo": {
+          "bottom": 1570.203125,
+          "height": 492,
+          "left": 1071.96875,
+          "right": 1657.484375,
+          "top": 1078.203125,
+          "width": 585.515625,
+          "x": 1071.96875,
+          "y": 1078.203125
+        },
+        "fonts": "loaded",
+        "hero": {
+          "bottom": 759.515625,
+          "height": 670.515625,
+          "left": 0,
+          "right": 1905,
+          "top": 89,
+          "width": 1905,
+          "x": 0,
+          "y": 89
+        },
+        "infinite": [],
+        "overflow": false,
+        "slide": "1",
+        "stage": {
+          "bottom": 743.515625,
+          "height": 638.515625,
+          "left": 768.5,
+          "right": 1672.5,
+          "top": 105,
+          "width": 904,
+          "x": 768.5,
+          "y": 105
+        },
+        "step": "ready",
+        "tabs": [
+          {
+            "height": 44,
+            "selected": "false",
+            "tabindex": -1
+          },
+          {
+            "height": 44,
+            "selected": "true",
+            "tabindex": 0
+          }
+        ],
+        "width": 1920
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "box": {
+        "bottom": 541.453125,
+        "height": 513,
+        "left": 825.421875,
+        "right": 1369.984375,
+        "top": 28.453125,
+        "width": 544.5625,
+        "x": 825.421875,
+        "y": 28.453125
+      },
+      "disabled": true,
+      "highlight": [
+        {
+          "cls": "sol-task-quote",
+          "shadow": "rgba(161, 203, 101, 0.3) 0px 0px 0px 2px"
+        },
+        {
+          "cls": "sol-task-state",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-next",
+          "shadow": "none"
+        }
+      ],
+      "status": "Cotización del 12 de mar seleccionada.",
+      "step": "quote"
+    },
+    {
+      "box": {
+        "bottom": 541.453125,
+        "height": 513,
+        "left": 825.421875,
+        "right": 1369.984375,
+        "top": 28.453125,
+        "width": 544.5625,
+        "x": 825.421875,
+        "y": 28.453125
+      },
+      "disabled": true,
+      "highlight": [
+        {
+          "cls": "sol-task-quote",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-state",
+          "shadow": "rgba(161, 203, 101, 0.3) 0px 0px 0px 2px"
+        },
+        {
+          "cls": "sol-task-next",
+          "shadow": "none"
+        }
+      ],
+      "status": "Estado: cliente sin responder hace 2 días.",
+      "step": "state"
+    },
+    {
+      "box": {
+        "bottom": 541.453125,
+        "height": 513,
+        "left": 825.421875,
+        "right": 1369.984375,
+        "top": 28.453125,
+        "width": 544.5625,
+        "x": 825.421875,
+        "y": 28.453125
+      },
+      "disabled": true,
+      "highlight": [
+        {
+          "cls": "sol-task-quote",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-state",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-next",
+          "shadow": "rgba(161, 203, 101, 0.3) 0px 0px 0px 2px"
+        }
+      ],
+      "status": "Próximo paso: hacer seguimiento. No se envía ningún mensaje.",
+      "step": "next"
+    },
+    {
+      "box": {
+        "bottom": 541.453125,
+        "height": 513,
+        "left": 825.421875,
+        "right": 1369.984375,
+        "top": 28.453125,
+        "width": 544.5625,
+        "x": 825.421875,
+        "y": 28.453125
+      },
+      "disabled": false,
+      "highlight": [
+        {
+          "cls": "sol-task-quote",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-state",
+          "shadow": "none"
+        },
+        {
+          "cls": "sol-task-next",
+          "shadow": "rgba(161, 203, 101, 0.3) 0px 0px 0px 2px"
+        }
+      ],
+      "status": "Ejemplo completo: cotización enviada, cliente sin responder y próximo paso de seguimiento.",
+      "step": "complete"
+    }
+  ],
+  "entrance": [
+    {
+      "phase": "before scroll",
+      "data": {
+        "cards": [
+          {
+            "cls": "ha-card ha-google",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-instagram",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-tiktok",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ],
+        "cls": "ha-ads",
+        "stage": "none"
+      }
+    },
+    {
+      "phase": "first entry",
+      "data": {
+        "cards": [
+          {
+            "cls": "ha-card ha-google",
+            "delay": "0.24s",
+            "name": "home-ad-in",
+            "opacity": "0.590768",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.27386)"
+          },
+          {
+            "cls": "ha-card ha-instagram",
+            "delay": "0s",
+            "name": "home-ad-in",
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "cls": "ha-card ha-tiktok",
+            "delay": "0.34s",
+            "name": "home-ad-in",
+            "opacity": "0.000100376",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.9992)"
+          }
+        ],
+        "cls": "ha-ads is-entering",
+        "stage": "none"
+      }
+    },
+    {
+      "phase": "stable",
+      "data": {
+        "cards": [
+          {
+            "cls": "ha-card ha-google",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-instagram",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-tiktok",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ],
+        "cls": "ha-ads",
+        "stage": "none"
+      }
+    },
+    {
+      "phase": "return scroll",
+      "data": {
+        "cards": [
+          {
+            "cls": "ha-card ha-google",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-instagram",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "cls": "ha-card ha-tiktok",
+            "delay": "0s",
+            "name": "none",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ],
+        "cls": "ha-ads",
+        "stage": "none"
+      }
+    }
+  ],
+  "manualTransition": {
+    "content": "home-view-in",
+    "duration": "0.24s",
+    "focus": "hx-tab-2",
+    "frame": "none",
+    "opacity": "0.589422",
+    "outline": "rgb(199, 244, 91) solid 2px"
+  }
+}

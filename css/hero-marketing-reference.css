@@ -1,0 +1,111 @@
+/* Marketing view of the hero, based on the reference approved on 2026-10-06. */
+.hx-marketing-reference{background:radial-gradient(ellipse at 63% 65%,#15360e66,transparent 49%),radial-gradient(ellipse at 8% 8%,#12361666,transparent 40%),#001207}
+.hx-marketing-reference::before{width:670px;height:670px;left:-620px;right:auto;top:80px;background:#001407;border:1px solid #b7ef5e;box-shadow:0 0 28px #abeb46a6,0 0 100px #7dda3970;filter:none}
+.hx-marketing-reference::after{width:460px;height:460px;left:auto;right:-365px;top:-170px;bottom:auto;background:radial-gradient(circle at 15% 60%,#6ebd2b66,transparent 60%);border:1px solid #b5ed65;box-shadow:0 0 40px #8ee53380,0 0 110px #7dda3945}
+.hx-marketing-reference .hx-grid{width:min(100% - 80px,1440px);grid-template-columns:minmax(0,500px) minmax(0,1fr);gap:36px;min-height:720px;padding:52px 0 48px}
+.hx-marketing-reference .hx-copy{min-width:0}
+.ha-eyebrow{margin:0 0 20px;color:#f5f8ef;font:700 12px/1.6 "DM Sans",Arial,sans-serif;letter-spacing:.16em}
+.hx-marketing-reference h1{font-size:clamp(44px,4.15vw,62px);white-space:normal;line-height:1.02;letter-spacing:-.065em;margin-bottom:23px}
+.hx-marketing-reference .hx-lead{max-width:470px;color:#e3e8de;font-size:19px;line-height:1.45;margin-bottom:22px}
+.hx-marketing-reference .hx-actions{display:block}
+.hx-marketing-reference .hx-actions .button{min-height:58px;min-width:305px;padding:16px 27px;font-size:18px}
+.hx-marketing-reference .hx-actions .button svg{width:24px;height:24px}
+.ha-included{display:flex;align-items:center;gap:15px;max-width:420px;margin-top:18px;padding:12px 19px;border:1px solid #b9df4d;border-radius:17px;background:#001007b3;color:#f8faef}
+.ha-included>svg{width:32px;height:36px;flex:none;color:#d6f65f}
+.ha-included strong,.ha-included small{display:block;font-size:16px;font-weight:500;line-height:1.4}
+.ha-included small{font-size:14px;color:#d3ddcb}
+.hx-marketing-reference .hx-tabs{border-color:#8daf46;background:#000b04b3;font-size:16px}
+.hx-marketing-reference .hx-tab{padding:11px 22px}
+.hx-marketing-reference .hx-controls{margin-bottom:18px}
+.hx-marketing-reference .hx-frame-ads{display:block;padding:0;border:0;border-radius:0;background:none;box-shadow:none;animation:none}
+/* Both views reserve their natural size; hidden content stays inaccessible. */
+.hx-marketing-reference .hx-slides{display:grid;min-width:0}
+.hx-marketing-reference .hx-frame{grid-area:1/1;align-self:start;animation:none;transform:none}
+.hx-marketing-reference .hx-frame[hidden]{display:grid;visibility:hidden;pointer-events:none}
+.hx-marketing-reference .hx-frame-ads[hidden]{display:block}
+.ha-ads{display:grid;grid-template-columns:minmax(0,.87fr) minmax(0,1.2fr) minmax(0,.72fr);align-items:center;gap:14px;max-width:910px;margin-inline:auto}
+.ha-card{min-width:0;overflow:hidden;border:1px solid #a8b3a2;border-radius:14px;box-shadow:0 12px 36px #0004}
+.ha-platform{display:flex;align-items:center;gap:9px;min-height:40px;padding:7px 11px;color:#fff;font-size:15px;font-weight:500;background:#001007}
+.ha-platform>svg{width:26px;height:26px;flex:none}
+.ha-google .ha-platform{font-size:14px}
+.ha-google-body{min-height:145px;padding:14px;background:#fff;color:#10131a;border-radius:12px;font:12px/1.4 "DM Sans",Arial,sans-serif}
+.ha-sponsored{display:block;margin-bottom:9px;font-size:11px;font-weight:700}
+.ha-google-body h2{margin:0 0 5px;color:#1238ed;font-size:16px;line-height:1.25;letter-spacing:-.04em}
+.ha-google-body p{margin:0 0 16px;color:#17223b;font-size:12px}
+.ha-ad-link{color:#143df0;font-size:11px;font-weight:600}
+.ha-account{display:flex;align-items:center;gap:10px;padding:11px 14px;background:#fff;color:#111;font:12px/1.3 "DM Sans",Arial,sans-serif}
+.ha-avatar{width:31px;height:31px;flex:none;border-radius:50%;background:linear-gradient(140deg,#d8d9dc,#bfc1c6)}
+.ha-account strong{display:block;font-size:13px}
+.ha-account small{font-size:11px;color:#27314a}
+.ha-post-image{position:relative;aspect-ratio:1/1;overflow:hidden;background:#e7d7bf}
+.ha-post-image>img{display:block;width:100%;height:100%;object-fit:cover}
+.ha-post-copy{position:absolute;inset:15px 14px auto;color:#140e0a}
+.ha-post-copy h2{margin:0 0 9px;font:800 clamp(22px,2.15vw,32px)/1.04 "DM Sans",Arial,sans-serif;letter-spacing:-.055em}
+.ha-post-copy p{margin:0;font-size:13px}
+.ha-social{display:flex;align-items:center;gap:9px;padding:11px 10px;background:#fff;color:#182036;font:10px/1.25 "DM Sans",Arial,sans-serif}
+.ha-social>span{display:flex;align-items:center;gap:5px;white-space:nowrap}
+.ha-social svg{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ha-social-actions{margin-left:auto}
+.ha-video{position:relative;aspect-ratio:3/5;color:#fff;background:#422d1e}
+.ha-video>img{display:block;width:100%;height:100%;object-fit:cover}
+.ha-video:after{content:"";position:absolute;inset:0;background:linear-gradient(#0008,transparent 65%);pointer-events:none}
+.ha-video .ha-platform{position:absolute;z-index:1;inset:0 0 auto;background:none;font-size:14px;padding:10px}
+.ha-video h2{position:absolute;z-index:1;inset:53px 12px auto;margin:0;font:700 clamp(19px,1.8vw,26px)/1.12 "DM Sans",Arial,sans-serif;letter-spacing:-.045em}
+.ha-play{position:absolute;z-index:1;top:56%;left:50%;width:32px;height:32px;transform:translate(-50%,-50%);filter:drop-shadow(0 2px 4px #0005)}
+.ha-process{display:flex;align-items:center;justify-content:space-between;gap:13px;max-width:650px;margin:31px auto 0;padding:0;list-style:none;font-size:17px;color:#f4f8ef}
+.ha-process li{display:flex;align-items:center;gap:22px;white-space:nowrap}
+.ha-process li:not(:last-child):after{content:"→";color:#d8f568;font-size:26px;line-height:1}
+.hx-marketing-reference .hx-caption{margin-top:23px;color:#c3cdbb;font-size:11px;line-height:1.6}
+.hx-marketing-reference .hx-caption{display:grid}
+.hx-marketing-reference .hx-caption>span{grid-area:1/1;display:block}
+.hx-marketing-reference .ha-caption-software{visibility:hidden}
+.hx-marketing-reference[data-slide="1"] .ha-caption-ads{visibility:hidden}
+.hx-marketing-reference[data-slide="1"] .ha-caption-software{visibility:visible}
+@media(max-width:1200px){
+  .hx-marketing-reference .hx-grid{width:min(100% - 56px,1440px);grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);gap:26px}
+  .hx-marketing-reference h1{font-size:clamp(39px,4.1vw,50px)}
+  .hx-marketing-reference .hx-lead{font-size:17px}
+  .hx-marketing-reference .hx-tab{font-size:13px;padding:10px 15px}
+  .ha-platform{font-size:12px}.ha-google .ha-platform,.ha-video .ha-platform{font-size:12px}
+  .ha-google-body{padding:11px}.ha-google-body h2{font-size:14px}
+  .ha-post-copy h2{font-size:24px}.ha-post-copy p{font-size:11px}
+  .ha-social{gap:7px;font-size:9px}.ha-social svg{width:15px;height:15px}
+  .ha-process{gap:10px;font-size:14px}.ha-process li{gap:13px}
+}
+@media(max-width:900px){
+  .hx-marketing-reference .hx-grid{width:min(100% - 48px,760px);grid-template-columns:1fr;gap:38px;min-height:0;padding:44px 0}
+  .hx-marketing-reference .hx-copy{max-width:620px}
+  .hx-marketing-reference h1{font-size:clamp(42px,6.9vw,58px)}
+  .hx-marketing-reference .hx-lead{max-width:560px;font-size:18px}
+  .hx-marketing-reference .hx-tabs{margin-inline:auto}
+  .ha-post-copy h2{font-size:30px}
+  .ha-platform{font-size:15px}.ha-google .ha-platform,.ha-video .ha-platform{font-size:14px}
+  .ha-social{font-size:10px}.ha-social svg{width:18px;height:18px}
+}
+@media(max-width:600px){
+  .hx-marketing-reference .hx-grid{width:calc(100% - 36px);gap:30px;padding:36px 0}
+  .ha-eyebrow{font-size:10px;letter-spacing:.11em;margin-bottom:18px}
+  .hx-marketing-reference h1{font-size:clamp(35px,9.4vw,48px);margin-bottom:21px}
+  .hx-marketing-reference .hx-lead{font-size:16px}
+  .hx-marketing-reference .hx-actions .button{width:100%;min-width:0;font-size:16px}
+  .ha-included{padding:12px 14px;gap:10px;border-radius:14px}
+  .ha-included strong{font-size:14px}.ha-included small{font-size:12px}
+  .hx-marketing-reference .hx-controls{flex-wrap:wrap;justify-content:center;gap:8px}
+  .hx-marketing-reference .hx-tabs{width:100%;font-size:12px}
+  .hx-marketing-reference .hx-tab{padding:11px 7px;font-size:12px}
+  .ha-ads{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+  .ha-instagram{grid-column:1/-1;grid-row:1;width:min(100%,360px);margin-inline:auto}
+  .ha-google{grid-column:1;grid-row:2}.ha-tiktok{grid-column:2;grid-row:2}
+  .ha-google-body{padding:12px;min-height:154px}.ha-google-body h2{font-size:15px}
+  .ha-google-body p{font-size:11px}
+  .ha-google .ha-platform,.ha-video .ha-platform{font-size:12px;gap:6px}
+  .ha-platform>svg{width:22px;height:22px}
+  .ha-post-copy h2{font-size:31px}.ha-post-copy p{font-size:13px}
+  .ha-social{padding:12px;font-size:11px;gap:10px}.ha-social svg{width:19px;height:19px}
+  .ha-video h2{font-size:20px;top:47px;left:10px;right:10px}
+  .ha-process{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;max-width:340px;margin-top:24px;font-size:15px}
+  .ha-process li{justify-content:space-between;gap:10px}
+  .ha-process li:after{font-size:22px}
+  .hx-marketing-reference .hx-caption{font-size:10px;margin-top:17px}
+}
+@media(prefers-reduced-motion:reduce){.hx-marketing-reference .hx-frame-ads.is-switching{animation:none}}

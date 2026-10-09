@@ -1,0 +1,143 @@
+/* Propuesta local v2. Todos los estilos quedan dentro de la sección mensualidad.
+   No se carga en precios.html raíz ni en la vista pública de Cloudflare. */
+.pmr-section {
+  --pmr-ink: #0b0d0b;
+  --pmr-lime: #c7f45b;
+  --pmr-paper: #f6f3eb;
+  --pmr-cream: #eeeae0;
+  --pmr-green: #48622e;
+  --pmr-white: #fffdf8;
+  background: var(--pmr-paper);
+  color: var(--pmr-ink);
+  padding: 92px 0 82px;
+  font: 400 15px/1.55 "DM Sans", Arial, sans-serif;
+  scroll-margin-top: 88px;
+}
+.pmr-section, .pmr-section * { box-sizing: border-box; }
+.pmr-section :is(h2, h3, h4, h5, p, ul, ol) { margin: 0; }
+.pmr-section :is(h2, h3, h4, h5) { color: var(--pmr-ink); font-family: "Manrope", Arial, sans-serif; }
+.pmr-shell { width: min(calc(100% - 160px), 1440px); margin-inline: auto; }
+.pmr-heading { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 44px; align-items: end; margin-bottom: 46px; }
+.pmr-section .pmr-kicker { color: var(--pmr-green); font-size: 13px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 16px; }
+.pmr-section h2 { max-width: 850px; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -.045em; }
+.pmr-section .pmr-intro { color: var(--pmr-green); font-size: 18px; line-height: 1.55; padding-bottom: 2px; }
+.pmr-receipt { padding: 34px 38px 30px; border: 1px solid #dcdcd4; border-radius: 28px; background: var(--pmr-white); box-shadow: 0 25px 35px -28px #0b0d0b40; }
+.pmr-receipt-heading { display: flex; gap: 20px; align-items: center; justify-content: space-between; padding-bottom: 20px; border-bottom: 2px solid var(--pmr-ink); }
+.pmr-section h3 { font-size: 22px; font-weight: 800; line-height: 1.35; letter-spacing: -.035em; }
+.pmr-illustrative { flex-shrink: 0; color: var(--pmr-green); font-size: 12px; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; }
+.pmr-section .pmr-lines { list-style: none; padding: 0; }
+.pmr-line { display: grid; grid-template-columns: 40px minmax(0, 1fr) 160px; gap: 18px; align-items: start; padding: 24px 0; }
+.pmr-number { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; background: var(--pmr-ink); color: var(--pmr-lime); font-size: 16px; font-weight: 700; line-height: 1; }
+.pmr-section h4 { font-size: 20px; font-weight: 800; line-height: 1.4; letter-spacing: -.025em; }
+.pmr-section .pmr-copy > p { color: var(--pmr-green); margin-top: 4px; }
+.pmr-copy { min-width: 0; }
+.pmr-section .pmr-price { text-align: right; margin-top: 4px; color: var(--pmr-green); line-height: 1.4; }
+.pmr-price strong { display: block; color: var(--pmr-ink); font-family: "Manrope", Arial, sans-serif; font-size: 32px; font-weight: 800; line-height: 1.15; letter-spacing: -.03em; white-space: nowrap; }
+.pmr-price span { display: block; margin-top: 3px; font-size: 13px; }
+.pmr-section .pmr-bullets { display: grid; gap: 3px; list-style: none; padding: 0; margin: 12px 0 10px; }
+.pmr-bullets li { position: relative; padding-left: 17px; line-height: 1.5; }
+.pmr-bullets li::before { position: absolute; content: ""; width: 7px; height: 7px; left: 0; top: .6em; border-radius: 1px; background: var(--pmr-green); }
+.pmr-pending { display: inline-block; padding: 1px 9px; border: 1px dashed #73805f; border-radius: 999px; color: var(--pmr-green); font-size: 12px; line-height: 1.4; }
+.pmr-included { position: relative; padding: 26px 24px; margin-inline: -24px; border: 1.5px solid var(--pmr-lime); border-radius: 20px; background: #eef7d6; }
+.pmr-line-heading { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.pmr-difference { padding: 2px 10px; border: 1px solid #9aad81; border-radius: 999px; background: var(--pmr-paper); color: var(--pmr-green); font-size: 11px; line-height: 1.5; font-weight: 500; letter-spacing: .035em; text-transform: uppercase; }
+.pmr-included-badge { justify-self: end; align-self: start; padding: 8px 18px; background: var(--pmr-ink); color: var(--pmr-lime); border-radius: 999px; font-size: 15px; line-height: 1.4; font-weight: 700; }
+.pmr-section .pmr-checks { display: grid; grid-template-columns: .95fr 1.25fr 1.1fr; gap: 8px 24px; list-style: none; padding: 0; margin: 14px 0; }
+.pmr-checks li { display: flex; align-items: baseline; gap: 9px; min-width: 0; line-height: 1.4; }
+.pmr-check { flex: 0 0 17px; width: 17px; height: 17px; display: inline-grid; place-items: center; align-self: center; border-radius: 50%; color: var(--pmr-lime); background: var(--pmr-ink); font-size: 12px; font-weight: 700; line-height: 1; }
+.pmr-section .pmr-copy > .pmr-user-definition { display: inline-block; max-width: 100%; padding: 7px 12px; border-radius: 11px; background: var(--pmr-white); color: var(--pmr-ink); margin-top: 0; font-size: 14px; }
+.pmr-additional { padding-block: 30px; }
+.pmr-extras { padding-top: 18px; border-top: 2px solid var(--pmr-ink); }
+.pmr-extras-heading { display: flex; gap: 12px; align-items: baseline; margin-bottom: 13px; }
+.pmr-extras-heading p { color: var(--pmr-green); font-size: 14px; }
+.pmr-section .pmr-extras h4 { font-size: 18px; }
+.pmr-extra-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.pmr-extra { background: var(--pmr-cream); border: 1px dashed #8f9884; border-radius: 16px; padding: 15px 18px; }
+.pmr-section h5 { font-size: 16px; font-weight: 800; line-height: 1.4; letter-spacing: -.02em; }
+.pmr-extra p { color: var(--pmr-green); margin-top: 2px; font-size: 14px; }
+.pmr-extra-title { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.pmr-optional { border: 1px solid var(--pmr-ink); border-radius: 999px; padding: 0 8px; color: var(--pmr-ink); font-size: 12px; line-height: 1.5; }
+.pmr-formula { display: flex; gap: 10px; align-items: center; margin-top: 26px; font-size: 14px; line-height: 1.5; }
+.pmr-formula > strong { margin-right: 4px; font-size: 16px; }
+.pmr-chip { padding: 6px 14px; border: 1px solid #dcdcd4; border-radius: 999px; background: var(--pmr-white); }
+.pmr-chip > span { color: var(--pmr-green); }
+.pmr-plus { color: var(--pmr-green); font-size: 17px; font-weight: 700; }
+.pmr-section .pmr-note { margin-top: 64px; color: var(--pmr-green); font-size: 12px; line-height: 1.5; }
+
+/* A normal-height desktop keeps generous spacing; short desktop screens use
+   tighter gaps without scaling, clipping, blur, or hiding any content. */
+@media (min-width: 1100px) and (max-height: 1100px) {
+  .pmr-section { padding-block: 12px; line-height: 1.4; }
+  .pmr-heading { gap: 32px; margin-bottom: 16px; }
+  .pmr-section .pmr-kicker { margin-bottom: 7px; font-size: 12px; }
+  .pmr-section h2 { font-size: 32px; }
+  .pmr-section .pmr-intro { font-size: 16px; }
+  .pmr-receipt { padding: 10px 30px; border-radius: 24px; }
+  .pmr-receipt-heading { padding-bottom: 7px; }
+  .pmr-section h3 { font-size: 20px; }
+  .pmr-line { padding-block: 8px; gap: 14px; }
+  .pmr-section h4 { font-size: 18px; }
+  .pmr-section .pmr-bullets { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-block: 5px; }
+  .pmr-bullets li { line-height: 1.4; }
+  .pmr-included { padding: 10px 18px; margin-inline: -18px; }
+  .pmr-section .pmr-checks { margin-block: 7px; gap: 3px 16px; }
+  .pmr-section .pmr-copy > .pmr-user-definition { padding-block: 3px; }
+  .pmr-price strong { font-size: 28px; }
+  .pmr-additional { padding-block: 8px; }
+  .pmr-extras { padding-top: 10px; }
+  .pmr-extras-heading { margin-bottom: 8px; }
+  .pmr-extra { padding: 8px 14px; }
+  .pmr-formula { margin-top: 12px; }
+  .pmr-section .pmr-note { margin-top: 12px; }
+}
+@media (max-width: 1199px) {
+  .pmr-shell { width: calc(100% - 64px); }
+  .pmr-heading { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); }
+  .pmr-section .pmr-checks { gap-inline: 14px; }
+  .pmr-formula { flex-wrap: wrap; }
+}
+@media (max-width: 1099px) {
+  .pmr-section { padding-block: 56px; }
+  .pmr-section h2 { font-size: 40px; }
+  .pmr-heading { gap: 24px; margin-bottom: 30px; }
+  .pmr-receipt { padding: 26px; }
+  .pmr-line { grid-template-columns: 36px minmax(0, 1fr) 140px; gap: 14px; }
+  .pmr-number { width: 36px; height: 36px; }
+  .pmr-included { padding: 20px 16px; margin-inline: -16px; }
+  .pmr-section .pmr-checks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pmr-price strong { font-size: 28px; }
+}
+@media (max-width: 700px) {
+  .pmr-section { padding-block: 40px; font-size: 16px; }
+  .pmr-shell { width: calc(100% - 32px); }
+  .pmr-heading { grid-template-columns: minmax(0, 1fr); gap: 15px; margin-bottom: 24px; }
+  .pmr-section .pmr-kicker { font-size: 11px; letter-spacing: .1em; margin-bottom: 12px; }
+  .pmr-section h2 { font-size: 34px; line-height: 1.13; }
+  .pmr-section .pmr-intro { font-size: 16px; line-height: 1.55; }
+  .pmr-receipt { padding: 20px 16px; border-radius: 22px; }
+  .pmr-receipt-heading { align-items: start; flex-direction: column; gap: 8px; padding-bottom: 16px; }
+  .pmr-section h3 { font-size: 20px; line-height: 1.4; }
+  .pmr-illustrative { font-size: 11px; }
+  .pmr-line { grid-template-columns: 32px minmax(0, 1fr); gap: 12px; padding-block: 22px; }
+  .pmr-number { width: 32px; height: 32px; font-size: 14px; }
+  .pmr-section h4 { font-size: 18px; }
+  .pmr-section .pmr-price { grid-column: 2; text-align: left; margin-top: 0; }
+  .pmr-price strong { font-size: 30px; }
+  .pmr-line-heading { gap: 8px; }
+  .pmr-difference { font-size: 10px; letter-spacing: .01em; padding-inline: 8px; }
+  .pmr-included { margin-inline: -8px; padding: 18px 8px; }
+  .pmr-included-badge { grid-column: 2; justify-self: start; padding: 7px 16px; }
+  .pmr-section .pmr-checks { grid-template-columns: minmax(0, 1fr); gap: 10px; margin-block: 16px; }
+  .pmr-checks li { gap: 8px; }
+  .pmr-section .pmr-copy > .pmr-user-definition { padding: 8px 10px; line-height: 1.5; }
+  .pmr-extras { padding-top: 18px; }
+  .pmr-extras-heading { flex-direction: column; gap: 2px; }
+  .pmr-extra-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .pmr-extra { padding: 16px; }
+  .pmr-extra p { font-size: 15px; }
+  .pmr-formula { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin-top: 22px; }
+  .pmr-formula > strong { font-size: 16px; margin-bottom: 3px; }
+  .pmr-chip { justify-self: start; max-width: 100%; padding: 6px 12px; }
+  .pmr-plus { margin-left: 12px; line-height: 1; }
+  .pmr-section .pmr-note { margin-top: 26px; font-size: 12px; }
+}

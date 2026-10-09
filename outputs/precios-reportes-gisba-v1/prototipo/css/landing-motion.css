@@ -1,0 +1,94 @@
+/* Visible motion for the landing. Content remains available without JavaScript. */
+.sol-wrap, .mk-wrap { max-width: 1440px; }
+.hx-controls { display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px; }
+.hx-controls .hx-tabs { margin:0; }
+.hx-auto-toggle { min-height:44px;min-width:88px;padding:0 14px;border:1px solid #50634c;border-radius:10px;background:#122014;color:#e6efe1;font:600 13px Manrope,Arial,sans-serif;cursor:pointer;transition:background .2s,border-color .2s,color .2s; }
+.hx-auto-toggle:hover,.hx-auto-toggle:focus-visible { border-color:#c7f45b;background:#1d321b;color:#c7f45b; }
+.hx-auto-toggle:focus-visible { outline:2px solid #c7f45b;outline-offset:2px; }
+.hx-auto-toggle[hidden] { display:none; }
+@media(max-width:700px) { .hx-controls { flex-wrap:wrap; } .hx-controls .hx-tabs { width:100%; } .hx-auto-toggle { min-width:110px;margin-left:auto; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hx-tab { position:relative;overflow:hidden; }
+  .hx.is-rotating .hx-tab[aria-selected="true"]::after { content:"";position:absolute;left:9px;right:9px;bottom:3px;height:2px;border-radius:2px;background:#193318;transform-origin:left;animation:landing-tab-progress var(--hx-interval, 7500ms) linear both; }
+  .hx::before { animation: landing-glow-drift 9s ease-in-out infinite alternate; }
+  .hx::after { animation: landing-orbit-glow 11s ease-in-out infinite alternate; }
+  .hx-copy { animation: landing-hero-intro .7s ease-out both; }
+  .hx-stage { animation: landing-stage-float 6s ease-in-out infinite; }
+  .hx-frame:not([hidden]) { animation: landing-frame-glow 4s ease-in-out infinite; }
+  .hx:not(.is-in-view)::before,.hx:not(.is-in-view)::after,.hx:not(.is-in-view) .hx-stage,.hx:not(.is-in-view) .hx-frame:not([hidden]) { animation-play-state:paused; }
+  .hx-frame.is-switching { animation: landing-panel-switch .34s cubic-bezier(.2,.7,.2,1) both, landing-frame-glow 4s ease-in-out .34s infinite; }
+  .hx-bell b, .hx-state::before { animation: landing-status-pulse 2.6s ease-in-out infinite; }
+
+  .hx-frame.is-switching .hx-kpi,
+  .hx-frame.is-switching .hx-opps li,
+  .hx-frame.is-switching .hx-alert,
+  .hx-frame.is-switching .hx-follow {
+    animation: landing-item-in .32s both;
+  }
+  .hx-frame.is-switching .hx-kpi:nth-child(2),
+  .hx-frame.is-switching .hx-opps li:nth-child(2) { animation-delay: .06s; }
+  .hx-frame.is-switching .hx-kpi:nth-child(3),
+  .hx-frame.is-switching .hx-opps li:nth-child(3) { animation-delay: .12s; }
+  .hx-frame.is-switching .hx-alert { animation-delay: .1s; }
+  .hx-frame.is-switching .hx-follow { animation-delay: .14s; }
+
+  .landing-motion-target { transition: opacity .7s ease, transform .7s cubic-bezier(.2,.75,.2,1); }
+  .landing-pending { opacity: .28; transform: translateY(32px) scale(.985); }
+  .landing-entered { opacity: 1; transform: none; }
+  .mk-card.landing-motion-target { transition-delay: var(--landing-delay, 0ms); }
+
+  .sol-card.landing-entered { box-shadow: 0 0 40px #5dd24610 inset, 0 12px 36px #0003; }
+  .sol-ad-live i, .mk-platforms em::before { animation: landing-status-pulse 2.6s ease-in-out infinite; }
+  .sol-ad-photo img { animation: landing-image-breathe 7s ease-in-out infinite alternate; }
+  .sol-follow { animation: landing-follow-glow 3.8s ease-in-out infinite; }
+  .sol-step-star { animation: landing-node-glow 3.6s ease-in-out infinite; }
+  .sol-auto.landing-entered .sol-steps li:nth-child(3) .sol-step-ico { animation-delay: 1.2s; }
+  .sol-auto.landing-entered .sol-steps li:nth-child(5) .sol-step-ico { animation-delay: 2.4s; }
+  .sol-arrow::before, .mk-arrow::before { animation: landing-flow-line 3s ease-in-out infinite; background-image: linear-gradient(90deg,#4d8049,#c7f45b,#4d8049); background-size: 200% 100%; }
+  .mk-card.landing-entered .mk-num { animation: landing-node-glow 4s ease-in-out infinite; }
+  .mk-card.landing-entered:nth-child(3) .mk-num { animation-delay: 1s; }
+  .mk-card.landing-entered:nth-child(5) .mk-num { animation-delay: 2s; }
+  .mk-card.landing-entered:nth-child(7) .mk-num { animation-delay: 3s; }
+
+  .sol-marketing.landing-entered .sol-ad-left { animation: landing-ad-left .7s .2s both; }
+  .sol-marketing.landing-entered .sol-ad-right { animation: landing-ad-right .7s .28s both; }
+  .sol-marketing.landing-entered .sol-ad-main { animation: landing-item-in .7s .35s both; }
+  .sol-software.landing-entered .sol-detail { animation: landing-item-in .7s .25s both; }
+  .sol-auto.landing-entered .sol-step-ico:not(.sol-step-star) { animation: landing-node-in .6s both; }
+
+  @keyframes landing-hero-intro { from { opacity: .55; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  @keyframes landing-stage-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+  @keyframes landing-glow-drift { from { transform: translate(-22px,8px) scale(.9); opacity: .55; } to { transform: translate(28px,32px) scale(1.12); opacity: 1; } }
+  @keyframes landing-orbit-glow { from { transform: translate(0,0) scale(.95); opacity: .55; } to { transform: translate(48px,-38px) scale(1.12); opacity: 1; } }
+  @keyframes landing-frame-glow { 0%,100% { box-shadow: 0 25px 80px #0008,0 0 22px #8dee5530; } 50% { box-shadow: 0 25px 80px #0008,0 0 54px #9af15a91; } }
+  @keyframes landing-panel-switch { from { opacity: .6; transform: translateY(10px) scale(.99); } to { opacity: 1; transform: none; } }
+  @keyframes landing-tab-progress { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+  @keyframes landing-status-pulse { 0%,100% { box-shadow: 0 0 0 0 #59da6170; } 50% { box-shadow: 0 0 0 6px #59da6100; } }
+  @keyframes landing-image-breathe { from { transform: scale(1); } to { transform: scale(1.07); } }
+  @keyframes landing-follow-glow { 0%,100% { box-shadow: 0 0 0 #8be13a00; } 50% { box-shadow: 0 0 18px #8be13a65; } }
+  @keyframes landing-node-glow { 0%,100% { box-shadow: 0 0 0 #a7f45b00; } 50% { box-shadow: 0 0 22px #a7f45b99; } }
+  @keyframes landing-flow-line { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+
+  @keyframes landing-item-in { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+  @keyframes landing-node-in { from { opacity: .5; transform: scale(.88); } to { opacity: 1; transform: scale(1); } }
+  @keyframes landing-ad-left { from { opacity: 0; transform: translate(18px, 12px) rotate(-4deg); } to { opacity: 1; transform: rotate(-7deg); } }
+  @keyframes landing-ad-right { from { opacity: 0; transform: translate(-18px, 12px) rotate(4deg); } to { opacity: 1; transform: rotate(6deg); } }
+
+  @media (max-width: 700px) {
+    .hx-stage { animation-duration: 7s; }
+    .hx-frame.is-switching .hx-kpi,
+    .hx-frame.is-switching .hx-opps li,
+    .hx-frame.is-switching .hx-alert,
+    .hx-frame.is-switching .hx-follow { animation-duration: .42s; }
+    .mk-card.landing-motion-target { transition-delay: 0ms; }
+    .sol-marketing.landing-entered .sol-ad-left,
+    .sol-marketing.landing-entered .sol-ad-right { animation: none; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hx-frame.is-switching { animation: none; }
+  .hx-tab, .sol-btn, .ct-btn, .fq details, .fq-chev { transition: none; }
+  .hx .button-outline:hover, .sol-btn:hover, .ct-btn:hover { transform: none; }
+}

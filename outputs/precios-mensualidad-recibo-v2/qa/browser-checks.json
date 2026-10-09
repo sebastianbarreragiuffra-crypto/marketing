@@ -1,0 +1,1331 @@
+[
+  {
+    "checksColumns": "270.891px 356.438px 313.656px",
+    "clientWidth": 1425,
+    "failures": [],
+    "fontsLoaded": "loaded",
+    "formulaHeight": 35,
+    "minContrast": 5.71,
+    "receipt": {
+      "bottom": 717.4375,
+      "height": 535.3125,
+      "left": 80,
+      "right": 1345,
+      "top": 182.125,
+      "width": 1265,
+      "x": 80,
+      "y": 182.125
+    },
+    "scrollWidth": 1425,
+    "section": {
+      "bottom": 806.4375,
+      "height": 710.65625,
+      "left": 0,
+      "right": 1425,
+      "top": 95.78125,
+      "width": 1425,
+      "x": 0,
+      "y": 95.78125
+    },
+    "texts": [
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Cómo funciona tu mensualidad"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "32px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Un ejemplo con Google Ads, línea por línea."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Este ejemplo muestra qué es honorario de gestión, qué está incluido y qué se paga aparte."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "20px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Tu mensualidad · ejemplo con Google Ads"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Montos ilustrativos"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "1"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión de campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Nos encargamos de tus anuncios en Google Ads para que tú no tengas que hacerlo."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Creamos y configuramos tus campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Las ajustamos según cómo reaccionan"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Te mostramos avances y propuestas en GISBA"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Alcance por confirmar"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "28px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$350.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por mes"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "2"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "GISBA para 1 usuario"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "11px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Lo que nos diferencia"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Acceso al software de Órbita para revisar tus campañas:"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Reportes de tu agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Cómo reaccionan tus campañas"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Propuestas de la agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Chat unificado"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Alertas de seguimiento"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "= 1 persona con su propio acceso"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "1 usuario"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "Incluido"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "3"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Si más personas de tu equipo necesitan acceso, por ejemplo tu socio o quien lleva las ventas, puedes agregar usuarios."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "28px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$25.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por usuario / mes"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Va aparte"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "No incluido en los montos de arriba"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Inversión en anuncios"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Lo que se paga por mostrar tus anuncios. Se define contigo."
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Bot de WhatsApp"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Opcional"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Se cobra por mensaje. Precio por definir."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Lo que pagas cada mes:"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "(si los necesitas)"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Lo que va aparte"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Maqueta · Montos ilustrativos en CLP, no tarifas comerciales. Pendientes: alcance, precio por mensaje de WhatsApp y respaldo de «Lo que nos diferencia»."
+      }
+    ],
+    "viewport": [
+      1440,
+      810
+    ]
+  },
+  {
+    "checksColumns": "321.266px 422.719px 372px",
+    "clientWidth": 1905,
+    "failures": [],
+    "fontsLoaded": "loaded",
+    "formulaHeight": 35,
+    "minContrast": 5.71,
+    "receipt": {
+      "bottom": 759.921875,
+      "height": 514.3125,
+      "left": 232.5,
+      "right": 1672.5,
+      "top": 245.609375,
+      "width": 1440,
+      "x": 232.5,
+      "y": 245.609375
+    },
+    "scrollWidth": 1905,
+    "section": {
+      "bottom": 848.921875,
+      "height": 689.65625,
+      "left": 0,
+      "right": 1905,
+      "top": 159.265625,
+      "width": 1905,
+      "x": 0,
+      "y": 159.265625
+    },
+    "texts": [
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Cómo funciona tu mensualidad"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "32px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Un ejemplo con Google Ads, línea por línea."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Este ejemplo muestra qué es honorario de gestión, qué está incluido y qué se paga aparte."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "20px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Tu mensualidad · ejemplo con Google Ads"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Montos ilustrativos"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "1"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión de campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Nos encargamos de tus anuncios en Google Ads para que tú no tengas que hacerlo."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Creamos y configuramos tus campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Las ajustamos según cómo reaccionan"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Te mostramos avances y propuestas en GISBA"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Alcance por confirmar"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "28px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$350.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por mes"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "2"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "GISBA para 1 usuario"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "11px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Lo que nos diferencia"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Acceso al software de Órbita para revisar tus campañas:"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Reportes de tu agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Cómo reaccionan tus campañas"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Propuestas de la agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Chat unificado"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Alertas de seguimiento"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "= 1 persona con su propio acceso"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "1 usuario"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "Incluido"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "3"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Si más personas de tu equipo necesitan acceso, por ejemplo tu socio o quien lleva las ventas, puedes agregar usuarios."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "28px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$25.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por usuario / mes"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Va aparte"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "No incluido en los montos de arriba"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Inversión en anuncios"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Lo que se paga por mostrar tus anuncios. Se define contigo."
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Bot de WhatsApp"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Opcional"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Se cobra por mensaje. Precio por definir."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Lo que pagas cada mes:"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "(si los necesitas)"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Lo que va aparte"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Maqueta · Montos ilustrativos en CLP, no tarifas comerciales. Pendientes: alcance, precio por mensaje de WhatsApp y respaldo de «Lo que nos diferencia»."
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "checksColumns": "263px",
+    "clientWidth": 375,
+    "failures": [],
+    "fontsLoaded": "loaded",
+    "formulaHeight": 206,
+    "minContrast": 5.71,
+    "receipt": {
+      "bottom": 1949.390625,
+      "height": 1553.953125,
+      "left": 16,
+      "right": 359,
+      "top": 395.4375,
+      "width": 343,
+      "x": 16,
+      "y": 395.4375
+    },
+    "scrollWidth": 375,
+    "section": {
+      "bottom": 2297.390625,
+      "height": 2201.609375,
+      "left": 0,
+      "right": 375,
+      "top": 95.78125,
+      "width": 375,
+      "x": 0,
+      "y": 95.78125
+    },
+    "texts": [
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "11px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Cómo funciona tu mensualidad"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "34px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Un ejemplo con Google Ads, línea por línea."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Este ejemplo muestra qué es honorario de gestión, qué está incluido y qué se paga aparte."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "20px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Tu mensualidad · ejemplo con Google Ads"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "11px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Montos ilustrativos"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "1"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión de campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Nos encargamos de tus anuncios en Google Ads para que tú no tengas que hacerlo."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Creamos y configuramos tus campañas"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Las ajustamos según cómo reaccionan"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Te mostramos avances y propuestas en GISBA"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Alcance por confirmar"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "30px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$350.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por mes"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "2"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "GISBA para 1 usuario"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "10px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Lo que nos diferencia"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Acceso al software de Órbita para revisar tus campañas:"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Reportes de tu agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Cómo reaccionan tus campañas"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Propuestas de la agencia"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Chat unificado"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(238, 247, 214)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.56,
+        "text": "Alertas de seguimiento"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "✓"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "= 1 persona con su propio acceso"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "1 usuario"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "Incluido"
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "color": "rgb(199, 244, 91)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 15.34,
+        "text": "3"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "Si más personas de tu equipo necesitan acceso, por ejemplo tu socio o quien lleva las ventas, puedes agregar usuarios."
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "30px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "$25.000"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "13px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "por usuario / mes"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Va aparte"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "No incluido en los montos de arriba"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Inversión en anuncios"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Lo que se paga por mostrar tus anuncios. Se define contigo."
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Bot de WhatsApp"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 16.24,
+        "text": "Opcional"
+      },
+      {
+        "bg": "rgb(238, 234, 224)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "15px",
+        "overflow": false,
+        "ratio": 5.71,
+        "text": "Se cobra por mensaje. Precio por definir."
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "16px",
+        "overflow": false,
+        "ratio": 17.59,
+        "text": "Lo que pagas cada mes:"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Gestión"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Usuarios adicionales"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 6.75,
+        "text": "(si los necesitas)"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "17px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "+"
+      },
+      {
+        "bg": "rgb(255, 253, 248)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "14px",
+        "overflow": false,
+        "ratio": 19.19,
+        "text": "Lo que va aparte"
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "12px",
+        "overflow": false,
+        "ratio": 6.18,
+        "text": "Maqueta · Montos ilustrativos en CLP, no tarifas comerciales. Pendientes: alcance, precio por mensaje de WhatsApp y respaldo de «Lo que nos diferencia»."
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  }
+]

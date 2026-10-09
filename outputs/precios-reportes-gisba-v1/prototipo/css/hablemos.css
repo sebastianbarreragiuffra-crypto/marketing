@@ -1,0 +1,23 @@
+/* Hablemos: conserva el contacto y FAQ existentes; el título pasa a H1. */
+.hablemos-page .main-nav .nav-cta[aria-current="page"] { color: #0b0d0b; }
+.hablemos-page #contacto .hc-copy h1 {
+  margin: 0 0 24px;
+  font: 700 clamp(56px, 5.7vw, 82px)/1.08 Manrope, Arial, sans-serif;
+  letter-spacing: -.065em;
+}
+.hablemos-page #contacto .hc-copy h1 span { color: #c7f45b; }
+@media (max-width: 700px) {
+  .hablemos-page .fq h2 br { display: initial; }
+}
+@media (max-width: 1199px) {
+  .hablemos-page #contacto .hc-copy h1 { font-size: clamp(44px, 5.7vw, 64px); }
+}
+@media (max-width: 980px) {
+  .hablemos-page #contacto .hc-copy h1 { font-size: 64px; }
+}
+@media (max-width: 600px) {
+  .hablemos-page #contacto .hc-copy h1 { font-size: clamp(39px, 11vw, 60px); margin-bottom: 18px; }
+}
+@media (min-width: 1200px) {
+  .hablemos-page #contacto .hc-copy h1 { font-size: 64px; margin-bottom: 18px; }
+}

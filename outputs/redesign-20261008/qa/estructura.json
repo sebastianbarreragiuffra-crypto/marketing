@@ -1,0 +1,80 @@
+{
+  "pages": {
+    "marketing": {
+      "h1": 1,
+      "duplicate_ids": false,
+      "broken_links": [],
+      "robots": "noindex, nofollow"
+    },
+    "software": {
+      "h1": 1,
+      "duplicate_ids": false,
+      "broken_links": [],
+      "robots": "noindex, nofollow"
+    },
+    "precios": {
+      "h1": 1,
+      "duplicate_ids": false,
+      "broken_links": [],
+      "robots": "noindex, nofollow"
+    }
+  },
+  "screenshots": {
+    "marketing-1440.jpg": [
+      1425,
+      3136
+    ],
+    "marketing-1920.jpg": [
+      1905,
+      3120
+    ],
+    "marketing-390.jpg": [
+      375,
+      5183
+    ],
+    "marketing-servicios-1440.jpg": [
+      1425,
+      990
+    ],
+    "precios-1440.jpg": [
+      1425,
+      3322
+    ],
+    "precios-1920.jpg": [
+      1905,
+      3298
+    ],
+    "precios-390.jpg": [
+      375,
+      7298
+    ],
+    "precios-planes-390.jpg": [
+      375,
+      812
+    ],
+    "software-1440.jpg": [
+      1425,
+      3820
+    ],
+    "software-1920.jpg": [
+      1905,
+      3813
+    ],
+    "software-390.jpg": [
+      375,
+      6195
+    ],
+    "software-consulta-390.jpg": [
+      375,
+      812
+    ],
+    "software-consultas-1440.jpg": [
+      1425,
+      990
+    ],
+    "software-reportes-390.jpg": [
+      375,
+      812
+    ]
+  }
+}

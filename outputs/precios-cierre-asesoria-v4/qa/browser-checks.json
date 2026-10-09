@@ -1,0 +1,53 @@
+[
+  {
+    "cta": "hablemos.html#contacto",
+    "overflow": false,
+    "questions": [
+      "¿Qué revisaremos?\n\nTus objetivos y cómo atraes y atiendes a tus clientes.",
+      "¿Debo elegir un servicio antes?\n\nNo. Revisamos contigo qué apoyo necesitas.",
+      "¿Hablaremos de costos?\n\nSí. Conversamos sobre el costo del servicio y, si corresponde, el presupuesto para anuncios por separado."
+    ],
+    "section": {
+      "columns": "632.188px 632.188px",
+      "height": 428.765625,
+      "last": "asesoria"
+    },
+    "size": [
+      1440,
+      810
+    ],
+    "styles": [
+      "css/pricing-cierre-asesoria-v4.css"
+    ]
+  },
+  {
+    "overflow": false,
+    "shell": {
+      "bottom": 759.09375,
+      "height": 360.5625,
+      "left": 232.5,
+      "right": 1672.5,
+      "top": 398.53125,
+      "width": 1440,
+      "x": 232.5,
+      "y": 398.53125
+    },
+    "size": [
+      1920,
+      1080
+    ],
+    "textOverflow": []
+  },
+  {
+    "bodyFont": "17px",
+    "columns": "339px",
+    "ctaHeight": 54,
+    "overflow": false,
+    "sectionHeight": 636.53125,
+    "size": [
+      390,
+      844
+    ],
+    "textOverflow": []
+  }
+]

@@ -1,0 +1,40 @@
+/* Hero based on the supplied final composition; the site's navigation stays intact. */
+.final-hero{position:relative;isolation:isolate;overflow:hidden;background:#071008;color:#f8faf4}
+.final-hero::before,.final-hero::after{content:"";position:absolute;z-index:-1;pointer-events:none;border-radius:50%}
+.final-hero::before{width:620px;height:620px;right:-340px;top:-270px;background:radial-gradient(circle,#a5f94d7a 0,#66c53537 28%,transparent 64%);filter:blur(12px)}
+.final-hero::after{width:650px;height:650px;left:-550px;bottom:-440px;border:1px solid #b4ff74a1;box-shadow:0 0 35px #97ee5790,0 0 100px #76db3b56}
+.final-hero .commerce-hero-grid{width:min(100% - 96px,1500px);grid-template-columns:minmax(350px,.92fr) minmax(0,1.92fr);gap:30px;min-height:0;padding-top:35px;padding-bottom:26px;align-items:center}
+.final-hero .commerce-copy{max-width:460px}
+.final-hero .commerce-copy .eyebrow{margin-bottom:28px;font-size:10px;letter-spacing:.17em;white-space:nowrap}
+.final-hero .commerce-copy .eyebrow span{width:36px}
+.final-hero .commerce-copy h1{margin:0 0 21px;max-width:none;font-size:clamp(42px,4.35vw,66px);line-height:1.015;letter-spacing:-.072em;font-weight:700}
+.final-hero .commerce-copy h1 em{display:inline;padding:0;color:#b6f663}
+.final-hero .commerce-copy>p:not(.eyebrow){max-width:430px;margin-bottom:22px;color:#c3cbc0;font-size:15px;line-height:1.48}
+.final-hero .hero-actions{gap:10px;flex-wrap:nowrap}
+.final-hero .button{min-height:48px;white-space:nowrap;padding:13px 18px;font-size:11px}
+.final-hero .button-primary{background:#b9f464;box-shadow:0 8px 22px #a9f66d24}
+.final-hero .button-outline{border:1px solid #879183;background:#09120bcc;color:#f8faf4}
+.final-hero .button-outline:hover{border-color:#b9f464;color:#b9f464;transform:translateY(-2px)}
+.final-hero .button span{margin-left:7px;font-size:17px;font-weight:400;line-height:1}
+.final-dashboard{min-width:0;margin:0;align-self:center}
+.final-dashboard-frame{position:relative;overflow:hidden;width:100%;aspect-ratio:810/510;border:2px solid #65715f;border-radius:18px;background:#111b14;box-shadow:0 25px 80px #0008,0 0 42px #8dee5542}
+.final-dashboard-frame img{position:absolute;top:-17.45%;left:-54.2%;width:158.03%;max-width:none;height:auto}
+.final-dashboard figcaption{margin:9px 2px 0;color:#aebba9;font-size:10px;line-height:1.35}
+.final-benefits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding-top:23px;padding-bottom:27px}
+.final-benefit{display:flex;align-items:flex-start;justify-content:center;gap:23px;min-width:0}
+.final-benefit svg{width:39px;height:39px;flex:none;color:#b6f663}
+.final-benefit p{margin:0}
+.final-benefit strong,.final-benefit span{display:block}
+.final-benefit strong{font-size:15px;font-weight:700;line-height:1.24}
+.final-benefit span{margin-top:3px;color:#a9b5a5;font-size:13px;line-height:1.3}
+.final-trust{padding-bottom:27px}
+.final-trust-heading{display:flex;align-items:center;gap:15px;color:#adb5a9;font-size:10px;font-weight:700;letter-spacing:.25em;white-space:nowrap}
+.final-trust-heading::before,.final-trust-heading::after{content:"";height:1px;flex:1;background:#536151}
+.final-trust-logos{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 35px 0;color:#c2c8bd;font:700 clamp(15px,1.8vw,24px)/1 Manrope,Arial,sans-serif;letter-spacing:-.07em;white-space:nowrap}
+.final-trust-logos .trust-trex{font-weight:800;letter-spacing:-.09em}
+.final-trust-logos .trust-kuroda{font-weight:500;letter-spacing:-.06em}
+.final-trust-logos .trust-flesan{font-style:italic;border:1px solid currentColor;border-radius:2px;padding:2px 8px}
+@media(max-width:1180px){.final-hero .commerce-hero-grid{width:min(100% - 56px,1050px);grid-template-columns:minmax(300px,.85fr) minmax(0,1.45fr);gap:22px}.final-hero .commerce-copy h1{font-size:clamp(39px,4.4vw,52px)}.final-hero .commerce-copy>p:not(.eyebrow){font-size:13px}.final-hero .button{padding:12px 14px;font-size:10px}.final-benefit{gap:14px}.final-trust-logos{padding-inline:10px}}
+@media(max-width:900px){.final-hero .commerce-hero-grid{width:min(100% - 48px,720px);grid-template-columns:1fr;gap:29px;padding-top:55px;padding-bottom:14px}.final-hero .commerce-copy{max-width:620px}.final-hero .commerce-copy h1{font-size:clamp(48px,7vw,68px)}.final-hero .commerce-copy>p:not(.eyebrow){max-width:580px;font-size:16px}.final-hero .hero-actions{flex-wrap:wrap}.final-dashboard{width:100%;max-width:720px}.final-benefits{width:min(100% - 48px,720px);gap:15px}.final-benefit{justify-content:flex-start;gap:9px}.final-benefit svg{width:30px;height:30px}.final-benefit strong{font-size:12px}.final-benefit span{font-size:10px}.final-trust{width:min(100% - 48px,720px)}.final-trust-logos{flex-wrap:wrap;justify-content:center;column-gap:35px;row-gap:17px}}
+@media(max-width:640px){.final-hero .commerce-hero-grid{width:min(100% - 36px,520px);gap:27px;padding-top:42px}.final-hero .commerce-copy .eyebrow{font-size:8px;letter-spacing:.12em;margin-bottom:22px}.final-hero .commerce-copy .eyebrow span{width:22px}.final-hero .commerce-copy h1{font-size:clamp(37px,9.7vw,52px);margin-bottom:18px}.final-hero .commerce-copy>p:not(.eyebrow){font-size:14px;line-height:1.55;margin-bottom:19px}.final-hero .hero-actions{flex-direction:row;gap:8px;align-items:stretch}.final-hero .button{min-height:45px;padding:10px 12px;font-size:10px}.final-hero .button span{margin-left:1px;font-size:14px}.final-dashboard-frame{border-radius:10px}.final-dashboard figcaption{font-size:9px}.final-benefits{width:min(100% - 36px,520px);grid-template-columns:1fr;gap:16px;padding-top:22px;padding-bottom:29px}.final-benefit{align-items:center;gap:14px}.final-benefit svg{width:34px;height:34px}.final-benefit strong{font-size:14px}.final-benefit strong br{display:none}.final-benefit span{font-size:12px}.final-trust{width:min(100% - 36px,520px);padding-bottom:28px}.final-trust-heading{font-size:8px;letter-spacing:.17em}.final-trust-logos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 10px;padding:20px 0 0;text-align:center;font-size:13px}}
+@media(max-width:375px){.final-hero .commerce-copy h1{font-size:36px}.final-hero .button{font-size:9px;padding-inline:9px}.final-hero .commerce-copy .eyebrow{font-size:7px}}

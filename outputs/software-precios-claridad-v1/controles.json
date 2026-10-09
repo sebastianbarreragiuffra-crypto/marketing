@@ -1,0 +1,27 @@
+{
+  "revision": "Mismo agente, perspectivas A/B/C/Z; sin prueba con usuarios ni revisión independiente.",
+  "VERIFICADO": [
+    "Software y Precios a 1440, 1920, 390 y 320 px: carga, texto y ausencia de desbordamiento",
+    "Un H1 por página e IDs únicos",
+    "Enlaces y anclas locales válidos",
+    "Menú por teclado, Escape y retorno del foco",
+    "Desplegables con Enter/Espacio y foco visible; abiertos a 320 px sin desbordamiento",
+    "Responsable y próxima tarea visibles en móvil",
+    "Cifras 202440/42=4820, 202440/24=8435, inversión 60/40 y variaciones redondeadas coherentes",
+    "Mensualidad v5 conservada exactamente",
+    "Únicamente software.html y precios.html cambiaron frente a los hashes de páginas/CSS/JS existentes al inicio; estilos/scripts nuevos acotados",
+    "Manifiesto actualizado y comprobado"
+  ],
+  "PENDIENTE": [
+    "Modalidades de inclusión, tarifas, alcance y condiciones de accesos adicionales",
+    "Funciones propuestas de GISBA, incluida evaluación de formularios aptos",
+    "Disponibilidad, precios y consumo de mensajes del bot",
+    "Envío real y reserva: contacto continúa como vista previa",
+    "Git/traspaso a otro PC: cambios solo locales"
+  ],
+  "NO APLICA": [
+    "Publicación, despliegue, commit y push: fuera del alcance y no realizados",
+    "Backend o envío de mensajes: no implementado"
+  ],
+  "BLOQUEADO": []
+}

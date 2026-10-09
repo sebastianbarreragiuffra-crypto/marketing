@@ -1,0 +1,53 @@
+{
+  "changed_existing_files": [
+    {
+      "file": "marketing.html",
+      "state": "modified"
+    },
+    {
+      "file": "precios.html",
+      "state": "modified"
+    },
+    {
+      "file": "software.html",
+      "state": "modified"
+    },
+    {
+      "file": "css/marketing-autoplay.css",
+      "state": "deleted"
+    },
+    {
+      "file": "js/marketing-autoplay.js",
+      "state": "deleted"
+    },
+    {
+      "file": "js/marketing-contact.js",
+      "state": "modified"
+    },
+    {
+      "file": "js/marketing-services.js",
+      "state": "modified"
+    }
+  ],
+  "unrelated_files_preserved": true,
+  "html_checks": [
+    {
+      "page": "marketing.html",
+      "h1": 1,
+      "duplicate_ids": [],
+      "broken_local_links": []
+    },
+    {
+      "page": "software.html",
+      "h1": 1,
+      "duplicate_ids": [],
+      "broken_local_links": []
+    },
+    {
+      "page": "precios.html",
+      "h1": 1,
+      "duplicate_ids": [],
+      "broken_local_links": []
+    }
+  ]
+}

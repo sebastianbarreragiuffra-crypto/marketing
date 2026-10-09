@@ -1,0 +1,15 @@
+Propuesta de la sección «Reportes en GISBA» para Precios. Generada el 8 de octubre de 2026.
+
+No se cambiaron las páginas raíz, ni el manifiesto, ni las versiones anteriores. No se publicó, desplegó, hizo commit ni push. El túnel público sigue sirviendo la web vigente y no permite outputs.
+
+La sección «Ves la inversión. Entiendes las decisiones.» no aparece en precios.html actual, por lo que no fue posible retirarla/reemplazarla en ese archivo. El usuario confirmó ubicarla después del hero. Se integró exclusivamente en prototipo/precios.html, antes de Mensualidad. No se retiró otro contenido como sustituto del reporte ausente.
+
+Pendiente: comprobar si el equipo del cliente puede marcar solicitudes aptas para cotizar. La tarjeta muestra «Función por confirmar» y debe retirarse antes de implementar si esa capacidad no existe. Cifras de ejemplo, no resultados reales. El gráfico tiene escala lineal desde cero; el detalle al pasar el mouse sigue pendiente de prototipo. Botón ilustrativo, destino real pendiente.
+
+La inversión en anuncios no incluye honorarios de gestión. Las 42 unidades son formularios recibidos, no personas únicas.
+
+Cálculos: 202.440 ÷ 42 = 4.820; 202.440 ÷ 24 = 8.435. Contraste observado: textos mínimo 5,7089:1; barras oliva 3,4377:1.
+
+Fuentes HTML/CSS editables: reportes.html y reportes-gisba.css. PNG exportado: reportes-gisba-v1-1440.png (1440 × 960 px reales). QA y capturas en qa/.
+
+Copia completa de revisión: prototipo/precios.html#reportes-gisba. Recursos públicos copiados dentro de esta propuesta para revisión local; no representan otra versión activa del sitio.

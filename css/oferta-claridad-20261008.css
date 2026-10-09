@@ -1,0 +1,60 @@
+/* Refinamientos sobre las tres páginas actuales. No afecta Inicio. */
+.marketing-compact .offer-conditions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.marketing-compact .offer-conditions li { padding: 6px 10px; border: 1px solid #719050; border-radius: 12px; color: #f6f3eb; font-size: 13px; line-height: 1.4; background: #171d17; }
+.marketing-compact .offer-responsibility { margin: 0 0 20px; max-width: 550px; font-size: 14px; line-height: 1.5; color: #d5ddcc; }
+.marketing-compact .ms-tabs { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.marketing-compact .ms-tab { gap: 6px; padding-inline: 5px; font-size: 12px; }
+.marketing-compact .ms-plan-price { font-size: 14px; letter-spacing: 0; font-weight: 600; }
+.marketing-compact .ms-plan-content { min-width: 0; }
+.marketing-compact .offer-prices-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; text-decoration: underline; color: #48622e; }
+.marketing-compact .offer-tools-note { margin: 0; font-size: 12px; line-height: 1.5; color: #48622e; }
+.marketing-compact .offer-tiktok-view h3 { margin: 12px 0; font-size: 22px; line-height: 1.3; }
+.marketing-compact .offer-tiktok-view p { font-size: 15px; line-height: 1.5; }
+.marketing-compact .offer-tiktok-scope { display: flex; gap: 14px; padding: 20px; margin: 24px 0; border: 1px solid #d5dbcd; border-radius: 16px; background: #f6f3eb; }
+.marketing-compact .offer-tiktok-scope h4 { margin: 0; font-size: 17px; }
+.marketing-compact .offer-tiktok-scope p { margin-bottom: 0; }
+.marketing-compact .offer-tiktok-view[hidden] { display: none; }
+.marketing-compact .mh-button-primary { gap: 12px; }
+.software-page .offer-gisba-inclusion { margin: 0 0 12px; max-width: 480px; font-size: 15px; line-height: 1.5; color: #48622e; }
+.software-page .offer-gisba-extra { margin: 0 0 22px; max-width: 480px; font-size: 13px; line-height: 1.5; color: #48622e; }
+.software-page .offer-software-faq { background: #f6f3eb; color: #0b0d0b; padding: 24px 0; }
+.software-page .offer-faq-shell { width: min(calc(100% - 160px),1440px); margin-inline: auto; }
+.software-page .offer-software-faq h2 { margin: 0 0 20px; font-size: clamp(26px,2.4vw,34px); line-height: 1.2; }
+.software-page .offer-software-faq details { border-top: 1px solid #d7d5cd; }
+.software-page .offer-software-faq details:last-child { border-bottom: 1px solid #d7d5cd; }
+.software-page .offer-software-faq summary { cursor: pointer; padding: 16px 0; min-height: 48px; font-size: 17px; font-weight: 700; line-height: 1.4; }
+.software-page .offer-software-faq details p { max-width: 1000px; margin: 0 0 20px; font-size: 16px; line-height: 1.6; color: #48622e; }
+.precios-page .offer-mode-label { display: block; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #bbc3b4; margin-bottom: 4px; }
+.precios-page .offer-mode-includes { margin: 12px 0 16px; font-size: 13px; line-height: 1.45; color: #bbc3b4; }
+.precios-page .offer-mode-includes > div { display: grid; grid-template-columns: 52px minmax(0,1fr); gap: 6px; margin-top: 8px; }
+.precios-page .offer-mode-includes dt { font-weight: 700; color: #f6f3eb; }
+.precios-page .offer-mode-includes dd { margin: 0; }
+.precios-page .offer-combination-scope { color: #bbc3b4; font-size: 13px; line-height: 1.5; margin: 12px 0; }
+.precios-page .offer-plan-proposal { font-size: 12px; line-height: 1.5; color: #bbc3b4; margin: 16px 0 8px; }
+.precios-page .pg-plan-details dd small { display: block; margin-top: 4px; font-size: 12px; line-height: 1.5; font-weight: 400; color: #bbc3b4; }
+.precios-page .pg-plan-pro :is(.offer-mode-label,.offer-plan-proposal,.pg-plan-details dd small) { color: #48622e; }
+.precios-page .offer-web-project { display: flex; align-items: center; gap: 24px; justify-content: space-between; margin-top: 24px; padding: 22px; border: 1px solid #d5dbcd; border-radius: 18px; background: #eeeae0; color: #0b0d0b; }
+.precios-page .offer-web-project h3 { margin: 0 0 8px; font-size: 22px; line-height: 1.3; }
+.precios-page .offer-web-project p { margin: 6px 0 0; color: #48622e; font-size: 15px; line-height: 1.5; }
+.precios-page .offer-web-project a { display: inline-flex; align-items: center; gap: 12px; flex: none; min-height: 44px; color: #0b0d0b; font-size: 15px; font-weight: 700; text-decoration: underline; }
+.precios-page .offer-web-project a:focus-visible { outline-color: #48622e; }
+@media (min-width: 1200px) {
+  .marketing-compact .mh-copy { padding-top: 32px; }
+  .marketing-compact .mh-lead { font-size: 17px; margin-bottom: 16px; }
+  .marketing-compact .mh-actions { flex-wrap: wrap; gap: 12px; }
+  .marketing-compact .ms-plans .ms-plan-price { font-size: 14px; }
+}
+@media (max-width: 760px) {
+  .marketing-compact .ms-tabs { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .marketing-compact .ms-tab { font-size: 13px; flex-direction: row; }
+  .marketing-compact .ms-plan-content { display: block; }
+  .marketing-compact .ms-plan-price { display: block; margin-block: 5px; }
+  .marketing-compact .cp-service-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .software-page .offer-faq-shell { width: calc(100% - 32px); }
+  .software-page .offer-gisba-inclusion { font-size: 15px; }
+  .precios-page .pr-example { display: flex; align-items: center; gap: 12px; max-width: none; }
+  .precios-page .pr-example .pr-ad-preview { width: 112px; height: auto; max-height: 92px; flex: none; object-fit: contain; }
+  .precios-page .pr-example figcaption { margin: 0; font-size: 10px; }
+  .precios-page .offer-web-project { display: block; padding: 18px; }
+  .precios-page .offer-web-project a { margin-top: 12px; }
+}

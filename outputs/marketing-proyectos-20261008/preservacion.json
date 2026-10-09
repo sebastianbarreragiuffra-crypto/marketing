@@ -1,0 +1,17 @@
+{
+  "estado": "VERIFICADO",
+  "archivos_activos_modificados": [
+    "css/compra-clara-20261008.css",
+    "marketing.html"
+  ],
+  "otros_recursos_activos_intactos": 82,
+  "contenido_marketing_fuera_del_delta": "idéntico",
+  "css_compartido_fuera_de_las_reglas_exclusivas_retiradas": "idéntico",
+  "referencias_exclusivas": {
+    "marketing.html": true
+  },
+  "ids_unicos": true,
+  "hero_campanas_contacto_navegacion_footer": "preservados",
+  "noindex": "conservado",
+  "head": "7f3c8d6fe5d4f91026aa43055b13878704cfb436"
+}

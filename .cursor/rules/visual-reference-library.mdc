@@ -1,0 +1,35 @@
+---
+description: Biblioteca de referencias visuales y evidencia comercial para Directorio C
+alwaysApply: false
+---
+
+# Referencias para C — revisión 2026-10-08
+
+## Cómo investigar y usar
+- Elegir primero una referencia próxima a la tarea y otra útil para el recurso visual; ampliar búsqueda sólo si falta una solución. No revisar diez marcas por rutina.
+- Ficha por referencia: URL/sección/fecha; comprador y tarea; patrón de layout; función de imagen; movimiento realmente observado; ancho/móvil; adaptación propuesta; qué descartar; evidencia y límites.
+- Inspeccionar contenido y render de la sección que se quiere adaptar. Sólo leer texto no valida geometría, animación, carga ni responsive. No confundir capas superpuestas estáticas con flotación animada.
+- Para movimiento registrar disparador, secuencia, pausa y final; un screenshot sólo prueba un instante. Reutilizar evidencia vigente y refrescar cuando cambie la página o decisión.
+- El filtro de más de US$10 millones/año exige ingresos propios, año y fuente; financiación, valuación y GMV no equivalen. Un umbral no comprobado no invalida una referencia visual, pero se declara.
+- Bounce rate, exit rate, conversión y ventas requieren definición, período, población, fuente y método. Una cifra de cliente o caso antiguo no es el rendimiento actual de la homepage ni prueba causal del layout.
+- El resultado de investigar debe ser una decisión adaptada a Órbita/GISBA; no copiar activos, funciones, afirmaciones, testimonios ni una estética completa.
+
+## Referencias próximas al producto
+- Gorgias Helpdesk: https://www.gorgias.com/products/helpdesk — contenido y render a1440 observados en esta revisión, incluido Ticket Management/Routing. Interfaz parcial + detalles ampliados junto a navegación por tarea. Adaptar consulta/responsable/siguiente paso; descartar megamenú de funciones y promesas de IA no verificadas. Movimiento y móvil no validados; ingresos propios >US$10M no verificados.
+- Attio: https://attio.com/ — contenido y render a1440 observados en esta revisión, hero y acceso a Convert leads. Grilla editorial y escenas separadas por trabajo comercial. Adaptar continuidad de una oportunidad y su próximo paso; no trasladar prospección/agentes de Attio. Duraciones, móvil e ingresos >US$10M no verificados.
+- Vambe: https://www.vambe.ai/ — hero renderizado en la revisión precedente de esta conversación: beneficio + asesoría + vista grande de producto. Adaptar proximidad al comprador en español; descartar garantías propias de su oferta. Animaciones/móvil, ingresos >US$10M y conversión de su sitio no verificados.
+- Intercom: https://www.intercom.com/ — contenido revisado por investigador independiente: escenas de conversación, solicitud, reporte y traspaso. Candidato para explicar productos complementarios; render/móvil/movimiento pendientes antes de adoptar layout.
+- Linear: https://linear.app/ y https://linear.app/insights — candidato para continuidad conversación/tarea/responsable y representación de interfaz. Contenido revisado; render actual pendiente. No heredar vocabulario ni densidad para compradores técnicos.
+- Stripe Billing: https://stripe.com/en-ch/billing ; Attio Reporting: https://attio.com/platform/reporting ; Attio/Granola: https://attio.com/customers/granola — referencias conservadas del directorio anterior, no verificadas nuevamente en esta ronda. Abrir sólo si la decisión las necesita.
+
+## Composición y contexto comercial
+- Apple MacBook Pro: https://www.apple.com/macbook-pro/ — hero renderizado en la revisión precedente: producto protagonista, beneficio breve, espacio y jerarquía. Referencia de dirección de arte; no plantilla del recorrido comercial Órbita ni prueba de conversión de sus efectos.
+- Shopify: https://www.shopify.com/ — hero renderizado previamente: contexto de negocio/personas y acción clara. Adaptar conexión con la actividad del cliente, sin copiar longitud ni video pesado por defecto.
+- Klaviyo: https://www.klaviyo.com/ — hero renderizado previamente: producto acompañado de elementos gráficos y profundidad. Adaptar recorte/detalle para conectar función con beneficio; mantener texto legible y producto frontal de GISBA.
+- Shopify ingresos propios2025: US$11.556 millones; Klaviyo ingresos2025: aproximadamente US$1.234 millones. Superan US$10M/año. Fuentes: https://s27.q4cdn.com/572064924/files/doc_financials/2025/q4/Shopify_Investor_Press_Release_Q4-25_FINAL.pdf ; https://www.sec.gov/Archives/edgar/data/1835830/000183583026000007/kvyo-20251231.htm
+- No se verificaron tasas actuales de rebote/conversión de las homepages anteriores. No atribuir sus ingresos a un recurso de diseño.
+
+## Evidencia medida útil para decisiones
+- Rakuten24, caso2022: https://web.dev/case-studies/rakuten — A/B un mes,50/50, apariencia/funciones iguales; optimización de rendimiento reportó conversión+33,13% y exit rate−35,12%. Justifica probar carga y activos; no añadir animación ni prometer esos resultados para Órbita.
+- Vodafone, caso2021: https://web.dev/case-studies/vodafone — A/B de versiones con la misma apariencia; LCP mejoró31% y ventas8% según caso. Evidencia contextual de rendimiento, no benchmark universal ni efecto causal de capas flotantes.
+- Los casos históricos mencionan métricas entonces vigentes; usar Core Web Vitals actuales desde design-validation.mdc. Resultados ajenos orientan una hipótesis; mejoras propias requieren datos propios.

@@ -1,0 +1,28 @@
+{
+  "VERIFICADO": [
+    "Cierre v4 en Cloudflare tras F5",
+    "Tres preguntas y respuestas del mockup en HTML editable",
+    "1440/1920/390 px sin overflow",
+    "Última sección antes del footer",
+    "68 archivos adyacentes y footer intactos",
+    "Versión anterior conservada",
+    "Contraste del cuerpo mayor a 4.5:1"
+  ],
+  "PENDIENTE": [
+    "Reserva y envío reales de consultas: vista previa existente"
+  ],
+  "NO_APLICA": [
+    "Cambios en otras secciones/páginas",
+    "Commit/push y deployment permanente de Pages no solicitados"
+  ],
+  "files": [
+    "precios.html",
+    "css/pricing-cierre-asesoria-v4.css"
+  ],
+  "screenshot": [
+    1440,
+    960
+  ],
+  "body_contrast": 6.05,
+  "url": "https://informative-orders-translated-experiencing.trycloudflare.com/precios.html#asesoria"
+}

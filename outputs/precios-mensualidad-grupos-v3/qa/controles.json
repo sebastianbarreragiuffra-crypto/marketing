@@ -1,0 +1,32 @@
+{
+  "VERIFICADO": [
+    "Cambio limitado a mensualidad y su link CSS en Precios; otras paginas y secciones conservadas",
+    "Tres grupos de funciones alineados en desktop; una columna movil",
+    "Render publico 1440x900, 1920x1080 y 390x844 sin overflow horizontal",
+    "Texto editable HTML/CSS, sin escalar la seccion como imagen",
+    "Contraste de textos medido: minimo 5.7089:1",
+    "Una unica seccion #mensualidad, solo CSS v3 activa",
+    "PNG de revision real a 1440 px de ancho",
+    "Manifiesto coincide y no faltan recursos"
+  ],
+  "PENDIENTE": [
+    "Alcance de gestion",
+    "Elegibilidad de Oportunidades en Google Ads para el usuario incluido",
+    "Precio por mensaje de WhatsApp",
+    "Respaldo comercial de Lo que nos diferencia",
+    "Commit y push; no autorizados"
+  ],
+  "NO_APLICA": [
+    "Nuevas alternativas comerciales: usuario especifico el reemplazo visual",
+    "Nuevas tarifas o total: montos previos ilustrativos sin cambio",
+    "Reserva, envio de consultas o capacidades reales del software: fuera del delta",
+    "Despliegue de Pages: solo vista local ya autorizada por tunel"
+  ],
+  "revision": "SAME_AGENT A/Z/C + INDEPENDENT_REVIEW de alcance; sin prueba de usuarios",
+  "archivos": [
+    "precios.html",
+    "css/pricing-monthly-recibo-v3.css",
+    "site-manifest.json"
+  ],
+  "historico": "archive/2026-10-08-mensualidad-grupos-v3/"
+}

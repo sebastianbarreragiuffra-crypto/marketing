@@ -1,0 +1,1650 @@
+[
+  {
+    "initial": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 268.21875,
+          "imageWidth": 339,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 0,
+          "imageWidth": 0,
+          "label": "Mostrar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": false,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 0,
+          "imageWidth": 0,
+          "label": "Mostrar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": false,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 390
+    },
+    "keyboard": [
+      {
+        "index": 0,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Google Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Google Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 0,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ],
+        "focus": {
+          "label": "Ocultar ejemplo de Meta Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 1,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ],
+        "focus": {
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 2,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 339,
+            "fontSize": "16px",
+            "imageHeight": 268.21875,
+            "imageWidth": 339,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 339
+          }
+        ]
+      }
+    ],
+    "allOpen": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 268.21875,
+          "imageWidth": 339,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 268.21875,
+          "imageWidth": 339,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 339,
+          "fontSize": "16px",
+          "imageHeight": 268.21875,
+          "imageWidth": 339,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 339
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 390
+    },
+    "gisbaOpen": true,
+    "gisbaClosed": true
+  },
+  {
+    "initial": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 232.328125,
+          "fontSize": "16px",
+          "imageHeight": 183.8125,
+          "imageWidth": 232.328125,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 232.328125
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 231.328125,
+          "fontSize": "16px",
+          "imageHeight": 0,
+          "imageWidth": 0,
+          "label": "Mostrar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": false,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 231.328125
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 231.328125,
+          "fontSize": "16px",
+          "imageHeight": 0,
+          "imageWidth": 0,
+          "label": "Mostrar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": false,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 231.328125
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 760
+    },
+    "keyboard": [
+      {
+        "index": 0,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Mostrar ejemplo de Google Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Google Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 0,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ],
+        "focus": {
+          "label": "Ocultar ejemplo de Meta Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 1,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "before": [
+          true,
+          false,
+          false
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ],
+        "focus": {
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 2,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 232.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.8125,
+            "imageWidth": 232.328125,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 232.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 231.328125,
+            "fontSize": "16px",
+            "imageHeight": 183.015625,
+            "imageWidth": 231.328125,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 231.328125
+          }
+        ]
+      }
+    ],
+    "allOpen": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 232.328125,
+          "fontSize": "16px",
+          "imageHeight": 183.8125,
+          "imageWidth": 232.328125,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 232.328125
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 231.328125,
+          "fontSize": "16px",
+          "imageHeight": 183.015625,
+          "imageWidth": 231.328125,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 231.328125
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 231.328125,
+          "fontSize": "16px",
+          "imageHeight": 183.015625,
+          "imageWidth": 231.328125,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 231.328125
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 760
+    },
+    "gisbaOpen": true,
+    "gisbaClosed": true
+  },
+  {
+    "initial": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 316.359375,
+          "fontSize": "16px",
+          "imageHeight": 250.296875,
+          "imageWidth": 316.359375,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 316.359375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 287.375,
+          "fontSize": "16px",
+          "imageHeight": 227.359375,
+          "imageWidth": 287.375,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 287.375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 287.375,
+          "fontSize": "16px",
+          "imageHeight": 227.359375,
+          "imageWidth": 287.375,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 287.375
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 1440
+    },
+    "keyboard": [
+      {
+        "index": 0,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Mostrar ejemplo de Google Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Google Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 0,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Meta Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 1,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de TikTok Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 2,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 316.359375,
+            "fontSize": "16px",
+            "imageHeight": 250.296875,
+            "imageWidth": 316.359375,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 316.359375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 287.375,
+            "fontSize": "16px",
+            "imageHeight": 227.359375,
+            "imageWidth": 287.375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 78,
+            "rowWidth": 287.375
+          }
+        ]
+      }
+    ],
+    "allOpen": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 316.359375,
+          "fontSize": "16px",
+          "imageHeight": 250.296875,
+          "imageWidth": 316.359375,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 316.359375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 287.375,
+          "fontSize": "16px",
+          "imageHeight": 227.359375,
+          "imageWidth": 287.375,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 287.375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 287.375,
+          "fontSize": "16px",
+          "imageHeight": 227.359375,
+          "imageWidth": 287.375,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 78,
+          "rowWidth": 287.375
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 1440
+    },
+    "gisbaOpen": true,
+    "gisbaClosed": true
+  },
+  {
+    "initial": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 340.46875,
+          "fontSize": "16px",
+          "imageHeight": 269.375,
+          "imageWidth": 340.46875,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 340.46875
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 311.484375,
+          "fontSize": "16px",
+          "imageHeight": 246.4375,
+          "imageWidth": 311.484375,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 311.484375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 311.484375,
+          "fontSize": "16px",
+          "imageHeight": 246.4375,
+          "imageWidth": 311.484375,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 311.484375
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 1920
+    },
+    "keyboard": [
+      {
+        "index": 0,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Mostrar ejemplo de Google Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Google Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 0,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Mostrar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de Meta Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 1,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "before": [
+          true,
+          true,
+          true
+        ],
+        "after": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Mostrar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": false,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ],
+        "focus": {
+          "label": "Mostrar ejemplo de TikTok Ads",
+          "outline": "solid",
+          "outlineWidth": "3px"
+        }
+      },
+      {
+        "index": 2,
+        "restored": [
+          {
+            "captionAbove": true,
+            "detailWidth": 340.46875,
+            "fontSize": "16px",
+            "imageHeight": 269.375,
+            "imageWidth": 340.46875,
+            "label": "Ocultar ejemplo de Google Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 340.46875
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de Meta Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          },
+          {
+            "captionAbove": true,
+            "detailWidth": 311.484375,
+            "fontSize": "16px",
+            "imageHeight": 246.4375,
+            "imageWidth": 311.484375,
+            "label": "Ocultar ejemplo de TikTok Ads",
+            "loaded": true,
+            "open": true,
+            "proportional": true,
+            "rowHeight": 54,
+            "rowWidth": 311.484375
+          }
+        ]
+      }
+    ],
+    "allOpen": {
+      "ads": [
+        {
+          "captionAbove": true,
+          "detailWidth": 340.46875,
+          "fontSize": "16px",
+          "imageHeight": 269.375,
+          "imageWidth": 340.46875,
+          "label": "Ocultar ejemplo de Google Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 340.46875
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 311.484375,
+          "fontSize": "16px",
+          "imageHeight": 246.4375,
+          "imageWidth": 311.484375,
+          "label": "Ocultar ejemplo de Meta Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 311.484375
+        },
+        {
+          "captionAbove": true,
+          "detailWidth": 311.484375,
+          "fontSize": "16px",
+          "imageHeight": 246.4375,
+          "imageWidth": 311.484375,
+          "label": "Ocultar ejemplo de TikTok Ads",
+          "loaded": true,
+          "open": true,
+          "proportional": true,
+          "rowHeight": 54,
+          "rowWidth": 311.484375
+        }
+      ],
+      "gisba": {
+        "beforePlans": true,
+        "benefits": [
+          "Planifica\n\nPrepara campañas y revisa dónde invertir.",
+          "Mide\n\nRevisa los resultados de tus campañas.",
+          "Atiende\n\nOrganiza tus consultas y su seguimiento."
+        ],
+        "open": false,
+        "outsideDisclosure": true,
+        "summary": "Ver detalle de funciones y disponibilidad"
+      },
+      "overflow": false,
+      "width": 1920
+    },
+    "gisbaOpen": true,
+    "gisbaClosed": true
+  }
+]

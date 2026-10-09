@@ -1,0 +1,36 @@
+---
+description: Hallazgos de primera revisión independiente del sitio actual, con hipótesis refutables y límites
+alwaysApply: false
+---
+
+# Revisión independiente - 2026-10-08
+
+## Método y alcance real
+- Tres subagentes con contexto nuevo: Google Ads/medición; Google Search/Chrome/movimiento; comprador sobre HTML/CSS/JS actuales e imagen marketing-laptop.png. No recibieron conclusiones ni ganadores anteriores. Los dos investigadores externos no inspeccionaron el sitio; el comprador no hizo render ni pruebas humanas.
+- El coordinador revisó Marketing en navegador y seleccionó Google Ads; luego contrastó resultados con A/B/C/Z y Flujo 2A. No se simularon directorios humanos ni empleados de Google. Fuentes: google-updates-20261008.mdc.
+- Lectura de archivos: C:/Users/SEBAS/Desktop/marketing. Navegador: http://127.0.0.1:8767/marketing.html. Es preview; no hubo edición de páginas, anuncios, tracking ni publicación.
+- Este registro no debe entregarse a un revisor fresco antes de su primera conclusión. Verificar archivos/render actuales antes de implementar: puede haber cambios paralelos posteriores.
+
+## Hallazgos y alternativas
+1. VERIFICADO código + navegador: Marketing inicia en Meta Ads; pulsar Google Ads cambia contenido pero no la URL. js/marketing-services.js finaliza con select('meta',false), sin leer estado de URL. HIPÓTESIS: para anuncios de Google Ads, un destino que abra ese servicio reduce esfuerzo. Propuesta: estado inicial compartible y estable, promesa/titular/CTA congruentes; no obliga a crear otra página. Refutar comparando localización de servicio y contacto en ambos recorridos; no se observó ninguna campaña real enviando tráfico aquí.
+2. VERIFICADO código/activo: marketing.html:57 usa marketing-laptop.png, panel con ÓRBITA y métricas. HIPÓTESIS del comprador: comunica software antes que trabajo de agencia. Probar escena anuncio + decisión del equipo + próximo ajuste frente al visual actual refinado. Otra hipótesis: seguir el mismo negocio/caso entre páginas reduce reconstrucción de contexto. Comprobar explicación espontánea de agencia/software/cliente antes de sustituir el hero aprobado.
+3. VERIFICADO código: hero-carousel.js alterna oferta cada 8 s; ya incluye pausa, teclado, suspensión por foco y reduced-motion. HIPÓTESIS: cambio manual preserva lectura. Comparar con rotación actual; conservar accesibilidad y probar una sola transición funcional dentro de la escena. No afirmar que hoy provoca abandono.
+4. VERIFICADO código: Inicio menciona usuario GISBA incluido pero no separación de inversión publicitaria; Marketing sí. Precios muestra importes/canales antes de las condiciones de modalidades propuestas. Propuesta: condición breve y visible de honorarios, usuario y anuncios aparte; no aprobar ni retirar tarifas por inferencia. Prueba: lectura de 45 s y distinción correcta de costos/condiciones.
+5. VERIFICADO código: Software tiene escena concreta de consulta/responsable/próximo paso más abajo; el hero combina varios conceptos y CSS móvil oculta conversaciones. HIPÓTESIS: una escena concreta ayuda más en móvil. Comparar comprensión y legibilidad con render antes de proponer moverla; no abrir rediseño de Software sin encargo.
+6. VERIFICADO código + DOM: CTA de reunión conduce a formulario de preview/resumen; no prueba recepción. PENDIENTE comercial/técnico: destino funcional. Es requisito antes de medir captación real, no justificación para descartar toda la maqueta ni editar contactos durante auditoría.
+
+## Qué se conserva
+- Titular y reparto de responsabilidades de Inicio, acceso de un usuario según condiciones confirmadas, FAQ que ayuda a quien no sabe elegir, paleta y visuales aprobados mientras no se demuestre problema material.
+- No imponer menos secciones ni más números. Mostrar resultado, costo y siguiente acción según tarea; profundidad opcional legible. No confundir clics, consultas y ventas.
+
+## Siguiente iteración propuesta, aún sin implementar
+- Prioridad 1: revisar el destino por intención/canal y la visibilidad de condiciones; comprobar URL directa/recarga y explicación del servicio. Mantener el gate separado de contacto real antes de lanzamiento o medición de leads.
+- Prioridad 2: comparar visual actual de Marketing con una escena del trabajo de agencia. Mantener el mismo caso de ejemplo y datos coherentes; verificar comprensión, no preferencia estética solamente.
+- Prioridad 3: comparar hero controlado por usuario con rotación actual y una transición breve de estado; verificar móvil, reduced-motion, teclado y costo de carga. Efecto sobre conversión PENDIENTE.
+- Software y precios: hallazgos registrados como pendientes; no rediseñar por extensión de este encargo. Una nueva propuesta puede ser conceptualmente útil sin estar validada.
+
+## Cierre por control
+- VERIFICADO: lectura de reglas A/B/C/Z/Flujo 2A, investigación primaria fechada, separación inicial de revisores, referencias de código/activo y comportamiento del selector de Marketing en navegador.
+- PENDIENTE: render completo 1440/1920/360/390 de todas las páginas, revisión integral de animaciones y accesibilidad, laboratorio/campo, GA4/Ads/Search Console/CRM, pruebas humanas y recepción de contacto. No afirmar auditoría visual integral ni Flujo 2A completo.
+- NO APLICA en este encargo de análisis/reglas: exportar PNG, cambiar precios, modificar campañas, implementar páginas, instalar tracking o publicar. No hubo bloqueo técnico que impidiera concluir la investigación.
+- Resultado: criterios y tres pruebas prioritarias definidos; mejoras de rebote, CTR, comprensión y ventas no medidas.

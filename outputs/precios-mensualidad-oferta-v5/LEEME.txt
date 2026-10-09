@@ -1,0 +1,14 @@
+Implementación local de #mensualidad de precios.html. Diseño v5 confirmado por el usuario.
+
+A: una oferta gestionada y acceso incluido, sin presentarlos como productos equivalentes.
+B: reemplazo del recibo extenso por dos columnas; se retiran fórmula y listado de funciones anterior por instrucción vigente. No se añaden decisiones ni CTA.
+C: montos ilustrativos y condiciones pendientes visibles; esta revisión visual no valida funciones de GISBA.
+Z: Órbita gestiona campañas y utiliza software provisto por GISBA; no se atribuye desarrollo a Órbita. No se extendió inclusión a Web. GISBA independiente y planes conservados. Revisión realizada por el mismo agente.
+
+Anterior completo y CSS guardados en archive/2026-10-08-mensualidad-oferta-v5. Se retira CSS exclusivo del inventario activo y se mantiene #mensualidad para conservar enlaces. CSS v2 anterior ajeno no se modifica.
+
+Cloudflare y su supervisor se pausaron antes de editar: no se publicó ni desplegó. Servidor local sigue en 8767. No se hizo commit/push. La propuesta de reportes permanece aislada y no se añadió a la raíz.
+
+VERIFICADO: 1440/1920/390, 1 H1, sin overflow, lectura móvil, contraste y preservación de contenido ajeno. Capturas PNG 1440x736 y 390x1253: contenido de navegador sin escalado; repuesto margen de scrollbar.
+PENDIENTE: tarifas, alcance, funciones y condiciones de GISBA/bot.
+NO APLICA: publicación, nueva integración real, backend.

@@ -1,0 +1,43 @@
+---
+description: Directorio C v2 - dirección de arte, producto, movimiento, UX y crecimiento orgánico verificable
+alwaysApply: true
+---
+
+# Directorio C v2 — 2026-10-08
+
+Para una revisión fresca o novedades de Google/Ads, aplicar fresh-review-google.mdc. Consultar google-updates-20261008.mdc como registro fechado y revalidarlo; separar tecnología disponible de efecto comercial demostrado.
+
+## Mandato
+- Convertir la oferta de Órbita/GISBA en una experiencia visual comprensible, distintiva, usable y viable. Investigar y proponer activamente layout, imágenes y movimiento; no limitar C a detectar fallos técnicos.
+- Aplicar Z para oferta, A para comprador, B para contraste y Flujo 2A para decisiones. Leer design-motion-seo.mdc y design-validation.mdc; consultar visual-reference-library.mdc para referencias. La instrucción actual del usuario prevalece.
+- Cinco perspectivas: dirección de arte/layout; demostración de producto/imágenes; movimiento/interacción; SEO/rendimiento; investigación de usuario/conversión. Son especialidades, no empleados de Google ni votos ficticios.
+- Declarar SAME_AGENT o revisión independiente real y alcance de cada revisor. Delegar cuando esté autorizado; entregar evidencia común y contrastar objeciones, sin sumar puntuaciones como si fueran mediciones.
+
+## Secuencia de una revisión
+1. Identificar página/ruta y entorno actuales, archivos activos, oferta confirmada, decisiones aprobadas y feedback sin resolver. La última maqueta no reemplaza la web ni una aprobación previa.
+2. Inspeccionar contenido y render estable disponibles antes de decisiones de implementación; registrar estructura visible, activos, movimiento efectivo y recorrido. Si falta entorno/vista, avanzar con una propuesta conceptual basada en materiales aportados y supuestos explícitos, dejando verificación pendiente. Una carga incompleta no justifica rediseñar.
+3. Formular por escena: pregunta del comprador → mensaje principal → prueba visual → acción siguiente. Alinear el diseño con la tarea de la página, no con una cuota de secciones.
+4. Seleccionar referencias por semejanza de tarea/comprador y luego calidad visual; abrir la sección pertinente y explicar la adaptación. Marca famosa, ingresos o apariencia no prueban conversión.
+5. Decisión material: comparar la versión actual refinada y dos alternativas realmente distintas mediante esquemas breves de jerarquía, recorrido y composición; elegir una y desarrollar sólo la recomendada, salvo encargo de variantes completas. Retoque: evaluar sólo el delta.
+6. Especificar layout, imagen, movimiento y móvil de la alternativa recomendada, con beneficio esperado, costo y límites. El propósito es una decisión desarrollable, no una lista de adjetivos.
+7. Intentar romper la propuesta con datos, APIs/permisos, fiabilidad, costo, privacidad, accesibilidad, carga, revisión humana, errores/estados vacíos y contacto real.
+8. Priorizar hasta tres cambios; registrar bloqueos restantes. Cerrar cuando el feedback material tenga resolución o dependencia explícita, las alternativas pertinentes estén comparadas y exista una decisión con criterio de aceptación. Reabrir por evidencia material nueva, fallo comprobado o cambio del encargo; una alternativa nueva por sí sola no obliga a otra ronda. CONSERVAR es una salida válida.
+
+## Invariantes comerciales y de demostración
+- Órbita es agencia; GISBA es software. Agencia gestiona campañas; equipo del cliente atiende según alcance. Un usuario incluido y adicionales de pago; elegibilidad/tarifas pendientes se etiquetan, sin extender a Web automáticamente.
+- Preservar identidad negro/lima/marfil, hero frontal aprobado, FAQ útil, transparencia y reunión accesible. No congelar un defecto material ni reemplazar todo el diseño por una preferencia cosmética.
+- Diferenciar construido/verificado, ilustrativo, propuesto y pendiente. Una maqueta no prueba integración, automatización, envío ni acceso a datos; clasificar construir ahora / con dependencias / más adelante cuando ayude.
+- Mantener continuidad del caso elegido. Para la escena vigente de cotización: enviada → cliente aún no responde → seguimiento pendiente. Otras tareas pueden usar otro recorrido; conservar actores, fechas, datos, estado y próximo paso coherentes.
+- Cifras: origen, definición, unidad, moneda, período, atribución, redondeo y coherencia matemática. No sumar contactos, consultas y conversiones como equivalentes ni confundir clic con lead o ingreso con utilidad.
+- Usar datos de ejemplo etiquetados; no exponer PII/credenciales. Testimonios y retratos ficticios autorizados sólo para mockup conservan etiqueta y nunca pasan a prueba comercial real.
+- HTML/CSS/SVG editable para texto e interfaz; imagen generada para fotografía/ilustración/concepto cuando corresponda. No sustituir una sección completa por bitmap al implementar.
+- Exportación de mockups: 1440 px reales, hero 1440 × 810, dimensiones verificadas, original conservado. Una imagen no verifica responsive ni movimiento.
+
+## Entrega mínima y cierre
+- A/B/C/Z comparten evidencia y una sola ficha por decisión. En concepto: intención visual, recurso, comportamiento y prueba prevista. Completar inventario técnico, compatibilidad y mediciones en la fase pertinente; las pruebas de otra fase quedan pendientes de esa fase, sin impedir cerrar la actual ni llamarla validación completa.
+- Hallazgo concreto y evidencia → decisión CONSERVAR/REFINAR/FUSIONAR/MOVER/RETIRAR → referencia/adaptación → delta visible → verificación y prioridad.
+- Explicar qué mejora en comprensión o tarea, qué información permanece y qué pierde cada alternativa. Mostrar diferencias reales antes de generar otra versión.
+- Cerrar layout, imágenes, movimiento, móvil/accesibilidad, SEO, rendimiento, datos y conversión con VERIFICADO, PENDIENTE, NO APLICA con razón o BLOQUEADO. Un pendiente aplicable impide declarar validación completa.
+- Separar cierre conceptual, mockup, implementación y validación/publicación. No decir final u optimizado por repetición del directorio; una recomendación puede cerrarse con incertidumbres explícitas.
+- Versión estable del método: cobertura del encargo, ausencia de contradicciones materiales y evidencia/cierre definidos por fase. Esto permite cerrar C; no valida automáticamente una página. La mejora comercial exige resultados observados. Revisar reglas cuando aparezca una omisión relevante, contradicción o nuevo encargo; no ampliarlas por cada variante de diseño.
+- Este encargo de reglas autoriza mejorar el método; editar o publicar páginas requiere encargo de implementación. Preservar trabajo ajeno y no añadir librerías/trackers por iniciativa de una auditoría.

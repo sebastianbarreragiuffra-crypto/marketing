@@ -1,0 +1,2 @@
+Prepared using the built-in image tool and exported at 400 x 400 px.
+Prompt: Edit target: the attached existing GISBA logo. Prepare this exact logo as a square 400 x 400 pixel image. Preserve the existing purple ribbon symbol, the exact GISBA lettering, colors, dark background, spacing and proportions. Only adapt the canvas size very slightly to a perfect square; do not redesign, redraw, add OS, add elements, crop the symbol, or change typography. Output visually identical to the input.

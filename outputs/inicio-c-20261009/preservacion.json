@@ -1,0 +1,25 @@
+{
+  "changed": [
+    "css/directory-c-home.css",
+    "css/hero-marketing-reference.css",
+    "css/home-offer-2a.css",
+    "css/landing-motion.css",
+    "index.html",
+    "js/hero-carousel.js",
+    "js/landing-motion.js"
+  ],
+  "preservation": {
+    "navegacion": true,
+    "hero_copy": true,
+    "software_hero": true,
+    "resto_secciones": true,
+    "copy_soluciones": true,
+    "gisba_independiente": true,
+    "metadata": true
+  },
+  "unchanged_resource_count": 77,
+  "fonts_added": false,
+  "libraries_added": false,
+  "images_added": false,
+  "fallback_source": "Marketing inicial y tarea completa en HTML; FAQ nativa; controles JS inicialmente disabled; contenido base sin opacidad cero ni ocultamiento por JS."
+}

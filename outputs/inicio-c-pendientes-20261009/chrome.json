@@ -1,0 +1,14 @@
+[
+  {
+    "outline": "rgb(199, 244, 91) solid 2px",
+    "overflow": false,
+    "selected": "1",
+    "width": 1920
+  },
+  {
+    "buttonEnabled": true,
+    "overflow": false,
+    "step": "complete",
+    "width": 1920
+  }
+]

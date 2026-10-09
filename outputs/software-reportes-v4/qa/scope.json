@@ -1,0 +1,24 @@
+{
+  "changed_from_baseline": [
+    "software.html",
+    "css/directory-c-software.css",
+    "css/software-report.css"
+  ],
+  "other_sections_unchanged": {
+    "flujo-consultas": true,
+    "siguiente-paso": true
+  },
+  "shared_css_non_report_rules_unchanged": true,
+  "header_unchanged": true,
+  "footer_unchanged": true,
+  "new_section_count": 1,
+  "old_report_class_absent": true,
+  "calculations": {
+    "per_form": 4820.0,
+    "per_qualified": 8435.0,
+    "split_sum": 202440,
+    "spend_prior": 192800.0,
+    "forms_prior": 36,
+    "prior_cost": 5355.555555555556
+  }
+}

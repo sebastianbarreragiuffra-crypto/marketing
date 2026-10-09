@@ -1,0 +1,35 @@
+{
+  "contrastFailures": [],
+  "featureOverflow": [],
+  "fitsAvailableDesktopHeight": true,
+  "fonts": "loaded",
+  "groups": [
+    {
+      "left": 330.5,
+      "top": 627.109375,
+      "width": 358.65625
+    },
+    {
+      "left": 713.15625,
+      "top": 627.109375,
+      "width": 358.671875
+    },
+    {
+      "left": 1095.828125,
+      "top": 627.109375,
+      "width": 358.65625
+    }
+  ],
+  "minContrast": 5.708860973781475,
+  "overflow": 0,
+  "section": {
+    "bottom": 1066.640625,
+    "height": 783.375,
+    "top": 283.265625
+  },
+  "shellWidth": 1440,
+  "viewport": [
+    1920,
+    1080
+  ]
+}

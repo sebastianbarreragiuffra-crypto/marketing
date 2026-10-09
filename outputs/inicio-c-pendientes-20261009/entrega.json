@@ -1,0 +1,25 @@
+{
+  "alcance": "Verificacion de pendientes de Inicio con Webmaster y exclusivamente Directorio C, SAME_AGENT.",
+  "resultado": "Sin fallos nuevos que requieran cambiar el diseno.",
+  "verificados": [
+    "Scripts bloqueados realmente con Content-Security-Policy script-src none: contenido de compra, tres pasos de GISBA e imagenes visibles, sin overflow a 360/390/1440/1920. FAQ abre por teclado sin scripts; controles de demostracion permanecen disabled. Esto valida scripts fallidos, no el ajuste de navegador que deshabilita el motor JavaScript.",
+    "Chrome: cambio por teclado y foco visible; recorrido manual final completo y control habilitado para repetir.",
+    "CLS inicial medido en laboratorio local durante 5.5 s sin interaccion, sin throttling: 0 en los cuatro anchos en la version actual. LCP y FCP registrados; una carga por version y ancho, no medicion de campo ni garantia.",
+    "Recursos activos sin modificaciones adicionales; se conserva el manifiesto verificado."
+  ],
+  "pendientes": [
+    "Movimiento reducido real: solicitada autorizacion para usar una sesion aislada de pruebas mediante otra herramienta; las capacidades actuales solo ofrecen viewport.",
+    "Telefonos fisicos y motores adicionales como Safari/Firefox: no hay dispositivos conectados. Chrome e IAB son pruebas distintas sobre Chromium, no cobertura de motores diferentes.",
+    "Lighthouse/INP/visitas reales: no son controles verificados con estas cargas de laboratorio."
+  ],
+  "archivos_modificados_sitio": [],
+  "evidencia": [
+    "scripts-bloqueados.json",
+    "scripts-bloqueados-1440.jpg",
+    "scripts-bloqueados-390.jpg",
+    "metricas-locales.json",
+    "chrome.json"
+  ],
+  "laboratorio": "lab.py sirve copias en memoria del HTML vigente y del snapshot de comparacion. Instrumentacion solo en la respuesta de laboratorio; ningun tracker ni script agregado al sitio.",
+  "publicado": false
+}

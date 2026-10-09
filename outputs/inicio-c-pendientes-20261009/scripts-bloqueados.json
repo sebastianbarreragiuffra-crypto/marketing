@@ -1,0 +1,114 @@
+[
+  {
+    "demoDisabled": true,
+    "disabledTabs": [
+      true,
+      true
+    ],
+    "fonts": "loaded",
+    "heroVisible": "visible",
+    "overflow": false,
+    "steps": [
+      {
+        "opacity": "1",
+        "text": "1Cotización enviadaPropuesta compartida el 12 de mar, 11:03.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "2Cliente sin responderHace 2 días · Requiere seguimiento.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "3Hacer seguimientoContactar al cliente para resolver dudas y avanzar con la oportunidad.",
+        "visibility": "visible"
+      }
+    ],
+    "width": 360
+  },
+  {
+    "demoDisabled": true,
+    "disabledTabs": [
+      true,
+      true
+    ],
+    "fonts": "loaded",
+    "heroVisible": "visible",
+    "overflow": false,
+    "steps": [
+      {
+        "opacity": "1",
+        "text": "1Cotización enviadaPropuesta compartida el 12 de mar, 11:03.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "2Cliente sin responderHace 2 días · Requiere seguimiento.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "3Hacer seguimientoContactar al cliente para resolver dudas y avanzar con la oportunidad.",
+        "visibility": "visible"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "demoDisabled": true,
+    "disabledTabs": [
+      true,
+      true
+    ],
+    "fonts": "loaded",
+    "heroVisible": "visible",
+    "overflow": false,
+    "steps": [
+      {
+        "opacity": "1",
+        "text": "1Cotización enviadaPropuesta compartida el 12 de mar, 11:03.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "2Cliente sin responderHace 2 días · Requiere seguimiento.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "3Hacer seguimientoContactar al cliente para resolver dudas y avanzar con la oportunidad.",
+        "visibility": "visible"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "demoDisabled": true,
+    "disabledTabs": [
+      true,
+      true
+    ],
+    "fonts": "loaded",
+    "heroVisible": "visible",
+    "overflow": false,
+    "steps": [
+      {
+        "opacity": "1",
+        "text": "1Cotización enviadaPropuesta compartida el 12 de mar, 11:03.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "2Cliente sin responderHace 2 días · Requiere seguimiento.",
+        "visibility": "visible"
+      },
+      {
+        "opacity": "1",
+        "text": "3Hacer seguimientoContactar al cliente para resolver dudas y avanzar con la oportunidad.",
+        "visibility": "visible"
+      }
+    ],
+    "width": 1920
+  }
+]

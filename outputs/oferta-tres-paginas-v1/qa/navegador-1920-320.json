@@ -1,0 +1,61 @@
+[
+  {
+    "brokenImages": [
+      {
+        "loading": "lazy",
+        "src": "assets/hero/marketing-web-office.png"
+      }
+    ],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 1905,
+    "width": 1920,
+    "page": "marketing"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 1905,
+    "width": 1920,
+    "page": "software"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 1905,
+    "width": 1920,
+    "page": "precios"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 305,
+    "width": 320,
+    "page": "marketing"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 305,
+    "width": 320,
+    "page": "software"
+  },
+  {
+    "brokenImages": [],
+    "clipped": [],
+    "fonts": "loaded",
+    "h1": 1,
+    "scrollWidth": 305,
+    "width": 320,
+    "page": "precios"
+  }
+]

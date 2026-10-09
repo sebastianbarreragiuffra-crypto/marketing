@@ -1,0 +1,22 @@
+{
+  "VERIFICADO": [
+    "Una sola sección Reportes, última antes del footer",
+    "Hero, Consultas, cierre, navbar y footer conservados",
+    "1440, 1920 y 390 px sin overflow",
+    "Cuatro KPIs alineados en escritorio",
+    "Cálculos y proporciones 60/40 correctos",
+    "CTA llega a index.html#contacto",
+    "Recursos activos y manifiesto completos",
+    "Textos: contraste mínimo medido 6.17:1",
+    "Estilos compartidos no relacionados preservados"
+  ],
+  "PENDIENTE": [
+    "Confirmar que GISBA permite marcar solicitudes aptas para cotizar",
+    "Reserva/recepción real: recorrido de contacto existente continúa siendo vista previa"
+  ],
+  "NO_APLICA": [
+    "Conexión con datos reales o automatizaciones",
+    "Publicación, despliegue, commit y push"
+  ],
+  "retirado": "HTML previo, CSS exclusivo, 113 selectores antiguos del CSS compartido, 7 símbolos SVG sin uso; históricos fuera de rutas públicas"
+}

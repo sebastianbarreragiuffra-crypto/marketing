@@ -1,0 +1,50 @@
+{
+  "VERIFICADO": {
+    "ultima_seccion_antes_footer": true,
+    "texto_editable": "HTML y CSS propios",
+    "desktop_movil": [
+      [
+        1440,
+        810
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "overflow_horizontal": false,
+    "contraste": {
+      "titulo_marfil": 17.59,
+      "verde_marfil": 6.18,
+      "cta_lima": 15.34
+    },
+    "png": [
+      1440,
+      466
+    ],
+    "reescalado": false,
+    "archivos_anteriores_intactos": 79,
+    "navegacion_cta": "Abre hablemos.html#contacto, confirmado en navegador",
+    "automatizaciones_conservada_oculta": true,
+    "revision": "INDEPENDENT_REVIEW del delta por monthly_scope_review"
+  },
+  "PENDIENTE": [
+    "Reserva real y envío del formulario Hablemos; actualmente vista previa"
+  ],
+  "NO_APLICA": [
+    "Publicación/despliegue",
+    "Commit/push",
+    "Cambios en otras páginas"
+  ],
+  "archivos_propios": [
+    "precios-propuesta.html",
+    "seccion-cierre.html",
+    "cierre-asesoria-v3.css",
+    "cierre.html",
+    "precios-cierre-asesoria-v3-1440.png"
+  ]
+}

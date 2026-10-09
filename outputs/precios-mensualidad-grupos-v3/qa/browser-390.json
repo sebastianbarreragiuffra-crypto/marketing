@@ -1,0 +1,31 @@
+{
+  "featureOverflow": [],
+  "fonts": "loaded",
+  "groups": [
+    {
+      "left": 78,
+      "top": 3215.328125,
+      "width": 263
+    },
+    {
+      "left": 78,
+      "top": 3343.890625,
+      "width": 263
+    },
+    {
+      "left": 78,
+      "top": 3450.0625,
+      "width": 263
+    }
+  ],
+  "overflow": 0,
+  "section": {
+    "bottom": 4628.953125,
+    "height": 2396.171875,
+    "top": 2232.78125
+  },
+  "viewport": [
+    390,
+    844
+  ]
+}

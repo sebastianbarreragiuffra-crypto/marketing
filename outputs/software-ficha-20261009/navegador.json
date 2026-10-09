@@ -1,0 +1,191 @@
+{
+  "checks": [
+    {
+      "fonts": "loaded",
+      "height": 810,
+      "open": true,
+      "overflow": false,
+      "section": {
+        "bottom": 808.78125,
+        "height": 720.21875,
+        "left": 0,
+        "right": 1425,
+        "top": 88.5625,
+        "width": 1425,
+        "x": 0,
+        "y": 88.5625
+      },
+      "width": 1440
+    },
+    {
+      "columns": "370.391px 631.844px 435.75px",
+      "fonts": "loaded",
+      "height": 1080,
+      "open": true,
+      "overflow": false,
+      "section": {
+        "bottom": 1051.265625,
+        "height": 838.1875,
+        "left": 0,
+        "right": 1905,
+        "top": 213.078125,
+        "width": 1905,
+        "x": 0,
+        "y": 213.078125
+      },
+      "width": 1920
+    },
+    {
+      "bubbleFont": "17px",
+      "height": 844,
+      "open": true,
+      "overflow": false,
+      "record": {
+        "bottom": 2307.203125,
+        "height": 259.9375,
+        "left": 31,
+        "right": 344,
+        "top": 2047.265625,
+        "width": 313,
+        "x": 31,
+        "y": 2047.265625
+      },
+      "section": {
+        "bottom": 2561.71875,
+        "height": 1428.703125,
+        "left": 0,
+        "right": 375,
+        "top": 1133.015625,
+        "width": 375,
+        "x": 0,
+        "y": 1133.015625
+      },
+      "summaryHeight": 44,
+      "width": 390
+    },
+    {
+      "bubbleFont": "17px",
+      "height": 900,
+      "images": true,
+      "open": true,
+      "overflow": false,
+      "recordWidth": 389.109375,
+      "sectionHeight": 1523.21875,
+      "summaryHeight": 44,
+      "width": 760
+    },
+    {
+      "bubbleFont": "17px",
+      "height": 800,
+      "images": true,
+      "open": true,
+      "overflow": false,
+      "recordWidth": 283,
+      "sectionHeight": 1548.328125,
+      "summaryHeight": 44,
+      "width": 360
+    },
+    {
+      "bubbleFont": "17px",
+      "height": 800,
+      "images": true,
+      "open": true,
+      "overflow": false,
+      "recordWidth": 243,
+      "sectionHeight": 1680.140625,
+      "summaryHeight": 64,
+      "width": 320
+    },
+    {
+      "bubbleFont": "17px",
+      "height": 782,
+      "images": true,
+      "open": true,
+      "overflow": false,
+      "recordWidth": 402.75,
+      "sectionHeight": 720.21875,
+      "summaryHeight": 44,
+      "width": 1739
+    },
+    {
+      "final": true,
+      "height": 810,
+      "open": true,
+      "overflow": false,
+      "sectionHeight": 692.21875,
+      "width": 1440
+    },
+    {
+      "app": {
+        "bottom": 731.28125,
+        "height": 509.375,
+        "left": 32,
+        "right": 1393,
+        "top": 221.90625,
+        "width": 1361,
+        "x": 32,
+        "y": 221.90625
+      },
+      "final": true,
+      "fonts": "loaded",
+      "height": 810,
+      "open": true,
+      "overflow": false,
+      "section": {
+        "bottom": 780.78125,
+        "height": 692.21875,
+        "left": 0,
+        "right": 1425,
+        "top": 88.5625,
+        "width": 1425,
+        "x": 0,
+        "y": 88.5625
+      },
+      "width": 1440
+    },
+    {
+      "app": {
+        "bottom": 869.765625,
+        "height": 542.5,
+        "left": 232.5,
+        "right": 1672.5,
+        "top": 327.265625,
+        "width": 1440,
+        "x": 232.5,
+        "y": 327.265625
+      },
+      "final": true,
+      "fonts": "loaded",
+      "height": 1080,
+      "open": true,
+      "overflow": false,
+      "section": {
+        "bottom": 927.265625,
+        "height": 838.1875,
+        "left": 0,
+        "right": 1905,
+        "top": 89.078125,
+        "width": 1905,
+        "x": 0,
+        "y": 89.078125
+      },
+      "width": 1920
+    }
+  ],
+  "keyboard": {
+    "closed": true,
+    "focus": {
+      "outline": "3px",
+      "tag": "SUMMARY",
+      "text": "Ver ficha y prioridad del cliente",
+      "top": 383.09375,
+      "visible": true
+    },
+    "closedAfterResize": true,
+    "spaceOpens": true,
+    "mobileEnterCloses": true,
+    "mobileEnterOpens": true,
+    "independent": true
+  },
+  "console": []
+}

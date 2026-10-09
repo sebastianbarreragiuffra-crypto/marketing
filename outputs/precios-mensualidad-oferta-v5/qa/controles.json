@@ -1,0 +1,31 @@
+{
+  "VERIFICADO": [
+    "HTML/CSS integrado en precios.html, solo #mensualidad",
+    "Textos solicitados y condiciones visibles, montos ilustrativos CLP",
+    "1440 y 1920: dos columnas; 390: título, costos, servicio, notas",
+    "Sin desbordamiento horizontal, recortes ni superposición interna observada",
+    "Un solo H1 e ID mensualidad; sin botones nuevos; un megáfono de 48 px",
+    "Contraste mínimo de texto: 6.18:1",
+    "Resto de Precios y demás páginas intactos, comprobados contra baseline",
+    "site_state.py --check correcto; anterior fuera de rutas activas"
+  ],
+  "PENDIENTE": [
+    "Confirmación comercial de tarifas y alcance",
+    "Funciones y condiciones de acceso GISBA",
+    "Condiciones y costo del bot de WhatsApp",
+    "Commit/push y sincronización entre PC: no autorizados"
+  ],
+  "NO_APLICA": [
+    "Publicación/despliegue, prohibidos; túnel y supervisor pausados para impedir publicar automáticamente",
+    "Pruebas de backend/integraciones, no se añaden funciones",
+    "Revisión de nueva arquitectura completa: delta con diseño y contenido exactos autorizados"
+  ],
+  "modalidad": "SAME_AGENT A/B/C/Z",
+  "archivos": [
+    "precios.html",
+    "css/pricing-monthly-oferta-v5.css",
+    "site-manifest.json"
+  ],
+  "historico": "archive/2026-10-08-mensualidad-oferta-v5/",
+  "preview": "http://127.0.0.1:8767/precios.html#mensualidad"
+}

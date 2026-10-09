@@ -1,0 +1,42 @@
+{
+  "mode": "SAME_AGENT_CHALLENGE",
+  "scope": "Precios: visibilidad y usabilidad de desplegables",
+  "A": "VERIFICADO: beneficios antes de planes; detalle opcional",
+  "B": "VERIFICADO: estructura conservada; resumen y detalle sin repetir descripciones",
+  "C": "VERIFICADO para interfaz: estados, teclado, foco, proporciones y resize; funciones siguen propuestas",
+  "Z": "VERIFICADO: bloques de planes, precios, condiciones y listado de funciones conservados",
+  "verified": [
+    "390,760,1440,1920",
+    "Estados iniciales",
+    "Enter y Space; apertura independiente",
+    "Etiquetas Mostrar/Ocultar",
+    "Foco visible",
+    "Sin overflow; imagen proporcional al ancho de columna",
+    "Beneficios visibles antes de planes",
+    "Detalle GISBA cerrado inicialmente",
+    "Elecciones conservadas tras resize",
+    "Otras páginas y assets con hash idéntico",
+    "Planes y condiciones comerciales idénticos",
+    "Sintaxis JS y manifiesto coincidente"
+  ],
+  "pending": [
+    "Validación con usuarios y medición de conversión no realizadas",
+    "Disponibilidad e integraciones de GISBA y contacto real fuera del alcance"
+  ],
+  "not_applicable": [
+    "Rediseño comercial y contraste de arquitecturas: delta definido por usuario",
+    "Publicación, despliegue, commit y push excluidos"
+  ],
+  "modified": [
+    "precios.html",
+    "css/compra-clara-20261008.css",
+    "css/precios-claridad-v1.css",
+    "js/precios-disclosures.js",
+    "site-manifest.json"
+  ],
+  "evidence": [
+    "navegador.json",
+    "resize.json",
+    "protegidos.json"
+  ]
+}

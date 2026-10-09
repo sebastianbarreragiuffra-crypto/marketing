@@ -1,0 +1,164 @@
+[
+  {
+    "ads": [
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 339,
+        "height": 268.21875,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.000004854557458688902,
+        "src": "assets/hero/pricing-google-ad.webp",
+        "width": 339,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 339,
+        "height": 268.21875,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.000004854557458688902,
+        "src": "assets/hero/pricing-meta-ad.webp",
+        "width": 339,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 339,
+        "height": 268.21875,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.000004854557458688902,
+        "src": "assets/hero/pricing-tiktok-ad.webp",
+        "width": 339,
+        "withinColumn": true
+      }
+    ],
+    "overflow": false,
+    "viewport": 390
+  },
+  {
+    "ads": [
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 316.359375,
+        "height": 250.296875,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00004768642792241096,
+        "src": "assets/hero/pricing-google-ad.webp",
+        "width": 316.359375,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 287.375,
+        "height": 227.359375,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00007922326835130278,
+        "src": "assets/hero/pricing-meta-ad.webp",
+        "width": 287.375,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 287.375,
+        "height": 227.359375,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00007922326835130278,
+        "src": "assets/hero/pricing-tiktok-ad.webp",
+        "width": 287.375,
+        "withinColumn": true
+      }
+    ],
+    "overflow": false,
+    "viewport": 1440
+  },
+  {
+    "ads": [
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 340.46875,
+        "height": 269.375,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00003222480020625973,
+        "src": "assets/hero/pricing-google-ad.webp",
+        "width": 340.46875,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 311.484375,
+        "height": 246.4375,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00005988108321353103,
+        "src": "assets/hero/pricing-meta-ad.webp",
+        "width": 311.484375,
+        "withinColumn": true
+      },
+      {
+        "aspectRatio": "auto",
+        "captionAbove": true,
+        "display": "block",
+        "figureWidth": 311.484375,
+        "height": 246.4375,
+        "loaded": true,
+        "maxHeight": "none",
+        "naturalHeight": 432,
+        "naturalWidth": 546,
+        "open": true,
+        "ratioError": 0.00005988108321353103,
+        "src": "assets/hero/pricing-tiktok-ad.webp",
+        "width": 311.484375,
+        "withinColumn": true
+      }
+    ],
+    "overflow": false,
+    "viewport": 1920
+  }
+]

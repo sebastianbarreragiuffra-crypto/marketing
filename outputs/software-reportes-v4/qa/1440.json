@@ -1,0 +1,68 @@
+{
+  "bar": [
+    {
+      "docTop": 2752.328125,
+      "height": 44,
+      "width": 370.109375,
+      "x": 310,
+      "y": 1006.328125
+    },
+    {
+      "docTop": 2752.328125,
+      "height": 44,
+      "width": 246.75,
+      "x": 680.109375,
+      "y": 1006.328125
+    }
+  ],
+  "footer": "FOOTER",
+  "h1": 1,
+  "images": [],
+  "kpis": [
+    {
+      "docTop": 2444.015625,
+      "height": 219.421875,
+      "width": 240.328125,
+      "x": 289,
+      "y": 698.015625
+    },
+    {
+      "docTop": 2444.015625,
+      "height": 219.421875,
+      "width": 240.34375,
+      "x": 541.328125,
+      "y": 698.015625
+    },
+    {
+      "docTop": 2444.015625,
+      "height": 219.421875,
+      "width": 240.328125,
+      "x": 793.671875,
+      "y": 698.015625
+    },
+    {
+      "docTop": 2444.015625,
+      "height": 219.421875,
+      "width": 274,
+      "x": 1046,
+      "y": 698.015625
+    }
+  ],
+  "last": "reportes",
+  "old": 0,
+  "pageOverflow": false,
+  "previous": "siguiente-paso",
+  "reportCount": 1,
+  "section": {
+    "docTop": 2128.3125,
+    "height": 903.5,
+    "width": 1425,
+    "x": 0,
+    "y": 382.3125
+  },
+  "sectionOverflow": false,
+  "viewport": [
+    1440,
+    1000
+  ]
+}

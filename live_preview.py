@@ -6,28 +6,16 @@ from html import escape
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import argparse
-import hashlib
 import json
 import re
 
-from auto_publish import MEDIA_EXTENSIONS, public_files, worktrees
+from auto_publish import worktrees
+from site_state import (EXTRA_ROOT, PAGES, content_version, public_files,
+                        public_status, status)
 
 
 ROOT = Path(__file__).resolve().parent
-ACTIVE_SOURCE = ROOT / ".preview-sync" / "active_source.json"
-PAGES = {
-    "index.html",
-    "marketing.html",
-    "software.html",
-    "automatizaciones.html",
-    "precios.html",
-    "iniciar-sesion.html",
-}
-MOCKUP_FILES = {
-    "mockups/marketing-contact-v1-a.html",
-    "mockups/marketing-contact-proposal.css",
-    "mockups/marketing-contact-proposal.js",
-}
+IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif", ".avif"}
 LIVE_SCRIPT = """(() => {
   let previous;
   async function check() {
@@ -74,26 +62,14 @@ def is_allowed(path: str, root: Path) -> bool:
     if any(segment in {"", ".", ".."} or segment.startswith(".") for segment in segments):
         return False
     relative = Path(*segments)
-    if relative.as_posix() in MOCKUP_FILES:
-        return True
     if len(segments) == 1:
-        return segments[0] in PAGES or segments[0] == "favicon.svg"
-    if len(segments) == 2 and segments[0] == "css":
-        return relative.suffix == ".css"
-    if len(segments) == 2 and segments[0] == "js":
-        return relative.suffix == ".js"
-    if len(segments) >= 3 and segments[0] == "assets" and relative.suffix.lower() in MEDIA_EXTENSIONS:
-        return (root / relative).resolve() in public_files(root)
-    return False
+        return segments[0] in PAGES or segments[0] in EXTRA_ROOT
+    return (root / relative).resolve() in public_files(root)
 
 
 def active_root() -> Path:
-    try:
-        selected = Path(json.loads(ACTIVE_SOURCE.read_text(encoding="utf-8"))["root"]).resolve()
-        if selected.is_dir():
-            return selected
-    except (OSError, ValueError, KeyError, TypeError):
-        pass
+    # A worktree edit or a state file from another PC must never switch this URL.
+    # Alternate sources are selected only through the explicit /b/<branch>/ URL.
     return ROOT
 
 
@@ -108,22 +84,17 @@ def branch_roots() -> dict[str, Path]:
 
 
 def latest_version(root: Path) -> str:
-    paths = public_files(root)
-    paths.extend(root / name for name in MOCKUP_FILES)
-    # A fingerprint also notices removals and changes to less recent files.
-    version = hashlib.sha256(str(root).encode("utf-8"))
-    for path in sorted(paths):
-        try:
-            stat = path.stat()
-        except FileNotFoundError:
-            continue
-        version.update(f"{path.relative_to(root).as_posix()}:{stat.st_mtime_ns}:{stat.st_size}\n".encode())
-    return version.hexdigest()
+    return content_version(root)
 
 
 class PreviewHandler(SimpleHTTPRequestHandler):
     def end_headers(self):
-        self.send_header("Cache-Control", "no-store, max-age=0")
+        if getattr(self, "_image_etag", None):
+            # Reuse image bytes while checking every request for local changes.
+            self.send_header("Cache-Control", "public, max-age=0, must-revalidate")
+            self.send_header("ETag", self._image_etag)
+        else:
+            self.send_header("Cache-Control", "no-store, max-age=0")
         super().end_headers()
 
     def respond(self, content: bytes, content_type: str, body: bool = True):
@@ -135,6 +106,7 @@ class PreviewHandler(SimpleHTTPRequestHandler):
             self.wfile.write(content)
 
     def serve(self, body: bool):
+        self._image_etag = None
         path = unquote(urlsplit(self.path).path)
         if path in {"/branches", "/branches/"}:
             branches = branch_roots()
@@ -181,6 +153,10 @@ class PreviewHandler(SimpleHTTPRequestHandler):
         if path == "/__version":
             self.respond(latest_version(root).encode(), "text/plain; charset=utf-8", body)
             return
+        if path == "/__site.json":
+            self.respond(json.dumps(public_status(root), ensure_ascii=False).encode("utf-8"),
+                         "application/json; charset=utf-8", body)
+            return
         if path == "/__live.js":
             self.respond(LIVE_SCRIPT.encode(), "application/javascript; charset=utf-8", body)
             return
@@ -194,6 +170,21 @@ class PreviewHandler(SimpleHTTPRequestHandler):
         target = (root / path.lstrip("/")).resolve()
         if not target.is_relative_to(root) or not target.is_file():
             self.send_error(404)
+            return
+        if target.suffix.lower() in IMAGE_EXTENSIONS:
+            stat = target.stat()
+            self._image_etag = f'"{stat.st_mtime_ns:x}-{stat.st_size:x}"'
+            requested_tags = self.headers.get("If-None-Match", "").split(",")
+            if any(tag.strip() in {self._image_etag, "*"} for tag in requested_tags):
+                self.send_response(304)
+                self.end_headers()
+                return
+            self.send_response(200)
+            self.send_header("Content-Type", self.guess_type(str(target)))
+            self.send_header("Content-Length", str(stat.st_size))
+            self.end_headers()
+            if body:
+                self.wfile.write(target.read_bytes())
             return
         if target.suffix == ".html":
             html = target.read_text(encoding="utf-8")
@@ -219,6 +210,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=8766)
     args = parser.parse_args()
+    current = status(ROOT)
+    print(f"Site version: {current['version']}", flush=True)
+    if not current['difference']['matches'] or current['missing'] or current['blocked']:
+        print("VERSION NO VERIFICADA: ejecutar python site_state.py --check; "
+              "no sustituir recursos desde copias antiguas.", flush=True)
+    if current['active_uncommitted'] or current['active_untracked']:
+        print("Hay cambios locales activos: F5 los muestra, pero un pull en otro PC no los recibe.", flush=True)
     server = ThreadingHTTPServer(("127.0.0.1", args.port), partial(PreviewHandler, directory=str(ROOT)))
     print(f"Preview running at http://127.0.0.1:{args.port}", flush=True)
     server.serve_forever()

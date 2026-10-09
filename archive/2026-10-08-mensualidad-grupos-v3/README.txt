@@ -1,0 +1,1 @@
+Histórico de mensualidad anterior a la referencia agrupada del 8 de octubre de 2026. No forma parte del inventario público. Se conservan HTML y CSS anteriores sin sobrescribirlos. La implementación activa vive en precios.html y css/pricing-monthly-recibo-v3.css.

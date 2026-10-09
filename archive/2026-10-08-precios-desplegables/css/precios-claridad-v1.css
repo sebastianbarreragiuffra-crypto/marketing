@@ -1,0 +1,46 @@
+/* Only Precios: commercial conditions remain proposals, never approved rates. */
+.precios-page .pr-intro { align-items: start; }
+.precios-page .pr-intro > p { max-width: 750px; }
+.precios-page .pr-fee-label { margin: 0 0 5px; color: #bbc3b4; font-size: 13px; line-height: 1.4; }
+.precios-page .pr-price { margin-bottom: 4px; }
+.precios-page .pr-price-note { margin: 0 0 14px; font-size: 12px; line-height: 1.4; color: #bbc3b4; }
+.precios-page .pr-inclusion-conditions { margin: 0; font-size: 13px; line-height: 1.5; color: #bbc3b4; }
+.precios-page #gisba-independiente .pg-heading { align-items: start; }
+.precios-page #gisba-independiente .pg-heading > p { margin-left: 0; }
+.precios-page #gisba-independiente .pg-plans { margin-top: 28px; }
+.precios-page #gisba-independiente .pg-exclusions,
+.precios-page #gisba-independiente .pg-access-conditions { margin: 18px 0 0; font-size: 14px; line-height: 1.6; color: #bbc3b4; }
+.precios-page #gisba-independiente .pg-functions { margin-top: 24px; border: 1px solid #56634c; border-radius: 16px; padding: 0 20px; }
+.precios-page #gisba-independiente .pg-functions > summary { cursor: pointer; padding: 16px 0; min-height: 48px; font-size: 16px; font-weight: 700; color: #c7f45b; }
+.precios-page #gisba-independiente .pg-functions .pg-audiences { margin: 12px 0 22px; }
+.precios-page #gisba-independiente .pg-function-note { color: #bbc3b4; font-size: 13px; line-height: 1.6; margin: 12px 0 20px; }
+.precios-page :is(a,summary):focus-visible { outline: 3px solid #c7f45b; outline-offset: 4px; }
+.precios-page #asesoria :is(a,summary):focus-visible,
+.precios-page #mensualidad :is(a,summary):focus-visible { outline-color: #48622e; }
+.precios-page .pg-plan-contact { color: #c7f45b; }
+@media (max-width: 760px) {
+  .precios-page .pr-intro { flex-direction: column; gap: 18px; }
+  .precios-page .pr-intro > p { font-size: 17px; }
+  .precios-page .pr-actions { flex-wrap: wrap; gap: 16px; width: 100%; }
+  .precios-page .pr-meeting { white-space: normal; font-size: 15px; }
+  .precios-page .pr-channel { padding-block: 22px; }
+  .precios-page .pr-channel-description { margin-bottom: 12px; }
+  .precios-page .pr-price strong { font-size: 36px; }
+  .precios-page .pr-example { max-width: 180px; margin: 14px 0 0; }
+  .precios-page .pr-channel:first-child .pr-example { margin-right: 0; }
+  .precios-page .pr-example figcaption { font-size: 10px; }
+  .precios-page .pr-ad-preview { width: 100%; height: auto; object-fit: contain; }
+  .precios-page .pr-combination { margin-bottom: 16px; padding: 22px; }
+  .precios-page .pr-combination .pr-price strong { font-size: 35px; }
+  .precios-page #gisba-independiente .pg-functions { padding-inline: 14px; }
+  .precios-page #gisba-independiente .pg-proposal-badge { max-width: 100%; font-size: 12px; line-height: 1.5; }
+  .precios-page #gisba-independiente .pg-plan-heading { flex-wrap: wrap; }
+  .precios-page #gisba-independiente .pg-feature > p { min-height: 0; }
+  .precios-page #mensualidad .pmo-cost-row { gap: 8px; }
+}
+@media (max-width: 360px) {
+  .precios-page .pr-actions { display: grid; grid-template-columns: minmax(0,1fr); }
+  .precios-page .pr-other-services nav { min-width: 0; width: 100%; }
+  .precios-page #gisba-independiente .pg-plan { padding: 22px 18px; }
+  .precios-page #gisba-independiente .pg-price strong { font-size: 38px; }
+}

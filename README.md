@@ -1,53 +1,45 @@
-# Sitio base de la agencia
+# Órbita · Marketing
 
-Maqueta editable de seis páginas para una agencia de marketing y tecnología enfocada inicialmente en ecommerce.
+Sitio estático editable: las páginas HTML de la raíz, con sus estilos, scripts e imágenes. No necesita build. Órbita es la agencia; GISBA es el software. Las tarifas y pantallas de demostración no validan condiciones comerciales ni capacidades del producto.
 
-## Abrir
+## Fuente vigente
 
-Abre `index.html` en el navegador o inicia un servidor estático en esta carpeta. No requiere compilación.
+La única fuente activa es el checkout abierto de este repositorio:
+https://github.com/sebastianbarreragiuffra-crypto/marketing
 
-## Páginas
+`archive/`, `mockups/`, `outputs/` y copias de publicación son históricos o propuestas. No copiar su contenido a la web ni servirlas como versión actual por su fecha o nombre. Las versiones reemplazadas se retiran del layout; los recursos sin uso se archivan después de comprobar dependencias compartidas.
 
-- `index.html`: propuesta general y rutas de compra.
-- `marketing.html`: campañas Meta/Google, contenido, páginas de campaña y portal del cliente.
-- `software.html`: bandeja comercial, automatización y seguimiento como suscripción independiente.
-- `automatizaciones.html`: agentes, integraciones y desarrollo a medida.
-- `precios.html`: comparación de las tres ofertas con precios ficticios.
-- `iniciar-sesion.html`: vista previa del acceso, pendiente de conectar autenticación; no recibe credenciales.
-- `css/styles.css`: diseño responsive.
-- `js/main.js`: menú móvil, año y aparición progresiva.
+`site-manifest.json` identifica la versión terminada mediante rutas relativas y hashes de contenido. La misma versión tiene la misma huella en PC1 y PC2, aunque cambie la ruta, la fecha o los finales de línea LF/CRLF de Git; las imágenes y otros binarios se comparan por sus bytes.
 
-## Estado de maqueta
+```powershell
+python site_state.py
+python site_state.py --check
+```
 
-- **Órbita** y su símbolo son provisionales.
-- Los precios están identificados como **ficticios** y no son tarifas comerciales.
-- El formulario de Marketing permite preparar y revisar una consulta localmente; no envía datos. Los contactos de muestra todavía no tienen un receptor configurado.
-- Las interfaces del portal y la bandeja son ilustraciones conceptuales. El portal se inspira en la experiencia de cliente compartida, no está conectado a GISBA OS; la bandeja ya está construida según el usuario, pero las conexiones específicas no se verificaron.
-- No hay clientes, resultados, testimonios ni métricas inventadas.
-- La dirección de las seis páginas está en `SITE_PAGES_BRIEF.md`.
+El primer comando informa el estado; el segundo verifica integridad. Una huella coincidente no confirma que los cambios estén subidos a GitHub: revisar también el estado Git que informa la herramienta.
 
-## Sitio público
+## Vista inmediata y F5
 
-Cloudflare Pages: https://orbita-marketing.pages.dev
+```powershell
+python live_preview.py --port 8767
+```
 
-Estado verificado el 5 de octubre de 2026: no se ha realizado un despliegue de Pages desde este computador. La cuenta conectada en Wrangler no muestra el proyecto `orbita-marketing`; una nueva publicación está pendiente de acceso a la cuenta que lo contiene. No crear un proyecto duplicado. La vista temporal sí sirve los archivos actuales del computador.
+Abrir http://127.0.0.1:8767/ . El enlace raíz sirve siempre este checkout; `/b/<rama>/` selecciona explícitamente otro worktree local. El preview evita caché de HTML/CSS/JS y recarga cambios guardados.
 
-https://orbita-marketing-ecommerce.s-barrera651416.chatgpt.site
+Un Cloudflare Quick Tunnel puede exponer ese servidor. Su URL temporal pertenece al PC que lo ejecuta y deja de funcionar cuando se apaga. F5 lee ese PC: no trae cambios de GitHub ni cambios sin guardar del editor. Para identificar la versión realmente servida, consultar `/__site.json` y compararla con `python site_state.py`.
 
-Con `python auto_publish.py --watch` activo y esta computadora autenticada en Cloudflare, cada rama local abierta en un worktree se publica por separado. `main` usa `https://orbita-marketing.pages.dev`; una rama como `diseno/hero` usa `https://diseno-hero.orbita-marketing.pages.dev`. Al guardar un archivo público, el publicador espera cuatro segundos sin más cambios y luego inicia la publicación. Cuando Cloudflare termina, F5 muestra la versión nueva en la URL de esa rama, sin hacer commit ni push. `__preview.json` identifica la rama y la versión publicada. La copia `cloudflare-pages-dist/` queda para publicaciones manuales y `site-publish-current/dist/` corresponde a Sites.
+## Cambiar de PC
 
-Para ver cada cambio inmediatamente en este computador, `python live_preview.py --port 8767` sirve únicamente las páginas y recursos públicos, con recarga automática. Abre `http://127.0.0.1:8767/branches/` para ver la página web de `main`; `http://127.0.0.1:8767/branch-list/` muestra las demás ramas locales. Cada enlace conserva su rama al refrescar con F5. Un Cloudflare Quick Tunnel puede exponer estas rutas temporalmente sin esperar la publicación de Pages. La dirección `trycloudflare.com` cambia si se reinicia el túnel y deja de funcionar al apagar este computador. El editor debe escribir los cambios en los archivos, ya sea manualmente o con guardado automático; Cloudflare no puede leer cambios que aún estén solo en el editor.
+Seguir [PC2_HANDOFF.md](PC2_HANDOFF.md), válido para ambos equipos. Antes del traslado hay que guardar, comprobar y, cuando esté autorizado, hacer commit y push de páginas **y todas sus dependencias**. Un pull no recibe archivos modificados o nuevos que siguen solo en el PC de origen.
 
-Para iniciar o reiniciar el publicador: `npx --yes wrangler login` una vez en esta computadora y luego `python auto_publish.py --watch`. Para una publicación puntual de la rama actual: `python auto_publish.py --once`. El estado local queda en `.preview-sync/` (ignorado por Git). Las ramas sin worktree local requieren abrirse aquí o publicarse desde el otro computador. Pages tarda unos segundos en terminar cada publicación; el túnel sirve los archivos directamente y es la opción inmediata mientras se edita.
+No anunciar traspaso completo hasta comprobar SHA remoto y huella de contenido. No sobrescribir un árbol con cambios locales en el destino.
 
-## Código fuente
+## Cloudflare Pages
 
-GitHub: https://github.com/sebastianbarreragiuffra-crypto/marketing
+`https://orbita-marketing.pages.dev` es un despliegue independiente del Quick Tunnel. Un commit/push no lo actualiza por sí solo. `auto_publish.py --dry-run` prepara únicamente los archivos activos sin publicar; `--once` y `--watch` sí despliegan y requieren autorización y acceso a la cuenta del proyecto existente.
 
-La carpeta principal contiene el código editable. Las copias de publicación y los archivos temporales quedan fuera del repositorio. Subir cambios a GitHub no actualiza por sí solo las URL públicas; cada plataforma necesita una nueva publicación.
+No usar dos publicadores de la misma rama simultáneamente. La autenticación, los procesos y `.preview-sync/` son locales; no viajan por Git. No crear un proyecto Cloudflare duplicado para resolver un acceso pendiente.
 
-## Continuar en otro computador
+## Estado funcional
 
-Clona el repositorio en PC 2 y abre la carpeta `marketing`. La guía [PC2_HANDOFF.md](PC2_HANDOFF.md) incluye el estado actual, cómo ver los cambios locales y cómo volver a publicar. Antes de trabajar en cualquiera de los dos computadores, trae la última versión de `main`; al terminar, confirma y sube los cambios antes de pasar al otro.
-
-La versión visual vigente se recuperó del cierre del 4 de octubre de 2026, commit `b8cb40e`. Las seis páginas coinciden con ese cierre; se retiraron los cambios de portada y navegación aplicados el día siguiente. Marketing conserva el portátil, el bloque dinámico de servicios y el contacto revisado. Precios y login siguen como maquetas; automatizaciones conserva su contenido pendiente. Las reservas, la autenticación y el envío de consultas no están conectados.
+La reserva, el envío de consultas y la autenticación siguen pendientes de habilitar. Consultas y reportes de GISBA son demostraciones visuales. Las propuestas de revisión no son implementaciones automáticas. Las reglas vigentes están en `AGENTS.md` y `.cursor/rules/`.

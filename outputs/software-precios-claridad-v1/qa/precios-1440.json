@@ -1,0 +1,29 @@
+{
+  "h1": 1,
+  "images": [],
+  "pageHeight": 3122,
+  "pageOverflow": false,
+  "sections": [
+    {
+      "h": 741.96875,
+      "id": "",
+      "y": 89
+    },
+    {
+      "h": 735.515625,
+      "id": "mensualidad",
+      "y": 830.96875
+    },
+    {
+      "h": 658.90625,
+      "id": "gisba-independiente",
+      "y": 1566.484375
+    },
+    {
+      "h": 428.765625,
+      "id": "asesoria",
+      "y": 2225.390625
+    }
+  ],
+  "viewport": 1440
+}

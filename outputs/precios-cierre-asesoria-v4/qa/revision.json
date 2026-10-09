@@ -1,0 +1,24 @@
+{
+  "decision": "REFINAR únicamente el último cierre de Precios",
+  "CONFIRMADO": [
+    "Reemplazo aprobado por el usuario; tres respuestas visibles",
+    "CTA debajo del título, antes del footer"
+  ],
+  "OBSERVADO": [
+    "Cierre anterior con título y botón en una fila; no aclaraba el propósito de la reunión"
+  ],
+  "A": "Resuelve objetivo, elección de servicio y distinción de costos sin exigir conocimientos de marketing.",
+  "B": "Revisión independiente del delta; tres respuestas abiertas, sin controles innecesarios.",
+  "C": "No añade tarifas, garantías ni capacidades; el enlace a Hablemos continúa siendo una vista previa.",
+  "Z": "Honorario del servicio y presupuesto publicitario por separado.",
+  "PENDIENTE": [
+    "Destino de reserva real y envío de consultas"
+  ],
+  "NO_APLICA": [
+    "Reabrir arquitectura o alternativas generales: refinamiento acotado",
+    "Modificar footer, hero, GISBA, mensualidad u otras páginas",
+    "Commit/push o deployment permanente de Pages"
+  ],
+  "preserved_files": 68,
+  "previous_css_preserved": true
+}

@@ -1,0 +1,97 @@
+/* Cierre de Precios v4: contenido editable; estilos limitados a #asesoria. */
+.pca-section {
+  background: #f6f3eb;
+  color: #0b0d0b;
+  padding: 42px 0;
+  scroll-margin-top: 89px;
+}
+.pca-section, .pca-section * { box-sizing: border-box; }
+.pca-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(48px, 5.6vw, 88px);
+  width: min(calc(100% - 80px), 1440px);
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 0;
+}
+.pca-intro, .pca-before { min-width: 0; }
+.pca-section h2 {
+  margin: 0;
+  color: #0b0d0b;
+  font: 800 clamp(42px, 3.7vw, 58px)/1.08 "Manrope", Arial, sans-serif;
+  letter-spacing: -.045em;
+}
+.pca-section h2 span { color: #48622e; }
+.pca-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 60px;
+  max-width: 100%;
+  margin-top: 30px;
+  padding: 14px 30px;
+  border-radius: 999px;
+  background: #c7f45b;
+  color: #0b0d0b;
+  font: 700 22px/1.35 "DM Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+.pca-cta svg { display: block; flex: 0 0 27px; width: 27px; height: 27px; }
+.pca-cta:hover { background: #b9e649; color: #0b0d0b; }
+.pca-cta:focus-visible { outline: 3px solid #0b0d0b; outline-offset: 5px; }
+.pca-before-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 18px;
+  color: #0b0d0b;
+  font: 500 16px/1.4 "DM Sans", Arial, sans-serif;
+}
+.pca-before-label svg { flex: 0 0 24px; width: 24px; height: 24px; color: #a2ce38; }
+.pca-question { padding: 18px 0; border-bottom: 1px solid #c6c7be; }
+.pca-question:first-of-type { padding-top: 0; }
+.pca-question:last-child { border-bottom: 0; padding-bottom: 0; }
+.pca-question h3 {
+  margin: 0 0 4px;
+  color: #0b0d0b;
+  font: 800 clamp(24px, 1.85vw, 28px)/1.25 "Manrope", Arial, sans-serif;
+  letter-spacing: -.04em;
+}
+.pca-question p {
+  margin: 0;
+  color: #555d63;
+  font: 400 clamp(18px, 1.4vw, 22px)/1.45 "DM Sans", Arial, sans-serif;
+}
+.pca-sr-note {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+@media (max-width: 1000px) {
+  .pca-section { padding-block: 40px; }
+  .pca-shell { width: calc(100% - 64px); grid-template-columns: minmax(0, 1fr); gap: 38px; }
+  .pca-section h2 { font-size: clamp(36px, 5vw, 48px); }
+  .pca-cta { font-size: 20px; min-height: 56px; }
+  .pca-question h3 { font-size: 26px; }
+  .pca-question p { font-size: 19px; }
+}
+@media (max-width: 600px) {
+  .pca-section { padding-block: 36px; }
+  .pca-shell { width: calc(100% - 36px); gap: 32px; }
+  .pca-section h2 { font-size: clamp(30px, 8.5vw, 38px); line-height: 1.12; }
+  .pca-cta { width: 100%; justify-content: space-between; min-height: 54px; margin-top: 22px; padding: 14px 22px; font-size: 18px; gap: 12px; }
+  .pca-cta svg { flex-basis: 24px; width: 24px; height: 24px; }
+  .pca-before-label { font-size: 15px; margin-bottom: 16px; gap: 10px; }
+  .pca-question { padding-block: 16px; }
+  .pca-question h3 { font-size: 22px; line-height: 1.3; }
+  .pca-question p { font-size: 17px; line-height: 1.5; }
+}

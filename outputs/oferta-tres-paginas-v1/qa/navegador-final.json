@@ -1,0 +1,74 @@
+[
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1440,
+    "page": "marketing"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1440,
+    "page": "software"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1440,
+    "page": "precios"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 390,
+    "page": "marketing"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 390,
+    "page": "software"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 390,
+    "page": "precios"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1920,
+    "page": "marketing"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1920,
+    "page": "software"
+  },
+  {
+    "fonts": "loaded",
+    "h1": 1,
+    "imagesLoaded": true,
+    "overflow": false,
+    "width": 1920,
+    "page": "precios"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "mode": "SAME_AGENT_REVIEW A/B/C/Z; apoyo técnico real solo para aritmética",
+  "A": "Beneficio en el título, lenguaje cotidiano, tres métricas y acciones por negocio.",
+  "B": "Dos filas y ejes repetibles. Se conservan todas las funciones de la referencia; sin gráficos ni selectores. Alternativas de múltiples tarjetas o bloque resumen separado descartadas por dispersar resultados y acciones.",
+  "C": {
+    "roas": 3.2,
+    "por_formulario": 4896.0,
+    "definiciones": "Ventas atribuidas no son ganancia. Formularios no son personas únicas. Ejemplos distintos no se suman."
+  },
+  "Z": "Órbita gestiona campañas; no se atribuye el reporte a GISBA ni se inventan condiciones comerciales.",
+  "CONFIRMADO": [
+    "Solo imagen de revisión, 1440x960, después del hero",
+    "Copy exacto y dos ejemplos ilustrativos"
+  ],
+  "PROPUESTO": [
+    "Refinamiento visual frontal de la referencia"
+  ],
+  "RECHAZADO": [
+    "Gráficos decorativos, controles adicionales, cifras agregadas, capacidades no confirmadas"
+  ],
+  "PENDIENTE": [
+    "Disponibilidad del reporte en GISBA",
+    "Ubicación definitiva de GISBA como sección 3",
+    "Implementación, responsive e interacción"
+  ],
+  "NO_APLICA": [
+    "Editar web, publicar, commit o push: fuera del encargo",
+    "Pruebas con usuarios: no solicitadas ni ejecutadas"
+  ]
+}

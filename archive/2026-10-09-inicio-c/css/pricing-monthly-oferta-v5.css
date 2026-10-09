@@ -1,0 +1,75 @@
+/* Mensualidad: servicio gestionado y acceso incluido. Estilos exclusivos del bloque. */
+#mensualidad.pmo-section {
+  background: #f6f3eb;
+  color: #0b0d0b;
+  padding-block: 52px 40px;
+  font: 400 16px/1.5 "DM Sans", Arial, sans-serif;
+  scroll-margin-top: 96px;
+}
+#mensualidad.pmo-section, #mensualidad.pmo-section * { box-sizing: border-box; }
+#mensualidad.pmo-section :where(h2,h3,h4,p,dl,dt,dd) { margin: 0; }
+#mensualidad.pmo-section :is(h2,h3,h4,.pmo-amount) { font-family: "Manrope", Arial, sans-serif; color: #0b0d0b; }
+#mensualidad .pmo-shell { width: min(calc(100% - 160px),1440px); margin-inline: auto; }
+#mensualidad .pmo-grid { display: grid; grid-template-columns: minmax(0,.96fr) minmax(0,1.04fr); grid-template-areas: "heading costs" "service costs"; column-gap: 48px; row-gap: 38px; align-items: start; }
+#mensualidad .pmo-heading { grid-area: heading; }
+#mensualidad .pmo-heading h2 { font-size: clamp(32px,2.85vw,44px); font-weight: 800; line-height: 1.18; letter-spacing: -.045em; }
+#mensualidad .pmo-subtitle { margin-top: 12px; font-size: 18px; line-height: 1.5; }
+#mensualidad .pmo-service { grid-area: service; padding-bottom: 14px; }
+#mensualidad .pmo-service-heading { display: grid; grid-template-columns: 48px minmax(0,1fr); column-gap: 20px; align-items: start; }
+#mensualidad .pmo-megaphone { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: #c7f45b; color: #0b0d0b; }
+#mensualidad .pmo-megaphone svg { width: 27px; height: 27px; }
+#mensualidad .pmo-service h3 { font-size: 27px; font-weight: 800; line-height: 1.3; letter-spacing: -.035em; }
+#mensualidad .pmo-service-copy { font-size: 20px; line-height: 1.5; margin-top: 10px; }
+#mensualidad .pmo-benefit { margin: 28px 0 0 68px; padding: 22px 24px; background: #eef7d6; border-left: 4px solid #48622e; border-radius: 4px 16px 16px 4px; }
+#mensualidad .pmo-benefit h4 { font-size: 22px; font-weight: 800; line-height: 1.35; letter-spacing: -.025em; }
+#mensualidad .pmo-benefit p { font-size: 18px; line-height: 1.5; margin-top: 8px; }
+#mensualidad .pmo-benefit .pmo-proposal { margin-top: 14px; font-size: 14px; color: #48622e; }
+#mensualidad .pmo-costs { grid-area: costs; margin-top: 68px; padding: 24px 26px 16px; border: 1px solid #d8d2c7; border-radius: 24px; background: #fffdf8; min-width: 0; }
+#mensualidad .pmo-costs > h3 { font-size: 28px; font-weight: 800; line-height: 1.25; letter-spacing: -.035em; margin-bottom: 10px; }
+#mensualidad .pmo-cost-row { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 18px; align-items: center; padding-block: 18px; border-bottom: 1px solid #dedbd2; }
+#mensualidad .pmo-cost-row dt { font-size: 19px; font-weight: 700; line-height: 1.35; }
+#mensualidad .pmo-cost-row dt span { display: block; margin-top: 5px; font-size: 15px; line-height: 1.4; font-weight: 400; color: #4e554b; }
+#mensualidad .pmo-cost-row dd { text-align: right; }
+#mensualidad .pmo-cost-row dd > span { display: block; font-size: 14px; line-height: 1.45; color: #4e554b; }
+#mensualidad .pmo-amount { display: block; font-size: 27px; font-weight: 800; line-height: 1.2; letter-spacing: -.035em; }
+#mensualidad .pmo-management .pmo-amount { font-size: 40px; }
+#mensualidad .pmo-included { display: inline-block; border-radius: 99px; background: #dff4a7; padding: 5px 18px; font-size: 17px; font-weight: 700; }
+#mensualidad .pmo-cost-row dd .pmo-conditions { margin-top: 6px; font-size: 12px; }
+#mensualidad .pmo-ad-budget { border: 0; background: #eeeae0; padding: 15px 16px; margin: 12px -12px 0; border-radius: 14px; }
+#mensualidad .pmo-ad-budget dd { font-size: 17px; font-weight: 700; }
+#mensualidad .pmo-notes { margin-top: 32px; padding-top: 20px; border-top: 1px solid #d3d0c7; }
+#mensualidad .pmo-notes p { font-size: 15px; line-height: 1.5; }
+#mensualidad .pmo-notes .pmo-disclaimer { margin-top: 9px; font-size: 13px; color: #4e554b; }
+@media (max-width: 1100px) {
+  #mensualidad .pmo-shell { width: calc(100% - 64px); }
+  #mensualidad .pmo-grid { column-gap: 28px; }
+  #mensualidad .pmo-service h3 { font-size: 24px; }
+  #mensualidad .pmo-benefit { margin-left: 0; }
+  #mensualidad .pmo-costs { padding-inline: 22px; }
+  #mensualidad .pmo-cost-row { gap: 12px; }
+  #mensualidad .pmo-cost-row dt { font-size: 17px; }
+  #mensualidad .pmo-management .pmo-amount { font-size: 34px; }
+}
+@media (max-width: 760px) {
+  #mensualidad.pmo-section { padding-block: 30px; }
+  #mensualidad .pmo-shell { width: calc(100% - 32px); }
+  #mensualidad .pmo-grid { grid-template-columns: minmax(0,1fr); grid-template-areas: "heading" "costs" "service"; gap: 24px; }
+  #mensualidad .pmo-heading h2 { font-size: 31px; }
+  #mensualidad .pmo-subtitle { font-size: 16px; margin-top: 10px; }
+  #mensualidad .pmo-costs { margin-top: 0; padding: 20px 18px 14px; border-radius: 20px; }
+  #mensualidad .pmo-costs > h3 { font-size: 24px; }
+  #mensualidad .pmo-cost-row { grid-template-columns: minmax(0,1fr); gap: 9px; padding-block: 16px; }
+  #mensualidad .pmo-cost-row dd { text-align: left; }
+  #mensualidad .pmo-cost-row dt { font-size: 18px; }
+  #mensualidad .pmo-cost-row dd .pmo-conditions { font-size: 13px; }
+  #mensualidad .pmo-management .pmo-amount { font-size: 38px; }
+  #mensualidad .pmo-ad-budget { margin-inline: -6px; padding: 14px; }
+  #mensualidad .pmo-service { padding-bottom: 0; }
+  #mensualidad .pmo-service-heading { column-gap: 14px; }
+  #mensualidad .pmo-service h3 { font-size: 24px; }
+  #mensualidad .pmo-service-copy { font-size: 17px; margin-top: 8px; }
+  #mensualidad .pmo-benefit { padding: 20px; margin-top: 20px; }
+  #mensualidad .pmo-benefit h4 { font-size: 20px; }
+  #mensualidad .pmo-benefit p { font-size: 17px; }
+  #mensualidad .pmo-notes { margin-top: 24px; padding-top: 18px; }
+}

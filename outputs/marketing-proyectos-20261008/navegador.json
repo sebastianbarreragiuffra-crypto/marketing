@@ -1,0 +1,262 @@
+{
+  "viewports": [
+    {
+      "cardLinks": 0,
+      "cards": [
+        {
+          "box": {
+            "bottom": 724.625,
+            "height": 360.375,
+            "left": 80,
+            "right": 700.5,
+            "top": 364.25,
+            "width": 620.5,
+            "x": 80,
+            "y": 364.25
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "18px",
+          "overflow": false,
+          "scopeSize": "15px",
+          "scopeY": 592.625,
+          "text": "Por proyecto\n\nDiseño Web\n\nDiseñamos y construimos tu sitio para presentar tu negocio o vender por internet.\n\nSe cotiza por proyecto.\n\nHosting, dominio y mantenimiento se definen en la propuesta. GISBA no se incluye automáticamente.",
+          "titleSize": "28px"
+        },
+        {
+          "box": {
+            "bottom": 724.625,
+            "height": 360.375,
+            "left": 724.5,
+            "right": 1345,
+            "top": 364.25,
+            "width": 620.5,
+            "x": 724.5,
+            "y": 364.25
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "18px",
+          "overflow": false,
+          "scopeSize": "15px",
+          "scopeY": 592.625,
+          "text": "A medida\n\nAutomatizaciones\n\nEvaluamos bots de WhatsApp y conexiones entre herramientas para reducir tareas repetitivas.\n\nAlcance y costos según propuesta.\n\nFunciones, disponibilidad, integraciones y soporte por confirmar según tu proceso.",
+          "titleSize": "28px"
+        }
+      ],
+      "clientWidth": 1425,
+      "disclosures": 0,
+      "fonts": {
+        "dmSans": true,
+        "manrope": true,
+        "status": "loaded"
+      },
+      "grid": "620.5px 620.5px",
+      "independentCount": 1,
+      "independentNext": "purchase-independent",
+      "links": [
+        {
+          "height": 44,
+          "href": "#contacto",
+          "text": "Agenda una reunión\n→"
+        }
+      ],
+      "noindex": "noindex, nofollow",
+      "preview": true,
+      "primaryBackground": "rgb(199, 244, 91)",
+      "scrollWidth": 1425,
+      "secondaryBackground": "rgba(0, 0, 0, 0)",
+      "width": 1440,
+      "keyboard": {
+        "focusVisible": true,
+        "href": "#contacto",
+        "outline": "rgb(113, 144, 80) solid 3px",
+        "text": "Agenda una reunión\n→"
+      },
+      "contact": {
+        "active": "contact-title",
+        "hash": "#contacto",
+        "heading": {
+          "bottom": 1081.828125,
+          "height": 69.109375,
+          "left": 40,
+          "right": 641,
+          "top": 1012.71875,
+          "width": 601,
+          "x": 40,
+          "y": 1012.71875
+        },
+        "preview": true
+      }
+    },
+    {
+      "cardLinks": 0,
+      "cards": [
+        {
+          "box": {
+            "bottom": 744.28125,
+            "height": 360.375,
+            "left": 232.5,
+            "right": 940.5,
+            "top": 383.90625,
+            "width": 708,
+            "x": 232.5,
+            "y": 383.90625
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "18px",
+          "overflow": false,
+          "scopeSize": "15px",
+          "scopeY": 612.28125,
+          "text": "Por proyecto\n\nDiseño Web\n\nDiseñamos y construimos tu sitio para presentar tu negocio o vender por internet.\n\nSe cotiza por proyecto.\n\nHosting, dominio y mantenimiento se definen en la propuesta. GISBA no se incluye automáticamente.",
+          "titleSize": "28px"
+        },
+        {
+          "box": {
+            "bottom": 744.28125,
+            "height": 360.375,
+            "left": 964.5,
+            "right": 1672.5,
+            "top": 383.90625,
+            "width": 708,
+            "x": 964.5,
+            "y": 383.90625
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "18px",
+          "overflow": false,
+          "scopeSize": "15px",
+          "scopeY": 612.28125,
+          "text": "A medida\n\nAutomatizaciones\n\nEvaluamos bots de WhatsApp y conexiones entre herramientas para reducir tareas repetitivas.\n\nAlcance y costos según propuesta.\n\nFunciones, disponibilidad, integraciones y soporte por confirmar según tu proceso.",
+          "titleSize": "28px"
+        }
+      ],
+      "clientWidth": 1905,
+      "disclosures": 0,
+      "fonts": {
+        "dmSans": true,
+        "manrope": true,
+        "status": "loaded"
+      },
+      "grid": "708px 708px",
+      "independentCount": 1,
+      "independentNext": "purchase-independent",
+      "links": [
+        {
+          "height": 44,
+          "href": "#contacto",
+          "text": "Agenda una reunión\n→"
+        }
+      ],
+      "noindex": "noindex, nofollow",
+      "preview": true,
+      "primaryBackground": "rgb(199, 244, 91)",
+      "scrollWidth": 1905,
+      "secondaryBackground": "rgba(0, 0, 0, 0)",
+      "width": 1920,
+      "keyboard": {
+        "focusVisible": true,
+        "href": "#contacto",
+        "outline": "rgb(113, 144, 80) solid 3px",
+        "text": "Agenda una reunión\n→"
+      },
+      "contact": {
+        "active": "contact-title",
+        "hash": "#contacto",
+        "preview": true
+      }
+    },
+    {
+      "cardLinks": 0,
+      "cards": [
+        {
+          "box": {
+            "bottom": 687.5625,
+            "height": 351.59375,
+            "left": 16,
+            "right": 359,
+            "top": 335.96875,
+            "width": 343,
+            "x": 16,
+            "y": 335.96875
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "17px",
+          "overflow": false,
+          "scopeSize": "14px",
+          "scopeY": 548,
+          "text": "Por proyecto\n\nDiseño Web\n\nDiseñamos y construimos tu sitio para presentar tu negocio o vender por internet.\n\nSe cotiza por proyecto.\n\nHosting, dominio y mantenimiento se definen en la propuesta. GISBA no se incluye automáticamente.",
+          "titleSize": "25px"
+        },
+        {
+          "box": {
+            "bottom": 1032.765625,
+            "height": 329.203125,
+            "left": 16,
+            "right": 359,
+            "top": 703.5625,
+            "width": 343,
+            "x": 16,
+            "y": 703.5625
+          },
+          "h3": "H3",
+          "hidden": 0,
+          "mainSize": "17px",
+          "overflow": false,
+          "scopeSize": "14px",
+          "scopeY": 915.59375,
+          "text": "A medida\n\nAutomatizaciones\n\nEvaluamos bots de WhatsApp y conexiones entre herramientas para reducir tareas repetitivas.\n\nAlcance y costos según propuesta.\n\nFunciones, disponibilidad, integraciones y soporte por confirmar según tu proceso.",
+          "titleSize": "25px"
+        }
+      ],
+      "clientWidth": 375,
+      "disclosures": 0,
+      "fonts": {
+        "dmSans": true,
+        "manrope": true,
+        "status": "loaded"
+      },
+      "grid": "343px",
+      "independentCount": 1,
+      "independentNext": "purchase-independent",
+      "links": [
+        {
+          "height": 44,
+          "href": "#contacto",
+          "text": "Agenda una reunión\n→"
+        }
+      ],
+      "noindex": "noindex, nofollow",
+      "preview": true,
+      "primaryBackground": "rgb(199, 244, 91)",
+      "scrollWidth": 375,
+      "secondaryBackground": "rgba(0, 0, 0, 0)",
+      "width": 390,
+      "keyboard": {
+        "focusVisible": true,
+        "href": "#contacto",
+        "outline": "rgb(113, 144, 80) solid 3px",
+        "text": "Agenda una reunión\n→"
+      },
+      "contact": {
+        "active": "contact-title",
+        "hash": "#contacto",
+        "preview": true
+      }
+    }
+  ],
+  "tabs": {
+    "google": {
+      "alt": "Anuncio ilustrativo de google de la marca ficticia Brisa",
+      "selected": "Google Ads"
+    },
+    "tiktok": {
+      "alt": "Anuncio ilustrativo de tiktok de la marca ficticia Café Monte",
+      "selected": "TikTok Ads"
+    },
+    "metaRestored": true
+  }
+}

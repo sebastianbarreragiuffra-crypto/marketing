@@ -1,0 +1,44 @@
+[
+  {
+    "adjacent": true,
+    "count": 1,
+    "gap": 0,
+    "last": true,
+    "order": [
+      "hero",
+      "flujo-consultas",
+      "reportes",
+      "siguiente-paso"
+    ],
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "adjacent": true,
+    "count": 1,
+    "gap": 0,
+    "last": true,
+    "order": [
+      "hero",
+      "flujo-consultas",
+      "reportes",
+      "siguiente-paso"
+    ],
+    "overflow": false,
+    "width": 1920
+  },
+  {
+    "adjacent": true,
+    "count": 1,
+    "gap": 0,
+    "last": true,
+    "order": [
+      "hero",
+      "flujo-consultas",
+      "reportes",
+      "siguiente-paso"
+    ],
+    "overflow": false,
+    "width": 390
+  }
+]

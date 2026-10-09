@@ -1,0 +1,122 @@
+{
+  "revision": "SAME_AGENT_CHALLENGE: A, B, C y Z aplicados por el mismo agente; sin revisión independiente ni validación con usuarios.",
+  "alcance": "Delta autorizado: reemplazar dos servicios complementarios en Marketing y mover una sola ruta de GISBA independiente.",
+  "inventario_comercial": [
+    {
+      "oferta": "Google Ads, Meta Ads y TikTok Ads",
+      "ubicacion": "Hero y pestañas de campañas, antes de los proyectos",
+      "estado": "CONSERVADO",
+      "responsabilidad": "Órbita gestiona campañas; el equipo atiende consultas; inversión publicitaria aparte."
+    },
+    {
+      "oferta": "GISBA contemplado con Marketing",
+      "ubicacion": "Hero y purchase-terms",
+      "estado": "CONSERVADO",
+      "condiciones": "1 usuario contemplado, usuarios adicionales de pago; elegibilidad exacta y condiciones por confirmar."
+    },
+    {
+      "oferta": "GISBA independiente",
+      "ubicacion": "Después de purchase-terms y antes del CTA principal",
+      "estado": "MOVIDO",
+      "condiciones": "Mismo texto y enlace software.html, una sola instancia, sin tarifa inventada."
+    },
+    {
+      "oferta": "Diseño Web",
+      "ubicacion": "Primera tarjeta complementaria",
+      "estado": "REFINADO",
+      "condiciones": "Cotización por proyecto; hosting, dominio y mantenimiento definidos en propuesta; GISBA no incluido automáticamente."
+    },
+    {
+      "oferta": "Automatizaciones",
+      "ubicacion": "Segunda tarjeta complementaria",
+      "estado": "REFINADO",
+      "condiciones": "Evaluación a medida; alcance, costos, funciones, disponibilidad, integraciones y soporte por confirmar."
+    }
+  ],
+  "hallazgos": {
+    "A": "Separamos beneficio y condiciones visibles y retiramos dos decisiones de contacto individuales.",
+    "B": "La igualdad entre tarjetas se limita a servicios complementarios; las campañas conservan posición anterior y CTA principal relleno lima. El enlace común es secundario.",
+    "C": "HTML editable y SVG decorativos; no se habilitan bots, conexiones, integraciones ni recepción de solicitudes. Contacto sigue en vista previa.",
+    "Z": "No se alteran tarifas ni usuario contemplado con Marketing; Web tiene exclusión explícita y GISBA independiente conserva su ruta."
+  },
+  "contraste_del_delta": "Frente al bloque anterior, la implementación prescrita añade tarjetas y separación de condiciones, conserva toda la información exigida y reduce dos enlaces a uno. Costo: mayor altura vertical, con lectura completa en móvil.",
+  "controles": [
+    {
+      "control": "Texto exacto, dos h3, información siempre visible, sin desplegables ni enlaces individuales",
+      "estado": "VERIFICADO",
+      "evidencia": "navegador.json y preservacion.json"
+    },
+    {
+      "control": "1440, 1920 y 390 px; columnas, alineación inferior, fuentes, overflow y legibilidad",
+      "estado": "VERIFICADO",
+      "evidencia": "navegador.json y capturas marketing-*.jpg"
+    },
+    {
+      "control": "Teclado, foco visible de 3 px, enlace común #contacto y foco en el título de destino",
+      "estado": "VERIFICADO",
+      "evidencia": "navegador.json y foco-*.jpg"
+    },
+    {
+      "control": "Pestañas existentes Google/Meta/TikTok por teclado",
+      "estado": "VERIFICADO",
+      "evidencia": "navegador.json"
+    },
+    {
+      "control": "Hero, campañas, contacto, navegación, footer y demás páginas; dependencias compartidas",
+      "estado": "VERIFICADO",
+      "evidencia": "Comparación contra archivos actuales archivados: 82 recursos activos intactos y contenido de Marketing ajeno al delta idéntico."
+    },
+    {
+      "control": "Noindex, etiquetas ilustrativas y estados comerciales pendientes",
+      "estado": "VERIFICADO",
+      "evidencia": "Fuente conservada fuera del delta; exclusiones y pendientes visibles en tarjetas."
+    },
+    {
+      "control": "Fuente única; contenido anterior retirado y archivado; no hay IDs duplicados ni dependencias faltantes",
+      "estado": "VERIFICADO",
+      "evidencia": "archive/2026-10-08-marketing-proyectos y preservacion.json"
+    },
+    {
+      "control": "Manifiesto actualizado y site_state.py --check",
+      "estado": "VERIFICADO",
+      "evidencia": "84 recursos; versión ad26c7b07a5e9761923043dfcc2ba5758b333076c25487d866d4625564335494"
+    },
+    {
+      "control": "Disponibilidad real de bots, funciones, integraciones y soporte; alcance y costos de propuesta",
+      "estado": "PENDIENTE",
+      "motivo": "No comprobados ni habilitados en este cambio; copy mantiene condición por confirmar."
+    },
+    {
+      "control": "Recepción real de contacto o reservas",
+      "estado": "PENDIENTE",
+      "motivo": "El destino se verificó, pero el formulario permanece en vista previa y no envía solicitudes."
+    },
+    {
+      "control": "Tres conceptos de arquitectura completa y rediseño de portada/oferta",
+      "estado": "NO APLICA",
+      "motivo": "El usuario prescribió diseño y contenido exactos de un bloque; se revisó únicamente el delta sin reabrir arquitectura."
+    },
+    {
+      "control": "Cambios en FAQ, reportes, métricas reales, precios e integraciones",
+      "estado": "NO APLICA",
+      "motivo": "No forman parte del bloque ni del alcance autorizado; fuentes existentes preservadas."
+    },
+    {
+      "control": "Pruebas con usuarios o mejoras de conversión",
+      "estado": "NO APLICA",
+      "motivo": "La comprobación es de implementación y navegador; no se realizaron mediciones."
+    },
+    {
+      "control": "Commit, push, despliegue o publicación",
+      "estado": "NO APLICA",
+      "motivo": "Prohibidos por el usuario. HEAD sin cambios, implementación guardada solo localmente."
+    }
+  ],
+  "archivos_activos_modificados": [
+    "marketing.html",
+    "css/compra-clara-20261008.css",
+    "site-manifest.json"
+  ],
+  "evidencia_adicional": "outputs/marketing-proyectos-20261008 y archive/2026-10-08-marketing-proyectos",
+  "siguiente_paso": "Revisar la implementación local; definir disponibilidad y conexión real de contacto como trabajos separados cuando sean autorizados."
+}

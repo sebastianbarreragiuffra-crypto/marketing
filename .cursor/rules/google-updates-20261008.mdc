@@ -1,0 +1,33 @@
+---
+description: Fuentes primarias de Google y Chrome verificadas el 8 de octubre de 2026 y su aplicación limitada
+alwaysApply: false
+---
+
+# Evidencia Google / Ads / movimiento - consultada 2026-10-08
+
+Registro fechado para fresh-review-google.mdc. Revalidar antes de ejecutar cambios; publicación no demuestra disponibilidad en nuestras cuentas ni causalidad en Órbita. No es un listado de funciones de GISBA.
+
+## Ads, destinos y calidad comercial
+- 2025-02-05: Google anunció un modelo para identificar destinos inesperados y navegación poco útil. Aplicación: continuidad entre promesa del anuncio, servicio mostrado al entrar y acción siguiente; no imponer eliminar el menú. No se publicaron pesos ni mejora universal de conversión. https://blog.google/products/ads-commerce/search-ads-and-the-importance-of-landing-page-navigation/
+- Documentación vigente: Text customization usa dominio, landing, anuncios, keywords y metadatos; español está incluido. Final URL expansion puede cambiar destino. Aplicación: coherencia de marca/oferta, URLs aptas y exclusiones; revisar controles efectivos antes de habilitar. https://support.google.com/google-ads/answer/11259373?hl=en ; https://support.google.com/google-ads/answer/16230205?hl=en
+- Anuncio 2026-04-15, corrección 2026-06-11: DSA inicia auto-upgrade a AI Max en FEBRERO 2027; ACA y broad match de campaña conservan inicio SEPTIEMBRE 2026. El resumen automático y párrafos antiguos del anuncio todavía dicen septiembre para DSA; prevalece la corrección. No inferir migración de una cuenta. https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/
+- 2026-08-20: Google anunció nuevas pruebas de presupuesto/objetivos de retorno en varias campañas y compatibilidad con controles de marca/ubicación, con despliegue en septiembre. Verificar disponibilidad y separar ensayo de campaña de ensayo de diseño. https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/
+- Cambios 2026: fuentes simultáneas de enhanced conversions desde abril y configuración unificada desde junio. Medición de leads calificados/convertidos requiere datos posteriores del CRM; función de Google no equivale a conector activo de GISBA. https://support.google.com/google-ads/answer/16884284?hl=en ; https://support.google.com/google-ads/answer/11459091?hl=en
+- Guía permanente: Quality Score es diagnóstico, no KPI principal ni entrada directa de la subasta; no confundirlo con los factores de calidad. Más CTR no siempre significa mejor calidad de lead. https://support.google.com/google-ads/answer/6167118?hl=en ; https://support.google.com/google-ads/answer/6167130?hl=en
+
+## Search, imágenes y comparabilidad
+- 2026-05-15: nueva guía de optimización para IA; documento actualizado 2026-07-10. Mantiene contenido original, estructura clara e imágenes/vídeo pertinentes; Google Search ignora llms.txt y no exige esquema especial de IA. No garantiza aparición ni ventas. https://developers.google.com/search/docs/fundamentals/ai-optimization-guide ; https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing?hl=en
+- 2026-06-03, despliegue global indicado 2026-08-31: informes de IA en Search Console con IMPRESIONES y desgloses; no tratarlos como informe de CTR/ventas. Confirmar que exista información en la propiedad. https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports ; https://support.google.com/webmasters/answer/16984139
+- 2026-09-24: filtro de búsqueda web multimodal (Lens, Circle to Search, imagen subida y búsqueda de imagen de Chrome). Aplicación: evaluar descubrimiento visual cuando haya datos; no prueba que más imágenes o animaciones mejoren posicionamiento. https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc
+- Registro oficial: error de impresiones entre 2025-05-13 y 2026-04-27 afectó CTR/posición, no clics. FAQ rich results dejaron de aparecer desde 2026-05-07. Revisar comparabilidad; conservar FAQ por dudas de compra, sin prometer enriquecidos. No trasladar estos incidentes a CTR de Ads. https://support.google.com/webmasters/answer/6211453?hl=en
+
+## Movimiento y rendimiento
+- Anuncio 2025-10-16: same-document View Transitions alcanzó Baseline Newly available el 2025-10-14. Viable para continuidad entre estados; no implica soporte universal de extensiones posteriores ni mejora comercial demostrada. https://web.dev/blog/same-document-view-transitions-are-now-baseline-newly-available?hl=en
+- Resumen Chrome 2026-07-01: transiciones por componente en Chrome 147 mantienen el resto de la página interactivo; scroll-triggered figura en Chrome/Edge 146, no Firefox/Safari. Scroll-driven y scroll-triggered son distintos; verificar versiones antes de implementar. Aplicación propuesta: transición discreta entre casos, con alternativa estática. https://developer.chrome.com/blog/new-in-web-ui-io26?hl=en ; https://developer.chrome.com/docs/css-ui/scroll-driven-animations
+- Antecedente Tokopedia 2024-05-07: CPU de scroll de 50% a 2% al sustituir implementación de animación; no es un ensayo de ventas por añadir efectos. https://developer.chrome.com/blog/css-ui-ecommerce-sda?hl=en
+- Caso QuintoAndar 2025-01-22: INP reducido 80% y conversiones interanuales +36%; la fuente aclara que el crecimiento no fue exclusivamente por INP. No extrapolar porcentajes. INP bueno <=200 ms en p75; no mide directamente scroll ni espera total de servidor. https://web.dev/case-studies/quintoandar-inp?hl=es-419 ; https://web.dev/articles/inp
+- Movimiento no esencial por interacción: posibilidad de desactivarlo es criterio AAA 2.3.3; no confundirlo con nivel AA o con controles de pausa para otros movimientos. https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html
+
+## Decisión
+- Priorizar pertinencia del destino, claridad comercial, demostración legible y recepción de contactos. Probar movimiento cuando aclare la tarea; medir conversión válida/calidad y usar rebote como diagnóstico.
+- No se encontró en esta revisión un experimento controlado aplicable que justifique prometer que añadir animaciones reduce rebote o aumenta ventas. Esa relación permanece HIPÓTESIS para este sitio.

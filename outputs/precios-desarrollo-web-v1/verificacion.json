@@ -1,0 +1,34 @@
+{
+  "existing_files_unchanged": 65,
+  "changed_existing_files": [],
+  "export": {
+    "name": "orbita-precios-desarrollo-web-v1-1440.png",
+    "width": 1440,
+    "height": 1392
+  },
+  "faq_export": {
+    "name": "faq-propuesto-v1-1440.png",
+    "width": 1440,
+    "height": 1342
+  },
+  "new_buttons_disabled": 14,
+  "unique_new_ids": true,
+  "no_new_actions": true,
+  "public_proposal_routes": {
+    "/outputs/precios-desarrollo-web-v1/precios-propuesta.html": 404,
+    "/outputs/precios-desarrollo-web-v1/section.css": 404
+  },
+  "original_public_prices_unchanged": true,
+  "local_proposal_http": 200,
+  "browser_verified": [
+    1440,
+    1920,
+    390
+  ],
+  "desktop_columns": 4,
+  "aligned_rows": true,
+  "single_line_desktop_items": 12,
+  "horizontal_overflow": false,
+  "google_note_one_line_desktop": true,
+  "new_faq_toggle_verified": true
+}

@@ -1,0 +1,37 @@
+---
+description: Evidencia fechada del sitio local utilizada para construir Directorio C v2; no lista automática de tareas
+alwaysApply: false
+---
+
+# Base observada para C v2 — 2026-10-08
+
+## Alcance real
+- Encargo: analizar lo existente y mejorar reglas/directorio. No se editó HTML/CSS/JS de la web. Revisión principal de navegador + tres revisiones independientes de código/referencias/SEO.
+- Sitio observado: http://127.0.0.1:8767/ ; fuentes C:/Users/SEBAS/Desktop/marketing. Inicio y Marketing a1440; Software y Precios a1440 y390. Son vistas seleccionadas, no auditoría completa de todas las secciones.
+- Referencias nuevas vistas: Gorgias Helpdesk y Attio a1440. Apple/Vambe/Shopify/Klaviyo conservan evidencia del turno precedente; restantes referencias tienen límites explícitos en visual-reference-library.mdc.
+- La captura de Precios a1440 después de390 conserva el estado inicial móvil. No confundirlo con un fallo: las elecciones/estado se mantienen al redimensionar; recargar en cada ancho para probar defaults.
+- VERIFICADO: reglas, archivos/activos indicados, renders observados y estilos computados señalados. PENDIENTE: recorrido integral1440/1920/360/390, teclado/zoom/reduced-motion, métricas campo/laboratorio, usuarios reales, indexación pública y recepción de contactos.
+- Esta evidencia es fechada: refrescar antes de implementar; no convertirla en prohibición permanente ni orden para editar páginas adyacentes.
+
+## Conservar con evidencia
+- Inicio ya muestra anuncios distintos por canal y una vista alternativa de software; el beneficio/inclusión/CTA están visibles. No pedir otra vez separar esas dos escenas como si no existieran.
+- Software adapta el resumen a tarjetas apiladas en390; en la vista observada no hubo desborde horizontal. Esto no prueba que toda la página sea legible o accesible.
+- Precios tiene etiquetas Mostrar/Ocultar y ejemplos grandes; móvil inicia Google abierto, Meta/TikTok cerrados en el DOM observado. css/compra-clara-20261008.css:107–120 y js/precios-disclosures.js controlan estos avances.
+- No reinstalar el problema de miniaturas112px ni pedir abrir todos los paneles por rutina. Comprobar cada decisión actual y la tarea que resuelve.
+
+## Hallazgos que explican reglas nuevas
+- Movimiento: css/experience-motion.css:18–21 define efectos del portátil, pero css/directory-c-shared.css:12–20 los anula; marketing.html:26–29 carga la capa posterior. DOM a1440 confirmó animation:none/transform:none en .mh-copy, .mh-laptop y su img. Acción futura: decidir intención y propiedad del efecto antes de reactivarlo.
+- No faltan todos los efectos: Inicio a1440 conserva landing-item-in, landing-status-pulse, landing-follow-glow y fq-in en elementos concretos; hay carrusel automático. No extrapolar un reset parcial a toda la web.
+- Selectores viejos: js/experience-motion.js:6–9 busca .ms-*; sección actual marketing.html:71–94 usa .purchase-*. Revisar selectores/eventos huérfanos dentro del encargo, sin añadir otra capa correctora automática.
+- Activo desproporcionado: software.html:88 usa marketing-web-office.png de2.312.284 bytes y1122×1402 para una miniatura renderizada42×42 en1440/390. Proponer variante adecuada; peso en disco verificado, impacto en LCP no medido.
+- Hero Marketing: marketing.html:57 usa marketing-laptop.png de1.391.472 bytes1536×1024 sin srcset. El render muestra portátil con dashboard. Comparar creatividades/trabajo de agencia sólo como hipótesis de claridad; la opción elegida no está aprobada.
+- Prioridad: precios.html:71/82/93 carga tres anuncios eager/high aunque en móvil dos comienzan cerrados. Revisar candidatos aLCP y variantes; no declarar lentitud observada sólo por atributos.
+- SEO de entorno: marketing.html:5, software.html:6 y precios.html:6 tienen noindex,nofollow; Inicio no presenta la misma etiqueta. No retirar durante trabajo de maqueta. Dominio/publicación/indexación real pendientes.
+- Contacto: js/home-contact-reference.js evita envío; js/marketing-contact.js valida/muestra resumen local. Solicitud aceptada y reserva real siguen pendientes; no llamar conversión al resumen.
+
+## Próxima iteración propuesta, no implementación autorizada
+1. Ajustar peso/variantes de imágenes y comprobar la misma legibilidad; la miniatura42px es el candidato más claro.
+2. Reconciliar movimiento efectivo y especificar una escena útil: transición/capa que señale una tarea, final estable, móvil y pausa. Preservar el resto.
+3. Contrastar visual de Marketing con creatividades/gestión frente al portátil actual; mantener el hero actual refinado como alternativa. Sólo producir mockup nuevo si existe delta material y encargo.
+- Propuestas alternativas de método: C anterior ampliado sólo con checklist mantiene vaguedad; rearmar toda la web agrega alcance y pérdida de aprobaciones; C v2 con fichas/contratos/pruebas aporta decisiones trazables y se adopta para reglas.
+- La prioridad comercial de habilitar recepción real se registra para el lanzamiento; aquí el usuario pidió mejorar el directorio, no conectar formularios ni publicar.

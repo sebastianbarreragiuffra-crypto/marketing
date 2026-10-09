@@ -1,0 +1,79 @@
+{
+  "VERIFICADO": {
+    "alcance": "Propuesta nueva propia; solo se reemplaza Mensualidad en la copia de Precios",
+    "archivos_existentes_intactos": 69,
+    "version_anterior_conservada": true,
+    "ubicacion": [
+      "Hero Marketing por canal",
+      "Mensualidad nueva",
+      "GISBA independiente"
+    ],
+    "navegador": [
+      {
+        "viewport": [
+          1440,
+          810
+        ],
+        "overflow_horizontal": false,
+        "contraste_minimo": 5.71,
+        "altura_seccion": 710.65625,
+        "columnas_funciones": "270.891px 356.438px 313.656px"
+      },
+      {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "overflow_horizontal": false,
+        "contraste_minimo": 5.71,
+        "altura_seccion": 689.65625,
+        "columnas_funciones": "321.266px 422.719px 372px"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "overflow_horizontal": false,
+        "contraste_minimo": 5.71,
+        "altura_seccion": 2201.609375,
+        "columnas_funciones": "263px"
+      }
+    ],
+    "texto_principal_desktop": "15 px, sin zoom, escalado ni filtros",
+    "desktop_1440_seccion_completa_debajo_menu": true,
+    "desktop_1920_ancho_maximo_composicion": true,
+    "imagen_exportada": {
+      "archivo": "mensualidad-recibo-v2-1440.png",
+      "dimensiones": [
+        1440,
+        1342
+      ],
+      "escala": 1,
+      "remuestreo": false
+    },
+    "propuesta_excluida_de_cloudflare": true,
+    "revision_independiente": "INDEPENDENT_REVIEW por monthly_scope_review; A/B/Z/C aplicados al alcance confirmado"
+  },
+  "PENDIENTE": [
+    "Definir alcance de la gestión",
+    "Precio por mensaje y disponibilidad del bot de WhatsApp",
+    "Respaldar en el mercado la afirmación Lo que nos diferencia",
+    "Validar capacidades reales de GISBA: la implementación visual no las demuestra",
+    "FAQ de responsabilidades: Quién responde las consultas no existe en Precios actual; retirada de la tarjeta autorizada, traslado no implementado"
+  ],
+  "NO_APLICA": [
+    "Publicación o despliegue: prohibidos por el usuario",
+    "Commit o push: prohibidos por el usuario",
+    "Integraciones o envío real",
+    "Nuevas alternativas: diseño seleccionado por el usuario"
+  ],
+  "archivos_nuevos": [
+    "precios-propuesta.html",
+    "seccion-mensualidad.html",
+    "mensualidad-recibo-v2.css",
+    "mensualidad.html",
+    "mensualidad-recibo-v2-1440.png"
+  ],
+  "archivos_previos_modificados": []
+}

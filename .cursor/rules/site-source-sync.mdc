@@ -1,0 +1,24 @@
+---
+description: Una versión activa de Órbita y traspaso verificable entre PCs
+alwaysApply: true
+---
+
+# Fuente única y sincronización
+
+- La web vigente son las páginas raíz de este checkout y sus dependencias; `outputs/`, `mockups/`, `archive/` y copias `dist` son referencias, nunca fuentes automáticas.
+- Al reemplazar una sección autorizada, retirar su HTML anterior en esa página, referencias a CSS/JS exclusivos y anclas obsoletas. No dejar dos implementaciones por ID ni esconder la antigua con CSS.
+- Antes de retirar recursos, comprobar usos en otras páginas, imports y cargas dinámicas. Preservar todo recurso compartido y el contenido ajeno al cambio.
+- Conservar lo retirado en Git o en `archive/<fecha>-<motivo>/`, fuera del inventario público. No borrar propuestas, assets o backups ajenos por su antigüedad.
+- Un mockup/propuesta no sustituye automáticamente la página raíz; aplicarlo solo con autorización de implementación.
+- Revisar que no quedan referencias rotas, IDs duplicados ni espacio reservado para la sección retirada; comprobar desktop y móvil cuando cambie el render.
+- Mantener `site-manifest.json` con `python site_state.py --write` tras una versión terminada: páginas, estilos, scripts e imágenes juntos, con huella de contenido independiente del PC.
+- `python site_state.py --check` debe pasar antes de dar por preparada una versión para trasladar o publicar. Informar también archivos activos sin commit o sin seguimiento.
+- El enlace normal de `live_preview.py` sirve siempre el checkout donde está el script. Otra rama solo se elige explícitamente con `/b/<rama>/`; nunca por la última edición de otro worktree.
+- No rescatar archivos faltantes desde copias de publicación ni referencias históricas: informar el faltante y corregir la fuente vigente.
+- F5 muestra los archivos guardados del PC que ejecuta el túnel; no sincroniza Git, no traslada borradores del editor y no actualiza un despliegue de Pages.
+- Antes de cambiar de PC, verificar remoto, rama, estado y versión. Si Git está autorizado, incluir explícitamente todas las dependencias activas y las reglas/documentos del cambio; nunca `git add -A` indiscriminadamente.
+- No hacer commit/push o despliegue frente a una prohibición vigente. Dejar el traspaso PENDIENTE y pedir solo la autorización faltante sobre una lista concreta ya revisada.
+- Tras un push autorizado, comparar SHA local/remoto; registrar rama, SHA y versión de contenido en el traspaso. No declarar sincronizado un árbol con trabajo necesario solo local.
+- En el PC destino, conservar cambios locales; verificar remoto/rama, fetch y pull --ff-only cuando el árbol lo permita; ejecutar --check y comparar SHA/versión con el traspaso antes de abrir otro túnel.
+- Un Quick Tunnel pertenece al PC que lo ejecuta y puede cambiar de URL al reiniciarse. Un servidor vivo con archivos pendientes de subir no acredita que otro PC tenga esa versión.
+- Separar estado local, guardado en Git, subido a GitHub, servido por túnel y desplegado/verificado en Pages. No prometer recepción de consultas o reservas por una prueba visual.

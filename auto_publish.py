@@ -18,28 +18,17 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import unquote
+
+from site_state import PAGES, content_version, public_files
 
 
 REPO = Path(__file__).resolve().parent
 DATA = REPO / ".preview-sync"
 STAGE = DATA / "stage"
-ACTIVE = DATA / "active_source.json"
 LAST_DEPLOYED = DATA / "last_deployed.json"
 PROJECT = "orbita-marketing"
 PRODUCTION_BRANCH = "main"
 PRODUCTION_URL = f"https://{PROJECT}.pages.dev"
-PAGES = (
-    "index.html",
-    "marketing.html",
-    "software.html",
-    "automatizaciones.html",
-    "precios.html",
-    "iniciar-sesion.html",
-)
-EXTRA_ROOT = ("favicon.svg", "404.html", "robots.txt", "_headers", "_redirects")
-MEDIA_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif", ".avif", ".woff", ".woff2", ".ttf", ".mp4"}
-ASSET_REFERENCE = re.compile(r"assets/[a-zA-Z0-9_./%+\-]+")
 POLL_SECONDS = 1.5
 DEBOUNCE_SECONDS = 4.0
 
@@ -65,42 +54,8 @@ def worktrees() -> dict[Path, str]:
     return found
 
 
-def public_files(root: Path) -> list[Path]:
-    paths = {root / name for name in (*PAGES, *EXTRA_ROOT) if (root / name).is_file()}
-    for folder_name, extension in (("css", ".css"), ("js", ".js")):
-        folder = root / folder_name
-        if folder.is_dir():
-            paths.update(path for path in folder.iterdir() if path.is_file() and path.suffix == extension)
-
-    # Keep the existing site imagery. Additional assets are included only when
-    # they are referenced by an HTML, CSS, or JS file.
-    hero = root / "assets" / "hero"
-    if hero.is_dir():
-        paths.update(path for path in hero.rglob("*") if path.is_file() and path.suffix.lower() in MEDIA_EXTENSIONS)
-    for source in tuple(paths):
-        if source.suffix not in {".html", ".css", ".js"}:
-            continue
-        try:
-            content = source.read_text(encoding="utf-8")
-        except (OSError, UnicodeError):
-            continue
-        for match in ASSET_REFERENCE.findall(content):
-            candidate = (root / unquote(match)).resolve()
-            if candidate.is_relative_to(root) and candidate.is_file() and candidate.suffix.lower() in MEDIA_EXTENSIONS:
-                paths.add(candidate)
-    return sorted(paths)
-
-
 def fingerprint(root: Path, branch: str) -> str:
-    digest = hashlib.sha256(branch.encode("utf-8"))
-    for path in public_files(root):
-        try:
-            stat = path.stat()
-        except FileNotFoundError:
-            continue
-        relative = path.relative_to(root).as_posix()
-        digest.update(f"{relative}:{stat.st_size}:{stat.st_mtime_ns}\n".encode("utf-8"))
-    return digest.hexdigest()
+    return hashlib.sha256(f"{branch}\n{content_version(root)}".encode("utf-8")).hexdigest()
 
 
 def atomic_json(path: Path, data: dict) -> None:
@@ -123,12 +78,9 @@ def branch_url(branch: str) -> str:
     return f"https://{alias}.{PROJECT}.pages.dev"
 
 
-def select_live_source(root: Path, branch: str) -> None:
-    atomic_json(ACTIVE, {"root": str(root), "branch": source_label(root, branch)})
-    print(f"Live tunnel now serves {source_label(root, branch)}", flush=True)
-
-
 def prepare_stage(root: Path, branch: str, version: str) -> int:
+    # Fail before touching a previous stage if any current dependency is missing.
+    sources = public_files(root, strict=True)
     # STAGE is a fixed directory beneath DATA. Verify before any recursive delete.
     DATA.mkdir(exist_ok=True)
     resolved_stage = STAGE.resolve()
@@ -138,7 +90,7 @@ def prepare_stage(root: Path, branch: str, version: str) -> int:
         shutil.rmtree(STAGE)
     STAGE.mkdir()
     count = 0
-    for source in public_files(root):
+    for source in sources:
         relative = source.relative_to(root)
         destination = STAGE / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -234,22 +186,12 @@ def watch() -> None:
             known[root] = (branch, version)
             changed = previous != (branch, version)
             if changed:
-                if not first_poll:
-                    select_live_source(root, branch)
                 if last_deployments().get(branch, {}).get("version") != version:
                     pending[root] = (branch, version, time.monotonic() + (0 if first_poll else DEBOUNCE_SECONDS))
         for missing in set(known) - {root for root, branch in current.items() if branch != "detached"}:
             known.pop(missing)
             pending.pop(missing, None)
             retry_after.pop(missing, None)
-        if first_poll and known:
-            deployed = last_deployments().get(PRODUCTION_BRANCH, {})
-            deployed_root = Path(deployed.get("root", str(REPO))).resolve()
-            source = deployed_root if deployed_root in known else REPO
-            if source not in known:
-                source = next(iter(known))
-            branch, _ = known[source]
-            select_live_source(source, branch)
         first_poll = False
         for root, (branch, version, due_at) in list(pending.items()):
             if time.monotonic() < max(due_at, retry_after.get(root, 0)):
@@ -286,6 +228,5 @@ if __name__ == "__main__":
         branches = worktrees()
         branch = branches.get(REPO, "detached")
         version = fingerprint(REPO, branch)
-        select_live_source(REPO, branch)
         if not deploy(REPO, branch, version, dry_run=args.dry_run):
             sys.exit(1)

@@ -1,0 +1,138 @@
+/* Inicio: contacto de referencia. Todos los estilos quedan dentro de esta sección. */
+#contacto.home-contact-reference {
+  padding: 72px 0 80px;
+  background: radial-gradient(ellipse at 30% 42%, #171f17, #0b0d0b 72%);
+  color: #f6f3eb;
+  font-family: "DM Sans", Arial, sans-serif;
+  scroll-margin-top: 88px;
+}
+#contacto .hc-wrap { width: min(calc(100% - 160px), 1440px); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 620px); gap: 80px; align-items: center; }
+#contacto .hc-copy { max-width: 580px; }
+#contacto .hc-eyebrow { margin: 0 0 24px; color: #c7f45b; font-size: 13px; letter-spacing: .15em; text-transform: uppercase; }
+#contacto .hc-eyebrow span { margin-right: 14px; color: #a9aea3; }
+#contacto .hc-copy h2 { margin: 0 0 24px; font: 700 clamp(56px, 5.7vw, 82px)/1.08 Manrope, Arial, sans-serif; letter-spacing: -.065em; }
+#contacto .hc-copy h2 span { color: #c7f45b; }
+#contacto .hc-description { max-width: 510px; margin: 0; font-size: 20px; line-height: 1.55; color: #c6c9bf; }
+#contacto .hc-signoff { display: flex; align-items: center; gap: 14px; margin: 28px 0 48px; font-size: 15px; color: #adb3a5; }
+#contacto .hc-signoff::before { content: ""; width: 36px; height: 1px; flex: none; background: #a9aea3; }
+#contacto .hc-steps { list-style: none; counter-reset: hc-step; margin: 0; padding: 0; max-width: 500px; }
+#contacto .hc-steps li { counter-increment: hc-step; position: relative; min-height: 83px; padding: 18px 0 18px 56px; border-top: 1px solid #2c332b; }
+#contacto .hc-steps li:last-child { border-bottom: 1px solid #2c332b; }
+#contacto .hc-steps li::before { content: counter(hc-step); position: absolute; top: 18px; left: 0; display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid #6b862d; border-radius: 50%; color: #c7f45b; font-weight: 700; }
+#contacto .hc-steps strong { display: block; font-size: 18px; line-height: 1.4; }
+#contacto .hc-steps p { margin: 2px 0 0; color: #adb3a5; font-size: 15px; line-height: 1.5; }
+#contacto .hc-card { min-width: 0; border-radius: 30px; background: #faf9f5; color: #0b0d0b; padding: 36px; }
+#contacto .hc-card h3 { margin: 0 0 6px; font: 800 30px/1.25 Manrope, Arial, sans-serif; letter-spacing: -.045em; }
+#contacto .hc-help { margin: 0 0 24px; font-size: 14px; line-height: 1.5; color: #53604c; }
+#contacto .hc-controls, #contacto .hc-group { min-width: 0; border: 0; margin: 0; padding: 0; }
+#contacto .hc-group { margin-bottom: 24px; }
+#contacto .hc-group legend { display: block; float: none; width: 100%; padding: 0; margin-bottom: 10px; font-size: 15px; line-height: 1.5; font-weight: 600; }
+#contacto .hc-group legend small { display: block; font-size: 13px; font-weight: 400; color: #697460; }
+#contacto .hc-services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+#contacto .hc-choice { display: flex; align-items: center; gap: 10px; position: relative; min-height: 48px; margin: 0; padding: 10px 14px; border: 1px solid #dadbd8; border-radius: 15px; background: #fff; color: #0b0d0b; font-size: 14px; line-height: 1.3; cursor: pointer; }
+#contacto .hc-choice.hc-unsure { border-style: dashed; }
+#contacto .hc-choice:has(input:checked) { border-color: #0b0d0b; background: #f2f7e6; }
+#contacto .hc-choice input, #contacto .hc-business input, #contacto .hc-channel input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
+#contacto .hc-check { display: grid; place-items: center; flex: none; width: 18px; height: 18px; border: 1px solid #a9afa5; border-radius: 5px; background: #fff; }
+#contacto .hc-choice input:checked + .hc-check { border-color: #0b0d0b; background: #0b0d0b; }
+#contacto .hc-choice input:checked + .hc-check::after { content: ""; width: 8px; height: 5px; border-left: 2px solid #c7f45b; border-bottom: 2px solid #c7f45b; transform: translateY(-1px) rotate(-45deg); }
+#contacto .hc-choice:has(input:focus-visible), #contacto .hc-business:has(input:focus-visible), #contacto .hc-channel:has(input:focus-visible) { outline: 2px solid #48622e; outline-offset: 3px; }
+#contacto .hc-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 24px; }
+#contacto .hc-field { display: block; min-width: 0; }
+#contacto .hc-field > span { display: block; margin-bottom: 9px; font-size: 15px; line-height: 1.5; font-weight: 600; }
+#contacto .hc-optional { font-size: 13px; font-weight: 400; color: #697460; margin-left: 3px; }
+#contacto .hc-text-input { display: block; width: 100%; height: 48px; padding: 12px 15px; border: 1px solid #d1d3cf; border-radius: 12px; background: #fff; color: #0b0d0b; font: 400 15px/1.5 "DM Sans", Arial, sans-serif; box-shadow: none; }
+#contacto .hc-text-input::placeholder { color: #697460; opacity: 1; }
+#contacto .hc-text-input:focus-visible { outline: 2px solid #48622e; outline-offset: 2px; }
+#contacto .hc-businesses { display: flex; flex-wrap: wrap; gap: 8px; }
+#contacto .hc-business { display: flex; align-items: center; gap: 8px; position: relative; min-height: 38px; padding: 8px 12px; margin: 0; border: 1px solid #dadbd8; border-radius: 30px; background: #fff; font-size: 14px; line-height: 1.3; cursor: pointer; }
+#contacto .hc-radio { flex: none; width: 14px; height: 14px; border: 1px solid #a9afa5; border-radius: 50%; background: #fff; }
+#contacto .hc-business input:checked + .hc-radio { border-color: #48622e; background: #48622e; box-shadow: inset 0 0 0 3px #fff; }
+#contacto .hc-business:has(input:checked) { border-color: #48622e; background: #f2f7e6; }
+#contacto .hc-channels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 5px; border-radius: 15px; background: #ecebe3; }
+#contacto .hc-channel { display: grid; place-items: center; position: relative; min-height: 43px; margin: 0; border-radius: 11px; color: #53604c; font-size: 15px; cursor: pointer; }
+#contacto .hc-channel:has(input:checked) { background: #fff; color: #0b0d0b; box-shadow: 0 2px 5px #0b0d0b0b; }
+#contacto .hc-contact-field { margin-bottom: 26px; }
+#contacto .hc-contact-field[hidden] { display: none; }
+#contacto .hc-submit { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; min-height: 58px; padding: 14px 22px; border: 0; border-radius: 14px; background: #c7f45b; color: #0b0d0b; font: 700 17px/1.4 "DM Sans", Arial, sans-serif; opacity: 1; cursor: not-allowed; }
+#contacto .hc-submit svg { width: 18px; height: 18px; }
+#contacto .hc-privacy-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin-top: 14px; color: #53604c; font-size: 13px; line-height: 1.5; }
+#contacto .hc-privacy-row p { margin: 0; }
+#contacto .hc-privacy { border: 0; padding: 0; margin: 0; background: transparent; color: #0b0d0b; font: inherit; text-decoration: underline; opacity: 1; cursor: not-allowed; }
+#contacto .hc-preview { margin: 4px 0 0; color: #697460; font-size: 12px; line-height: 1.5; }
+@media (min-width: 1600px) { #contacto .hc-wrap { grid-template-columns: minmax(0, 1fr) minmax(0, 680px); gap: 100px; } }
+@media (max-width: 1199px) {
+  #contacto .hc-wrap { width: calc(100% - 80px); gap: 40px; grid-template-columns: minmax(0, 1fr) minmax(0, 560px); }
+  #contacto .hc-card { padding: 28px; }
+  #contacto .hc-copy h2 { font-size: clamp(44px, 5.7vw, 64px); }
+  #contacto .hc-description { font-size: 18px; }
+  #contacto .hc-choice { padding-inline: 10px; gap: 7px; font-size: 13px; }
+}
+@media (max-width: 980px) {
+  #contacto.home-contact-reference { padding: 60px 0; }
+  #contacto .hc-wrap { max-width: 680px; grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  #contacto .hc-copy { max-width: none; }
+  #contacto .hc-steps { max-width: none; }
+  #contacto .hc-signoff { margin-bottom: 26px; }
+  #contacto .hc-copy h2 { font-size: 64px; }
+  #contacto .hc-choice { padding-inline: 14px; gap: 10px; font-size: 14px; }
+}
+@media (max-width: 600px) {
+  #contacto.home-contact-reference { padding: 48px 0; scroll-margin-top: 76px; }
+  #contacto .hc-wrap { width: calc(100% - 36px); gap: 32px; }
+  #contacto .hc-eyebrow { font-size: 11px; margin-bottom: 18px; }
+  #contacto .hc-copy h2 { font-size: clamp(39px, 11vw, 60px); margin-bottom: 18px; }
+  #contacto .hc-description { font-size: 17px; }
+  #contacto .hc-signoff { font-size: 13px; gap: 10px; margin-top: 20px; }
+  #contacto .hc-signoff::before { width: 24px; }
+  #contacto .hc-steps li { min-height: 76px; padding-left: 46px; }
+  #contacto .hc-steps li::before { width: 30px; height: 30px; font-size: 14px; }
+  #contacto .hc-steps strong { font-size: 16px; }
+  #contacto .hc-steps p { font-size: 14px; }
+  #contacto .hc-card { padding: 24px 20px; border-radius: 24px; }
+  #contacto .hc-card h3 { font-size: 25px; }
+  #contacto .hc-help { font-size: 13px; }
+  #contacto .hc-services { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  #contacto .hc-choice { font-size: 13px; padding-inline: 10px; gap: 7px; }
+  #contacto .hc-fields { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  #contacto .hc-business { min-height: 44px; font-size: 13px; padding-inline: 10px; }
+  #contacto .hc-channel { min-height: 44px; font-size: 14px; }
+  #contacto .hc-text-input { font-size: 16px; }
+  #contacto .hc-privacy-row { font-size: 12px; }
+}
+/* Escritorio compacto: canal y contacto comparten una fila; móvil queda intacto. */
+@media (min-width: 1200px) {
+  #contacto.home-contact-reference { padding: 20px 0; }
+  #contacto .hc-wrap { width: min(calc(100% - 80px), 1440px); grid-template-columns: minmax(0, 1fr) minmax(0, 680px); gap: 64px; }
+  #contacto .hc-eyebrow { margin-bottom: 18px; }
+  #contacto .hc-copy h2 { font-size: 64px; margin-bottom: 18px; }
+  #contacto .hc-description { font-size: 18px; }
+  #contacto .hc-signoff { margin: 22px 0 28px; }
+  #contacto .hc-steps li { min-height: 72px; padding: 12px 0 12px 50px; }
+  #contacto .hc-steps li::before { top: 12px; width: 32px; height: 32px; font-size: 15px; }
+  #contacto .hc-steps strong { font-size: 17px; }
+  #contacto .hc-steps p { font-size: 14px; }
+  #contacto .hc-card { padding: 24px; border-radius: 24px; }
+  #contacto .hc-card h3 { font-size: 26px; margin-bottom: 4px; }
+  #contacto .hc-help { margin-bottom: 14px; }
+  #contacto .hc-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 16px; }
+  #contacto .hc-controls > .hc-group, #contacto .hc-fields, #contacto .hc-contact-field { margin-bottom: 0; }
+  #contacto .hc-controls > .hc-group:first-of-type { grid-area: 1 / 1 / 2 / -1; }
+  #contacto .hc-fields { grid-area: 2 / 1 / 3 / -1; }
+  #contacto .hc-controls > .hc-group:nth-of-type(2) { grid-area: 3 / 1 / 4 / -1; }
+  #contacto .hc-controls > .hc-group:nth-of-type(3) { grid-area: 4 / 1 / 5 / 2; }
+  #contacto .hc-controls > [data-hc-channel] { grid-area: 4 / 2 / 5 / 3; }
+  #contacto .hc-submit { grid-area: 5 / 1 / 6 / -1; }
+  #contacto .hc-group legend { margin-bottom: 6px; font-size: 14px; }
+  #contacto .hc-controls > .hc-group:first-of-type legend small { display: inline; margin-left: 8px; }
+  #contacto .hc-services { gap: 8px; }
+  #contacto .hc-choice { min-height: 44px; padding: 8px 12px; gap: 8px; border-radius: 12px; }
+  #contacto .hc-field > span { font-size: 14px; margin-bottom: 6px; }
+  #contacto .hc-optional { font-size: 12px; }
+  #contacto .hc-text-input { height: 44px; padding: 10px 14px; }
+  #contacto .hc-business { min-height: 44px; padding: 8px 12px; }
+  #contacto .hc-channels { padding: 4px; border-radius: 12px; }
+  #contacto .hc-channel { min-height: 44px; font-size: 14px; border-radius: 9px; }
+  #contacto .hc-submit { min-height: 50px; padding: 12px 18px; font-size: 16px; border-radius: 12px; }
+  #contacto .hc-privacy-row { margin-top: 10px; }
+}

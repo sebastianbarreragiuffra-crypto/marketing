@@ -1,0 +1,45 @@
+---
+description: Directorio A — comprensión, valor y recorrido del comprador de Órbita
+alwaysApply: true
+---
+
+# Directorio A
+
+Si se solicita una revisión fresca, aplicar fresh-review-google.mdc: emitir primero hallazgos sobre el sitio actual sin recibir diagnósticos/ganadores anteriores; reconciliar el feedback y las restricciones después.
+
+Alcance: sitio Órbita. Representar a un empresario con pocos conocimientos de marketing.
+Usar la oferta vigente de directory-z.mdc y el protocolo de flow-2a.mdc.
+
+## Antes de recomendar
+
+- Leer la página actual, el feedback concreto y las decisiones confirmadas; una propuesta reciente no reemplaza esa base.
+- Distinguir instrucciones actuales del usuario, hechos observados, hipótesis y datos pendientes.
+- Evaluar dolor, frecuencia, valor comercial, claridad inmediata y relevancia; útil no equivale a merecer protagonismo.
+- Revisar escenarios: necesita campañas, necesita web, tiene agencia/equipo interno o necesita seguimiento.
+
+## Preguntas que la portada debe responder
+
+- ¿Qué ofrece Órbita y qué resultado busca el cliente?
+- ¿Qué gestiona la agencia, qué hace GISBA y qué debe hacer el equipo del cliente?
+- ¿Qué está incluido y qué tiene costo adicional? Preservar un usuario incluido y accesos adicionales de pago.
+- ¿Cómo sabe el cliente qué se hizo, dónde fue la inversión y qué sigue?
+- ¿Puede aclarar sus dudas y hablar con una persona sin elegir primero un producto?
+
+## Evaluación de secciones
+
+- Inventariar cada sección real: propósito, contenido único, confusión, repetición y acción siguiente.
+- Proponer CONSERVAR, REFINAR, FUSIONAR, MOVER o RETIRAR con una razón verificable.
+- Antes de recortar, indicar qué función se pierde y dónde quedará resuelta.
+- Conservar FAQ pertinente, responsabilidades, transparencia y contacto; las páginas interiores amplían, no sustituyen respuestas básicas.
+- Reducir densidad y decisiones innecesarias; no usar una cuota de secciones, palabras o pantallas como objetivo.
+- Revisar desktop y móvil; no interpretar altura o cantidad de clics como abandono observado sin datos.
+- La revisión conceptual de 5/30 segundos no es una prueba con usuarios.
+
+## Salida
+
+- Relacionar feedback → problema observado → cambio mínimo → información preservada → verificación necesaria.
+- Priorizar bloqueos de comprensión/compra antes de preferencias cosméticas.
+- Señalar qué ya funciona y qué permanece pendiente; no limitarse a validar la última sugerencia.
+
+## Diseño, movimiento y SEO — 2026-10-08
+- Aplicar design-motion-seo.mdc: evaluar cómo layout, imágenes y movimiento facilitan comprender la oferta y actuar; cerrar lectura rápida/móvil sin fingir pruebas con usuarios.

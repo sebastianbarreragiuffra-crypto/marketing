@@ -1,0 +1,71 @@
+/* Motion shared by the Home and Marketing pages. The base content stays visible without JS. */
+.ag-wrap { max-width: 1440px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .experience-item {
+    transition: opacity .46s ease, transform .46s cubic-bezier(.2,.75,.2,1);
+  }
+  .experience-item.experience-pending { opacity: .38; transform: translateY(18px); }
+  .experience-item.experience-entered { opacity: 1; transform: none; }
+  .fq details.experience-item {
+    transition: opacity .46s ease, transform .46s cubic-bezier(.2,.75,.2,1), border-color .22s, background .22s, box-shadow .22s;
+  }
+  .ag-card:nth-child(2), .ct-card:nth-child(2), .fq-list details:nth-child(2) { transition-delay: 65ms; }
+  .ag-card:nth-child(3), .ct-card:nth-child(3), .fq-list details:nth-child(3) { transition-delay: 130ms; }
+  .fq-list details:nth-child(4) { transition-delay: 195ms; }
+  .fq-list details:nth-child(5) { transition-delay: 260ms; }
+
+  .marketing-campaign-hero .mh-copy { animation: experience-hero-copy .7s cubic-bezier(.2,.75,.2,1) both; }
+  .marketing-campaign-hero .mh-laptop { animation: experience-laptop-enter .85s .12s both; }
+  .marketing-campaign-hero.experience-in-view .mh-laptop img { animation: experience-laptop-float 7s ease-in-out infinite; }
+  .marketing-campaign-hero.experience-in-view .mh-orbit { animation: experience-orbit-glow 6s ease-in-out infinite; }
+  .marketing-campaign-hero .mh-channels li { animation: experience-channel-in .5s both; }
+  .marketing-campaign-hero .mh-channels li:nth-child(2) { animation-delay: .07s; }
+  .marketing-campaign-hero .mh-channels li:nth-child(3) { animation-delay: .14s; }
+  .marketing-campaign-hero .mh-channels li:nth-child(4) { animation-delay: .21s; }
+  .marketing-campaign-hero .mh-channels li:nth-child(5) { animation-delay: .28s; }
+
+  .marketing-services-showcase.is-ms-switching .ms-metrics > div,
+  .marketing-services-showcase.is-ms-switching .ms-creative,
+  .marketing-services-showcase.is-ms-switching .ms-search-ad,
+  .marketing-services-showcase.is-ms-switching .ms-site-desktop,
+  .marketing-services-showcase.is-ms-switching .ms-site-mobile {
+    animation: experience-card-in .44s cubic-bezier(.2,.75,.2,1) both;
+  }
+  .marketing-services-showcase.is-ms-switching .ms-metrics > div:nth-child(2),
+  .marketing-services-showcase.is-ms-switching .ms-creative:nth-child(2),
+  .marketing-services-showcase.is-ms-switching .ms-search-ad:nth-child(2),
+  .marketing-services-showcase.is-ms-switching .ms-site-mobile { animation-delay: .06s; }
+  .marketing-services-showcase.is-ms-switching .ms-metrics > div:nth-child(3),
+  .marketing-services-showcase.is-ms-switching .ms-creative:nth-child(3),
+  .marketing-services-showcase.is-ms-switching .ms-search-ad:nth-child(3) { animation-delay: .12s; }
+  .marketing-services-showcase.is-ms-switching .ms-metrics > div:nth-child(4) { animation-delay: .18s; }
+  .marketing-services-showcase.is-ms-switching .ms-chart-line {
+    stroke-dasharray: 540;
+    animation: experience-chart-draw .8s ease-out both;
+  }
+  .marketing-services-showcase.is-ms-switching .ms-chart-purple { animation-delay: .1s; }
+  .marketing-services-showcase .ms-plan { transition: background .2s, border-color .2s, transform .2s, box-shadow .2s; }
+  .marketing-services-showcase .ms-plan:hover { transform: translateY(-2px); box-shadow: 0 8px 18px #194c8120; }
+  .marketing-compact .contact-choice { transition: border-color .2s, background .2s, color .2s, transform .2s; }
+  .marketing-compact .contact-choice:hover { transform: translateY(-2px); }
+  .ct-card.experience-item, .ag-card.experience-item { transition: opacity .46s ease, transform .46s cubic-bezier(.2,.75,.2,1), box-shadow .25s ease; }
+  .ct-card:hover, .ag-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px #0002; }
+  .fq details[open]::before { animation: experience-faq-line .28s ease-out both; }
+
+  @keyframes experience-hero-copy { from { opacity: .45; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  @keyframes experience-laptop-enter { from { opacity: .4; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
+  @keyframes experience-laptop-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  @keyframes experience-orbit-glow { 0%,100% { opacity: .7; filter: brightness(.86); } 50% { opacity: 1; filter: brightness(1.18); } }
+  @keyframes experience-channel-in { from { opacity: .25; transform: translateY(9px); } to { opacity: 1; transform: none; } }
+  @keyframes experience-card-in { from { opacity: .35; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes experience-chart-draw { from { stroke-dashoffset: 540; } to { stroke-dashoffset: 0; } }
+  @keyframes experience-faq-line { from { transform: scaleY(0); transform-origin: top; } to { transform: scaleY(1); transform-origin: top; } }
+}
+
+@media (max-width: 700px) and (prefers-reduced-motion: no-preference) {
+  .experience-item { transition-duration: .36s; }
+  .ag-card, .ct-card, .fq-list details { transition-delay: 0ms !important; }
+  .marketing-campaign-hero.experience-in-view .mh-laptop img { animation-duration: 8s; }
+  .ct-card:hover, .ag-card:hover { transform: none; }
+}

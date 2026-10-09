@@ -1,0 +1,75 @@
+{
+  "bars": [
+    {
+      "bottom": 762.890625,
+      "contrast": 3.4377148161521234,
+      "height": 123.1875,
+      "value": 5600
+    },
+    {
+      "bottom": 762.890625,
+      "contrast": 3.4377148161521234,
+      "height": 116.59375,
+      "value": 5300
+    },
+    {
+      "bottom": 762.890625,
+      "contrast": 3.4377148161521234,
+      "height": 110,
+      "value": 5000
+    },
+    {
+      "bottom": 762.890625,
+      "contrast": 19.187229428003835,
+      "height": 106.03125,
+      "value": 4820
+    }
+  ],
+  "fonts": "loaded",
+  "kpis": [
+    {
+      "bottom": 535.890625,
+      "overflow": 0,
+      "top": 338.21875,
+      "width": 231.046875
+    },
+    {
+      "bottom": 535.890625,
+      "overflow": 0,
+      "top": 338.21875,
+      "width": 231.0625
+    },
+    {
+      "bottom": 535.890625,
+      "overflow": 0,
+      "top": 338.21875,
+      "width": 231.0625
+    },
+    {
+      "bottom": 535.890625,
+      "overflow": 0,
+      "top": 338.21875,
+      "width": 288.828125
+    }
+  ],
+  "logoCount": 0,
+  "next": [
+    {
+      "left": 1119.015625,
+      "text": "Probar otro anuncio."
+    },
+    {
+      "left": 1119.015625,
+      "text": "Responder las consultas recibidas."
+    }
+  ],
+  "overflow": 0,
+  "sectionHeight": 930.890625,
+  "sidebarWidth": 200,
+  "textContrastFailures": [],
+  "textContrastMin": 5.708860973781475,
+  "viewport": [
+    1440,
+    960
+  ]
+}

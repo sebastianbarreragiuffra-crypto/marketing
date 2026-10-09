@@ -1,0 +1,45 @@
+{
+  "clipped": [],
+  "costs": {
+    "bottom": 2749.96875,
+    "height": 630.609375,
+    "width": 343,
+    "x": 16,
+    "y": 2119.359375
+  },
+  "fonts": "loaded",
+  "heading": {
+    "bottom": 2095.359375,
+    "height": 94.578125,
+    "width": 343,
+    "x": 16,
+    "y": 2000.78125
+  },
+  "notes": {
+    "bottom": 3192.84375,
+    "height": 92.5,
+    "width": 343,
+    "x": 16,
+    "y": 3100.34375
+  },
+  "overflow": 0,
+  "section": {
+    "bottom": 3222.84375,
+    "height": 1252.0625,
+    "width": 375,
+    "x": 0,
+    "y": 1970.78125
+  },
+  "sectionOverflow": 0,
+  "service": {
+    "bottom": 3076.34375,
+    "height": 302.375,
+    "width": 343,
+    "x": 16,
+    "y": 2773.96875
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

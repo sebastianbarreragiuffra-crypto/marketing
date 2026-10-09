@@ -1,0 +1,263 @@
+[
+  {
+    "clientWidth": 1425,
+    "fonts": "loaded",
+    "footerTop": 443.859375,
+    "heading": "Descubramos quénecesita tu negocio.",
+    "hiddenAutomation": "none",
+    "lastSection": "asesoria",
+    "link": "http://127.0.0.1:8772/hablemos.html#contacto",
+    "scrollWidth": 1425,
+    "section": {
+      "bottom": 443.859375,
+      "height": 342.1875,
+      "left": 0,
+      "right": 1425,
+      "top": 101.671875,
+      "width": 1425,
+      "x": 0,
+      "y": 101.671875
+    },
+    "shell": {
+      "bottom": 331.859375,
+      "height": 118.1875,
+      "left": 40,
+      "right": 1385,
+      "top": 213.671875,
+      "width": 1345,
+      "x": 40,
+      "y": 213.671875
+    },
+    "texts": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "54.72px",
+        "overflow": false,
+        "rect": {
+          "bottom": 331.859375,
+          "height": 118.1875,
+          "left": 40,
+          "right": 1000.515625,
+          "top": 213.671875,
+          "width": 960.515625,
+          "x": 40,
+          "y": 213.671875
+        },
+        "tag": "H2"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "54.72px",
+        "overflow": false,
+        "rect": {
+          "bottom": 338.765625,
+          "height": 74,
+          "left": 262.984375,
+          "right": 539.9375,
+          "top": 264.765625,
+          "width": 276.953125,
+          "x": 262.984375,
+          "y": 264.765625
+        },
+        "tag": "SPAN"
+      },
+      {
+        "background": "rgb(199, 244, 91)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "22px",
+        "overflow": false,
+        "rect": {
+          "bottom": 304.765625,
+          "height": 64,
+          "left": 1048.515625,
+          "right": 1385,
+          "top": 240.765625,
+          "width": 336.484375,
+          "x": 1048.515625,
+          "y": 240.765625
+        },
+        "tag": "A"
+      }
+    ],
+    "viewport": [
+      1440,
+      810
+    ]
+  },
+  {
+    "clientWidth": 1905,
+    "fonts": "loaded",
+    "footerTop": 738.78125,
+    "heading": "Descubramos quénecesita tu negocio.",
+    "hiddenAutomation": "none",
+    "lastSection": "asesoria",
+    "link": "http://127.0.0.1:8772/hablemos.html#contacto",
+    "scrollWidth": 1905,
+    "section": {
+      "bottom": 738.78125,
+      "height": 349.25,
+      "left": 0,
+      "right": 1905,
+      "top": 389.53125,
+      "width": 1905,
+      "x": 0,
+      "y": 389.53125
+    },
+    "shell": {
+      "bottom": 626.78125,
+      "height": 125.25,
+      "left": 262.5,
+      "right": 1642.5,
+      "top": 501.53125,
+      "width": 1380,
+      "x": 262.5,
+      "y": 501.53125
+    },
+    "texts": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "58px",
+        "overflow": false,
+        "rect": {
+          "bottom": 626.78125,
+          "height": 125.25,
+          "left": 262.5,
+          "right": 1258.015625,
+          "top": 501.53125,
+          "width": 995.515625,
+          "x": 262.5,
+          "y": 501.53125
+        },
+        "tag": "H2"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "58px",
+        "overflow": false,
+        "rect": {
+          "bottom": 634.15625,
+          "height": 79,
+          "left": 498.859375,
+          "right": 792.40625,
+          "top": 555.15625,
+          "width": 293.546875,
+          "x": 498.859375,
+          "y": 555.15625
+        },
+        "tag": "SPAN"
+      },
+      {
+        "background": "rgb(199, 244, 91)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "22px",
+        "overflow": false,
+        "rect": {
+          "bottom": 596.15625,
+          "height": 64,
+          "left": 1306.015625,
+          "right": 1642.5,
+          "top": 532.15625,
+          "width": 336.484375,
+          "x": 1306.015625,
+          "y": 532.15625
+        },
+        "tag": "A"
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "clientWidth": 375,
+    "fonts": "loaded",
+    "footerTop": 370.84375,
+    "heading": "Descubramos quénecesita tu negocio.",
+    "hiddenAutomation": "none",
+    "lastSection": "asesoria",
+    "link": "http://127.0.0.1:8772/hablemos.html#contacto",
+    "scrollWidth": 375,
+    "section": {
+      "bottom": 370.84375,
+      "height": 274.84375,
+      "left": 0,
+      "right": 375,
+      "top": 96,
+      "width": 375,
+      "x": 0,
+      "y": 96
+    },
+    "shell": {
+      "bottom": 314.84375,
+      "height": 162.84375,
+      "left": 18,
+      "right": 357,
+      "top": 152,
+      "width": 339,
+      "x": 18,
+      "y": 152
+    },
+    "texts": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "34.32px",
+        "overflow": false,
+        "rect": {
+          "bottom": 228.84375,
+          "height": 76.84375,
+          "left": 18,
+          "right": 357,
+          "top": 152,
+          "width": 339,
+          "x": 18,
+          "y": 152
+        },
+        "tag": "H2"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(72, 98, 46)",
+        "fontSize": "34.32px",
+        "overflow": false,
+        "rect": {
+          "bottom": 232.421875,
+          "height": 47,
+          "left": 157.859375,
+          "right": 331.5625,
+          "top": 185.421875,
+          "width": 173.703125,
+          "x": 157.859375,
+          "y": 185.421875
+        },
+        "tag": "SPAN"
+      },
+      {
+        "background": "rgb(199, 244, 91)",
+        "color": "rgb(11, 13, 11)",
+        "fontSize": "18px",
+        "overflow": false,
+        "rect": {
+          "bottom": 314.84375,
+          "height": 58,
+          "left": 18,
+          "right": 357,
+          "top": 256.84375,
+          "width": 339,
+          "x": 18,
+          "y": 256.84375
+        },
+        "tag": "A"
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  }
+]

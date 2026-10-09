@@ -1,0 +1,48 @@
+{
+  "clipped": [],
+  "costs": {
+    "bottom": 747.625,
+    "height": 471.515625,
+    "width": 632.828125,
+    "x": 712.15625,
+    "y": 276.109375
+  },
+  "fonts": "loaded",
+  "h1Count": 1,
+  "heading": {
+    "bottom": 295.53125,
+    "height": 87.421875,
+    "width": 584.15625,
+    "x": 80,
+    "y": 208.109375
+  },
+  "notes": {
+    "bottom": 851.625,
+    "height": 72,
+    "width": 1265,
+    "x": 80,
+    "y": 779.625
+  },
+  "oldBlockCount": 0,
+  "pageOverflow": 0,
+  "section": {
+    "bottom": 891.625,
+    "height": 735.515625,
+    "width": 1425,
+    "x": 0,
+    "y": 156.109375
+  },
+  "sectionCount": 1,
+  "sectionOverflow": 0,
+  "service": {
+    "bottom": 684.46875,
+    "height": 287.78125,
+    "width": 584.15625,
+    "x": 80,
+    "y": 396.6875
+  },
+  "viewport": {
+    "height": 960,
+    "width": 1440
+  }
+}

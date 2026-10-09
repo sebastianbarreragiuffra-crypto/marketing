@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "fonts": "loaded",
+      "overflow": false,
+      "photo": {
+        "bottom": 611.5625,
+        "height": 340,
+        "left": 879.109375,
+        "right": 1051.5,
+        "top": 271.5625,
+        "width": 172.390625,
+        "x": 879.109375,
+        "y": 271.5625
+      },
+      "width": 1440,
+      "wrap": {
+        "bottom": 886.4375,
+        "height": 734.671875,
+        "left": 80,
+        "right": 1345,
+        "top": 151.765625,
+        "width": 1265,
+        "x": 80,
+        "y": 151.765625
+      }
+    },
+    {
+      "fonts": "loaded",
+      "overflow": false,
+      "photo": {
+        "bottom": 2071.84375,
+        "height": 340,
+        "left": 184.203125,
+        "right": 352,
+        "top": 1731.84375,
+        "width": 167.796875,
+        "x": 184.203125,
+        "y": 1731.84375
+      },
+      "section": {
+        "bottom": 2721.34375,
+        "height": 1775.390625,
+        "left": 0,
+        "right": 375,
+        "top": 945.953125,
+        "width": 375,
+        "x": 0,
+        "y": 945.953125
+      },
+      "width": 390
+    },
+    {
+      "fonts": "loaded",
+      "overflow": false,
+      "photoLoaded": true,
+      "width": 1920,
+      "wrapWidth": 1440
+    },
+    {
+      "animation": "none",
+      "ctaHeight": 56,
+      "fonts": "loaded",
+      "overflow": false,
+      "photoLoaded": true,
+      "sectionHeight": 1812.15625,
+      "sectionOverflow": [],
+      "width": 320
+    },
+    {
+      "animation": "none",
+      "ctaHeight": 56,
+      "fonts": "loaded",
+      "overflow": false,
+      "photoLoaded": true,
+      "sectionHeight": 1790.46875,
+      "sectionOverflow": [],
+      "width": 360
+    },
+    {
+      "animation": "none",
+      "ctaHeight": 56,
+      "fonts": "loaded",
+      "overflow": false,
+      "photoLoaded": true,
+      "sectionHeight": 1472.34375,
+      "sectionOverflow": [],
+      "width": 760
+    }
+  ],
+  "keyboard": {
+    "ctaFocus": "3px solid; offset 5px",
+    "contact": "marketing.html#contacto; vista previa",
+    "gisba": "software.html; foco 3px",
+    "heroArrowKeys": true,
+    "faqEnterToggle": true
+  },
+  "photo": {
+    "format": "WebP",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 137766
+  },
+  "console": []
+}

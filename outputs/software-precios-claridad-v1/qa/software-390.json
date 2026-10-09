@@ -1,0 +1,29 @@
+{
+  "h1": 1,
+  "images": [],
+  "pageHeight": 6113,
+  "pageOverflow": false,
+  "sections": [
+    {
+      "h": 1652.625,
+      "id": "",
+      "y": 77
+    },
+    {
+      "h": 1214.640625,
+      "id": "flujo-consultas",
+      "y": 1729.625
+    },
+    {
+      "h": 1956.21875,
+      "id": "reportes",
+      "y": 2944.265625
+    },
+    {
+      "h": 363.96875,
+      "id": "siguiente-paso",
+      "y": 4900.484375
+    }
+  ],
+  "viewport": 390
+}

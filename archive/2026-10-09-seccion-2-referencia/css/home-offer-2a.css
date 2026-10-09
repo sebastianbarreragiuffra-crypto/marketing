@@ -1,0 +1,95 @@
+/* Clarify the existing offer: managed marketing, included GISBA, Web project. */
+.ha-campaign-note{display:block;margin-bottom:4px;color:#e3e9db;font-size:12px;font-weight:500}
+.sol-offer-2a .sol-marketing{grid-column:1/-1;border-color:#6f9342;background:linear-gradient(135deg,#152a12,#0a170d 75%)}
+.sol-offer-2a .sol-marketing .sol-card-body{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;margin-top:18px}
+.sol-offer-2a .sol-marketing .sol-copy{max-width:590px}
+.sol-role{margin:0 0 18px;color:#bce878;font-size:11px;font-weight:700;line-height:1.5;letter-spacing:.12em}
+.sol-offer-2a .sol-marketing .sol-visual{width:min(100%,600px);min-height:440px;justify-self:center;margin-top:0}
+.sol-offer-2a .sol-inclusion{padding:13px 16px;border-left:2px solid #bce878;border-radius:0 8px 8px 0;background:#bce8780d;font-size:14px;line-height:1.6}
+.sol-inclusion strong{display:block;color:#f4f7f1;font-weight:700}
+.sol-offer-2a .sol-text-link{display:inline-flex;align-items:center;gap:12px;min-height:44px;color:#c7f45b;font:600 14px/1.5 "DM Sans",Arial,sans-serif;text-decoration:underline;text-underline-offset:5px}
+.sol-offer-2a .sol-text-link:hover{color:#fff}
+.sol-offer-2a .sol-text-link:focus-visible{outline:2px solid #c7f45b;outline-offset:4px;border-radius:3px}
+.sol-offer-2a .sol-marketing .sol-text-link{margin-left:22px}
+.sol-offer-2a .sol-software .sol-card-head h3,.sol-offer-2a .sol-web .sol-card-head h3{font-size:clamp(23px,2.1vw,30px)}
+.sol-offer-2a .sol-software .sol-card-body{grid-template-columns:minmax(0,1fr);gap:16px;margin-top:20px}
+.sol-offer-2a .sol-software .sol-copy p{font-size:16px;margin-bottom:10px}
+.sol-demo-note{margin:12px 0 0;color:#b2c0ad;font-size:11px;line-height:1.5;text-align:right}
+.sol-independent{margin:18px 0 0;padding-top:16px;border-top:1px solid #2c4a2b;color:#c3cbc0;font-size:13px;line-height:1.7}
+.sol-independent a{color:#d7f5a8;text-decoration:underline;text-underline-offset:3px}
+.sol-offer-2a .sol-web{display:flex;flex-direction:column;align-items:flex-start}
+.sol-offer-2a .sol-web .sol-role{color:#c3cbc0}
+.sol-web-copy{margin:24px 0 0;max-width:490px;color:#d4dbd0;font-size:18px;line-height:1.6}
+.sol-project-note{margin:18px 0 28px;color:#b2c0ad;font-size:14px;line-height:1.6}
+.sol-offer-2a .sol-web .sol-text-link{margin-top:auto}
+.sol-custom{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:22px;padding:24px 0 0;border-top:1px solid #2c4a2b}
+.sol-custom h3{margin:0 0 6px;font:600 19px/1.4 Manrope,Arial,sans-serif;letter-spacing:-.03em}
+.sol-custom p{margin:0;max-width:800px;color:#b2c0ad;font-size:14px;line-height:1.6}
+.sol-custom .sol-text-link{flex:none}
+.ct-reservation-note{font-size:12px;color:#b2c0ad;line-height:1.5}
+@media(max-width:1180px){
+  .sol-offer-2a .sol-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .sol-offer-2a .sol-card{padding:28px}
+  .sol-offer-2a .sol-software .sol-card-body{grid-template-columns:1fr}
+  .sol-offer-2a .sol-marketing .sol-text-link{display:flex;width:fit-content;margin:12px 0 0}
+  .sol-demo-note{text-align:center}
+}
+@media(max-width:700px){
+  .ha-campaign-note{font-size:11px;max-width:290px;margin:0 auto 5px}
+  .sol-offer-2a .sol-grid{grid-template-columns:1fr}
+  .sol-offer-2a .sol-card{padding:22px 18px}
+  .sol-offer-2a .sol-marketing .sol-card-body{grid-template-columns:1fr;gap:18px}
+  .sol-offer-2a .sol-marketing .sol-visual{order:0;min-height:360px;margin-top:10px}
+  .sol-offer-2a .sol-marketing .sol-copy p{font-size:16px}
+  .sol-offer-2a .sol-marketing .sol-inclusion{font-size:13px}
+  .sol-role{font-size:10px;margin-bottom:14px}
+  .sol-offer-2a .sol-software .sol-card-body{gap:12px}
+  .sol-offer-2a .sol-card-head h3{font-size:23px}
+  .sol-web-copy{font-size:16px;margin-top:20px}
+  .sol-project-note{margin-bottom:12px;font-size:13px}
+  .sol-custom{align-items:flex-start;flex-direction:column;gap:12px;margin-top:20px;padding-top:20px}
+  .sol-custom p{font-size:13px}
+}
+
+/* Frontal task, scoped to the existing home component. No desktop scaling. */
+.sol-offer-2a .sol-task-demo{width:100%;min-width:0;min-height:0;margin:0}
+.sol-offer-2a .sol-task-card{width:100%;padding:18px;border:1px solid #ccd4c6;border-radius:14px;background:#fafbf7;color:#152116;box-shadow:0 10px 24px #0002;font:400 14px/1.5 "DM Sans",Arial,sans-serif}
+.sol-task-client{display:flex;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid #d5ddcf}
+.sol-task-client>span{display:grid;place-items:center;flex:none;width:40px;height:40px;border-radius:10px;background:#e7efda;color:#253617;font-weight:700}
+.sol-task-client strong{display:block;font-size:16px;font-weight:700}
+.sol-task-client small{display:block;color:#4e5e46;font-size:14px}
+.sol-task-query{margin:12px 0 14px;padding:10px 12px;border-radius:9px;background:#eef2e8;font-size:14px;line-height:1.5}
+.sol-task-query small{display:block;margin-top:6px;color:#4e5e46;font-size:14px}
+.sol-task-steps{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.sol-task-steps li{display:flex;align-items:flex-start;gap:10px;padding:11px 12px;border:1px solid #d3dccb;border-radius:9px;background:#fff;transition:border-color .18s,box-shadow .18s,background .18s}
+.sol-task-number{display:grid;place-items:center;width:24px;height:24px;flex:none;border-radius:50%;background:#e9efdf;color:#30431e;font-size:14px;font-weight:700}
+.sol-task-steps strong,.sol-task-steps div>span{display:block;font-size:14px;line-height:1.5}
+.sol-task-steps strong{font-size:16px;font-weight:700}
+.sol-task-steps div>span{color:#4e5e46}
+.sol-task-steps .sol-task-state{background:#fff7e7;border-color:#e4c890}
+.sol-task-steps .sol-task-next{background:#edf5e4;border-color:#a7c58a}
+.sol-task-demo[data-step="quote"] .sol-task-quote,
+.sol-task-demo[data-step="state"] .sol-task-state,
+.sol-task-demo[data-step="next"] .sol-task-next,
+.sol-task-demo[data-step="complete"] .sol-task-next{border-color:#53762d;box-shadow:0 0 0 2px #a1cb654d}
+.sol-demo-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;font-size:14px;color:#4e5e46}
+.sol-demo-run{display:inline-flex;align-items:center;justify-content:center;gap:12px;flex:none;min-height:44px;padding:8px 14px;border:1px solid #668f35;border-radius:8px;background:#e8f3d5;color:#192b0f;font:700 14px/1.5 "DM Sans",Arial,sans-serif;cursor:pointer;transition:background .16s,box-shadow .16s}
+.sol-demo-run:hover,.sol-demo-run:focus-visible{background:#d6efab;box-shadow:0 0 0 3px #91b95040}
+.sol-demo-run:focus-visible{outline:2px solid #243b13;outline-offset:3px}
+.sol-demo-run:disabled{cursor:default;background:#eef2e6;color:#4e5e46}
+.sol-demo-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.sol-offer-2a .sol-software .sol-demo-note{font-size:14px;text-align:left}
+.sol-offer-2a .sol-marketing .sol-ad-main{width:min(380px,64%);margin-left:0;transform:translateX(-50%)}
+.sol-offer-2a .sol-marketing .sol-ad-photo{height:auto;aspect-ratio:1}
+.sol-offer-2a .sol-marketing .sol-ad-left,.sol-offer-2a .sol-marketing .sol-ad-right{width:34%;height:330px}
+.sol-offer-2a .sol-ad-photo strong{max-width:250px;font-size:22px}
+@media(max-width:700px){
+  .sol-offer-2a .sol-marketing .sol-ad-main{left:0;width:min(260px,100%);transform:none}
+  .sol-offer-2a .sol-ad-photo strong{font-size:19px}
+  .sol-offer-2a .sol-task-card{padding:14px}
+  .sol-task-client{align-items:flex-start;gap:9px}
+  .sol-task-client>span{width:32px;height:32px}
+  .sol-task-client strong,.sol-task-steps strong{font-size:15px}
+  .sol-task-steps li{padding:10px;gap:8px}
+  .sol-demo-controls{flex-wrap:wrap;gap:8px}
+}

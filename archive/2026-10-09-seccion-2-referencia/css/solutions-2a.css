@@ -1,0 +1,11 @@
+/* 2A: a service decision aid, with no decorative image. */
+.offer-row{grid-template-columns:50px minmax(0,1fr) 200px 32px;gap:22px}
+.offer-row>div{max-width:730px}
+.offer-row p{max-width:650px}
+.offer-type{font-size:10px;line-height:1.35;white-space:normal}
+.offer-row:focus-visible{outline:3px solid #638738;outline-offset:-4px;background:#e8ebda}
+.offer-combination{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 8px;padding:18px 12px 0;margin:0;color:#566451;font-size:13px;line-height:1.6}
+.offer-combination span{font-size:10px;font-weight:800;letter-spacing:.12em;color:#4e7131;margin-right:7px}
+.offer-combination strong{color:#243024}
+@media(max-width:1000px){.offer-row{grid-template-columns:30px minmax(0,1fr) 165px 24px;gap:15px}}
+@media(max-width:760px){.offer-row{grid-template-columns:24px minmax(0,1fr) 24px;gap:12px}.offer-type{grid-column:2;grid-row:2;max-width:100%;justify-self:start}.offer-combination{padding:18px 0 0}}

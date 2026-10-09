@@ -1,0 +1,124 @@
+/* Vistas ficticias: estilos restringidos a la nueva sección de Precios. */
+#pw-desarrollo-web .wv-preview { position:relative; width:100%; height:240px; overflow:visible; isolation:isolate; font-family:"DM Sans",sans-serif; font-size:7px; line-height:1.3; text-align:left; }
+#pw-desarrollo-web .wv-preview *, #pw-desarrollo-web .wv-preview *::before, #pw-desarrollo-web .wv-preview *::after { box-sizing:border-box; }
+#pw-desarrollo-web .wv-preview button { border:0; font:inherit; opacity:1; cursor:default; padding:0; color:inherit; white-space:nowrap; }
+#pw-desarrollo-web .wv-preview button:disabled { opacity:1; cursor:default; }
+#pw-desarrollo-web .wv-preview p, #pw-desarrollo-web .wv-preview h4 { margin:0; }
+#pw-desarrollo-web .wv-example { position:absolute; top:3px; right:2px; z-index:5; color:#fff; background:#444943; border-radius:12px; padding:3px 8px; font-size:9px; line-height:1.2; white-space:nowrap; }
+#pw-desarrollo-web .wv-clinic .wv-example { color:#171d17; background:#f6f3eb; }
+#pw-desarrollo-web .wv-browser { position:absolute; left:0; right:26px; top:10px; height:200px; border:1px solid #dedfd9; border-radius:9px; overflow:hidden; background:#fff; color:#18232a; box-shadow:0 7px 13px #0b0d0b24; }
+#pw-desarrollo-web .wv-browser-bar { height:18px; background:#f0eee8; color:#68716b; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:0 7px; }
+#pw-desarrollo-web .wv-traffic { display:flex; gap:3px; }
+#pw-desarrollo-web .wv-traffic i { width:5px; height:5px; border-radius:50%; background:#ff675b; }
+#pw-desarrollo-web .wv-traffic i:nth-child(2) { background:#efc347; }
+#pw-desarrollo-web .wv-traffic i:nth-child(3) { background:#78b957; }
+#pw-desarrollo-web .wv-address { width:48%; background:#fff; border-radius:8px; color:#667067; text-align:center; font-size:5px; padding:2px 4px; }
+#pw-desarrollo-web .wv-browser-menu { font-size:9px; }
+#pw-desarrollo-web .wv-site-nav { height:28px; display:flex; align-items:center; gap:10px; padding:0 9px; font-size:5px; }
+#pw-desarrollo-web .wv-site-nav b { display:flex; align-items:center; gap:4px; font-size:6.2px; white-space:nowrap; }
+#pw-desarrollo-web .wv-site-nav > span:not(.wv-cart) { margin-left:auto; white-space:nowrap; }
+#pw-desarrollo-web .wv-site-nav > button { padding:3px 7px; border-radius:4px; font-size:5px; font-weight:700; }
+#pw-desarrollo-web .wv-phone { width:77px; height:143px; position:absolute; z-index:3; bottom:9px; right:1px; border:3px solid #111510; border-radius:13px; padding:4px 3px 3px; background:#fffdf6; color:#10160e; box-shadow:0 4px 9px #0b0d0b35; overflow:hidden; }
+#pw-desarrollo-web .wv-phone::before { content:""; position:absolute; width:25px; height:3px; top:0; left:23px; border-radius:0 0 4px 4px; background:#111510; }
+#pw-desarrollo-web .wv-phone-head { height:17px; display:flex; align-items:center; justify-content:space-between; gap:3px; padding:0 1px; font-size:4.5px; }
+#pw-desarrollo-web .wv-phone-head b { line-height:1.1; font-weight:700; }
+#pw-desarrollo-web .wv-phone-head span { font-size:7px; }
+#pw-desarrollo-web .wv-clinic .wv-browser { border-color:#202b1e; background:#10180f; }
+#pw-desarrollo-web .wv-clinic .wv-browser-bar { background:#283021; }
+#pw-desarrollo-web .wv-clinic .wv-address { background:#3c4434; color:#d1d8c6; }
+#pw-desarrollo-web .wv-clinic-screen { color:#f7f7ed; position:relative; }
+#pw-desarrollo-web .wv-clinic .wv-site-nav { background:#11190e; }
+#pw-desarrollo-web .wv-clinic .wv-site-nav > span { color:#bfcab5; font-size:4.5px; }
+#pw-desarrollo-web .wv-brand-dot { width:6px; height:6px; border-radius:50%; background:#d0f663; }
+#pw-desarrollo-web .wv-clinic .wv-site-nav > button { background:#d0f663; color:#172010; border-radius:10px; }
+#pw-desarrollo-web .wv-clinic-grid { display:grid; grid-template-columns:1.1fr 1fr; height:154px; }
+#pw-desarrollo-web .wv-clinic-copy { padding:12px 8px 7px 10px; }
+#pw-desarrollo-web .wv-micro-label { color:#c7f45b; font-size:5px; display:block; margin-bottom:5px; }
+#pw-desarrollo-web .wv-clinic-copy h4 { font-family:"Manrope",sans-serif; color:#f7f7ed; font-size:14px; font-weight:800; line-height:1.15; letter-spacing:-.35px; }
+#pw-desarrollo-web .wv-clinic-copy p { color:#bfc8b7; font-size:5.5px; margin-top:6px; }
+#pw-desarrollo-web .wv-mini-actions { display:flex; align-items:center; gap:5px; margin-top:7px; }
+#pw-desarrollo-web .wv-mini-actions > button { padding:4px 8px; border-radius:12px; background:#c7f45b; color:#11190e; font-size:5px; font-weight:700; }
+#pw-desarrollo-web .wv-mini-actions > span { border:1px solid #68715f; border-radius:10px; padding:3px 5px; font-size:4.5px; }
+#pw-desarrollo-web .wv-treatment-row { display:flex; gap:4px; margin-top:11px; }
+#pw-desarrollo-web .wv-treatment-row > span { flex:1; background:#242c20; border-radius:4px; padding:4px; font-size:4px; color:#b8c2ad; }
+#pw-desarrollo-web .wv-treatment-row b { display:block; color:#ecf0e3; font-size:4.5px; }
+#pw-desarrollo-web .wv-clinic-art { overflow:hidden; }
+#pw-desarrollo-web .wv-dentist { width:100%; height:100%; display:block; object-fit:cover; }
+#pw-desarrollo-web .wv-whatsapp { position:absolute; right:10px; bottom:10px; display:flex; gap:3px; align-items:center; background:#fff !important; color:#0d773e !important; border-radius:5px; padding:3px 5px !important; }
+#pw-desarrollo-web .wv-whatsapp svg { width:11px; height:11px; }
+#pw-desarrollo-web .wv-whatsapp span { color:#526048; font-size:4px; }
+#pw-desarrollo-web .wv-whatsapp b { display:block; color:#1c2617; font-size:4.5px; }
+#pw-desarrollo-web .wv-clinic .wv-phone { background:#11190e; }
+#pw-desarrollo-web .wv-clinic .wv-phone-head { color:#172010; background:#fffdf6; }
+#pw-desarrollo-web .wv-phone-portrait { height:53px; overflow:hidden; }
+#pw-desarrollo-web .wv-phone-portrait .wv-dentist { height:76px; margin-top:-4px; }
+#pw-desarrollo-web .wv-phone-clinic-copy { padding:5px 3px; color:#fafbf1; }
+#pw-desarrollo-web .wv-phone-clinic-copy > b { display:block; font-family:"Manrope",sans-serif; font-size:7px; line-height:1.1; }
+#pw-desarrollo-web .wv-phone-clinic-copy > button { margin-top:5px; width:100%; padding:3px 2px; background:#c7f45b; color:#132010; font-size:4px; border-radius:8px; font-weight:700; }
+#pw-desarrollo-web .wv-phone-chat { width:12px; height:12px; position:absolute; bottom:4px; right:4px; border-radius:50%; background:#1aaa57 !important; color:#fff !important; display:grid; place-items:center; }
+#pw-desarrollo-web .wv-phone-chat svg { width:9px; height:9px; }
+#pw-desarrollo-web .wv-construction .wv-site-nav { color:#223746; background:#fff; }
+#pw-desarrollo-web .wv-andes-mark { background:#223746; color:#f7f5e9; font-size:8px; width:9px; height:9px; display:grid; place-items:center; border-radius:2px; }
+#pw-desarrollo-web .wv-construction .wv-site-nav > span { font-size:4px; }
+#pw-desarrollo-web .wv-construction .wv-site-nav > button { background:#223746; color:#fff; }
+#pw-desarrollo-web .wv-city-hero { height:103px; position:relative; overflow:hidden; }
+#pw-desarrollo-web .wv-city { width:100%; height:100%; display:block; object-fit:cover; }
+#pw-desarrollo-web .wv-city-hero::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#22374696,transparent 75%); }
+#pw-desarrollo-web .wv-city-copy { position:absolute; z-index:1; top:22px; left:12px; color:#fff; }
+#pw-desarrollo-web .wv-city-copy > span { display:block; font-size:4.3px; letter-spacing:.3px; }
+#pw-desarrollo-web .wv-city-copy h4 { font-family:"Manrope",sans-serif; color:#fff; font-size:12px; line-height:1.2; font-weight:800; margin-top:3px; }
+#pw-desarrollo-web .wv-city-copy > button { background:#f2bd53; color:#223746; padding:4px 8px; font-size:4.6px; margin-top:6px; border-radius:3px; font-weight:700; }
+#pw-desarrollo-web .wv-services { padding:6px 10px; color:#223746; }
+#pw-desarrollo-web .wv-services > b { font-size:6px; display:block; margin-bottom:4px; }
+#pw-desarrollo-web .wv-services > div { display:grid; grid-template-columns:repeat(3,1fr); gap:5px; }
+#pw-desarrollo-web .wv-services > div > span { position:relative; min-height:25px; padding:5px 3px 4px 22px; border-radius:4px; background:#f2f1ec; }
+#pw-desarrollo-web .wv-services i { position:absolute; left:4px; top:5px; width:14px; height:14px; background:#223746; color:#f2bd53; border-radius:3px; font-style:normal; font-size:12px; display:grid; place-items:center; }
+#pw-desarrollo-web .wv-services strong { display:block; font-size:4.5px; line-height:1.2; white-space:nowrap; }
+#pw-desarrollo-web .wv-services small { display:block; font-size:4px; color:#71818c; }
+#pw-desarrollo-web .wv-construction .wv-phone-head { color:#223746; }
+#pw-desarrollo-web .wv-phone-city { height:61px; overflow:hidden; }
+#pw-desarrollo-web .wv-phone-city .wv-city { width:145px; max-width:none; margin-left:-37px; }
+#pw-desarrollo-web .wv-phone-construction-copy { padding:5px 3px; color:#223746; }
+#pw-desarrollo-web .wv-phone-construction-copy > b { display:block; font-family:"Manrope",sans-serif; font-size:6.5px; line-height:1.2; }
+#pw-desarrollo-web .wv-phone-construction-copy > button { padding:3px 5px; background:#f2bd53; color:#223746; font-size:4px; border-radius:3px; margin-top:4px; font-weight:700; }
+#pw-desarrollo-web .wv-shop-strip { height:9px; display:grid; place-items:center; background:#13180e; color:#c7f45b; font-size:4px; }
+#pw-desarrollo-web .wv-commerce .wv-site-nav { height:28px; gap:7px; padding:0 8px; }
+#pw-desarrollo-web .wv-shop-mark { background:#18240e; color:#c7f45b; width:8px; height:8px; border-radius:50%; display:grid; place-items:center; font-size:5px; }
+#pw-desarrollo-web .wv-commerce .wv-site-nav > span:not(.wv-cart) { font-size:4px; margin-left:0; }
+#pw-desarrollo-web .wv-search { padding:3px 5px; border-radius:8px; background:#f2f2ed; color:#8b9085; font-size:4px; margin-left:auto; white-space:nowrap; }
+#pw-desarrollo-web .wv-cart { position:relative; font-size:13px; line-height:1; }
+#pw-desarrollo-web .wv-cart svg { display:block; width:13px; height:13px; }
+#pw-desarrollo-web .wv-phone-cart svg { display:block; width:9px; height:9px; }
+#pw-desarrollo-web .wv-cart i { position:absolute; top:-3px; right:-2px; width:6px; height:6px; display:grid; place-items:center; border-radius:50%; background:#c7f45b; font-style:normal; font-size:4px; }
+#pw-desarrollo-web .wv-shop-intro { display:flex; align-items:center; justify-content:space-between; padding:3px 9px 5px; }
+#pw-desarrollo-web .wv-shop-intro b { font-size:7px; }
+#pw-desarrollo-web .wv-shop-intro span { font-size:4px; color:#717968; }
+#pw-desarrollo-web .wv-product-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; padding:0 9px 7px; }
+#pw-desarrollo-web .wv-product { min-width:0; color:#10160e; }
+#pw-desarrollo-web .wv-product-art { height:77px; background:#eeeae0; border-radius:5px; position:relative; display:flex; align-items:center; }
+#pw-desarrollo-web .wv-product-light { --wv-shoe-color:#e8ebdd; --wv-shoe-accent:#5c782f; }
+#pw-desarrollo-web .wv-product-dark { --wv-shoe-color:#383e34; --wv-shoe-accent:#111a0c; }
+#pw-desarrollo-web .wv-product-blue { --wv-shoe-color:#dde6eb; --wv-shoe-accent:#3a779a; }
+#pw-desarrollo-web .wv-product-dark .wv-product-art { background:#e6e4dc; }
+#pw-desarrollo-web .wv-product-blue .wv-product-art { background:#e8edf0; }
+#pw-desarrollo-web .wv-shoe { display:block; width:100%; height:auto; }
+#pw-desarrollo-web .wv-new { position:absolute; z-index:1; top:4px; left:4px; padding:2px 3px; border-radius:2px; font-size:4px; background:#183019; color:#c7f45b; }
+#pw-desarrollo-web .wv-product > b, #pw-desarrollo-web .wv-product > strong { display:block; font-size:4.8px; padding:0; line-height:1.3; margin-top:3px; white-space:nowrap; }
+#pw-desarrollo-web .wv-product > strong { font-size:5px; margin-top:1px; }
+#pw-desarrollo-web .wv-swatches { display:block; color:#768657; letter-spacing:1px; font-size:5px; margin-top:2px; }
+#pw-desarrollo-web .wv-product > button { width:100%; padding:3px 0; border-radius:8px; background:#10160e; color:#fff; font-size:4px; font-weight:700; margin-top:2px; }
+#pw-desarrollo-web .wv-phone-product-art { height:49px; display:flex; align-items:center; background:#eeeae0; border-radius:3px; }
+#pw-desarrollo-web .wv-phone-product-copy { padding:6px 3px 0; }
+#pw-desarrollo-web .wv-phone-product-copy > span:first-child { display:block; font-size:4.5px; }
+#pw-desarrollo-web .wv-phone-product-copy > b { display:block; font-size:5px; margin-top:2px; }
+#pw-desarrollo-web .wv-phone-product-copy small { display:block; font-size:4px; margin-top:4px; }
+#pw-desarrollo-web .wv-sizes { display:block; font-size:5px; margin-top:2px; }
+#pw-desarrollo-web .wv-phone-product-copy > button { width:100%; padding:3px 1px; border-radius:7px; background:#10160e; color:#fff; font-size:4px; margin-top:5px; font-weight:700; }
+@media (max-width:600px) {
+  #pw-desarrollo-web .wv-preview { height:229px; }
+  #pw-desarrollo-web .wv-browser { right:22px; height:193px; }
+  #pw-desarrollo-web .wv-clinic-copy h4 { font-size:13px; }
+  #pw-desarrollo-web .wv-phone { bottom:5px; }
+  #pw-desarrollo-web .wv-site-nav { gap:6px; }
+  #pw-desarrollo-web .wv-site-nav > span:not(.wv-cart) { font-size:4px; }
+}

@@ -1,0 +1,2294 @@
+[
+  {
+    "width": 1440,
+    "version": "before",
+    "metrics": {
+      "cls": 0.023795087719298245,
+      "clsTotal": 0.023795087719298245,
+      "lcp": 536,
+      "fcp": 536,
+      "shifts": [
+        {
+          "t": 551.2000000029802,
+          "value": 0.023795087719298245,
+          "sources": [
+            {
+              "tag": "DIV",
+              "cls": "hx-slides",
+              "before": {
+                "x": 522,
+                "y": 125,
+                "width": 903,
+                "height": 579.390625,
+                "top": 125,
+                "right": 1425,
+                "bottom": 704.390625,
+                "left": 522
+              },
+              "after": {
+                "x": 522,
+                "y": 128,
+                "width": 903,
+                "height": 579.390625,
+                "top": 128,
+                "right": 1425,
+                "bottom": 707.390625,
+                "left": 522
+              }
+            },
+            {
+              "tag": "SECTION",
+              "cls": "sol sol-offer-2a",
+              "before": {
+                "x": 0,
+                "y": 750.765625,
+                "width": 1425,
+                "height": 249.234375,
+                "top": 750.765625,
+                "right": 1425,
+                "bottom": 1000,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 753.765625,
+                "width": 1425,
+                "height": 246.234375,
+                "top": 753.765625,
+                "right": 1425,
+                "bottom": 1000,
+                "left": 0
+              }
+            },
+            {
+              "tag": "FIGCAPTION",
+              "cls": "hx-caption",
+              "before": {
+                "x": 576,
+                "y": 692.390625,
+                "width": 809,
+                "height": 42.375,
+                "top": 692.390625,
+                "right": 1385,
+                "bottom": 734.765625,
+                "left": 576
+              },
+              "after": {
+                "x": 576,
+                "y": 695.390625,
+                "width": 809,
+                "height": 42.375,
+                "top": 695.390625,
+                "right": 1385,
+                "bottom": 737.765625,
+                "left": 576
+              }
+            },
+            {
+              "tag": "DIV",
+              "cls": "hx-tabs",
+              "before": {
+                "x": 768.015625,
+                "y": 105,
+                "width": 424.953125,
+                "height": 50,
+                "top": 105,
+                "right": 1192.96875,
+                "bottom": 155,
+                "left": 768.015625
+              },
+              "after": {
+                "x": 716.65625,
+                "y": 105,
+                "width": 429.6875,
+                "height": 53,
+                "top": 105,
+                "right": 1146.34375,
+                "bottom": 158,
+                "left": 716.65625
+              }
+            },
+            {
+              "tag": "NAV",
+              "cls": "main-nav",
+              "before": {
+                "x": 849.90625,
+                "y": 23.5,
+                "width": 535.09375,
+                "height": 41,
+                "top": 23.5,
+                "right": 1385,
+                "bottom": 64.5,
+                "left": 849.90625
+              },
+              "after": {
+                "x": 842.25,
+                "y": 22.5,
+                "width": 542.75,
+                "height": 43,
+                "top": 22.5,
+                "right": 1385,
+                "bottom": 65.5,
+                "left": 842.25
+              }
+            }
+          ]
+        }
+      ],
+      "ready": true,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp"
+      },
+      "load": 619,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 185,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/styles.css?v=20261004-nav2",
+          "duration": 186.30000001192093,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/refresh.css",
+          "duration": 213.5,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-2a.css",
+          "duration": 214.59999999403954,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-2a.css",
+          "duration": 215.5,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/impact-2a.css",
+          "duration": 219.70000000298023,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-home-2a.css",
+          "duration": 221,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-home-2a.css",
+          "duration": 229.5,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-compact-2a.css",
+          "duration": 241.5,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-conversion.css",
+          "duration": 242.59999999403954,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-product-preview.css",
+          "duration": 244.6000000089407,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/main.js?v=20261004-nav1",
+          "duration": 352.29999999701977,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact.js",
+          "duration": 353.90000000596046,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/hero-carousel.js?v=20261006-m1",
+          "duration": 360.09999999403954,
+          "transfer": 3927,
+          "encoded": 3627
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/icons.css",
+          "duration": 243.3999999910593,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/footer-2a.css",
+          "duration": 253.5,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/palette.css",
+          "duration": 256.79999999701977,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-final.css",
+          "duration": 272.70000000298023,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-new.css?v=20261004-c2",
+          "duration": 274.40000000596046,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-new.css?v=20261004-c2",
+          "duration": 273.79999999701977,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-new.css?v=20261004-c2",
+          "duration": 281.90000000596046,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-new.css?v=20261004-c3",
+          "duration": 276.1000000089407,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/cta-new.css",
+          "duration": 289.5,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/landing-motion.css?v=20261004-c4",
+          "duration": 308.20000000298023,
+          "transfer": 7673,
+          "encoded": 7373
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/experience-motion.css?v=20261004-x1",
+          "duration": 311.29999999701977,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/landing-motion.js?v=20261004-c2",
+          "duration": 362.79999999701977,
+          "transfer": 1844,
+          "encoded": 1544
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/experience-motion.js?v=20261004-x1",
+          "duration": 364.5,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-marketing-reference.css?v=20261006-m1",
+          "duration": 311.6000000089407,
+          "transfer": 9291,
+          "encoded": 8991
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-offer-2a.css?v=20261006-o1",
+          "duration": 320.30000001192093,
+          "transfer": 4647,
+          "encoded": 4347
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 324.79999999701977,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-home.css?v=20261006-c1",
+          "duration": 331,
+          "transfer": 10862,
+          "encoded": 10562
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 368.90000000596046,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 331.59999999403954,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp",
+          "duration": 332.40000000596046,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-process.webp",
+          "duration": 348.30000001192093,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-dormitorio.webp",
+          "duration": 12.200000002980232,
+          "transfer": 5492,
+          "encoded": 5192
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-paisaje.webp",
+          "duration": 17.100000008940697,
+          "transfer": 3542,
+          "encoded": 3242
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-casa.webp",
+          "duration": 17.600000008940697,
+          "transfer": 22646,
+          "encoded": 22346
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/marketing-creativos.webp",
+          "duration": 19.5,
+          "transfer": 29738,
+          "encoded": 29438
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/favicon.svg",
+          "duration": 6.100000008940697,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "version": "after",
+    "metrics": {
+      "cls": 0,
+      "clsTotal": 0,
+      "lcp": 480,
+      "fcp": 480,
+      "shifts": [],
+      "ready": true,
+      "load": 502.40000000596046,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp"
+      },
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/styles.css?v=20261004-nav2",
+          "duration": 141.5,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/refresh.css",
+          "duration": 144,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-2a.css",
+          "duration": 150.90000000596046,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-2a.css",
+          "duration": 154,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/impact-2a.css",
+          "duration": 157,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-home-2a.css",
+          "duration": 159.19999998807907,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-home-2a.css",
+          "duration": 181,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-compact-2a.css",
+          "duration": 200.20000000298023,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-conversion.css",
+          "duration": 205.59999999403954,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-product-preview.css",
+          "duration": 208.20000000298023,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/main.js?v=20261004-nav1",
+          "duration": 306.79999999701977,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact.js",
+          "duration": 312.40000000596046,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/icons.css",
+          "duration": 215.29999999701977,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/hero-carousel.js?v=20261009-c2",
+          "duration": 311.09999999403954,
+          "transfer": 3002,
+          "encoded": 2702
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/footer-2a.css",
+          "duration": 232.90000000596046,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/palette.css",
+          "duration": 235.09999999403954,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-final.css",
+          "duration": 236.80000001192093,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-new.css?v=20261004-c2",
+          "duration": 238.1000000089407,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-new.css?v=20261004-c2",
+          "duration": 244.79999999701977,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-new.css?v=20261004-c2",
+          "duration": 243,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-new.css?v=20261004-c3",
+          "duration": 276,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/cta-new.css",
+          "duration": 278,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/landing-motion.css?v=20261009-c2",
+          "duration": 284.20000000298023,
+          "transfer": 2335,
+          "encoded": 2035
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/landing-motion.js?v=20261009-c2",
+          "duration": 311.30000001192093,
+          "transfer": 2014,
+          "encoded": 1714
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/experience-motion.css?v=20261004-x1",
+          "duration": 285.3999999910593,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/experience-motion.js?v=20261004-x1",
+          "duration": 314.70000000298023,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-marketing-reference.css?v=20261009-c2",
+          "duration": 287.5,
+          "transfer": 9692,
+          "encoded": 9392
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-offer-2a.css?v=20261009-c2",
+          "duration": 289.70000000298023,
+          "transfer": 8049,
+          "encoded": 7749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 296.90000000596046,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 313.09999999403954,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-home.css?v=20261009-c2",
+          "duration": 296.1000000089407,
+          "transfer": 10140,
+          "encoded": 9840
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 296.8999999910593,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp",
+          "duration": 297.59999999403954,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-process.webp",
+          "duration": 304.29999999701977,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 74932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/marketing-creativos.webp",
+          "duration": 8.899999991059303,
+          "transfer": 29738,
+          "encoded": 29438
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/favicon.svg",
+          "duration": 10.200000002980232,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "version": "before",
+    "metrics": {
+      "cls": 0.020592,
+      "clsTotal": 0.020592,
+      "lcp": 408,
+      "fcp": 408,
+      "shifts": [
+        {
+          "t": 558,
+          "value": 0.020592,
+          "sources": [
+            {
+              "tag": "DIV",
+              "cls": "hx-slides",
+              "before": {
+                "x": 0,
+                "y": 604.453125,
+                "width": 375,
+                "height": 395.546875,
+                "top": 604.453125,
+                "right": 375,
+                "bottom": 1000,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 656.453125,
+                "width": 375,
+                "height": 343.546875,
+                "top": 656.453125,
+                "right": 375,
+                "bottom": 1000,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ],
+      "ready": true,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp"
+      },
+      "load": 879.4000000059605,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/styles.css?v=20261004-nav2",
+          "duration": 102.3999999910593,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-2a.css",
+          "duration": 109.90000000596046,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-2a.css",
+          "duration": 113.1000000089407,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/refresh.css",
+          "duration": 118.30000001192093,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/impact-2a.css",
+          "duration": 115.29999999701977,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-home-2a.css",
+          "duration": 113.90000000596046,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-home-2a.css",
+          "duration": 139.5,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-compact-2a.css",
+          "duration": 168.79999999701977,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-conversion.css",
+          "duration": 163.70000000298023,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-product-preview.css",
+          "duration": 172.5,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/main.js?v=20261004-nav1",
+          "duration": 305.70000000298023,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact.js",
+          "duration": 460.40000000596046,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/hero-carousel.js?v=20261006-m1",
+          "duration": 461.30000001192093,
+          "transfer": 3927,
+          "encoded": 3627
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/icons.css",
+          "duration": 161.5,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/footer-2a.css",
+          "duration": 162.09999999403954,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/palette.css",
+          "duration": 194.70000000298023,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-final.css",
+          "duration": 211.6000000089407,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-new.css?v=20261004-c2",
+          "duration": 202.29999999701977,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-new.css?v=20261004-c2",
+          "duration": 210.69999998807907,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-new.css?v=20261004-c3",
+          "duration": 205.3999999910593,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-new.css?v=20261004-c2",
+          "duration": 212.69999998807907,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/cta-new.css",
+          "duration": 239.40000000596046,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/landing-motion.css?v=20261004-c4",
+          "duration": 250.70000000298023,
+          "transfer": 7673,
+          "encoded": 7373
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/landing-motion.js?v=20261004-c2",
+          "duration": 499.59999999403954,
+          "transfer": 1844,
+          "encoded": 1544
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-marketing-reference.css?v=20261006-m1",
+          "duration": 246.5,
+          "transfer": 9291,
+          "encoded": 8991
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/experience-motion.css?v=20261004-x1",
+          "duration": 251.20000000298023,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/experience-motion.js?v=20261004-x1",
+          "duration": 633.7999999970198,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-offer-2a.css?v=20261006-o1",
+          "duration": 249.69999998807907,
+          "transfer": 4647,
+          "encoded": 4347
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 268.29999999701977,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-home.css?v=20261006-c1",
+          "duration": 271.5,
+          "transfer": 10862,
+          "encoded": 10562
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 270.90000000596046,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 721.2999999970198,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp",
+          "duration": 277.5,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-process.webp",
+          "duration": 288.8999999910593,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 74932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/favicon.svg",
+          "duration": 11.200000002980232,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "version": "after",
+    "metrics": {
+      "cls": 0,
+      "clsTotal": 0,
+      "lcp": 392,
+      "fcp": 392,
+      "shifts": [],
+      "ready": true,
+      "lcpElement": {
+        "tag": "H1",
+        "cls": "",
+        "url": ""
+      },
+      "load": 517,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/styles.css?v=20261004-nav2",
+          "duration": 71.6000000089407,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/refresh.css",
+          "duration": 108.79999999701977,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-2a.css",
+          "duration": 110.5,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-2a.css",
+          "duration": 114.6000000089407,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/impact-2a.css",
+          "duration": 119.30000001192093,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-home-2a.css",
+          "duration": 124.20000000298023,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-home-2a.css",
+          "duration": 125.70000000298023,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-compact-2a.css",
+          "duration": 132.20000000298023,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-conversion.css",
+          "duration": 139.29999999701977,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-product-preview.css",
+          "duration": 158.90000000596046,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/main.js?v=20261004-nav1",
+          "duration": 258.20000000298023,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact.js",
+          "duration": 263.5,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/hero-carousel.js?v=20261009-c2",
+          "duration": 275.5,
+          "transfer": 3002,
+          "encoded": 2702
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/icons.css",
+          "duration": 149,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/footer-2a.css",
+          "duration": 161.90000000596046,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/palette.css",
+          "duration": 166.70000000298023,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-final.css",
+          "duration": 226.29999999701977,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-new.css?v=20261004-c2",
+          "duration": 229.09999999403954,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-new.css?v=20261004-c2",
+          "duration": 230.5,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-new.css?v=20261004-c2",
+          "duration": 240,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/cta-new.css",
+          "duration": 167,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-new.css?v=20261004-c3",
+          "duration": 242.70000000298023,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/landing-motion.css?v=20261009-c2",
+          "duration": 167.5,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/landing-motion.js?v=20261009-c2",
+          "duration": 279.5,
+          "transfer": 2014,
+          "encoded": 1714
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/experience-motion.css?v=20261004-x1",
+          "duration": 168.20000000298023,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/experience-motion.js?v=20261004-x1",
+          "duration": 290.30000001192093,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-marketing-reference.css?v=20261009-c2",
+          "duration": 169.09999999403954,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-offer-2a.css?v=20261009-c2",
+          "duration": 169.79999999701977,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 171.20000000298023,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 299.40000000596046,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-home.css?v=20261009-c2",
+          "duration": 172.3999999910593,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 173.5,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp",
+          "duration": 174,
+          "transfer": 0,
+          "encoded": 0
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-process.webp",
+          "duration": 247.8999999910593,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 74932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/favicon.svg",
+          "duration": 13.599999994039536,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 360,
+    "version": "before",
+    "metrics": {
+      "cls": 0.021244034782608695,
+      "clsTotal": 0.021244034782608695,
+      "lcp": 500,
+      "fcp": 408,
+      "shifts": [
+        {
+          "t": 441.59999999403954,
+          "value": 0.021244034782608695,
+          "sources": [
+            {
+              "tag": "DIV",
+              "cls": "hx-slides",
+              "before": {
+                "x": 0,
+                "y": 597.703125,
+                "width": 345,
+                "height": 402.296875,
+                "top": 597.703125,
+                "right": 345,
+                "bottom": 1000,
+                "left": 0
+              },
+              "after": {
+                "x": 0,
+                "y": 649.703125,
+                "width": 345,
+                "height": 350.296875,
+                "top": 649.703125,
+                "right": 345,
+                "bottom": 1000,
+                "left": 0
+              }
+            },
+            {
+              "before": {
+                "x": 58,
+                "y": 24,
+                "width": 81.203125,
+                "height": 27,
+                "top": 24,
+                "right": 139.203125,
+                "bottom": 51,
+                "left": 58
+              },
+              "after": {
+                "x": 58,
+                "y": 24.5,
+                "width": 68.6875,
+                "height": 27,
+                "top": 24.5,
+                "right": 126.6875,
+                "bottom": 51.5,
+                "left": 58
+              }
+            }
+          ]
+        }
+      ],
+      "ready": true,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp"
+      },
+      "load": 492.70000000298023,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 100.80000001192093,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/styles.css?v=20261004-nav2",
+          "duration": 99.59999999403954,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/refresh.css",
+          "duration": 118.59999999403954,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-2a.css",
+          "duration": 120.5,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-2a.css",
+          "duration": 124.5,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/impact-2a.css",
+          "duration": 125.90000000596046,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-home-2a.css",
+          "duration": 126.3999999910593,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-home-2a.css",
+          "duration": 125.29999999701977,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-compact-2a.css",
+          "duration": 138,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-conversion.css",
+          "duration": 139.8999999910593,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-product-preview.css",
+          "duration": 155.09999999403954,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/main.js?v=20261004-nav1",
+          "duration": 277.09999999403954,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact.js",
+          "duration": 279.29999999701977,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/hero-carousel.js?v=20261006-m1",
+          "duration": 283.70000000298023,
+          "transfer": 3927,
+          "encoded": 3627
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/icons.css",
+          "duration": 148.8999999910593,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/footer-2a.css",
+          "duration": 166.5,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/palette.css",
+          "duration": 167.59999999403954,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-final.css",
+          "duration": 169.1000000089407,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-new.css?v=20261004-c2",
+          "duration": 220.29999999701977,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-new.css?v=20261004-c2",
+          "duration": 222.20000000298023,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-new.css?v=20261004-c2",
+          "duration": 223.90000000596046,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-new.css?v=20261004-c3",
+          "duration": 227.40000000596046,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/cta-new.css",
+          "duration": 243.20000000298023,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/landing-motion.css?v=20261004-c4",
+          "duration": 244.70000000298023,
+          "transfer": 7673,
+          "encoded": 7373
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/landing-motion.js?v=20261004-c2",
+          "duration": 289.20000000298023,
+          "transfer": 1844,
+          "encoded": 1544
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/experience-motion.css?v=20261004-x1",
+          "duration": 252.6000000089407,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/experience-motion.js?v=20261004-x1",
+          "duration": 289.80000001192093,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-marketing-reference.css?v=20261006-m1",
+          "duration": 253.29999999701977,
+          "transfer": 9291,
+          "encoded": 8991
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-offer-2a.css?v=20261006-o1",
+          "duration": 254.1000000089407,
+          "transfer": 4647,
+          "encoded": 4347
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 259.20000000298023,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-home.css?v=20261006-c1",
+          "duration": 263.90000000596046,
+          "transfer": 10862,
+          "encoded": 10562
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 291.5,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 267.29999999701977,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp",
+          "duration": 268.40000000596046,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-process.webp",
+          "duration": 273,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/favicon.svg",
+          "duration": 12.899999991059303,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 360,
+    "version": "after",
+    "metrics": {
+      "cls": 0,
+      "clsTotal": 0,
+      "lcp": 376,
+      "fcp": 376,
+      "shifts": [],
+      "ready": true,
+      "load": 377.29999999701977,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp"
+      },
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/styles.css?v=20261004-nav2",
+          "duration": 92.59999999403954,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/refresh.css",
+          "duration": 116.30000001192093,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-2a.css",
+          "duration": 118.59999999403954,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-2a.css",
+          "duration": 125.79999999701977,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/impact-2a.css",
+          "duration": 128.1000000089407,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-home-2a.css",
+          "duration": 129.40000000596046,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-home-2a.css",
+          "duration": 136,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-compact-2a.css",
+          "duration": 152.3999999910593,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-product-preview.css",
+          "duration": 148.79999999701977,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-conversion.css",
+          "duration": 150.40000000596046,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/main.js?v=20261004-nav1",
+          "duration": 261.8999999910593,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact.js",
+          "duration": 262.29999999701977,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/hero-carousel.js?v=20261009-c2",
+          "duration": 262.79999999701977,
+          "transfer": 3002,
+          "encoded": 2702
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/icons.css",
+          "duration": 150.59999999403954,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/footer-2a.css",
+          "duration": 157.19999998807907,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/palette.css",
+          "duration": 162.3999999910593,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-final.css",
+          "duration": 170.1000000089407,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-new.css?v=20261004-c2",
+          "duration": 172.3999999910593,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-new.css?v=20261004-c2",
+          "duration": 184.79999999701977,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-new.css?v=20261004-c2",
+          "duration": 186,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-new.css?v=20261004-c3",
+          "duration": 178.09999999403954,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/cta-new.css",
+          "duration": 182.5,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/landing-motion.css?v=20261009-c2",
+          "duration": 212.40000000596046,
+          "transfer": 2335,
+          "encoded": 2035
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/landing-motion.js?v=20261009-c2",
+          "duration": 267,
+          "transfer": 2014,
+          "encoded": 1714
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/experience-motion.css?v=20261004-x1",
+          "duration": 215.79999999701977,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/experience-motion.js?v=20261004-x1",
+          "duration": 267.3999999910593,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-marketing-reference.css?v=20261009-c2",
+          "duration": 216.40000000596046,
+          "transfer": 9692,
+          "encoded": 9392
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-offer-2a.css?v=20261009-c2",
+          "duration": 217.29999999701977,
+          "transfer": 8049,
+          "encoded": 7749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 217.69999998807907,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 270.40000000596046,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-home.css?v=20261009-c2",
+          "duration": 217.80000001192093,
+          "transfer": 10140,
+          "encoded": 9840
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 245.90000000596046,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp",
+          "duration": 248.20000000298023,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-process.webp",
+          "duration": 257.09999999403954,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/favicon.svg",
+          "duration": 7.200000002980232,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 1920,
+    "version": "before",
+    "metrics": {
+      "cls": 0.0003420659819097416,
+      "clsTotal": 0.0003420659819097416,
+      "lcp": 432,
+      "fcp": 432,
+      "shifts": [
+        {
+          "t": 452.29999999701977,
+          "value": 0.0003420659819097416,
+          "sources": [
+            {
+              "tag": "DIV",
+              "cls": "hx-tabs",
+              "before": {
+                "x": 1005.65625,
+                "y": 105,
+                "width": 429.6875,
+                "height": 53,
+                "top": 105,
+                "right": 1435.34375,
+                "bottom": 158,
+                "left": 1005.65625
+              },
+              "after": {
+                "x": 956.65625,
+                "y": 105,
+                "width": 429.6875,
+                "height": 53,
+                "top": 105,
+                "right": 1386.34375,
+                "bottom": 158,
+                "left": 956.65625
+              }
+            }
+          ]
+        }
+      ],
+      "ready": true,
+      "load": 527.4000000059605,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp"
+      },
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/styles.css?v=20261004-nav2",
+          "duration": 144.79999999701977,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/refresh.css",
+          "duration": 145.5,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-2a.css",
+          "duration": 137.09999999403954,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-2a.css",
+          "duration": 146.5,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/impact-2a.css",
+          "duration": 173.70000000298023,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-home-2a.css",
+          "duration": 177.29999999701977,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-home-2a.css",
+          "duration": 201.29999999701977,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-compact-2a.css",
+          "duration": 207.8999999910593,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-conversion.css",
+          "duration": 203.90000000596046,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-product-preview.css",
+          "duration": 205.8999999910593,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/main.js?v=20261004-nav1",
+          "duration": 278.69999998807907,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact.js",
+          "duration": 281.79999999701977,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/hero-carousel.js?v=20261006-m1",
+          "duration": 286.79999999701977,
+          "transfer": 3927,
+          "encoded": 3627
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/icons.css",
+          "duration": 215.5,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/footer-2a.css",
+          "duration": 218.09999999403954,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/palette.css",
+          "duration": 231.90000000596046,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-final.css",
+          "duration": 233.40000000596046,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/solutions-new.css?v=20261004-c2",
+          "duration": 240.90000000596046,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-new.css?v=20261004-c2",
+          "duration": 242.30000001192093,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/marketing-new.css?v=20261004-c2",
+          "duration": 236.70000000298023,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/faq-new.css?v=20261004-c3",
+          "duration": 237.6000000089407,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/cta-new.css",
+          "duration": 250.09999999403954,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/landing-motion.css?v=20261004-c4",
+          "duration": 251.70000000298023,
+          "transfer": 7673,
+          "encoded": 7373
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/landing-motion.js?v=20261004-c2",
+          "duration": 286.59999999403954,
+          "transfer": 1844,
+          "encoded": 1544
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/experience-motion.css?v=20261004-x1",
+          "duration": 255.6000000089407,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/experience-motion.js?v=20261004-x1",
+          "duration": 288.20000000298023,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/hero-marketing-reference.css?v=20261006-m1",
+          "duration": 255.79999999701977,
+          "transfer": 9291,
+          "encoded": 8991
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-offer-2a.css?v=20261006-o1",
+          "duration": 254.79999999701977,
+          "transfer": 4647,
+          "encoded": 4347
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 256.09999999403954,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-home.css?v=20261006-c1",
+          "duration": 268.80000001192093,
+          "transfer": 10862,
+          "encoded": 10562
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 293.20000000298023,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 265.6000000089407,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-products.webp",
+          "duration": 271.6000000089407,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/packaging-process.webp",
+          "duration": 277.59999999403954,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 74932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-dormitorio.webp",
+          "duration": 14.300000011920929,
+          "transfer": 5492,
+          "encoded": 5192
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-paisaje.webp",
+          "duration": 15.5,
+          "transfer": 3542,
+          "encoded": 3242
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/anuncio-casa.webp",
+          "duration": 20.5,
+          "transfer": 22646,
+          "encoded": 22346
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/assets/hero/marketing-creativos.webp",
+          "duration": 25.100000008940697,
+          "transfer": 29738,
+          "encoded": 29438
+        },
+        {
+          "name": "http://127.0.0.1:8871/before/favicon.svg",
+          "duration": 10.799999997019768,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  },
+  {
+    "width": 1920,
+    "version": "after",
+    "metrics": {
+      "cls": 0,
+      "clsTotal": 0,
+      "lcp": 388,
+      "fcp": 388,
+      "shifts": [],
+      "ready": true,
+      "load": 475.79999999701977,
+      "lcpElement": {
+        "tag": "IMG",
+        "cls": "",
+        "url": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp"
+      },
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 1033
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/styles.css?v=20261004-nav2",
+          "duration": 115.3999999910593,
+          "transfer": 24210,
+          "encoded": 23910
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/refresh.css",
+          "duration": 113.70000000298023,
+          "transfer": 8872,
+          "encoded": 8572
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-2a.css",
+          "duration": 119.1000000089407,
+          "transfer": 4171,
+          "encoded": 3871
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-2a.css",
+          "duration": 116.79999999701977,
+          "transfer": 1263,
+          "encoded": 963
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/impact-2a.css",
+          "duration": 120.5,
+          "transfer": 11419,
+          "encoded": 11119
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-home-2a.css",
+          "duration": 123.5,
+          "transfer": 5290,
+          "encoded": 4990
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-home-2a.css",
+          "duration": 134.79999999701977,
+          "transfer": 3377,
+          "encoded": 3077
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-compact-2a.css",
+          "duration": 144.20000000298023,
+          "transfer": 6747,
+          "encoded": 6447
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-conversion.css",
+          "duration": 147.5,
+          "transfer": 3507,
+          "encoded": 3207
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-product-preview.css",
+          "duration": 160.79999999701977,
+          "transfer": 8979,
+          "encoded": 8679
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/main.js?v=20261004-nav1",
+          "duration": 267.70000000298023,
+          "transfer": 2307,
+          "encoded": 2007
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/hero-carousel.js?v=20261009-c2",
+          "duration": 273.20000000298023,
+          "transfer": 3002,
+          "encoded": 2702
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact.js",
+          "duration": 272.6000000089407,
+          "transfer": 2154,
+          "encoded": 1854
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/icons.css",
+          "duration": 165.59999999403954,
+          "transfer": 508,
+          "encoded": 208
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/footer-2a.css",
+          "duration": 167.20000000298023,
+          "transfer": 3936,
+          "encoded": 3636
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/palette.css",
+          "duration": 174.5,
+          "transfer": 3245,
+          "encoded": 2945
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-final.css",
+          "duration": 178.59999999403954,
+          "transfer": 6585,
+          "encoded": 6285
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-new.css?v=20261004-c2",
+          "duration": 183.09999999403954,
+          "transfer": 19906,
+          "encoded": 19606
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/solutions-new.css?v=20261004-c2",
+          "duration": 186.59999999403954,
+          "transfer": 10084,
+          "encoded": 9784
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/marketing-new.css?v=20261004-c2",
+          "duration": 194.59999999403954,
+          "transfer": 5917,
+          "encoded": 5617
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/faq-new.css?v=20261004-c3",
+          "duration": 201.40000000596046,
+          "transfer": 3597,
+          "encoded": 3297
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/cta-new.css",
+          "duration": 204.29999999701977,
+          "transfer": 2981,
+          "encoded": 2681
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/landing-motion.css?v=20261009-c2",
+          "duration": 240.19999998807907,
+          "transfer": 2335,
+          "encoded": 2035
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/landing-motion.js?v=20261009-c2",
+          "duration": 272.3999999910593,
+          "transfer": 2014,
+          "encoded": 1714
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/hero-marketing-reference.css?v=20261009-c2",
+          "duration": 242.90000000596046,
+          "transfer": 9692,
+          "encoded": 9392
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/experience-motion.css?v=20261004-x1",
+          "duration": 243.79999999701977,
+          "transfer": 5601,
+          "encoded": 5301
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/experience-motion.js?v=20261004-x1",
+          "duration": 275.20000000298023,
+          "transfer": 2481,
+          "encoded": 2181
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-offer-2a.css?v=20261009-c2",
+          "duration": 247.80000001192093,
+          "transfer": 8049,
+          "encoded": 7749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/home-contact-reference.css?v=20261006-c1",
+          "duration": 251.29999999701977,
+          "transfer": 12049,
+          "encoded": 11749
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-home.css?v=20261009-c2",
+          "duration": 253.29999999701977,
+          "transfer": 10140,
+          "encoded": 9840
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/js/home-contact-reference.js?v=20261006-c1",
+          "duration": 277,
+          "transfer": 1400,
+          "encoded": 1100
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/css/directory-c-shared.css?v=20261006-c1",
+          "duration": 256.3999999910593,
+          "transfer": 2227,
+          "encoded": 1927
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-products.webp",
+          "duration": 257.5,
+          "transfer": 54316,
+          "encoded": 54016
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/packaging-process.webp",
+          "duration": 262.70000000298023,
+          "transfer": 41098,
+          "encoded": 40798
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 74932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 36932
+        },
+        {
+          "name": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+          "duration": 0,
+          "transfer": 0,
+          "encoded": 24836
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/assets/hero/marketing-creativos.webp",
+          "duration": 14.700000002980232,
+          "transfer": 29738,
+          "encoded": 29438
+        },
+        {
+          "name": "http://127.0.0.1:8871/after/favicon.svg",
+          "duration": 9.699999988079071,
+          "transfer": 540,
+          "encoded": 240
+        }
+      ]
+    }
+  }
+]

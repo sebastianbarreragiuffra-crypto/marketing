@@ -1,38 +1,80 @@
 ---
-description: Flow 2A — decisiones de diseño y control de cambios de Órbita
+description: Flow 2A — revisión trazable de la página actual y control de decisiones de Órbita
 alwaysApply: true
 ---
 
-# Flow 2A actualizado
+# Flow 2A
 
-Aplicar a decisiones mayores de negocio, producto o página. Para ajustes locales,
-evaluar únicamente el delta y conservar lo demás.
+Cuando se pida revisión fresca o investigación Google/Ads, aplicar primero fresh-review-google.mdc; preservar restricciones obligatorias y separar las conclusiones nuevas antes de reconciliar opiniones previas. google-updates-20261008.mdc es evidencia fechada, no un mandato de rediseño.
 
-0. Registrar restricciones: congelado, abierto, rechazado y en prueba.
-1. Enmarcar el problema del cliente, no la sección que se quiere añadir.
-2. Ejecutar Directory Z para asegurar una arquitectura comercial comprensible y veraz.
-3. A: evaluar dolor, frecuencia, valor comercial, claridad inmediata y simplicidad.
-4. B: desafiar la idea con alternativas más simples, proactivas e inesperadas pero alcanzables.
-5. Comparar al menos tres conceptos materialmente distintos cuando corresponda.
-6. Rechazar antes de puntuar por fallos graves de audiencia, estrategia, claridad,
-   diferenciación, viabilidad o duplicación. C intenta romper la solución:
-   datos, APIs, permisos, frescura, fiabilidad, coste, revisión humana y casos límite.
-7. Puntuar como juicio comparativo: valor 25%, claridad 20%, diferenciación 20%,
-   viabilidad 15%, interés 10%, encaje estratégico 10%. Explicitar penalizaciones
-   por complejidad o SaaS genérico; no presentar puntuaciones como medición real.
-8. Cruzar objeciones A/B/C; mostrar sólo desacuerdos significativos.
-9. Preguntar si falta una alternativa materialmente más fuerte; resolverla antes de diseñar.
-10. Elegir y registrar razones, alternativas descartadas, congelado y pendiente.
-    Distinguir recomendación de aprobación del usuario; no atribuir aprobación inexistente.
-11. Crear el mockup después de la decisión, a 1440 px, frontal y con la paleta aprobada.
+Aplicar a cambios mayores de negocio/página/producto; para retoques, evaluar sólo el delta.
 
-## Control de cambios
+Declarar fase: reglas, concepto, mockup, implementación o resultado comercial. A/B/C/Z comparten una sola ficha por decisión, con detalle proporcional. Cerrar reglas exige cobertura y coherencia; cerrar concepto admite supuestos y pruebas pendientes de fases posteriores. La validación implementada y la mejora comercial sólo se afirman con evidencia correspondiente. Esta distinción rige los controles de cierre siguientes.
 
-- Clasificar feedback nuevo como refinamiento local, idea aditiva o contradicción material.
-- Reabrir sólo por cambios materiales de claridad, conversión, viabilidad,
-  estrategia, ingresos o veracidad. Una frase más bonita no basta.
-- Evaluar qué se gana y qué se pierde respecto de la versión aprobada.
-- Feedback de amigos es evidencia que se evalúa, no una orden de rediseñar.
-- Conservar los visuales y secciones de GISBA aprobados; no rediseñar elementos adyacentes automáticamente.
-- A/B/C/Z son perspectivas analíticas. No afirmar revisión independiente si se hicieron en un mismo agente.
-- Delegación real sólo con autorización del usuario o instrucciones aplicables que la requieran.
+## Orden de trabajo
+
+0. Definir alcance y registrar CONFIRMADO, PROPUESTO, RECHAZADO, PENDIENTE y OBSERVADO. Una sugerencia del asistente no es aprobación.
+1. Reconciliar fuentes: instrucciones actuales del usuario → hechos verificados → reglas vigentes → documentos históricos. Distinguir oferta acordada de capacidad implementada.
+2. Detectar contradicciones comerciales o de aprobación; resolverlas antes de puntuar. Avanzar en lo independiente; preguntar sólo por un dato imprescindible ausente.
+3. Inspeccionar página real, contenido/código y render desktop/móvil cuando exista entorno accesible en el alcance. Inventariar secciones, CTA, FAQ, funciones y rutas. Sin entorno, trabajar sobre materiales disponibles y declarar propuesta conceptual; la verificación queda pendiente, no se presume realizada.
+4. Enmarcar el problema del comprador. Relacionar cada feedback con evidencia y un criterio concreto de resolución.
+5. Ejecutar Z para oferta, inclusiones, adicionales, responsabilidades, escenarios y confianza.
+6. Ejecutar A según directory-a.mdc y B según directory-b.mdc; declarar modalidad real de revisión, sin simular independencia.
+7. Para decisiones mayores, contrastar al menos tres conceptos, incluida la página actual refinada, mediante esquemas breves; comparar funciones y tradeoffs. Desarrollar sólo el recomendado salvo encargo de variantes completas; no generar tres mockups por rutina.
+8. Ejecutar Directorio C v2: contrastar layout, imagen, movimiento y experiencia con referencias pertinentes; comprobar capacidades/datos, carga, accesibilidad, SEO y contacto. Aplicar design-motion-seo.mdc y design-validation.mdc. Registrar evidencia, propuesta y pendiente por separado.
+9. Rechazar antes de puntuar por contradicción de oferta, función esencial perdida, falsa prueba, duplicación material o inviabilidad.
+10. Puntuar sólo alternativas elegibles: valor 25%, claridad 20%, diferenciación 20%, viabilidad 15%, interés 10%, estrategia 10%. Mostrar criterios, evidencia y penalizaciones.
+11. Las notas son juicios comparativos, no medición de conversión. Invalidarlas si cambia una premisa material; no dar precisión ficticia sin base suficiente.
+12. Cruzar objeciones A/B/Z/C y resolver desacuerdos materiales. Explorar otra alternativa sólo si queda una objeción material sin resolver; no prolongar la ronda por una preferencia nueva. Cerrar con feedback resuelto o dependencia explícita, comparación pertinente y criterio de aceptación; reabrir por nueva evidencia material, fallo o cambio del encargo.
+13. Elegir CONSERVAR/REFINAR/FUSIONAR/MOVER/RETIRAR por sección: qué gana, qué pierde y dónde queda cada función necesaria.
+14. Registrar propuesta elegida, descartes, incertidumbre, preservado y alcance autorizado. La recomendación no congela una nueva arquitectura sin aprobación.
+15. Sólo después crear mockup/implementar dentro del encargo. Separar cambios locales, commit/push, publicación y verificación.
+
+## Controles que no pueden omitirse
+
+- No fijar un número de secciones ni recortar para cumplirlo. Tampoco añadir un bloque por cada sugerencia sin evaluar su función.
+- Comprensión rápida y profundidad opcional deben convivir: portada responde compra básica; interiores amplían.
+- FAQ se conserva si resuelve objeciones; reportes/transparencia se conservan como función, integrados o en bloque legible.
+- Control comercial: un usuario de GISBA incluido en el servicio; adicionales de pago. Elegibilidad y precios pendientes se etiquetan, no se inventan.
+- Revisar texto, FAQ, visuales, navegación y metadatos por coherencia con la misma oferta; no evaluar sólo H1 o tarjetas.
+- La acción dominante es reunión; verificar destino y recepción real antes de declarar contacto funcional.
+- Preservar visuales aprobados, hero frontal y paleta. No reemplazar diseño desde una captura con estilos defectuosos, animación incompleta o imágenes lazy sin cargar.
+- Reabrir sólo el delta material de claridad, estrategia, ingreso, viabilidad o veracidad; conservar trabajo adyacente.
+- Revisión SAME_AGENT no es independiente. No delegar salvo autorización del usuario o instrucción aplicable; no registrar votos ficticios.
+- Validación: render 1440/1920 y móvil, overflow, navegación, FAQ, etiquetas ilustrativas y afirmaciones respaldadas; medir sólo lo comprobado.
+
+## Salida mínima
+
+- Evidencia actual y feedback atendido; decisión por función/sección; razones y tradeoffs; confirmado/propuesto/pendiente; próximo paso concreto.
+- Evitar debates ficticios, preguntas redundantes y nuevos mockups antes de cerrar coherencia comercial.
+
+## Actualización 2026-10-06 — integridad y arquitectura comercial
+
+- Invocar Flujo 2A obliga a ejecutar sus controles aplicables; leer la regla o repetir una recomendación no equivale a ejecutarlo. Para un delta, justificar qué controles no aplican.
+- Antes del diseño, inventariar lo que el comprador necesita entender, comparar y contratar. No asumir que las tarjetas o agrupaciones existentes son la arquitectura correcta.
+- En Órbita, revisar explícitamente Google Ads, Meta Ads, TikTok Ads, Diseño/Desarrollo Web, GISBA independiente, GISBA incluido y automatizaciones. Registrar dónde aparece cada oferta o capacidad y justificar cualquier ausencia según la función de la página.
+- En Precios, comparar canales individuales, combinaciones e integral gestionado. Distinguir visibilidad del canal de contratación independiente: no aprobar paquetes, precios ni elegibilidad por inferencia.
+- Por modalidad: comprador, beneficio, alcance, entregables, responsable, unidad de cobro, inclusión, adicionales, presupuesto publicitario, implementación/soporte y exclusiones. Lo desconocido queda PENDIENTE, nunca convertido en promesa.
+- Diferenciar honorarios de gestión, inversión publicitaria, usuarios adicionales, suscripción y proyecto. Conservar un usuario de GISBA incluido; condiciones exactas pendientes. No extenderlo automáticamente a Web.
+- No ocultar Google/Meta/TikTok bajo Marketing sin explicar los canales y contrastar cómo presentarlos. No inventar una tarifa independiente para hacer completa la maqueta.
+- Proponer alternativas razonadas con premisas explícitas antes de trasladar decisiones al usuario. Preguntar sólo por el dato imprescindible para el siguiente paso; avanzar en lo independiente.
+- Revisar la función de la página: Software demuestra seguimiento; Marketing demuestra campañas; Precios permite entender modalidades e inversión. Las reglas compartidas no autorizan rediseñar páginas adyacentes.
+- A/B/C/Z deben producir hallazgos, objeciones y decisiones trazables sobre la misma evidencia. Declarar SAME_AGENT; no atribuir opiniones a revisores ficticios.
+- Contrastar la página actual refinada y dos alternativas materialmente distintas. Si una premisa comercial está sin resolver, mantener la recomendación provisional y no puntuar como confirmada.
+- Revisar jerarquía, alineación, ritmo, densidad, contraste y uso funcional de negro/lima/marfil. Más colores, animaciones o menos secciones no prueban calidad ni conversión.
+- Evaluar interacción cuando resuelve una tarea: resumen sticky limitado a su oferta, detalles opcionales, FAQ y navegación. No ocultar precio o condiciones esenciales en pestañas/acordeones. Selectores y calculadoras requieren modalidades y tarifas definidas.
+- Si se estudian referencias externas, inspeccionar contenido y render; registrar qué principio se adapta, con fuente. No inferir ventas/conversión a partir del precio publicado ni copiar capacidades o activos no aprobados.
+- Conservar FAQ útil, responsabilidades y transparencia; al fusionar/mover/retirar, indicar dónde queda cada respuesta. El contacto permanece PENDIENTE hasta verificar destino y recepción.
+
+## Cierre obligatorio de cada ejecución
+
+- Informar por control: VERIFICADO, PENDIENTE, NO APLICA (con razón) o BLOQUEADO; adjuntar evidencia suficiente. No declarar ejecución completa con controles aplicables pendientes.
+- Entregar inventario comercial, contradicciones, alternativas y tradeoffs, decisiones por sección, incertidumbres y siguiente paso seguro. En retoques, resumir sólo el delta sin omitir su comprobación comercial.
+- Distinguir revisión de código, imagen estática y prototipo navegable. Una imagen no valida sticky, FAQ, contacto ni responsive; declarar esas comprobaciones pendientes.
+- Validar 1440/1920 y móvil, carga/animaciones, overflow, legibilidad, CTA, FAQ, precios ilustrativos y coherencia de textos/metadatos si existe implementación dentro del alcance. Si no, no afirmar esa validación.
+- No decir «mejor», «final» o «flujo completo» sin comparación y evidencia; una elección entre conceptos sigue siendo provisional hasta validación y aprobación correspondiente.
+- Antes de generar otra versión, reconciliar todo el feedback vigente; no arreglar sólo la última frase mientras se conserva un problema material anterior.
+- Cambiar estas reglas no aprueba la arquitectura comercial ni autoriza editar/publicar las páginas. Preservar cambios ajenos y separar reglas, propuesta, implementación, commit/push y publicación.
+
+## Diseño, movimiento y SEO — 2026-10-08
+- Aplicar design-motion-seo.mdc en A/B/C/Z; incorporar hallazgos a las alternativas antes de elegir/generar. Cerrar explícitamente layout, imágenes, movimiento, móvil/accesibilidad, SEO, rendimiento y medición; un mockup no verifica ejecución ni resultados.

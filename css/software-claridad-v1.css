@@ -1,0 +1,78 @@
+/* Only Software. Preserve the frontal hero and functional interface colors. */
+.software-page .gs-provider { margin: -12px 0 24px; font-size: 14px; line-height: 1.5; color: #48622e; }
+.software-page .gs-lead { margin-bottom: 24px; }
+.software-page #flujo-consultas { background: #f6f3eb; }
+.software-page #flujo-consultas::before { content: none; }
+.software-page #flujo-consultas .cf-eyebrow,
+.software-page #flujo-consultas .cf-lead { color: #48622e; }
+.software-page #flujo-consultas .cf-copy h2 { color: #0b0d0b; line-height: 1.15; }
+.software-page #flujo-consultas .cf-process li { background: #fffdf8; border-color: #d5d8c8; }
+.software-page #flujo-consultas .cf-process li::before { color: #48622e; }
+.software-page #flujo-consultas .cf-process-icon { background: #eef7d6; color: #48622e; }
+.software-page #flujo-consultas .cf-process-team { border-color: #c7f45b; }
+.software-page #flujo-consultas .cf-process-team .cf-process-icon { background: #48622e; color: #fff; }
+.software-page #flujo-consultas .cf-responsibility { margin: 0 0 18px; font-size: 14px; line-height: 1.5; color: #48622e; }
+.software-page #flujo-consultas .cf-response-state { margin: 6px 0 0; font-size: 12px; line-height: 1.4; color: #075bbf; }
+.software-page #flujo-consultas .cf-client-title { flex-wrap: wrap; gap: 6px; }
+.software-page #flujo-consultas .cf-state-waiting,
+.software-page #flujo-consultas .cf-state-answered { white-space: normal; text-align: left; font-size: 11px; }
+.software-page #flujo-consultas .cf-record-details { min-width: 0; }
+.software-page #reportes .gr-kpi { gap: 9px; }
+.software-page #reportes .gr-change { margin-top: 10px; }
+.software-page #reportes .gr-qualified-detail { width: 100%; border-top: 1px solid #c8d4b0; }
+.software-page #reportes .gr-qualified-detail > summary { display: none; }
+.software-page #reportes .gr-pending { font-size: 12px; }
+.software-page #siguiente-paso.sw-closing { min-height: 0; padding: 52px 24px 44px; background: #f6f3eb; color: #0b0d0b; }
+.software-page #siguiente-paso::before,
+.software-page #siguiente-paso::after { content: none; }
+.software-page #siguiente-paso .sw-closing-kicker { margin-bottom: 20px; font-size: 12px; letter-spacing: .14em; color: #48622e; white-space: normal; }
+.software-page #siguiente-paso h2 { margin-bottom: 18px; font-size: clamp(36px,4vw,58px); line-height: 1.1; letter-spacing: -.045em; }
+.software-page #siguiente-paso h2 span { color: #48622e; }
+.software-page #siguiente-paso .sw-closing-lead { font-size: 20px; margin-bottom: 24px; color: #48622e; line-height: 1.5; }
+.software-page #siguiente-paso .sw-closing-cta { width: fit-content; max-width: 100%; min-height: 52px; padding: 14px 26px; border-radius: 99px; font-size: 17px; background: #c7f45b; color: #0b0d0b; box-shadow: none; }
+.software-page #siguiente-paso .sw-closing-cta span { font-size: 24px; }
+.software-page #siguiente-paso .sw-closing-note { margin: 14px 0 0; font-size: 13px; color: #48622e; }
+.software-page :is(a,summary,textarea):focus-visible { outline: 3px solid #48622e; outline-offset: 4px; }
+.software-page .site-header a:focus-visible,
+.software-page .site-footer a:focus-visible { outline-color: #c7f45b; }
+@media (min-width: 701px) and (max-width: 1100px) {
+  .software-page #flujo-consultas .cf-record-details { grid-column: 1; }
+  .software-page #flujo-consultas .cf-task { grid-row: 1; }
+}
+@media (max-width: 700px) {
+  .software-page .gs-provider { margin-top: 0; margin-bottom: 18px; }
+  .software-page #flujo-consultas .cf-copy h2 { font-size: 31px; }
+  .software-page #flujo-consultas .cf-responsibility { font-size: 14px; margin-bottom: 16px; }
+  .software-page #flujo-consultas .cf-record-details { grid-area: facts; }
+  .software-page #flujo-consultas .cf-record-details > summary { display: list-item; padding: 12px 4px; min-height: 44px; cursor: pointer; font-size: 14px; color: #075bbf; }
+  .software-page #flujo-consultas .cf-facts .cf-fact-owner,
+  .software-page #flujo-consultas .cf-facts .cf-fact-last { display: grid; }
+  .software-page #flujo-consultas .cf-task-main { grid-template-columns: 36px minmax(0,1fr); gap: 8px; }
+  .software-page #flujo-consultas .cf-task-main > .cf-state { grid-column: 2; justify-self: start; font-size: 12px; }
+  .software-page #flujo-consultas .cf-task-main p { font-size: 13px; }
+  .software-page #flujo-consultas .cf-task-icon { width: 36px; height: 36px; }
+  .software-page #flujo-consultas .cf-contact-title { flex-wrap: wrap; }
+  .software-page #reportes .gr-kpis { grid-template-columns: minmax(0,1fr); }
+  .software-page #reportes .gr-kpi { grid-column: 1; padding: 16px; }
+  .software-page #reportes .gr-change span { display: inline; }
+  .software-page #reportes .gr-qualified-detail > summary { display: list-item; cursor: pointer; min-height: 44px; padding: 9px 0; font-size: 14px; color: #48622e; }
+  .software-page #reportes .gr-main { padding-inline: 14px; }
+  .software-page #reportes .gr-channel { grid-template-columns: minmax(0,1fr) auto; gap: 5px; }
+  .software-page #reportes .gr-channel dd:last-child { grid-column: 2; font-size: 12px; }
+  .software-page #reportes .gr-channel dt { grid-row: span 2; }
+  .software-page #reportes .gr-sidebar li { flex-direction: column; gap: 4px; }
+  .software-page #siguiente-paso.sw-closing { padding: 36px 18px; }
+  .software-page #siguiente-paso .sw-closing-lead { font-size: 17px; }
+}
+@media (max-width: 360px) {
+  .software-page #flujo-consultas .cf-bar { gap: 7px; padding-inline: 9px; grid-template-columns: auto 1fr; }
+  .software-page #flujo-consultas .cf-example { grid-column: 1/-1; justify-self: start; font-size: 11px; }
+  .software-page #flujo-consultas .cf-brand { font-size: 23px; padding-right: 8px; }
+  .software-page #flujo-consultas .cf-bar h3 { font-size: 16px; }
+  .software-page #flujo-consultas .cf-message-out > .cf-bubble,
+  .software-page #flujo-consultas .cf-attachment { margin-left: 0; }
+  .software-page #flujo-consultas .cf-compose-actions { flex-wrap: wrap; }
+  .software-page #flujo-consultas .cf-send-button { margin-left: auto; }
+}
+
+.software-page #flujo-consultas .cf-state-client-waiting { color: #48622e; background: #eeeae0; white-space: normal; font-size: 11px; }

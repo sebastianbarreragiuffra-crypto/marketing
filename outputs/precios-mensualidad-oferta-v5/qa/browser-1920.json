@@ -1,0 +1,44 @@
+{
+  "costs": {
+    "bottom": 612.78125,
+    "height": 471.515625,
+    "width": 723.828125,
+    "x": 948.65625,
+    "y": 141.265625
+  },
+  "fonts": "loaded",
+  "notes": {
+    "bottom": 716.78125,
+    "height": 72,
+    "width": 1440,
+    "x": 232.5,
+    "y": 644.78125
+  },
+  "overflow": 0,
+  "section": {
+    "bottom": 756.78125,
+    "height": 735.515625,
+    "width": 1905,
+    "x": 0,
+    "y": 21.265625
+  },
+  "sectionOverflow": 0,
+  "service": {
+    "bottom": 537.859375,
+    "height": 260.78125,
+    "width": 668.15625,
+    "x": 232.5,
+    "y": 277.078125
+  },
+  "shell": {
+    "bottom": 716.78125,
+    "height": 643.515625,
+    "width": 1440,
+    "x": 232.5,
+    "y": 73.265625
+  },
+  "viewport": {
+    "height": 1080,
+    "width": 1920
+  }
+}

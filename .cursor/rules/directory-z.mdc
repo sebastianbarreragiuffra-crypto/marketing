@@ -1,40 +1,53 @@
 ---
-description: Directory Z — arquitectura comercial de Órbita y claridad para el comprador
+description: Directorio Z — oferta vigente, responsabilidades y claridad comercial de Órbita
 alwaysApply: true
 ---
 
-# Directory Z
+# Directorio Z
 
-Alcance local: sitio Órbita. Antes de diseñar o cambiar materialmente ofertas,
-portada, precios o navegación, determinar qué se vende, quién lo compra y cómo
-explicarlo con la menor complejidad posible. No exigir este análisis para retoques locales.
+Si se solicita una revisión fresca, aplicar fresh-review-google.mdc: entregar oferta confirmada y límites como briefing neutral; no sembrar el diseño preferido ni convertir conclusiones anteriores en aprobaciones.
 
-## Portafolio y límites
+Alcance: sitio Órbita; aplicar antes de cambiar oferta, portada, precios o navegación.
+Fuente comercial local: esta regla. Las instrucciones actuales del usuario prevalecen sobre ella.
 
-- Órbita = agencia/empresa; GISBA = producto de software.
-- Marketing = servicio gestionado; Web = servicio por proyecto; automatizaciones = capacidad personalizada.
-- Marketing lidera la portada. GISBA puede sumarse opcionalmente y también tiene una ruta independiente.
-- No presentar todas las capacidades como productos equivalentes ni inventar bundles, tarifas o dependencias.
-- El comprador puede no entender marketing, CRM, IA o APIs: explicar resultados primero.
-- No usar clientes, testimonios, resultados ni integraciones ficticios como prueba real.
+## Base reconciliada — 2026-10-05
 
-## Siete perspectivas obligatorias para decisiones mayores
+- Órbita es la agencia/empresa; GISBA es el software ofrecido por Órbita.
+- Marketing digital es el servicio gestionado: Google Ads, Meta Ads y TikTok Ads según el alcance acordado.
+- Condición confirmada por el usuario: el servicio contratado contempla GISBA para un usuario; más usuarios tienen costo adicional.
+- No presentar ese usuario incluido como una compra opcional adicional ni inventar tarifas, períodos o planes.
+- Desarrollo/Diseño Web es un servicio por proyecto y permanece visible en la oferta, aunque no figure en el H1.
+- Automatizaciones es una capacidad a medida con menor protagonismo; no un paquete equivalente a Marketing.
+- La ruta previamente contemplada de GISBA independiente para otra agencia/equipo interno se mantiene secundaria; no confundirla con el acceso incluido.
+- Pendiente: modalidades exactas a las que aplica el asiento, tarifas adicionales y alcance técnico disponible. No extender condiciones a Web automáticamente.
+- Marketing lidera. Explicar responsabilidades: agencia gestiona campañas; GISBA facilita visibilidad/seguimiento; atención del cliente según alcance confirmado.
+- Conversión principal: «Agenda una reunión», con recorrido directo funcional. Explorar servicios es secundario.
 
-1. Arquitectura de oferta: clasificar servicio principal, independiente, software, complemento o implementación.
-2. Situación del comprador: sin agencia, con agencia, equipo interno, necesita web, consultas, seguimiento o automatización.
-3. Ingresos y packaging: separar compra independiente, combinación opcional y expansión; no inventar condiciones.
-4. Ventas y objeciones: probar una explicación sencilla y responder dudas de compra y cambio de herramientas.
-5. Arquitectura del sitio: decidir hero, páginas propias, presencia secundaria y eliminación de bloques.
-6. Confianza: identificar evidencia disponible y faltante; usar interfaces ilustrativas debidamente identificadas.
-7. Claridad externa: prueba conceptual de 5 y 30 segundos y explicación de vuelta; no afirmar validación con usuarios sin realizarla.
+## Feedback que debe resolverse
 
-## Salida proporcional a la decisión
+- Ofertas indistinguibles → explicar tipo, responsabilidad, inclusión y relación; evitar tarjetas equivalentes sin contexto.
+- Demasiados caminos → jerarquizar acciones y ayudar a decidir en una conversación; no exigir autodiagnóstico.
+- Comprensión rápida → copy breve y demostración legible; conservar información de compra, FAQ y transparencia.
+- Desconfianza → mostrar inversión, resultados, trabajo realizado y próximos pasos; una maqueta explica, no prueba resultados reales.
 
-- Definición de empresa en una frase y mapa de ofertas/relaciones.
-- Situación → problema → oferta → resultado; rutas independientes y combinables.
-- Lógica de ingresos y packaging, distinguiendo confirmado, propuesto y pendiente.
-- Jerarquía del mensaje y páginas; CTA principal y rutas alternativas.
-- Objeciones, prueba necesaria, confusiones y simplificación final.
-- Toda sección debe explicar la oferta, ayudar a elegir, aportar confianza,
-  resolver una objeción o impulsar conversión. Si no cumple, recomendar retirarla.
-- Mostrar conclusiones y desacuerdos materiales; evitar debate ficticio y cifras de conversión inventadas.
+## Siete perspectivas
+
+1. Oferta: servicio principal, beneficio incluido, software independiente, proyecto o capacidad a medida.
+2. Comprador: sin agencia, con agencia/equipo interno, necesita web, consultas o seguimiento.
+3. Ingresos: incluido, adicional y compra independiente; distinguir confirmado, propuesto y pendiente.
+4. Venta: objeciones y FAQ útiles sobre inclusión, usuarios, responsabilidades, inversión y alcance.
+5. Sitio: función de cada sección, rutas propias y contenido que puede fusionarse sin perder respuestas.
+6. Confianza: evidencia real disponible, demostración ilustrativa y afirmaciones técnicas pendientes.
+7. Claridad externa: explicación conceptual de 5/30 segundos; validación real sólo con prueba efectuada.
+
+## Cierre
+
+- Detectar conflictos entre documentos antes de evaluar; resolver con la última aclaración explícita del usuario, no sólo con fechas de archivos.
+- Entregar definición breve de empresa, mapa de ofertas, modalidades, responsabilidades y siguiente acción.
+- El inventario de la página actual precede a la arquitectura propuesta. No fijar tres, cinco u otra cantidad de secciones.
+- FAQ y transparencia cumplen funciones propias; decidir integración o bloque según legibilidad y objeciones, nunca suprimir por cuota.
+- Conservar hero frontal, paleta negro/lima/marfil y páginas Software aprobadas; revisar sólo contradicciones materiales.
+- No inventar clientes, testimonios, métricas, integraciones, envíos o mejoras de conversión.
+
+## Diseño, movimiento y SEO — 2026-10-08
+- Aplicar design-motion-seo.mdc: verificar que las escenas, imágenes y animaciones respetan la oferta, responsabilidades y capacidades reales; no convertir referencias en promesas propias.

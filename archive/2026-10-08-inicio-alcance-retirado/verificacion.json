@@ -1,0 +1,15 @@
+{
+  "VERIFICADO": [
+    "Sección y enlace CSS retirados, HTML/CSS conservados",
+    "Resto de Inicio y otras páginas idénticos al baseline",
+    "1440 y 390: sin hueco entre Marketing y FAQ, sin overflow",
+    "Manifiesto actualizado y --check correcto"
+  ],
+  "PENDIENTE": [
+    "1920: comprobación de navegador interrumpida"
+  ],
+  "NO_APLICA": [
+    "Commit, push o publicación: no solicitados"
+  ],
+  "modo": "SAME_AGENT A/B/C/Z"
+}

@@ -1,0 +1,47 @@
+{
+  "details": [
+    {
+      "class": "cf-list-mobile",
+      "open": false
+    },
+    {
+      "class": "cf-record-details",
+      "open": false
+    },
+    {
+      "class": "gr-qualified-detail",
+      "open": false
+    }
+  ],
+  "h1": 1,
+  "images": [],
+  "overflow": [],
+  "pageOverflow": false,
+  "sections": [
+    {
+      "h": 1827.359375,
+      "id": "",
+      "w": 305,
+      "y": 77
+    },
+    {
+      "h": 1385.203125,
+      "id": "flujo-consultas",
+      "w": 305,
+      "y": 1904.359375
+    },
+    {
+      "h": 2028.703125,
+      "id": "reportes",
+      "w": 305,
+      "y": 3289.5625
+    },
+    {
+      "h": 382.15625,
+      "id": "siguiente-paso",
+      "w": 305,
+      "y": 5318.265625
+    }
+  ],
+  "viewport": 320
+}
