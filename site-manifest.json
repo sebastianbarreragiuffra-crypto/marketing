@@ -20,7 +20,7 @@
     "css/account-pricing.css": "0b4cde97aa4bb251b9d27bd9407dcfd0e58826344a429a08818139ca39509d2b",
     "css/compra-clara-20261008.css": "3b83d93d653e5f7c7238912f216513e6abfb9310012d01440d928d709d61a3ac",
     "css/cta-new.css": "10bc2c276ea615922031e1834954b0f7e3138985b32f10a14bf0ed974f6c9c88",
-    "css/directory-c-home.css": "9c7e3958c6b9cdf58a0e32d1a1a66350a7965d76d3f28d63ff4aac8d2676119a",
+    "css/directory-c-home.css": "00d911048578aad5acdd656480021d6f5129fe3860158d3090fa1d42b6d45323",
     "css/directory-c-marketing.css": "cc6f7c6c0d42d78b1c94021f4c4d13164ce03afc653f7ed60a50c6fbf58ad4ab",
     "css/directory-c-pricing.css": "ca9d8b231210d3d308b7adddcf30899c40745af6f228367dd296b7f2c3053b9a",
     "css/directory-c-shared.css": "912d8052ec2af2dad0ea4ff28ae349fe63a52503585d0c96463d13d05f2ed3fb",
@@ -47,7 +47,7 @@
     "css/marketing-contact.css": "933950bfa01290ef33d3f90fe73115712117290ef88e550b9364a7c84eed6bab",
     "css/marketing-hero.css": "baa359be42f863c1f4aaa7ca368a7d6cfaf01d372ad6d3f1743d479894ea568d",
     "css/marketing-home-2a.css": "5ca6318e840d856691a54e3e4a06a571bb8e4230540a390f17f14ae904dcfd63",
-    "css/marketing-new.css": "1bf51febc2b8a7d1d2ef41b24a1069ef1756dd88bb2816ccf980570931fdd1ce",
+    "css/marketing-new.css": "26ac0f44b417ada7589d82bdb736aad61767f952bce33678f56e8d87792a529d",
     "css/marketing-services.css": "5ad12c42db3288d8daf8f9c67fd3f9e2571d2b8e64b834e453bee574e5910e90",
     "css/oferta-claridad-20261008.css": "7147ee93646f222c7a13c90974ef9e0122315f4db1d1ae266d925cc844769016",
     "css/palette.css": "14128a8971b62b9dced17380ed12a9aecd11506d0ea32e910933f2dcd39f41e7",
@@ -67,9 +67,9 @@
     "css/styles.css": "88841cc09489c1d3359cff7749e33b85c9bab6156c2e795e07f95396e8afb31e",
     "favicon.svg": "41bb4beb0ec3e50a873427602bf6fd0317991643a7e6ca99b0f51c86296a8a4f",
     "hablemos.html": "3e803d271c12b2d959d0126dc1c1a0a060f618d8b45660413abbdbb74f105855",
-    "index.html": "77daee4f1589201dee5ccdc88a560b19b4ba220f9b9c54a5b75592e853da3ca1",
+    "index.html": "a84b947b432d27fb9bc6ee9955c59c988df495cf6227cd062a7b9277b1223394",
     "iniciar-sesion.html": "1f336dd440335c807e155e725270aa18ae3d6c6381c5dd927af63993c16e1f05",
-    "js/experience-motion.js": "46291ed7258da1814d852a96d08948a9a1ca6b09f2c8f81819b7f28be63e4ff4",
+    "js/experience-motion.js": "0a3431bbd2f6ec40ea95707c106d0c70aa2c3edbdd964d342500e777586de3d6",
     "js/hero-carousel.js": "657d9d45626b35b5a648f749decbcfa26a4019f33450c2ce3c85cfd506b59234",
     "js/home-contact-reference.js": "a81f723ac34627051e382d08ab41038f0d129ef5af6261cf58c82527c2316931",
     "js/home-contact.js": "5ae5fd5a1a7d7fbb5b4441a16cb1d4827563b48da413996dbf002ce99157b4fb",
@@ -78,10 +78,10 @@
     "js/marketing-services.js": "d8e5a336be1b98f8c994305661c6bb72d65b258b01c0982de673a151dee2b927",
     "js/precios-disclosures.js": "4b4491bd08f8baaa88ec7748d3583ca446f2a75e45d9b0e499f752ab3a3bd4be",
     "js/software-claridad-v1.js": "3ec861b446f2ac1a459ed245407f8cf758776c8602094159a5087120d567686c",
-    "marketing.html": "ef68a90affee28d1b4b00db1593c7485154a1ba8c5b7c6106ae02d55c12c9979",
+    "marketing.html": "fab124d35e9c1b72372c1a57dc691672d669fe2d8a490a3957539737a4a0f984",
     "precios.html": "98ade5b4e27bce1cff659381eb3c45a8a4d9c3f064939cac40b59f68b9eb599e",
     "software.html": "eb5de659f8342cb3e390176930ba62d3946ff4029e8e09e4edd474c142b73b36"
   },
   "schema": 1,
-  "version": "e841e246d484d8d42b3042a2e07eac87efc164fb71a26e2a2a92152279f2fb79"
+  "version": "1a308fbe9dd8b2a2c0093c395c3fbee4e111d38e35afdbe058493ce51f1541c4"
 }

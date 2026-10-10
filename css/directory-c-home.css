@@ -24,30 +24,6 @@
   #contenido > .hx-marketing-reference .ha-process { margin-top: 16px; font-size: 16px; }
   #contenido > .hx-marketing-reference .hx-caption { margin-top: 12px; font-size: 12px; }
 
-  #contenido > .mk { padding: 16px 0; }
-  #contenido > .mk .mk-wrap { width: min(calc(100% - 80px), 1440px); }
-  #contenido > .mk .mk-head { margin-bottom: 14px; }
-  #contenido > .mk .mk-label { margin-bottom: 8px; }
-  #contenido > .mk h2 { font-size: 38px; margin-bottom: 8px; }
-  #contenido > .mk .mk-sub { font-size: 16px; line-height: 1.4; }
-  #contenido > .mk .mk-card { padding: 14px; gap: 8px; }
-  #contenido > .mk .mk-card-head { gap: 10px; }
-  #contenido > .mk .mk-card-head h3 { font-size: 20px; }
-  #contenido > .mk .mk-card-head p { font-size: 14px; }
-  #contenido > .mk .mk-num { width: 38px; height: 38px; font-size: 15px; }
-  #contenido > .mk .mk-items, #contenido > .mk .mk-platforms { gap: 8px; }
-  #contenido > .mk .mk-platforms li { padding: 10px 12px; gap: 10px; }
-  #contenido > .mk .mk-items li div > span { font-size: 14px; }
-  #contenido > .mk .mk-ico { width: 40px; height: 40px; }
-  #contenido > .mk .mk-team { margin-top: 10px; padding: 12px 18px; gap: 18px; }
-  #contenido > .mk .mk-team-intro { gap: 12px; }
-  #contenido > .mk .mk-team-intro h3 { font-size: 20px; }
-  #contenido > .mk .mk-team-intro p { font-size: 14px; }
-  #contenido > .mk .mk-team-list { padding-left: 18px; }
-  #contenido > .mk .mk-team-list li { padding-inline: 8px; }
-  #contenido > .mk .mk-team-list li > span:not(.mk-ico) { font-size: 14px; }
-  #contenido > .mk .mk-team-list .mk-ico { width: 40px; height: 40px; }
-
   #contenido > .ag { padding: 24px 0; }
   #contenido > .ag .ag-wrap { width: min(calc(100% - 80px), 1440px); }
   #contenido > .ag .ag-head { margin-bottom: 18px; }
@@ -84,8 +60,6 @@
   #contenido > .hx-marketing-reference .hx-stage,
   #contenido > .hx-marketing-reference .hx-frame:not([hidden]),
   #contenido > .hx-marketing-reference .hx-frame.is-switching,
-  #contenido > .mk .mk-card.landing-motion-target,
-  #contenido > .mk .mk-team.landing-motion-target,
   #contenido > .ag .ag-card.experience-item,
   #contenido > .fq details.experience-item {
     animation: none;
@@ -93,7 +67,6 @@
     filter: none;
     opacity: 1;
   }
-  #contenido > .mk .mk-head.experience-item,
   #contenido > .ag .ag-head.experience-item,
   #contenido > .ag .ag-banner.experience-item,
   #contenido > .fq .fq-head.experience-item { opacity: 1; transform: none; filter: none; }

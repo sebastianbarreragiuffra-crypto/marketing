@@ -42,6 +42,7 @@
 .mk-team-list li:first-child{border-left:0}
 .mk-team-list li>span:not(.mk-ico){color:#aab6a6;font-size:13px}
 .mk-team-list .mk-ico{width:46px;height:46px;border-radius:50%;margin-bottom:2px}
+.mk-note{margin:10px 0 0;color:#aab6a6;font-size:12px;text-align:center}
 @media(max-width:1180px){
   .mk-wrap{width:min(100% - 56px,1050px)}
   .mk-steps{grid-template-columns:1fr 1fr;gap:14px}
@@ -61,4 +62,33 @@
   .mk-team-list{grid-template-columns:1fr 1fr;gap:18px 8px}
   .mk-team-list li{border-left:0;padding:0 4px}
   .mk-team-list strong{font-size:13px}
+}
+
+/* Preserve the approved compact desktop composition after moving this section to Marketing. */
+@media (min-width: 1200px) {
+  #contenido > .mk { padding: 16px 0; }
+  #contenido > .mk .mk-wrap { width: min(calc(100% - 80px), 1440px); }
+  #contenido > .mk .mk-head { margin-bottom: 14px; }
+  #contenido > .mk .mk-label { margin-bottom: 8px; }
+  #contenido > .mk h2 { font-size: 38px; margin-bottom: 8px; }
+  #contenido > .mk .mk-sub { font-size: 16px; line-height: 1.4; }
+  #contenido > .mk .mk-card { padding: 14px; gap: 8px; }
+  #contenido > .mk .mk-card-head { gap: 10px; }
+  #contenido > .mk .mk-card-head h3 { font-size: 20px; }
+  #contenido > .mk .mk-card-head p { font-size: 14px; }
+  #contenido > .mk .mk-num { width: 38px; height: 38px; font-size: 15px; }
+  #contenido > .mk .mk-items, #contenido > .mk .mk-platforms { gap: 8px; }
+  #contenido > .mk .mk-platforms li { padding: 10px 12px; gap: 10px; }
+  #contenido > .mk .mk-items li div > span { font-size: 14px; }
+  #contenido > .mk .mk-ico { width: 40px; height: 40px; }
+  #contenido > .mk .mk-team { margin-top: 10px; padding: 12px 18px; gap: 18px; }
+  #contenido > .mk .mk-team-intro { gap: 12px; }
+  #contenido > .mk .mk-team-intro h3 { font-size: 20px; }
+  #contenido > .mk .mk-team-intro p { font-size: 14px; }
+  #contenido > .mk .mk-team-list { padding-left: 18px; }
+  #contenido > .mk .mk-team-list li { padding-inline: 8px; }
+  #contenido > .mk .mk-team-list li > span:not(.mk-ico) { font-size: 14px; }
+  #contenido > .mk .mk-team-list .mk-ico { width: 40px; height: 40px; }
+
+  #contenido > .mk .mk-head.experience-item { opacity: 1; transform: none; filter: none; }
 }

@@ -4,8 +4,8 @@
 
   const isHome = Boolean(document.querySelector('.hx'));
   const selectors = isHome
-    ? '.sol-head, .mk-head, .ag-head, .ag-card, .ag-banner, .fq-head, .fq-list details, .ct-head, .ct-card'
-    : '.ms-tabs, .ms-intro, .ms-dashboard, .ms-plans, .ms-platforms, .ms-software-note';
+    ? '.sol-head, .ag-head, .ag-card, .ag-banner, .fq-head, .fq-list details, .ct-head, .ct-card'
+    : '.ms-tabs, .ms-intro, .ms-dashboard, .ms-plans, .ms-platforms, .ms-software-note, .mk-head';
   const items = [...document.querySelectorAll(selectors)];
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
