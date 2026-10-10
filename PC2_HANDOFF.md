@@ -59,3 +59,5 @@ Cloudflare Pages usa una publicación separada. No confundir “guardado local�
 Conservar la versión que el usuario haya confirmado en la web activa. En octubre de 2026, Precios tiene el recibo de mensualidad y el cierre “Descubramos qué necesita tu negocio” con “Antes de agendar”; la invitación redundante a ver GISBA fue retirada. El manifiesto, no esta descripción, verifica los archivos exactos.
 
 Las guías que describían la restauración del 4 de octubre y URLs antiguas están en `archive/2026-10-07-source-cleanup/`. No son instrucciones de restauración. Formularios, reservas, login, tarifas y capacidades de GISBA pendientes no se consideran conectados o aprobados por verse en una captura.
+
+Desde el 10 de octubre de 2026, por instrucción del usuario, `iniciar-sesion.html` es una ruta vacía reservada para redirigir al acceso externo. No restaurar el formulario ni añadir contenido, navegación o footer. La URL de destino no se ha proporcionado: la redirección permanece pendiente y no debe apuntar a un destino supuesto.

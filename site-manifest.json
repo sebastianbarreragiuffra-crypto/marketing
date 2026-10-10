@@ -17,7 +17,6 @@
     "assets/software-consultas/cliente-03.webp": "ce1bc96d554f75f5f95c6e13ca7c1dfd929152ed9b9bffcacde74827ab542a69",
     "assets/software-consultas/contacto-02.webp": "bddefb46a7be618d4c22e86f57923176f99e272d60d61a5a9debfb0d683d26ef",
     "automatizaciones.html": "bac0368265e6d6ba4d8d1c9447f551dcfc35753c7d4e849f9b5f823fd37edc6b",
-    "css/account-pricing.css": "0b4cde97aa4bb251b9d27bd9407dcfd0e58826344a429a08818139ca39509d2b",
     "css/compra-clara-20261008.css": "3b83d93d653e5f7c7238912f216513e6abfb9310012d01440d928d709d61a3ac",
     "css/cta-new.css": "10bc2c276ea615922031e1834954b0f7e3138985b32f10a14bf0ed974f6c9c88",
     "css/directory-c-home.css": "00d911048578aad5acdd656480021d6f5129fe3860158d3090fa1d42b6d45323",
@@ -68,7 +67,7 @@
     "favicon.svg": "41bb4beb0ec3e50a873427602bf6fd0317991643a7e6ca99b0f51c86296a8a4f",
     "hablemos.html": "eb8ec76116a847c4d7088e7d7a41e729f04b43d97d9582b3dc657d6b0af21573",
     "index.html": "f49c269fd78a29ec4bcda934f115d7eeb31fb8870fc4b4779e0009e56cdb31fb",
-    "iniciar-sesion.html": "25684a927eb00b0a89db841a9cb6bef1e497284a2c9773f0123c4bd1617d63f4",
+    "iniciar-sesion.html": "9e8cf06220abcf24cef96a4338d0533326e8393c705b0394cef9591a41353335",
     "js/experience-motion.js": "d82f7f835f202b558c65e3df2ce7a047932d544f3286b70a0fec8d5d0e1c006d",
     "js/hero-carousel.js": "048801ccbab36af59bc5e16d0c22e8a988bfb4b4ce8bc65dc1a796c3d5214f89",
     "js/home-contact-reference.js": "a81f723ac34627051e382d08ab41038f0d129ef5af6261cf58c82527c2316931",
@@ -83,5 +82,5 @@
     "software.html": "4039fd2808b6a2a08c40841392e35382f7a0723a67d94d1cedb1f9ab24f68aa5"
   },
   "schema": 1,
-  "version": "4eb9a7c65cda5df4606414ed9a60b66c1a7ef6e2550f74b496af429bcd4efc6c"
+  "version": "8ff4b29357792791a4507e92db7ed1b553d8f0ed31dd3ef409d9730f39b65019"
 }
