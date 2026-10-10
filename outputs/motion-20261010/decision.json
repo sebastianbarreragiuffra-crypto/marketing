@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "phase": "implementation",
+  "review": "SAME_AGENT_CHALLENGE; no independent reviewers in this iteration",
+  "scope": "Requested website animations, preserving approved composition, page sections, offer, prices, assets and metadata",
+  "before": {
+    "marketing": "Publicity tabs updated content instantly; old motion selectors targeted retired ms-* elements. Actual styles showed no transition on purchase-explanation or purchase-example; orbit glow ran indefinitely.",
+    "home": "Manual views and one-time ad entrances existed. Keep manual control; consolidate the view transition under the shared owner.",
+    "other_pages": "Shared experience-motion was not connected to Software, Precios, Hablemos or Login.",
+    "cascading": "directory-c-shared disabled experience-item/reveal transformations and animation, and main.js retained an obsolete hidden reveal owner."
+  },
+  "priorities": [
+    {
+      "decision": "REFINAR existing tabs; keep native selection and focus owners",
+      "purpose": "Orientation and immediate feedback when comparing channels or Home views",
+      "reference": "https://motion.dev/examples/react-smooth-tabs",
+      "evidence": "Current documentation refreshed; prior live example observed at 1440 and 390 with selection and moving indicator. No copied source or assets.",
+      "adaptation": "Moving underline, rather than moving dark fill: labels retain contrast throughout transit. Home manual opacity transition; Marketing selected copy/work/image change briefly, keeping dimensions and current data.",
+      "contract": "Manual click/Arrow/Home/End -> selected state immediately -> 240ms transition -> stable. No autoplay. Resize recomputes underline without motion. Image transition waits for its current load.",
+      "acceptance": "Correct selected/labelledby/tabIndex, final selected image, no stale queues, no overflow or hero height jump.",
+      "observed": "Marketing Meta/Google/TikTok switched with keyboard and mouse; selected image CSS animation observed. Home indicator and keyboard selection observed; hero height 665.765625px unchanged across views at 1440. Home view fade controller verified with unit tests; a post-click DOM sample captured its stable final state."
+    },
+    {
+      "decision": "REFINAR native examples and FAQ details",
+      "purpose": "Preserve context during optional-detail opening and closing",
+      "reference": "https://developer.chrome.com/blog/styling-details",
+      "evidence": "Primary documentation refreshed for details-content, interpolate-size and discrete content-visibility transitions.",
+      "adaptation": "240ms intrinsic-height transition in supporting browsers. Native open state, summary, keyboard and search semantics remain intact. Existing label/default scripts retain control. No animation during initial default selection. Older browsers retain native instantaneous height and receive a 180ms opening fade when JS is available.",
+      "acceptance": "No fixed content caps, preserved defaults/choices on resize, native Enter activation and focus, all content readable.",
+      "observed": "Mobile Meta example opened by Enter; intermediate content block 3.85938px -> final295.016px, summary remained focused. Google/Meta/TikTok state true/true/false persisted after resizing to1440. Hablemos FAQ fifth opened by Enter and native name exclusivity closed the first."
+    },
+    {
+      "decision": "REFINAR one-time introductions and CTA feedback on six pages",
+      "purpose": "Orient reading on section entry and acknowledge available actions",
+      "adaptation": "Visible base HTML; 400ms one-time entrance, 300ms on mobile. No pending hidden classes. CTA arrow moves3px over160ms on keyboard focus or fine-pointer hover; disabled controls excluded. No moving prices/KPI, scroll lock, trackers or animation library.",
+      "acceptance": "Content remains available if shared JS fails or arrives late. Finish transient classes on focus, reduced-motion preference change or backgrounding; no entrance replay.",
+      "observed": "Actual site-motion-enter computed animations observed on Marketing and Software. One shared script owner on all six pages. Normal-state headings and reveal content visible at all tested widths."
+    }
+  ],
+  "validation": {
+    "responsive": "Six active pages at configured viewport1440,1920,390,360,320, after load. 30 records in responsive.json. Browser scrollbar consumes15px of content viewport. No horizontal overflow, completed broken images or hidden non-tabbed headings. Useful content max1440 at1920.",
+    "keyboard": "Home and Marketing arrows retained focus/selection. Native details Enter. Mobile menu Escape closed it and returned focus.",
+    "tests": "Seven Node VM regression tests passed: reduced initial state, changing preference during motion, rapid selection, focused controls, one-time entry/background stop, older-browser details fallback, manual Home view event.",
+    "reduced_motion": "JS branches and interruption verified in controlled VM. CSS reduce rules reviewed. Actual OS preference in a browser remains untested: IAB exposes viewport/visibility, no media emulation.",
+    "fallback": "Browser fixtures without script tags: all six pages at390 kept headings visible (opacity1), no hidden reveal content and no horizontal overflow. Precios Meta native disclosure opened by Enter with295.016px content. A Marketing fixture delayed the shared script3seconds; its post-navigation loaded state remained visible (opacity0.88 during entrance), overflow0. Navigation waited for the delayed script, so the visual state during that3second wait was not directly sampled. Full slow-network browser throttling remains untested. See fallback.json.",
+    "visual": "Selected desktop Home/Marketing and mobile Precios renders observed. This is targeted motion verification, not a fresh complete accessibility certification or buyer usability study.",
+    "seo": "Metadata, noindex and commercial content preserved; no new tracking or invented capabilities.",
+    "performance": "No new dependencies or images. Browser console inspected without errors. Field Core Web Vitals, Lighthouse and conversion impact not measured.",
+    "not_in_scope": "Connecting contacts, reservations, login or GISBA. Interactive Software task walkthrough would be a separate illustration change, not implemented in this iteration."
+  },
+  "publication": "PENDING at creation; see deployment.json after publish"
+}

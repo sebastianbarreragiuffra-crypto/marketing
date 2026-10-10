@@ -1,0 +1,56 @@
+{
+  "noScript": [
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "Inicio | Órbita — Marketing digital y software de ventas"
+    },
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "Marketing para tiendas online y empresas B2B | Órbita"
+    },
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "GISBA | Campañas y seguimiento para tu equipo — Órbita"
+    },
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "Precios | Órbita"
+    },
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "Hablemos | Órbita"
+    },
+    {
+      "h1Visible": "1",
+      "hiddenContent": [],
+      "overflow": 0,
+      "scripts": 0,
+      "title": "Iniciar sesión | Órbita"
+    }
+  ],
+  "delayBefore": {
+    "h1Opacity": "0.88",
+    "overflow": 0,
+    "ready": true
+  },
+  "delayAfter": {
+    "h1Opacity": "0.88",
+    "overflow": 0,
+    "ready": true
+  }
+}

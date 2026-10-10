@@ -25,7 +25,6 @@
 .fq details[open] .fq-chev{transform:rotate(180deg);color:#c7f45b}
 .fq-a{margin:0 14px 14px;padding:16px 22px;border:1px solid #2c4a2b;border-radius:10px;background:#0f2417}
 .fq-a p{margin:0;color:#dbe2d7;font-size:clamp(14px,1.1vw,17px);line-height:1.55}
-@media(prefers-reduced-motion:no-preference){.fq details[open] .fq-a{animation:fq-in .22s ease}@keyframes fq-in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}}
 @media(prefers-reduced-motion:reduce){.fq details,.fq-chev{transition:none}}
 @media(max-width:1180px){.fq-wrap{width:min(100% - 56px,820px)}}
 @media(max-width:700px){

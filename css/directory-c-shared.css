@@ -1,5 +1,5 @@
 /* Directorio C: texto estable y fondos separados del contenido. */
-.landing-reveal, .experience-item, .motion-on .reveal {
+.landing-reveal {
   opacity: 1 !important;
   transform: none !important;
   animation: none !important;

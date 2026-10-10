@@ -17,10 +17,7 @@
   .hx-marketing-reference .ha-ads.is-entering .ha-instagram{animation-delay:0s}
   .hx-marketing-reference .ha-ads.is-entering .ha-google{animation-delay:.24s}
   .hx-marketing-reference .ha-ads.is-entering .ha-tiktok{animation-delay:.34s}
-  .hx-marketing-reference .hx-frame.is-switching>.ha-ads,
-  .hx-marketing-reference .hx-frame.is-switching>.hx-panel{animation:home-view-in .24s ease-out both}
   @keyframes home-ad-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-  @keyframes home-view-in{from{opacity:.5}to{opacity:1}}
 }
 @media(prefers-reduced-motion:reduce){
   #contenido .hx-marketing-reference *,#contenido .sol-offer-2a *,

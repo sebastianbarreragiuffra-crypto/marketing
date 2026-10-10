@@ -8,7 +8,7 @@
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   let active = tabs.findIndex(tab => tab.getAttribute('aria-selected') === 'true');
   let entered = reduced.matches;
-  let entranceTimer, switchTimer, observer;
+  let entranceTimer, observer;
   function finishEntrance() {
     window.clearTimeout(entranceTimer);
     ads.classList.remove('is-entering');
@@ -24,7 +24,6 @@
   function show(index, focus = false) {
     if (index !== active) {
       finishEntrance();
-      window.clearTimeout(switchTimer);
       panels.forEach((panel, i) => {
         panel.classList.remove('is-switching');
         panel.hidden = i !== index;
@@ -33,10 +32,7 @@
       });
       active = index;
       hero.dataset.slide = String(index);
-      if (!reduced.matches) {
-        panels[index].classList.add('is-switching');
-        switchTimer = window.setTimeout(() => panels[index].classList.remove('is-switching'), 240);
-      }
+      document.dispatchEvent(new CustomEvent('orbita:hero-view', { detail: { panelId: panels[index].id } }));
       if (index === 0) enterAds();
     }
     if (focus) tabs[index].focus();
@@ -63,7 +59,6 @@
     entered = true;
     observer?.disconnect();
     finishEntrance();
-    window.clearTimeout(switchTimer);
     panels.forEach(panel => panel.classList.remove('is-switching'));
   });
 })();
