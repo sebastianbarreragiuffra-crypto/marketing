@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-10",
+  "source_commit": "bf40843c529b20282c6d4ada20b67a6fab894f35",
+  "branch": "main",
+  "remote": "https://github.com/sebastianbarreragiuffra-crypto/marketing",
+  "content_version": "4eb9a7c65cda5df4606414ed9a60b66c1a7ef6e2550f74b496af429bcd4efc6c",
+  "deployment_fingerprint": "e1927130891d",
+  "stable_url": "https://orbita-marketing.pages.dev/",
+  "deployment_url": "https://4bf4cbf9.orbita-marketing.pages.dev",
+  "upload": "81 public assets staged;14 new uploads;68 unchanged; no outputs/mockups/archive files published",
+  "verification": "Publisher verified production marker. Public browser reloaded /precios: shared scriptv20261010-m1, initialized motion owner, native240ms disclosure transition, no overflow or completed broken images. Meta example opened with keyboard and full content final height389.953px.",
+  "handoff": "Active source changes were committed and pushed to main; local/remote source SHA matchedbf40843 before deployment. Subsequent evidence-only commit preserves exactly the same content version. Use PC2_HANDOFF.md to fetch/pull/verify on PC2.",
+  "limitations": "Real browser OS reduced-motion preference and full slow-network throttling remain untested; controlled preference tests passed. Contact/login/reservation functionality remains a preview. No conversion gains or full accessibility certification claimed."
+}
