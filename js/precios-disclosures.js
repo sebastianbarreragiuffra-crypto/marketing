@@ -7,7 +7,7 @@
     const updateLabel = () => {
       label.textContent = `${detail.open ? 'Ocultar' : 'Mostrar'} ejemplo de ${detail.dataset.adChannel}`;
     };
-    detail.open = !mobileAtLoad || index === 0;
+    detail.open = !mobileAtLoad || index < 2;
     updateLabel();
     detail.addEventListener('toggle', updateLabel);
   });

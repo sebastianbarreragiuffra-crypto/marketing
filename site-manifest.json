@@ -75,12 +75,12 @@
     "js/main.js": "c29aac1a39bb22894a30e6ffbf76c0df590df023c672edebe279623db12c6ffc",
     "js/marketing-contact.js": "31b3c05a6aedb555accb63f242dacf5a9e8facd68661bb059567dd432a4b4ac6",
     "js/marketing-services.js": "d8e5a336be1b98f8c994305661c6bb72d65b258b01c0982de673a151dee2b927",
-    "js/precios-disclosures.js": "4b4491bd08f8baaa88ec7748d3583ca446f2a75e45d9b0e499f752ab3a3bd4be",
+    "js/precios-disclosures.js": "bea2b804e9bc4f3492aab4a6857df4236f8669cd0cc601c656bf45089942f996",
     "js/software-claridad-v1.js": "3ec861b446f2ac1a459ed245407f8cf758776c8602094159a5087120d567686c",
     "marketing.html": "ba60e63f9193d8db6696bec603fa3c697dd107c45c1d71584faea87179d7a818",
-    "precios.html": "d0bc22d300558444d2305f278d20b8e74df6c69bd1f90b5ead7e4dd7680a02c7",
+    "precios.html": "16d6cba6cd12e35c9f67c34eb8312fe92d8aa9a2596c1bc5750e3a17511fde68",
     "software.html": "4039fd2808b6a2a08c40841392e35382f7a0723a67d94d1cedb1f9ab24f68aa5"
   },
   "schema": 1,
-  "version": "ab976de04f0cdc9fbb469ca90c68b5d53fcd46918cbf414c3a8b49c477fd122a"
+  "version": "4aec5f1c4df7711a69d55b74b504f42e30f1bd3b52332825b4072d7603432a2c"
 }
