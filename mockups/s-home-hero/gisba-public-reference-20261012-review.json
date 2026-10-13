@@ -1,0 +1,29 @@
+{
+  "scope": "Inspect publicly accessible GISBA visuals and recommend replacing schematic hero preview; no new generated hero or website edits",
+  "source": {
+    "page": "https://www.gisba.cl/#dashboard-cliente",
+    "asset": "https://www.gisba.cl/assets/home-funnel-ecommerce.webp",
+    "observed": "2026-10-12",
+    "local": "gisba-public-demo-ecommerce-20261012.webp",
+    "retrieval": "Browser pageAssets inventory and bundle, unaltered copy"
+  },
+  "classification": "Provider-published demonstration image of agency ecommerce account, not verified production screenshot or evidence of client permission",
+  "findings": [
+    "Current hero custom compact software block too schematic per user feedback",
+    "Public site has agency campaigns/metrics demonstration and client coordination examples",
+    "No public quotations/closed-sales workspace discovered on homepage or Product page",
+    "Confirmed commercial functions remain user facts; public demo does not independently verify them"
+  ],
+  "recommendation": "Larger focused genuine CLIENT-visible product capture showing one task; reduce ad space. For commercial preview use actual conversations/quotes/sales module rather than redraw guessed product fields.",
+  "not_verified": [
+    "Authenticated product interface",
+    "Included-client permissions and new commercial module screenshot",
+    "Live connections and metrics accuracy"
+  ],
+  "completion": {
+    "result": "COMPLETE for public reference inspection; exact hero replacement pending suitable client/module capture",
+    "method_learning": "NOTHING REUSABLE, existing verification rules cover distinction",
+    "next": "User supplies sanitized relevant actual software capture if genuine commercial UI required"
+  },
+  "state": "Original public image and prior mockups preserved, no site edits"
+}

@@ -1,0 +1,19 @@
+{
+  "hero_identical": true,
+  "following_identical": true,
+  "old_heading_removed": true,
+  "old_eyebrow_removed": true,
+  "one_section": true,
+  "old_css_not_loaded": true,
+  "other_source_files": {
+    "css/software-flow.css": true,
+    "css/software-gisba-reference.css": true,
+    "index.html": true,
+    "marketing.html": true,
+    "precios.html": true,
+    "automatizaciones.html": true,
+    "hablemos.html": true,
+    "iniciar-sesion.html": true,
+    "js/main.js": true
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 1,
+    "oldSection": false,
+    "feeTop": [
+      588.296875,
+      1043.421875,
+      1477.546875
+    ],
+    "ctaBottom": [
+      0,
+      0,
+      0
+    ],
+    "footerHeight": 848.140625,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "menuOpens": true
+  },
+  {
+    "escapeCloses": true,
+    "focusReturns": true
+  },
+  {
+    "keyboardAnchor": "#mensualidad"
+  },
+  {
+    "ctaDestination": "hablemos.html#contacto",
+    "focusStyle": "solid"
+  },
+  {
+    "width": 360,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 1,
+    "oldSection": false,
+    "feeTop": [
+      639.59375,
+      1115.21875,
+      1549.34375
+    ],
+    "ctaBottom": [
+      0,
+      0,
+      0
+    ],
+    "footerHeight": 848.140625,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 1,
+    "oldSection": false,
+    "feeTop": [
+      639.59375,
+      1135.71875,
+      1611.34375
+    ],
+    "ctaBottom": [
+      0,
+      0,
+      0
+    ],
+    "footerHeight": 871.53125,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 4,
+    "oldSection": false,
+    "feeTop": [
+      690.734375,
+      732.171875,
+      690.734375
+    ],
+    "ctaBottom": [
+      1337.421875,
+      1337.421875,
+      1337.421875
+    ],
+    "footerHeight": 623,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 4,
+    "oldSection": false,
+    "feeTop": [
+      682.078125,
+      690.28125,
+      682.078125
+    ],
+    "ctaBottom": [
+      1171.359375,
+      1171.359375,
+      1171.359375
+    ],
+    "footerHeight": 468,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "channels": 3,
+    "workLists": 3,
+    "mobileMeetingCount": 4,
+    "oldSection": false,
+    "feeTop": [
+      693.328125,
+      693.328125,
+      693.328125
+    ],
+    "ctaBottom": [
+      1142.984375,
+      1142.984375,
+      1142.984375
+    ],
+    "footerHeight": 468,
+    "footerBg": "rgb(11, 13, 11)",
+    "duplicateIds": []
+  },
+  {
+    "otherPagesUnchanged": true,
+    "errors": []
+  }
+]

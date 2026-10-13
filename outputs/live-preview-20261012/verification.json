@@ -1,0 +1,24 @@
+{
+  "url": "https://allow-syndicate-relation-mailing.trycloudflare.com",
+  "branches": [
+    "main"
+  ],
+  "status": 200,
+  "latestPrices": true,
+  "injectedLiveScript": true,
+  "f5Before": [
+    "$350.000",
+    "$320.000",
+    "$300.000"
+  ],
+  "f5After": [
+    "$350.000",
+    "$320.000",
+    "$300.000"
+  ],
+  "f5Works": true,
+  "sameVersion": true,
+  "version": "5726212d883d94e3fc1958d1ba4088e476b9f85128ed7bb46dbf5c078b0c94a1",
+  "autoRefresh": true,
+  "mainBranchLink": true
+}

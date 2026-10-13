@@ -1,0 +1,9 @@
+{
+  "exact_scoped_removal": true,
+  "prior_sections_unchanged": true,
+  "closing_footer_unchanged": true,
+  "other_source_changes": [
+    "marketing.html",
+    "css/marketing-new.css"
+  ]
+}

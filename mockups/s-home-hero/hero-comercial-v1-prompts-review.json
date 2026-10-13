@@ -1,0 +1,57 @@
+{
+  "phase": "mockup",
+  "scope": "Hero de Inicio; desktop solamente; sin cambios web",
+  "mode": "SAME_AGENT",
+  "source": "Confirmación comercial directa2026-10-12 en brief-orbita.mdc",
+  "prompts": {
+    "initial": "Use case ui-mockup. Create a NEW DESKTOP HERO proposal for Órbita homepage, based on supplied prior hero as STYLE/BRAND reference only. Do NOT merely reword the old3-ad layout. One complete web first viewport including navbar, exact16:9 composition1440x810 equivalent, all inside48px margins. Preserve dark #0b0d0b / #171d17, lime #c7f45b, ivory #f6f3eb, olive #48622e, Manrope bold and DM Sans; supplied star/ÓRBITA wordmark is brand reference, no invented logo. Navbar retains Inicio, Marketing, Software, Precios, Iniciar sesión, and lime 'Agenda una reunión'. No Automatizaciones.\nBusiness: Órbita agency creates/manages advertising, GISBA included with Marketing plan enables unified conversations, quotations, sales follow-up and attribution. Client's commercial team follows opportunities unless contract says otherwise. Human agency manages campaign changes. Bot commercially available but OPTIONAL separate complement, not free/included. No software-only sale here, no invented results/prices/testimonials. This is GENERATED ILLUSTRATIVE CONCEPT, not GISBA screenshot or working integration.\nLEFT column about43%width, concise readable exact copy:\neyebrow 'PUBLICIDAD PARA ECOMMERCE Y B2B'\nH1 'Gestionamos tu publicidad. Sigue tus consultas y ventas.' Render two clear thoughts, first ivory, second lime; headline about52px, avoid huge title filling whole screen. This is proposed new title, not old agreed H1.\nSupporting text 'Tu plan incluye GISBA para unificar conversaciones y seguir cotizaciones, ventas y su atribución publicitaria.'\nOne small restrained outlined pill 'Atención automatizada opcional' directly below support, not third equal offer. No additional feature list.\nPrimary lime CTA 'Agenda una reunión'.\nBelow CTA compact readable conditions in two lines '1 usuario de GISBA incluido' then 'Usuarios adicionales con costo extra · Inversión publicitaria aparte.'\nRIGHT about53%width, ONE coherent visual scene showing advertising work connected to commercial follow-up, not a giant software dashboard or3 equal service cards:\nA compact FRONT-FACING advertisement at upper-left of visual, about210px wide. Use packaging/cardboard business from supplied reference (continuity), recognizable simple Google sponsored result with heading 'Cajas de cartón para empresas', displayed illustrative URL 'tu-sitio.example/empaques', label 'Patrocinado', short supporting 'Solicita una cotización', small realistic cardboard product photograph. Above ad small role label 'Órbita crea y gestiona'. Keep ad supporting, not dominating.\nTo its right, a larger front-facing ivory GISBA customer-team commercial workspace excerpt, widtharound430px heightaround420px. Header 'GISBA · Seguimiento comercial'. Role label 'Tu equipo da seguimiento'. Only ONE coherent opportunity example, no sidebar/nav/full dashboard. A compact conversation block label 'Conversaciones unificadas' with clear messages 'Necesito cajas para mi negocio.' and human reply 'Te comparto la cotización.' No WhatsApp or unverifiedchannel icons, no bot attribution. Below show a SINGLE opportunity history, not fake standalone KPI boxes: label 'Recorrido comercial' and3 compact vertically aligned stages 'Consulta recibida', 'Cotización enviada', 'Venta registrada', as illustrative historic progression for same case. No quantities/money/timestamps. At bottom explicit attribution row 'Origen registrado: campaña de Google Ads'. These are example records, not results or proof of connection. Minimal fine line icons, never emoji.\nA subtle short connector from ad to commercial panel establishes continuity; no enormous arrow roadmap. Everything frontal, within grid, no screens overlapping text, no wild tilted mockup. Keep all essential demo text about15px equivalent or larger.\nCaption directly under visual 'Recreación ilustrativa · Funciones y conexiones según alcance'.\nAvoid: decorative robot, planet, stock team photo, claims of increased sales, percentages, revenue graphs, multiple CTAs inside demo, SaaS-first visual, dense mini labels, extra invented tagline. A user should understand agency + included commercial support in one look, with optional automation visible but secondary. Do not copy3 equal advertisements or full GISBA portal hero used on Software. Desktop ONLY, one complete16:9 image.",
+    "cleanup": "Precise small cleanup of supplied Órbita hero mockup. Preserve whole16:9 desktop layout, all main copy, brand Órbita, nav, CTA, packaging ad and commercial panel. Remove only the invented green stacked-squares icon immediately left of GISBA wordmark; leave simple text 'GISBA · Seguimiento comercial' with proper padding. Do not invent another logo. Replace the photographic woman avatar by a plain neutral initial 'E' to represent an illustrative human team, not a real employee. In opportunity history remove only redundant supporting sentences 'El cliente mostró interés en empaques.', 'Se compartió la propuesta.', 'El cliente confirmó su compra.' Keep the3 stage names and checkmarks, compress resulting vertical whitespace moderately while keeping panel visually balanced. Keep footer illustration caption fully readable. No new functions, text, claims or other design changes."
+  },
+  "tool": "image_gen built-in",
+  "proposal": {
+    "headline": "Gestionamos tu publicidad. Sigue tus consultas y ventas.",
+    "delta": "Una escena de anuncio conectado a conversación/cotización/venta y origen publicitario. Bot opcional separado.",
+    "approval": "Propuesto; el título anterior no se considera sustituido en producción ni aprobado por inferencia."
+  },
+  "comparison": {
+    "oldHeroRefined": "3 anuncios explican agencia, pero omiten seguimiento comercial incluido",
+    "fullDashboard": "Repetiría Software y podría hacer parecer que vendemos solo una plataforma",
+    "chosen": "Anuncio compacto + seguimiento comercial; responsabilidades diferenciadas"
+  },
+  "messageAudit": {
+    "buyer": "Ecommerce/B2B que delega publicidad",
+    "heading": "Qué hace la agencia y qué puede seguir el cliente",
+    "support": "Qué aporta GISBA incluido",
+    "visual": "Cómo se relacionan consulta, cotización, venta y origen publicitario",
+    "automation": "Complemento opcional, disponible comercialmente; funciones según contrato",
+    "terms": "Usuario incluido, adicionales extra y pauta aparte",
+    "cta": "Agenda una reunión; mockup no valida reservas"
+  },
+  "checked": [
+    "Copy e inclusiones contrastados con confirmación del usuario",
+    "Sin precios, métricas o resultados ficticios",
+    "Retirado icono GISBA inventado y retrato que podría confundirse con persona real",
+    "Panel explicativo rotulado, no captura literal",
+    "Original y versiones anteriores conservados",
+    "PNG1440x810 comprobado"
+  ],
+  "pending": [
+    "Aprobación de composición y nuevo titular",
+    "Disponibilidad por conexión, método de atribución y permisos del plan en implementación",
+    "Contraste calculado y comprensión con personas",
+    "Móvil,1920,interacciones,SEO/rendimiento y contacto operativo"
+  ],
+  "boardNotes": {
+    "A": "Hacer visible el beneficio incluido sin quitar agencia",
+    "B": "Software no debe dominar significado; separar actor agencia y equipo comercial",
+    "Z": "Un usuario, extras y pauta preservados; bot no presentado como incluido",
+    "C": "Visual frontal conectado; una sola oportunidad, sin dashboard lleno",
+    "S": "S-014 y S-004 aplicadas; mockup raster no es implementación",
+    "D": "Listo para revisión conceptual con notas; no listo para publicación"
+  },
+  "motion": "NO MOTION NEEDED para comprender propuesta; futura animación opcional, no validada",
+  "completion": {
+    "result": "COMPLETE como propuesta de mockup desktop, pendiente aprobación; no web final",
+    "learning": "NOTHING REUSABLE"
+  }
+}

@@ -1,0 +1,13 @@
+/* Mockup S · Hero de Precios v4b — misma apertura, sin visual, centrada. */
+@import url("hero-v4.css");
+.p4-solo{background:radial-gradient(ellipse at 50% 42%,var(--palette-panel) 0,var(--dark) 58%)}
+.p4-center{display:flex;flex-direction:column;align-items:center;text-align:center}
+.p4-solo h1{max-width:900px;font-size:66px}
+.p4-solo .p4-lead{max-width:600px}
+.p4-solo .p4-actions{justify-content:center}
+.p4-solo .p4-proposal{left:50%;right:auto;transform:translateX(-50%);bottom:28px}
+@media (max-width:760px){
+  .p4-center{align-items:stretch;text-align:left}
+  .p4-solo h1{font-size:42px}
+  .p4-solo .p4-proposal{left:18px;transform:none}
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "width": 320,
+    "questions": 5,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "overflow": false,
+    "faqCount": 1,
+    "oldMobileClose": 0,
+    "cta": "hablemos.html#contacto",
+    "pricingMeetings": 0,
+    "exactCopy": true,
+    "capture": {
+      "width": 320,
+      "height": 1205
+    },
+    "keyboardAllQuestions": true,
+    "statesPreserved": true,
+    "focusOutline": "solid",
+    "ctaFocus": "solid",
+    "noTransition": true,
+    "priceHeaderFooterUnchanged": true,
+    "focusTest": "Keyboard modality verified in accessibility.json"
+  },
+  {
+    "width": 360,
+    "questions": 5,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "overflow": false,
+    "faqCount": 1,
+    "oldMobileClose": 0,
+    "cta": "hablemos.html#contacto",
+    "pricingMeetings": 0,
+    "exactCopy": true,
+    "capture": {
+      "width": 360,
+      "height": 1152
+    },
+    "keyboardAllQuestions": true,
+    "statesPreserved": true,
+    "focusOutline": "solid",
+    "ctaFocus": "solid",
+    "noTransition": true,
+    "priceHeaderFooterUnchanged": true,
+    "focusTest": "Keyboard modality verified in accessibility.json"
+  },
+  {
+    "width": 390,
+    "questions": 5,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "overflow": false,
+    "faqCount": 1,
+    "oldMobileClose": 0,
+    "cta": "hablemos.html#contacto",
+    "pricingMeetings": 0,
+    "exactCopy": true,
+    "capture": {
+      "width": 390,
+      "height": 1127
+    },
+    "keyboardAllQuestions": true,
+    "statesPreserved": true,
+    "focusOutline": "solid",
+    "ctaFocus": "solid",
+    "noTransition": true,
+    "priceHeaderFooterUnchanged": true,
+    "focusTest": "Keyboard modality verified in accessibility.json"
+  },
+  {
+    "width": 1440,
+    "questions": 5,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "overflow": false,
+    "faqCount": 1,
+    "oldMobileClose": 0,
+    "cta": "hablemos.html#contacto",
+    "pricingMeetings": 4,
+    "exactCopy": true,
+    "capture": {
+      "width": 1440,
+      "height": 838
+    },
+    "keyboardAllQuestions": true,
+    "statesPreserved": true,
+    "focusOutline": "solid",
+    "ctaFocus": "solid",
+    "noTransition": true,
+    "priceHeaderFooterUnchanged": true,
+    "focusTest": "Keyboard modality verified in accessibility.json"
+  },
+  {
+    "width": 1920,
+    "questions": 5,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "overflow": false,
+    "faqCount": 1,
+    "oldMobileClose": 0,
+    "cta": "hablemos.html#contacto",
+    "pricingMeetings": 4,
+    "exactCopy": true,
+    "capture": {
+      "width": 1920,
+      "height": 806
+    },
+    "keyboardAllQuestions": true,
+    "statesPreserved": true,
+    "focusOutline": "solid",
+    "ctaFocus": "solid",
+    "noTransition": true,
+    "priceHeaderFooterUnchanged": true,
+    "focusTest": "Keyboard modality verified in accessibility.json"
+  },
+  {
+    "otherPagesUnchanged": true,
+    "errors": []
+  }
+]

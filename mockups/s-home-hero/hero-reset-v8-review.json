@@ -1,0 +1,44 @@
+{
+  "scope": "Two complete desktop hero layout mockups including navbar, headline, body, CTA, full visual and conditions; images only",
+  "authorization": "User explicitly reopened entire hero design after rejecting isolated visuals",
+  "phase": "Structure checkpoint, no new layout or headline approved",
+  "review": "SAME_AGENT A/B/C/Z/S + First Screen Message Audit",
+  "baseline": "Previous ad/chat and panel-focused variants rejected; not retained as user choices",
+  "alternatives": {
+    "editorial": "Dark split hero with agency creative example and compact included-software preview; recommends this as more visual, risk product photo mistaken for offering addressed by label 'Una pieza que prepara tu agencia'",
+    "panoramic": "Centered message with agency/client task schematic; clearer role explanation but less demonstrative and more text"
+  },
+  "message_audit": {
+    "headline": "Proposed revision, not replacing fixed approved title in project or website",
+    "body": "Advertising service agency primary, included GISBA conversations/quotes/sales follow-up differentiated",
+    "qualification": "One user, extras cost, media budget separate retained",
+    "optional": "Bot subordinate optional pill; no bot demonstration",
+    "omissions": "Attribution remains part of confirmed offer; detail reserved for later included GISBA section, not removed or denied",
+    "proof": "Illustrative creative and proposed interface/schematic, not evidence of product capabilities or business results"
+  },
+  "prompts": [
+    "Use case: ui-mockup. Create a complete DESKTOP HOMEPAGE HERO composition study for Órbita, NOT an isolated panel or a whole scrolling page. Grayscale WIREFRAME with polished typography and realistic grayscale assets, structure checkpoint before color mockup. Landscape16:9 target1440x810 with navigation included. Brand identity retained conceptually: Manrope strong headline, DM Sans body, monochrome equivalents of dark/ivory/lime. The user has rejected ad + chat pair, WhatsApp, tableware, lamps, office printouts and generic sidebar dashboards. NONE of those. No robot, bot-first hero, sale guarantee, statistics, testimonials, prices, platform integration claim or fictitious UI features.\nHeader plain text wordmark \"ÓRBITA.\" (placeholder text, no invented graphic logo); links \"Inicio\", \"Marketing\", \"Software\", \"Precios\", \"Iniciar sesión\"; small CTA \"Agenda una reunión\". Use maxwidth1344 within1440canvas. Exact proposed hero H1: \"Gestionamos tu publicidad. Sigue tus consultas y ventas.\" This copy is a proposed revision, do not label approved or final. Body exact \"Nuestro equipo crea y gestiona tus campañas. Tu plan incluye GISBA para conversaciones, cotizaciones y seguimiento de ventas.\" Mainbutton \"Agenda una reunión\". Small optionalpill \"Atención automatizada opcional\" subordinate, never equivalentprimaryoffer. Condition line readable \"1 usuario GISBA incluido · Adicionales con costo extra · Inversión publicitaria aparte\". Add small scope caption \"Propuesta de hero · Visuales ilustrativos\". Humanteam managesads, clientteam handles commercialquotes/sales, GISBA issoftwareincluded. No independently sold GISBA CTA.\nLAYOUT1 — editorial campaign-led with commercial support. Dark charcoal backdrop. Headline on LEFT at x72 y200 occupying600px, 62pxbold, clean natural4lines. Supportingtext below around y460, mainCTA and optionalpill y570, conditionline y660. RIGHT at x740 y170 one large premium FRONT-FACING commercial creative photograph panel, refined asymmetric crop of a pair of neutral contemporary sneakers on sculptural concrete stilllife, dramatic studio light. This is fictitious ad creative example, not a product sold by Órbita: ABOVE photo exact \"Una pieza que prepara tu agencia\", below small exact \"Creatividad de ejemplo\". NO Instagram or other platform frame, no phone, no fakeadvertiser. Overlapping ONLY lower edge of photo with one slim clear ivory GISBA commercialsummary card, readable header \"GISBA · Incluido en Marketing\", three small tasktabs \"Conversaciones\", \"Cotizaciones\", \"Ventas\" (no numericmetrics or list of customers). Selected \"Cotizaciones\" shows ONE text task \"Cotización enviada · Seguimiento pendiente\", role \"A cargo de tu equipo\". This is labelled \"Vista ilustrativa\" withincard, no actualimplementationproof. Entire visual staysinside x740..1368 y170..670; no giant dashboard or chat. Focus on headline then creative, software showncompact as includedplus. Designminimal premium typographic, no extra explanatory headingselsewhere. Do not use numericlist/cards foragencyservices. All main text readable nooverflow.",
+    "Use case: ui-mockup. Create a complete DESKTOP HOMEPAGE HERO composition study for Órbita, NOT an isolated panel or a whole scrolling page. Grayscale WIREFRAME with polished typography and realistic grayscale assets, structure checkpoint before color mockup. Landscape16:9 target1440x810 with navigation included. Brand identity retained conceptually: Manrope strong headline, DM Sans body, monochrome equivalents of dark/ivory/lime. The user has rejected ad + chat pair, WhatsApp, tableware, lamps, office printouts and generic sidebar dashboards. NONE of those. No robot, bot-first hero, sale guarantee, statistics, testimonials, prices, platform integration claim or fictitious UI features.\nHeader plain text wordmark \"ÓRBITA.\" (placeholder text, no invented graphic logo); links \"Inicio\", \"Marketing\", \"Software\", \"Precios\", \"Iniciar sesión\"; small CTA \"Agenda una reunión\". Use maxwidth1344 within1440canvas. Exact proposed hero H1: \"Gestionamos tu publicidad. Sigue tus consultas y ventas.\" This copy is a proposed revision, do not label approved or final. Body exact \"Nuestro equipo crea y gestiona tus campañas. Tu plan incluye GISBA para conversaciones, cotizaciones y seguimiento de ventas.\" Mainbutton \"Agenda una reunión\". Small optionalpill \"Atención automatizada opcional\" subordinate, never equivalentprimaryoffer. Condition line readable \"1 usuario GISBA incluido · Adicionales con costo extra · Inversión publicitaria aparte\". Add small scope caption \"Propuesta de hero · Visuales ilustrativos\". Humanteam managesads, clientteam handles commercialquotes/sales, GISBA issoftwareincluded. No independently sold GISBA CTA.\nLAYOUT2 — centered message and panoramic demonstration. Ivorybackground and blackink. Headerwhite withblacktext. Headline CENTERED uppermiddle y130 across width1050 in2or3lines, 60pxbold, body centered y300 width900 andbutton below y380. Main visual is ONE WIDE FRONTAL conceptual workspace at x120 y465 width1200 height205, notmultiplefloatingpanels. Thin darkheader exact \"Publicidad gestionada por Órbita + seguimiento con GISBA\", badge \"Ejemplo ilustrativo\". Body no menus, metrics, graph, messages or phone. Divide gracefully2unequal areas: left30% \"Órbita\" tasklist \"Prepara anuncios\", \"Gestiona campañas\", \"Revisa ajustes\"; right70% \"Tu equipo, con GISBA\" with3 clearly grouped tasks \"Conversaciones\" / \"Cotizaciones\" / \"Ventas\" each represented simple thinoutline icon and one brief label below respectively \"Atiende consultas\" / \"Sigue propuestas\" / \"Registra avances\". This is explanatoryschematic, NOT productUI screenshot or automaticworkflow. No extra fields or screenshots, no salesrecordexamples. Optionalpill nearCTA, conditions one centerline y730, caption y775. Benefitagencyandsoftware evident, no photograph inthisoption, no abstractplanet ordecorativeAI. The threefunctions are softwareincludedNOT3products forpurchase. Spacious confidenttitlebut no waste; bothvisualandCTA visiblefirstscreen."
+  ],
+  "tool": "built-in image_gen",
+  "checks": [
+    "Navbar items and primary CTA retained",
+    "Full hero composition within image",
+    "One dominant creative in variant1, no repeated ad/chat",
+    "No fake metrics, prices, testimonials, bots or integration claims",
+    "Example stage quote sent, follow-up pending",
+    "Export dimensions checked1440x810"
+  ],
+  "pending": [
+    "User structure/headline choice",
+    "High-fidelity brand color, authentic logo and actual product assets",
+    "Móvil1920 and actual hero readability testing",
+    "Animations, performance, WCAG, contact, SEO and commercial results"
+  ],
+  "completion": {
+    "result": "PARTIAL: complete-hero concept choices delivered; chosen color mockup awaits selection",
+    "project_state": "Review and S-005 scope clarification only; public website untouched",
+    "method_learning": "NOTHING REUSABLE, existing FIRST_SCREEN_MESSAGE_AUDIT covers full opening context",
+    "next": "User selects hero composition, then color candidate"
+  }
+}

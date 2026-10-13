@@ -1,0 +1,147 @@
+[
+  {
+    "nodes": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 692.21875,
+        "id": "flujo-consultas",
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 908.953125,
+        "id": "reportes",
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 414.46875,
+        "id": "siguiente-paso",
+        "width": 1425
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 468,
+        "id": "footer",
+        "width": 1425
+      }
+    ],
+    "width": 1425
+  },
+  {
+    "nodes": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 838.1875,
+        "id": "flujo-consultas",
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 901.234375,
+        "id": "reportes",
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 415.375,
+        "id": "siguiente-paso",
+        "width": 1905
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 468,
+        "id": "footer",
+        "width": 1905
+      }
+    ],
+    "width": 1905
+  },
+  {
+    "nodes": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 2046.671875,
+        "id": "flujo-consultas",
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1077.359375,
+        "id": "reportes",
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 366.96875,
+        "id": "siguiente-paso",
+        "width": 753
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 623,
+        "id": "footer",
+        "width": 753
+      }
+    ],
+    "width": 753
+  },
+  {
+    "nodes": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1428.703125,
+        "id": "flujo-consultas",
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1760.1875,
+        "id": "reportes",
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 363.96875,
+        "id": "siguiente-paso",
+        "width": 375
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 848.140625,
+        "id": "footer",
+        "width": 375
+      }
+    ],
+    "width": 375
+  },
+  {
+    "nodes": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1433.890625,
+        "id": "flujo-consultas",
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1760.1875,
+        "id": "reportes",
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 363.96875,
+        "id": "siguiente-paso",
+        "width": 360
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 848.140625,
+        "id": "footer",
+        "width": 360
+      }
+    ],
+    "width": 360
+  }
+]

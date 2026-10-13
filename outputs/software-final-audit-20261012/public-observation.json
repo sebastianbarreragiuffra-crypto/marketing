@@ -1,0 +1,14 @@
+{
+  "botText": "ATENCIÓN AUTOMATIZADA · MÓDULO OPCIONAL\n\nEN DESARROLLO\n\nTus clientes preguntan.\nEl asistente comienza\nla atención.\n\nUn complemento para responder consultas iniciales, recopilar información y ayudar a tu equipo comercial a continuar cada conversación con más contexto.\n\nResponde al instante\n\nAtiende consultas utilizando información del negocio.\n\nRecopila información clave\n\nObtiene producto, cantidad, ubicación y fecha estimada.\n\nEntrega contexto al equipo\n\nDeja la solicitud organizada para continuar la atención.\n\n9:41\nM\nMuebles Norte\nEn línea · ejemplo\n···\n\nHola, ¿me podrían enviar una cotización para 10 escritorios de oficina?\n\nComprador,\n09:12\nM\nMuebles Norte\n· Asistente previsto\n\n¡Hola! Con gusto te ayudo. ¿Para qué ciudad es la entrega y en qué fecha la necesitas?\n\n09:13\n\nEs para Providencia, RM. La necesito la próxima semana.\n\nComprador,\n09:14\nM\nMuebles Norte\n· Asistente previsto\n\nPerfecto. Dejaré tu solicitud preparada para revisión. Nuestro equipo comercial preparará la cotización y se pondrá en contacto contigo para continuar. ¡Gracias!\n\n09:15\n+\nEscribe un mensaje…\nInformación recopilada\nProducto\nEscritorios de oficina\nCantidad\n10 unidades\nEntrega\nProvidencia, RM\nFecha estimada\nPróxima semana\nLista para revisión del equipo\n\nLa solicitud llega organizada para que tu equipo prepare la cotización.\n\nPRÓXIMO PASO\nPreparar cotización\nAgenda una reunión\n\nMódulo opcional en desarrollo. Funcionalidades y canales sujetos a confirmación.\nVista ilustrativa · Datos de ejemplo · Chat no operativo.",
+  "hero": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA revisas resultados, propuestas y próximos pasos en un mismo lugar.",
+  "sections": [
+    "os-hero",
+    "flujo-consultas",
+    "atencion-automatizada",
+    "modalidades",
+    "reportes",
+    "preguntas-gisba",
+    "siguiente-paso"
+  ],
+  "url": "https://orbita-marketing.pages.dev/software"
+}

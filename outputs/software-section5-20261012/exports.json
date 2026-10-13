@@ -1,0 +1,15 @@
+{
+  "desktop": {
+    "viewport": 1455,
+    "client": 1440,
+    "width": 1440,
+    "height": 810
+  },
+  "mobile": {
+    "viewport": 405,
+    "client": 390,
+    "width": 390,
+    "height": 779
+  },
+  "scope": "Capturas nativas con cabecera y cierre completo; viewport compensa barra de desplazamiento, sin redimensionar imagen."
+}

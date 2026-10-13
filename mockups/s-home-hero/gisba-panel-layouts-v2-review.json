@@ -1,0 +1,26 @@
+{
+  "phase": "layout checkpoint, pending user selection",
+  "scope": "GISBA hero panel only, desktop image mockups; no live website changes",
+  "review": "SAME_AGENT A/B/C/Z/S; no independent reviewers",
+  "observed": "User rejected previous redesign. Oversized avatars and duplicated title hierarchy observed; presumed cause is inference, not user research.",
+  "options": {
+    "A": "Refines current inbox, preserves list; less metadata",
+    "B": "Recommended chat plus compact commercial context, removes inquiry list; more explicit origin and follow-up",
+    "C": "Single conversation plus summary stages, least inbox context"
+  },
+  "prompt": "Use case: ui-mockup. Create a polished grayscale desktop wireframe comparison board for redesigning ONLY a GISBA commercial conversation panel for an Órbita agency landing hero. This is a layout selection board, NOT a website and NOT a real product screenshot. Horizontal canvas 1440x1000, three vertically stacked wide rows so all text is readable; each row has small option title above and a front-facing panel occupying most width. White/light gray board background, black dark gray typography, no color, precise modern DM Sans-style type. Do NOT draw homepage text, website header, advertisement, phones, or decorative illustrations. Each option is materially different but preserves ONE SAME illustrative case: a restaurant buyer asks for tableware, a human Equipo comercial sends a quote, buyer reviews options; quote sent, decision pending. No sale closed, no robot, no automated workflow proof, no invented numbers or channel logos/integrations.\nTop board heading exact: \"GISBA · Tres formas de mostrar la conversación\"; small subheading \"Opciones de layout · Recreaciones ilustrativas\".\nROW A title exact \"A · Bandeja simplificada\". A refines previous: small left inquiry list with selected \"Consulta 01\", other \"Consulta 02\", \"Consulta 03\"; main conversation center fills 75%, tiny integrated header \"GISBA · Conversaciones\"; light compact message bubbles exact \"Necesito vajilla para mi restaurante.\", \"Te comparto la cotización.\", attachment \"Cotización de ejemplo\", response \"Gracias, revisaré las opciones.\". Minimal footline \"Cotización enviada · Seguimiento pendiente\". No enormous avatars or metadata block.\nROW B title exact \"B · Conversación + ficha comercial\". Small chip beside title \"Recomendada\". Panel thin header \"GISBA · Conversaciones\". No inquiry list. Main conversation left 70% with legible exact same messages and attachment, clear role labels \"Cliente\" and \"Equipo comercial\", small composer \"Escribe un mensaje…\". Right compact light-gray 30% column title \"Esta oportunidad\", thin separated information rows: \"Origen del ejemplo\" / \"Anuncio de Instagram\", \"Estado\" / \"Cotización enviada\", then a highlighted simple next action \"Próximo paso\" / \"Dar seguimiento\". No calendar/date/appointment. Roles indicate HUMAN team answers, GISBA supplies software. This is biggest most visually confident row.\nROW C title exact \"C · Conversación enfocada\". Single full-width spacious chat without inquiry list or side column, prominent three message bubbles same exact content and document. Header \"GISBA · Conversaciones\". Beneath bubbles compact connected process labels \"Consulta recibida\" / \"Cotización enviada\" / \"Seguimiento pendiente\" where first two darker and last outlined: an illustrative status summary only, no automation or guaranteed sale. Clearly current stage quote, no closure. No input boxes repeated elsewhere.\nBottom board caption \"Elegir composición antes de diseñar el mockup a color.\" All exact Spanish text readable, generous balance but no oversized empty areas. Compare three different structures, not palettes. Minimal thin line icon document only, no stock avatars, no emojis. Keep all content inside canvas and all labels uncropped.",
+  "tool": "built-in image_gen",
+  "checks": [
+    "Consistent illustrative quotation sent / decision pending",
+    "Human team explicitly answers",
+    "No sale closed, numeric results, bot automation, or verified connections claimed"
+  ],
+  "not_verified": [
+    "User selection and approval",
+    "Rendered hero-size readability",
+    "Mobile, animations, WCAG, integration, performance and conversion"
+  ],
+  "result": "PARTIAL: layout comparison complete; color mockup awaits choice",
+  "learning": "NOTHING REUSABLE; existing S-005 strengthened",
+  "next": "User selects layout, then produce color panel candidate"
+}

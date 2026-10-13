@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-12",
+  "objective": "Reemplazo fiel y local del cierre comercial Software por Sección 5 Hablemos.",
+  "result": "COMPLETE",
+  "scope": "Sección 5; Secciones 1–4, Reportes, FAQ y footer conservados.",
+  "authorization": "MUTATE PROJECT / no publicación, commit, push ni túnel público",
+  "owner": "Implementation Owner; revisión C del mismo runtime, sin revisores independientes",
+  "approval_basis": {
+    "brief": "Texto pegado 0e80b5bd",
+    "desktop": "Usuario autorizó la composición del brief al comprobar recorte 292 × 165",
+    "mobile": "Referencia 941 × 1672 con copy y exclusiones del brief"
+  },
+  "implementation_files": [
+    "software.html",
+    "css/software-hablemos.css"
+  ],
+  "support_files": [
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    ".cursor/rules/directory-s-lecciones.mdc"
+  ],
+  "recovery": "archive/2026-10-12-software-section5-before",
+  "validation": {
+    "responsive": "PASSED 1440/1920/768/390/375 y 320/600/601; responsive.json",
+    "visual": "PASSED render nativo desktop/mobile/tablet/1920/375; capturas PNG 1440×810 y 390×779",
+    "regression": "PASSED fuente y render previos de Software y footer; regression.json. Cambio concurrente posterior en Inicio conservado.",
+    "contrast": "PASSED mínimo calculado 13.49:1 desktop y 15.34:1 mobile, fondos sólidos del área de lectura; contrast.json",
+    "cta": "PASSED Tab/foco visible/Enter hasta Hablemos#contacto; cta.json",
+    "technical": "PASSED sin IDs duplicados/archivos faltantes, CSS 4836 bytes, sin nueva dependencia/JS/raster; technical.json",
+    "console": "PASSED sin errores/warnings observados",
+    "manifest": "PASSED site_state.py --check; versión 653841ac6c2180fd5fc35cd5ea8e071859b170c2c61572988038810ed32e23dc",
+    "diff": "PASSED git diff --check software.html css/software-hablemos.css"
+  },
+  "not_verified": [
+    "Reserva/recepción no operativas: contacto de vista previa deshabilitado.",
+    "Conversión/rebote/Core Web Vitals en producción no medidos; cambio únicamente local.",
+    "La contradicción previa de disponibilidad en Sección 3 se conserva fuera de alcance."
+  ],
+  "project_state_updates": {
+    "PROJECT_MEMORY.md": "UPDATED",
+    "WEBMASTER_CONTEXT.md": "NO CHANGE",
+    "WEBMASTER_DECISIONS.md": "NO CHANGE",
+    "WEBMASTER_METHOD_CANDIDATES.md": "NO CHANGE"
+  },
+  "method_learning": "NOTHING REUSABLE; aprendizaje de encuadre ya cubierto por S-004, ampliado localmente",
+  "next_action": {
+    "action": "Revisión visual local por el usuario; publicación requiere autorización posterior",
+    "owner": "Usuario"
+  },
+  "integrity": {
+    "no_canonical_webmaster_mutation": true,
+    "no_external_release": true,
+    "no_git_commit_push": true,
+    "footer_unchanged": true
+  }
+}

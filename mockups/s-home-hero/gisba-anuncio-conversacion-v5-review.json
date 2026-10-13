@@ -1,0 +1,43 @@
+{
+  "scope": "Desktop image mockup of hero visual only; replaces prior standalone chat composition conceptually, not live code",
+  "authorization": "User said 'corre directorio cambialo' after proposed ad -> enquiry -> quotation/follow-up direction; this authorizes new mockup, not publishing",
+  "review": "SAME_AGENT A/B/C/Z/S, no independent reviewers",
+  "alternatives": {
+    "refine": "Previous wide chat plus large side ficha rejected by user; recoloring insufficient",
+    "chosen": "One IG ad connected to compact conversation, attached quotation and integrated pending follow-up",
+    "simplest": "Conversation only considered; loses visual explanation of agency advertising and source"
+  },
+  "delta": [
+    "Photo-led advertising context added as single ad",
+    "Large opportunity sidebar removed",
+    "No inquiry list or large avatars",
+    "Origin embedded in message, follow-up one footer",
+    "Roles agency advertising versus client commercial response explicitly labeled"
+  ],
+  "sources": "Prior turn: public Shaz Marketing agency service/inbox, TenfoldDXB source/follow-up; Vambe product task illustration. Principles only, no inherited functions.",
+  "prompt": "Use case: ui-mockup. Produce a radically recomposed, art-directed DESKTOP IMAGE MOCKUP of the visual used in the Órbita landing hero, illustrating the path from ONE Instagram ad to a buyer conversation and quotation in GISBA. Brand near-black #0b0d0b darkgreen #171d17 lime #c7f45b ivory #f6f3eb cream #eeeae0 olive #48622e. Manrope headlines DM Sans UI. Horizontal canvas 1440x1000, all front-facing, no perspective, no phone/laptop/device, no homepage nav or overall hero sales text. The previous wide administrative chat plus sidebar has been REJECTED: do not reproduce a full dashboard, a list of inquiries, a commercial right sidebar, giant avatars or a row of metadata. This is a new connected visual STORY with photography and conversation. User approved direction ad → enquiry → quote/follow-up; generated scene explicitly illustrative, not literal product screenshot.\nBackground rich nearly-black with subtle moss radial light, elegant generous edges. Small overline \"PUBLICIDAD + SEGUIMIENTO COMERCIAL\". Modest title at top \"Del anuncio a la conversación.\" white and lime, smaller than the visual, NOT giant.\nUse asymmetrical connected composition: left ~36% one tall Instagram-style ad card, right ~60% wider compact GISBA conversation card placed ~80px lower; a short elegant thin directional connector crosses the small clear gap, never covers either card. No unrelated decoration. Maintain photo and chat equal intelligibility, chat somewhat dominant.\nAbove left card small lime responsibility label \"Órbita crea y gestiona\". Instagram ad card white, simple recognisable platform header \"Instagram\"; below small tasteful geometric neutral advertiser avatar plus \"Negocio de ejemplo\", \"Publicidad\". One strong realistic editorial product photograph of elegant ivory ceramic plates, bowls and coffee cups on warm restaurant table with dark olive cloth, soft lighting. Product is tableware for restaurants not agency merchandise. Overlay carefully legible small headline \"Vajilla para tu restaurante.\" with dark contrast layer, do not cover dishes. Beneath photo small action \"Más información\" with line chevron. Beneath action thin outline heart, speech bubble, send, bookmark icons (NO numeric likes, followers or performance). Short caption \"Conoce nuestra línea de vajilla.\" Avoid extra repetitive fake ads and no business URL.\nAbove right card small lime responsibility label \"Tu equipo atiende\". Card darkgreen thin header with simple wordmark \"GISBA\" text only, title \"Conversaciones\", very small tag \"Ejemplo ilustrativo\". Ivory chat surface, no huge outer nested boxes. Compact internal header title \"Consulta de un restaurante\", current stage small softlime badge \"Cotización enviada\".\nFirst incoming bubble on LEFT, neutral cream, tiny role label \"Cliente\", exact \"Vi su anuncio. Necesito vajilla para mi restaurante.\" Below same bubble small visually lightweight origin snippet \"Origen del ejemplo: anuncio de Instagram\" perhaps one TINY thumbnail of SAME tableware photograph; the origin ties to leftad and is illustrative context not verifiedtechnicallink. Keep brief no extra features.\nOutgoing bubble on RIGHT, pale lime with dark text, role \"Tu equipo\", exact \"Te comparto la cotización.\" Under outgoing text inside same message one prominent slim WHITE document attachment with outline document icon, exact \"Cotización de ejemplo\", tiny \"Documento ilustrativo\". Avoid large generic avatars; use only role labels.\nSecond incoming bubble on LEFT exact \"Gracias, revisaré las opciones.\"\nBelow messages a SINGLE COMPACT integrated footer within the GISBA card separated by hairline, with darkolive small dot and text \"Esperando decisión\" on left, and clear small NEXT task on right or below \"Siguiente paso: dar seguimiento\". No calendar, reminder automation, dates, payment, bot, new channels or closed sale. Do not show bulky sidebar or equivalent right context panel. Small composer \"Escribe un mensaje…\" may appear only if there is naturalspace; prioritize task illustration notcompleteapp.\nBottom of overall image one subtle caption \"Recreación ilustrativa · No es una campaña ni una captura real.\"\nNo commercial results, figures, revenues, invented testimonials, prices, guarantees, integrations, automatic sending, sold states or robot. Human commercial team attends buyer; Órbita creates/manages ad. Distinct shape, photo hierarchy and flow compared to rejected widechat. Polished premium website creative with restrained subtle shadow rounded16-20px clean alignments. All exact Spanish legible, all labels and entire cards within frame.",
+  "tool": "built-in image_gen",
+  "original": "exec-07574374-d753-4c51-82b8-1203c95da6f8.png",
+  "output": "gisba-anuncio-conversacion-v5-1440.png",
+  "qa": {
+    "verified": [
+      "Only one full ad; selected tableware case consistent with messages",
+      "Instagram heart/comment/send/save icons visible without fake counts",
+      "Sent quote, pending buyer decision, human follow-up coherent",
+      "No fake result, sale closure, bot or appointment functionality",
+      "Generated illustrative labels visible",
+      "Distinct layout against rejected V4 inspected"
+    ],
+    "pending": [
+      "User mockup approval",
+      "Actual GISBA UI and channel connections",
+      "Hero placement at actual size; replace whole prior visual to avoid second ad",
+      "Mobile, responsive, motion, performance, WCAG and conversion not tested"
+    ]
+  },
+  "learning": "S-005 strengthened locally; NOTHING REUSABLE, existing method covers structural comparison",
+  "completion": {
+    "result": "COMPLETE: reviewable redesigned desktop image delivered; not approved or implemented",
+    "next": "User review of mockup; no website modifications authorized"
+  }
+}

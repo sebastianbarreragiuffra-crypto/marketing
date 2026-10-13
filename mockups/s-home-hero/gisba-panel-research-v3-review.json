@@ -1,0 +1,51 @@
+{
+  "scope": "Research and improved desktop layout study of GISBA hero chat panel; no website or color design implementation",
+  "phase": "Layout selection, provisional B; user choice pending",
+  "review": "SAME_AGENT A/B/C/Z/S",
+  "sources": [
+    {
+      "url": "https://www.shazmarketing.com/services",
+      "date": "2026-10-12",
+      "type": "agency",
+      "evidence": "Public service content and desktop rendered shared-inbox example inspected",
+      "adapt": "Present concrete enquiry, then client-team follow-up; reduce UI to the task",
+      "discard": "Channels, automated reminders, AI scheduling, prices, client metrics, guarantees"
+    },
+    {
+      "url": "https://tenfolddxb.com/services/crm-automation/",
+      "date": "2026-10-12",
+      "type": "agency",
+      "evidence": "Public service content and desktop opening rendered",
+      "adapt": "Keep opportunity origin and commercial follow-up beside conversation",
+      "discard": "Reply time claims, available integrations, setup duration, guarantees"
+    },
+    {
+      "url": "https://www.vambe.ai/",
+      "date": "2026-10-12",
+      "type": "software platform, not equivalent agency",
+      "evidence": "Browser rendered Spanish hero and customer-task selector; content variants differ from web extraction locale",
+      "adapt": "Explain commercial task and journey with a product scene, not decorative chat bubbles",
+      "discard": "Automated booking, payments, calls, all-channel claims, commercial figures, guaranteed results"
+    }
+  ],
+  "proposal": "Conversation with compact opportunity context, illustrated source/ad, sent quotation, decision pending, explicit human client commercial team. Single quotation attachment, no duplicate bottom metadata.",
+  "prompt": "Use case: ui-mockup. Create a refined professional MONOCHROME grayscale layout study, not a finished color design, showing only a GISBA unified commercial chat panel for an agency homepage hero. Output desktop horizontal image 1440x1000. This is an illustrated proposed layout, NOT literal GISBA product screenshot. Front-facing, no perspective, no phones or laptop, no homepage nav, no advertisement inserted, no CTA. Elegant white/off-white background, crisp charcoal DM Sans/Manrope style, soft gray bubbles, hairline separators and subtle restrained shadow. Avoid huge empty margins, oversized gray avatars, excessive boxes and repeated labels. It must look thoughtfully designed for a website rather than an admin-dashboard screenshot.\nAbove panel small kicker \"PROPUESTA DE LAYOUT · ESCRITORIO\"; clear heading \"La conversación y su próximo paso, juntos.\".\nMain panel width1280 height690, thin header title \"GISBA · Conversaciones\", small badge \"Ejemplo ilustrativo\".\nTwo columns: 65% main chat, 35% compact opportunity context, only one divider. No left inbox list in this composition.\nMain chat header small understated circle C, \"Consulta de un restaurante\", second line \"Atiende tu equipo comercial\". A dark-gray outlined current stage pill \"Cotización enviada\" at right of this chat header. Clear left/right chat alignment with natural message proportions, large readable exact text:\nIncoming left label \"Cliente\", bubble \"Hola, necesito vajilla para mi restaurante.\"\nOutgoing right label \"Tu equipo\", bubble \"Te comparto la cotización para que revises las opciones.\"\nAttached document aligned exactly under outgoing message, not floating over it. Small line document icon and text \"Cotización de ejemplo\", tiny subtext \"Documento ilustrativo\". Attachment integral to outgoing bubble.\nIncoming left \"Gracias, la revisaré y les aviso.\"\nComposer at bottom \"Escribe un mensaje…\" with thin send icon only.\nRight context panel simple editorial rows rather than many cards:\nTop title \"Esta oportunidad\"\n\"Origen del ejemplo\" / \"Anuncio de Instagram\"\n\"Interés\" / \"Vajilla para restaurante\"\n\"Estado\" / \"Esperando decisión\"\nBelow separated clearly one highlighted light-gray action area \"Próximo paso\" / \"Dar seguimiento a la cotización\". Small helper \"A cargo de tu equipo comercial\". NO date, scheduler, reminder, automation, robot or additional functions.\nBottom outside panel a very small caption \"Recreación propuesta · No es una captura del producto.\"\nNo fake sales achieved, results, metrics, prices, personal identities, contact data, channel logos, integrations, bot automation or guaranteed attribution. Origin example is fictitious context only, not an integration assertion. Main focus the conversation and document, next step secondary but clear. All Spanish exact readable correct spelling. No repetition of stage elsewhere. Use restrained depth, substantially refined proportions compared to large flat previous UI. Grayscale only: layout selection is still pending.",
+  "tool": "built-in image_gen",
+  "verified": [
+    "Generated image inspected for coherent case and roles",
+    "Illustrative labeling visible",
+    "No closure, figures or automated result invented"
+  ],
+  "not_verified": [
+    "User layout approval",
+    "Actual GISBA UI/technical connections",
+    "Reduced hero-size legibility",
+    "Mobile, motion, live accessibility, performance, conversion"
+  ],
+  "completion": {
+    "result": "PARTIAL: references and improved layout delivered; high-fidelity color mockup requires choice",
+    "project_state": "Existing S-005 reinforcement covers learning; no new methodological record",
+    "learning": "NOTHING REUSABLE",
+    "next": "User chooses layout; produce color mockup after selection"
+  }
+}

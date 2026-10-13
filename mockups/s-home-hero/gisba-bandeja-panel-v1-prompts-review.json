@@ -1,0 +1,24 @@
+{
+  "prompt": "Precisely redesign the supplied isolated GISBA conversations panel into a clearer, premium FRONT-FACING commercial unified inbox detail for Órbita homepage hero. This request is ONLY this panel, not a whole hero or website. Generated explanatory recreation, NOT literal GISBA screenshot. No new capabilities or claims. Keep case ceramic tableware and human commercial team, not bot. Keep identity ivory#f6f3eb, white, dark#0b0d0b, deepforest#171d17, olive#48622e, pale lime selection, lime accents. Manrope/DM Sans; avoid blue/nayvydominating. Crisp restrained digital UI, shallow corners, subtle fine borders, no heavy repeatednestedcards. All fonts large enough at intended600px-wide panel equivalent: brand24px, message body16–18px, labels14px; body not tiny compared to brand. No giant screenshot fullapplication rail, graphs,metrics,timestamps,prices,productphotos or robots.\nPreserve top outside role label 'Tu equipo atiende y da seguimiento'. Outer panel header left 'GISBA' wordmark as TEXT only (no inventedicon) then smaller 'Bandeja unificada'; header right readable pill 'Vista ilustrativa'. No duplicate sectionheaders. Two panes, LEFT22% and RIGHT78%, give conversation more area:\nLeft slender ivory list heading 'Consultas', selected row 'Consulta 01', state 'Cotización enviada', neutral circle01; row02 'Consulta 02'/'Pide información'; row03 'Consulta 03'/'En seguimiento'. No chevron arrow clutter, tinycounts, searchinputs or unnecessary avatars repeated for every bubble. A clear pale lime selected background with thin leftaccent is enough.\nRight conversation heading 'Consulta 01', one restrained state tag 'En seguimiento'. Main conversation three generous readable bubbles with role labels: incoming role 'Cliente' says 'Necesito vajilla para mi restaurante.'; outgoing role 'Equipo comercial' says 'Te comparto la cotización.'; attached document below outgoing bubble as an elegant single compact item with filelineicon and exact 'Cotización de ejemplo', small label 'Documento ilustrativo'; incoming 'Gracias, revisaré las opciones.' No fabricated photographavatar or fakepersonnames. Plenty of breathing room, less chrome. Chat MUST be recognizable and materially cleaner than target.\nBelow selectedchat ONLY (not wholewidth competing3columns), one connected follow-up footer with distinct typography:\nsmall heading 'Próximo paso'\nprimary text 'Dar seguimiento a la cotización'\nsecondary 'Estado: esperando decisión del cliente'\nsecondary 'Origen del ejemplo: anuncio de Instagram'.\nDo NOT mark a sale closed. Do NOT claim actual channel integration or sending; image is illustrative. The client's lastmessage is reviewing options, so state is waiting for DECISION, not a conflicting noresponse state.\nAt bottom rightarea inactive composer 'Escribe un mensaje…' plus minimal sendlineicon. Do not imply actual functional send. Footer outsidepanel 'Recreación ilustrativa · Funciones y conexiones según alcance'.\nComposition: wholeisolatedpanel, broad square-ish landscape approximately1440x1100-equivalent, centered on a flat nearblack backing with VERY NARROW outer margins so this is a detailed assetreview, no extraheroheadline/nav/CTA. Single complete desktop panel only. Preserve all essentialofferstate info while making importantmessage+nextstep moreprominent. Remove bottom three equal metadata columns from reference and integratecontext underconversation; this is the key layoutimprovement. One polishedimage.",
+  "tool": "image_gen built-in",
+  "scope": "Solo panel GISBA adjunto; PNG de revisión desktop",
+  "source": "codex-clipboard-8704687e-f9f3-4260-9f0c-a1eabbf23931.png",
+  "review": "SAME_AGENT",
+  "changes": [
+    "Más espacio para mensajes, estados claros y documento legible",
+    "Próximo paso destacado en una franja; retiradas tres columnas de metadatos iguales",
+    "Estado esperando decisión del cliente coherente con mensaje final"
+  ],
+  "verified": [
+    "Texto principal inspeccionado",
+    "Ancho1440 del archivo final comprobado",
+    "Original preservado"
+  ],
+  "pending": [
+    "Aprobación del usuario",
+    "Integración visual y legibilidad al tamaño dentro del hero",
+    "Implementación y conexiones reales, móvil y accesibilidad"
+  ],
+  "limits": "Recreación explicativa, no captura real ni chat funcional. No se añadió agendamiento pese a icono calendario decorativo; representa seguimiento.",
+  "learning": "NOTHING REUSABLE"
+}

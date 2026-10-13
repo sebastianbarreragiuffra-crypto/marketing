@@ -1,0 +1,422 @@
+[
+  {
+    "width": 320,
+    "overflow": false,
+    "clippedText": [],
+    "minContrast": 6.093187509185083,
+    "contrastFailures": [],
+    "feesAligned": true,
+    "columns": "280px",
+    "botLayout": "block",
+    "questionsPreserved": true,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "closeCount": 1,
+    "footers": 1,
+    "meetingButtonsMobile": 1,
+    "noindex": "noindex, nofollow",
+    "staleBot": false,
+    "prices": [
+      "$350.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "notes": [
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-mode-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-bot-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-web-mobile-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-review-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "pq-review-note",
+        "fontSize": "14px"
+      }
+    ],
+    "summaryFocus": true,
+    "statesPreserved": true,
+    "ctaFocus": true
+  },
+  {
+    "width": 360,
+    "overflow": false,
+    "clippedText": [],
+    "minContrast": 6.093187509185083,
+    "contrastFailures": [],
+    "feesAligned": true,
+    "columns": "320px",
+    "botLayout": "block",
+    "questionsPreserved": true,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "closeCount": 1,
+    "footers": 1,
+    "meetingButtonsMobile": 1,
+    "noindex": "noindex, nofollow",
+    "staleBot": false,
+    "prices": [
+      "$350.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "notes": [
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-mode-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-bot-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-web-mobile-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-review-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "pq-review-note",
+        "fontSize": "14px"
+      }
+    ],
+    "summaryFocus": true,
+    "statesPreserved": true,
+    "ctaFocus": true
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "clippedText": [],
+    "minContrast": 6.093187509185083,
+    "contrastFailures": [],
+    "feesAligned": true,
+    "columns": "350px",
+    "botLayout": "block",
+    "questionsPreserved": true,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "closeCount": 1,
+    "footers": 1,
+    "meetingButtonsMobile": 1,
+    "noindex": "noindex, nofollow",
+    "staleBot": false,
+    "prices": [
+      "$350.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "notes": [
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "13px"
+      },
+      {
+        "class": "",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-mode-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-bot-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-web-mobile-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-review-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "pq-review-note",
+        "fontSize": "14px"
+      }
+    ],
+    "summaryFocus": true,
+    "statesPreserved": true,
+    "ctaFocus": true
+  },
+  {
+    "menuOpen": true
+  },
+  {
+    "menuEscapeClosed": true,
+    "menuFocusReturned": true
+  },
+  {
+    "anchor": "#mensualidad"
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "clippedText": [],
+    "minContrast": 6.093187509185083,
+    "contrastFailures": [],
+    "feesAligned": true,
+    "columns": "437.328px 437.328px 437.344px",
+    "botLayout": "grid",
+    "questionsPreserved": true,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "closeCount": 1,
+    "footers": 1,
+    "meetingButtonsMobile": null,
+    "noindex": "noindex, nofollow",
+    "staleBot": false,
+    "prices": [
+      "$350.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "notes": [
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "",
+        "fontSize": "15px"
+      },
+      {
+        "class": "px-mode-note",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-bot-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-review-note",
+        "fontSize": "13px"
+      },
+      {
+        "class": "pq-review-note",
+        "fontSize": "14px"
+      }
+    ],
+    "summaryFocus": true,
+    "statesPreserved": true,
+    "ctaFocus": true
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "clippedText": [],
+    "minContrast": 6.093187509185083,
+    "contrastFailures": [],
+    "feesAligned": true,
+    "columns": "469.328px 469.328px 469.344px",
+    "botLayout": "grid",
+    "questionsPreserved": true,
+    "initialOpen": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "closeCount": 1,
+    "footers": 1,
+    "meetingButtonsMobile": null,
+    "noindex": "noindex, nofollow",
+    "staleBot": false,
+    "prices": [
+      "$350.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "notes": [
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "px-card-kicker",
+        "fontSize": "12px"
+      },
+      {
+        "class": "",
+        "fontSize": "15px"
+      },
+      {
+        "class": "px-mode-note",
+        "fontSize": "13px"
+      },
+      {
+        "class": "px-bot-note",
+        "fontSize": "14px"
+      },
+      {
+        "class": "px-review-note",
+        "fontSize": "13px"
+      },
+      {
+        "class": "pq-review-note",
+        "fontSize": "14px"
+      }
+    ],
+    "summaryFocus": true,
+    "statesPreserved": true,
+    "ctaFocus": true
+  },
+  {
+    "contactURL": "http://127.0.0.1:8767/hablemos.html#contacto",
+    "formActionConfigured": false,
+    "submitDisabled": true,
+    "submitType": "button",
+    "preview": "Vista previa · Tu consulta no se enviará."
+  },
+  {
+    "preciosHTTP": 200
+  },
+  {
+    "errors": []
+  }
+]

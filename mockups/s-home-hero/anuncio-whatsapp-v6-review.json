@@ -1,0 +1,28 @@
+{
+  "scope": "Desktop mockup image only, replace illustrative GISBA chat with WhatsApp-style HUMAN conversation; no website change",
+  "authorization": "User requested WhatsApp rather than bot-looking panel",
+  "source": "gisba-anuncio-conversacion-v5-1440.png",
+  "output": "anuncio-whatsapp-v6-1440.png",
+  "tool": "built-in image_gen",
+  "prompt": "Edit supplied mockup image. User asks to replace the ambiguous software/bot-looking chat with an instantly recognizable WHATSAPP CONVERSATION operated by the HUMAN CLIENT COMMERCIAL TEAM. Change ONLY right card conversation design and small responsibility label/caption as needed; preserve the left Instagram ad, ceramic tableware photo, typography, advertiser placeholder, like/comment/send/bookmark icons, overall near-black/olive/lime/ivory Órbita background, top title \"Del anuncio a la conversación.\", all sizing and front-facing two-card layout. This is desktop illustrative mockup1440x1000 no phone bezel no whole homepage.\nRIGHT CARD: replace entire GISBA branded admin header, sales badges and opportunity fields with a believable WHATSAPP-style familiar LIGHT conversation window, clearly illustrative NOT real screenshot. Thin top identity header muted WhatsApp dark green, small white WhatsApp speechbubble-phone icon and \"WhatsApp\" branding at left, subtle \"Ejemplo ilustrativo\" at right. Beneath compact contact strip small neutral geometric business avatar, \"Equipo comercial\", secondary \"Atención humana\". No bot badge, robotic icon, AI, online claim, real names, phone numbers, callbuttons/payment/booking functionality.\nAbove right card outside exact label \"Tu equipo responde por WhatsApp\".\nChat surface light beige with VERY SUBTLE familiar doodle texture, no busy decorativepattern. Incoming WHITE LEFT bubble exact \"Hola, vi su anuncio. Necesito vajilla para mi restaurante.\" Short contextual ad reference inside thisbubble use small same ceramicphoto thumbnail with small caption \"Anuncio de ejemplo\" only. This is narrative context, do not label technical import, synced attributed lead, GISBA integration or auto-forwarding.\nOutgoing PALE WHATSAPP GREEN RIGHT bubble exact \"Hola, te comparto la cotización para que revises las opciones.\" Integrated attachment WHITE document tile inside outgoingbubble, thin file icon, \"Cotización de ejemplo\", small \"Documento ilustrativo\". Tiny gray sent checkmarks optional without actual deliveryproofclaims and NO timestamps/numbers. Then incomingwhiteleftbubble exact \"Gracias, la revisaré y les aviso.\" No repeated rolelabels insidebubbles because header names human team; no oversizedavatars.\nBottom realistic WhatsApp-style composer white roundedfield with small attachment outline icon, exact \"Escribe un mensaje…\", send outline icon green. Reduce blankspace, keep three messages visually prominent, readable, fluid and natural.\nDo NOT preserve software status footer or salesstagebadges. Instead ONE slim strip BELOW the WhatsApp card, outside its interface, visibly part of agency illustrative explanation, darkgreen background and ivory text exact \"Cotización enviada · Seguimiento a cargo de tu equipo\". This must NOT appear to be a native WhatsApp tracking capability. No calendar task, no CRM, no automatization.\nBottom overall caption replace exact \"Recreación ilustrativa · Canales y conexiones según alcance acordado.\" Label all visuals as examples, no exact technical integration promise. The connector from ad to conversation remains illustrative customerjourney, NOT automaticsyncproof. No GISBA logo inside WhatsApp. No bot. No commercial metrics, guarantee, invented prices/closedsale, real customer or software capability. Keep all other leftcard and composition elements unchanged. Crisp premium result, legibility and recognizable communication interface prioritized.",
+  "verified": [
+    "Instagram ad and tableware example preserved",
+    "WhatsApp-style window recognizable, header 'Equipo comercial / Atención humana'",
+    "Quotation attachment and buyer review coherent",
+    "Follow-up strip outside WhatsApp interface",
+    "No GISBA-in-WhatsApp branding, robot, automatic sale, figures or scheduling claims",
+    "Image inspected"
+  ],
+  "limits": [
+    "Illustrative recreation, not authentic app screenshot",
+    "Actual WhatsApp/GISBA connection, ad reference metadata and delivery behavior not verified",
+    "Generated image retains original illustrative caption rather than requested scope caption; scope stated in review/final",
+    "No hero integration, mobile, animation or technical UI validation"
+  ],
+  "state": "Candidate pending user mockup approval, prior B color reopened by user",
+  "learning": "S-012 reinforced locally: responsibility must be visually unmistakable; existing method, NOTHING REUSABLE",
+  "completion": {
+    "result": "COMPLETE for requested desktop image variant",
+    "next": "User review, no implementation authorized"
+  }
+}

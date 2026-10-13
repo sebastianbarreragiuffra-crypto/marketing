@@ -1,0 +1,314 @@
+[
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(199, 244, 91)",
+    "ratio": 15.34,
+    "text": "LA TECNOLOGÍA DETRÁS DEL SERVICIO"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 17.59,
+    "text": "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(199, 244, 91)",
+    "ratio": 15.34,
+    "text": "Tú ves cada avance."
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(238, 234, 224)",
+    "ratio": 16.24,
+    "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA revisas resultados, propuestas y próximos pasos en un mismo lugar."
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(195, 201, 181)",
+    "ratio": 10.08,
+    "text": "Portal de cliente"
+  },
+  {
+    "background": "rgb(36, 46, 32)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 12.74,
+    "text": "Resumen"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(238, 234, 224)",
+    "ratio": 14.28,
+    "text": "Campañas"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(238, 234, 224)",
+    "ratio": 14.28,
+    "text": "Resultados"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(238, 234, 224)",
+    "ratio": 14.28,
+    "text": "Pendientes"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(195, 201, 181)",
+    "ratio": 10.08,
+    "text": "Órbita\nTu agencia gestiona esta cuenta"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 15.47,
+    "text": "Generación de leads"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Ecommerce"
+  },
+  {
+    "background": "rgb(246, 243, 235)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.18,
+    "text": "Vista por objetivo · propuesta"
+  },
+  {
+    "background": "rgb(246, 243, 235)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.18,
+    "text": "Últimos 30 días"
+  },
+  {
+    "background": "rgb(246, 243, 235)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.18,
+    "text": "Datos de ejemplo"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Contactos registrados"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "128"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Formularios recibidos"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Inversión publicitaria"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "$850.000"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "CLP"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Costo por contacto"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "$6.641"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Inversión / contactos"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Campañas activas"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "5"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Google · Meta · TikTok"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 15.47,
+    "text": "Contactos por día"
+  },
+  {
+    "background": "rgb(23, 29, 23)",
+    "foreground": "rgb(214, 221, 197)",
+    "ratio": 12.26,
+    "text": "Contactos registrados"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Trabajo reciente de Órbita"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Rendimiento revisado"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Especialista de campañas · 8 oct"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Hecho"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Propuestas creativas"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Equipo creativo · 6 oct"
+  },
+  {
+    "background": "rgb(229, 245, 196)",
+    "foreground": "rgb(37, 53, 25)",
+    "ratio": 11.35,
+    "text": "En tu revisión"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Audiencias ajustadas"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Especialista de campañas · 3 oct"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Hecho"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Reporte preparado"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Especialista de campañas · 1 oct"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Hecho"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "3 propuestas creativas pendientes de revisión"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(72, 98, 46)",
+    "ratio": 6.75,
+    "text": "Próximo paso: revisar la propuesta de la campaña"
+  },
+  {
+    "background": "rgb(255, 253, 248)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 19.19,
+    "text": "Revisar propuesta"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 17.59,
+    "text": "1 acceso a GISBA incluido con Marketing"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(195, 201, 181)",
+    "ratio": 11.46,
+    "text": "Usuarios adicionales con costo extra"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(246, 243, 235)",
+    "ratio": 17.59,
+    "text": "Inversión publicitaria aparte"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(238, 234, 224)",
+    "ratio": 16.24,
+    "text": "Ver detalles en Precios"
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(195, 201, 181)",
+    "ratio": 11.46,
+    "text": "Software provisto por GISBA."
+  },
+  {
+    "background": "rgb(11, 13, 11)",
+    "foreground": "rgb(195, 201, 181)",
+    "ratio": 11.46,
+    "text": "VISTA ILUSTRATIVA · DATOS DE EJEMPLO · FUNCIONES SUJETAS A CONFIRMACIÓN"
+  },
+  {
+    "background": "rgb(199, 244, 91)",
+    "foreground": "rgb(11, 13, 11)",
+    "ratio": 15.34,
+    "text": "Agenda una reunión"
+  }
+]

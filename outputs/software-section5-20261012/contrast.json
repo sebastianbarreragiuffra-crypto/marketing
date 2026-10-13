@@ -1,0 +1,170 @@
+[
+  {
+    "failures": [],
+    "min": 13.490476322685808,
+    "samples": [
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "14px",
+        "ratio": 13.490476322685808,
+        "text": "05 / HABLEMOS"
+      },
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "14px",
+        "ratio": 13.490476322685808,
+        "text": "/"
+      },
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(246, 243, 235)",
+        "font": "68px",
+        "ratio": 15.465628192833062,
+        "text": "Hablemos de tu\npróxima campaña."
+      },
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(246, 243, 235)",
+        "font": "68px",
+        "ratio": 15.465628192833062,
+        "text": "próxima campaña."
+      },
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "68px",
+        "ratio": 13.490476322685808,
+        "text": "próxima"
+      },
+      {
+        "background": [
+          23,
+          29,
+          23
+        ],
+        "color": "rgb(238, 234, 224)",
+        "font": "21px",
+        "ratio": 14.27538284672457,
+        "text": "Cuéntanos sobre tu negocio. Nosotros te ayudamos a definir cómo empezar."
+      },
+      {
+        "background": [
+          199,
+          244,
+          91
+        ],
+        "color": "rgb(11, 13, 11)",
+        "font": "19px",
+        "ratio": 15.343934897670398,
+        "text": "Agenda una reunión"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "failures": [],
+    "min": 15.343934897670398,
+    "samples": [
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "12px",
+        "ratio": 15.343934897670398,
+        "text": "05 / HABLEMOS"
+      },
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "12px",
+        "ratio": 15.343934897670398,
+        "text": "/"
+      },
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(246, 243, 235)",
+        "font": "35px",
+        "ratio": 17.590453180911986,
+        "text": "Hablemos de tu\npróxima campaña."
+      },
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(246, 243, 235)",
+        "font": "35px",
+        "ratio": 17.590453180911986,
+        "text": "próxima campaña."
+      },
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(199, 244, 91)",
+        "font": "35px",
+        "ratio": 15.343934897670398,
+        "text": "próxima"
+      },
+      {
+        "background": [
+          11,
+          13,
+          11
+        ],
+        "color": "rgb(238, 234, 224)",
+        "font": "20px",
+        "ratio": 16.236679847332024,
+        "text": "Cuéntanos sobre tu negocio. Nosotros te ayudamos a definir cómo empezar."
+      },
+      {
+        "background": [
+          199,
+          244,
+          91
+        ],
+        "color": "rgb(11, 13, 11)",
+        "font": "18px",
+        "ratio": 15.343934897670398,
+        "text": "Agenda una reunión"
+      }
+    ],
+    "width": 390
+  }
+]

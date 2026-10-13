@@ -1,0 +1,270 @@
+{
+  "failed": [],
+  "min": 5.588306668548115,
+  "samples": [
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.184851374780274,
+      "text": "04/CÓMO TRABAJAMOS"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.184851374780274,
+      "text": "04"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.184851374780274,
+      "text": "/"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "38px",
+      "ratio": 17.590453180911986,
+      "text": "Nos encargamos de tu publicidad."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "38px",
+      "ratio": 17.590453180911986,
+      "text": "de tu publicidad."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "19px",
+      "ratio": 5.846718831319612,
+      "text": "Elige la modalidad que se adapta a tu negocio. Puedes contratar s"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "17px",
+      "ratio": 6.184851374780274,
+      "text": "Más tiempopara hacer crecertu negocio."
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "SERVICIO PRINCIPAL"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "23px",
+      "ratio": 19.19879183173732,
+      "text": "Gestión publicitaria"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 6.381298798089528,
+      "text": "Creamos, gestionamos y optimizamos tus campañas en Google, Meta y"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 16.879688838457533,
+      "text": "Gestión de campañas."
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 16.879688838457533,
+      "text": "1 acceso a GISBA incluido."
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 16.879688838457533,
+      "text": "Inversión publicitaria aparte."
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 5.911494494402204,
+      "text": "COMPLEMENTO OPCIONAL"
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "23px",
+      "ratio": 16.812993689229145,
+      "text": "Gestión + asistente automatizado"
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.588306668548115,
+      "text": "Complementa la gestión publicitaria con atención automatizada par"
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 14.7820813103455,
+      "text": "Atención inicial de consultas."
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 14.7820813103455,
+      "text": "Recopilación de información clave."
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 14.7820813103455,
+      "text": "Entrega de contexto al equipo."
+    },
+    {
+      "bg": [
+        241,
+        238,
+        229
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "11px",
+      "ratio": 5.588306668548115,
+      "text": "Funciones, integraciones, configuración y precio según el alcance"
+    },
+    {
+      "bg": [
+        240,
+        242,
+        231
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.72982882699311,
+      "text": "Un acceso a GISBA incluido con Marketing; usuarios adicionales co"
+    },
+    {
+      "bg": [
+        240,
+        242,
+        231
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "15px",
+      "ratio": 15.156433001730582,
+      "text": "La inversión publicitaria se paga aparte."
+    },
+    {
+      "bg": [
+        72,
+        98,
+        46
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "17px",
+      "ratio": 6.750347636494754,
+      "text": "Agenda una reunión"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "13px",
+      "ratio": 5.846718831319612,
+      "text": "Conversemos sobre tu negocio y veamos la mejor forma de trabajar "
+    }
+  ]
+}

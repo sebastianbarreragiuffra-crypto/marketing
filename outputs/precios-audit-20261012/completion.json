@@ -1,0 +1,100 @@
+{
+  "objective": "Corregir localmente los pendientes de Precios conservando el diseño y el alcance autorizado.",
+  "phase": "Implementación y auditoría de correcciones; SAME_AGENT. No nueva arquitectura, comparación de diseños ni sección adicional.",
+  "result": "COMPLETE",
+  "sales_readiness": "NOT_READY: faltan tarifas comerciales definitivas y contacto real.",
+  "changed_files": [
+    "precios.html",
+    "css/pricing-comparison-20261011.css",
+    "css/precios-faq-20261012.css",
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    ".cursor/rules/directory-s-lecciones.mdc"
+  ],
+  "local_design": {
+    "status": "VERIFIED",
+    "changes": [
+      "Hero y bloque del bot actualizados; FAQ coherente con complemento disponible por contrato",
+      "Tarifas ilustrativas conservadas sin cambiar importes",
+      "Web aclara contenido, funcionalidades, hosting, dominio, mantenimiento y tarifas según propuesta; sin GISBA automático",
+      "Móvil: etiquetas 13px, notas y condiciones 14–15px, texto de tareas/responsabilidades 16px",
+      "Cinco preguntas y una sola sección/cierre; sin rediseño ni nuevo FAQ"
+    ],
+    "checks": [
+      "1440/1920/390/360/320: sin texto recortado, solapamientos detectados u overflow; precios completos y alineados",
+      "Contraste mínimo de texto medido 6.09:1",
+      "Menú/Escape/retorno de foco, ancla por Enter, apertura/cierre con teclado, foco visible",
+      "Segunda pregunta abierta inicialmente; estados del FAQ conservados al redimensionar",
+      "Solo los CSS de Precios fueron editados; ninguna otra página usa esos dos CSS; otras páginas y Hablemos mantienen hashes de baseline; footer HTML idéntico"
+    ]
+  },
+  "commercial": {
+    "confirmed": [
+      "Bot comercial de GISBA disponible para contratar como complemento opcional, sin obligación ni inclusión gratuita",
+      "Órbita gestiona publicidad; configuración, puesta en marcha y mantenimiento del bot según contrato",
+      "Intervención del equipo comercial del cliente según alcance",
+      "Un usuario de GISBA contemplado con el servicio; adicionales con costo extra; inversión publicitaria aparte"
+    ],
+    "pending": [
+      "Honorarios reales por canal y posibles combinaciones; elegibilidad, alcance y modalidades de contratación",
+      "Precio de usuarios adicionales; alcance/permisos del acceso acordado",
+      "Funciones, conexiones, configuración, mantenimiento y costos del bot; la estructura mensual/configuración es solo ejemplo",
+      "Producción, grabación y aportes del cliente para TikTok según propuesta",
+      "Contenido, funcionalidades, hosting, dominio, mantenimiento y tarifa del proyecto Web"
+    ],
+    "illustrative_only": {
+      "Google Ads": "$350.000 CLP/mes",
+      "Meta Ads": "$320.000 CLP/mes",
+      "TikTok Ads": "$300.000 CLP/mes",
+      "Bot mensualidad": "$120.000 CLP/mes",
+      "Bot configuración": "$180.000 CLP, pago único"
+    }
+  },
+  "contact": {
+    "status": "PENDING",
+    "verified_segment": "CTA abre hablemos.html#contacto por teclado y el ancla existe; esto no es reserva ni recepción.",
+    "evidence": [
+      "hablemos.html: formulario hc-form sin action; botón Enviar consulta type=button y disabled",
+      "js/home-contact-reference.js previene submit y solo cambia campos; no hay envío, endpoint ni destinatario configurados",
+      "Búsqueda en fuentes activas no encontró teléfono/correo de destino, agenda ni proveedor receptor configurado"
+    ],
+    "exact_missing": [
+      "Destino real y autorizado: URL de agenda o mecanismo que reciba consultas",
+      "Si se elige formulario: endpoint/proveedor, destinatario real y configuración/credenciales requeridas por ese proveedor",
+      "Validación de recepción o reserva dentro de un entorno/destino de pruebas autorizado"
+    ],
+    "not_done": "No se enviaron formularios, mensajes ni datos; Hablemos se conserva como preview explícito."
+  },
+  "publication": {
+    "status": "NOT_PERFORMED",
+    "noindex": "noindex, nofollow conservado en Precios",
+    "public_comparison": "La URL Pages responde 200 y no incluye el FAQ local actual; es un despliegue separado. El túnel temporal, si está activo, refleja archivos guardados sin despliegue Pages.",
+    "before_authorized_launch": [
+      "Confirmar la versión exacta, dependencias y manifiesto; comprobar SHA de traslado cuando corresponda",
+      "Cerrar tarifas/modalidades/alcance y reemplazar cifras ficticias por condiciones aprobadas o retirar precios de ejemplo según decisión",
+      "Configurar contacto real y verificar su recepción/reserva de forma autorizada",
+      "Revisar enlaces de menú, CTA y footer en escritorio/móvil; confirmar acceso externo pendiente",
+      "Con autorización y entorno de producción confirmado, decidir indexación; revisar robots/meta/cabeceras, URLs/canonical/sitemap aplicables y rastreo; no retirar noindex de revisión automáticamente",
+      "Después del despliegue autorizado, verificar HTTPS, códigos HTTP, versión, imágenes, estilos y recorrido público"
+    ]
+  },
+  "not_verified": [
+    "Capacidades/integraciones técnicas específicas del software",
+    "Conformidad WCAG completa, experiencia de campo o conversión; no hay medición propia",
+    "Recepción/reserva real por falta de configuración"
+  ],
+  "project_state": "Fuentes anteriores archivadas; memoria, aprendizaje local y manifiesto actualizados.",
+  "method_learning": "Refuerzo de lección local S-030; no modificación ni promoción de Webmaster canónico.",
+  "next_action": "Usuario: proporcionar/aprobar tarifas definitivas y un destino real de contacto antes del lanzamiento.",
+  "captures": {
+    "precios-1440.png": {
+      "width": 1440,
+      "height": 3247
+    },
+    "precios-390.png": {
+      "width": 390,
+      "height": 5197
+    }
+  },
+  "result_scope": "Auditoría y correcciones locales completadas; preparación comercial y contacto permanecen pendientes explícitos."
+}

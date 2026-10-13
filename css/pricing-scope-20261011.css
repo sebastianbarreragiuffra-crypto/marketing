@@ -1,0 +1,11 @@
+/* Current commercial scope: quote by agreed work; no unapproved public price amounts. */
+.precios-page .pr-price{white-space:normal;min-height:43px}
+.precios-page .pr-price strong,
+.precios-page .pr-combination .pr-price strong{font-size:clamp(25px,2.3vw,32px);line-height:1.2;letter-spacing:-.035em}
+.precios-page #mensualidad .pmo-amount,
+.precios-page #mensualidad .pmo-management .pmo-amount{font-size:clamp(19px,2vw,25px);line-height:1.25;letter-spacing:-.02em}
+@media(max-width:760px){
+  .precios-page .pr-price strong,
+  .precios-page .pr-combination .pr-price strong{font-size:clamp(25px,7vw,31px)}
+  .precios-page #mensualidad .pmo-cost-row dd{min-width:0;text-align:right}
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "software.html": "855ff7176177194db31d4909c228d6c3ef0ea4f3de4bf5584e2604586b8295b7",
+    "css/software-gisba-reference.css": "ceb5444425986201535452e7ba23daf92c2905ce2fe658246ba140da94bc1bb7",
+    "css/software-consultas.css": "75afae40db28ba128121bfc3a14f9848d947288df284f7928b7f4b58d34420f5",
+    "css/software-asistente.css": "16c252b9d9859e09676558ee7f05867b2911c4c9ac7f6bbeb2dbca3fb5e4d879",
+    "js/software-consultas.js": "be0e340f26395bda395b0a93958cf82cdc27f28ba17bcf14e7bd2f0ae7ad9d75",
+    "index.html": "1d5d4ec6074d94cb88a91050237c0fac81052c95a73767ac9258d913089f4473",
+    "marketing.html": "3710b3b239aa5914898ab9f942958d68dd79a2c921dc0548978932bdd5cee735",
+    "precios.html": "8323bf363c29cde1ff43efe46034b43245677abc5271d391fbf7ea837b6ea47c",
+    "automatizaciones.html": "3b9bc9f30fd9dc98dd0fb87e880fe93c9a7292d7411644b49184e83627230fbb",
+    "hablemos.html": "36dfd13557079679e10c0ee6b1c14f27f2ceb950d6afb34e76657bae61a426e3",
+    "iniciar-sesion.html": "36d2e3e63114386760b35a947c4688bc3380aef789504fa34e91a8cd47c25f43"
+  },
+  "before": "111eca6f577cd5810e68d6f1ae9fa0e9d31a79b1ae09b8098cbe1f3694128abd",
+  "after": "a14bcadccfd2c93619ecf5599e0277a3c4af885128ab16ca18d6aace5de50cd5"
+}

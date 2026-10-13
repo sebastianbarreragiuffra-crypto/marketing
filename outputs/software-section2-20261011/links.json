@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://127.0.0.1:8767/hablemos.html#contacto",
+    "status": 200,
+    "destination": "http://127.0.0.1:8767/hablemos.html#contacto",
+    "contact_anchor": true
+  },
+  {
+    "url": "https://gisba.cl/",
+    "status": 200,
+    "destination": "https://gisba.cl/",
+    "contact_anchor": null
+  }
+]

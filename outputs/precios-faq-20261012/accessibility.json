@@ -1,0 +1,50 @@
+{
+  "keyboardFocus": {
+    "summary": {
+      "focusVisible": true,
+      "outline": "solid"
+    },
+    "cta": {
+      "focusVisible": true,
+      "outline": "solid"
+    }
+  },
+  "allOpen": [
+    {
+      "width": 320,
+      "allOpenOverflow": false,
+      "minContrast": 9.45495044171621,
+      "contrastFailures": [],
+      "clippedText": []
+    },
+    {
+      "width": 360,
+      "allOpenOverflow": false,
+      "minContrast": 9.45495044171621,
+      "contrastFailures": [],
+      "clippedText": []
+    },
+    {
+      "width": 390,
+      "allOpenOverflow": false,
+      "minContrast": 9.45495044171621,
+      "contrastFailures": [],
+      "clippedText": []
+    },
+    {
+      "width": 1440,
+      "allOpenOverflow": false,
+      "minContrast": 9.45495044171621,
+      "contrastFailures": [],
+      "clippedText": []
+    },
+    {
+      "width": 1920,
+      "allOpenOverflow": false,
+      "minContrast": 9.45495044171621,
+      "contrastFailures": [],
+      "clippedText": []
+    }
+  ],
+  "worksWithoutJavaScript": true
+}

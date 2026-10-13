@@ -1,0 +1,920 @@
+[
+  {
+    "client": 1425,
+    "containers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 731.53125,
+        "class": "os-layout",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 562.53125,
+        "top": 169,
+        "width": 1329
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 1646.53125,
+        "class": "sc-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 791,
+        "top": 855.53125,
+        "width": 1329
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 2411.90625,
+        "class": "sa-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 683.375,
+        "top": 1728.53125,
+        "width": 1329
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 3336.203125,
+        "class": "sm-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 820.296875,
+        "top": 2515.90625,
+        "width": 1329
+      },
+      {
+        "background": "rgb(23, 29, 23)",
+        "bottom": 4000.203125,
+        "class": "sh-card",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 588,
+        "top": 3412.203125,
+        "width": 1329
+      }
+    ],
+    "contrast": {
+      "failures": [],
+      "min": 5.462058252272998
+    },
+    "cta": [
+      {
+        "height": 0,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": false
+      },
+      {
+        "height": 43,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 58,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 48,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 52,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 62,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      }
+    ],
+    "fonts": [
+      "Manrope, Arial, sans-serif",
+      "\"DM Sans\", Arial, sans-serif",
+      "Manrope, sans-serif"
+    ],
+    "hero": {
+      "desktop": true,
+      "mobile": false,
+      "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA revisas resultados, propuestas y próximos pasos en un mismo lugar."
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/contacto-02.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-03.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      }
+    ],
+    "internalOverflow": [
+      {
+        "class": "sa-chat-menu",
+        "text": "···"
+      }
+    ],
+    "oldBlocks": 0,
+    "oldBot": false,
+    "overflow": false,
+    "sections": [
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 811.53125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "id": "os-hero",
+        "top": 89,
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 1672.53125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 861,
+        "id": "flujo-consultas",
+        "top": 811.53125,
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 2467.90625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 795.375,
+        "id": "atencion-automatizada",
+        "top": 1672.53125,
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 3380.203125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 912.296875,
+        "id": "modalidades",
+        "top": 2467.90625,
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 4064.203125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 684,
+        "id": "siguiente-paso",
+        "top": 3380.203125,
+        "width": 1425
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "client": 1905,
+    "containers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 731.53125,
+        "class": "os-layout",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 562.53125,
+        "top": 169,
+        "width": 1440
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 1646.53125,
+        "class": "sc-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 791,
+        "top": 855.53125,
+        "width": 1440
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 2418.890625,
+        "class": "sa-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 690.359375,
+        "top": 1728.53125,
+        "width": 1440
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 3347.046875,
+        "class": "sm-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 824.15625,
+        "top": 2522.890625,
+        "width": 1440
+      },
+      {
+        "background": "rgb(23, 29, 23)",
+        "bottom": 4011.046875,
+        "class": "sh-card",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 588,
+        "top": 3423.046875,
+        "width": 1440
+      }
+    ],
+    "contrast": {
+      "failures": [],
+      "min": 5.462058252272998
+    },
+    "cta": [
+      {
+        "height": 0,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": false
+      },
+      {
+        "height": 43,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 58,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 48,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 52,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 62,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      }
+    ],
+    "fonts": [
+      "Manrope, Arial, sans-serif",
+      "\"DM Sans\", Arial, sans-serif",
+      "Manrope, sans-serif"
+    ],
+    "hero": {
+      "desktop": true,
+      "mobile": false,
+      "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA revisas resultados, propuestas y próximos pasos en un mismo lugar."
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/contacto-02.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-03.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      }
+    ],
+    "internalOverflow": [
+      {
+        "class": "sa-chat-menu",
+        "text": "···"
+      }
+    ],
+    "oldBlocks": 0,
+    "oldBot": false,
+    "overflow": false,
+    "sections": [
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 811.53125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "id": "os-hero",
+        "top": 89,
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 1672.53125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 861,
+        "id": "flujo-consultas",
+        "top": 811.53125,
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 2474.890625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 802.359375,
+        "id": "atencion-automatizada",
+        "top": 1672.53125,
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 3391.046875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 916.15625,
+        "id": "modalidades",
+        "top": 2474.890625,
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 4075.046875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 684,
+        "id": "siguiente-paso",
+        "top": 3391.046875,
+        "width": 1905
+      }
+    ],
+    "width": 1920
+  },
+  {
+    "client": 753,
+    "containers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 1220.734375,
+        "class": "os-layout",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1103.734375,
+        "top": 117,
+        "width": 680
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 2733.40625,
+        "class": "sc-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1428.671875,
+        "top": 1304.734375,
+        "width": 700
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 4468.1875,
+        "class": "sa-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1660.78125,
+        "top": 2807.40625,
+        "width": 700
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 5683.109375,
+        "class": "sm-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1134.921875,
+        "top": 4548.1875,
+        "width": 700
+      },
+      {
+        "background": "rgb(23, 29, 23)",
+        "bottom": 6265.109375,
+        "class": "sh-card",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 510,
+        "top": 5755.109375,
+        "width": 689
+      }
+    ],
+    "contrast": {
+      "failures": [],
+      "min": 5.462058252272998
+    },
+    "cta": [
+      {
+        "height": 44,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 0,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": false
+      },
+      {
+        "height": 56,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 52,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 62,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      }
+    ],
+    "fonts": [
+      "Manrope, Arial, sans-serif",
+      "\"DM Sans\", Arial, sans-serif",
+      "Manrope, sans-serif",
+      "\"DM Sans\", sans-serif"
+    ],
+    "hero": {
+      "desktop": false,
+      "mobile": true,
+      "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA sigues el avance y coordinas lo importante."
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      }
+    ],
+    "internalOverflow": [
+      {
+        "class": "sa-chat-menu",
+        "text": "···"
+      }
+    ],
+    "oldBlocks": 0,
+    "oldBot": false,
+    "overflow": false,
+    "sections": [
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 1264.734375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "id": "os-hero",
+        "top": 77,
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 2767.40625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1502.671875,
+        "id": "flujo-consultas",
+        "top": 1264.734375,
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 4508.1875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1740.78125,
+        "id": "atencion-automatizada",
+        "top": 2767.40625,
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 5723.109375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1214.921875,
+        "id": "modalidades",
+        "top": 4508.1875,
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 6329.109375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 606,
+        "id": "siguiente-paso",
+        "top": 5723.109375,
+        "width": 753
+      }
+    ],
+    "width": 768
+  },
+  {
+    "client": 375,
+    "containers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 1185.859375,
+        "class": "os-layout",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1074.859375,
+        "top": 111,
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 2720.03125,
+        "class": "sc-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1458.171875,
+        "top": 1261.859375,
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 4347.46875,
+        "class": "sa-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1567.4375,
+        "top": 2780.03125,
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 5568.0625,
+        "class": "sm-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1156.59375,
+        "top": 4411.46875,
+        "width": 339
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 6300.0625,
+        "class": "sh-card",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 700,
+        "top": 5600.0625,
+        "width": 375
+      }
+    ],
+    "contrast": {
+      "failures": [],
+      "min": 5.462058252272998
+    },
+    "cta": [
+      {
+        "height": 44,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 0,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": false
+      },
+      {
+        "height": 56,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 52,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 58,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      }
+    ],
+    "fonts": [
+      "Manrope, Arial, sans-serif",
+      "\"DM Sans\", Arial, sans-serif",
+      "Manrope, sans-serif",
+      "\"DM Sans\", sans-serif"
+    ],
+    "hero": {
+      "desktop": false,
+      "mobile": true,
+      "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA sigues el avance y coordinas lo importante."
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      }
+    ],
+    "internalOverflow": [
+      {
+        "class": "sa-chat-menu",
+        "text": "···"
+      }
+    ],
+    "oldBlocks": 0,
+    "oldBot": false,
+    "overflow": false,
+    "sections": [
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 1229.859375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1152.859375,
+        "id": "os-hero",
+        "top": 77,
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 2748.03125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1518.171875,
+        "id": "flujo-consultas",
+        "top": 1229.859375,
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 4379.46875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1631.4375,
+        "id": "atencion-automatizada",
+        "top": 2748.03125,
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 5600.0625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1220.59375,
+        "id": "modalidades",
+        "top": 4379.46875,
+        "width": 375
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 6300.0625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 700,
+        "id": "siguiente-paso",
+        "top": 5600.0625,
+        "width": 375
+      }
+    ],
+    "width": 390
+  },
+  {
+    "client": 360,
+    "containers": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 1198.421875,
+        "class": "os-layout",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1087.421875,
+        "top": 111,
+        "width": 328
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 2728.046875,
+        "class": "sc-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1453.625,
+        "top": 1274.421875,
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 4369.484375,
+        "class": "sa-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1581.4375,
+        "top": 2788.046875,
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "bottom": 5626.75,
+        "class": "sm-shell",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1193.265625,
+        "top": 4433.484375,
+        "width": 324
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 6358.75,
+        "class": "sh-card",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 700,
+        "top": 5658.75,
+        "width": 360
+      }
+    ],
+    "contrast": {
+      "failures": [],
+      "min": 5.462058252272998
+    },
+    "cta": [
+      {
+        "height": 44,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 0,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": false
+      },
+      {
+        "height": 56,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 52,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 54,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      },
+      {
+        "height": 58,
+        "href": "hablemos.html#contacto",
+        "label": "Agenda una reunión (vista previa; reservas aún no habilitadas)",
+        "visible": true
+      }
+    ],
+    "fonts": [
+      "Manrope, Arial, sans-serif",
+      "\"DM Sans\", Arial, sans-serif",
+      "Manrope, sans-serif",
+      "\"DM Sans\", sans-serif"
+    ],
+    "hero": {
+      "desktop": false,
+      "mobile": true,
+      "text": "Nuestro equipo crea, gestiona y optimiza tus campañas. Con GISBA sigues el avance y coordinas lo importante."
+    },
+    "images": [
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/cliente-01.webp"
+      },
+      {
+        "loaded": true,
+        "src": "assets/software-consultas/ana.webp"
+      }
+    ],
+    "internalOverflow": [
+      {
+        "class": "sa-chat-menu",
+        "text": "···"
+      }
+    ],
+    "oldBlocks": 0,
+    "oldBot": false,
+    "overflow": false,
+    "sections": [
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 1242.421875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1165.421875,
+        "id": "os-hero",
+        "top": 77,
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 2756.046875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1513.625,
+        "id": "flujo-consultas",
+        "top": 1242.421875,
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 4401.484375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1645.4375,
+        "id": "atencion-automatizada",
+        "top": 2756.046875,
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "bottom": 5658.75,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1257.265625,
+        "id": "modalidades",
+        "top": 4401.484375,
+        "width": 360
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "bottom": 6358.75,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 700,
+        "id": "siguiente-paso",
+        "top": 5658.75,
+        "width": 360
+      }
+    ],
+    "width": 375
+  }
+]

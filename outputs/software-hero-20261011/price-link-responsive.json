@@ -1,0 +1,38 @@
+[
+  {
+    "containerWidth": 136.75,
+    "fonts": "loaded",
+    "heroEnd": -2015.46875,
+    "overflow": 0,
+    "priceGroupWidth": 44.28125,
+    "priceText": "Ver detalles en Precios",
+    "width": 1425
+  },
+  {
+    "containerWidth": 114.5,
+    "fonts": "loaded",
+    "heroEnd": -1612.140625,
+    "overflow": 0,
+    "priceGroupWidth": 54.40625,
+    "priceText": "Ver detalles en Precios ",
+    "width": 375
+  },
+  {
+    "containerWidth": 107,
+    "fonts": "loaded",
+    "heroEnd": -1601.578125,
+    "overflow": 0,
+    "priceGroupWidth": 54.40625,
+    "priceText": "Ver detalles en Precios ",
+    "width": 360
+  },
+  {
+    "containerWidth": 84.5,
+    "fonts": "loaded",
+    "heroEnd": -1509.5,
+    "overflow": 0,
+    "priceGroupWidth": 37.46875,
+    "priceText": "Ver detalles en Precios",
+    "width": 305
+  }
+]

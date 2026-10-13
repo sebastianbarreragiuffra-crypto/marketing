@@ -1,0 +1,88 @@
+---
+description: Brief comercial y de diseño de Órbita (2026-10-11) — regla local vigente mientras se diseña la web; prevalece sobre reglas anteriores en lo que contradiga
+alwaysApply: true
+---
+
+# Brief comercial y de diseño de Órbita — vigente desde 2026-10-11
+
+Vigencia comercial: leer también la confirmación directa del usuario de 2026-10-12 al final; supera los estados futuros e inclusiones históricas que contradiga.
+
+Regla local entregada por el usuario para el período de diseño de la web. Prevalece sobre directory-z.mdc, AGENTS.md y documentos anteriores en todo lo que contradiga; una instrucción posterior del usuario prevalece sobre este brief. Orienta el diseño; **no autoriza publicar ni modificar el sitio real**. Reemplaza las propuestas anteriores que mostraban la venta independiente de GISBA como oferta principal de la agencia.
+
+## 1. Relación entre las empresas
+- Órbita y GISBA pertenecen al mismo holding y tienen funciones distintas.
+- **Órbita** presta el servicio de agencia: su equipo crea, gestiona y ajusta la publicidad.
+- **GISBA** desarrolla y vende el software: herramientas para que agencias, freelancers y equipos internos operen su marketing.
+- Órbita utiliza GISBA para apoyar su trabajo y proporciona a sus clientes el acceso acordado al software.
+
+## 2. A quién vende Órbita
+- Público principal: ecommerce y empresas B2B que necesitan delegar la creación y gestión de sus campañas publicitarias.
+- Necesidad central del comprador: «Quiero que un equipo se encargue de mi publicidad y me ayude a entender qué está haciendo».
+- Quien busca únicamente software para usarlo con su equipo o agencia debe dirigirse a GISBA.
+
+## 3. Qué vende Órbita
+La oferta principal es gestión de publicidad, con dos modalidades:
+- **Gestión publicitaria**: Órbita prepara anuncios, gestiona campañas y revisa ajustes según el alcance contratado. Canales posibles: Google, Meta y TikTok, según la propuesta acordada. Contempla un usuario de GISBA para el cliente; usuarios adicionales con costo extra; la inversión publicitaria se paga aparte.
+- **Gestión publicitaria con atención automatizada**: lo anterior más el nuevo módulo de bot y conversaciones unificadas de GISBA. Órbita se encarga de su configuración, puesta en marcha y mantenimiento dentro del alcance contratado, para ayudar a atender y organizar las consultas que generan las campañas. Es una opción: contratar publicidad no obliga a contratar el bot.
+
+## 4. Qué aporta GISBA al servicio
+- Para el equipo de Órbita: análisis de información, revisión de señales y recomendaciones, y coordinación de decisiones.
+- Para el cliente: el acceso acordado permite consultar información de su cuenta, revisar pendientes y coordinarse con la agencia.
+- No confundir estas experiencias: el cliente no necesariamente recibe todos los permisos operativos del equipo de marketing.
+- La diferencia comercial de Órbita es la combinación de trabajo profesional, criterio humano y tecnología aplicada al negocio. No afirmar que disponer del software garantiza mejores resultados.
+
+## 5. Alcance del nuevo bot
+- El bot pertenece a GISBA y Órbita puede incorporarlo a su servicio.
+- Alcance previsto: respuestas automatizadas, conversaciones unificadas, organización de leads, recopilación de contexto y seguimiento.
+- Las funciones nuevas se identifican como **previstas** hasta confirmar su disponibilidad. No asumir pagos, agendamiento, llamadas, integraciones específicas (por ejemplo, nombrar un canal concreto) ni atribución por anuncio sin validación.
+- El contrato deberá definir cuándo interviene el equipo del cliente y qué tareas mantiene Órbita.
+
+## 6. Qué debe comunicar la web
+- Jerarquía comercial: (1) Órbita crea y gestiona tu publicidad; (2) GISBA aporta información y coordinación al servicio; (3) la atención automatizada es un complemento opcional.
+- Conservar el título acordado: «Un equipo para crear y gestionar tu publicidad.»
+- CTA principal: «Agenda una reunión».
+- No presentar publicidad, software independiente y bot como tres ofertas de igual importancia en el hero. No destacar planes de GISBA independiente en la página de Órbita; esas consultas se derivan a GISBA.
+- La información sobre presupuesto publicitario aparte, acceso incluido y adicionales debe seguir visible o claramente accesible.
+
+## 7. Criterios para diseñar
+- Identidad de Órbita: `#0b0d0b`, `#171d17`, `#c7f45b`, `#f6f3eb`, `#eeeae0` y `#48622e`; Manrope y DM Sans.
+- Composiciones frontales y contraste mínimo objetivo de 4.5:1.
+- Evitar repetir anuncios de Instagram entre páginas; cada imagen explica una parte distinta del servicio.
+- Mostrar el trabajo de la agencia y el beneficio para el cliente, sin inventar interfaces o capacidades.
+- SVG oficiales cuando estén disponibles; mientras tanto, placeholders.
+- No inventar cifras, resultados, testimonios, integraciones ni condiciones comerciales.
+- Mantener versiones anteriores y señalar si un mockup es una recreación generada.
+- Escritorio a 1440 px y móvil propio a 390 px, con validación separada.
+- Antes de proponer cambios, comprobar que respetan esta oferta y las decisiones aprobadas.
+
+## Reconciliación con reglas anteriores (registrada por Claude)
+- **Reemplaza**: «Órbita compra GISBA a un proveedor externo» → mismo holding, funciones distintas. «Preservar la ruta de GISBA independiente / Órbita puede vender acceso independiente» → no se ofrece ni se destaca en la web de Órbita; se deriva a GISBA. «Bot gestionado por Órbita» → el bot es de GISBA; Órbita lo configura, pone en marcha y mantiene como complemento opcional, con funciones previstas.
+- **Se mantiene**: un usuario de GISBA incluido y adicionales con costo extra; inversión publicitaria aparte; precios y planes pendientes; Google, Meta y TikTok según propuesta; CTA «Agenda una reunión»; Diseño Web y Automatizaciones como servicios secundarios mientras el usuario no indique otra cosa.
+- **Observaciones vigentes**: TikTok no figura entre las integraciones públicas de gisba.cl; mostrarlo como canal gestionado por Órbita, no como integración. El anuncio `assets/hero/pricing-meta-ad.webp` se repite hoy en marketing.html y precios.html (contra el punto 7). El usuario indicó (2026-10-11) no rediseñar anuncios todavía: sólo registrar; actuar cuando lo pida.
+- **Decisión del usuario (2026-10-11, prompt maestro del hero de Software)**: el hero de Software usa la identidad oscura de Órbita (no el estilo azul de GISBA); a la derecha, portal de cliente frontal con tres bloques: resultados, trabajo de Órbita, pendientes y próximos pasos; sin bot en el hero. Título a reevaluar desde la propuesta «Órbita gestiona tus campañas. Tú ves los avances.»; no cambiar el título general de Órbita.
+
+
+## Actualización comercial del usuario — Sección 4 de Software, 2026-10-11
+
+Esta actualización prevalece sobre las referencias anteriores a un asistente futuro/en desarrollo en este brief para próximos trabajos. El prompt maestro de la Sección 4 afirma expresamente que el asistente comercial automatizado de GISBA ya está disponible y es un complemento opcional de la gestión publicitaria. No es obligatorio ni se incluye gratuitamente por defecto. Funciones específicas, integraciones, configuración, mantenimiento y precio se acuerdan según el alcance/contrato; no inventarlos. Fuente: brief de Sección 4 adjunto por el usuario en esta conversación, attachments/ef643eff-9875-4931-abdf-0341e0ae02b5/Texto pegado.txt. Estado: disponibilidad comercial CONFIRMADA POR EL USUARIO; capacidades técnicas y conexiones concretas no auditadas por esta implementación.
+
+La autorización actual permite únicamente añadir la Sección 4 local. La Sección 3 todavía dice «En desarrollo» y describe funciones previstas; el usuario prohibió modificarla en esta entrega, por lo que se preserva y su incoherencia queda pendiente de una corrección autorizada. Tampoco se actualizan por inferencia las otras páginas, FAQ ni metadatos. Sin publicación, deployment, commit o push.
+
+
+## Confirmación directa del usuario — auditoría de Inicio, 2026-10-12
+
+Esta confirmación prevalece para próximos diseños sobre referencias anteriores que limitaban GISBA a reportes/coordinación o trataban el bot como futuro.
+
+- CONFIRMADO POR EL USUARIO en respuesta directa: el acceso GISBA incluido con el plan de Marketing contempla chat unificado y seguimiento de cotizaciones y ventas.
+- CONFIRMADO POR EL USUARIO: el seguimiento abarca avance/cierre comercial y atribución de ventas a campañas/anuncios. No inferir método técnico, exactitud, ventanas de atribución, actualización, importación automática ni conexiones específicas; quedan por verificar por implementación.
+- CONFIRMADO POR EL USUARIO: el bot ya está disponible para contratar, con alcance según contrato. Mantiene su condición de complemento opcional; esta respuesta no lo convierte en incluido gratuitamente.
+- Se mantiene un usuario contemplado, usuarios adicionales con costo extra e inversión publicitaria aparte. No se aprobaron nuevos precios, permisos ni condiciones.
+- Responsabilidades: Órbita gestiona publicidad; el equipo comercial del cliente opera consultas/cotizaciones/ventas salvo otro acuerdo. GISBA aporta las herramientas; la configuración y mantenimiento del bot por Órbita dependen del contrato.
+- Fuente: respuestas a las tres preguntas de auditoría en esta conversación, 2026-10-12. Es confirmación comercial del responsable, no auditoría funcional del producto.
+- Hero y arquitectura permanecen PROPUESTOS hasta aprobación explícita. Esta actualización no autoriza cambios de HTML/CSS/JS, otras páginas, publicación, commit o push.
+
+
+
+## Auditoría final de Software — actualización autorizada, 2026-10-12
+
+El brief final del usuario confirma nuevamente que el asistente de GISBA está disponible como complemento opcional y autoriza corregir ahora las referencias futuras de la Sección 3. Queda resuelta en Software la incoherencia preservada por el alcance anterior. «ATENCIÓN AUTOMATIZADA · COMPLEMENTO OPCIONAL» y «Muebles Norte · Asistente virtual», conservando ejemplo ficticio/chat no operativo. Disponibilidad confirmada por responsable; capacidades específicas, canales, integraciones, configuración y precio según contrato, no verificados por esta maqueta. Mantener cinco secciones, sin Reportes ni FAQ antiguos. No actualizar otras páginas por inferencia ni publicar/commit/push. Fuente: attachments/ba0520e3-8c78-4185-a805-3f1490a5332a/Texto pegado.txt.

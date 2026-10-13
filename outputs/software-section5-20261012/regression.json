@@ -1,0 +1,16 @@
+{
+  "previous_sections_unchanged": true,
+  "footer_and_tail_unchanged": true,
+  "other_sources_unchanged": true,
+  "old_closing_removed": true,
+  "old_exclusive_stylesheet_removed": true,
+  "prior_render_unchanged": true,
+  "render_changes": [],
+  "final_other_source_comparison": {
+    "concurrent_changes_preserved": [
+      "index.html"
+    ],
+    "implementation_writes_other_pages": false,
+    "shared_css_js_unchanged": true
+  }
+}

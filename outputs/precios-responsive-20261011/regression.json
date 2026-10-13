@@ -1,0 +1,120 @@
+[
+  {
+    "width": 320,
+    "lowerSectionRegression": false,
+    "before": [
+      {
+        "height": 683.5625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 871.53125,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ],
+    "after": [
+      {
+        "height": 683.5625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 871.53125,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "lowerSectionRegression": false,
+    "before": [
+      {
+        "height": 611.03125,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 848.140625,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ],
+    "after": [
+      {
+        "height": 611.03125,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 848.140625,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "lowerSectionRegression": false,
+    "before": [
+      {
+        "height": 428.765625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 468,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ],
+    "after": [
+      {
+        "height": 428.765625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 468,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "lowerSectionRegression": false,
+    "before": [
+      {
+        "height": 444.5625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 468,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ],
+    "after": [
+      {
+        "height": 444.5625,
+        "color": "rgb(11, 13, 11)",
+        "bg": "rgb(246, 243, 235)"
+      },
+      {
+        "height": 468,
+        "color": "rgb(246, 243, 235)",
+        "bg": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "contactTargetExists": 1
+  },
+  {
+    "otherPagesUnchanged": true
+  }
+]

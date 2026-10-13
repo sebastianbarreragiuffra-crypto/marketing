@@ -1,0 +1,82 @@
+{
+  "sections1_2_3_identical": true,
+  "reportes_and_following_identical": true,
+  "modalities_count": 1,
+  "development_in_section4": false,
+  "other_files": {
+    "css/software-gisba-reference.css": true,
+    "css/software-consultas.css": true,
+    "css/software-asistente.css": true,
+    "js/software-consultas.js": true,
+    "index.html": true,
+    "marketing.html": true,
+    "precios.html": true,
+    "automatizaciones.html": true,
+    "hablemos.html": true,
+    "iniciar-sesion.html": true
+  },
+  "render_regression": [
+    {
+      "width": 1440,
+      "unchanged": true
+    },
+    {
+      "width": 1920,
+      "unchanged": true
+    },
+    {
+      "width": 768,
+      "unchanged": true
+    },
+    {
+      "width": 390,
+      "unchanged": true
+    },
+    {
+      "width": 375,
+      "unchanged": true
+    }
+  ],
+  "order": [
+    {
+      "width": 1440,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 1920,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 768,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 390,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 375,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 320,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 1000,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    },
+    {
+      "width": 1001,
+      "blocks_ordered": true,
+      "stacked_cards": true
+    }
+  ]
+}

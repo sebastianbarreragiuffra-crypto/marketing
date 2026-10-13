@@ -1,0 +1,79 @@
+{
+  "objective": "Replace only Software Section 2 locally with approved desktop composition and manual mobile views.",
+  "result": "COMPLETE",
+  "authorization": "User supplied Section 2 brief: local mutation only; no publication, deployment, commit or push.",
+  "reference_note": "The two supplied images have the same desktop composition; mobile implements the explicit 390 px brief, not a separately supplied mobile reference.",
+  "files_changed": [
+    "software.html",
+    "css/software-consultas.css",
+    "js/software-consultas.js",
+    "site-manifest.json"
+  ],
+  "preserved": [
+    "Software hero (source hash and rendered dimensions)",
+    "Reports, FAQ, closing and footer (source hash and rendered dimensions)",
+    "This owner did not modify other pages/global navigation; concurrent Precios changes were preserved."
+  ],
+  "validations": {
+    "screenshots": {
+      "desktop-1440": {
+        "width": 1440,
+        "height": 944,
+        "format": "PNG",
+        "processing": "format conversion only; no crop, resize or pixel changes"
+      },
+      "mobile-390": {
+        "width": 390,
+        "height": 1470,
+        "format": "PNG",
+        "processing": "format conversion only; no crop, resize or pixel changes"
+      }
+    },
+    "responsive": "1440, 1920, 768, 390, 375, 320, 1199, 1200, 1350; all three mobile views checked; no horizontal overflow or broken completed images.",
+    "max_useful_width_1920": 1440,
+    "keyboard": "Left/Right wrap, Home, End, focus indicator, one selected tab/panel; choice survives desktop/mobile resize.",
+    "regression": [
+      {
+        "viewport": 1440,
+        "outside_section_unchanged": true
+      },
+      {
+        "viewport": 1920,
+        "outside_section_unchanged": true
+      },
+      {
+        "viewport": 768,
+        "outside_section_unchanged": true
+      },
+      {
+        "viewport": 390,
+        "outside_section_unchanged": true
+      },
+      {
+        "viewport": 375,
+        "outside_section_unchanged": true
+      }
+    ],
+    "contrast_min": 5.396751342626981,
+    "links": "CTA navigated to local Hablemos #contacto; GISBA target returned HTTP 200.",
+    "console": "No warn/error logs in inspected local tab.",
+    "illustration": "Static search/menu/new consultation; message sending and PDF download disabled; example disclaimer visible. No API requests or automatic rotation.",
+    "delivery": "No commit/push/deploy; owned Quick Tunnel stopped before source edits.",
+    "mobile_action_order": "Provider link in secondary information, then main CTA as last link of the section; verified DOM and rendered order.",
+    "source_manifest": "python site_state.py --check passed; no missing or private references.",
+    "ids_icons": "Unique page IDs; all Section 2 SVG symbol references resolved; old section absent."
+  },
+  "not_verified": [
+    "Actual GISBA functions/integrations, real customers or campaign results",
+    "Reception of enquiries/meeting bookings; existing contact remains a preview",
+    "Real mobile device/browser matrix, full accessibility certification, reduced-motion OS emulation, CWV or conversion impact"
+  ],
+  "recovery": "archive/2026-10-11-software-section2-before; restore only the retired section and its stylesheet reference, preserving unrelated work.",
+  "project_state_updates": "PROJECT_MEMORY.md, local completion evidence, S-027 lesson and site manifest; preview state marked paused.",
+  "method_learning": "No new canonical candidate: existing source-sync and screenshot dimension rules cover this work. Local rail-overflow lesson recorded.",
+  "next_action": "None for local implementation; external preview/publication requires subsequent user authorization.",
+  "concurrent_changes_observed": [
+    "precios.html"
+  ],
+  "source_version": "885080dc87e0ea5f4140b6cd2707f5ae5c97d7391a212bd1385206758edc5a11"
+}

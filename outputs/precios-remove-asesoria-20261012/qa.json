@@ -1,0 +1,30 @@
+[
+  {
+    "width": 320,
+    "removed": true,
+    "overflow": false,
+    "gap": 0,
+    "remainingSections": 2
+  },
+  {
+    "width": 390,
+    "removed": true,
+    "overflow": false,
+    "gap": 0,
+    "remainingSections": 2
+  },
+  {
+    "width": 1440,
+    "removed": true,
+    "overflow": false,
+    "gap": 0,
+    "remainingSections": 2
+  },
+  {
+    "width": 1920,
+    "removed": true,
+    "overflow": false,
+    "gap": 0,
+    "remainingSections": 2
+  }
+]

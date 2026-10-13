@@ -1,0 +1,29 @@
+{
+  "prompt": "Redesign the supplied Órbita hero desktop mockup to materially improve VISUAL DESIGN and advertising imagery, preserving offer, headline, brand identity, nav and conditions. One complete desktop1440x810-equivalent16:9 first screen. Keep Órbita star wordmark, nav Inicio/Marketing/Software/Precios/Iniciar sesión/Agenda una reunión. Preserve dark#0b0d0b, forest#171d17, lime#c7f45b, ivory#f6f3eb; Manrope bold and DM Sans.\nProblem to fix: cardboard-box office background makes agency look like packaging seller; huge white software panel overwhelms advertising work; giant headline overpowers composition. Replace ALL photographic background with clean near-black softly lit canvas. No cardboard boxes, laptop or plants outside ad. Main headline moderate52px-equivalent, precise hierarchy, generous purposeful spacing.\nLEFT about42%width same EXACT headline 'Gestionamos tu publicidad. Sigue tus consultas y ventas.' First thought ivory, second lime. Eyebrow 'PUBLICIDAD PARA ECOMMERCE Y B2B'. Supporting copy SAME 'Tu plan incluye GISBA para unificar conversaciones y seguir cotizaciones, ventas y su atribución publicitaria.' Optional small subdued pill 'Atención automatizada opcional'. Main lime CTA 'Agenda una reunión'. Preserve '1 usuario de GISBA incluido' and 'Usuarios adicionales con costo extra · Inversión publicitaria aparte'. Do not add more text.\nRIGHT about54%width ONE unified creative-commercial composition with two clearly related parts, BOTH front facing, top aligned, not a full dashboard:\nUpper dominant advertising work area roughly760x310-equivalent, heading 'Órbita crea y gestiona'. Two advertising examples with materially better imagery, SAME fictitious business supplying ceramic tableware to restaurants. One is elegant compact search ad, white, clear 'Google Ads', 'Patrocinado', title 'Vajilla para tu restaurante', URL 'tu-sitio.example/vajilla', short action 'Solicita una cotización'. Adjacent larger Meta ad in recognizable generic feed context, advertiser 'Negocio de ejemplo', label 'Publicidad', beautiful premium product photograph of simple ivory ceramic plates and cups on warm stone with dark olive background, design headline 'Tu mesa, bien presentada.' and supporting 'Vajilla para restaurantes'. Bottom recognizable Like/Comment line icons and action 'Más información', no invented counts. Platform label 'Meta Ads' only once. This is agency advertising imagery, not a real customer campaign. DO NOT invent Google/Meta logos; use exact recognizable plain text labels and line icon placeholders if no official reference. No stockpeople, robots or shoe/backpack/valve images.\nBelow this advertising area, an integrated compact GISBA commercial follow-up excerpt, approximately760x200-equivalent, ivory surface with restrained green accents, header 'GISBA · Tu equipo da seguimiento'. Much smaller than previous full dashboard but content legible. Show one short conversation 'Necesito vajilla para mi restaurante.' / 'Te comparto la cotización.' labeled 'Conversaciones unificadas'. Then a compact single-line historic sequence 'Consulta recibida · Cotización enviada · Venta registrada' labeled 'Seguimiento comercial'. One fine attribution line 'Origen registrado: campaña de Google Ads'. These are illustrative historic records for ONE opportunity, not invented monetary results or a live integration. No sidebar, KPI boxes, graphs, fake percentages, new capabilities, imported brands or numerical sales. No layout where multiple giant white cards engulf the whole hero.\nA subtle short visual connection between an ad and lower GISBA excerpt communicates continuity, not a giant arrow pipeline. Avoid overlap covering content. Minimal borders, gentle shadows, rounded10–14px corners, no pill overload or neon glowing mess. Footer beneath visual 'Recreación ilustrativa · Funciones y conexiones según alcance'. Preserve actual commercial promise: agency manages ads, client team handles follow-up, bot OPTIONAL separate; no automatic sale, payments,stock, calendar, integrations or guarantees. GENERATED CONCEPT, NOT real software screenshot. All essential visual text about15px or greater equivalent. Only desktop. Complete navbar and hero in one16:9 image; no outer mockup device, browser chrome or footer outside frame.",
+  "tool": "image_gen built-in",
+  "scope": "Mockup desktop1440x810; sin modificar web",
+  "review": "SAME_AGENT",
+  "preserved": [
+    "Mensaje del hero comercialV1",
+    "GISBA incluido con seguimiento comercial y atribución",
+    "Bot opcional",
+    "Condiciones, navegación y CTA"
+  ],
+  "delta": [
+    "Fondo limpio, sin cajas/productos fuera del anuncio",
+    "Google y Meta con imágenes de vajilla ilustrativa",
+    "Panel GISBA compacto debajo de anuncios"
+  ],
+  "verified": [
+    "Composición y texto inspeccionados",
+    "Dimensiones PNG1440x810",
+    "Original yV1 conservados"
+  ],
+  "pending": [
+    "Aprobación humana",
+    "Móvil, contraste calculado y pruebas de implementación",
+    "Comprensión con personas y resultado comercial"
+  ],
+  "limits": "Fotos e interfaz generadas, no captura de GISBA ni campaña real. No se afirma mejor conversión o auditoría completa de todas las páginas.",
+  "learning": "NOTHING REUSABLE"
+}

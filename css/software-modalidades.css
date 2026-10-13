@@ -1,0 +1,117 @@
+/* Approved Section 4. Scope: commercial comparison only, no global overrides. */
+.sm-section{padding:48px 0 44px;background:#f6f3eb;color:#0b0d0b;scroll-margin-top:89px;font-family:'DM Sans',Arial,sans-serif}
+.sm-section .sm-shell{width:min(calc(100% - 96px),1440px);margin-inline:auto}
+.sm-section .sm-symbols{position:absolute;width:0;height:0;overflow:hidden}
+.sm-section .sm-icon{width:24px;height:24px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.sm-section .sm-heading{position:relative;padding-right:195px;margin-bottom:34px}
+.sm-section .sm-eyebrow{display:flex;align-items:center;gap:15px;margin:0 0 18px;color:#48622e;font-size:12px;line-height:1.5;letter-spacing:.08em;font-weight:500}
+.sm-section .sm-label-line{width:136px;height:1px;margin-left:1px;background:#aab5a0}
+.sm-section h2{margin:0 0 16px;font:800 clamp(38px,3.65vw,56px)/1.12 'Manrope',sans-serif;letter-spacing:-.05em}
+.sm-section .sm-heading-accent{color:inherit}
+.sm-section .sm-lead{max-width:880px;margin:0;font-size:19px;line-height:1.5;letter-spacing:-.015em;color:#58605b}
+.sm-section .sm-annotation{position:absolute;right:13px;top:39px;margin:0;font-size:20px;line-height:1.4;letter-spacing:-.025em;font-style:italic;color:#48622e;text-align:center;transform:rotate(-9deg)}
+.sm-section .sm-annotation svg{display:block;margin:3px 0 0 auto;width:90px;height:22px;fill:none;stroke:#b0cc70;stroke-width:2;stroke-linecap:round}
+.sm-section .sm-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.sm-section .sm-card{display:flex;flex-direction:column;padding:30px;border:1px solid #dedbd2;border-radius:22px;background:#fffdf9;min-width:0}
+.sm-section .sm-card-optional{background:#f1eee5}
+.sm-section .sm-card-heading{display:grid;grid-template-columns:82px minmax(0,1fr);gap:24px;align-items:start;min-height:156px}
+.sm-section .sm-service-icon{width:82px;height:82px;border-radius:18px;display:grid;place-items:center;background:#e9f1da;color:#48622e}
+.sm-section .sm-service-icon .sm-icon{width:45px;height:45px;stroke-width:2.4}
+.sm-section .sm-card-copy{min-width:0}
+.sm-section .sm-card-label{width:fit-content;max-width:100%;margin:2px 0 12px;color:#48622e;font-size:11px;line-height:1.5;letter-spacing:.09em;font-weight:600}
+.sm-section h3{margin:0 0 16px;font:800 25px/1.25 'Manrope',sans-serif;letter-spacing:-.04em}
+.sm-section .sm-card-description{margin:0;font-size:16px;line-height:1.5;color:#58605b;letter-spacing:-.015em}
+.sm-section .sm-inclusions{list-style:none;margin:24px 0 0;padding:22px 0 0;border-top:1px solid #dedbd2;display:grid;gap:14px}
+.sm-section .sm-inclusions li{display:flex;align-items:center;gap:17px;font-size:16px;line-height:1.5;color:#171d17}
+.sm-section .sm-check{display:grid;place-items:center;width:26px;height:26px;flex:0 0 auto;border-radius:50%;background:#48622e;color:#fffdf9}
+.sm-section .sm-check .sm-icon{width:16px;height:16px;stroke-width:2}
+.sm-section .sm-scope-note{margin:18px 0 0;padding-left:43px;font-size:11px;line-height:1.45;color:#58605b}
+.sm-section .sm-commercial-note{display:flex;align-items:center;gap:19px;padding:19px 21px;margin-top:20px;border:1px solid #e1e2d6;border-radius:18px;background:#f0f2e7}
+.sm-section .sm-commercial-note>span{display:grid;place-items:center;flex:0 0 auto;width:44px;height:44px;border-radius:50%;background:#e2edcb;color:#48622e}
+.sm-section .sm-commercial-note .sm-icon{width:26px;height:26px;stroke-width:2}
+.sm-section .sm-commercial-note p{margin:0;font-size:15px;line-height:1.5;color:#58605b}
+.sm-section .sm-commercial-note strong{font-weight:600;color:#171d17}
+.sm-section .sm-actions{display:flex;flex-direction:column;align-items:center;margin-top:24px;gap:12px}
+.sm-section .sm-cta{display:inline-flex;align-items:center;justify-content:center;gap:17px;min-height:54px;padding:13px 34px;border-radius:32px;background:#48622e;color:#fffdf9;text-decoration:none;font-size:17px;line-height:1.5;font-weight:700}
+.sm-section .sm-cta .sm-icon{transition:transform 160ms ease}
+.sm-section .sm-cta:hover .sm-icon{transform:translateX(3px)}
+.sm-section .sm-cta:focus-visible{outline:3px solid #48622e;outline-offset:4px}
+.sm-section .sm-cta-caption{margin:0;text-align:center;color:#58605b;font-size:13px;line-height:1.5}
+@media(min-width:1001px) and (max-width:1300px){
+ .sm-section .sm-shell{width:calc(100% - 64px)}
+ .sm-section .sm-heading{padding-right:165px}
+ .sm-section .sm-annotation{font-size:17px;right:5px}
+ .sm-section .sm-card{padding:24px}
+ .sm-section .sm-card-heading{grid-template-columns:64px minmax(0,1fr);gap:18px;min-height:165px}
+ .sm-section .sm-service-icon{width:64px;height:64px}
+ .sm-section .sm-service-icon .sm-icon{width:37px;height:37px}
+ .sm-section h3{font-size:23px}
+ .sm-section .sm-card-description{font-size:15px}
+ .sm-section .sm-inclusions li{font-size:15px}
+}
+@media(max-width:1000px){
+ .sm-section{padding:40px 0}
+ .sm-section .sm-shell{width:min(calc(100% - 48px),700px)}
+ .sm-section .sm-heading{padding:0;margin-bottom:25px}
+ .sm-section .sm-annotation{display:none}
+ .sm-section h2{font-size:44px}
+ .sm-section .sm-heading-accent{display:block;color:#48622e}
+ .sm-section .sm-lead{font-size:18px;line-height:1.5}
+ .sm-section .sm-cards{grid-template-columns:1fr;gap:18px}
+ .sm-section .sm-card{padding:25px;border-radius:20px}
+ .sm-section .sm-card-heading{grid-template-columns:72px minmax(0,1fr);gap:22px;min-height:0}
+ .sm-section .sm-service-icon{width:72px;height:72px;border-radius:18px}
+ .sm-section .sm-service-icon .sm-icon{width:41px;height:41px}
+ .sm-section .sm-card-label{padding:4px 9px;border-radius:20px;background:#e2edcb;font-size:11px;line-height:1.5;letter-spacing:.07em;margin:0 0 10px}
+ .sm-section h3{font-size:24px;margin-bottom:12px}
+ .sm-section .sm-card-description{font-size:16px}
+ .sm-section .sm-inclusions{margin-top:23px;padding-top:20px;gap:13px}
+ .sm-section .sm-inclusions li{font-size:16px}
+ .sm-section .sm-scope-note{font-size:12px}
+ .sm-section .sm-commercial-note{padding:18px;gap:15px;margin-top:18px}
+ .sm-section .sm-commercial-note p{font-size:15px}
+ .sm-section .sm-actions{margin-top:18px}
+ .sm-section .sm-cta{width:min(100%,420px)}
+ .sm-section .sm-cta-caption{font-size:12px}
+}
+@media(max-width:600px){
+ .sm-section{padding:32px 0}
+ .sm-section .sm-shell{width:calc(100% - 36px)}
+ .sm-section .sm-eyebrow{font-size:10px;gap:10px;letter-spacing:.07em;margin-bottom:20px}
+ .sm-section .sm-label-line{width:67px;flex:1;max-width:85px}
+ .sm-section h2{font-size:clamp(31px,9.2vw,38px);line-height:1.14;margin-bottom:17px;letter-spacing:-.05em}
+ .sm-section .sm-lead{font-size:16px;line-height:1.5}
+ .sm-section .sm-heading{margin-bottom:22px}
+ .sm-section .sm-cards{gap:15px}
+ .sm-section .sm-card{padding:18px;border-radius:17px}
+ .sm-section .sm-card-heading{grid-template-columns:52px minmax(0,1fr);gap:14px}
+ .sm-section .sm-service-icon{width:52px;height:56px;border-radius:14px}
+ .sm-section .sm-service-icon .sm-icon{width:32px;height:32px}
+ .sm-section .sm-card-label{font-size:11px;padding:4px 7px;margin-bottom:9px;letter-spacing:.055em}
+ .sm-section h3{font-size:19px;line-height:1.3;letter-spacing:-.035em;margin-bottom:10px}
+ .sm-section .sm-card-description{font-size:14px;line-height:1.45}
+ .sm-section .sm-inclusions{margin-top:20px;padding-top:17px;gap:12px}
+ .sm-section .sm-inclusions li{font-size:14px;line-height:1.45;gap:13px}
+ .sm-section .sm-check{width:25px;height:25px}
+ .sm-section .sm-scope-note{margin-top:14px;padding-left:38px;font-size:12px}
+ .sm-section .sm-commercial-note{padding:15px 13px;border-radius:16px;gap:12px;margin-top:16px;align-items:start}
+ .sm-section .sm-commercial-note>span{width:35px;height:35px}
+ .sm-section .sm-commercial-note .sm-icon{width:24px;height:24px}
+ .sm-section .sm-commercial-note p{font-size:13px;line-height:1.5}
+ .sm-section .sm-actions{margin-top:16px}
+ .sm-section .sm-cta{width:100%;min-height:54px;font-size:16px;padding-inline:20px}
+ .sm-section .sm-cta-caption{display:none}
+}
+@media(max-width:360px){
+ .sm-section .sm-shell{width:calc(100% - 28px)}
+ .sm-section .sm-card{padding:15px}
+ .sm-section .sm-card-heading{grid-template-columns:45px minmax(0,1fr);gap:11px}
+ .sm-section .sm-service-icon{width:45px;height:50px}
+ .sm-section h3{font-size:18px}
+ .sm-section .sm-card-description{font-size:13px}
+ .sm-section .sm-inclusions li{font-size:13px;gap:11px}
+ .sm-section .sm-scope-note{padding-left:36px}
+ .sm-section .sm-commercial-note{gap:10px}
+ .sm-section .sm-commercial-note p{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.sm-section .sm-cta .sm-icon{transition:none}}

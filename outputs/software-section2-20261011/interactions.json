@@ -1,0 +1,164 @@
+[
+  {
+    "action": "Click Ficha",
+    "focus": "sc-tab-ficha",
+    "focusVisible": false,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-ficha"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-ficha"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 667.53125,
+        "top": 89.84375
+      }
+    ]
+  },
+  {
+    "action": "sc-tab-ficha ArrowLeft",
+    "focus": "sc-tab-conversacion",
+    "focusVisible": true,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-conversacion"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-conversacion"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 653.625,
+        "top": 83.84375
+      }
+    ]
+  },
+  {
+    "action": "sc-tab-conversacion Home",
+    "focus": "sc-tab-consultas",
+    "focusVisible": true,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-consultas"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-consultas"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 617.765625,
+        "top": 88.84375
+      }
+    ]
+  },
+  {
+    "action": "sc-tab-consultas End",
+    "focus": "sc-tab-ficha",
+    "focusVisible": true,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-ficha"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-ficha"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 667.53125,
+        "top": 89.84375
+      }
+    ]
+  },
+  {
+    "action": "sc-tab-ficha ArrowRight",
+    "focus": "sc-tab-consultas",
+    "focusVisible": true,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-consultas"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-consultas"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 612.765625,
+        "top": 83.84375
+      }
+    ]
+  },
+  {
+    "action": "sc-tab-consultas ArrowLeft",
+    "focus": "sc-tab-ficha",
+    "focusVisible": true,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-ficha"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-ficha"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 667.53125,
+        "top": 89.84375
+      }
+    ]
+  },
+  {
+    "action": "Resize desktop",
+    "focus": "inicio-pagina",
+    "focusVisible": false,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-ficha"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-consultas",
+      "sc-panel-conversacion",
+      "sc-panel-ficha"
+    ],
+    "visibleResult": [
+      {
+        "bottom": -257.96875,
+        "top": -735.46875
+      },
+      {
+        "bottom": -257.96875,
+        "top": -735.46875
+      },
+      {
+        "bottom": -257.96875,
+        "top": -735.46875
+      }
+    ]
+  },
+  {
+    "action": "Resize back to mobile",
+    "focus": "inicio-pagina",
+    "focusVisible": false,
+    "pdfDisabled": true,
+    "selected": [
+      "sc-tab-ficha"
+    ],
+    "sendDisabled": true,
+    "visible": [
+      "sc-panel-ficha"
+    ],
+    "visibleResult": [
+      {
+        "bottom": 667.53125,
+        "top": 89.84375
+      }
+    ]
+  }
+]

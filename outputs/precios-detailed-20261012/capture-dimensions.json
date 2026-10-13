@@ -1,0 +1,38 @@
+[
+  {
+    "file": "section-320.png",
+    "width": 320,
+    "height": 3387,
+    "expectedHeight": 3387
+  },
+  {
+    "file": "section-360.png",
+    "width": 360,
+    "height": 3185,
+    "expectedHeight": 3185
+  },
+  {
+    "file": "section-390.png",
+    "width": 390,
+    "height": 3044,
+    "expectedHeight": 3044
+  },
+  {
+    "file": "section-768.png",
+    "width": 768,
+    "height": 2376,
+    "expectedHeight": 2376
+  },
+  {
+    "file": "section-1440.png",
+    "width": 1440,
+    "height": 1850,
+    "expectedHeight": 1850
+  },
+  {
+    "file": "section-1920.png",
+    "width": 1920,
+    "height": 1822,
+    "expectedHeight": 1822
+  }
+]

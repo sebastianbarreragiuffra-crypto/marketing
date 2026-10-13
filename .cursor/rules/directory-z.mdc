@@ -8,6 +8,7 @@ alwaysApply: true
 Si se solicita una revisión fresca, aplicar fresh-review-google.mdc: entregar oferta confirmada y límites como briefing neutral; no sembrar el diseño preferido ni convertir conclusiones anteriores en aprobaciones.
 
 Alcance: sitio Órbita; aplicar antes de cambiar oferta, portada, precios o navegación.
+**Desde 2026-10-11 prevalece `brief-orbita.mdc`** en todo lo que contradiga esta regla (relación de holding, GISBA independiente derivado a GISBA, bot de GISBA como complemento opcional con funciones previstas). Las secciones siguientes se conservan como historial y contexto.
 Fuente comercial local: esta regla. Las instrucciones actuales del usuario prevalecen sobre ella.
 
 ## Base reconciliada — 2026-10-05
@@ -48,6 +49,15 @@ Fuente comercial local: esta regla. Las instrucciones actuales del usuario preva
 - FAQ y transparencia cumplen funciones propias; decidir integración o bloque según legibilidad y objeciones, nunca suprimir por cuota.
 - Conservar hero frontal, paleta negro/lima/marfil y páginas Software aprobadas; revisar sólo contradicciones materiales.
 - No inventar clientes, testimonios, métricas, integraciones, envíos o mejoras de conversión.
+
+## Actualización GISBA — 2026-10-11
+- CONFIRMADO por el usuario: Órbita es una agencia de marketing que **compra el software GISBA (GISBA OS) para ofrecerlo a sus clientes**; GISBA es un proveedor externo (sitio: https://www.gisba.cl). «Software provisto por GISBA» describe esa relación.
+- CONFIRMADO por el usuario: precios y planes siguen PENDIENTES; no publicar tarifas ni paquetes.
+- Según el usuario, GISBA apoya a la agencia o al equipo interno con información de campañas, análisis de resultados, señales que requieren atención, recomendaciones y coordinación de decisiones. Los responsables de marketing deciden los ajustes. El bot para compradores finales es un add-on futuro de Órbita y GISBA, no una función actual confirmada de GISBA.
+- OBSERVADO en gisba.cl (2026-10-11, contenido público, no garantía): software para agencias que centraliza clientes, campañas, tareas, aprobaciones y reportes; «GISBA Pulse» detecta cambios, explica la causa y recomienda acciones, y el equipo decide (no modifica campañas automáticamente; no reemplaza un CRM); registra decisiones; portal del cliente con sus campañas, resultados, aprobaciones, reportes y coordinación con la agencia; integraciones Meta Ads y WhatsApp «disponibles», Google Ads y Google Analytics «configurables», según implementación; TikTok no figura en su lista de integraciones; métricas adaptadas a e-commerce o generación de leads.
+- **ACLARADO por el usuario (2026-10-11)**: Órbita y GISBA incorporarán un bot como nuevo add-on comercial para atender personas que llegan desde anuncios. Alcance previsto por definir y validar: responder con información del negocio, recoger contexto, identificar intención, calificar oportunidades, orientar el siguiente paso, derivar con contexto, organizar seguimiento y entregar métricas. Agendamiento, stock, pagos, llamadas con IA, campañas de mensajes y atribución por anuncio son capacidades a evaluar, no incluidas por defecto. Ni el bot ni esas funciones deben presentarse como disponibles o incluidos en GISBA hoy.
+- La web pública de GISBA no muestra ese bot para compradores finales ni confirma creación/ejecución de campañas desde GISBA; su FAQ sitúa WhatsApp en la coordinación agencia-cliente y aclara que GISBA recomienda, mientras el equipo decide antes de ejecutar cambios. No usar pantallas ilustrativas ni referencias competitivas como prueba de capacidades propias.
+- TikTok: Órbita gestiona campañas TikTok, pero no figura entre las integraciones de gisba.cl; mostrarlo como campaña gestionada por Órbita, no como integración de GISBA, hasta confirmarlo.
 
 ## Diseño, movimiento y SEO — 2026-10-08
 - Aplicar design-motion-seo.mdc: verificar que las escenas, imágenes y animaciones respetan la oferta, responsabilidades y capacidades reales; no convertir referencias en promesas propias.

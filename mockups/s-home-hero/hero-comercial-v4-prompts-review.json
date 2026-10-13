@@ -1,0 +1,29 @@
+{
+  "prompt": "Redesign the supplied Órbita hero following user's explicit new direction: ONLY ONE Instagram advertisement, and a substantially better unified commercial chat. Desktop only, complete navbar+hero16:9,1440x810 equivalent. Preserve supplied Órbita wordmark, navbar links and branding, headline and all commercial copy/conditions/CTA EXACTLY unchanged. Do NOT add a mobile variant. Dark black/forest canvas, ivory/lime, Manrope and DM Sans. No website implementation.\nKeep LEFT copy area roughly40%: eyebrow PUBLICIDAD PARA ECOMMERCE Y B2B; headline 'Gestionamos tu publicidad. Sigue tus consultas y ventas.'; body 'Tu plan incluye GISBA para reunir conversaciones, seguir cotizaciones y ventas, y revisar su origen publicitario.'; pill 'Atención automatizada opcional'; CTA 'Agenda una reunión'; '1 usuario de GISBA incluido'; 'Usuarios adicionales con costo extra · Inversión publicitaria aparte.'\nReplace entire RIGHT visual with one clear connected scene, two frontal surfaces side by side, not previous top2ads+bottomsoftware strip. Remove Google search advertisement completely. No giant progress checkmarks or all leads shown as sold.\nLeft side of scene one compact Instagram feed advertisement, label above 'Órbita crea y gestiona'. Header 'Instagram' (text, don't invent logo), advertiser 'Negocio de ejemplo', label 'Publicidad', SINGLE beautiful editorial image of ivory ceramic tableware with dark olive contrasting image typography 'Tu mesa, bien presentada.' and 'Vajilla para restaurantes'. Below recognizable like, comment, send and save line icons, no invented numerical likes. Action 'Más información'. Keep this ad substantial enough to recognize but smaller than conversation view; about240px wide equivalent.\nRight side of scene larger polished unified inbox excerpt, label above 'Tu equipo atiende y da seguimiento', widtharound470px equivalent height510px. This is an illustrative GISBA commercial inbox detail, NOT a literal software screenshot; brand text 'GISBA · Conversaciones'. A flat ivory app surface with good typography, no heavy box nesting. At top tiny understated label 'Canales según alcance'. Two panes: slim readable conversation list on LEFT occupyingabout25% and main selected chat on RIGHT75%; no extra full-dashboard sidebar. List heading 'Consultas'; three anonymous fictitious entries 'Consulta 01' / 'Solicita cotización', 'Consulta 02' / 'Pide información', 'Consulta 03' / 'En seguimiento'. Clearly mark first selected with pale lime. No real avatars or people, generic initials only. No WhatsApp/FB channel brands or verification badges, no undocumented integration claim.\nSelected conversation header 'Consulta 01' and state badge 'Cotización enviada'. Main chat shows human commercial conversation, not automaticbot reply: visitor 'Necesito vajilla para mi restaurante.'; reply explicitly labeled 'Equipo comercial' says 'Te comparto la cotización.'; visitor 'Gracias, revisaré las opciones.' Message alignment and subtle surface colors distinguish incoming/outgoing. A small understated attached-document row 'Cotización de ejemplo' can demonstrate context, not active download. Below messages an elegant integrated information footer, not giant card: 'Estado: esperando respuesta', 'Próximo paso: seguimiento del equipo' and 'Origen del ejemplo: anuncio de Instagram'. These are one coherent pending-quotation case. Do NOT mark sale completed. No empty skeleton lines, fake metric charts, invented prices or timestamps. Generic inactive composer 'Escribe un mensaje…'. Body chat fonts15px equivalent or greater, labels readable. Slightly less list detail is preferable to tiny messages, but all requested messages clearly visible.\nOne subtle connecting line from ad to selected inquiry, no giant arrowdiagram or glowing nodeweb. Same advertiser and tableware context throughout. Caption directly beneath both surfaces 'Recreación ilustrativa · Funciones y conexiones según alcance'. Smooth shallow corners and refined spacing, precision alignment, no overlapping text, all within hero frame. Agency manages advertising; client's commercial team answers using GISBA. Bot remains separate OPTIONAL pill, not implicitly included in this conversation. No extra icons ofrobots orplanets, no new offer, no unapprovedlogo, no stock office photos. Keep the header navigation and main title unchanged. One high-fidelity coherent desktop mockup.",
+  "tool": "image_gen built-in",
+  "scope": "Hero desktop solamente; sin cambios web",
+  "review": "SAME_AGENT",
+  "request": "Un único anuncio IG y mejor chat unificado; reabre composición deV3 sin aprobar implementación",
+  "delta": [
+    "Retirado Google del visual; solo IG",
+    "Bandeja con consultas, conversación y documento ilustrativo",
+    "Estado coherente de cotización enviada, seguimiento pendiente; sin venta cerrada"
+  ],
+  "preserved": [
+    "Oferta agencia+GISBA incluido",
+    "Seguimiento comercial/atribución en copy",
+    "Bot opcional",
+    "Condiciones, CTA, titular y navegación"
+  ],
+  "verified": [
+    "Texto y composición inspeccionados",
+    "PNG1440x810 comprobado",
+    "Versiones y originales conservados"
+  ],
+  "pending": [
+    "Aprobación humana",
+    "Canales y conexiones técnicas; demo no prueba integración",
+    "Móvil, contraste medido,1920,interacciones y rendimiento de implementación"
+  ],
+  "learning": "NOTHING REUSABLE; feedback de composición particular del proyecto"
+}

@@ -1,0 +1,55 @@
+/* Mockup S · Hero de Precios v2 — visuales explícitos por servicio. Se carga después de hero.css. */
+.ph-hero{padding:22px 0 24px}
+.ph-grid{grid-template-columns:minmax(0,1fr) 740px;gap:48px}
+.ph-hero h1{font-size:68px}
+.ph-offer{gap:12px}
+
+.ph-main{padding:22px 26px 24px}
+.ph-main-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:14px}
+.ph-main-top .ph-label{margin:0}
+.ph-note{margin:0;font:500 12px "DM Sans",sans-serif;color:var(--palette-muted)}
+.ph-ads{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0}
+.ph-ads figure{margin:0}
+.ph-ads img{display:block;width:100%;height:auto;aspect-ratio:546/432;border-radius:12px;border:1px solid var(--palette-border);background:#fff}
+.ph-ads figcaption{margin-top:6px;font:700 13px "DM Sans",sans-serif;color:#2b3127}
+.ph-main-body{display:grid;grid-template-columns:1fr max-content;gap:24px;margin-top:16px;padding-top:16px;border-top:1px solid var(--palette-border)}
+.ph-title{font-size:28px}
+.ph-desc{margin-top:6px;font-size:16px}
+.ph-fee{display:inline-flex;margin:12px 0 0;padding:6px 12px;border-radius:999px;background:var(--dark);color:var(--paper);font:600 14px "DM Sans",sans-serif}
+.ph-terms{margin:0;padding:4px 0 0;list-style:none;display:grid;gap:8px;align-content:start;border-top:0}
+.ph-terms li{display:flex;align-items:center;gap:10px;white-space:nowrap;font:500 14px/1.3 "DM Sans",sans-serif;color:#2b3127}
+.ph-mark{flex:0 0 24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--cream);color:var(--palette-accent-text)}
+.ph-mark.is-yes{background:var(--lime);color:var(--dark)}
+.ph-mark svg{width:14px;height:14px}
+
+.ph-addon{display:flex;align-items:center;gap:18px;margin-top:-18px;padding:30px 20px 16px 22px}
+.ph-status{flex-wrap:nowrap;margin-top:10px}
+.ph-addon-copy{flex:1;min-width:0}
+.ph-addon .ph-label{margin-bottom:8px}
+.ph-addon-desc{font-size:15px}
+.ph-scheme{margin:0;flex:0 0 146px;text-align:center}
+.ph-scheme svg{display:block;width:100%;height:auto}
+.ph-scheme figcaption,.ph-site figcaption{margin-top:4px;font:500 11px "DM Sans",sans-serif;color:var(--palette-light-muted)}
+
+.ph-web{padding:10px 22px 10px 12px}
+.ph-site{margin:0;flex:0 0 92px}
+.ph-site svg{display:block;width:100%;height:auto}
+
+@media (max-width:1100px){.ph-grid{grid-template-columns:1fr}}
+@media (max-width:760px){
+  .ph-hero{padding:32px 0 40px}
+  .ph-hero h1{font-size:44px}
+  .ph-main{padding:18px 16px 18px}
+  .ph-main-top{flex-direction:column;gap:6px}
+  .ph-ads{gap:8px}
+  .ph-ads img{border-radius:8px}
+  .ph-ads figcaption{font-size:12px;margin-top:5px}
+  .ph-main-body{grid-template-columns:1fr;gap:16px}
+  .ph-terms li{white-space:normal}
+  .ph-status{flex-wrap:wrap}
+  .ph-title{font-size:24px}
+  .ph-addon{flex-direction:column;align-items:stretch;gap:14px;margin-left:24px;padding:30px 16px 16px}
+  .ph-scheme{flex-basis:auto;width:180px;align-self:center}
+  .ph-web{padding:14px}
+  .ph-site{flex-basis:84px}
+}

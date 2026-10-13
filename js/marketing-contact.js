@@ -2,7 +2,6 @@
   const form = document.querySelector('#contact-proposal-form');
   if (!form) return;
   const contact = document.querySelector('#contacto');
-  const showcase = document.querySelector('.marketing-services-showcase');
   const review = document.querySelector('#cp-review');
   const error = form.querySelector('#cp-error');
   const services = { meta: 'Meta Ads', google: 'Google Ads', tiktok: 'TikTok Ads', web: 'Desarrollo Web', software: 'GISBA (software)' };
@@ -34,11 +33,6 @@
 
   document.querySelectorAll('a[href="#contacto"]').forEach(link => link.addEventListener('click', () => {
     edit();
-    if (link.hasAttribute('data-ms-quote')) {
-      const selected = showcase?.dataset.msActive;
-      const choice = form.querySelector(`[name="services"][value="${selected}"]`);
-      if (choice) choice.checked = true;
-    }
     requestAnimationFrame(() => contact.querySelector('#contact-title').focus({ preventScroll: true }));
   }));
 

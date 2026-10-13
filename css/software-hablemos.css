@@ -1,0 +1,127 @@
+/* Software / sección 5 aprobada. Una sola acción; decoración sin movimiento. */
+.software-page #siguiente-paso.sh-section {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 32px 0 64px;
+  background: #f6f3eb;
+  color: #f6f3eb;
+  scroll-margin-top: 89px;
+}
+.software-page #siguiente-paso.sh-section .sh-card {
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  width: calc(100% - 96px);
+  max-width: 1440px;
+  min-height: 588px;
+  margin: 0 auto;
+  padding: 72px;
+  border: 1px solid #48622e;
+  border-radius: 28px;
+  background: #171d17;
+}
+.software-page #siguiente-paso.sh-section .sh-copy {
+  position: relative;
+  z-index: 1;
+  width: 64%;
+  max-width: 740px;
+}
+.software-page #siguiente-paso.sh-section .sh-kicker {
+  margin: 0 0 30px;
+  color: #c7f45b;
+  font: 600 14px/1.5 "DM Sans", Arial, sans-serif;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.software-page #siguiente-paso.sh-section .sh-kicker span { margin: 0 12px; }
+.software-page #siguiente-paso.sh-section h2 {
+  margin: 0;
+  color: #f6f3eb;
+  font: 750 68px/1.12 "Manrope", Arial, sans-serif;
+  letter-spacing: -.05em;
+  text-wrap: balance;
+}
+.software-page #siguiente-paso.sh-section h2 span { display: block; color: #f6f3eb; }
+.software-page #siguiente-paso.sh-section h2 em { color: #c7f45b; font-style: normal; }
+.software-page #siguiente-paso.sh-section .sh-description {
+  max-width: 500px;
+  margin: 24px 0 32px;
+  color: #eeeae0;
+  font: 400 21px/1.55 "DM Sans", Arial, sans-serif;
+  text-wrap: pretty;
+}
+.software-page #siguiente-paso.sh-section .sh-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  box-sizing: border-box;
+  min-height: 62px;
+  max-width: 100%;
+  padding: 16px 30px;
+  border: 1px solid #c7f45b;
+  border-radius: 999px;
+  background: #c7f45b;
+  color: #0b0d0b;
+  font: 700 19px/1.4 "DM Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+.software-page #siguiente-paso.sh-section .sh-cta svg {
+  flex: 0 0 25px;
+  width: 25px;
+  height: 25px;
+}
+.software-page #siguiente-paso.sh-section .sh-cta:hover { background: #f6f3eb; border-color: #f6f3eb; }
+.software-page #siguiente-paso.sh-section .sh-cta:focus-visible {
+  outline: 2px solid #f6f3eb;
+  outline-offset: 5px;
+}
+.software-page #siguiente-paso.sh-section .sh-orbits {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  pointer-events: none;
+}
+.software-page #siguiente-paso.sh-section .sh-orbits-desktop {
+  top: 4%;
+  right: 20px;
+  width: 34%;
+  height: 92%;
+}
+.software-page #siguiente-paso.sh-section .sh-orbits-mobile { display: none; }
+@media (max-width: 1200px) {
+  .software-page #siguiente-paso.sh-section .sh-card { padding: 56px; min-height: 544px; }
+  .software-page #siguiente-paso.sh-section h2 { font-size: 56px; }
+  .software-page #siguiente-paso.sh-section .sh-description { font-size: 20px; }
+}
+@media (max-width: 900px) {
+  .software-page #siguiente-paso.sh-section .sh-card { width: calc(100% - 64px); padding: 48px 40px; min-height: 510px; }
+  .software-page #siguiente-paso.sh-section .sh-copy { width: 73%; }
+  .software-page #siguiente-paso.sh-section h2 { font-size: 48px; }
+  .software-page #siguiente-paso.sh-section .sh-orbits-desktop { right: 8px; width: 24%; opacity: .7; }
+}
+@media (max-width: 600px) {
+  .software-page #siguiente-paso.sh-section { padding: 0; background: #0b0d0b; scroll-margin-top: 77px; }
+  .software-page #siguiente-paso.sh-section .sh-card {
+    width: 100%;
+    min-height: 700px;
+    padding: 136px 24px 170px;
+    border: 0;
+    border-radius: 0;
+    background: #0b0d0b;
+  }
+  .software-page #siguiente-paso.sh-section .sh-copy { width: 100%; max-width: 420px; margin: 0 auto; text-align: center; }
+  .software-page #siguiente-paso.sh-section .sh-kicker { margin-bottom: 32px; font-size: 12px; letter-spacing: .14em; }
+  .software-page #siguiente-paso.sh-section .sh-kicker span { margin: 0 9px; }
+  .software-page #siguiente-paso.sh-section h2 { font-size: 35px; line-height: 1.2; letter-spacing: -.045em; }
+  .software-page #siguiente-paso.sh-section .sh-description { max-width: 340px; margin: 22px auto 32px; font-size: 20px; line-height: 1.5; }
+  .software-page #siguiente-paso.sh-section .sh-cta { width: 100%; min-height: 58px; padding: 14px 15px; gap: 15px; font-size: 18px; }
+  .software-page #siguiente-paso.sh-section .sh-orbits-desktop { display: none; }
+  .software-page #siguiente-paso.sh-section .sh-orbits-mobile { inset: 0; width: 100%; height: 100%; display: block; }
+}
+@media (max-width: 360px) {
+  .software-page #siguiente-paso.sh-section .sh-card { padding-left: 20px; padding-right: 20px; }
+  .software-page #siguiente-paso.sh-section h2 { font-size: 30px; }
+  .software-page #siguiente-paso.sh-section .sh-description { font-size: 18px; }
+  .software-page #siguiente-paso.sh-section .sh-cta { font-size: 17px; }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt": "Precisely refine supplied Órbita desktop hero to close the approved direction with ONLY two changes. Preserve16:9 whole navbar+hero, brand, background, headline EXACT 'Gestionamos tu publicidad. Sigue tus consultas y ventas.', CTA, optional automation pill, conditions, Google and Meta ceramic-tableware ads, and overall left-copy/right-ads-above-GISBA composition. Do not change product images or add new components, capabilities, logos or claims.\nCHANGE1 replace only left supporting paragraph with exact text: 'Tu plan incluye GISBA para reunir conversaciones, seguir cotizaciones y ventas, y revisar su origen publicitario.' Use crisp DM Sans readable body, natural line breaks, not smaller than existing.\nCHANGE2 significantly improve legibility of GISBA lower-right panel: enlarge messages, stage labels, origin attribution and responsibility text around25–30% relative to current. Make panel slightly taller and move its top upward roughly25px equivalent if needed; reduce advertising panels' heights modestly around25px without changing their content or images. Preserve all essential GISBA text, two-column compact composition, no duplicated boxes or new microcopy:\nheader 'GISBA · Tu equipo da seguimiento'\nleft label 'Conversaciones unificadas'\nmessages 'Necesito vajilla para mi restaurante.' and 'Te comparto la cotización.'\nright label 'Seguimiento comercial'\nhistoric sequence 'Consulta recibida', 'Cotización enviada', 'Venta registrada'\nattribution 'Origen registrado: campaña de Google Ads'.\nAllow stage labels2lines where needed to keep15–16px equivalent type. Chat messages can wrap to2lines; do not hide them. Keep caption 'Recreación ilustrativa · Funciones y conexiones según alcance' under panel, clearly legible inside frame. Everything stays within1440x810 equivalent including nav. Keep plot/data illustrative, no fabricated results, no revenue metrics, no real product screenshot. Keep bot optional label distinct from included GISBA. Clean alignment, no content overlaps, no giant empty regions. Deliver one complete DESKTOP ONLY image, exact16:9 aspect ratio, no mobile variant. This is a focused refinement, NOT a new design direction.",
+  "tool": "image_gen built-in",
+  "scope": "Mockup del hero desktop; ajustes C sobreV2",
+  "review": "SAME_AGENT",
+  "changes": [
+    "Texto de apoyo sin jerga atribución",
+    "GISBA más alto, mensajes y etapas ampliados",
+    "Contenido comercial, roles, opcionalidad, condiciones, titulares y anuncios conservados"
+  ],
+  "verified": [
+    "Texto principal y todos los estados ilustrativos legibles al inspeccionar el export",
+    "PNG1440x810 comprobado",
+    "Original y versiones anteriores preservados"
+  ],
+  "pending": [
+    "Aprobación del usuario",
+    "Contraste completo, responsividad móvil/1920, movimiento, recepción de contacto y rendimiento en implementación",
+    "Prueba humana de comprensión y resultados comerciales"
+  ],
+  "limits": "Recreación generada; no captura literal de GISBA ni evidencia de una venta real. No se modificaron páginas públicas ni código web.",
+  "learning": "NOTHING REUSABLE"
+}

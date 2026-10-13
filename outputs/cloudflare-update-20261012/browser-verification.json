@@ -1,0 +1,117 @@
+[
+  {
+    "route": "",
+    "width": 390,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/hero/packaging-products.webp",
+      "https://orbita-marketing.pages.dev/assets/hero/packaging-process.webp",
+      "https://orbita-marketing.pages.dev/assets/section-work/mochila-ejemplo.png",
+      "https://orbita-marketing.pages.dev/assets/section-work/mochila-ejemplo.png"
+    ]
+  },
+  {
+    "route": "marketing",
+    "width": 390,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [
+      "https://orbita-marketing.pages.dev/assets/hero/pricing-meta-ad.webp",
+      "https://orbita-marketing.pages.dev/assets/hero/marketing-creativos.webp"
+    ],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/hero/marketing-team-v11-mobile.webp",
+      "",
+      ""
+    ]
+  },
+  {
+    "route": "software",
+    "width": 390,
+    "status": 200,
+    "title": "Órbita gestionatu publicidad.Tú ves cada avance.",
+    "overflow": false,
+    "brokenImages": [
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/ana.webp"
+    ],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/contacto-02.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-03.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/ana.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/ana.webp"
+    ]
+  },
+  {
+    "route": "precios",
+    "width": 390,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [],
+    "images": []
+  },
+  {
+    "route": "",
+    "width": 1440,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/hero/packaging-products.webp",
+      "https://orbita-marketing.pages.dev/assets/hero/packaging-process.webp",
+      "https://orbita-marketing.pages.dev/assets/section-work/mochila-ejemplo.png",
+      "https://orbita-marketing.pages.dev/assets/section-work/mochila-ejemplo.png"
+    ]
+  },
+  {
+    "route": "marketing",
+    "width": 1440,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [
+      "https://orbita-marketing.pages.dev/assets/hero/marketing-creativos.webp"
+    ],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/hero/marketing-team-v10-desktop.webp",
+      "https://orbita-marketing.pages.dev/assets/hero/pricing-meta-ad.webp",
+      ""
+    ]
+  },
+  {
+    "route": "software",
+    "width": 1440,
+    "status": 200,
+    "title": "Órbita gestionatu publicidad.Tú ves cada avance.",
+    "overflow": false,
+    "brokenImages": [],
+    "images": [
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/contacto-02.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-03.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/ana.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/cliente-01.webp",
+      "https://orbita-marketing.pages.dev/assets/software-consultas/ana.webp"
+    ]
+  },
+  {
+    "route": "precios",
+    "width": 1440,
+    "status": 200,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "overflow": false,
+    "brokenImages": [],
+    "images": []
+  }
+]

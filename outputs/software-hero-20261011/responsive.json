@@ -1,0 +1,1138 @@
+[
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 811.53125,
+      "height": 722.53125,
+      "right": 1425,
+      "width": 1425,
+      "x": 0,
+      "y": 89
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 731.53125,
+      "height": 562.53125,
+      "right": 1377,
+      "width": 1329,
+      "x": 48,
+      "y": 169
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 692.21875,
+        "id": "flujo-consultas",
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 908.953125,
+        "id": "reportes",
+        "width": 1425
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 414.46875,
+        "id": "siguiente-paso",
+        "width": 1425
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 468,
+        "id": "footer",
+        "width": 1425
+      }
+    ],
+    "navWidth": 1345,
+    "order": [
+      {
+        "bottom": 510.46875,
+        "height": 341.46875,
+        "right": 529.875,
+        "selector": ".os-intro",
+        "width": 481.875,
+        "x": 48,
+        "y": 169
+      },
+      {
+        "bottom": 687.984375,
+        "height": 508.625,
+        "right": 1377,
+        "selector": ".os-preview",
+        "width": 803.125,
+        "x": 573.875,
+        "y": 179.359375
+      },
+      {
+        "bottom": 698.34375,
+        "height": 99.875,
+        "right": 529.875,
+        "selector": ".os-terms",
+        "width": 481.875,
+        "x": 48,
+        "y": 598.46875
+      },
+      {
+        "bottom": 731.53125,
+        "height": 19.1875,
+        "right": 529.875,
+        "selector": ".os-provider",
+        "width": 481.875,
+        "x": 48,
+        "y": 712.34375
+      },
+      {
+        "bottom": 728.34375,
+        "height": 16,
+        "right": 1377,
+        "selector": ".os-caption",
+        "width": 803.125,
+        "x": 573.875,
+        "y": 712.34375
+      },
+      {
+        "bottom": 568.46875,
+        "height": 58,
+        "right": 329.921875,
+        "selector": ".os-meeting",
+        "width": 281.921875,
+        "x": 48,
+        "y": 510.46875
+      },
+      {
+        "bottom": 1503.75,
+        "height": 692.21875,
+        "right": 1425,
+        "selector": ".sw-flow",
+        "width": 1425,
+        "x": 0,
+        "y": 811.53125
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "flex",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 1425,
+    "work": "block"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 811.53125,
+      "height": 722.53125,
+      "right": 1905,
+      "width": 1905,
+      "x": 0,
+      "y": 89
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 731.53125,
+      "height": 562.53125,
+      "right": 1672.5,
+      "width": 1440,
+      "x": 232.5,
+      "y": 169
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 838.1875,
+        "id": "flujo-consultas",
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 901.234375,
+        "id": "reportes",
+        "width": 1905
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 415.375,
+        "id": "siguiente-paso",
+        "width": 1905
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 468,
+        "id": "footer",
+        "width": 1905
+      }
+    ],
+    "navWidth": 1380,
+    "order": [
+      {
+        "bottom": 510.46875,
+        "height": 341.46875,
+        "right": 756,
+        "selector": ".os-intro",
+        "width": 523.5,
+        "x": 232.5,
+        "y": 169
+      },
+      {
+        "bottom": 687.984375,
+        "height": 508.625,
+        "right": 1672.5,
+        "selector": ".os-preview",
+        "width": 872.5,
+        "x": 800,
+        "y": 179.359375
+      },
+      {
+        "bottom": 698.34375,
+        "height": 99.875,
+        "right": 756,
+        "selector": ".os-terms",
+        "width": 523.5,
+        "x": 232.5,
+        "y": 598.46875
+      },
+      {
+        "bottom": 731.53125,
+        "height": 19.1875,
+        "right": 756,
+        "selector": ".os-provider",
+        "width": 523.5,
+        "x": 232.5,
+        "y": 712.34375
+      },
+      {
+        "bottom": 728.34375,
+        "height": 16,
+        "right": 1672.5,
+        "selector": ".os-caption",
+        "width": 872.5,
+        "x": 800,
+        "y": 712.34375
+      },
+      {
+        "bottom": 568.46875,
+        "height": 58,
+        "right": 514.421875,
+        "selector": ".os-meeting",
+        "width": 281.921875,
+        "x": 232.5,
+        "y": 510.46875
+      },
+      {
+        "bottom": 1649.71875,
+        "height": 838.1875,
+        "right": 1905,
+        "selector": ".sw-flow",
+        "width": 1905,
+        "x": 0,
+        "y": 811.53125
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "flex",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 1905,
+    "work": "block"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 1264.734375,
+      "height": 1187.734375,
+      "right": 753,
+      "width": 753,
+      "x": 0,
+      "y": 77
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 1220.734375,
+      "height": 1103.734375,
+      "right": 716.5,
+      "width": 680,
+      "x": 36.5,
+      "y": 117
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 2046.671875,
+        "id": "flujo-consultas",
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1077.359375,
+        "id": "reportes",
+        "width": 753
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 366.96875,
+        "id": "siguiente-paso",
+        "width": 753
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 623,
+        "id": "footer",
+        "width": 753
+      }
+    ],
+    "navWidth": 705,
+    "order": [
+      {
+        "bottom": 398.484375,
+        "height": 281.484375,
+        "right": 716.5,
+        "selector": ".os-intro",
+        "width": 680,
+        "x": 36.5,
+        "y": 117
+      },
+      {
+        "bottom": 983,
+        "height": 584.515625,
+        "right": 716.5,
+        "selector": ".os-preview",
+        "width": 680,
+        "x": 36.5,
+        "y": 398.484375
+      },
+      {
+        "bottom": 1077.4375,
+        "height": 76.4375,
+        "right": 716.5,
+        "selector": ".os-terms",
+        "width": 680,
+        "x": 36.5,
+        "y": 1001
+      },
+      {
+        "bottom": 1122.234375,
+        "height": 20.796875,
+        "right": 716.5,
+        "selector": ".os-provider",
+        "width": 680,
+        "x": 36.5,
+        "y": 1101.4375
+      },
+      {
+        "bottom": 1142.734375,
+        "height": 16.5,
+        "right": 716.5,
+        "selector": ".os-caption",
+        "width": 680,
+        "x": 36.5,
+        "y": 1126.234375
+      },
+      {
+        "bottom": 1220.734375,
+        "height": 56,
+        "right": 716.5,
+        "selector": ".os-meeting",
+        "width": 680,
+        "x": 36.5,
+        "y": 1164.734375
+      },
+      {
+        "bottom": 3311.40625,
+        "height": 2046.671875,
+        "right": 753,
+        "selector": ".sw-flow",
+        "width": 753,
+        "x": 0,
+        "y": 1264.734375
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "none",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 753,
+    "work": "none"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 1229.859375,
+      "height": 1152.859375,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 77
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 1185.859375,
+      "height": 1074.859375,
+      "right": 359,
+      "width": 343,
+      "x": 16,
+      "y": 111
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1428.703125,
+        "id": "flujo-consultas",
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1760.1875,
+        "id": "reportes",
+        "width": 375
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 363.96875,
+        "id": "siguiente-paso",
+        "width": 375
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 848.140625,
+        "id": "footer",
+        "width": 375
+      }
+    ],
+    "navWidth": 343,
+    "order": [
+      {
+        "bottom": 384.71875,
+        "height": 273.71875,
+        "right": 359,
+        "selector": ".os-intro",
+        "width": 343,
+        "x": 16,
+        "y": 111
+      },
+      {
+        "bottom": 899.5,
+        "height": 514.78125,
+        "right": 359,
+        "selector": ".os-preview",
+        "width": 343,
+        "x": 16,
+        "y": 384.71875
+      },
+      {
+        "bottom": 1028.671875,
+        "height": 111.171875,
+        "right": 359,
+        "selector": ".os-terms",
+        "width": 343,
+        "x": 16,
+        "y": 917.5
+      },
+      {
+        "bottom": 1070.859375,
+        "height": 19.1875,
+        "right": 359,
+        "selector": ".os-provider",
+        "width": 343,
+        "x": 16,
+        "y": 1051.671875
+      },
+      {
+        "bottom": 1107.859375,
+        "height": 33,
+        "right": 359,
+        "selector": ".os-caption",
+        "width": 343,
+        "x": 16,
+        "y": 1074.859375
+      },
+      {
+        "bottom": 1185.859375,
+        "height": 56,
+        "right": 359,
+        "selector": ".os-meeting",
+        "width": 343,
+        "x": 16,
+        "y": 1129.859375
+      },
+      {
+        "bottom": 2658.5625,
+        "height": 1428.703125,
+        "right": 375,
+        "selector": ".sw-flow",
+        "width": 375,
+        "x": 0,
+        "y": 1229.859375
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "none",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 375,
+    "work": "none"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 1242.421875,
+      "height": 1165.421875,
+      "right": 360,
+      "width": 360,
+      "x": 0,
+      "y": 77
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 1198.421875,
+      "height": 1087.421875,
+      "right": 344,
+      "width": 328,
+      "x": 16,
+      "y": 111
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1433.890625,
+        "id": "flujo-consultas",
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1760.1875,
+        "id": "reportes",
+        "width": 360
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 363.96875,
+        "id": "siguiente-paso",
+        "width": 360
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 848.140625,
+        "id": "footer",
+        "width": 360
+      }
+    ],
+    "navWidth": 328,
+    "order": [
+      {
+        "bottom": 379.890625,
+        "height": 268.890625,
+        "right": 344,
+        "selector": ".os-intro",
+        "width": 328,
+        "x": 16,
+        "y": 111
+      },
+      {
+        "bottom": 894.671875,
+        "height": 514.78125,
+        "right": 344,
+        "selector": ".os-preview",
+        "width": 328,
+        "x": 16,
+        "y": 379.890625
+      },
+      {
+        "bottom": 1041.234375,
+        "height": 128.5625,
+        "right": 344,
+        "selector": ".os-terms",
+        "width": 328,
+        "x": 16,
+        "y": 912.671875
+      },
+      {
+        "bottom": 1083.421875,
+        "height": 19.1875,
+        "right": 344,
+        "selector": ".os-provider",
+        "width": 328,
+        "x": 16,
+        "y": 1064.234375
+      },
+      {
+        "bottom": 1120.421875,
+        "height": 33,
+        "right": 344,
+        "selector": ".os-caption",
+        "width": 328,
+        "x": 16,
+        "y": 1087.421875
+      },
+      {
+        "bottom": 1198.421875,
+        "height": 56,
+        "right": 344,
+        "selector": ".os-meeting",
+        "width": 328,
+        "x": 16,
+        "y": 1142.421875
+      },
+      {
+        "bottom": 2676.3125,
+        "height": 1433.890625,
+        "right": 360,
+        "selector": ".sw-flow",
+        "width": 360,
+        "x": 0,
+        "y": 1242.421875
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "none",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 360,
+    "work": "none"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 1248.125,
+      "height": 1171.125,
+      "right": 345,
+      "width": 345,
+      "x": 0,
+      "y": 77
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 1204.125,
+      "height": 1093.125,
+      "right": 329,
+      "width": 313,
+      "x": 16,
+      "y": 111
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1548.328125,
+        "id": "flujo-consultas",
+        "width": 345
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1802.484375,
+        "id": "reportes",
+        "width": 345
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 382.15625,
+        "id": "siguiente-paso",
+        "width": 345
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 871.53125,
+        "id": "footer",
+        "width": 345
+      }
+    ],
+    "navWidth": 313,
+    "order": [
+      {
+        "bottom": 375.015625,
+        "height": 264.015625,
+        "right": 329,
+        "selector": ".os-intro",
+        "width": 313,
+        "x": 16,
+        "y": 111
+      },
+      {
+        "bottom": 900.375,
+        "height": 525.359375,
+        "right": 329,
+        "selector": ".os-preview",
+        "width": 313,
+        "x": 16,
+        "y": 375.015625
+      },
+      {
+        "bottom": 1046.9375,
+        "height": 128.5625,
+        "right": 329,
+        "selector": ".os-terms",
+        "width": 313,
+        "x": 16,
+        "y": 918.375
+      },
+      {
+        "bottom": 1089.125,
+        "height": 19.1875,
+        "right": 329,
+        "selector": ".os-provider",
+        "width": 313,
+        "x": 16,
+        "y": 1069.9375
+      },
+      {
+        "bottom": 1126.125,
+        "height": 33,
+        "right": 329,
+        "selector": ".os-caption",
+        "width": 313,
+        "x": 16,
+        "y": 1093.125
+      },
+      {
+        "bottom": 1204.125,
+        "height": 56,
+        "right": 329,
+        "selector": ".os-meeting",
+        "width": 313,
+        "x": 16,
+        "y": 1148.125
+      },
+      {
+        "bottom": 2796.453125,
+        "height": 1548.328125,
+        "right": 345,
+        "selector": ".sw-flow",
+        "width": 345,
+        "x": 0,
+        "y": 1248.125
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "none",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 345,
+    "work": "none"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 1334.5,
+      "height": 1257.5,
+      "right": 305,
+      "width": 305,
+      "x": 0,
+      "y": 77
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 1290.5,
+      "height": 1179.5,
+      "right": 289,
+      "width": 273,
+      "x": 16,
+      "y": 111
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1680.140625,
+        "id": "flujo-consultas",
+        "width": 305
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1970.3125,
+        "id": "reportes",
+        "width": 305
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 382.15625,
+        "id": "siguiente-paso",
+        "width": 305
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 922.46875,
+        "id": "footer",
+        "width": 305
+      }
+    ],
+    "navWidth": 273,
+    "order": [
+      {
+        "bottom": 386.828125,
+        "height": 275.828125,
+        "right": 289,
+        "selector": ".os-intro",
+        "width": 273,
+        "x": 16,
+        "y": 111
+      },
+      {
+        "bottom": 969.359375,
+        "height": 582.53125,
+        "right": 289,
+        "selector": ".os-preview",
+        "width": 273,
+        "x": 16,
+        "y": 386.828125
+      },
+      {
+        "bottom": 1133.3125,
+        "height": 145.953125,
+        "right": 289,
+        "selector": ".os-terms",
+        "width": 273,
+        "x": 16,
+        "y": 987.359375
+      },
+      {
+        "bottom": 1175.5,
+        "height": 19.1875,
+        "right": 289,
+        "selector": ".os-provider",
+        "width": 273,
+        "x": 16,
+        "y": 1156.3125
+      },
+      {
+        "bottom": 1212.5,
+        "height": 33,
+        "right": 289,
+        "selector": ".os-caption",
+        "width": 273,
+        "x": 16,
+        "y": 1179.5
+      },
+      {
+        "bottom": 1290.5,
+        "height": 56,
+        "right": 289,
+        "selector": ".os-meeting",
+        "width": 273,
+        "x": 16,
+        "y": 1234.5
+      },
+      {
+        "bottom": 3014.640625,
+        "height": 1680.140625,
+        "right": 305,
+        "selector": ".sw-flow",
+        "width": 305,
+        "x": 0,
+        "y": 1334.5
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "none",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 305,
+    "work": "none"
+  },
+  {
+    "broken": [],
+    "headings": [
+      "Órbita gestiona\ntu publicidad.\nTú ves cada avance."
+    ],
+    "hero": {
+      "bottom": 888.609375,
+      "height": 799.609375,
+      "right": 1085,
+      "width": 1085,
+      "x": 0,
+      "y": 89
+    },
+    "interactiveDemo": 0,
+    "layout": {
+      "bottom": 808.609375,
+      "height": 639.609375,
+      "right": 1053,
+      "width": 1021,
+      "x": 32,
+      "y": 169
+    },
+    "lower": [
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 1757.921875,
+        "id": "flujo-consultas",
+        "width": 1085
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 878.78125,
+        "id": "reportes",
+        "width": 1085
+      },
+      {
+        "background": "rgb(246, 243, 235)",
+        "height": 384.5625,
+        "id": "siguiente-paso",
+        "width": 1085
+      },
+      {
+        "background": "rgb(11, 13, 11)",
+        "height": 468,
+        "id": "footer",
+        "width": 1085
+      }
+    ],
+    "navWidth": 1005,
+    "order": [
+      {
+        "bottom": 525.1875,
+        "height": 356.1875,
+        "right": 400.140625,
+        "selector": ".os-intro",
+        "width": 368.140625,
+        "x": 32,
+        "y": 169
+      },
+      {
+        "bottom": 775.421875,
+        "height": 606.421875,
+        "right": 1053,
+        "selector": ".os-preview",
+        "width": 626.859375,
+        "x": 426.140625,
+        "y": 169
+      },
+      {
+        "bottom": 775.421875,
+        "height": 137.296875,
+        "right": 400.140625,
+        "selector": ".os-terms",
+        "width": 368.140625,
+        "x": 32,
+        "y": 638.125
+      },
+      {
+        "bottom": 808.609375,
+        "height": 19.1875,
+        "right": 400.140625,
+        "selector": ".os-provider",
+        "width": 368.140625,
+        "x": 32,
+        "y": 789.421875
+      },
+      {
+        "bottom": 805.421875,
+        "height": 16,
+        "right": 1053,
+        "selector": ".os-caption",
+        "width": 626.859375,
+        "x": 426.140625,
+        "y": 789.421875
+      },
+      {
+        "bottom": 608.125,
+        "height": 82.9375,
+        "right": 313.921875,
+        "selector": ".os-meeting",
+        "width": 281.921875,
+        "x": 32,
+        "y": 525.1875
+      },
+      {
+        "bottom": 2646.53125,
+        "height": 1757.921875,
+        "right": 1085,
+        "selector": ".sw-flow",
+        "width": 1085,
+        "x": 0,
+        "y": 888.609375
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "proposal": "flex",
+    "textOverlap": [
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "128"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$850.000"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "$6.641"
+      },
+      {
+        "clipped": false,
+        "overlap": false,
+        "value": "5"
+      }
+    ],
+    "width": 1085,
+    "work": "block"
+  }
+]

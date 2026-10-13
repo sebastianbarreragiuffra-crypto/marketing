@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>S · Hero Software · wireframes</title>
+<style>
+:root{--bg:#f3f3f1;--ink:#1d1d1b;--mute:#6b6b66;--blk:#dcdcd8;--blk2:#c9c9c4;--line:#bdbdb7;--frame:#fff}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.45 Arial,sans-serif}
+.nav{height:76px;background:#2b2b29;display:flex;align-items:center;justify-content:space-between;padding:0 calc((100% - min(1344px,100% - 32px))/2)}
+.nav b{color:#fff;letter-spacing:.04em}.nav span{display:flex;gap:22px;color:#cfcfca;font-size:14px}.nav i{width:150px;height:40px;border-radius:20px;border:2px solid #cfcfca}
+.tag{position:absolute;top:88px;left:16px;background:#1d1d1b;color:#fff;font:700 12px/1 Arial;padding:7px 10px;border-radius:4px;letter-spacing:.04em;z-index:5}
+.hero{position:relative;width:min(1344px,100% - 32px);margin:0 auto;padding:56px 0 40px;display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:center}
+.eyebrow{font:700 12px/1 Arial;letter-spacing:.16em;color:var(--mute);margin-bottom:18px}
+h1{font:800 48px/1.02 Arial;letter-spacing:-.03em;margin-bottom:20px}
+.lead{font-size:20px;color:#3d3d3a;max-width:30ch;margin-bottom:22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}.chips span{border:1.5px solid var(--line);border-radius:999px;padding:7px 13px;font-size:14px}
+.ctas{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.cta{display:inline-flex;align-items:center;gap:14px;height:56px;padding:0 26px;border-radius:28px;background:#1d1d1b;color:#fff;font-weight:700}
+.link{font-size:15px;text-decoration:underline;color:#3d3d3a}
+.note{font:12px Arial;color:var(--mute);text-align:center;margin-top:10px}
+.frame{background:var(--frame);border:1.5px solid var(--line);border-radius:14px;padding:16px}
+.blk{background:var(--blk);border-radius:8px}
+.row{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid #e6e6e2}.row:first-of-type{border-top:0}
+.th{width:38px;height:38px;border-radius:7px;background:var(--blk2);flex:none}
+.t{font-size:13px}.t small{display:block;color:var(--mute);font-size:12px}
+.pill{margin-left:auto;font-size:11px;border:1px solid var(--line);border-radius:999px;padding:3px 8px;white-space:nowrap}
+.lbl{font:700 13px/1.2 Arial;margin-bottom:8px;display:flex;justify-content:space-between;gap:8px}
+.lbl em{font:400 11px Arial;color:var(--mute);font-style:normal;border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+.bubble{background:var(--blk);border-radius:12px 12px 12px 3px;padding:10px 12px;font-size:13px;margin:6px 0}
+.reply{border:1.5px dashed var(--line);border-radius:10px;padding:10px 12px;font-size:13px;color:#3d3d3a}
+.reply small{display:block;color:var(--mute);font-size:11px;margin-bottom:4px}
+/* A */
+.a-dash{display:grid;grid-template-columns:120px 1fr;gap:14px}
+.a-side{display:grid;gap:8px;align-content:start}.a-side div{height:26px}
+.a-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+.a-metrics div{border:1px solid #e3e3df;border-radius:9px;padding:10px 12px;font-size:12px;color:var(--mute)}.a-metrics b{display:block;font-size:26px;color:var(--ink)}
+.a-panels{display:grid;grid-template-columns:1fr 1fr;gap:12px}.a-panels>div{border:1px solid #e3e3df;border-radius:10px;padding:12px}
+/* B */
+.b-stage{position:relative;height:600px}
+.b-card{position:absolute;width:64%;background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 18px 40px #0000000f}
+.b-agency{top:10px;left:0}.b-team{bottom:0;right:0}
+.b-who{display:inline-flex;align-items:center;gap:8px;font:700 12px/1 Arial;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
+.b-who i{width:22px;height:22px;border-radius:50%;background:var(--blk2)}
+.b-next{margin-top:12px;border-top:1px solid #e6e6e2;padding-top:10px;font-size:13px}.b-next small{display:block;color:var(--mute);font-size:11px}
+.b-link{position:absolute;left:30%;top:342px;font:12px Arial;color:var(--mute);background:var(--bg);padding:4px 8px;border-radius:999px;border:1px dashed var(--line)}
+/* C */
+.c-hero{width:min(1344px,100% - 32px);margin:0 auto;padding:48px 0 0;text-align:center;position:relative}
+.c-hero .lead{margin:0 auto 18px;max-width:46ch}.c-hero .chips,.c-hero .ctas{justify-content:center}.c-hero h1{font-size:52px}
+.c-prod{text-align:left;width:min(1120px,100%);margin:34px auto 0;height:300px;overflow:hidden;border-radius:14px 14px 0 0;border-bottom:0}
+.c-prod .a-dash{grid-template-columns:150px 1fr}
+@media (max-width:700px){
+ .nav span,.nav i{display:none}
+ .hero{grid-template-columns:1fr;gap:26px;padding:34px 0 28px}
+ h1,.c-hero h1{font-size:36px}.lead{font-size:17px}
+ .a-dash,.c-prod .a-dash{grid-template-columns:1fr}.a-side,.a-campaigns{display:none}
+ .a-panels{grid-template-columns:1fr}.a-metrics b{font-size:20px}.a-metrics div{padding:8px}
+ .b-stage{height:auto;display:grid;gap:12px}.b-card{position:static;width:100%}.b-link{position:static;justify-self:center}
+ .c-prod{height:auto;overflow:visible;border-radius:14px;border-bottom:1.5px solid var(--line)}
+ .tag{top:84px}
+}
+</style>
+</head>
+<body>
+<nav class="nav"><b>ÓRBITA.</b><span>Inicio · Marketing · Software · Precios · Iniciar sesión</span><i></i></nav>
+<main id="root"></main>
+<template id="copy">
+  <p class="eyebrow">GISBA · SOFTWARE PARA TU EQUIPO</p>
+  <h1>Sigue tus campañas<br>y atiende tus consultas.</h1>
+  <p class="lead">Revisa cómo avanzan tus campañas y organiza las consultas de tus clientes con GISBA.</p>
+  <div class="chips"><span>Con Marketing: 1 usuario incluido</span><span>Usuarios adicionales con costo extra</span></div>
+  <div class="ctas"><span class="cta">Agenda una reunión <svg width="20" height="14" viewBox="0 0 20 14" aria-hidden="true"><path d="M1 7h17M12 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><span class="link">¿Ya tienes agencia? Consulta GISBA independiente</span></div>
+</template>
+<template id="dash">
+  <div class="a-dash">
+    <div class="a-side"><div class="blk"></div><div class="blk"></div><div class="blk"></div><div class="blk"></div></div>
+    <div>
+      <div class="lbl">Resumen de tu negocio <em>Datos de ejemplo</em></div>
+      <div class="a-metrics"><div>Campañas activas<b>3</b></div><div>Consultas · 7 días<b>42</b></div><div>Por responder<b>12</b></div></div>
+      <div class="a-panels">
+        <div class="a-campaigns"><div class="lbl">Campañas en curso</div>
+          <div class="row"><span class="th"></span><span class="t">Campaña de consultas<small>Meta Ads</small></span><span class="pill">Activa</span></div>
+          <div class="row"><span class="th"></span><span class="t">Campaña de búsqueda<small>Google Ads</small></span><span class="pill">Activa</span></div>
+          <div class="row"><span class="th"></span><span class="t">Campaña de alcance<small>TikTok Ads</small></span><span class="pill">Activa</span></div>
+        </div>
+        <div><div class="lbl">Consulta sin responder <em>Meta · 10:24</em></div>
+          <p class="bubble">Hola, ¿me puedes enviar una cotización?</p>
+          <div class="reply"><small>Tu respuesta · Sin enviar</small>Hola, claro. ¿Qué servicio necesitas?</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+const v=new URLSearchParams(location.search).get('v')||'a';
+const root=document.getElementById('root');
+const copy=()=>document.getElementById('copy').innerHTML;
+const dash=()=>document.getElementById('dash').innerHTML;
+const names={a:'A · ACTUAL REFINADA',b:'B · AGENCIA + TU EQUIPO',c:'C · CENTRADO + PRODUCTO ANCHO'};
+if(v==='a'){
+ root.innerHTML=`<span class="tag">${names.a}</span><section class="hero"><div>${copy()}</div><figure><div class="frame">${dash()}</div><p class="note">Vista ilustrativa · Datos de ejemplo</p></figure></section>`;
+}else if(v==='b'){
+ root.innerHTML=`<span class="tag">${names.b}</span><section class="hero"><div>${copy()}</div><figure><div class="b-stage">
+  <div class="b-card b-agency"><p class="b-who"><i></i>Lo gestiona tu agencia</p>
+   <div class="lbl">Campañas activas <em>Datos de ejemplo</em></div>
+   <div class="row"><span class="th"></span><span class="t">Campaña de consultas<small>Meta Ads · 42 consultas esta semana</small></span><span class="pill">Activa</span></div>
+   <div class="row"><span class="th"></span><span class="t">Campaña de búsqueda<small>Google Ads</small></span><span class="pill">Activa</span></div>
+   <div class="row"><span class="th"></span><span class="t">Campaña de alcance<small>TikTok Ads</small></span><span class="pill">Activa</span></div>
+   <p class="b-next"><small>Próximo paso de tu agencia</small>Preparar el presupuesto de la próxima campaña.</p></div>
+  <span class="b-link">de la campaña a la consulta</span>
+  <div class="b-card b-team"><p class="b-who"><i></i>Lo atiende tu equipo</p>
+   <div class="lbl">Consulta sin responder <em>12 por responder</em></div>
+   <p class="bubble">Hola, ¿me puedes enviar una cotización?</p>
+   <div class="reply"><small>Tu respuesta · Sin enviar</small>Hola, claro. ¿Qué servicio necesitas?</div></div>
+ </div><p class="note">Vista ilustrativa · Datos de ejemplo</p></figure></section>`;
+}else{
+ root.innerHTML=`<span class="tag">${names.c}</span><section class="c-hero">${copy()}<div class="frame c-prod">${dash()}</div></section>`;
+}
+</script>
+</body>
+</html>

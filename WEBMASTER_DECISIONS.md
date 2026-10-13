@@ -123,3 +123,35 @@ USER APPROVED: el usuario corrigió explícitamente el encargo a hero, bloque di
 
 ### 2026-10-04 — Instalar la revisión de contacto en Marketing
 IMPLEMENTADO por el seguimiento explícito que esperaba la sección actualizada en el sitio real. Se aplica el mockup concreto V1.1, con cuatro intereses combinables, contexto/empresa opcionales, canal exclusivo y revisión local. Se conserva el alcance sin receptor ni envío real. El formulario separado era la causa de que la página pública siguiera mostrando el diseño anterior. Evidencia, autorización actual y QA responsive/publicación en `MARKETING_CONTACT_2A.md`. No se afirma un nuevo pass A/B ni mejora medida de conversión. Reabrir con feedback de uso o configuración autorizada de un receptor.
+
+### 2026-10-11 — Alcance comercial de Órbita y GISBA para la página Software
+
+**Estado:** CONFIRMADO para la distinción comercial; PENDIENTE para capacidades técnicas y aprobación del hero.
+
+**Decisión:** Marketing digital gestionado por Órbita contempla GISBA para un usuario; usuarios adicionales tienen costo extra. GISBA independiente sigue disponible como consulta secundaria para empresas con equipo de marketing interno o con otra agencia. La agencia que gestiona campañas y el equipo que atiende consultas deben distinguirse del papel del software. Diseño/Desarrollo Web permanece por proyecto; no hereda automáticamente la inclusión de GISBA.
+
+**Origen:** Instrucciones comerciales vigentes del usuario y conversación de revisión del hero de Software del 2026-10-11.
+
+**Límites:** Modalidades, tarifas, conexiones de canales, importación de datos, mensajería y demás funciones concretas de GISBA requieren verificación. El mockup de dos tarjetas es una propuesta visual revisada como SAME_AGENT, no una aprobación de implementación ni una publicación.
+
+**Condición para reabrir:** Nueva confirmación comercial o técnica, feedback del usuario sobre el mockup, o evidencia de uso real.
+
+### 2026-10-11 — Modelo comercial y bot previsto de Órbita/GISBA
+
+**Estado:** CONFIRMADO por el usuario para el modelo comercial; PREVISTO para el add-on; PENDIENTE para alcance, viabilidad, disponibilidad y condiciones de cada función.
+
+**Decisión:** Órbita compra GISBA para apoyar su servicio de publicidad gestionada y ofrecer a sus clientes el acceso acordado. Puede vender GISBA por separado a empresas con equipo interno o con otra agencia; la gestión de Órbita se contrata aparte. GISBA apoya análisis, recomendaciones y coordinación, mientras los responsables de marketing deciden los cambios. Órbita y GISBA incorporarán un bot para atender compradores finales como add-on separado, no como función actual o inclusión por defecto de GISBA.
+
+**Alcance previsto del bot:** responder con información del negocio, captar contexto, identificar intención y calificar oportunidades, orientar el próximo paso, derivar con contexto a humanos, organizar seguimiento, conectar herramientas habilitadas y aportar métricas. Agendamiento, recordatorios, recomendaciones de productos, stock/pedidos, recuperación de carritos, pagos, llamadas con IA, campañas de mensajes y atribución por anuncio quedan por evaluar.
+
+**Origen y límites:** Aclaración explícita del usuario en esta conversación. La web pública de GISBA confirma señales y recomendaciones con decisión humana, pero no acredita un bot para compradores finales. Databot y Vambe son referencias competitivas, no evidencia de capacidades propias. No modificar copy público ni representar flujos concretos hasta confirmar funciones, conexiones, responsables y disponibilidad.
+
+### 2026-10-11 — Brief final de venta y diseño de Órbita
+
+**Estado:** APROBADO COMO DIRECCIÓN PARA DISEÑO; NO IMPLEMENTADO NI PUBLICADO por esta instrucción.
+
+**Decisión:** Órbita y GISBA pertenecen al mismo holding. Órbita vende principalmente gestión publicitaria para ecommerce y B2B; GISBA desarrolla y vende software independiente. La idea anterior de vender GISBA independiente desde Órbita queda superada: esas consultas se derivan a GISBA. La gestión publicitaria contempla un usuario GISBA; usuarios adicionales cuestan extra y la pauta se paga aparte. El bot de GISBA es un complemento opcional previsto que Órbita configurará, pondrá en marcha y mantendrá según contrato, sin afirmar disponibilidad ni capacidades no verificadas.
+
+**Jerarquía de web:** Órbita crea y gestiona publicidad; GISBA aporta información y coordinación al servicio; el bot es complemento opcional. Conservar el H1 «Un equipo para crear y gestionar tu publicidad.» y CTA «Agenda una reunión». No presentar agencia, software independiente y bot como tres ofertas equivalentes.
+
+**Fuente y límites:** Brief completo entregado por el usuario y guardado como `.cursor/rules/brief-orbita.mdc`. Las decisiones previas sobre GISBA independiente en esta bitácora son históricas y quedan sustituidas para la web de Órbita. No se autorizó modificar ni publicar el sitio.

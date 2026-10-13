@@ -1,0 +1,153 @@
+{
+  "lower_source_unchanged": true,
+  "other_pages_changed_concurrently": [
+    "marketing.html"
+  ],
+  "other_pages_written_by_this_task": [],
+  "single_h1": true,
+  "unique_ids": true,
+  "svg_symbols_resolved": true,
+  "responsive_checks_passed": true,
+  "lower_render_comparisons": [
+    {
+      "width": 1425,
+      "section": "flujo-consultas",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1425,
+      "section": "reportes",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1425,
+      "section": "siguiente-paso",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1425,
+      "section": "footer",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1905,
+      "section": "flujo-consultas",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1905,
+      "section": "reportes",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1905,
+      "section": "siguiente-paso",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 1905,
+      "section": "footer",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 753,
+      "section": "flujo-consultas",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 753,
+      "section": "reportes",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 753,
+      "section": "siguiente-paso",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 753,
+      "section": "footer",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 375,
+      "section": "flujo-consultas",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 375,
+      "section": "reportes",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 375,
+      "section": "siguiente-paso",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 375,
+      "section": "footer",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 360,
+      "section": "flujo-consultas",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 360,
+      "section": "reportes",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 360,
+      "section": "siguiente-paso",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    },
+    {
+      "width": 360,
+      "section": "footer",
+      "same_height": true,
+      "same_width": true,
+      "same_background": true
+    }
+  ]
+}

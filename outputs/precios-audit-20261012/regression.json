@@ -1,0 +1,45 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "webTitleHeight": 22.5,
+    "webTitleFont": "18px",
+    "webDescription": "Contenido, funcionalidades, hosting, dominio, mantenimiento y tarifas según propuesta. GISBA no se incluye automáticamente.",
+    "cardFees": [
+      598.265625,
+      1093.78125,
+      1543.71875
+    ]
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "webTitleHeight": 28.75,
+    "webTitleFont": "23px",
+    "webDescription": "Contenido, funcionalidades, hosting, dominio, mantenimiento y tarifas según propuesta. GISBA no se incluye automáticamente.",
+    "cardFees": [
+      702.078125,
+      702.078125,
+      702.078125
+    ]
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "webTitleHeight": 28.75,
+    "webTitleFont": "23px",
+    "webDescription": "Contenido, funcionalidades, hosting, dominio, mantenimiento y tarifas según propuesta. GISBA no se incluye automáticamente.",
+    "cardFees": [
+      713.328125,
+      713.328125,
+      713.328125
+    ]
+  },
+  {
+    "otherPagesUnchanged": true,
+    "contactSourceUnchanged": true
+  },
+  {
+    "footerMarkupUnchanged": true
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "objective": "Eliminar de Software Reportes y Antes de utilizar GISBA identificados por el usuario",
+  "result": "COMPLETE",
+  "authorization": "MUTATE PROJECT; local solamente",
+  "changes": [
+    "software.html",
+    "css/software-reportes-gisba-v4.css (archivado y retirado)",
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    ".cursor/rules/directory-s-lecciones.mdc"
+  ],
+  "validations": {
+    "responsive": "PASSED 1440/1920/768/390/375; responsive.json",
+    "regression": "PASSED eliminación exacta y contenido preservado; regression.json",
+    "visual": "PASSED captura nativa 1440×940 de transición Modalidades → Hablemos",
+    "manifest": "PASSED site_state.py --write y --check",
+    "diff": "PASSED git diff --check"
+  },
+  "not_verified": [
+    "No despliegue público ni sincronización Git autorizados.",
+    "La ruta de contacto sigue como preview sin reserva/recepción operativa."
+  ],
+  "project_state_updates": "PROJECT_MEMORY.md actualizado; S-029 registra corrección concreta; contexto/decisiones canónicas sin cambios",
+  "method_learning": "NOTHING REUSABLE; fuente única y preservación ya cubren el procedimiento",
+  "next_action": "NONE dentro del alcance local",
+  "recovery": "archive/2026-10-12-software-remove-reports-faq",
+  "concurrent_changes_preserved": [
+    "marketing.html",
+    "css/marketing-new.css"
+  ]
+}

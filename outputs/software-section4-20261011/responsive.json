@@ -1,0 +1,866 @@
+[
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "s": ".os-hero",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 853.21875,
+        "s": "#flujo-consultas",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 825.375,
+        "s": "#atencion-automatizada",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 908.953125,
+        "s": "#reportes",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 351.375,
+        "s": "#preguntas-gisba",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 414.46875,
+        "s": "#siguiente-paso",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1425
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1131.078125,
+        "x": 48,
+        "y": -1536.015625
+      },
+      {
+        "bottom": -1131.078125,
+        "x": 723.5,
+        "y": -1536.015625
+      }
+    ],
+    "client": 1425,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -1570.015625,
+        "s": ".sm-heading",
+        "top": -1737.875
+      },
+      {
+        "bottom": -1131.078125,
+        "s": ".sm-cards",
+        "top": -1536.015625
+      },
+      {
+        "bottom": -1027.078125,
+        "s": ".sm-commercial-note",
+        "top": -1111.078125
+      },
+      {
+        "bottom": -917.578125,
+        "s": ".sm-actions",
+        "top": -1003.078125
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 912.296875,
+    "usefulWidth": 1329,
+    "width": 1440
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "s": ".os-hero",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 855.71875,
+        "s": "#flujo-consultas",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 832.359375,
+        "s": "#atencion-automatizada",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 901.234375,
+        "s": "#reportes",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 351.375,
+        "s": "#preguntas-gisba",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 415.375,
+        "s": "#siguiente-paso",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1905
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1131.734375,
+        "x": 232.5,
+        "y": -1536.671875
+      },
+      {
+        "bottom": -1131.734375,
+        "x": 963.5,
+        "y": -1536.671875
+      }
+    ],
+    "client": 1905,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -1570.671875,
+        "s": ".sm-heading",
+        "top": -1742.390625
+      },
+      {
+        "bottom": -1131.734375,
+        "s": ".sm-cards",
+        "top": -1536.671875
+      },
+      {
+        "bottom": -1027.734375,
+        "s": ".sm-commercial-note",
+        "top": -1111.734375
+      },
+      {
+        "bottom": -918.234375,
+        "s": ".sm-actions",
+        "top": -1003.734375
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 916.15625,
+    "usefulWidth": 1440,
+    "width": 1920
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1516.890625,
+        "s": "#flujo-consultas",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1785.28125,
+        "s": "#atencion-automatizada",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1077.359375,
+        "s": "#reportes",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 367.359375,
+        "s": "#preguntas-gisba",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 366.96875,
+        "s": "#siguiente-paso",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623,
+        "s": ".site-footer",
+        "width": 753
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1495.0625,
+        "x": 26.5,
+        "y": -1819.5625
+      },
+      {
+        "bottom": -1117.171875,
+        "x": 26.5,
+        "y": -1477.0625
+      }
+    ],
+    "client": 753,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -1844.5625,
+        "s": ".sm-heading",
+        "top": -2049.09375
+      },
+      {
+        "bottom": -1117.171875,
+        "s": ".sm-cards",
+        "top": -1819.5625
+      },
+      {
+        "bottom": -1016.171875,
+        "s": ".sm-commercial-note",
+        "top": -1099.171875
+      },
+      {
+        "bottom": -914.171875,
+        "s": ".sm-actions",
+        "top": -998.171875
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 1214.921875,
+    "usefulWidth": 700,
+    "width": 768
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1152.859375,
+        "s": ".os-hero",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1469.40625,
+        "s": "#flujo-consultas",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1672.4375,
+        "s": "#atencion-automatizada",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 466.140625,
+        "s": "#preguntas-gisba",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 375
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1679.140625,
+        "x": 18,
+        "y": -2000.515625
+      },
+      {
+        "bottom": -1272.203125,
+        "x": 18,
+        "y": -1664.140625
+      }
+    ],
+    "client": 375,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -2022.515625,
+        "s": ".sm-heading",
+        "top": -2252.296875
+      },
+      {
+        "bottom": -1272.203125,
+        "s": ".sm-cards",
+        "top": -2000.515625
+      },
+      {
+        "bottom": -1165.703125,
+        "s": ".sm-commercial-note",
+        "top": -1256.203125
+      },
+      {
+        "bottom": -1095.703125,
+        "s": ".sm-actions",
+        "top": -1149.703125
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 1220.59375,
+    "usefulWidth": 339,
+    "width": 390
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1165.421875,
+        "s": ".os-hero",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1464.859375,
+        "s": "#flujo-consultas",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1686.4375,
+        "s": "#atencion-automatizada",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 491.734375,
+        "s": "#preguntas-gisba",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 360
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1719.25,
+        "x": 18,
+        "y": -2040.625
+      },
+      {
+        "bottom": -1292.015625,
+        "x": 18,
+        "y": -1704.25
+      }
+    ],
+    "client": 360,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -2062.625,
+        "s": ".sm-heading",
+        "top": -2289.28125
+      },
+      {
+        "bottom": -1292.015625,
+        "s": ".sm-cards",
+        "top": -2040.625
+      },
+      {
+        "bottom": -1166.015625,
+        "s": ".sm-commercial-note",
+        "top": -1276.015625
+      },
+      {
+        "bottom": -1096.015625,
+        "s": ".sm-actions",
+        "top": -1150.015625
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 1257.265625,
+    "usefulWidth": 324,
+    "width": 375
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1257.5,
+        "s": ".os-hero",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1535.546875,
+        "s": "#flujo-consultas",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1752.515625,
+        "s": "#atencion-automatizada",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1970.3125,
+        "s": "#reportes",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 541.125,
+        "s": "#preguntas-gisba",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 382.15625,
+        "s": "#siguiente-paso",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 922.46875,
+        "s": ".site-footer",
+        "width": 305
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1855.515625,
+        "x": 14,
+        "y": -2163.78125
+      },
+      {
+        "bottom": -1444.140625,
+        "x": 14,
+        "y": -1840.515625
+      }
+    ],
+    "client": 305,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -2185.78125,
+        "s": ".sm-heading",
+        "top": -2404.4375
+      },
+      {
+        "bottom": -1444.140625,
+        "s": ".sm-cards",
+        "top": -2163.78125
+      },
+      {
+        "bottom": -1324.140625,
+        "s": ".sm-commercial-note",
+        "top": -1428.140625
+      },
+      {
+        "bottom": -1254.140625,
+        "s": ".sm-actions",
+        "top": -1308.140625
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 1214.296875,
+    "usefulWidth": 277,
+    "width": 320
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 985
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1516.890625,
+        "s": "#flujo-consultas",
+        "width": 985
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1785.28125,
+        "s": "#atencion-automatizada",
+        "width": 985
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 923.265625,
+        "s": "#reportes",
+        "width": 985
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 341.765625,
+        "s": "#preguntas-gisba",
+        "width": 985
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 375.78125,
+        "s": "#siguiente-paso",
+        "width": 985
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 985
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623,
+        "s": ".site-footer",
+        "width": 985
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1898.0625,
+        "x": 142.5,
+        "y": -2222.5625
+      },
+      {
+        "bottom": -1520.171875,
+        "x": 142.5,
+        "y": -1880.0625
+      }
+    ],
+    "client": 985,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -2247.5625,
+        "s": ".sm-heading",
+        "top": -2452.09375
+      },
+      {
+        "bottom": -1520.171875,
+        "s": ".sm-cards",
+        "top": -2222.5625
+      },
+      {
+        "bottom": -1419.171875,
+        "s": ".sm-commercial-note",
+        "top": -1502.171875
+      },
+      {
+        "bottom": -1317.171875,
+        "s": ".sm-actions",
+        "top": -1401.171875
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 1214.921875,
+    "usefulWidth": 700,
+    "width": 1000
+  },
+  {
+    "benefits": [
+      3,
+      3
+    ],
+    "bg": "rgb(246, 243, 235)",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 986
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1516.890625,
+        "s": "#flujo-consultas",
+        "width": 986
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1785.28125,
+        "s": "#atencion-automatizada",
+        "width": 986
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 923.265625,
+        "s": "#reportes",
+        "width": 986
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 341.765625,
+        "s": "#preguntas-gisba",
+        "width": 986
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 375.875,
+        "s": "#siguiente-paso",
+        "width": 986
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 986
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623.0625,
+        "s": ".site-footer",
+        "width": 986
+      }
+    ],
+    "cardPositions": [
+      {
+        "bottom": -1622.171875,
+        "x": 32,
+        "y": -2046.546875
+      },
+      {
+        "bottom": -1622.171875,
+        "x": 504,
+        "y": -2046.546875
+      }
+    ],
+    "client": 986,
+    "containsDevelopment": false,
+    "ctaCount": 1,
+    "insideOverflow": [],
+    "newVisuals": 0,
+    "order": [
+      {
+        "bottom": -2080.546875,
+        "s": ".sm-heading",
+        "top": -2232.09375
+      },
+      {
+        "bottom": -1622.171875,
+        "s": ".sm-cards",
+        "top": -2046.546875
+      },
+      {
+        "bottom": -1517.171875,
+        "s": ".sm-commercial-note",
+        "top": -1602.171875
+      },
+      {
+        "bottom": -1407.671875,
+        "s": ".sm-actions",
+        "top": -1493.171875
+      }
+    ],
+    "pageOverflow": false,
+    "sectionHeight": 916.421875,
+    "usefulWidth": 922,
+    "width": 1001
+  }
+]

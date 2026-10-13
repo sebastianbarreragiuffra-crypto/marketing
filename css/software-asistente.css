@@ -1,0 +1,164 @@
+/* Section 3: optional GISBA assistant. Native, static illustration only. */
+.sa-section{padding:56px 0;background:#f6f3eb;color:#0b0d0b;scroll-margin-top:89px;font-family:'DM Sans',Arial,sans-serif}
+.sa-section .sa-shell{width:min(calc(100% - 96px),1440px);margin-inline:auto}
+.sa-section .sa-symbols{position:absolute;width:0;height:0;overflow:hidden}
+.sa-section .sa-icon{width:24px;height:24px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sa-section .sa-layout{display:grid;grid-template-columns:minmax(0,1.08fr) 310px minmax(0,.95fr);gap:22px 36px;align-items:start}
+.sa-section .sa-intro{grid-column:1;grid-row:1}
+.sa-section .sa-eyebrow{margin:0 0 10px;font-size:11px;line-height:1.5;letter-spacing:.14em;font-weight:700;color:#48622e}
+.sa-section h2{margin:0 0 18px;font:800 clamp(36px,3.05vw,46px)/1.12 'Manrope',sans-serif;letter-spacing:-.045em}
+.sa-section h2>span{color:#48622e}
+.sa-section .sa-lead{max-width:450px;margin:0;font-size:17px;line-height:1.55;color:#58605b;letter-spacing:-.01em}
+.sa-section .sa-benefits{grid-column:1;grid-row:2;list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.sa-section .sa-benefits li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;align-items:start}
+.sa-section .sa-benefit-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:16px;background:#e9f1da;color:#48622e}
+.sa-section .sa-benefit-icon .sa-icon{width:31px;height:31px;stroke-width:2.1}
+.sa-section .sa-benefits h3{margin:1px 0 5px;font:800 16px/1.35 'Manrope',sans-serif;letter-spacing:-.025em}
+.sa-section .sa-benefits p{margin:0;max-width:350px;font-size:15px;line-height:1.45;color:#58605b}
+.sa-section .sa-phone-demo{grid-column:2;grid-row:1 / 4;margin:0;align-self:center;min-width:0}
+.sa-section .sa-device{width:100%;padding:7px;border:2px solid #171d17;border-radius:42px;background:linear-gradient(115deg,#6a6c68,#0b0d0b 13%,#0b0d0b 87%,#7b7d78);box-shadow:0 0 0 1px #b9bab4,0 17px 22px -12px #171d1733}
+.sa-section .sa-display{overflow:hidden;border:1px solid #3f443b;border-radius:33px;background:#fffdf9}
+.sa-section .sa-phone-status{height:29px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:5px 17px;background:#fffdf9;color:#0b0d0b;font-size:10px;font-weight:700;position:relative}
+.sa-section .sa-island{position:absolute;left:50%;top:5px;transform:translateX(-50%);width:100px;height:19px;border-radius:20px;background:#0b0d0b}
+.sa-section .sa-phone-status svg{width:49px;height:11px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sa-section .sa-chat-header{display:flex;align-items:center;gap:7px;padding:8px 9px 10px;background:#fffdf9;border-bottom:1px solid #e1ded4}
+.sa-section .sa-chat-header .sa-icon{width:18px;height:18px}
+.sa-section .sa-chat-header .sa-chat-back{width:13px}
+.sa-section .sa-company-avatar{width:31px;height:31px;flex:0 0 auto;display:grid;place-items:center;border-radius:50%;background:#48622e;color:#fffdf9;font-size:16px;font-weight:700}
+.sa-section .sa-chat-header>div{min-width:0;flex:1}
+.sa-section .sa-chat-header strong{display:block;font-size:12px;line-height:1.35}
+.sa-section .sa-chat-header>div>span{display:block;font-size:10px;line-height:1.4;color:#48622e;margin-top:2px}
+.sa-section .sa-chat-menu{width:12px;height:22px;flex:0 0 12px;fill:currentColor}
+.sa-section .sa-messages{display:flex;flex-direction:column;gap:11px;list-style:none;padding:13px 10px;margin:0;background:#eeeae0}
+.sa-section .sa-messages li{width:fit-content;max-width:90%;padding:10px 11px 5px;border-radius:13px;box-shadow:0 1px 0 #171d1710}
+.sa-section .sa-messages p{margin:0;color:#0b0d0b;font-size:12px;line-height:1.45}
+.sa-section .sa-buyer{align-self:flex-end;background:#e6efd7;border-top-right-radius:4px!important}
+.sa-section .sa-assistant{align-self:flex-start;background:#fffdf9;border-top-left-radius:4px!important}
+.sa-section .sa-message-brand{display:flex;gap:7px;align-items:center;margin-bottom:6px;color:#48622e;font-size:10px;line-height:1.3}
+.sa-section .sa-message-brand>span:not(.sa-sr-only){display:grid;place-items:center;width:19px;height:19px;flex:0 0 auto;border-radius:50%;background:#48622e;color:#fffdf9;font-size:11px;font-weight:700}
+.sa-section .sa-message-stamp{display:flex;align-items:center;justify-content:flex-end;gap:4px;margin-top:3px;color:#58605b;font-size:9px;line-height:1.3}
+.sa-section .sa-message-stamp svg{width:16px;height:9px;fill:none;stroke:#48622e;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.sa-section .sa-chat-composer{display:flex;align-items:center;gap:7px;padding:8px 9px 10px;background:#fffdf9;color:#0b0d0b}
+.sa-section .sa-plus{font-size:25px;line-height:1}
+.sa-section .sa-chat-input{min-width:0;flex:1;display:flex;align-items:center;justify-content:space-between;gap:6px;padding:8px 10px;border:1px solid #e1ded4;border-radius:24px;color:#58605b;font-size:10px;line-height:1.3}
+.sa-section .sa-chat-input .sa-icon{width:17px;height:17px;color:#171d17}
+.sa-section .sa-mic{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:#48622e;color:#fffdf9;flex:0 0 auto}
+.sa-section .sa-mic .sa-icon{width:17px;height:17px}
+.sa-section .sa-panels{grid-column:3;grid-row:1 / 4;display:grid;gap:16px;align-self:center;min-width:0}
+.sa-section .sa-info,.sa-section .sa-review{padding:18px;border:1px solid #e1ded4;border-radius:18px;background:#fffdf9;box-shadow:0 12px 24px -20px #171d1730}
+.sa-section .sa-card-title{display:flex;align-items:center;gap:12px;margin-bottom:14px;color:#171d17}
+.sa-section .sa-card-title>span{display:grid;place-items:center;width:39px;height:39px;flex:0 0 auto;border-radius:50%;background:#e9f1da;color:#48622e}
+.sa-section .sa-card-title .sa-icon{width:26px;height:26px;stroke-width:2}
+.sa-section .sa-card-title>strong{font:800 18px/1.35 'Manrope',sans-serif;letter-spacing:-.03em}
+.sa-section .sa-fields{margin:0;border:1px solid #e1ded4;border-radius:11px;overflow:hidden}
+.sa-section .sa-fields>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:stretch;font-size:13px;line-height:1.45}
+.sa-section .sa-fields>div+div{border-top:1px solid #e1ded4}
+.sa-section .sa-fields dt{display:flex;align-items:center;gap:11px;padding:11px 10px;color:#58605b;min-width:0}
+.sa-section .sa-fields dt .sa-icon{width:18px;height:18px;color:#171d17}
+.sa-section .sa-fields dd{display:flex;align-items:center;margin:0;padding:11px 10px;border-left:1px solid #e1ded4;min-width:0}
+.sa-section .sa-review-heading{display:flex;align-items:start;gap:12px}
+.sa-section .sa-review-icon{display:grid;place-items:center;flex:0 0 auto;width:42px;height:42px;border-radius:50%;background:#e9f1da;color:#48622e}
+.sa-section .sa-review-icon .sa-icon{width:29px;height:29px;stroke-width:2}
+.sa-section .sa-review-heading strong{display:block;font:800 17px/1.35 'Manrope',sans-serif;letter-spacing:-.03em}
+.sa-section .sa-review-heading p{margin:5px 0 0;font-size:14px;line-height:1.45;color:#58605b}
+.sa-section .sa-next{display:flex;align-items:center;gap:12px;margin-top:15px;padding:14px 12px;border-radius:12px;background:#e9f1da;color:#48622e}
+.sa-section .sa-next>.sa-icon{width:29px;height:29px}
+.sa-section .sa-next>div{min-width:0;flex:1}
+.sa-section .sa-next span{display:block;font-size:9px;letter-spacing:.14em;line-height:1.5;font-weight:700}
+.sa-section .sa-next strong{display:block;margin-top:3px;font:800 16px/1.35 'Manrope',sans-serif;letter-spacing:-.03em}
+.sa-section .sa-next .sa-next-arrow{width:25px;height:25px}
+.sa-section .sa-actions{grid-column:1;grid-row:3;min-width:0}
+.sa-section .sa-cta{display:inline-flex;align-items:center;justify-content:center;gap:17px;min-height:52px;padding:13px 23px;border-radius:30px;background:#48622e;color:#fffdf9;font-size:16px;line-height:1.4;font-weight:700;text-decoration:none}
+.sa-section .sa-cta .sa-icon{transition:transform 160ms ease}
+.sa-section .sa-cta:hover .sa-icon{transform:translateX(3px)}
+.sa-section .sa-cta:focus-visible{outline:3px solid #48622e;outline-offset:4px}
+.sa-section .sa-note{margin:14px 0 0;font-size:11px;line-height:1.5;color:#58605b;max-width:440px}
+.sa-section .sa-note>span{display:block;margin-top:5px;font-size:10px;color:#48622e}
+.sa-section .sa-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media(min-width:1101px) and (max-width:1300px){
+ .sa-section .sa-shell{width:calc(100% - 64px)}
+ .sa-section .sa-layout{grid-template-columns:minmax(0,1fr) 285px minmax(0,1fr);column-gap:22px}
+ .sa-section h2{font-size:35px}
+ .sa-section .sa-lead{font-size:16px}
+ .sa-section .sa-info,.sa-section .sa-review{padding:14px}
+ .sa-section .sa-card-title>strong{font-size:16px}
+ .sa-section .sa-fields>div{font-size:12px}
+ .sa-section .sa-fields dt{gap:7px;padding-inline:8px}
+ .sa-section .sa-fields dd{padding-inline:8px}
+ .sa-section .sa-review-heading{gap:9px}
+ .sa-section .sa-review-heading strong{font-size:16px}
+ .sa-section .sa-next{gap:8px;padding-inline:10px}
+ .sa-section .sa-next strong{font-size:14px}
+}
+@media(max-width:1100px){
+ .sa-section{padding:40px 0;scroll-margin-top:89px}
+ .sa-section .sa-shell{width:min(calc(100% - 48px),700px)}
+ .sa-section .sa-layout{display:flex;flex-direction:column;gap:25px}
+ .sa-section .sa-intro,.sa-section .sa-benefits,.sa-section .sa-panels,.sa-section .sa-actions{width:100%}
+ .sa-section .sa-eyebrow{font-size:11px;letter-spacing:.11em}
+ .sa-section h2{font-size:40px;margin-bottom:0}
+ .sa-section .sa-lead{max-width:600px;margin-top:18px}
+ .sa-section .sa-benefits{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;text-align:center}
+ .sa-section .sa-benefits li{display:flex;flex-direction:column;align-items:center;gap:10px}
+ .sa-section .sa-benefit-icon{width:46px;height:46px;border-radius:15px}
+ .sa-section .sa-benefits h3{font-size:15px;line-height:1.4;margin:0 0 5px}
+ .sa-section .sa-benefits p{font-size:13px;line-height:1.45}
+ .sa-section .sa-phone-demo{width:min(100%,304px);align-self:center}
+ .sa-section .sa-messages p{font-size:13px;line-height:1.45}
+ .sa-section .sa-message-brand{font-size:12px}
+ .sa-section .sa-message-stamp{font-size:12px}
+ .sa-section .sa-chat-header>div>span,.sa-section .sa-chat-input{font-size:12px}
+ .sa-section .sa-next span{font-size:11px}
+ .sa-section .sa-panels{max-width:570px;align-self:center}
+ .sa-section .sa-info,.sa-section .sa-review{padding:17px}
+ .sa-section .sa-fields>div{font-size:14px}
+ .sa-section .sa-actions{max-width:570px;align-self:center}
+ .sa-section .sa-cta{width:100%;font-size:17px;min-height:54px}
+ .sa-section .sa-note{max-width:none;text-align:center;font-size:12px}
+ .sa-section .sa-note>span{font-size:11px}
+}
+@media(max-width:600px){
+ .sa-section{padding:32px 0}
+ .sa-section .sa-shell{width:calc(100% - 36px)}
+ .sa-section .sa-layout{gap:23px}
+ .sa-section .sa-eyebrow{font-size:10px;line-height:1.6;letter-spacing:.1em}
+ .sa-section h2{font-size:clamp(28px,8vw,34px);line-height:1.15;letter-spacing:-.045em}
+ .sa-section .sa-lead{display:none}
+ .sa-section .sa-benefits{grid-template-columns:1fr;gap:16px;text-align:left}
+ .sa-section .sa-benefits li{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:start;gap:13px}
+ .sa-section .sa-benefits h3{font-size:15px;line-height:1.35;margin:0 0 4px;letter-spacing:-.025em}
+ .sa-section .sa-benefits p{font-size:14px;line-height:1.45}
+ .sa-section .sa-benefit-icon{width:42px;height:42px;border-radius:13px}
+ .sa-section .sa-benefit-icon .sa-icon{width:28px;height:28px}
+ .sa-section .sa-info,.sa-section .sa-review{padding:13px;border-radius:15px}
+ .sa-section .sa-card-title{gap:9px;margin-bottom:11px}
+ .sa-section .sa-card-title>span{width:33px;height:33px}
+ .sa-section .sa-card-title .sa-icon{width:23px;height:23px}
+ .sa-section .sa-card-title>strong{font-size:16px}
+ .sa-section .sa-fields>div{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);font-size:12px}
+ .sa-section .sa-fields dt{gap:8px;padding:10px 8px}
+ .sa-section .sa-fields dt .sa-icon{width:17px;height:17px}
+ .sa-section .sa-fields dd{padding:10px 8px}
+ .sa-section .sa-review-icon{width:34px;height:34px}
+ .sa-section .sa-review-icon .sa-icon{width:25px;height:25px}
+ .sa-section .sa-review-heading{gap:9px}
+ .sa-section .sa-review-heading strong{font-size:15px}
+ .sa-section .sa-review-heading p{font-size:12px}
+ .sa-section .sa-next{margin-top:12px;padding:12px 10px;gap:9px}
+ .sa-section .sa-next strong{font-size:15px}
+ .sa-section .sa-next>.sa-icon{width:26px;height:26px}
+ .sa-section .sa-note{font-size:12px;line-height:1.5}
+ .sa-section .sa-note>span{font-size:12px}
+}
+@media(max-width:360px){
+ .sa-section .sa-shell{width:calc(100% - 28px)}
+ .sa-section .sa-phone-demo{width:min(100%,294px)}
+ .sa-section .sa-benefits{gap:7px}
+ .sa-section .sa-benefits h3{font-size:12px}
+ .sa-section .sa-benefits p{font-size:12px}
+ .sa-section .sa-fields>div{font-size:11.5px}
+ .sa-section .sa-fields dt{gap:5px}
+ .sa-section .sa-fields dt .sa-icon{width:15px;height:15px}
+ .sa-section .sa-next strong{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){.sa-section .sa-cta .sa-icon{transition:none}}

@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "testedWidth": 390,
+  "journey": "Última pregunta FAQ → Tab → CTA → Enter",
+  "focus": {
+    "className": "sh-cta",
+    "outline": "rgb(246, 243, 235) solid 2px",
+    "outlineOffset": "5px",
+    "height": 58
+  },
+  "destination": "http://127.0.0.1:8767/hablemos.html#contacto",
+  "contactAnchor": 1,
+  "booking": "NOT VERIFIED / contacto de vista previa deshabilitado"
+}

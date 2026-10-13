@@ -1,0 +1,223 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 77,
+    "bounds": [
+      {
+        "left": 20,
+        "right": 370
+      },
+      {
+        "left": 20,
+        "right": 370
+      },
+      {
+        "left": 20,
+        "right": 370
+      },
+      {
+        "left": 20,
+        "right": 370
+      },
+      {
+        "left": 20,
+        "right": 370
+      },
+      {
+        "left": 20,
+        "right": 370
+      }
+    ]
+  },
+  {
+    "menuExpanded": "true"
+  },
+  {
+    "menuClosed": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "anchor": "#mensualidad",
+    "cta": "hablemos.html#contacto"
+  },
+  {
+    "width": 360,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 77,
+    "bounds": [
+      {
+        "left": 20,
+        "right": 340
+      },
+      {
+        "left": 20,
+        "right": 340
+      },
+      {
+        "left": 20,
+        "right": 340
+      },
+      {
+        "left": 20,
+        "right": 340
+      },
+      {
+        "left": 20,
+        "right": 340
+      },
+      {
+        "left": 20,
+        "right": 340
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 77,
+    "bounds": [
+      {
+        "left": 20,
+        "right": 300
+      },
+      {
+        "left": 20,
+        "right": 300
+      },
+      {
+        "left": 20,
+        "right": 300
+      },
+      {
+        "left": 20,
+        "right": 300
+      },
+      {
+        "left": 20,
+        "right": 300
+      },
+      {
+        "left": 20,
+        "right": 300
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 77,
+    "bounds": [
+      {
+        "left": 48,
+        "right": 720
+      },
+      {
+        "left": 48,
+        "right": 720
+      },
+      {
+        "left": 48,
+        "right": 261.328125
+      },
+      {
+        "left": 277.328125,
+        "right": 490.65625
+      },
+      {
+        "left": 506.65625,
+        "right": 719.984375
+      },
+      {
+        "left": 48,
+        "right": 720
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 89,
+    "bounds": [
+      {
+        "left": 48,
+        "right": 1392
+      },
+      {
+        "left": 48,
+        "right": 1392
+      },
+      {
+        "left": 48,
+        "right": 485.328125
+      },
+      {
+        "left": 501.328125,
+        "right": 938.65625
+      },
+      {
+        "left": 954.65625,
+        "right": 1392
+      },
+      {
+        "left": 48,
+        "right": 1392
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "ids": [],
+    "sectionMeeting": 1,
+    "bodyFont": "\"DM Sans\", Arial, sans-serif",
+    "headerHeight": 89,
+    "bounds": [
+      {
+        "left": 240,
+        "right": 1680
+      },
+      {
+        "left": 240,
+        "right": 1680
+      },
+      {
+        "left": 240,
+        "right": 709.328125
+      },
+      {
+        "left": 725.328125,
+        "right": 1194.65625
+      },
+      {
+        "left": 1210.65625,
+        "right": 1680
+      },
+      {
+        "left": 240,
+        "right": 1680
+      }
+    ]
+  }
+]

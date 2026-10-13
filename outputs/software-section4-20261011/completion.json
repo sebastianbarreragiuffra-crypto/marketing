@@ -1,0 +1,143 @@
+{
+  "objective": "Add approved Software Section 4 commercial modalities immediately after the assistant and before preserved Reports, locally only.",
+  "result": "COMPLETE — bounded Section 4 implementation",
+  "intent": "BUILD",
+  "authorization": "User Section 4 brief: local project mutation only; Sections 1–3 and other pages frozen; no release/commit/push.",
+  "files_changed": [
+    "software.html",
+    "css/software-modalidades.css",
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    ".cursor/rules/brief-orbita.mdc",
+    ".cursor/rules/directory-s-lecciones.mdc"
+  ],
+  "validation_evidence": {
+    "captures": {
+      "desktop-1440": {
+        "width": 1440,
+        "height": 1011,
+        "format": "PNG",
+        "processing": "PNG normalization only; native browser capture, no resizing or pixel changes."
+      },
+      "mobile-390": {
+        "width": 390,
+        "height": 1221,
+        "format": "PNG",
+        "processing": "PNG normalization only; native browser capture, no resizing or pixel changes."
+      }
+    },
+    "responsive": "1440/1920/768/390/375 plus320/1000/1001; no horizontal or internal overflow, no cropped text, stacked cards on mobile/tablet and two columns on desktop.",
+    "max_useful_width_1920": 1440,
+    "content": "Two modalities, three benefits each, one CTA, one commercial conditions note. No development status or new dashboards/phones/ad imagery inside Section 4.",
+    "placement": "Previous sibling atencion-automatizada; next sibling reportes. One modalidades ID.",
+    "preservation": {
+      "sections1_2_3_identical": true,
+      "reportes_and_following_identical": true,
+      "modalities_count": 1,
+      "development_in_section4": false,
+      "other_files": {
+        "css/software-gisba-reference.css": true,
+        "css/software-consultas.css": true,
+        "css/software-asistente.css": true,
+        "js/software-consultas.js": true,
+        "index.html": true,
+        "marketing.html": true,
+        "precios.html": true,
+        "automatizaciones.html": true,
+        "hablemos.html": true,
+        "iniciar-sesion.html": true
+      },
+      "render_regression": [
+        {
+          "width": 1440,
+          "unchanged": true
+        },
+        {
+          "width": 1920,
+          "unchanged": true
+        },
+        {
+          "width": 768,
+          "unchanged": true
+        },
+        {
+          "width": 390,
+          "unchanged": true
+        },
+        {
+          "width": 375,
+          "unchanged": true
+        }
+      ],
+      "order": [
+        {
+          "width": 1440,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 1920,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 768,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 390,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 375,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 320,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 1000,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        },
+        {
+          "width": 1001,
+          "blocks_ordered": true,
+          "stacked_cards": true
+        }
+      ]
+    },
+    "contrast_min": 5.588306668548115,
+    "keyboard": "Shift+Tab from new CTA reached previous assistant CTA; Tab reached sm-cta with a visible 3px outline; Enter opened local Hablemos#contacto. Mobile target height54px.",
+    "semantics": "One H2 and two H3s; native article/list markup, decorative SVGs hidden from assistive technology; unique IDs and all SVG references resolved.",
+    "console": "No warn/error logs observed in inspected local tab.",
+    "performance": "8628-byte scoped CSS; native SVG/HTML, no new JS/library/image assets. No field performance claims.",
+    "source_manifest": "site_state.py --check passed, no missing or non-public references.",
+    "publication": "No cloudflared/auto_publish process observed; HEAD c362c5a unchanged, no external release."
+  },
+  "technical_differences": [
+    "Latest brief text takes priority over older desktop copy: single requested H2, no second claim, optional rather than in-development label.",
+    "Colors follow the supplied official palette, including green #48622e; font sizes/wrapping adapt to CSS390px.",
+    "A short scope sentence clarifies functions/integrations/configuration/price by contract.",
+    "Mobile full-page capture framing adjusted after inspection to keep its first label and final CTA complete."
+  ],
+  "business_state": "User now confirms assistant availability as an optional complement. This is a user-provided business statement; actual functions/integrations/pricing were not audited.",
+  "outside_scope_pending": [
+    "Section 3 still says EN DESARROLLO and planned functions, contradictory to the latest business brief; it was explicitly frozen and has not been changed. Earlier pages/context copies may also use previous wording.",
+    "Existing booking/enquiry reception is still pending; CTA navigation does not establish booking success."
+  ],
+  "not_verified": [
+    "Real GISBA assistant capabilities, integrations, configuration or price",
+    "Full WCAG certification, screen-reader/hardware browser matrix or OS reduced-motion emulation",
+    "Field performance, human usability research or conversions"
+  ],
+  "project_state_updates": "Local source manifest, project memory, dated business-brief correction and screenshot lesson.",
+  "method_learning": "No new canonical candidate; existing final-export and bounded-source checks cover the work. Local lesson expanded only.",
+  "recovery": "archive/2026-10-11-software-section4-before; remove only #modalidades and its stylesheet reference to revert this addition.",
+  "next_action": "No required local Section 4 work. Cross-section availability wording needs separate user authorization before any release."
+}

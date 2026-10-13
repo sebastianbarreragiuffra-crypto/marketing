@@ -1,0 +1,78 @@
+{
+  "objective": "Implement only the approved Software hero, desktop V3 and mobile, without commit, push or deployment.",
+  "result": "COMPLETE",
+  "authorization": "Local implementation of user-provided approved references and pasted instructions; external release prohibited.",
+  "review_mode": "SAME_AGENT_EXECUTION_QA; no new strategic design or independent-review claim.",
+  "implemented": [
+    "One responsive HTML hero; native SVG graph; no added libraries or raster hero.",
+    "Desktop: four illustrative metrics, recent human agency work and three pending creative proposals.",
+    "Mobile: ordered intro, two-column metrics, graph, terms, provider/example notes, final primary CTA. Two secondary dashboard panels hidden as explicitly approved.",
+    "Software-only mobile navigation CTA; existing logo, navigation links and menu controller retained."
+  ],
+  "validations": {
+    "viewport_sizes": [
+      1440,
+      1920,
+      768,
+      390,
+      375,
+      360,
+      320,
+      1100
+    ],
+    "responsive": "PASSED: no horizontal overflow, no out-of-container hero elements, no numeric/icon collisions or broken completed images.",
+    "max_useful_width": "PASSED: 1440 px at 1920 viewport.",
+    "lower_software_regression": "PASSED before concurrent edits. Final flow, reports and closing retain baseline dimensions/backgrounds; concurrent FAQ/footer copy edits were preserved and not written by this task.",
+    "keyboard": "PASSED: menu opens, Escape closes and restores focus; Tab from pricing detail reaches final hero CTA; Enter opens existing contact route.",
+    "illustrative_ui": "PASSED: no buttons, links, inputs or tab roles within the illustrative dashboard; one H1; no duplicate IDs; SVG symbols resolved.",
+    "contrast": "PASSED: sampled computed desktop text combinations have minimum contrast 6.18:1. Normal text goal 4.5:1.",
+    "console": "No errors in observed browser log.",
+    "commercial_numbers": "128 fictional contacts; 30-day sample sums to 128; 850000/128 rounded to 6641 CLP. Not customer results.",
+    "screenshots": "desktop-1440.jpg is 1440x810; mobile-390.jpg is 390 px wide and captures the complete hero.",
+    "scope": "Only the Software hero and its required mobile header treatment were implemented by this task; concurrent updates across other pages and FAQ/footer copy were preserved.",
+    "price_link": "PASSED at 1440/390/375/320: last word and arrow wrap together, no page overflow.",
+    "final_core_sections": "PASSED: flow, reports and closing retain exact baseline width/height/background at five required viewports after concurrent edits."
+  },
+  "not_verified": [
+    "Full accessibility conformance, real user testing, field performance and conversion metrics were not measured.",
+    "GISBA product functions, integrations, permissions and data remain unverified. Dashboard is explicitly illustrative.",
+    "Contact booking/sending is still disabled; the CTA navigates only to the current contact page.",
+    "Real OS reduced-motion preference was not emulated; the new arrow transition has a reviewed CSS reduced-motion fallback."
+  ],
+  "differences_from_references": [
+    "Browser screenshot shows the live page without the iPhone frame or iOS status bar.",
+    "Graph is recreated as a native SVG using coherent fictional sample data; its exact curve/axis differs from the mobile generated bitmap.",
+    "Native page rendering includes the browser scrollbar; export viewport compensates its width so the JPEG files have the requested physical width."
+  ],
+  "recovery": "archive/2026-10-11-software-hero-before contains the source before replacement; baseline Git HEAD c362c5a.",
+  "project_state_updates": [
+    "Local source software.html and css/software-gisba-reference.css updated.",
+    "Manifest refreshed from current public dependencies.",
+    "S-021 lesson records internal text/icon collision verification.",
+    "Project memory receives local implementation and no-release status.",
+    "S-022 records keeping the last word and arrow together on narrow links."
+  ],
+  "method_learning": "Already covered by responsive QA; project-specific S-021 saved. No canonical Webmaster mutation.",
+  "next_action": "NONE for local implementation. Commit/push/deployment require subsequent user authorization.",
+  "concurrent_page_changes_observed": [
+    "index.html",
+    "marketing.html",
+    "precios.html",
+    "hablemos.html",
+    "automatizaciones.html"
+  ],
+  "source_digests": {
+    "software.html": "6635c9be212897dbb3330a5fa02ca637f937448a1aabc6b236c5ba0643d05218",
+    "css/software-gisba-reference.css": "ceb5444425986201535452e7ba23daf92c2905ce2fe658246ba140da94bc1bb7"
+  },
+  "screenshots": {
+    "desktop-1440.jpg": {
+      "width": 1440,
+      "height": 810
+    },
+    "mobile-390.jpg": {
+      "width": 390,
+      "height": 1173
+    }
+  }
+}

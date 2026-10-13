@@ -1,0 +1,55 @@
+/* FAQ de Precios: native disclosures; no animation or resize resets. */
+.pq-section { background:#0b0d0b; color:#f6f3eb; padding:64px 0 28px; --pq-panel:#171d17; --pq-lime:#c7f45b; --pq-muted:#bbc3b4; --pq-line:#596152; }
+.pq-section,.pq-section * { box-sizing:border-box; }
+.pq-shell { width:calc(100% - 96px); max-width:1440px; margin-inline:auto; }
+.pq-grid { display:grid; grid-template-columns:minmax(240px,.27fr) minmax(0,.73fr); gap:46px; }
+.pq-heading { min-width:0; padding-top:10px; }
+.pq-kicker { color:var(--pq-lime); font:700 14px/1.4 'DM Sans',sans-serif; letter-spacing:.06em; margin:0 0 24px; }
+.pq-heading h2 { font:800 56px/1.12 Manrope,sans-serif; letter-spacing:-.035em; margin:0; max-width:330px; }
+.pq-faq { min-width:0; border-top:1px solid var(--pq-line); }
+.pq-item { border-bottom:1px solid var(--pq-line); margin:0; }
+.pq-item summary { display:flex; justify-content:space-between; align-items:center; gap:24px; cursor:pointer; list-style:none; min-height:86px; padding:24px; color:inherit; font:700 25px/1.35 'DM Sans',sans-serif; }
+.pq-item summary::-webkit-details-marker { display:none; }
+.pq-item summary::marker { content:''; }
+.pq-toggle-icon { width:26px; height:26px; flex:0 0 26px; fill:none; stroke:currentColor; stroke-width:1.7; }
+.pq-item[open] .pq-plus { display:none; }
+.pq-item[open] { background:var(--pq-panel); border-left:5px solid var(--pq-lime); }
+.pq-item[open] summary { padding-left:19px; }
+.pq-answer { padding:0 24px 28px 19px; color:var(--pq-muted); font:400 20px/1.55 'DM Sans',sans-serif; }
+.pq-answer p { margin:0; }
+.pq-item summary:focus-visible { outline:3px solid var(--pq-lime); outline-offset:-4px; }
+.pq-close { display:flex; gap:32px; align-items:center; justify-content:space-between; border-top:1px solid var(--pq-line); margin-top:32px; padding-top:30px; }
+.pq-close h3 { font:700 32px/1.25 'DM Sans',sans-serif; letter-spacing:-.025em; margin:0 0 8px; }
+.pq-close p { color:var(--pq-muted); font:400 21px/1.5 'DM Sans',sans-serif; margin:0; }
+.pq-cta { display:inline-flex; align-items:center; justify-content:center; gap:22px; flex-shrink:0; min-height:60px; background:var(--pq-lime); color:#0b0d0b; border-radius:10px; padding:16px 24px; font:700 19px/1.3 'DM Sans',sans-serif; text-decoration:none; }
+.pq-cta svg { width:24px; height:24px; fill:none; stroke:currentColor; stroke-width:1.8; }
+.pq-cta:focus-visible { outline:3px solid #f6f3eb; outline-offset:5px; }
+.pq-review-note { color:var(--pq-muted); text-align:right; font-size:12px; line-height:1.4; margin:28px 0 0; }
+/* Override shared motion only for this section. Choices remain native DOM state. */
+#contenido .pq-section details,#contenido .pq-section summary,#contenido .pq-section .pq-answer { animation:none !important; transition:none !important; }
+#contenido .pq-section details::details-content { transition:none !important; }
+#contenido .pq-section .site-motion-detail[open] > :not(summary) { animation:none !important; }
+@media (min-width:701px) and (max-width:1100px) {
+ .pq-grid { grid-template-columns:1fr; gap:26px; }
+ .pq-heading h2 { max-width:none; font-size:48px; }
+ .pq-kicker { margin-bottom:14px; }
+ .pq-close { flex-wrap:wrap; }
+}
+@media (max-width:700px) {
+ .pq-section { padding:42px 0 28px; }
+ .pq-shell { width:calc(100% - 40px); }
+ .pq-grid { grid-template-columns:1fr; gap:28px; }
+ .pq-heading { padding:0; }
+ .pq-kicker { font-size:12px; margin-bottom:18px; }
+ .pq-heading h2 { font-size:42px; max-width:280px; }
+ .pq-item summary { font-size:18px; line-height:1.4; gap:16px; min-height:76px; padding:20px 4px; }
+ .pq-toggle-icon { width:24px; height:24px; flex-basis:24px; }
+ .pq-item[open] { background:transparent; border-left:0; }
+ .pq-item[open] summary { padding-left:4px; }
+ .pq-answer { margin:0 0 20px; padding:16px; border-left:4px solid var(--pq-lime); border-radius:7px; background:var(--pq-panel); font-size:16px; line-height:1.55; }
+ .pq-close { display:block; margin-top:28px; padding-top:26px; }
+ .pq-close h3 { font-size:25px; line-height:1.3; margin-bottom:10px; }
+ .pq-close p { font-size:17px; line-height:1.45; }
+ .pq-cta { display:flex; width:100%; min-height:54px; margin-top:24px; padding:14px 16px; font-size:17px; }
+ .pq-review-note { margin-top:20px; font-size:12px; }
+}

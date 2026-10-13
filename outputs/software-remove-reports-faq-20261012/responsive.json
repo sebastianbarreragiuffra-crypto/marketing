@@ -1,0 +1,77 @@
+[
+  {
+    "cta": "hablemos.html#contacto",
+    "footers": 1,
+    "gap": 0,
+    "overflow": false,
+    "removedCount": 0,
+    "sections": [
+      "os-hero",
+      "flujo-consultas",
+      "atencion-automatizada",
+      "modalidades",
+      "siguiente-paso"
+    ],
+    "width": 1440
+  },
+  {
+    "cta": "hablemos.html#contacto",
+    "footers": 1,
+    "gap": 0,
+    "overflow": false,
+    "removedCount": 0,
+    "sections": [
+      "os-hero",
+      "flujo-consultas",
+      "atencion-automatizada",
+      "modalidades",
+      "siguiente-paso"
+    ],
+    "width": 1920
+  },
+  {
+    "cta": "hablemos.html#contacto",
+    "footers": 1,
+    "gap": 0,
+    "overflow": false,
+    "removedCount": 0,
+    "sections": [
+      "os-hero",
+      "flujo-consultas",
+      "atencion-automatizada",
+      "modalidades",
+      "siguiente-paso"
+    ],
+    "width": 768
+  },
+  {
+    "cta": "hablemos.html#contacto",
+    "footers": 1,
+    "gap": 0,
+    "overflow": false,
+    "removedCount": 0,
+    "sections": [
+      "os-hero",
+      "flujo-consultas",
+      "atencion-automatizada",
+      "modalidades",
+      "siguiente-paso"
+    ],
+    "width": 390
+  },
+  {
+    "cta": "hablemos.html#contacto",
+    "footers": 1,
+    "gap": 0,
+    "overflow": false,
+    "removedCount": 0,
+    "sections": [
+      "os-hero",
+      "flujo-consultas",
+      "atencion-automatizada",
+      "modalidades",
+      "siguiente-paso"
+    ],
+    "width": 375
+  }
+]

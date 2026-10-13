@@ -1,0 +1,47 @@
+{
+  "scope": "Full desktop homepage hero image mockup only; no HTML/CSS/JS, publication or client web changes",
+  "authorization": "User chose editorial layout1: 'sigamos con la 1', after recommendation to replace dominant sneakers with clearer advertising and software support",
+  "status": "Selected layout1 developed to color; new candidate awaiting user approval. Headline remains proposal, not canonical website change.",
+  "review": "SAME_AGENT A/B/C/Z/S; First Screen Message Audit",
+  "delta": [
+    "Sneakers replaced with explicitly labeled fictitious office-furniture ad",
+    "Agency responsibility above creative, included GISBA beneath as one grouped visual",
+    "No chat, WhatsApp or bot demonstration",
+    "Dark/lime/ivory brand palette restored",
+    "Client team commercial follow-up, optional automated attention and material conditions retained"
+  ],
+  "facts": {
+    "main_offer": "Agency creates and manages advertising",
+    "included": "GISBA conversations, quotation/sales follow-up, one user",
+    "extra": "More users cost extra, media separate",
+    "bot": "Available optional complement by contract; not included automatically",
+    "technical": "Illustration does not validate UI, source tracking links or integration"
+  },
+  "prompt": "Use case: ui-mockup. Edit the supplied FULL desktop hero composition selected by the user into a polished COLOR high-fidelity candidate for Órbita homepage. Preserve selected layout1: header nav, strong LEFT headline/body/CTA, ONE connected RIGHT visual containing an agency creative example and compact GISBA commercial support. Target16:9 1440x810 including fullheader, no crop. It is an image mockup only, not site implementation.\nMake these agreed refinements: REPLACE dominating sneaker product photo with an explicitly identifiable ADVERTISING CREATIVE prepared/managed by the agency and give GISBA more meaningful supporting visibility. Do not simply recolor sneakers. No WhatsApp, messagewindow, tableware, lamp, paperworkoffice, robot, KPI, huge generic dashboard, overlappingpanels hiding text, repeatedad or fakeclienttestimonials.\nBrand palette background nearblack #0b0d0b and darkgreen #171d17, restrained mossglow behind rightvisual, warmivory #f6f3eb headline/body, lime #c7f45b highlight and buttons, cream #eeeae0 software surfaces, darkolive #48622e secondarytexts. Manrope boldheadline, DM Sans UI. No blue/purple. Header plain \"ÓRBITA.\" wordmark text placeholder no newgraphiclogo; exact nav \"Inicio\", \"Marketing\", \"Software\", \"Precios\", \"Iniciar sesión\"; headerlimeCTA \"Agenda una reunión\". Navbarlinks neitherremoved norrewritten.\nH1 LEFT exact \"Gestionamos tu publicidad. Sigue tus consultas y ventas.\" Preserve that selected composition proposedcopy. Highlight \"consultas y ventas.\" lime, firstpartivory. ~60px at1440, 4lines but not overlarge. Body EXACT \"Nuestro equipo crea y gestiona tus campañas. Tu plan incluye GISBA para conversaciones, cotizaciones y seguimiento de ventas.\" readable18-20px, max600wide. Mainbutton exact \"Agenda una reunión\" limeblack. Below orbeside mainCTA smallerquiet outlined chip \"Atención automatizada opcional\", no competingprimarybutton. Qualificationline 13-14pxminimum nearbottomleft, canwrapintotwolines ifneeded: \"1 usuario GISBA incluido · Adicionales con costo extra · Inversión publicitaria aparte\".\nRIGHT visual x750..1370 y155..680 ONE neatly composed campaign-and-software showcase, not separateequivalentofferblocks. Top modest externalrolelabel \"Publicidad creada y gestionada por Órbita\". Large upper advertisingcreative example canvas FRONTFACING height330. A modern editorial ad for OFFICE FURNITURE fictitiousexample: warm tan leather officechair in calm sculptural studio with cream floor and deepolive wall, stylish lighting; productphoto only60% ofcreativearea, notgiantfullscreen. Small creative text left atopclearcontrastingdarkarea exact \"Un espacio para trabajar mejor.\" with small secondary \"Mobiliario para oficina\". Bottomcorner exact \"Anuncio de ejemplo\". No made-up companylogo, prices, guarantee, claimedcustomer, adplatformframe, internetURL, floatinglikecounts orextraCTA. This is meant to look unmistakably as an AD PIECE the agency makes, not theÓrbitaproductforpurchase.\nIntegrated BELOW the creative, samewidth, NO giantoverlap, compact white/ivory GISBA supportpreview height170-200. Header exact \"Tu equipo, con GISBA\", small pill \"Incluido en Marketing\", tinylabel \"Vista ilustrativa\". Threecompact readabletasktabs \"Conversaciones\", \"Cotizaciones\", \"Ventas\"; selected \"Cotizaciones\" subtlelimebackground. OnlyONE actualtaskrow with thin documentlineicon, text \"Cotización enviada\", and secondary \"Seguimiento pendiente · A cargo de tu equipo\". Small contextual sourcefield \"Origen del ejemplo: campaña publicitaria\" (fictitiousorigin, nottechnicalconnectionproof). No inventednumbers, saleachieved, CRMmenu, calendar, dates, automatedsend, bots orintegrationlogos. GISBAprovidestools, clientteam replies/followsup; Órbitamanagesads.\nVery small bottom overallcaption exact \"Mockup ilustrativo · No es una campaña ni una captura real.\". Everylabel insideframe alllegible. Entirevisualincludingrolelabelfitsheight810 withheader. Use premiumcrisp restrainedshadow, rounded18px, generousbutproductive whitespace, noemoji or arbitrarydecorativeicons. Preserve compositionchoice, revisevisual asdescribed, fullhero mustcommunicate managedadvertising + includedcommercialsoftware at glance. Do not silently claim guaranteed conversions, automaticcampaignoptimization, saleattributionaccuracy orallchannelintegration. Colorcandidatependinguserapproval.",
+  "tool": "built-in image_gen",
+  "source": "hero-reset-v8-editorial-1440.png",
+  "output": "hero-editorial-v9-color-1440.png",
+  "qa": {
+    "verified": [
+      "Whole header + first fold captured",
+      "Navigation items and CTA present",
+      "Agency versus client's commercial team distinguished",
+      "Example ad and product scene labelled fictitious",
+      "Quote sent / follow-up pending consistent",
+      "No commercial figures, guarantees, fake testimonial, integration or automation promises",
+      "Layout1 selected, prior image retained"
+    ],
+    "not_verified": [
+      "User approval of color mockup and proposed headline",
+      "Actual GISBA UI and technical source attribution",
+      "Mobile and1920, animation, performance, accessibility, contact and SEO in implementation",
+      "Actual branded logo; text-only wordmark placeholder"
+    ]
+  },
+  "completion": {
+    "result": "COMPLETE for authorized reviewable desktop color image; not approved or implemented",
+    "state_updates": "Choice and evidence recorded here, historical files preserved",
+    "method_learning": "NOTHING REUSABLE",
+    "next": "User reviews color candidate"
+  }
+}

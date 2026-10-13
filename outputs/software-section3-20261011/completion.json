@@ -1,0 +1,123 @@
+{
+  "objective": "Implement the approved planned assistant module as Section 3 in local Software, retaining Reports by subsequent explicit user confirmation.",
+  "result": "COMPLETE",
+  "intent": "BUILD",
+  "authorization": "Local project mutation only. No bot/API integration, external release, deployment, commit or push.",
+  "approval_basis": [
+    "User master brief and full mobile reference",
+    "User confirmation: preserve Reports and add module after Section 2",
+    "User confirmation: use the desktop three-area composition from the brief, as the image is cropped"
+  ],
+  "files_changed": [
+    "software.html",
+    "css/software-asistente.css",
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    ".cursor/rules/directory-s-lecciones.mdc"
+  ],
+  "validation_evidence": {
+    "captures": {
+      "desktop-1440": {
+        "width": 1440,
+        "height": 925,
+        "format": "PNG",
+        "conversion": "Format only; no resizing, cropping or alteration."
+      },
+      "mobile-390": {
+        "width": 390,
+        "height": 1673,
+        "format": "PNG",
+        "conversion": "Format only; no resizing, cropping or alteration."
+      }
+    },
+    "responsive": "1440, 1920, 768, 390, 375, 320, 1100, 1101: no page/internal overflow; one module, one phone, four fields, one CTA.",
+    "desktop_1920_max_useful_width": 1440,
+    "content": "Long support paragraph visible on desktop/tablet, hidden only <=600 px. Mobile order matches brief. No side decoration or four-step flow.",
+    "preservation": {
+      "hero_and_section2_identical": true,
+      "reports_identical": true,
+      "following_identical": true,
+      "assistant_count": 1,
+      "reports_count": 1,
+      "other_files": {
+        "css/software-gisba-reference.css": true,
+        "css/software-consultas.css": true,
+        "js/software-consultas.js": true,
+        "index.html": true,
+        "marketing.html": true,
+        "precios.html": true,
+        "automatizaciones.html": true,
+        "hablemos.html": true,
+        "iniciar-sesion.html": true
+      },
+      "render_regression": [
+        {
+          "width": 1440,
+          "unchanged": true
+        },
+        {
+          "width": 1920,
+          "unchanged": true
+        },
+        {
+          "width": 768,
+          "unchanged": true
+        },
+        {
+          "width": 390,
+          "unchanged": true
+        },
+        {
+          "width": 375,
+          "unchanged": true
+        }
+      ],
+      "mobile_order": [
+        {
+          "width": 768,
+          "ordered": true
+        },
+        {
+          "width": 390,
+          "ordered": true
+        },
+        {
+          "width": 375,
+          "ordered": true
+        },
+        {
+          "width": 320,
+          "ordered": true
+        },
+        {
+          "width": 1100,
+          "ordered": true
+        }
+      ]
+    },
+    "contrast_min": 5.462058252272998,
+    "keyboard": "Shift+Tab from assistant CTA reached previous Section 2 CTA; Tab returned to assistant CTA with visible 3px outline; Enter navigated to Hablemos#contacto. Target height 54px mobile.",
+    "section2_tabs": "Ficha and Consultas clicked successfully; one visible panel.",
+    "semantics": "Unique IDs; all new SVG references resolved; no interactive elements in phone, no new JS/APIs/libraries, no fictional product headings inside the phone.",
+    "console": "No warn/error logs observed in local QA tab.",
+    "availability": "EN DESARROLLO and optional/example notes visible. No stock/payment/final quote confirmation.",
+    "publication": "No active cloudflared/auto_publish process observed. HEAD unchanged; no release performed.",
+    "source_manifest": "python site_state.py --check PASSED; no missing/non-public dependencies."
+  },
+  "technical_differences": [
+    "Desktop uses the brief-authorized three areas because supplied desktop image is only a fragment.",
+    "Phone, messages, icons and cards are recreated with HTML/CSS/SVG, with legible responsive text, rather than a raster mockup.",
+    "Accent colors follow the explicit official palette; no blue/purple main identity.",
+    "Final assistant reply uses planned/future wording and does not issue a final quote."
+  ],
+  "not_verified": [
+    "Real GISBA availability, response latency, integrations or customer outcomes",
+    "Actual booking or enquiry reception: existing contact is a preview",
+    "Real mobile hardware/browser matrix, full WCAG audit, real OS reduced-motion setting, field performance/conversion metrics"
+  ],
+  "project_state_updates": "Local source manifest, project memory, QA evidence and responsive lesson.",
+  "method_learning": "No new canonical candidate; existing viewport/content preservation rules cover the issue. Local lesson recorded only.",
+  "recovery": "archive/2026-10-11-software-section3-before; remove only #atencion-automatizada and its CSS reference to revert this module.",
+  "next_action": "None for authorized local presentation. Publication and real software functionality remain outside authorization.",
+  "source_version": "8b15ce52108b317ca112d584c59c9e2e2b865e50d72270a93c7e0437e91b0bdf"
+}

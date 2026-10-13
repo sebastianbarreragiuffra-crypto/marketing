@@ -1,0 +1,123 @@
+/* Software hero from the user's reference. The dashboard is an illustrative UI. */
+.sw-gisba-reference{padding:18px 0 26px;background:radial-gradient(ellipse at 65% 72%,#e7f2ff 0,transparent 65%),linear-gradient(175deg,#fbfdff,#f3f9ff);color:#080d4a}
+.sw-gisba-reference:after{left:0;right:0;bottom:0;height:240px;opacity:.8;background:#e1efff;clip-path:polygon(0 83%,100% 10%,100% 100%,0 100%)}
+.gs-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,.5fr) minmax(0,1fr);gap:24px;align-items:center;width:min(100% - 64px,1440px);margin-inline:auto}
+.gs-copy{min-width:0;padding:24px 0}
+.gs-eyebrow{margin:0 0 38px;color:#0671f8;font:700 13px/1.5 "DM Sans",Arial,sans-serif;letter-spacing:.13em}
+.gs-copy h1{margin:0 0 30px;font:700 clamp(42px,3.3vw,50px)/1.04 "DM Sans",Arial,sans-serif;letter-spacing:-.065em;color:#080d4a}
+.gs-lead{max-width:415px;margin:0 0 58px;color:#2d67c1;font:400 23px/1.4 "DM Sans",Arial,sans-serif;letter-spacing:-.04em}
+.gs-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:65px;min-width:306px;padding:17px 27px;border-radius:999px;background:#b9f34b;color:#080d32;font:700 19px/1.4 "DM Sans",Arial,sans-serif;box-shadow:0 10px 25px #97c9591a;transition:background .2s,transform .2s}
+.gs-primary:hover{background:#c9fc67;transform:translateY(-2px)}
+.gs-primary:focus-visible{outline:3px solid #096bdf;outline-offset:5px}
+.gs-primary .sw-glyph{width:29px;height:29px;stroke-width:1.8}
+.gs-dashboard{display:grid;grid-template-columns:164px minmax(0,1fr);margin:0;min-width:0;overflow:hidden;border:1px solid #d4e6fb;border-radius:15px;background:#ffffffba;box-shadow:0 18px 52px #4f83ce13;color:#080d4a;font-family:"DM Sans",Arial,sans-serif;line-height:1.35;scroll-margin-top:108px}
+.gs-sidebar{grid-row:1/3;min-width:0;padding:22px 10px;background:linear-gradient(135deg,#f7fbff,#eff6ff80);border-right:1px solid #dceafb}
+.gs-brand{padding:0 10px;margin-bottom:25px;font-size:28px;font-weight:800;letter-spacing:-.065em;line-height:1.1}
+.gs-brand span{color:#a6ec34}
+.gs-menu{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.gs-menu li{display:flex;align-items:center;gap:12px;padding:11px 9px;border-radius:8px;font-size:13px;white-space:nowrap}
+.gs-menu .sw-glyph{width:22px;height:22px;stroke-width:1.9}
+.gs-menu .is-selected{background:#e0efff;color:#0671f8;font-weight:600}
+.gs-main{display:grid;gap:12px;min-width:0;padding:17px 17px 10px;background:#ffffff40}
+.gs-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0;margin:0 3px 4px}
+.gs-top h2{margin:0;color:#080d4a;font-size:25px;font-weight:700;line-height:1.2;letter-spacing:-.06em}
+.gs-example-badge{flex:none;padding:10px 13px;border-radius:9px;background:#eaf4ff;color:#4f77c6;font-size:12px;line-height:1.3}
+.gs-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0}
+.gs-metric{display:flex;align-items:center;gap:10px;min-width:0;min-height:106px;padding:12px 10px;border:1px solid #dceafb;border-radius:10px;background:#fff}
+.gs-metric-icon{display:grid;place-items:center;flex:none;width:51px;height:51px;border-radius:50%;background:#edf6ff;color:#0671f8}
+.gs-metric-icon.is-campaign{background:#e8fce6;color:#0cb800}
+.gs-metric-icon .sw-glyph{width:31px;height:31px;stroke-width:1.8}
+.gs-metric>div{min-width:0}
+.gs-metric dt{font-size:11px;line-height:1.4}
+.gs-metric dd{margin:2px 0 1px;font-size:33px;line-height:1.05;font-weight:700;letter-spacing:-.045em}
+.gs-metric p{margin:3px 0 0;color:#3975d6;font-size:11px;line-height:1.35}
+.gs-panels{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:12px}
+.gs-panel{min-width:0;border:1px solid #dceafb;border-radius:11px;background:#fff;padding:12px}
+.gs-panel h3{margin:0 0 8px;font-size:17px;line-height:1.3;font-weight:700;letter-spacing:-.045em}
+.gs-campaign-list{list-style:none;padding:0;margin:0}
+.gs-campaign-list li{display:grid;grid-template-columns:49px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:73px;padding:9px 0;border-bottom:1px solid #e6effb}
+.gs-campaign-list .is-highlighted{padding:9px 7px;margin:0 -5px;background:#f1f7ff;border-radius:9px;border:0}
+.gs-thumb{display:block;width:49px;height:49px;object-fit:cover;border-radius:8px}
+.gs-thumb-chair{object-position:35% 90%}.gs-thumb-desk{object-position:70% 50%}.gs-thumb-plant{object-position:10% 35%}
+.gs-campaign-list strong{display:block;font-size:12px;line-height:1.35;font-weight:500}
+.gs-campaign-list div>span{display:block;margin-top:5px;color:#6683c6;font-size:11px;line-height:1.3}
+.gs-active{display:inline-flex;align-items:center;gap:6px;padding:7px 8px;border-radius:8px;background:#e7fce6;color:#178d13;font-size:10px;white-space:nowrap}
+.gs-active i{width:7px;height:7px;border-radius:50%;background:#12bb06}
+.gs-managed{margin:12px 0 0;color:#6683c6;font-size:12px;line-height:1.4}
+.gs-conversation-list{margin:0;padding:0;list-style:none}
+.gs-conversation-list li{display:grid;grid-template-columns:31px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:38px;padding:4px 0;border-bottom:1px solid #e6effb;font-size:12px}
+.gs-conversation-list li:first-child{margin:0 -4px;padding-inline:4px;border-radius:8px;background:#f1f7ff;border:0}
+.gs-chat-icon{display:grid;place-items:center;width:30px;height:30px;background:#e9f3ff;color:#0671f8;border-radius:50%}
+.gs-chat-icon .sw-glyph{width:21px;height:21px;stroke-width:1.8}
+.gs-unanswered{display:inline-flex;align-items:center;gap:5px;padding:6px 8px;color:#df252a;background:#ffecee;border-radius:7px;font-size:10px;white-space:nowrap}
+.gs-unanswered i{width:7px;height:7px;border-radius:50%;background:#ff413f;box-shadow:0 0 0 2px #fff}
+.gs-incoming{margin:10px 0 0;padding:10px 11px;border-radius:11px;background:#e9f3ff;font-size:12px;line-height:1.4}
+.gs-message-time{margin:4px 11px 9px;color:#6683c6;font-size:10px}
+.gs-reply{padding:6px;border:1px solid #dceafb;border-radius:9px}
+.gs-reply>p{margin:0 0 5px;color:#6683c6;font-size:11px;line-height:1.4}
+.gs-reply-text{min-height:39px;padding:7px 8px;border:1px solid #e0ecff;border-radius:8px;font-size:12px;line-height:1.45}
+.gs-demo-send{display:block;margin:4px 0 0 auto;padding:7px 18px;border:0;border-radius:7px;background:#e0efff;color:#0671f8;font:500 11px/1.3 "DM Sans",Arial,sans-serif;cursor:not-allowed;opacity:1}
+.gs-report{padding:12px 15px}
+.gs-report-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:8px;border-bottom:1px solid #e6effb}
+.gs-report-heading h3{margin:0}
+.gs-report-preview{display:flex;align-items:center;gap:10px;color:#0671f8;font-size:11px;white-space:nowrap}
+.gs-report-preview .sw-glyph{width:17px;height:17px}
+.gs-report-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-top:11px}
+.gs-report h4{margin:0 0 7px;font-size:12px;line-height:1.3;font-weight:700}
+.gs-done-list{display:grid;gap:7px;margin:0;padding:0;list-style:none}
+.gs-done-list li{display:flex;align-items:center;gap:9px;color:#4768b1;font-size:11px;line-height:1.35}
+.gs-done-list li>span{display:grid;place-items:center;flex:none;width:21px;height:21px;border-radius:50%;background:#deedff;color:#0671f8}
+.gs-done-list .sw-glyph{width:17px;height:17px;stroke-width:2}
+.gs-next{border-left:1px solid #e6effb;padding-left:16px}
+.gs-next>div{display:flex;align-items:flex-start;gap:9px}
+.gs-next .sw-glyph{width:18px;height:18px;color:#123784}
+.gs-next p{margin:0;color:#4768b1;font-size:11px;line-height:1.3}
+.gs-next p>span{display:table;margin-top:7px;padding:4px 11px;border-radius:999px;background:#e9f3ff;color:#3975d6;font-size:10px}
+.gs-demo-caption{grid-column:2;padding:0 12px 11px;color:#6683c6;font-size:11px;line-height:1.4;text-align:center}
+@media(max-width:1200px){
+  .gs-hero-grid{grid-template-columns:1fr;max-width:940px;gap:28px;width:calc(100% - 56px)}
+  .gs-copy{padding:28px 0 0}
+  .gs-copy h1{font-size:52px;max-width:650px}
+  .gs-eyebrow{margin-bottom:24px}
+  .gs-lead{max-width:650px;font-size:22px;margin-bottom:28px}
+  .gs-dashboard{width:100%}
+}
+@media(max-width:800px){
+  .gs-dashboard{grid-template-columns:1fr}
+  .gs-sidebar{display:none}
+  .gs-demo-caption{grid-column:1}
+  .gs-main{padding:15px}
+  .gs-top h2{font-size:24px}
+}
+@media(max-width:600px){
+  .sw-gisba-reference{padding-top:0;padding-bottom:30px}
+  .gs-hero-grid{width:calc(100% - 36px);gap:30px}
+  .gs-copy{padding:38px 0 0}
+  .gs-eyebrow{font-size:10px;letter-spacing:.12em;margin-bottom:24px}
+  .gs-copy h1{font-size:clamp(36px,9.5vw,47px);line-height:1.07;letter-spacing:-.06em;margin-bottom:23px}
+  .gs-lead{font-size:18px;line-height:1.45;margin-bottom:28px}
+  .gs-primary{width:100%;min-width:0;min-height:57px;font-size:17px;padding:14px 23px}
+  .gs-primary .sw-glyph{width:25px;height:25px}
+  .gs-main{padding:12px 10px 8px;gap:12px}
+  .gs-top{flex-wrap:wrap;gap:8px;margin:0}
+  .gs-top h2{font-size:20px}
+  .gs-example-badge{font-size:10px;padding:6px 9px}
+  .gs-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .gs-metric:first-child{grid-column:1/-1;min-height:84px}
+  .gs-metric{gap:7px;padding:10px 8px;min-height:110px}
+  .gs-metric-icon{width:34px;height:34px}.gs-metric-icon .sw-glyph{width:23px;height:23px}
+  .gs-metric dt{font-size:10px;line-height:1.4}.gs-metric dd{font-size:29px}.gs-metric p{font-size:10px}
+  .gs-panels{grid-template-columns:1fr;gap:12px}
+  .gs-panel{padding:12px 10px}.gs-panel h3{font-size:16px}
+  .gs-campaign-list li{min-height:68px;gap:8px;grid-template-columns:42px minmax(0,1fr) auto}
+  .gs-thumb{width:42px;height:42px}.gs-campaign-list strong{font-size:12px}.gs-campaign-list div>span{font-size:11px}
+  .gs-active{padding:6px;font-size:10px;gap:4px}
+  .gs-conversation-list li{gap:6px;font-size:12px}.gs-unanswered{font-size:10px;padding:6px}
+  .gs-incoming,.gs-reply-text{font-size:13px}
+  .gs-report-grid{grid-template-columns:1fr;gap:15px;padding-top:12px}
+  .gs-report h4{font-size:13px}.gs-done-list li,.gs-next p{font-size:12px}
+  .gs-next{border-left:0;border-top:1px solid #e6effb;padding:13px 0 0}
+  .gs-next p br{display:none}
+  .gs-demo-caption{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){.gs-primary{transition:none}}

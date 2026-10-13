@@ -1,0 +1,397 @@
+[
+  {
+    "file": "assets/hero/anuncio-casa.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/anuncio-dormitorio.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/marketing-creativos.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/marketing-team-v10-desktop.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/marketing-team-v11-mobile.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/marketing-web-office.png",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/packaging-process.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/packaging-products.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/pricing-google-ad.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/pricing-meta-ad.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/hero/pricing-tiktok-ad.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/section-work/mochila-ejemplo.png",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/software-consultas/ana.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/software-consultas/cliente-01.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/software-consultas/cliente-03.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "assets/software-consultas/contacto-02.webp",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "automatizaciones.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/compra-clara-20261008.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/cta-new.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/directory-c-home.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/directory-c-marketing.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/directory-c-pricing.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/directory-c-shared.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/directory-c-software.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/empty-page.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/experience-motion.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/faq-home-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/faq-new.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/footer-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/hablemos.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/home-compact-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/home-contact-reference.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/home-conversion.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/home-hero-v6.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/home-work-v8.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/icons.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/impact-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/landing-motion.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-compact.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-contact.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-hero-v12.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-home-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-managed-v2.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-new.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/marketing-services.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/oferta-claridad-20261008.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/palette.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/pricing-cierre-asesoria-v4.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/pricing-comparison-20261011.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/refresh.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/service-visuals-2a.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-asistente.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-claridad-v1.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-consultas.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-gisba-reference.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-hablemos.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-hero.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-modalidades.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/software-reportes-gisba-v4.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "css/styles.css",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "favicon.svg",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "hablemos.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "iniciar-sesion.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/experience-motion.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/home-contact-reference.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/home-contact.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/home-hero-v6.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/home-work-v8.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/main.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/marketing-contact.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/marketing-services.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/precios-disclosures.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/software-claridad-v1.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "js/software-consultas.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "marketing.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "precios.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "software.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "file": "__preview.json",
+    "status": 200,
+    "matches": true
+  }
+]

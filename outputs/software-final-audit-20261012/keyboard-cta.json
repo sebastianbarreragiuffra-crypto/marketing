@@ -1,0 +1,54 @@
+{
+  "tabs": [
+    {
+      "active": "sc-tab-conversacion",
+      "outline": "rgb(199, 244, 91) solid 3px",
+      "outlineOffset": "-4px",
+      "selected": "sc-tab-conversacion",
+      "visiblePanels": [
+        "sc-panel-conversacion"
+      ]
+    },
+    {
+      "active": "sc-tab-ficha",
+      "outline": "rgb(199, 244, 91) solid 3px",
+      "outlineOffset": "-4px",
+      "selected": "sc-tab-ficha",
+      "visiblePanels": [
+        "sc-panel-ficha"
+      ]
+    },
+    {
+      "active": "sc-tab-consultas",
+      "outline": "rgb(199, 244, 91) solid 3px",
+      "outlineOffset": "-4px",
+      "selected": "sc-tab-consultas",
+      "visiblePanels": [
+        "sc-panel-consultas"
+      ]
+    },
+    {
+      "active": "sc-tab-ficha",
+      "outline": "rgb(199, 244, 91) solid 3px",
+      "outlineOffset": "-4px",
+      "selected": "sc-tab-ficha",
+      "visiblePanels": [
+        "sc-panel-ficha"
+      ]
+    }
+  ],
+  "menuOpen": "true",
+  "menuClosed": "false",
+  "ctaFocus": {
+    "class": "sh-cta",
+    "outline": "rgb(246, 243, 235) solid 2px",
+    "top": 4797.0625
+  },
+  "contact": {
+    "anchor": 1,
+    "formDisabled": true,
+    "notice": "Vista previa · Tu consulta no se enviará.",
+    "submitDisabled": true,
+    "url": "http://127.0.0.1:8767/hablemos.html#contacto"
+  }
+}

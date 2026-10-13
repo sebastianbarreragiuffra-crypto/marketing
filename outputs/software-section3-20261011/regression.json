@@ -1,0 +1,62 @@
+{
+  "hero_and_section2_identical": true,
+  "reports_identical": true,
+  "following_identical": true,
+  "assistant_count": 1,
+  "reports_count": 1,
+  "other_files": {
+    "css/software-gisba-reference.css": true,
+    "css/software-consultas.css": true,
+    "js/software-consultas.js": true,
+    "index.html": true,
+    "marketing.html": true,
+    "precios.html": true,
+    "automatizaciones.html": true,
+    "hablemos.html": true,
+    "iniciar-sesion.html": true
+  },
+  "render_regression": [
+    {
+      "width": 1440,
+      "unchanged": true
+    },
+    {
+      "width": 1920,
+      "unchanged": true
+    },
+    {
+      "width": 768,
+      "unchanged": true
+    },
+    {
+      "width": 390,
+      "unchanged": true
+    },
+    {
+      "width": 375,
+      "unchanged": true
+    }
+  ],
+  "mobile_order": [
+    {
+      "width": 768,
+      "ordered": true
+    },
+    {
+      "width": 390,
+      "ordered": true
+    },
+    {
+      "width": 375,
+      "ordered": true
+    },
+    {
+      "width": 320,
+      "ordered": true
+    },
+    {
+      "width": 1100,
+      "ordered": true
+    }
+  ]
+}

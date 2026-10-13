@@ -1,0 +1,27 @@
+{
+  "scope": "Desktop mockup image of GISBA panel only; no website/hero implementation",
+  "approved": "User explicitly selected B: conversation plus commercial context via direct answer to layout question",
+  "state": "Layout B selected; color mockup candidate pending approval",
+  "review": "SAME_AGENT A/B/C/Z/S",
+  "prompt": "Use case: ui-mockup. Edit the supplied grayscale layout study into a polished HIGH FIDELITY COLOR DESKTOP mockup of the GISBA unified conversation panel for Órbita. Input image is edit target and approved B composition: preserve conversation left + commercial context right, same role responsibility, case, all message text, attachment, state and next step. This is ONLY a panel image, no complete hero/page, no site nav, no Instagram ad, no phone or laptop. Front-facing no perspective. Landscape image target1440x1000. Keep the panel wide and text crisply readable.\nBrand palette: background near-black #0b0d0b with extremely subtle moss glow; frame/header dark #171d17; white/ivory #f6f3eb surfaces; cream #eeeae0 separators; accent lime #c7f45b; secondary dark olive #48622e. Typography Manrope bold title / DM Sans-like regular UI. No blue/purple, no excessive neon.\nReplace outer kicker with \"MOCKUP · ESCRITORIO\" small light muted text. Outer headline exact \"Tu equipo atiende y da seguimiento.\" in ivory, optional \"da seguimiento.\" in lime. Keep professional understated size so UI dominates.\nPanel header dark green-black with simple white wordmark \"GISBA\" (text only no invented symbol), separator and \"Conversaciones\", small muted pale badge \"Ejemplo ilustrativo\".\nMain content ivory left ~65%, pale warm right ~35%, one fine separator. White chat reading surface. Top left restrained small C avatar and exact \"Consulta de un restaurante\", secondary \"Atiende tu equipo comercial\". Current stage pill \"Cotización enviada\" soft lime with dark text.\nMessages natural left/right aligned. Incoming light cream, outgoing soft light lime (NOT vividlime everywhere). Tiny neutral avatars or remove repeated per-message avatars to make messages dominant; role labels remain:\n\"Cliente\": \"Hola, necesito vajilla para mi restaurante.\"\n\"Tu equipo\": \"Te comparto la cotización para que revises las opciones.\"\nAttachment integrated below outgoing text, white surface thin olive-gray border, crisp thin document line icon, exact \"Cotización de ejemplo\", smaller \"Documento ilustrativo\".\n\"Cliente\": \"Gracias, la revisaré y les aviso.\"\nBottom composer white, \"Escribe un mensaje…\" muted gray, thin send line icon. No real functioning proof.\nRight side simple editorial information, no unnecessary nested boxes. Title \"Esta oportunidad\", followed by label/value rows exact:\n\"Origen del ejemplo\" / \"Anuncio de Instagram\"\n\"Interés\" / \"Vajilla para restaurante\"\n\"Estado\" / \"Esperando decisión\"\nThen one elegant dark green card near bottom with lime small label \"Próximo paso\", ivory main text \"Dar seguimiento a la cotización\". Small subordinate text \"A cargo de tu equipo comercial\" below in darkolive or insidecard ivory ifneeded.\nNo extra numbers, prices, sales closure, payment, appointment, bot, automation, metrics, channel logos or invented product integrations. Human client commercial team replies, NOT Órbita or a bot. Instagram origin is fictitious case context only.\nOutside panel bottom caption legible mutedivory exact \"Recreación ilustrativa · No es una captura del producto.\"\nPolish: subtle shadow, radius18-22px, consistent alignment, balanced spacing; don't add cards, decorative graphs, or arbitrary features. Preserve selected layout and exactcase, improve only color/material/typographic hierarchy. The output is a candidate for approval, not a final website. No white board margin left. Keep all text fully inside image.",
+  "tool": "built-in image_gen",
+  "reference": "gisba-panel-research-v3-1440.png",
+  "output": "gisba-panel-b-color-v4-1440.png",
+  "checks": [
+    "Conversation left, compact commercial context right preserved",
+    "Human client commercial team, quotation sent, decision pending and follow-up coherent",
+    "Illustrative labeling visible; no real screenshot claim",
+    "No bot, automatic scheduling, closed sale, metrics or integration added"
+  ],
+  "not_verified": [
+    "Actual hero-size integration and readability",
+    "Mobile, motion, technical software connections, live accessibility or performance",
+    "User color mockup approval"
+  ],
+  "completion": {
+    "result": "COMPLETE for producing reviewable color mockup; implementation outside scope",
+    "state_updates": "User layout choice recorded here; earlier images preserved",
+    "method_learning": "NOTHING REUSABLE",
+    "next": "User reviews color mockup before any integration"
+  }
+}

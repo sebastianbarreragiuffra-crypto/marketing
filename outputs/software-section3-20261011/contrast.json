@@ -1,0 +1,512 @@
+{
+  "failed": [],
+  "min": 5.462058252272998,
+  "samples": [
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.184851374780274,
+      "text": "ATENCIÓN AUTOMATIZADA · MÓDULO OPCIONAL"
+    },
+    {
+      "bg": [
+        233,
+        241,
+        218
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 5.897726103552571,
+      "text": "EN DESARROLLO"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "35px",
+      "ratio": 17.590453180911986,
+      "text": "Tus clientes preguntan.El asistente comienzala atención"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "35px",
+      "ratio": 6.184851374780274,
+      "text": "El asistente comienzala atención."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "16px",
+      "ratio": 5.846718831319612,
+      "text": "Un complemento para responder consultas iniciales, reco"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Responde al instante"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Atiende consultas utilizando información del negocio."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Recopila información clave"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Obtiene producto, cantidad, ubicación y fecha estimada."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Entrega contexto al equipo"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Deja la solicitud organizada para continuar la atención"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "10px",
+      "ratio": 19.19879183173732,
+      "text": "9:41"
+    },
+    {
+      "bg": [
+        72,
+        98,
+        46
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "16px",
+      "ratio": 6.750347636494754,
+      "text": "M"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Muebles Norte"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.750347636494754,
+      "text": "En línea · ejemplo"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "17px",
+      "ratio": 19.19879183173732,
+      "text": "···"
+    },
+    {
+      "bg": [
+        230,
+        239,
+        215
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 16.43316238217953,
+      "text": "Hola, ¿me podrían enviar una cotización para 10 escrito"
+    },
+    {
+      "bg": [
+        230,
+        239,
+        215
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 5.462058252272998,
+      "text": "09:12"
+    },
+    {
+      "bg": [
+        72,
+        98,
+        46
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "M"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.750347636494754,
+      "text": "Muebles Norte"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "¡Hola! Con gusto te ayudo. ¿Para qué ciudad es la entre"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "09:13"
+    },
+    {
+      "bg": [
+        230,
+        239,
+        215
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 16.43316238217953,
+      "text": "Es para Providencia, RM. La necesito la próxima semana."
+    },
+    {
+      "bg": [
+        230,
+        239,
+        215
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 5.462058252272998,
+      "text": "09:14"
+    },
+    {
+      "bg": [
+        72,
+        98,
+        46
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "M"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.750347636494754,
+      "text": "Muebles Norte"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Perfecto. Dejaré tu solicitud preparada para revisión. "
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "09:15"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "25px",
+      "ratio": 19.19879183173732,
+      "text": "+"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Escribe un mensaje…"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "16px",
+      "ratio": 16.879688838457533,
+      "text": "Información recopilada"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 6.381298798089528,
+      "text": "Producto"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Escritorios de oficina"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 6.381298798089528,
+      "text": "Cantidad"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "10 unidades"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 6.381298798089528,
+      "text": "Entrega"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Providencia, RM"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 6.381298798089528,
+      "text": "Fecha estimada"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Próxima semana"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 19.19879183173732,
+      "text": "Lista para revisión del equipo"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "14px",
+      "ratio": 6.381298798089528,
+      "text": "La solicitud llega organizada para que tu equipo prepar"
+    },
+    {
+      "bg": [
+        233,
+        241,
+        218
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "9px",
+      "ratio": 5.897726103552571,
+      "text": "PRÓXIMO PASO"
+    },
+    {
+      "bg": [
+        233,
+        241,
+        218
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "14px",
+      "ratio": 5.897726103552571,
+      "text": "Preparar cotización"
+    },
+    {
+      "bg": [
+        72,
+        98,
+        46
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "16px",
+      "ratio": 6.750347636494754,
+      "text": "Agenda una reunión"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "11px",
+      "ratio": 5.846718831319612,
+      "text": "Módulo opcional en desarrollo. Funcionalidades y canale"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.184851374780274,
+      "text": "Vista ilustrativa · Datos de ejemplo · Chat no operativ"
+    }
+  ]
+}

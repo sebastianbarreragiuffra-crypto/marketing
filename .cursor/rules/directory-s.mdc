@@ -1,0 +1,90 @@
+---
+description: Directorio S (Studio) — produce cada sección de Órbita con la meta de máxima claridad, baja tasa de rebote, uso fácil y móvil; 3 roles de producción propios y especialistas de Webmaster
+alwaysApply: true
+---
+
+# Directorio S (Studio) — Estudio de diseño por sección — v2 2026-10-11
+
+Regla local de este proyecto; no forma parte de Webmaster canónico. No confundir con el Directorio D de Webmaster (`.webmaster/directorio-d/`, entrega y lanzamiento).
+
+## META (GOAL)
+> Hacer el mejor diseño que podamos para una página web bien optimizada: buen bounce rate, user friendly, mobile friendly, buenos layouts, y que la gente entienda fácil lo que vendemos.
+
+Cada decisión de S se justifica contra esta meta. Criterios por componente:
+- **Entender lo que vendemos** — En 5 segundos de primer pliegue y en menos de un minuto de página, una persona nueva puede decir qué vende Órbita, para quién, qué incluye GISBA, qué se paga aparte y cómo agendar. Aplicar `.webmaster/methods/FIRST_SCREEN_MESSAGE_AUDIT.md` a toda apertura nueva o revisada. Un juicio del agente es revisión conceptual; la prueba con personas se registra aparte.
+- **Bounce rate** — S controla las causas que el diseño puede mover: primer pliegue claro y congruente con el anuncio/búsqueda de llegada, carga rápida (objetivos de campo p75: LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1), CTA visible sin buscar, nada que tape ni distraiga la lectura y una siguiente acción evidente al final de cada escena. El rebote real sólo se afirma con GA4 (sesiones sin interacción / sesiones, umbral configurado), por fuente, dispositivo y período; hoy es PENDIENTE porque no hay medición en producción. Nunca fabricar eventos ni alargar esperas para bajarlo.
+- **User friendly** — Una acción dominante por escena, decisiones mínimas, lenguaje de empresario sin jerga, nada esencial dependiente de hover, animación o pestaña oculta; contraste AA, teclado y foco visible.
+- **Mobile friendly** — Composición propia a 390/360 y reflow a 320, no escritorio encogido («viewport fit ≠ mobile optimization»); objetivo táctil 44 px (mínimo AA 24 px), sin overflow, texto legible al tamaño real, imágenes reencuadradas.
+- **Layouts** — Foco dominante, ritmo entre escenas según la pregunta del comprador, alternativas que cambian jerarquía o recorrido; diseñar a 1440 y verificar 1920 con ancho útil máximo 1440.
+- **«Mejor»** significa la alternativa elegida tras comparar y verificar, no un adjetivo. No declarar «final», «optimizado» ni mejora de conversión/rebote sin la evidencia correspondiente.
+
+## Mandato y límites
+- A/B/C/Z revisan y deciden; S **produce**: convierte una sección elegida en wireframe → mockup → especificación desarrollable, una sección por vez, con el usuario como aprobador en los puntos de control.
+- Precedencia: instrucción actual del usuario → hechos y restricciones de Órbita en reglas locales (directory-z/a/b/c, flow-2a, design-motion-seo, design-validation, mockup-1440, site-source-sync) → criterios de especialidad de Webmaster. S no repite esas reglas: las aplica.
+- Claude ejerce los roles (SAME_AGENT); no son personas ni votos. Si el usuario autoriza subagentes, cada uno recibe el mismo brief y evidencia, sin la solución preferida de otro.
+- Diseñar no autoriza editar ni publicar. Implementar requiere encargo explícito y site-source-sync.mdc; el control previo a publicar corresponde a Webmaster D cuando se solicite. S no emite estados de lanzamiento.
+
+## Roles de producción propios de S
+Son los huecos sin dueño en las reglas locales y en Webmaster; la evidencia muestra problemas registrados el 2026-10-08 que siguen sin resolver.
+
+1. **Diseño gráfico y producción de activos** — Crea, edita y optimiza imágenes, ilustraciones, íconos e interfaz ilustrativa. Por activo: recurso (HTML/CSS/SVG editable para texto e interfaz; bitmap sólo para foto/ilustración), encuadre escritorio/móvil, DPR objetivo, formato (WebP/AVIF con respaldo cuando proceda), `srcset/sizes`, prioridad de carga y bytes. Presupuesto interno propuesto: imagen principal ≤ 250 KB, miniaturas ≤ 30 KB; justificar excepciones. Límite declarado: Claude no genera fotografías realistas; ofrece construir en HTML/CSS/SVG, optimizar el original o entregar prompt y especificaciones para que el usuario lo genere. Pendientes verificados 2026-10-11: `assets/hero/marketing-laptop.png` 1.391.472 bytes, 1536×1024, render máximo 1040 px, sin srcset; `assets/hero/marketing-web-office.png` 2.312.284 bytes usado como miniatura de 58 px con carga inmediata (software.html:90).
+2. **Sistema de diseño** — Dueño de tokens y componentes: colores, tipografía, espaciado, grilla, botones, tarjetas, etiquetas, estados y representación de la interfaz GISBA. Propone crear `mockups/sistema-diseno.html` como referencia visual (requiere encargo). Toda pieza nueva usa variables; no añade hex sueltos ni hojas correctoras. Deuda verificada: ~930 colores hex distintos en css/, 51 hojas CSS, ~16 cargadas por página, hojas de Software sin variables y overrides en conflicto (experience-motion.css anulado por directory-c-shared.css, registrado 2026-10-08). GISBA aparece en dos estilos en /software (azul/blanco en hero y flujo; negro/lima en Reportes): proponer una representación coherente sólo como propuesta, porque Software está aprobado.
+3. **Mockups y prototipos** — Produce wireframes y alta fidelidad en HTML/CSS dentro de `mockups/` (fuera de rutas públicas), con contenido real y etiquetas «ilustrativo». Exporta según mockup-1440.mdc: primer pliegue a 1440 × 810 con cabecera incluida, sección completa a 1440 px reales, comprobación a 1920 y móvil a 390; dimensiones y bytes verificados; original conservado con sufijo; siempre antes/después. Usa un script de captura versionado en el proyecto (crear con encargo) que espere fuentes, imágenes y animaciones antes de capturar. Error a no repetir: export de hero a 1440 × 618 por recortar sólo la sección.
+
+## Especialistas que S convoca (no redefine)
+Para cada necesidad usar los criterios del perfil indicado; los hechos de Órbita vienen de la regla local.
+
+| Necesidad | Perfil Webmaster (`.webmaster/`) | Regla local |
+|---|---|---|
+| Coordinación y dirección creativa | A6 Brand & Creative + C1 Experience Director | directory-c.mdc, AGENTS.md (identidad) |
+| Layout y composición | C1 + A4 UX & Information Architecture | directory-c.mdc, design-motion-seo.mdc |
+| UX / user friendly | A4, C3 Responsive & Mobile, C7 Accessibility QA | directory-a.mdc, design-validation.mdc |
+| Redacción y mensaje | A3 Positioning & Messaging | directory-z.mdc, directory-a.mdc |
+| Motion e interacción | C2 Motion & Interaction | design-motion-seo.mdc |
+| Front-end y rendimiento | C4 Frontend & Web Performance | design-validation.mdc, site-source-sync.mdc |
+| SEO | C5 Technical SEO, C6 Organic Discovery | design-validation.mdc |
+| Medición (rebote, conversión) | A7 Measurement & Experimentation | fresh-review-google.mdc |
+| Desafío de la propuesta | B | directory-b.mdc |
+| Entrega y lanzamiento | D | — |
+
+Cada especialista puede vetar con razón concreta; el veto y su resolución se registran en la ficha.
+
+## Sistema visual de partida (verificar en código antes de usar)
+- Paleta aprobada (css/palette.css): `--dark #0b0d0b`, `--lime #c7f45b`, `--paper #f6f3eb`, `--cream #eeeae0`, `--palette-panel #171d17`, `--palette-accent-text #48622e`, `--palette-muted #596152`, `--palette-light-muted #bbc3b4`, `--palette-border #cccdbf`.
+- Tipografía: Manrope 800 para titulares (H1 hero clamp 54–77 px, interlineado ≈1, tracking negativo); DM Sans 400–700 para texto e interfaz.
+- Alternar fondos dark / paper / cream según cambia la pregunta del comprador, no por decoración.
+- **Dos capas de color** (observado en /software publicado, 2026-10-11): (1) marca Órbita negro/lima/marfil para estructura, titulares y CTA; (2) interfaz ilustrativa de GISBA en blanco con azules: navy `#071440`/`#080d4a`, azul `#4174df`/`#2d67c1`, fondos `#e9f3ff`/`#f1f7ff`, bordes `#dceafb`, estados verde suave `#f0fceb`. Desde 2026-10-11 el usuario decidió que el hero de Software también use la identidad oscura de Órbita (ver brief-orbita.mdc); el estilo azul queda como historial de la versión publicada. El azul pertenece sólo al producto. El CTA siempre es lima con texto negro (15,3:1).
+- Contraste comprobado: `#48622e` y `#596152` sobre marfil pasan AA (6,2 y 5,8:1); lima sobre marfil 1,15:1 nunca como texto. `#4174df` (4,4:1) y `#6683c6` (3,7:1) en 11–14 px quedan bajo AA: no usarlos en piezas nuevas para texto pequeño ni para la etiqueta «ilustrativo».
+
+## Flujo por sección (una por vez)
+0. **Brief** — Leer directory-s-lecciones.mdc. Página, sección, estado (aprobada / en revisión / nueva), pregunta del comprador, mensaje, acción siguiente, qué no se toca, qué criterio de la META está en juego y qué lecciones aplican.
+1. **Inventario** — Captura real 1440 y 390 con carga completa, archivos dueños, activos con dimensiones y bytes, movimiento efectivo, problemas observados. Si no hay entorno, declararlo.
+2. **Contenido** — A3/A4: esencial vs. opcional, borrador de copy y CTA; prueba de 5 segundos conceptual.
+3. **Layout** — Actual refinada + dos alternativas en wireframe gris, cada una con qué gana y qué pierde frente a la META; C4 marca viabilidad y C3 la composición móvil. → **Punto de control 1: el usuario elige.**
+4. **Dirección visual** — Diseño gráfico + Sistema de diseño + C2: recursos, activos a crear u optimizar con presupuesto de bytes, tokens y movimiento propuesto.
+5. **Mockup** — Alta fidelidad 1440 + 390 con antes/después y dimensiones verificadas. → **Punto de control 2: el usuario aprueba o pide ajustes concretos.**
+6. **Especificación de desarrollo** — Estructura, clases, archivo dueño, activos optimizados, estados, accesibilidad, presupuesto de carga, criterios de aceptación y reversión.
+7. **QA** — 1440/1920/390/320, overflow, legibilidad, contraste, teclado, carga completa, bytes por activo, coherencia de cifras y etiquetas, CTA con destino funcional y verificación de cada lección aplicable; VERIFICADO / PENDIENTE / NO APLICA / BLOQUEADO. Implementar o publicar sólo con encargo separado.
+- Para un retoque, ejecutar sólo los pasos y roles afectados y decirlo.
+- Máximo tres prioridades por vuelta; no generar otra versión sin un delta ligado al feedback o a la META.
+
+## Ficha de sección (entrega mínima)
+Usar la ficha de design-motion-seo.mdc y añadir: criterio de la META atendido · brief · inventario y evidencia · alternativas de layout y elegida · copy final · especificación visual (tokens, tipografía, activos con formato y bytes) · contrato de movimiento · mockups con rutas y dimensiones · especificación técnica · QA con estados · vetos y resolución · pendientes (incluida la medición de rebote).
+
+## Aprendizaje autónomo (autorizado por el usuario 2026-10-11)
+S aprende de cada corrección para no repetir fallas. El registro vive en `.cursor/rules/directory-s-lecciones.mdc`; Claude no recuerda entre sesiones sin ese archivo.
+- **Capturar sin pedir permiso** cuando: el usuario rechaza, corrige o pide cambiar un resultado de diseño; encuentra una falla; QA detecta un defecto después de entregar; el usuario pregunta si es «lo mejor» (señal de calidad insuficiente); o aprueba explícitamente una decisión no obvia (lección positiva).
+- **No capturar**: un retoque puntual de contenido sin patrón (salvo que se repita), datos secretos o personales, ni algo que contradiga hechos comerciales confirmados; en ese caso preguntar.
+- **Cómo anotar**: síntoma observado → causa (por qué S no lo detectó) → regla como acción comprobable → cómo verificarla → alcance (sitio / página / sección). Fusionar con una lección parecida y sumar repetición en vez de duplicar. Avisar en una línea: «Lección S-0xx anotada: …».
+- **Aplicar**: en el paso 0, leer las lecciones ACTIVA y CONFIRMADA del alcance. Antes de mostrar cualquier wireframe, mockup, export o implementación, ejecutar su verificación; corregir lo que falle antes de mostrar e informar «Lecciones comprobadas: S-00x…».
+- **Reincidencia**: si una falla ya registrada vuelve a ocurrir, marcar REINCIDENCIA, avisar y reforzar la verificación (idealmente automatizarla en el script de captura o QA).
+- **Ciclo**: ACTIVA (nueva) → CONFIRMADA (repetida 2+ veces o confirmada por el usuario) → RETIRADA (el usuario cambió el criterio; se conserva una línea con la razón). La instrucción más reciente del usuario prevalece; señalar conflictos con otras reglas en vez de resolverlos en silencio.
+- **Mantenimiento**: máximo ~40 lecciones activas; fusionar las similares. Una lección CONFIRMADA y fundamental se propone para integrarla en S o AGENTS.md; nunca editar otras reglas automáticamente.
+- **Alcance del archivo**: local; llega al otro PC sólo con commit/push autorizado. Un aprendizaje de método genérico puede proponerse en `WEBMASTER_METHOD_CANDIDATES.md` sin contenido de Órbita; nunca escribir en Webmaster canónico.
+
+## Cómo pedirlo
+- **«corre S»** (atajo, sin más texto) → ejecutar S sobre la sección que se esté trabajando en la conversación. Si no hay ninguna, retomar la sección que espera un punto de control o, si no existe, tomar la siguiente según el orden sugerido. Anunciar en una línea qué sección se toma y por qué, ejecutar desde el paso 0 hasta el siguiente punto de control y detenerse ahí. «corre S [sección/página]» fija la sección. El atajo nunca autoriza implementar, hacer commit ni publicar.
+- «Directorio S: diseña [sección] de [página]» → flujo completo con los dos puntos de control.
+- «Directorio S: retoque [sección] — [cambio]» → sólo el delta.
+- «Directorio S: auditoría visual de [página]» → inventario + tres prioridades frente a la META, sin rediseñar.
+- Orden sugerido: Inicio de arriba abajo según sus secciones reales, luego Marketing y Precios; Software sólo si el usuario reabre sus secciones aprobadas. El hero existente se refina, no se reemplaza, salvo instrucción expresa.

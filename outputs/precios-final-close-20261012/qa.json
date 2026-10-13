@@ -1,0 +1,134 @@
+[
+  {
+    "width": 320,
+    "oneClose": true,
+    "oneCTA": true,
+    "footers": 1,
+    "overflow": false,
+    "clippedText": 0,
+    "minContrast": 15.343934897670398,
+    "titleFont": "Manrope, sans-serif",
+    "title": "No necesitas tener todo decidido.",
+    "description": "Revisamos tus objetivos y definimos una propuesta.",
+    "button": "Agenda una reunión",
+    "destination": "hablemos.html#contacto",
+    "buttonHeight": 54,
+    "fullWidthMobile": true,
+    "borders": {
+      "top": "1px",
+      "bottom": "1px"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "priceFAQFooterRegressionFree": true
+  },
+  {
+    "width": 360,
+    "oneClose": true,
+    "oneCTA": true,
+    "footers": 1,
+    "overflow": false,
+    "clippedText": 0,
+    "minContrast": 15.343934897670398,
+    "titleFont": "Manrope, sans-serif",
+    "title": "No necesitas tener todo decidido.",
+    "description": "Revisamos tus objetivos y definimos una propuesta.",
+    "button": "Agenda una reunión",
+    "destination": "hablemos.html#contacto",
+    "buttonHeight": 54,
+    "fullWidthMobile": true,
+    "borders": {
+      "top": "1px",
+      "bottom": "1px"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "priceFAQFooterRegressionFree": true
+  },
+  {
+    "width": 390,
+    "oneClose": true,
+    "oneCTA": true,
+    "footers": 1,
+    "overflow": false,
+    "clippedText": 0,
+    "minContrast": 15.343934897670398,
+    "titleFont": "Manrope, sans-serif",
+    "title": "No necesitas tener todo decidido.",
+    "description": "Revisamos tus objetivos y definimos una propuesta.",
+    "button": "Agenda una reunión",
+    "destination": "hablemos.html#contacto",
+    "buttonHeight": 54,
+    "fullWidthMobile": true,
+    "borders": {
+      "top": "1px",
+      "bottom": "1px"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "priceFAQFooterRegressionFree": true
+  },
+  {
+    "width": 1440,
+    "oneClose": true,
+    "oneCTA": true,
+    "footers": 1,
+    "overflow": false,
+    "clippedText": 0,
+    "minContrast": 15.343934897670398,
+    "titleFont": "Manrope, sans-serif",
+    "title": "No necesitas tener todo decidido.",
+    "description": "Revisamos tus objetivos y definimos una propuesta.",
+    "button": "Agenda una reunión",
+    "destination": "hablemos.html#contacto",
+    "buttonHeight": 60,
+    "fullWidthMobile": true,
+    "borders": {
+      "top": "1px",
+      "bottom": "1px"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "priceFAQFooterRegressionFree": true
+  },
+  {
+    "width": 1920,
+    "oneClose": true,
+    "oneCTA": true,
+    "footers": 1,
+    "overflow": false,
+    "clippedText": 0,
+    "minContrast": 15.343934897670398,
+    "titleFont": "Manrope, sans-serif",
+    "title": "No necesitas tener todo decidido.",
+    "description": "Revisamos tus objetivos y definimos una propuesta.",
+    "button": "Agenda una reunión",
+    "destination": "hablemos.html#contacto",
+    "buttonHeight": 60,
+    "fullWidthMobile": true,
+    "borders": {
+      "top": "1px",
+      "bottom": "1px"
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "priceFAQFooterRegressionFree": true
+  },
+  {
+    "keyboardDestination": "http://127.0.0.1:8767/hablemos.html#contacto",
+    "contactAnchorExists": true
+  },
+  {
+    "footerSourceUnchanged": true
+  }
+]

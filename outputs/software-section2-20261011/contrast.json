@@ -1,0 +1,1095 @@
+{
+  "failed": [],
+  "min": 5.396751342626981,
+  "samples": [
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.184851374780274,
+      "text": "DE LA CONSULTA AL SEGUIMIENTO"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "46px",
+      "ratio": 17.590453180911986,
+      "text": "Cada consulta,con su contextoy próximo paso."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(29, 50, 30)",
+      "font": "46px",
+      "ratio": 12.400508327094984,
+      "text": "con su contextoy próximo paso."
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "18px",
+      "ratio": 5.846718831319612,
+      "text": "Una bandeja para organizar conversaciones, revisar lo p"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Conversaciones unificadas"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Organiza las consultas de los canales habilitados en un"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Estados y prioridades"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Identifica rápidamente qué necesita atención y qué está"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 17.590453180911986,
+      "text": "Todo el contexto del cliente"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "15px",
+      "ratio": 5.846718831319612,
+      "text": "Consulta su historial, responsable y próximos pasos des"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "14px",
+      "ratio": 15.465628192833062,
+      "text": "Conoce el origende cada consulta."
+    },
+    {
+      "bg": [
+        234,
+        241,
+        221
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 16.834633527495388,
+      "text": "Tu equipo, siempre alineado.Toda la información en un s"
+    },
+    {
+      "bg": [
+        234,
+        241,
+        221
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 16.834633527495388,
+      "text": "Tu equipo, siempre alineado."
+    },
+    {
+      "bg": [
+        234,
+        241,
+        221
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 5.595499322915614,
+      "text": "Toda la información en un solo lugar."
+    },
+    {
+      "bg": [
+        23,
+        29,
+        23
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "23px",
+      "ratio": 16.879688838457533,
+      "text": "GISBA."
+    },
+    {
+      "bg": [
+        23,
+        29,
+        23
+      ],
+      "color": "rgb(199, 244, 91)",
+      "font": "23px",
+      "ratio": 13.490476322685808,
+      "text": "."
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "16px",
+      "ratio": 19.19879183173732,
+      "text": "Conversaciones"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Buscar por nombre, canal o mensaje…"
+    },
+    {
+      "bg": [
+        23,
+        29,
+        23
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "12px",
+      "ratio": 16.879688838457533,
+      "text": "+ Nueva consulta"
+    },
+    {
+      "bg": [
+        23,
+        29,
+        23
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "19px",
+      "ratio": 16.879688838457533,
+      "text": "+"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "10px",
+      "ratio": 16.879688838457533,
+      "text": "Todas 5"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(23, 29, 23)",
+      "font": "10px",
+      "ratio": 14.27538284672457,
+      "text": "5"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Pendientes 2"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 5.396751342626981,
+      "text": "2"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "En seguimiento 2"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 5.396751342626981,
+      "text": "2"
+    },
+    {
+      "bg": [
+        240,
+        245,
+        232
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 17.583784771161522,
+      "text": "Cliente 01"
+    },
+    {
+      "bg": [
+        240,
+        245,
+        232
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 5.844502383769227,
+      "text": "10:24"
+    },
+    {
+      "bg": [
+        240,
+        245,
+        232
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.182506743701779,
+      "text": "Solicita llamada"
+    },
+    {
+      "bg": [
+        250,
+        227,
+        222
+      ],
+      "color": "rgb(148, 46, 36)",
+      "font": "10px",
+      "ratio": 6.394139002550383,
+      "text": "Alta"
+    },
+    {
+      "bg": [
+        240,
+        245,
+        232
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.182506743701779,
+      "text": "Origen: Meta Ads"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Contacto 02"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "10:18"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Solicita información"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 5.708860973781475,
+      "text": "Sin respuesta"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Origen: Meta Ads"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Cliente 03"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "09:42"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Cotización enviada"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 5.708860973781475,
+      "text": "Esperando al cliente"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Origen: Google Ads"
+    },
+    {
+      "bg": [
+        238,
+        234,
+        224
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "13px",
+      "ratio": 5.708860973781475,
+      "text": "04"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Cliente 04"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Ayer"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Consulta por precios"
+    },
+    {
+      "bg": [
+        249,
+        239,
+        206
+      ],
+      "color": "rgb(115, 85, 26)",
+      "font": "10px",
+      "ratio": 6.002001943630422,
+      "text": "En seguimiento"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Origen: Instagram"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Cliente 05"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Ayer"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Información de productos"
+    },
+    {
+      "bg": [
+        233,
+        243,
+        219
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 5.978920110847224,
+      "text": "Cerrada"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Origen: WhatsApp"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "13px",
+      "ratio": 19.19879183173732,
+      "text": "Cliente 01"
+    },
+    {
+      "bg": [
+        249,
+        239,
+        206
+      ],
+      "color": "rgb(115, 85, 26)",
+      "font": "10px",
+      "ratio": 6.002001943630422,
+      "text": "Solicita llamada"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "11px",
+      "ratio": 6.750347636494754,
+      "text": "Origen: Meta Ads"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "18px",
+      "ratio": 19.19879183173732,
+      "text": "···"
+    },
+    {
+      "bg": [
+        240,
+        240,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 17.061289152117944,
+      "text": "Hola, me gustaría una cotización para sus servicios de "
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "10:20"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "9px",
+      "ratio": 6.750347636494754,
+      "text": "Ana · Tu equipo"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 17.477363765986816,
+      "text": "Te comparto la cotización que solicitaste."
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "10:22"
+    },
+    {
+      "bg": [
+        148,
+        46,
+        36
+      ],
+      "color": "rgb(255, 255, 255)",
+      "font": "8px",
+      "ratio": 7.849138236306724,
+      "text": "PDF"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "11px",
+      "ratio": 19.19879183173732,
+      "text": "Cotización.pdf"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "Documento de ejemplo"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "9px",
+      "ratio": 6.750347636494754,
+      "text": "Ver documento"
+    },
+    {
+      "bg": [
+        240,
+        240,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 17.061289152117944,
+      "text": "Gracias. ¿Me pueden llamar hoy por la tarde?"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "9px",
+      "ratio": 6.381298798089528,
+      "text": "10:24"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Escribe un mensaje…"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "10px",
+      "ratio": 19.19879183173732,
+      "text": "Ficha del cliente"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Actividad reciente"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Cliente 01"
+    },
+    {
+      "bg": [
+        233,
+        243,
+        219
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 5.978920110847224,
+      "text": "Cliente existente"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 6.381298798089528,
+      "text": "Empresa · Ecommerce"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.750347636494754,
+      "text": "Etapa"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Cotización enviada"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.750347636494754,
+      "text": "Responsable"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Ana"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.750347636494754,
+      "text": "Última respuesta del equipo"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "Ana · 10:22"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.750347636494754,
+      "text": "Historial"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 19.19879183173732,
+      "text": "1 compra anterior"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "12px",
+      "ratio": 6.750347636494754,
+      "text": "Prioridad"
+    },
+    {
+      "bg": [
+        255,
+        253,
+        249
+      ],
+      "color": "rgb(148, 46, 36)",
+      "font": "12px",
+      "ratio": 7.725803049355754,
+      "text": "Alta · Marcada por el equipo"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "12px",
+      "ratio": 17.477363765986816,
+      "text": "Próximo paso"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "10px",
+      "ratio": 17.477363765986816,
+      "text": "Llamar hoy · 16:00Hora por confirmarResponsable: Ana"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "11px",
+      "ratio": 17.477363765986816,
+      "text": "Llamar hoy · 16:00"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.145088827665681,
+      "text": "Hora por confirmar"
+    },
+    {
+      "bg": [
+        238,
+        245,
+        228
+      ],
+      "color": "rgb(72, 98, 46)",
+      "font": "10px",
+      "ratio": 6.145088827665681,
+      "text": "Responsable: Ana"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "10px",
+      "ratio": 5.846718831319612,
+      "text": "Los orígenes y perfiles son ficticios; no acreditan con"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 5.846718831319612,
+      "text": "Órbita gestiona las campañas. Tu equipo atiende las con"
+    },
+    {
+      "bg": [
+        23,
+        29,
+        23
+      ],
+      "color": "rgb(255, 253, 249)",
+      "font": "14px",
+      "ratio": 16.879688838457533,
+      "text": "Agenda una reunión"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 5.846718831319612,
+      "text": "Conoce más sobre GISBA  (abre en otra pestaña)"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "12px",
+      "ratio": 5.846718831319612,
+      "text": "GISBA"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "14px",
+      "ratio": 5.846718831319612,
+      "text": "Más claridadpara tu equipo"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "15px",
+      "ratio": 17.590453180911986,
+      "text": "Más claridad"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "14px",
+      "ratio": 5.846718831319612,
+      "text": "Seguimiento organizadopara saber qué sigue"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "15px",
+      "ratio": 17.590453180911986,
+      "text": "Seguimiento organizado"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(88, 96, 91)",
+      "font": "14px",
+      "ratio": 5.846718831319612,
+      "text": "Mejor coordinacióncon tus clientes"
+    },
+    {
+      "bg": [
+        246,
+        243,
+        235
+      ],
+      "color": "rgb(11, 13, 11)",
+      "font": "15px",
+      "ratio": 17.590453180911986,
+      "text": "Mejor coordinación"
+    }
+  ]
+}

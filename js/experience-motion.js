@@ -83,19 +83,6 @@
     play(document.getElementById(event.detail.panelId), 'site-motion-view', 240);
   });
 
-  document.addEventListener('orbita:marketing-service', () => {
-    const section = document.querySelector('.purchase-services');
-    if (!section) return;
-    [section.querySelector('[data-channel-title]'), section.querySelector('[data-channel-copy]'),
-      section.querySelector('[data-channel-work]')].forEach(element => play(element, 'site-motion-switch', 240));
-    // Wait for the chosen asset, and never fade an older image back in.
-    const image = section.querySelector('[data-channel-image]');
-    finish(image);
-    if (image.complete && image.naturalWidth) play(image, 'site-motion-switch', 240);
-  });
-  const channelImage = document.querySelector('[data-channel-image]');
-  channelImage?.addEventListener('load', () => play(channelImage, 'site-motion-switch', 240));
-
   const nativeDetailsMotion = window.CSS && CSS.supports('selector(::details-content)') &&
     CSS.supports('interpolate-size: allow-keywords');
   if (!nativeDetailsMotion) {

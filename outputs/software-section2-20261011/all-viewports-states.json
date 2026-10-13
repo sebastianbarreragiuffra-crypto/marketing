@@ -1,0 +1,1112 @@
+[
+  {
+    "view": "Consultas",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1152.859375,
+        "s": ".os-hero",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 466.140625,
+        "s": "#preguntas-gisba",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 375
+      }
+    ],
+    "brokenImages": [],
+    "client": 375,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1469.40625,
+    "shellWidth": 339,
+    "tabsVisible": true,
+    "viewport": 390,
+    "visiblePanels": [
+      "sc-panel-consultas"
+    ]
+  },
+  {
+    "view": "Conversación",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1152.859375,
+        "s": ".os-hero",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 466.140625,
+        "s": "#preguntas-gisba",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 375
+      }
+    ],
+    "brokenImages": [],
+    "client": 375,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1510.265625,
+    "shellWidth": 339,
+    "tabsVisible": true,
+    "viewport": 390,
+    "visiblePanels": [
+      "sc-panel-conversacion"
+    ]
+  },
+  {
+    "view": "Ficha",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1152.859375,
+        "s": ".os-hero",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 466.140625,
+        "s": "#preguntas-gisba",
+        "width": 375
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 375
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 375
+      }
+    ],
+    "brokenImages": [],
+    "client": 375,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1518.171875,
+    "shellWidth": 339,
+    "tabsVisible": true,
+    "viewport": 390,
+    "visiblePanels": [
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Consultas",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1165.421875,
+        "s": ".os-hero",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 491.734375,
+        "s": "#preguntas-gisba",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 360
+      }
+    ],
+    "brokenImages": [],
+    "client": 360,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1464.859375,
+    "shellWidth": 324,
+    "tabsVisible": true,
+    "viewport": 375,
+    "visiblePanels": [
+      "sc-panel-consultas"
+    ]
+  },
+  {
+    "view": "Conversación",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1165.421875,
+        "s": ".os-hero",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 491.734375,
+        "s": "#preguntas-gisba",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 360
+      }
+    ],
+    "brokenImages": [],
+    "client": 360,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1505.71875,
+    "shellWidth": 324,
+    "tabsVisible": true,
+    "viewport": 375,
+    "visiblePanels": [
+      "sc-panel-conversacion"
+    ]
+  },
+  {
+    "view": "Ficha",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1165.421875,
+        "s": ".os-hero",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1760.1875,
+        "s": "#reportes",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 491.734375,
+        "s": "#preguntas-gisba",
+        "width": 360
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 363.96875,
+        "s": "#siguiente-paso",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 360
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 848.140625,
+        "s": ".site-footer",
+        "width": 360
+      }
+    ],
+    "brokenImages": [],
+    "client": 360,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1513.625,
+    "shellWidth": 324,
+    "tabsVisible": true,
+    "viewport": 375,
+    "visiblePanels": [
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Consultas",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1257.5,
+        "s": ".os-hero",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1970.3125,
+        "s": "#reportes",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 541.125,
+        "s": "#preguntas-gisba",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 382.15625,
+        "s": "#siguiente-paso",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 922.46875,
+        "s": ".site-footer",
+        "width": 305
+      }
+    ],
+    "brokenImages": [],
+    "client": 305,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1535.546875,
+    "shellWidth": 277,
+    "tabsVisible": true,
+    "viewport": 320,
+    "visiblePanels": [
+      "sc-panel-consultas"
+    ]
+  },
+  {
+    "view": "Conversación",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1257.5,
+        "s": ".os-hero",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1970.3125,
+        "s": "#reportes",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 541.125,
+        "s": "#preguntas-gisba",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 382.15625,
+        "s": "#siguiente-paso",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 922.46875,
+        "s": ".site-footer",
+        "width": 305
+      }
+    ],
+    "brokenImages": [],
+    "client": 305,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1588.515625,
+    "shellWidth": 277,
+    "tabsVisible": true,
+    "viewport": 320,
+    "visiblePanels": [
+      "sc-panel-conversacion"
+    ]
+  },
+  {
+    "view": "Ficha",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1257.5,
+        "s": ".os-hero",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1970.3125,
+        "s": "#reportes",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 541.125,
+        "s": "#preguntas-gisba",
+        "width": 305
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 382.15625,
+        "s": "#siguiente-paso",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 305
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 922.46875,
+        "s": ".site-footer",
+        "width": 305
+      }
+    ],
+    "brokenImages": [],
+    "client": 305,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1554.921875,
+    "shellWidth": 277,
+    "tabsVisible": true,
+    "viewport": 320,
+    "visiblePanels": [
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Consultas",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1077.359375,
+        "s": "#reportes",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 367.359375,
+        "s": "#preguntas-gisba",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 366.96875,
+        "s": "#siguiente-paso",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623,
+        "s": ".site-footer",
+        "width": 753
+      }
+    ],
+    "brokenImages": [],
+    "client": 753,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1516.890625,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 768,
+    "visiblePanels": [
+      "sc-panel-consultas"
+    ]
+  },
+  {
+    "view": "Conversación",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1077.359375,
+        "s": "#reportes",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 367.359375,
+        "s": "#preguntas-gisba",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 366.96875,
+        "s": "#siguiente-paso",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623,
+        "s": ".site-footer",
+        "width": 753
+      }
+    ],
+    "brokenImages": [],
+    "client": 753,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1470.765625,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 768,
+    "visiblePanels": [
+      "sc-panel-conversacion"
+    ]
+  },
+  {
+    "view": "Ficha",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1187.734375,
+        "s": ".os-hero",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 1077.359375,
+        "s": "#reportes",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 367.359375,
+        "s": "#preguntas-gisba",
+        "width": 753
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 366.96875,
+        "s": "#siguiente-paso",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 77,
+        "s": ".site-header",
+        "width": 753
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 623,
+        "s": ".site-footer",
+        "width": 753
+      }
+    ],
+    "brokenImages": [],
+    "client": 753,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1502.671875,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 768,
+    "visiblePanels": [
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Consultas",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722,
+        "s": ".os-hero",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 884.359375,
+        "s": "#reportes",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 345.109375,
+        "s": "#preguntas-gisba",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 393.25,
+        "s": "#siguiente-paso",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1184
+      }
+    ],
+    "brokenImages": [],
+    "client": 1184,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1516.890625,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 1199,
+    "visiblePanels": [
+      "sc-panel-consultas"
+    ]
+  },
+  {
+    "view": "Conversación",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722,
+        "s": ".os-hero",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 884.359375,
+        "s": "#reportes",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 345.109375,
+        "s": "#preguntas-gisba",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 393.25,
+        "s": "#siguiente-paso",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1184
+      }
+    ],
+    "brokenImages": [],
+    "client": 1184,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1470.765625,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 1199,
+    "visiblePanels": [
+      "sc-panel-conversacion"
+    ]
+  },
+  {
+    "view": "Ficha",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722,
+        "s": ".os-hero",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 884.359375,
+        "s": "#reportes",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 345.109375,
+        "s": "#preguntas-gisba",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 393.25,
+        "s": "#siguiente-paso",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1184
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1184
+      }
+    ],
+    "brokenImages": [],
+    "client": 1184,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 1502.671875,
+    "shellWidth": 700,
+    "tabsVisible": true,
+    "viewport": 1199,
+    "visiblePanels": [
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Desktop",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722,
+        "s": ".os-hero",
+        "width": 1185
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 884.4375,
+        "s": "#reportes",
+        "width": 1185
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 345.125,
+        "s": "#preguntas-gisba",
+        "width": 1185
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 393.375,
+        "s": "#siguiente-paso",
+        "width": 1185
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1185
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1185
+      }
+    ],
+    "brokenImages": [],
+    "client": 1185,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 897,
+    "shellWidth": 1121,
+    "tabsVisible": false,
+    "viewport": 1200,
+    "visiblePanels": [
+      "sc-panel-consultas",
+      "sc-panel-conversacion",
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Desktop",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 732.796875,
+        "s": ".os-hero",
+        "width": 1335
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 928.84375,
+        "s": "#reportes",
+        "width": 1335
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 349.453125,
+        "s": "#preguntas-gisba",
+        "width": 1335
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 406.5625,
+        "s": "#siguiente-paso",
+        "width": 1335
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1335
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1335
+      }
+    ],
+    "brokenImages": [],
+    "client": 1335,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 854.109375,
+    "shellWidth": 1271,
+    "tabsVisible": false,
+    "viewport": 1350,
+    "visiblePanels": [
+      "sc-panel-consultas",
+      "sc-panel-conversacion",
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Desktop",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "s": ".os-hero",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 908.953125,
+        "s": "#reportes",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 351.375,
+        "s": "#preguntas-gisba",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 414.46875,
+        "s": "#siguiente-paso",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1425
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1425
+      }
+    ],
+    "brokenImages": [],
+    "client": 1425,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 853.21875,
+    "shellWidth": 1329,
+    "tabsVisible": false,
+    "viewport": 1440,
+    "visiblePanels": [
+      "sc-panel-consultas",
+      "sc-panel-conversacion",
+      "sc-panel-ficha"
+    ]
+  },
+  {
+    "view": "Desktop",
+    "blocks": [
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 722.53125,
+        "s": ".os-hero",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 901.234375,
+        "s": "#reportes",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 351.375,
+        "s": "#preguntas-gisba",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(246, 243, 235)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 415.375,
+        "s": "#siguiente-paso",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 89,
+        "s": ".site-header",
+        "width": 1905
+      },
+      {
+        "bg": "rgb(11, 13, 11)",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "height": 468,
+        "s": ".site-footer",
+        "width": 1905
+      }
+    ],
+    "brokenImages": [],
+    "client": 1905,
+    "insideOverflow": [],
+    "pageOverflow": false,
+    "sectionHeight": 855.71875,
+    "shellWidth": 1440,
+    "tabsVisible": false,
+    "viewport": 1920,
+    "visiblePanels": [
+      "sc-panel-consultas",
+      "sc-panel-conversacion",
+      "sc-panel-ficha"
+    ]
+  }
+]

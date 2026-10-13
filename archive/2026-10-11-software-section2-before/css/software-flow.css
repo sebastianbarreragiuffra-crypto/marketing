@@ -1,0 +1,234 @@
+/* Consultas only. Conceptual interface; controls do not perform real actions. */
+#flujo-consultas { position: relative; isolation: isolate; overflow: hidden; padding: 52px 0 28px; background: radial-gradient(ellipse at 50% 65%, #edf7ff 0, #f7fcff 62%, #fff 100%); color: #071440; font-family: "DM Sans", Arial, sans-serif; scroll-margin-top: 88px; }
+#flujo-consultas::before { position: absolute; content: ""; z-index: -1; inset: 60% 0 0; pointer-events: none; background: #e4f2ff; clip-path: polygon(0 73%, 100% 20%, 100% 100%, 0 100%); }
+#flujo-consultas .cf-shell { width: min(100% - 112px, 1440px); margin-inline: auto; }
+#flujo-consultas .cf-symbols { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+#flujo-consultas .cf-icon { display: block; width: 24px; height: 24px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#flujo-consultas .cf-section-head { display: grid; grid-template-columns: minmax(0, .41fr) minmax(0, .59fr); gap: 32px; align-items: center; margin-bottom: 25px; }
+#flujo-consultas .cf-eyebrow { margin: 0 0 16px; color: #0769fb; font-size: 13px; line-height: 1.5; font-weight: 700; letter-spacing: .22em; }
+#flujo-consultas .cf-copy h2 { margin: 0 0 12px; color: #080e3d; font: 800 clamp(46px, 3.85vw, 58px)/1.01 Manrope, Arial, sans-serif; letter-spacing: -.065em; }
+#flujo-consultas .cf-lead { margin: 0; max-width: 550px; color: #1265ed; font-size: 21px; line-height: 1.3; letter-spacing: -.025em; }
+#flujo-consultas .cf-process { display: grid; grid-template-columns: 1fr 1fr 1.18fr; align-items: center; gap: 52px; list-style: none; margin: 0; padding: 0; }
+#flujo-consultas .cf-process li { position: relative; display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 0; min-height: 77px; padding: 11px; border: 1px solid #c4d9ff; border-radius: 17px; background: #ffffffaa; }
+#flujo-consultas .cf-process li + li::before { content: "→"; position: absolute; left: -41px; color: #0769fb; font-size: 34px; line-height: 1; font-weight: 400; }
+#flujo-consultas .cf-process strong { font-size: 16px; line-height: 1.3; font-weight: 700; letter-spacing: -.035em; }
+#flujo-consultas .cf-process-icon { display: grid; place-items: center; width: 46px; height: 46px; flex: none; border-radius: 50%; background: #e8f2ff; color: #0870f8; }
+#flujo-consultas .cf-process-icon .cf-icon { width: 29px; height: 29px; }
+#flujo-consultas .cf-process .cf-process-team { border-color: #c8ebc3; background: #f4fff0; }
+#flujo-consultas .cf-process-team .cf-process-icon { background: #289d35; color: #fff; }
+#flujo-consultas .cf-dashboard { margin: 0; }
+#flujo-consultas .cf-app { border: 1px solid #c6dcff; border-radius: 14px; background: #ffffffde; box-shadow: 0 16px 38px #5c9ae51b; }
+#flujo-consultas .cf-bar { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 26px; min-height: 66px; padding: 13px 18px; border-bottom: 1px solid #dce9fc; }
+#flujo-consultas .cf-brand { padding-right: 30px; border-right: 1px solid #aacaFF; color: #080e3d; font: 800 34px/1.1 Manrope, Arial, sans-serif; letter-spacing: -.065em; }
+#flujo-consultas .cf-brand > span { color: var(--lime); }
+#flujo-consultas .cf-bar h3 { margin: 0; font: 800 25px/1.2 Manrope, Arial, sans-serif; letter-spacing: -.045em; }
+#flujo-consultas .cf-example { padding: 9px 16px; border-radius: 9px; background: #e7f1ff; color: #1764e8; font-size: 13px; line-height: 1.4; white-space: nowrap; }
+#flujo-consultas .cf-body { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.5fr) minmax(0, 1fr); padding: 8px 0; }
+#flujo-consultas .cf-list-desktop { min-width: 0; padding: 8px 16px 0; }
+#flujo-consultas .cf-list-head { padding: 0 4px 10px; }
+#flujo-consultas .cf-list-head h4 { margin: 0 0 3px; font: 800 22px/1.25 Manrope, Arial, sans-serif; letter-spacing: -.04em; }
+#flujo-consultas .cf-list-head > p { margin: 0; color: #4174df; font-size: 15px; line-height: 1.5; }
+#flujo-consultas .cf-list { list-style: none; padding: 0; margin: 0; }
+#flujo-consultas .cf-client { display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: start; gap: 12px; min-width: 0; padding: 15px 4px; border-bottom: 1px solid #e1ebfc; }
+#flujo-consultas .cf-client:last-child { border-bottom: 0; }
+#flujo-consultas .cf-client.is-selected { margin: 0 -6px; padding-inline: 10px; border-color: transparent; background: #e9f3ff; }
+#flujo-consultas .cf-avatar { display: block; width: 56px; height: 56px; flex: none; border-radius: 50%; object-fit: cover; }
+#flujo-consultas .cf-client-title { display: flex; align-items: start; justify-content: space-between; flex-wrap: wrap; gap: 3px 8px; margin-bottom: 2px; }
+#flujo-consultas .cf-client-title > strong { font-size: 17px; line-height: 1.35; font-weight: 700; letter-spacing: -.025em; }
+#flujo-consultas .cf-client p, #flujo-consultas .cf-client time { margin: 0; color: #4174df; font-size: 14px; line-height: 1.35; }
+#flujo-consultas .cf-source { display: flex; align-items: center; gap: 7px; color: #4174df; }
+#flujo-consultas .cf-client .cf-source { margin-top: 4px; }
+#flujo-consultas .cf-origin-logo { display: block; width: 26px; height: 20px; flex: none; color: #0771ff; }
+#flujo-consultas .cf-origin-google { width: 22px; height: 22px; }
+#flujo-consultas .cf-state { display: inline-flex; align-items: center; justify-content: center; gap: 5px; flex: none; padding: 6px 11px; border-radius: 999px; font-size: 12px; line-height: 1.3; white-space: nowrap; }
+#flujo-consultas .cf-state-high { min-width: 65px; color: #b52b22; background: #ffe7e4; }
+#flujo-consultas .cf-state-waiting { color: #075bbf; background: #e8f2ff; }
+#flujo-consultas .cf-state-answered { color: #237b28; background: #ecfae9; }
+#flujo-consultas .cf-state-call { color: #9c5900; background: #fff3ce; }
+#flujo-consultas .cf-state-call .cf-icon { width: 13px; height: 13px; }
+#flujo-consultas .cf-conversation { display: flex; flex-direction: column; min-width: 0; padding: 4px 20px 6px; border-left: 1px solid #deebfc; }
+#flujo-consultas .cf-contact { display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: center; gap: 15px; padding-bottom: 12px; border-bottom: 1px solid #deebfc; }
+#flujo-consultas .cf-contact-copy { min-width: 0; }
+#flujo-consultas .cf-contact-title { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 15px; }
+#flujo-consultas .cf-contact h4 { margin: 0; font: 800 23px/1.3 Manrope, Arial, sans-serif; letter-spacing: -.04em; }
+#flujo-consultas .cf-contact .cf-source { margin: 4px 0 0; font-size: 14px; line-height: 1.4; letter-spacing: -.015em; }
+#flujo-consultas .cf-messages { display: grid; gap: 16px; flex: 1; padding: 10px 0 17px; }
+#flujo-consultas .cf-message-out { justify-self: end; max-width: 92%; min-width: 0; }
+#flujo-consultas .cf-message-meta { display: flex; align-items: center; gap: 7px; margin: 0 0 5px; color: #4174df; font-size: 13px; line-height: 1.5; }
+#flujo-consultas .cf-message-out .cf-message-meta { justify-content: end; }
+#flujo-consultas .cf-message-meta strong { color: #071440; font-weight: 700; }
+#flujo-consultas .cf-message-meta .cf-avatar { width: 32px; height: 32px; }
+#flujo-consultas .cf-bubble { margin: 0; padding: 11px 15px; border-radius: 14px; font-size: 16px; line-height: 1.45; letter-spacing: -.02em; }
+#flujo-consultas .cf-bubble-out { background: #e6f1ff; }
+#flujo-consultas .cf-bubble-in { background: #edf1f5; }
+#flujo-consultas .cf-attachment { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; align-items: center; gap: 10px; margin-top: 8px; padding: 10px 12px; border: 1px solid #c9ddff; border-radius: 9px; background: #fff; }
+#flujo-consultas .cf-pdf { display: grid; place-items: end center; width: 30px; height: 37px; padding-bottom: 7px; border-radius: 4px; background: #e63e35; color: #fff; font-size: 9px; line-height: 1; font-weight: 700; clip-path: polygon(0 0, 70% 0, 100% 24%, 100% 100%, 0 100%); }
+#flujo-consultas .cf-attachment strong { display: block; font-size: 15px; line-height: 1.4; letter-spacing: -.03em; }
+#flujo-consultas .cf-attachment div > span { display: block; color: #4174df; font-size: 12px; line-height: 1.4; }
+#flujo-consultas .cf-view-document { min-height: 44px; padding: 6px 0 6px 4px; border: 0; background: transparent; color: #1265ed; font: 500 12px/1.4 "DM Sans", Arial, sans-serif; white-space: nowrap; }
+#flujo-consultas button:disabled { opacity: 1; cursor: default; }
+#flujo-consultas .cf-message-in { display: grid; grid-template-columns: 40px minmax(0, 1fr); align-items: start; gap: 11px; max-width: 100%; }
+#flujo-consultas .cf-message-in > .cf-avatar { width: 40px; height: 40px; }
+#flujo-consultas .cf-composer { margin-top: auto; }
+#flujo-consultas .cf-composer label { display: block; margin-bottom: 7px; padding-top: 4px; color: #4174df; font-size: 15px; line-height: 1.4; }
+#flujo-consultas .cf-composer label > strong { color: #071440; font-weight: 700; }
+#flujo-consultas .cf-compose-box { padding: 8px 12px 10px; border: 1px solid #abcaff; border-radius: 10px; background: #fff; }
+#flujo-consultas .cf-compose-box textarea { display: block; width: 100%; min-height: 48px; margin: 0 0 8px; padding: 3px 0; resize: none; border: 0; outline-offset: 3px; background: transparent; color: #071440; font: 400 16px/1.4 "DM Sans", Arial, sans-serif; letter-spacing: -.025em; }
+#flujo-consultas .cf-compose-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+#flujo-consultas .cf-attach-button, #flujo-consultas .cf-send-button { display: inline-flex; justify-content: center; align-items: center; gap: 7px; min-height: 44px; padding: 8px 12px; font: 500 14px/1.3 "DM Sans", Arial, sans-serif; }
+#flujo-consultas .cf-attach-button { border: 1px solid #abcaff; border-radius: 9px; background: #fff; color: #1265ed; }
+#flujo-consultas .cf-attach-button .cf-icon { width: 20px; height: 20px; }
+#flujo-consultas .cf-send-button { min-width: 112px; border: 0; border-radius: 999px; background: var(--lime); color: #0b1800; font-size: 19px; font-weight: 700; }
+#flujo-consultas .cf-send-button .cf-icon { width: 24px; height: 24px; }
+#flujo-consultas .cf-record { min-width: 0; padding: 10px 17px 6px; border-left: 1px solid #deebfc; }
+#flujo-consultas .cf-record-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+#flujo-consultas .cf-record-identity { display: flex; align-items: center; gap: 8px; }
+#flujo-consultas .cf-record-identity > .cf-avatar { width: 32px; height: 32px; }
+#flujo-consultas .cf-record h4 { margin: 0; font: 800 22px/1.3 Manrope, Arial, sans-serif; letter-spacing: -.04em; }
+#flujo-consultas .cf-existing, #flujo-consultas .cf-existing-mobile { display: inline-block; padding: 7px 12px; border-radius: 999px; background: #e7f1ff; color: #1764e8; font-size: 12px; line-height: 1.4; white-space: nowrap; }
+#flujo-consultas .cf-facts { margin: 0; }
+#flujo-consultas .cf-facts > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.52fr); align-items: center; gap: 10px; min-height: 46px; padding: 9px 0; border-top: 1px solid #deebfc; font-size: 14px; line-height: 1.4; letter-spacing: -.015em; }
+#flujo-consultas .cf-facts dt { color: #4174df; }
+#flujo-consultas .cf-facts dd { margin: 0; }
+#flujo-consultas .cf-fact-owner dd { display: flex; align-items: center; gap: 9px; }
+#flujo-consultas .cf-facts .cf-avatar { width: 32px; height: 32px; }
+#flujo-consultas .cf-facts .cf-priority { color: #b52b22; }
+#flujo-consultas .cf-task { margin-top: 13px; padding: 12px; border: 1px solid #d0ebc7; border-radius: 12px; background: #f0fceb; }
+#flujo-consultas .cf-task h5 { margin: 0 0 12px; color: #132414; font-size: 18px; line-height: 1.3; font-weight: 700; letter-spacing: -.025em; }
+#flujo-consultas .cf-task-main { display: grid; grid-template-columns: 38px minmax(0, 1fr) auto; align-items: center; gap: 10px; }
+#flujo-consultas .cf-task-icon { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: #299d36; color: #fff; }
+#flujo-consultas .cf-task-main strong { display: block; font-size: 16px; line-height: 1.35; font-weight: 700; letter-spacing: -.025em; }
+#flujo-consultas .cf-task-main p { margin: 3px 0 0; color: #4174df; font-size: 13px; line-height: 1.4; }
+#flujo-consultas .cf-task-main > .cf-state { padding-inline: 10px; }
+#flujo-consultas .cf-caption { margin-top: 18px; text-align: center; color: #4174df; font-size: 13px; line-height: 1.5; }
+#flujo-consultas .cf-caption > span { display: block; margin-top: 3px; color: #657998; font-size: 11px; line-height: 1.5; }
+#flujo-consultas .cf-list-mobile, #flujo-consultas .cf-existing-mobile, #flujo-consultas .cf-origin-short, #flujo-consultas .cf-last-reply-mobile { display: none; }
+@media (max-width: 1280px) {
+  #flujo-consultas .cf-shell { width: calc(100% - 64px); }
+  #flujo-consultas .cf-section-head { grid-template-columns: minmax(0, .42fr) minmax(0, .58fr); gap: 24px; }
+  #flujo-consultas .cf-copy h2 { font-size: 48px; }
+  #flujo-consultas .cf-lead { font-size: 18px; }
+  #flujo-consultas .cf-process { gap: 30px; }
+  #flujo-consultas .cf-process li + li::before { left: -26px; font-size: 25px; }
+  #flujo-consultas .cf-process li { gap: 8px; padding: 9px; }
+  #flujo-consultas .cf-process strong { font-size: 14px; }
+  #flujo-consultas .cf-process-icon { width: 35px; height: 35px; }
+  #flujo-consultas .cf-process-icon .cf-icon { width: 24px; height: 24px; }
+  #flujo-consultas .cf-client { grid-template-columns: 44px minmax(0, 1fr); gap: 9px; }
+  #flujo-consultas .cf-client > .cf-avatar { width: 44px; height: 44px; }
+  #flujo-consultas .cf-client-title > strong { font-size: 16px; }
+  #flujo-consultas .cf-state { font-size: 11px; padding-inline: 9px; }
+  #flujo-consultas .cf-conversation { padding-inline: 14px; }
+  #flujo-consultas .cf-record { padding-inline: 13px; }
+  #flujo-consultas .cf-record h4 { font-size: 20px; }
+  #flujo-consultas .cf-facts > div { font-size: 13px; }
+  #flujo-consultas .cf-task-main { grid-template-columns: 32px minmax(0, 1fr); gap: 9px; }
+  #flujo-consultas .cf-task-icon { width: 32px; height: 32px; }
+  #flujo-consultas .cf-task-main > .cf-state { grid-column: 2; justify-self: start; }
+  #flujo-consultas .cf-task-main strong { font-size: 15px; }
+}
+@media (max-width: 1100px) {
+  #flujo-consultas .cf-section-head { grid-template-columns: 1fr; gap: 26px; }
+  #flujo-consultas .cf-copy { max-width: 680px; }
+  #flujo-consultas .cf-copy h2 { font-size: 52px; }
+  #flujo-consultas .cf-process { max-width: 880px; gap: 50px; }
+  #flujo-consultas .cf-process li + li::before { left: -39px; }
+  #flujo-consultas .cf-process strong { font-size: 16px; }
+  #flujo-consultas .cf-body { grid-template-columns: minmax(0, .78fr) minmax(0, 1.3fr); }
+  #flujo-consultas .cf-record { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: start; gap: 0 25px; padding: 20px; border-left: 0; border-top: 1px solid #deebfc; }
+  #flujo-consultas .cf-record-head { grid-column: 1; }
+  #flujo-consultas .cf-facts { grid-column: 1; }
+  #flujo-consultas .cf-task { grid-column: 2; grid-row: 1 / 3; margin: 0; }
+  #flujo-consultas .cf-task-main { grid-template-columns: 38px minmax(0, 1fr) auto; }
+  #flujo-consultas .cf-task-icon { width: 38px; height: 38px; }
+  #flujo-consultas .cf-task-main > .cf-state { grid-column: auto; }
+}
+@media (max-width: 700px) {
+  #flujo-consultas { padding: 24px 0 19px; scroll-margin-top: 76px; }
+  #flujo-consultas .cf-shell { width: calc(100% - 36px); }
+  #flujo-consultas .cf-section-head { display: block; margin-bottom: 16px; padding-inline: 6px; }
+  #flujo-consultas .cf-eyebrow { margin-bottom: 9px; font-size: 9px; line-height: 1.5; letter-spacing: .17em; }
+  #flujo-consultas .cf-copy h2 { font-size: clamp(29px, 8.7vw, 44px); line-height: 1.05; letter-spacing: -.06em; margin-bottom: 7px; }
+  #flujo-consultas .cf-lead { font-size: 15px; line-height: 1.25; letter-spacing: -.025em; }
+  #flujo-consultas .cf-process, #flujo-consultas .cf-list-desktop { display: none; }
+  #flujo-consultas .cf-app { border-radius: 11px; }
+  #flujo-consultas .cf-bar { gap: 12px; min-height: 47px; padding: 10px 12px; }
+  #flujo-consultas .cf-brand { padding-right: 13px; font-size: 24px; }
+  #flujo-consultas .cf-bar h3 { font-size: 16px; letter-spacing: -.05em; }
+  #flujo-consultas .cf-example { padding: 6px 8px; font-size: 9px; border-radius: 6px; }
+  #flujo-consultas .cf-body { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-areas: "list" "contact" "facts" "task" "messages" "last" "compose"; padding: 0 12px 12px; }
+  #flujo-consultas .cf-list-mobile { display: block; grid-area: list; margin: 0 -12px; border-bottom: 1px solid #deebfc; }
+  #flujo-consultas .cf-list-mobile summary { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 9px 12px; color: #4174df; font-size: 14px; line-height: 1.4; list-style: none; cursor: pointer; }
+  #flujo-consultas .cf-list-mobile summary::-webkit-details-marker { display: none; }
+  #flujo-consultas .cf-list-mobile summary > strong { color: #071440; font-weight: 700; }
+  #flujo-consultas .cf-list-mobile summary .cf-icon { width: 16px; height: 16px; color: #071440; }
+  #flujo-consultas .cf-list-mobile[open] summary .cf-icon { transform: rotate(-90deg); }
+  #flujo-consultas .cf-list-mobile summary:focus-visible { outline: 2px solid #1764e8; outline-offset: -4px; border-radius: 5px; }
+  #flujo-consultas .cf-list-mobile .cf-list { padding: 4px 12px 8px; }
+  #flujo-consultas .cf-client { grid-template-columns: 46px minmax(0, 1fr); padding-block: 12px; }
+  #flujo-consultas .cf-client > .cf-avatar { width: 46px; height: 46px; }
+  #flujo-consultas .cf-client p, #flujo-consultas .cf-client time { font-size: 13px; }
+  #flujo-consultas .cf-conversation, #flujo-consultas .cf-record { display: contents; }
+  #flujo-consultas .cf-contact { grid-area: contact; grid-template-columns: 56px minmax(0, 1fr); align-items: start; gap: 12px; padding: 12px 0 9px; }
+  #flujo-consultas .cf-contact-title { display: flex; flex-wrap: nowrap; gap: 8px; justify-content: space-between; align-items: center; }
+  #flujo-consultas .cf-contact h4 { font-size: 20px; letter-spacing: -.045em; }
+  #flujo-consultas .cf-contact .cf-state { padding: 6px 8px; font-size: 10px; }
+  #flujo-consultas .cf-contact .cf-state .cf-icon { width: 11px; height: 11px; }
+  #flujo-consultas .cf-existing-mobile { display: inline-block; padding: 4px 8px; margin-top: 4px; font-size: 11px; }
+  #flujo-consultas .cf-origin-desktop { display: none; }
+  #flujo-consultas .cf-origin-short { display: inline; }
+  #flujo-consultas .cf-contact .cf-source { font-size: 12px; margin-top: 5px; }
+  #flujo-consultas .cf-contact .cf-origin-logo { width: 24px; height: 18px; }
+  #flujo-consultas .cf-record-head, #flujo-consultas .cf-facts .cf-fact-owner, #flujo-consultas .cf-facts .cf-fact-last { display: none; }
+  #flujo-consultas .cf-facts { grid-area: facts; }
+  #flujo-consultas .cf-facts > div { grid-template-columns: 82px minmax(0, 1fr); gap: 8px; min-height: 33px; padding: 7px 0; font-size: 13px; }
+  #flujo-consultas .cf-facts > div:first-child { border-top: 0; }
+  #flujo-consultas .cf-task { grid-area: task; margin: 10px 0 8px; padding: 11px 12px; }
+  #flujo-consultas .cf-task h5 { font-size: 16px; margin-bottom: 9px; }
+  #flujo-consultas .cf-task-main { grid-template-columns: 40px minmax(0, 1fr) auto; gap: 10px; }
+  #flujo-consultas .cf-task-icon { width: 40px; height: 40px; }
+  #flujo-consultas .cf-task-main strong { font-size: 15px; }
+  #flujo-consultas .cf-task-main p { font-size: 12px; }
+  #flujo-consultas .cf-task-main > .cf-state { grid-column: auto; font-size: 11px; padding-inline: 10px; }
+  #flujo-consultas .cf-messages { grid-area: messages; gap: 15px; padding: 7px 0 10px; }
+  #flujo-consultas .cf-message-out { max-width: 100%; width: 100%; }
+  #flujo-consultas .cf-message-out .cf-message-meta { justify-content: start; }
+  #flujo-consultas .cf-message-meta { font-size: 12px; line-height: 1.4; }
+  #flujo-consultas .cf-message-meta .cf-avatar { width: 36px; height: 36px; }
+  #flujo-consultas .cf-message-out > .cf-bubble, #flujo-consultas .cf-attachment { margin-left: 44px; }
+  #flujo-consultas .cf-bubble { padding: 10px 12px; font-size: 14px; line-height: 1.4; border-radius: 12px; }
+  #flujo-consultas .cf-attachment { grid-template-columns: 26px minmax(0, 1fr) auto; gap: 8px; padding: 8px 9px; margin-top: 7px; }
+  #flujo-consultas .cf-pdf { width: 26px; height: 34px; font-size: 8px; }
+  #flujo-consultas .cf-attachment strong { font-size: 13px; }
+  #flujo-consultas .cf-attachment div > span { font-size: 10px; }
+  #flujo-consultas .cf-view-document { padding-left: 0; font-size: 10px; }
+  #flujo-consultas .cf-message-in { grid-template-columns: 38px minmax(0, 1fr); gap: 10px; }
+  #flujo-consultas .cf-message-in > .cf-avatar { width: 38px; height: 38px; }
+  #flujo-consultas .cf-last-reply-mobile { display: flex; align-items: center; gap: 6px; grid-area: last; margin: 0 0 9px; padding-top: 9px; border-top: 1px solid #deebfc; color: #6579a1; font-size: 11px; line-height: 1.5; }
+  #flujo-consultas .cf-last-reply-mobile .cf-icon { width: 15px; height: 15px; }
+  #flujo-consultas .cf-composer { grid-area: compose; }
+  #flujo-consultas .cf-composer label { margin-bottom: 7px; padding-top: 0; font-size: 14px; }
+  #flujo-consultas .cf-compose-box { padding: 9px 10px 10px; }
+  #flujo-consultas .cf-compose-box textarea { min-height: 58px; padding: 7px 10px; margin-bottom: 8px; border: 1px solid #b7cfff; border-radius: 8px; font-size: 14px; line-height: 1.4; }
+  #flujo-consultas .cf-compose-actions { gap: 10px; }
+  #flujo-consultas .cf-attach-button { padding: 8px 10px; font-size: 12px; }
+  #flujo-consultas .cf-send-button { min-width: 112px; min-height: 44px; padding: 8px 15px; font-size: 17px; }
+  #flujo-consultas .cf-send-button .cf-icon { width: 22px; height: 22px; }
+  #flujo-consultas .cf-caption { margin-top: 13px; font-size: 10px; line-height: 1.5; }
+  #flujo-consultas .cf-caption > span { max-width: 310px; margin: 4px auto 0; font-size: 9px; }
+}
+@media (max-width: 370px) {
+  #flujo-consultas .cf-bar { gap: 8px; padding-inline: 9px; }
+  #flujo-consultas .cf-brand { padding-right: 10px; font-size: 22px; }
+  #flujo-consultas .cf-bar h3 { font-size: 15px; }
+  #flujo-consultas .cf-example { padding-inline: 6px; font-size: 8px; }
+  #flujo-consultas .cf-contact { grid-template-columns: 48px minmax(0, 1fr); gap: 9px; }
+  #flujo-consultas .cf-contact > .cf-avatar { width: 48px; height: 48px; }
+  #flujo-consultas .cf-contact h4 { font-size: 18px; }
+  #flujo-consultas .cf-contact .cf-state { padding-inline: 6px; font-size: 9px; }
+  #flujo-consultas .cf-task-main { grid-template-columns: 36px minmax(0, 1fr) auto; gap: 8px; }
+  #flujo-consultas .cf-task-icon { width: 36px; height: 36px; }
+  #flujo-consultas .cf-task-main strong { font-size: 14px; }
+  #flujo-consultas .cf-attach-button { padding-inline: 8px; font-size: 11px; }
+  #flujo-consultas .cf-send-button { min-width: 96px; }
+}

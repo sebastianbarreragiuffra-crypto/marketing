@@ -1,0 +1,14 @@
+[
+  {
+    "name": "desktop",
+    "viewport": 1455,
+    "width": 1440,
+    "height": 4534
+  },
+  {
+    "name": "mobile",
+    "viewport": 405,
+    "width": 390,
+    "height": 7100
+  }
+]

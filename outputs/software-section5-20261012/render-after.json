@@ -1,0 +1,1462 @@
+[
+  {
+    "client": 1425,
+    "regions": {
+      ".gr-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 908.953125,
+          "padding": "56px 0px 48px",
+          "width": 1425
+        }
+      ],
+      ".offer-software-faq": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 351.375,
+          "padding": "24px 0px",
+          "width": 1425
+        }
+      ],
+      ".os-hero": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "grid",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 722.53125,
+          "padding": "80px 0px",
+          "width": 1425
+        }
+      ],
+      ".sa-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 825.375,
+          "padding": "56px 0px",
+          "width": 1425
+        }
+      ],
+      ".sc-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 853.21875,
+          "padding": "44px 0px 26px",
+          "width": 1425
+        }
+      ],
+      ".site-footer": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 468,
+          "padding": "0px",
+          "width": 1425
+        }
+      ],
+      ".site-header": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(255, 255, 255)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 89,
+          "padding": "0px",
+          "width": 1425
+        }
+      ],
+      ".sm-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 912.296875,
+          "padding": "48px 0px 44px",
+          "width": 1425
+        }
+      ]
+    },
+    "styles": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "54px",
+        "gap": "normal",
+        "height": 168.46875,
+        "padding": "0px",
+        "text": "Órbita gestionatu publicidad.Tú ves cada avance.",
+        "width": 481.875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "44.64px",
+        "gap": "normal",
+        "height": 149.953125,
+        "padding": "0px",
+        "text": "Cada consulta,con su contextoy próximo paso.",
+        "width": 389.6875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "43.92px",
+        "gap": "normal",
+        "height": 147.5625,
+        "padding": "0px",
+        "text": "Tus clientes preguntan.El asistente comienzala atención.",
+        "width": 503.8125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "52.56px",
+        "gap": "normal",
+        "height": 58.859375,
+        "padding": "0px",
+        "text": "Nos encargamos de tu publicidad.",
+        "width": 1134
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "48.24px",
+        "gap": "normal",
+        "height": 56.90625,
+        "padding": "0px",
+        "text": "Tus resultados, claros y a la vista.",
+        "width": 1012.625
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "34px",
+        "gap": "normal",
+        "height": 40.796875,
+        "padding": "0px",
+        "text": "Antes de utilizar GISBA",
+        "width": 1265
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "inline-flex",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "27px",
+        "gap": "12px",
+        "height": 38,
+        "padding": "0px",
+        "text": "✳ÓRBITA.",
+        "width": 142.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "MarketingDelega tus campañas",
+        "width": 385.578125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "SoftwareOrganiza tus consultas",
+        "width": 385.578125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "Desarrollo WebServicio por proyecto · alcance por acordar→",
+        "width": 385.578125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "none",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 0,
+        "padding": "15px 0px",
+        "text": "AutomatizacionesConecta tus procesos",
+        "width": 0
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Inicio",
+        "width": 289.171875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Precios",
+        "width": 289.171875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Iniciar sesión",
+        "width": 289.171875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "12px",
+        "gap": "12px",
+        "height": 44,
+        "padding": "0px",
+        "text": "Volver arriba",
+        "width": 97.84375
+      }
+    ],
+    "viewport": 1440
+  },
+  {
+    "client": 1905,
+    "regions": {
+      ".gr-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 901.234375,
+          "padding": "56px 0px 48px",
+          "width": 1905
+        }
+      ],
+      ".offer-software-faq": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 351.375,
+          "padding": "24px 0px",
+          "width": 1905
+        }
+      ],
+      ".os-hero": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "grid",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 722.53125,
+          "padding": "80px 0px",
+          "width": 1905
+        }
+      ],
+      ".sa-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 832.359375,
+          "padding": "56px 0px",
+          "width": 1905
+        }
+      ],
+      ".sc-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 855.71875,
+          "padding": "44px 0px 26px",
+          "width": 1905
+        }
+      ],
+      ".site-footer": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 468,
+          "padding": "0px",
+          "width": 1905
+        }
+      ],
+      ".site-header": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(255, 255, 255)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 89,
+          "padding": "0px",
+          "width": 1905
+        }
+      ],
+      ".sm-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 916.15625,
+          "padding": "48px 0px 44px",
+          "width": 1905
+        }
+      ]
+    },
+    "styles": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "54px",
+        "gap": "normal",
+        "height": 168.46875,
+        "padding": "0px",
+        "text": "Órbita gestionatu publicidad.Tú ves cada avance.",
+        "width": 523.5
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "46px",
+        "gap": "normal",
+        "height": 154.546875,
+        "padding": "0px",
+        "text": "Cada consulta,con su contextoy próximo paso.",
+        "width": 423
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "46px",
+        "gap": "normal",
+        "height": 154.546875,
+        "padding": "0px",
+        "text": "Tus clientes preguntan.El asistente comienzala atención.",
+        "width": 562.875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "56px",
+        "gap": "normal",
+        "height": 62.71875,
+        "padding": "0px",
+        "text": "Nos encargamos de tu publicidad.",
+        "width": 1245
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "49px",
+        "gap": "normal",
+        "height": 57.8125,
+        "padding": "0px",
+        "text": "Tus resultados, claros y a la vista.",
+        "width": 1187.625
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "34px",
+        "gap": "normal",
+        "height": 40.796875,
+        "padding": "0px",
+        "text": "Antes de utilizar GISBA",
+        "width": 1440
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "inline-flex",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "27px",
+        "gap": "12px",
+        "height": 38,
+        "padding": "0px",
+        "text": "✳ÓRBITA.",
+        "width": 142.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "MarketingDelega tus campañas",
+        "width": 395.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "SoftwareOrganiza tus consultas",
+        "width": 395.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "Desarrollo WebServicio por proyecto · alcance por acordar→",
+        "width": 395.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "none",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 0,
+        "padding": "15px 0px",
+        "text": "AutomatizacionesConecta tus procesos",
+        "width": 0
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Inicio",
+        "width": 296.703125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Precios",
+        "width": 296.703125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Iniciar sesión",
+        "width": 296.703125
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "12px",
+        "gap": "12px",
+        "height": 44,
+        "padding": "0px",
+        "text": "Volver arriba",
+        "width": 97.84375
+      }
+    ],
+    "viewport": 1920
+  },
+  {
+    "client": 753,
+    "regions": {
+      ".gr-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1077.359375,
+          "padding": "56px 0px 48px",
+          "width": 753
+        }
+      ],
+      ".offer-software-faq": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 367.359375,
+          "padding": "24px 0px",
+          "width": 753
+        }
+      ],
+      ".os-hero": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "grid",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1187.734375,
+          "padding": "40px 0px 44px",
+          "width": 753
+        }
+      ],
+      ".sa-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1785.28125,
+          "padding": "40px 0px",
+          "width": 753
+        }
+      ],
+      ".sc-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1516.890625,
+          "padding": "40px 0px 34px",
+          "width": 753
+        }
+      ],
+      ".site-footer": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 623,
+          "padding": "0px",
+          "width": 753
+        }
+      ],
+      ".site-header": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(255, 255, 255)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 77,
+          "padding": "0px",
+          "width": 753
+        }
+      ],
+      ".sm-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1214.921875,
+          "padding": "40px 0px",
+          "width": 753
+        }
+      ]
+    },
+    "styles": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "46px",
+        "gap": "normal",
+        "height": 143.484375,
+        "padding": "0px",
+        "text": "Órbita gestionatu publicidad.Tú ves cada avance.",
+        "width": 680
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "44px",
+        "gap": "normal",
+        "height": 147.796875,
+        "padding": "0px",
+        "text": "Cada consulta,con su contextoy próximo paso.",
+        "width": 700
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "40px",
+        "gap": "normal",
+        "height": 134.390625,
+        "padding": "0px",
+        "text": "Tus clientes preguntan.El asistente comienzala atención.",
+        "width": 700
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "44px",
+        "gap": "normal",
+        "height": 98.53125,
+        "padding": "0px",
+        "text": "Nos encargamos de tu publicidad.",
+        "width": 700
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "34px",
+        "gap": "normal",
+        "height": 80.21875,
+        "padding": "0px",
+        "text": "Tus resultados, claros y a la vista.",
+        "width": 436.625
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "26px",
+        "gap": "normal",
+        "height": 31.1875,
+        "padding": "0px",
+        "text": "Antes de utilizar GISBA",
+        "width": 593
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "27px",
+        "gap": "12px",
+        "height": 38,
+        "padding": "0px",
+        "text": "✳ÓRBITA.",
+        "width": 142.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "MarketingDelega tus campañas",
+        "width": 355.6875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "SoftwareOrganiza tus consultas",
+        "width": 355.6875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 77,
+        "padding": "15px 0px",
+        "text": "Desarrollo WebServicio por proyecto · alcance por acordar→",
+        "width": 355.6875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "none",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 0,
+        "padding": "15px 0px",
+        "text": "AutomatizacionesConecta tus procesos",
+        "width": 0
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Inicio",
+        "width": 309.296875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Precios",
+        "width": 309.296875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Iniciar sesión",
+        "width": 309.296875
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "12px",
+        "gap": "12px",
+        "height": 44,
+        "padding": "0px",
+        "text": "Volver arriba",
+        "width": 97.84375
+      }
+    ],
+    "viewport": 768
+  },
+  {
+    "client": 375,
+    "regions": {
+      ".gr-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1760.1875,
+          "padding": "32px 0px",
+          "width": 375
+        }
+      ],
+      ".offer-software-faq": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 466.140625,
+          "padding": "24px 0px",
+          "width": 375
+        }
+      ],
+      ".os-hero": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "grid",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1152.859375,
+          "padding": "34px 0px 44px",
+          "width": 375
+        }
+      ],
+      ".sa-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1672.4375,
+          "padding": "32px 0px",
+          "width": 375
+        }
+      ],
+      ".sc-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1469.40625,
+          "padding": "32px 0px 28px",
+          "width": 375
+        }
+      ],
+      ".site-footer": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 848.140625,
+          "padding": "0px",
+          "width": 375
+        }
+      ],
+      ".site-header": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(255, 255, 255)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 77,
+          "padding": "0px",
+          "width": 375
+        }
+      ],
+      ".sm-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1220.59375,
+          "padding": "32px 0px",
+          "width": 375
+        }
+      ]
+    },
+    "styles": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "39px",
+        "gap": "normal",
+        "height": 126.328125,
+        "padding": "0px",
+        "text": "Órbita gestionatu publicidad.Tú ves cada avance.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "34.32px",
+        "gap": "normal",
+        "height": 118.359375,
+        "padding": "0px",
+        "text": "Cada consulta,con su contextoy próximo paso.",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "31.2px",
+        "gap": "normal",
+        "height": 107.625,
+        "padding": "0px",
+        "text": "Tus clientes preguntan.El asistente comienzala atención.",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "35.88px",
+        "gap": "normal",
+        "height": 81.78125,
+        "padding": "0px",
+        "text": "Nos encargamos de tu publicidad.",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "32px",
+        "gap": "normal",
+        "height": 75.5,
+        "padding": "0px",
+        "text": "Tus resultados, claros y a la vista.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "26px",
+        "gap": "normal",
+        "height": 31.1875,
+        "padding": "0px",
+        "text": "Antes de utilizar GISBA",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "inline-flex",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "27px",
+        "gap": "12px",
+        "height": 38,
+        "padding": "0px",
+        "text": "✳ÓRBITA.",
+        "width": 142.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "MarketingDelega tus campañas",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "SoftwareOrganiza tus consultas",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "Desarrollo WebServicio por proyecto · alcance por acordar→",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "none",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 0,
+        "padding": "12px 0px",
+        "text": "AutomatizacionesConecta tus procesos",
+        "width": 0
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Inicio",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Precios",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Iniciar sesión",
+        "width": 339
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "12px",
+        "gap": "12px",
+        "height": 44,
+        "padding": "0px",
+        "text": "Volver arriba",
+        "width": 97.84375
+      }
+    ],
+    "viewport": 390
+  },
+  {
+    "client": 360,
+    "regions": {
+      ".gr-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1760.1875,
+          "padding": "32px 0px",
+          "width": 360
+        }
+      ],
+      ".offer-software-faq": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 491.734375,
+          "padding": "24px 0px",
+          "width": 360
+        }
+      ],
+      ".os-hero": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "grid",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1165.421875,
+          "padding": "34px 0px 44px",
+          "width": 360
+        }
+      ],
+      ".sa-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1686.4375,
+          "padding": "32px 0px",
+          "width": 360
+        }
+      ],
+      ".sc-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1464.859375,
+          "padding": "32px 0px 28px",
+          "width": 360
+        }
+      ],
+      ".site-footer": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(246, 243, 235)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 848.140625,
+          "padding": "0px",
+          "width": 360
+        }
+      ],
+      ".site-header": [
+        {
+          "background": "rgb(11, 13, 11)",
+          "color": "rgb(255, 255, 255)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 77,
+          "padding": "0px",
+          "width": 360
+        }
+      ],
+      ".sm-section": [
+        {
+          "background": "rgb(246, 243, 235)",
+          "color": "rgb(11, 13, 11)",
+          "display": "block",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "gap": "normal",
+          "height": 1257.265625,
+          "padding": "32px 0px",
+          "width": 360
+        }
+      ]
+    },
+    "styles": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "37.5px",
+        "gap": "normal",
+        "height": 121.5,
+        "padding": "0px",
+        "text": "Órbita gestionatu publicidad.Tú ves cada avance.",
+        "width": 328
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "33px",
+        "gap": "normal",
+        "height": 113.8125,
+        "padding": "0px",
+        "text": "Cada consulta,con su contextoy próximo paso.",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "30px",
+        "gap": "normal",
+        "height": 103.5,
+        "padding": "0px",
+        "text": "Tus clientes preguntan.El asistente comienzala atención.",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, sans-serif",
+        "fontSize": "34.5px",
+        "gap": "normal",
+        "height": 78.65625,
+        "padding": "0px",
+        "text": "Nos encargamos de tu publicidad.",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "32px",
+        "gap": "normal",
+        "height": 75.5,
+        "padding": "0px",
+        "text": "Tus resultados, claros y a la vista.",
+        "width": 328
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(11, 13, 11)",
+        "display": "block",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "26px",
+        "gap": "normal",
+        "height": 31.1875,
+        "padding": "0px",
+        "text": "Antes de utilizar GISBA",
+        "width": 328
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "inline-flex",
+        "font": "Manrope, Arial, sans-serif",
+        "fontSize": "27px",
+        "gap": "12px",
+        "height": 38,
+        "padding": "0px",
+        "text": "✳ÓRBITA.",
+        "width": 142.59375
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "MarketingDelega tus campañas",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "SoftwareOrganiza tus consultas",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 71,
+        "padding": "12px 0px",
+        "text": "Desarrollo WebServicio por proyecto · alcance por acordar→",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "none",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "16px",
+        "gap": "16px",
+        "height": 0,
+        "padding": "12px 0px",
+        "text": "AutomatizacionesConecta tus procesos",
+        "width": 0
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Inicio",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Precios",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "14px",
+        "gap": "16px",
+        "height": 44,
+        "padding": "10px 0px",
+        "text": "Iniciar sesión",
+        "width": 324
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(246, 243, 235)",
+        "display": "flex",
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "fontSize": "12px",
+        "gap": "12px",
+        "height": 44,
+        "padding": "0px",
+        "text": "Volver arriba",
+        "width": 97.84375
+      }
+    ],
+    "viewport": 375
+  }
+]

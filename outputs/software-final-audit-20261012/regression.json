@@ -1,0 +1,11 @@
+{
+  "h1_unchanged": true,
+  "dashboard_and_terms_unchanged": true,
+  "cards_closing_footer_unchanged_except_contact_metadata": true,
+  "footer_unchanged": true,
+  "other_pages_or_sources_changed_concurrently": [
+    "precios.html",
+    "css/pricing-comparison-20261011.css"
+  ],
+  "other_pages_edited_by_this_audit": false
+}

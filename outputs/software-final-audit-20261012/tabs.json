@@ -1,0 +1,425 @@
+[
+  {
+    "active": "sc-tab-consultas",
+    "panels": [
+      {
+        "bottom": 650.625,
+        "hidden": false,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 89.71875,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 768
+  },
+  {
+    "active": "sc-tab-conversacion",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 604.5,
+        "hidden": false,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 89.71875,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 768
+  },
+  {
+    "active": "sc-tab-ficha",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 636.40625,
+        "hidden": false,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 89.71875,
+        "visible": true
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "true",
+        "tabIndex": 0
+      }
+    ],
+    "width": 768
+  },
+  {
+    "active": "sc-tab-consultas",
+    "panels": [
+      {
+        "bottom": 618.765625,
+        "hidden": false,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 89.84375,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 390
+  },
+  {
+    "active": "sc-tab-conversacion",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 680.625,
+        "hidden": false,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 89.84375,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 390
+  },
+  {
+    "active": "sc-tab-ficha",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 667.53125,
+        "hidden": false,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 89.84375,
+        "visible": true
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "true",
+        "tabIndex": 0
+      }
+    ],
+    "width": 390
+  },
+  {
+    "active": "sc-tab-consultas",
+    "panels": [
+      {
+        "bottom": 618.78125,
+        "hidden": false,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 89.859375,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 375
+  },
+  {
+    "active": "sc-tab-conversacion",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 680.640625,
+        "hidden": false,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 89.859375,
+        "visible": true
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "true",
+        "tabIndex": 0
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "false",
+        "tabIndex": -1
+      }
+    ],
+    "width": 375
+  },
+  {
+    "active": "sc-tab-ficha",
+    "panels": [
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-consultas",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 0,
+        "hidden": true,
+        "id": "sc-panel-conversacion",
+        "role": "tabpanel",
+        "top": 0,
+        "visible": false
+      },
+      {
+        "bottom": 667.546875,
+        "hidden": false,
+        "id": "sc-panel-ficha",
+        "role": "tabpanel",
+        "top": 89.859375,
+        "visible": true
+      }
+    ],
+    "tabs": [
+      {
+        "id": "sc-tab-consultas",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-conversacion",
+        "selected": "false",
+        "tabIndex": -1
+      },
+      {
+        "id": "sc-tab-ficha",
+        "selected": "true",
+        "tabIndex": 0
+      }
+    ],
+    "width": 375
+  }
+]
