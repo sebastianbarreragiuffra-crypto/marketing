@@ -1,0 +1,39 @@
+{
+  "photo": {
+    "source": "Built-in image_gen; reference supplied by the user",
+    "original": "C:/Users/SEBAS/.codex/generated_images/01a0fc39-6f98-7602-b4e8-5bcd07e3792f/exec-77c38b1a-ac9a-4aff-97c6-d3be4a01e091.png",
+    "prompt": "Create a standalone photorealistic office furniture photograph using ONLY the office photo inside the supplied website mockup as the visual reference. Output is an individual photo asset for an illustrative furniture advertisement, NOT a website mockup. Closely preserve the reference interior: two warm natural oak rectangular office desks, black ergonomic rolling chair, open black laptop on desk, small wooden shelving unit, plants, neutral beige plaster walls and floor, warm afternoon window light with diagonal shadows. Front three-quarter viewpoint, furniture fills the bottom two thirds, uncluttered beige wall at upper left. Portrait 4:5 composition that also supports a landscape crop; keep desks and black chair recognizable when cropped. Crisp realistic oak grain, natural perspective. No people, no words or typography, no interface, no frame, no logos, no watermark, no badges, no buttons. Remove all text and UI from the reference; reproduce just the clean office photo, edge to edge.",
+    "variants": [
+      {
+        "path": "assets/hero-cotizacion/escritorios-400.webp",
+        "dimensions": [
+          400,
+          500
+        ],
+        "bytes": 34162
+      },
+      {
+        "path": "assets/hero-cotizacion/escritorios-800.webp",
+        "dimensions": [
+          800,
+          1000
+        ],
+        "bytes": 95356
+      }
+    ],
+    "role": "Photographic illustration; not evidence of client work",
+    "priority": "eager; one high-priority image; width/height and aspect ratio reserved"
+  },
+  "avatars": {
+    "source": "Existing fictional profile assets in assets/software-consultas",
+    "files": [
+      "cliente-03.webp",
+      "ana.webp"
+    ],
+    "render": "40px desktop / 36px mobile; no source upscaling"
+  },
+  "retainedShared": [
+    "assets/hero/packaging-products.webp",
+    "assets/hero/packaging-process.webp"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "desktop-1440-first-screen.png": {
+    "width": 1440,
+    "height": 810,
+    "bytes": 392923
+  },
+  "desktop-1440.png": {
+    "width": 1440,
+    "height": 810,
+    "bytes": 392313
+  },
+  "desktop-1920.png": {
+    "width": 1920,
+    "height": 896,
+    "bytes": 578837
+  },
+  "desktop-768.png": {
+    "width": 768,
+    "height": 793,
+    "bytes": 211898
+  },
+  "mobile-320-campaign.png": {
+    "width": 320,
+    "height": 1024,
+    "bytes": 180151
+  },
+  "mobile-320-software.png": {
+    "width": 320,
+    "height": 1024,
+    "bytes": 155403
+  },
+  "mobile-360-campaign.png": {
+    "width": 360,
+    "height": 994,
+    "bytes": 169447
+  },
+  "mobile-360-software.png": {
+    "width": 360,
+    "height": 994,
+    "bytes": 135214
+  },
+  "mobile-390-campaign.png": {
+    "width": 390,
+    "height": 990,
+    "bytes": 184871
+  },
+  "mobile-390-software.png": {
+    "width": 390,
+    "height": 990,
+    "bytes": 141021
+  }
+}

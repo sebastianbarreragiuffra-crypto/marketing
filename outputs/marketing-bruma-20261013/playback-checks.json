@@ -1,0 +1,561 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 0,
+      "duration": null,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        0,
+        0
+      ],
+      "audioBytes": 0,
+      "videoBytes": 0,
+      "frameCount": 0,
+      "error": null,
+      "focus": false,
+      "focusVisible": false,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": false,
+      "overflow": false
+    },
+    "playing": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 1.050667,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 25800,
+      "videoBytes": 699242,
+      "frameCount": 35,
+      "error": null,
+      "focus": true,
+      "focusVisible": true,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "audioPeak": 0.06872771680355072,
+    "overlayFocus": {
+      "visible": true,
+      "outline": "3px"
+    },
+    "keyboardPause": true,
+    "nativeMuteControl": "silenciar",
+    "nativeUnmuteControl": "activar sonido",
+    "nativeResumeControl": "reproducir",
+    "paused": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 1.618667,
+      "duration": 10,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 37322,
+      "videoBytes": 855245,
+      "frameCount": 52,
+      "error": null,
+      "focus": true,
+      "focusVisible": true,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "resized": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 2.277333,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 50796,
+      "videoBytes": 973482,
+      "frameCount": 72,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 425.5,
+      "playerHeight": 427.5,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "middle": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 4.816,
+      "duration": 10,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 102773,
+      "videoBytes": 1730120,
+      "frameCount": 148,
+      "error": null,
+      "focus": true,
+      "focusVisible": true,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "ended": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 10,
+      "duration": 10,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 202175,
+      "videoBytes": 2311299,
+      "frameCount": 300,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "replay": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "time": 0.269143,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        832,
+        1040
+      ],
+      "audioBytes": 212180,
+      "videoBytes": 2627255,
+      "frameCount": 312,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 523,
+      "playerHeight": 525,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+        "type": "image"
+      },
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+        "type": "media"
+      }
+    ],
+    "events": [
+      {
+        "event": "play",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "loadedmetadata",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 0.018667,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 1.618667,
+        "muted": false
+      },
+      {
+        "event": "volumechange",
+        "time": 1.618667,
+        "muted": true
+      },
+      {
+        "event": "volumechange",
+        "time": 1.618667,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 1.618667,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 1.618667,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 4.816,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 4.816,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 4.816,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 10,
+        "muted": false
+      },
+      {
+        "event": "ended",
+        "time": 10,
+        "muted": false
+      },
+      {
+        "event": "seeking",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "seeked",
+        "time": 0.005555,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 0.005647,
+        "muted": false
+      }
+    ],
+    "errors": [],
+    "perceptualAudio": "NOT VERIFIED: headless Chrome verifies decoding and signal; no physical speaker listening"
+  },
+  {
+    "width": 390,
+    "initial": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 0,
+      "duration": null,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        0,
+        0
+      ],
+      "audioBytes": 0,
+      "videoBytes": 0,
+      "frameCount": 0,
+      "error": null,
+      "focus": false,
+      "focusVisible": false,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": false,
+      "overflow": false
+    },
+    "playing": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 1.04,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 25800,
+      "videoBytes": 576669,
+      "frameCount": 35,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "audioPeak": 0.07125227153301239,
+    "keyboardPause": true,
+    "nativeMuteControl": "silenciar",
+    "nativeUnmuteControl": "activar sonido",
+    "nativeResumeControl": "reproducir",
+    "paused": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 1.6,
+      "duration": 10,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 36859,
+      "videoBytes": 702065,
+      "frameCount": 52,
+      "error": null,
+      "focus": true,
+      "focusVisible": true,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "resized": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 2.12,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 47319,
+      "videoBytes": 791702,
+      "frameCount": 68,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 744.65625,
+      "playerHeight": 746.65625,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "middle": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 4.808,
+      "duration": 10,
+      "paused": true,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 102328,
+      "videoBytes": 1453003,
+      "frameCount": 149,
+      "error": null,
+      "focus": true,
+      "focusVisible": true,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "ended": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 10,
+      "duration": 10,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 202175,
+      "videoBytes": 1902074,
+      "frameCount": 300,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "replay": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "time": 0.261333,
+      "duration": 10,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "dim": [
+        720,
+        1280
+      ],
+      "audioBytes": 212180,
+      "videoBytes": 2158832,
+      "frameCount": 312,
+      "error": null,
+      "focus": true,
+      "focusVisible": false,
+      "height": 606,
+      "playerHeight": 608,
+      "overlayHidden": true,
+      "overflow": false
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+        "type": "image"
+      },
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+        "type": "media"
+      }
+    ],
+    "events": [
+      {
+        "event": "play",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "loadedmetadata",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 0.010667,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 1.6,
+        "muted": false
+      },
+      {
+        "event": "volumechange",
+        "time": 1.6,
+        "muted": true
+      },
+      {
+        "event": "volumechange",
+        "time": 1.6,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 1.6,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 1.6,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 4.808,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 4.818667,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 4.818667,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 10,
+        "muted": false
+      },
+      {
+        "event": "ended",
+        "time": 10,
+        "muted": false
+      },
+      {
+        "event": "seeking",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "play",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "seeked",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "playing",
+        "time": 0,
+        "muted": false
+      },
+      {
+        "event": "pause",
+        "time": 0.269333,
+        "muted": false
+      }
+    ],
+    "errors": [],
+    "perceptualAudio": "NOT VERIFIED: headless Chrome verifies decoding and signal; no physical speaker listening"
+  }
+]

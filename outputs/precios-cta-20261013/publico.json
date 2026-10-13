@@ -1,0 +1,22 @@
+{
+  "local": {
+    "/precios.html": {
+      "status": 200,
+      "cta_and_inline_styles": true
+    },
+    "/css/precios-hablemos.css": {
+      "status": 200
+    },
+    "/__site.json": {
+      "status": 200
+    }
+  },
+  "public": {
+    "status": 200,
+    "new_cta": true,
+    "inline_styles": true
+  },
+  "visual_browser": "PENDIENTE: local kernel failed twice; TinyFish had insufficient credit and did not start.",
+  "version": "f63843aefaba95a40fe79d5feeaa1ffd4d444d76ceb7419a699feba1e75d1038",
+  "url": "https://href-mapping-harvey-intro.trycloudflare.com/precios.html#cierre-precios"
+}

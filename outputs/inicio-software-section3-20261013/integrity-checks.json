@@ -1,0 +1,98 @@
+{
+  "outsideSectionByteIdentical": true,
+  "previousFilesChanged": [
+    "index.html"
+  ],
+  "otherPagesAndExistingStylesPreserved": true,
+  "duplicateIds": [],
+  "contrast": [
+    {
+      "text": "#10164c",
+      "background": "#ffffff",
+      "ratio": 16.92
+    },
+    {
+      "text": "#5363a0",
+      "background": "#ffffff",
+      "ratio": 5.74
+    },
+    {
+      "text": "#5363a0",
+      "background": "#f0edff",
+      "ratio": 4.99
+    },
+    {
+      "text": "#5422de",
+      "background": "#e7dfff",
+      "ratio": 6.16
+    },
+    {
+      "text": "#78490d",
+      "background": "#fff0d7",
+      "ratio": 6.78
+    },
+    {
+      "text": "#246223",
+      "background": "#e0fbd8",
+      "ratio": 6.66
+    },
+    {
+      "text": "#a34308",
+      "background": "#ffffff",
+      "ratio": 6.24
+    },
+    {
+      "text": "#c7f45b",
+      "background": "#0b0d0b",
+      "ratio": 15.34
+    },
+    {
+      "text": "#d5d7cd",
+      "background": "#0b0d0b",
+      "ratio": 13.4
+    },
+    {
+      "text": "#e4e4dd",
+      "background": "#0b0d0b",
+      "ratio": 15.27
+    }
+  ],
+  "captures": [
+    {
+      "file": "section-1440.png",
+      "dimensions": [
+        1440,
+        846
+      ]
+    },
+    {
+      "file": "section-1920.png",
+      "dimensions": [
+        1920,
+        848
+      ]
+    },
+    {
+      "file": "section-320.png",
+      "dimensions": [
+        320,
+        1588
+      ]
+    },
+    {
+      "file": "section-390.png",
+      "dimensions": [
+        390,
+        1402
+      ]
+    }
+  ],
+  "logo": {
+    "file": "assets/home-software-section3/gisba-logo-reference.png",
+    "source": "User-supplied mobile reference, logo-only extraction, not redrawn",
+    "size": [
+      157,
+      43
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "objective": "Implement only the approved Inicio hero, preserving lower content and navigation",
+  "result": "COMPLETE — local visual implementation; no release",
+  "reviewMode": "SAME_AGENT; no independent reviewer or user test",
+  "webmasterVersion": "2.11.0",
+  "authorizedBy": "Current user prompt and supplied desktop/mobile references",
+  "controls": {
+    "layout": "VERIFICADO at 1440,1920,390,320 plus breakpoint/intermediate widths",
+    "images": "VERIFICADO: loaded; responsive WebP; 800w selected at DPR2; editable interface text",
+    "motion": "VERIFICADO: old hero carousel removed; stable visual; reduced-motion and no-JS hero preserved",
+    "mobileAccessibility": "VERIFICADO for tested scope: 14px minimum essential UI/terms; 17px mobile support; one 48+px CTA; menu/Escape/Tab/focus; not a complete WCAG certification",
+    "SEO": "VERIFICADO for local affected scope: one H1, semantic content, alt text, valid links; existing title/description unchanged",
+    "performance": "VERIFICADO resource budget/reserved dimensions/no new JS; real Core Web Vitals and cross-browser Safari NOT VERIFIED",
+    "regression": "VERIFICADO: lower HTML and header navigation identical; concurrent Marketing changes preserved",
+    "contact": "PENDIENTE: destination navigation verified; form still non-sending preview; no submission or reservation attempted",
+    "release": "NO APLICA: publication/deploy/commit/push prohibited and not performed"
+  },
+  "prioritiesCompleted": [
+    "Separate agency advertising from human customer follow-up",
+    "Use explicit inclusions and one real CTA",
+    "Own mobile order, editable text and a sharp/light photo"
+  ],
+  "pending": [
+    "Actual reception/reservation on Hablemos",
+    "Technical operation and integrations of GISBA not audited by this illustrative view",
+    "Existing FAQ still describes the bot as proposed; outside this hero-only authorization",
+    "Field performance/conversion and Safari testing not performed"
+  ],
+  "preserved": "All sections after hero and all navigation links byte-identical; other pages not edited by this task",
+  "filesChanged": [
+    "index.html",
+    "css/home-hero-cotizacion-20261013.css",
+    "assets/hero-cotizacion/escritorios-400.webp",
+    "assets/hero-cotizacion/escritorios-800.webp",
+    "site-manifest.json"
+  ],
+  "retiredToArchive": [
+    "css/home-hero-v6.css",
+    "js/home-hero-v6.js"
+  ],
+  "archive": "archive/2026-10-13-inicio-hero-cotizacion-before",
+  "screenshots": {
+    "hero-cotizacion-1440.png": [
+      1440,
+      810
+    ],
+    "hero-1920.png": [
+      1920,
+      810
+    ],
+    "hero-390.png": [
+      390,
+      1485
+    ],
+    "hero-320.png": [
+      320,
+      1508
+    ]
+  },
+  "colorChecks": {
+    "CTA black on lime": 15.34,
+    "Interface dark on white": 16.65,
+    "Secondary text on white": 7.18,
+    "Human message on soft green": 15.11,
+    "Next task ivory on dark green": 12.18,
+    "Photo title on worst-case white under 2/3 dark overlay": 5.72
+  },
+  "stateUpdates": "This project-local completion record, resource provenance, QA evidence and active manifest; shared project docs left untouched",
+  "methodLearning": "NOTHING REUSABLE — existing source, visual and safe-journey methods covered the findings",
+  "nextAction": "User reviews the local hero; any backend or publication needs a separate authorization"
+}

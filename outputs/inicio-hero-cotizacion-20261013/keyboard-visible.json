@@ -1,0 +1,16 @@
+{
+  "tabTarget": "oh-cta",
+  "focus": true,
+  "box": {
+    "x": 20,
+    "y": 714.984375,
+    "width": 350,
+    "height": 50,
+    "top": 714.984375,
+    "right": 370,
+    "bottom": 764.984375,
+    "left": 20
+  },
+  "headerBottom": 65,
+  "viewportHeight": 844
+}

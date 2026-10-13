@@ -1,0 +1,13 @@
+{
+  "source_scope": "VERIFICADO: only section #que-gestionamos plus its CSS/JS references changed; remainder of marketing.html byte-identical.",
+  "changed_existing_files": [
+    "marketing.html",
+    "css/marketing-managed-v5.css"
+  ],
+  "other_source_files": "All initial root pages, styles and scripts unchanged.",
+  "hero_and_neighbors": "Source identical; width/height/fonts/colors/backgrounds matched pre-change render at 1440/1920/390/360.",
+  "unique_ids": true,
+  "video_instances": 1,
+  "retired_css": "Exclusive CSS archived after checking all active references.",
+  "originals": "Copied MP4 SHA-256 identical; original source files untouched."
+}

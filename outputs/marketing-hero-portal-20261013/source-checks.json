@@ -1,0 +1,19 @@
+{
+  "precios_software_and_remaining_existing_css_js_preserved": true,
+  "marketing_after_hero_byte_identical": true,
+  "navigation_byte_identical": true,
+  "single_hero_and_two_cards": true,
+  "exact_content": true,
+  "unique_ids": true,
+  "cta_destination_unchanged": true,
+  "changes_attributable_to_this_task": [
+    "marketing.html",
+    "css/marketing-hero-v12.css"
+  ],
+  "concurrent_changes_preserved": [
+    "css/home-hero-v6.css",
+    "index.html",
+    "js/home-hero-v6.js"
+  ],
+  "concurrency": "Index was replaced independently during this task. No writes to its source, CSS, scripts or assets were performed by this task."
+}

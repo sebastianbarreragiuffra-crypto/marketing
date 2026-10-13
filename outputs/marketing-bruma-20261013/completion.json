@@ -1,0 +1,69 @@
+{
+  "objective": "Implement BRUMA only in Marketing section #que-gestionamos; preserve hero, navigation, other sections/pages and contact.",
+  "result": "COMPLETE local implementation and functional Chrome checks; perceptual sound review and physical-device compatibility remain NOT VERIFIED.",
+  "authorization": "MUTATE PROJECT, state persistence ALLOWED; no external release, commit or push.",
+  "owners": "Same runtime implements; Directorio V 1.0 local source conserves approved audiovisual assets; installed Webmaster 2.11.0 / C owns responsive, accessibility and performance checks. No independent review claimed.",
+  "v_source": "C:/Users/SEBAS/Documents/Codex/2026-10-06/precios/work/webmaster-validation-v-20261013/directorio-v/",
+  "files": [
+    "marketing.html",
+    "css/marketing-bruma-video.css",
+    "js/marketing-bruma-video.js",
+    "assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+    "assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+    "assets/marketing-video/bruma-poster-desktop.webp",
+    "assets/marketing-video/bruma-poster-mobile.webp",
+    "site-manifest.json",
+    "PROJECT_MEMORY.md",
+    "WEBMASTER_DECISIONS.md"
+  ],
+  "retired": "css/marketing-managed-v5.css, archived with previous marketing.html in archive/2026-10-13-marketing-managed-before/ after active-use search.",
+  "verified": [
+    "Real Chrome render at 1440/1920/390/360, plus 768 and reflow 320. No horizontal page overflow; full-frame object-fit contain; mobile 9:16 / desktop-tablet 4:5.",
+    "Original MP4 copies byte-identical; posters optimized at original dimensions to 76,460 and 67,428 bytes.",
+    "Exactly one video, one section ID and no duplicate page IDs. No old hidden section or old CSS reference.",
+    "Before user action: one matching WebP request, zero MP4 requests. Playback: one matching MP4 request only; no other variant downloaded.",
+    "Both files: actual playback to 10 seconds / 300 rendered frames; pause, resume and restart. Native mute/unmute controls clicked from observed accessibility tree.",
+    "Actual AAC decoding and nonzero sound signal after user action; no autoplay or loop.",
+    "Keyboard Enter starts playback; Space pauses. Focus moves from removed overlay to video, 3px visible focus; CTA keyboard focus/anchor.",
+    "Desktop-to-mobile and mobile-to-desktop resize during playback retains same source/poster and continuing time. Player dimensions stable across playback.",
+    "360x844 mobile emulation: keyboard controls, reduced-motion preference, vertical touch scroll preserved.",
+    "Marketing outside requested section and dependency references byte-identical. All other initial root pages/CSS/JS unchanged. Header/hero/neighbor render dimensions/fonts/colors/backgrounds matched baseline at requested widths.",
+    "CTA #contacto preserved, existing local-preview form and no-send warning preserved. Its existing JS enables only local preview; no new send/reservation functionality.",
+    "site_state.py --write then --check PASSED: 79 active resources, no missing/blocked references. git diff --check PASSED."
+  ],
+  "pending": [
+    "Perceptual listening through physical speakers/headphones; headless Chrome proves decoding/signal, not perceived sound quality.",
+    "Safari/iOS and Android on physical devices; mobile checks use Chrome emulation.",
+    "Real contact reception or reservations: not connected, outside this assignment."
+  ],
+  "not_applicable": [
+    "New audiovisual production or recoding: exact supplied files retained.",
+    "New strategic review/mockup approval: explicit approved implementation instruction.",
+    "Deployment, commit/push, production SEO/analytics/conversion and canonical Webmaster edits: not authorized."
+  ],
+  "project_state_updates": [
+    "PROJECT_MEMORY.md",
+    "WEBMASTER_DECISIONS.md"
+  ],
+  "method_learning": "NOTHING REUSABLE: one-player media selection, playback evidence and honest perceptual boundaries already covered by V/C.",
+  "next_action": "User visual/audio review if desired; no code work remains for authorized integration.",
+  "evidence": [
+    "assets.json",
+    "source-checks.json",
+    "render-checks.json",
+    "playback-checks.json",
+    "accessibility-checks.json",
+    "section-1440.png",
+    "section-1920.png",
+    "section-390.png",
+    "section-360.png",
+    "playing-1440.png",
+    "playing-390.png"
+  ],
+  "documentation_checked": [
+    "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video",
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play"
+  ],
+  "content_version": "31d956fe0b18b83127990aa0e89e4117fa0e065f047fff187762e9f75bd0ed11",
+  "git_head_unchanged": "797fc7076bb1bfeacd5f80171c91e207f39e0415"
+}

@@ -17,8 +17,7 @@
   <link rel="stylesheet" href="css/footer-2a.css">
   <link rel="stylesheet" href="css/service-visuals-2a.css">
   <link rel="stylesheet" href="css/palette.css">
-  <link rel="stylesheet" href="css/marketing-hero-v12.css">
-  <link rel="stylesheet" href="css/marketing-managed-v5.css">
+  <link rel="stylesheet" href="css/marketing-header.css">
   <link rel="stylesheet" href="css/marketing-compact.css?v=20261004-2a1">
   <link rel="stylesheet" href="css/marketing-contact.css?v=20261004-c1">
   <script src="js/marketing-contact.js?v=20261008-oferta1" defer></script>
@@ -28,6 +27,10 @@
   <link rel="stylesheet" href="css/compra-clara-20261008.css?v=1">
   <link rel="stylesheet" href="css/experience-motion.css?v=20261010-m1">
   <script src="js/experience-motion.js?v=20261010-m1" defer></script>
+  <link rel="stylesheet" href="css/marketing-hero-portal.css?v=20261013-v1">
+  <script src="js/marketing-hero-carousel.js?v=20261013-v1" defer></script>
+  <link rel="stylesheet" href="css/marketing-bruma-video.css?v=20261013-v1">
+  <script src="js/marketing-bruma-video.js?v=20261013-v1" defer></script>
 </head>
 <body id="inicio-pagina" class="marketing-compact">
   <a class="skip-link" href="#contenido">Ir al contenido</a>
@@ -37,84 +40,78 @@
     <nav class="main-nav" id="main-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="marketing.html" aria-current="page">Marketing</a><a href="software.html">Software</a><a href="precios.html">Precios</a><a href="iniciar-sesion.html">Iniciar sesión</a><a class="nav-cta" href="#contacto">Agenda una reunión <span aria-hidden="true"><svg class="ui-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></nav>
   </div></header>
   <main id="contenido">
-    <section class="marketing-campaign-hero" aria-labelledby="hero-title">
-      <div class="mh-scene-layout">
-        <h1 id="hero-title">Un equipo para crear y gestionar <span>tu publicidad.</span></h1>
-        <p class="mh-scene-lead">Órbita prepara tus anuncios y gestiona tus campañas en <strong>Google, Meta y TikTok</strong>, según el alcance acordado.</p>
-        <figure class="mh-scene-photo">
-          <picture>
-            <source media="(max-width: 767px)" srcset="assets/hero/marketing-team-v11-mobile.webp" width="1024" height="1536">
-            <img src="assets/hero/marketing-team-v10-desktop.webp" width="1672" height="941" alt="Tres personas revisan piezas publicitarias ilustrativas: una lámpara para ecommerce y una grúa horquilla para una empresa B2B; un portátil muestra la imagen de la lámpara." fetchpriority="high" decoding="async">
-          </picture>
-          <figcaption>Escena ilustrativa generada.</figcaption>
-        </figure>
-        <a class="mh-scene-cta" href="#contacto">Agenda una reunión <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
-        <div class="mh-scene-terms"><p>Incluye 1 usuario en el software GISBA.</p><p>La inversión en anuncios se paga aparte.</p></div>
+    <section class="marketing-portal-hero" id="marketing-hero" aria-labelledby="hero-title">
+      <div class="mp-shell">
+        <div class="mp-intro">
+          <p class="mp-kicker">Publicidad gestionada <span>+ software incluido</span></p>
+          <h1 id="hero-title">Un equipo para crear<br class="mp-desktop-break"> y gestionar <span>tu publicidad.</span></h1>
+          <p class="mp-lead">Órbita crea y gestiona tus campañas. Con GISBA revisas resultados y das seguimiento a tus consultas.</p>
+        </div>
+        <div class="mp-tabs" role="group" aria-label="Elige el ejemplo que quieres ver">
+          <button type="button" data-mp-select="0" aria-controls="mp-campaign" aria-pressed="true" disabled>Tus campañas</button>
+          <button type="button" data-mp-select="1" aria-controls="mp-software" aria-pressed="false" disabled>Tu software incluido</button>
+        </div>
+        <div class="mp-carousel" role="region" aria-label="Ejemplos de campañas y software incluido" aria-describedby="mp-demo-note" tabindex="-1">
+          <article class="mp-slide" id="mp-campaign" aria-label="Tus campañas">
+            <p class="mp-card-label">Órbita crea y gestiona</p>
+            <div class="mp-ad mp-surface">
+              <div class="mp-ad-head"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg><span class="mp-instagram">Instagram</span><span class="mp-numa" aria-hidden="true">N</span><div><strong>Numa Iluminación</strong><span>Publicidad</span></div><span class="mp-dots" aria-hidden="true">•••</span></div>
+              <div class="mp-ad-photo"><picture class="mp-photo-source"><source media="(max-width:767px)" srcset="assets/marketing-hero/numa-lampara-detalle-mobile.webp" width="204" height="261"><img src="assets/marketing-hero/numa-lampara-desktop.webp" width="571" height="233" alt="Anuncio ilustrativo de Numa Iluminación: lámpara de cerámica cálida y mensaje Una luz que cambia tu espacio." fetchpriority="high" decoding="async"></picture><span class="mp-mobile-ad-copy" aria-hidden="true"><span>Una luz<br>que cambia<br>tu espacio.</span><strong>NUMA<small>ILUMINACIÓN</small></strong></span></div>
+              <div class="mp-ad-foot"><span class="mp-social" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21 3 12C-2 5 6 0 12 7c6-7 14-2 9 5Z"/></svg><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 0-5 8l5 2-2-5a9 9 0 0 0 2-5Z"/></svg><svg viewBox="0 0 24 24"><path d="m2 4 20-2-9 20-4-9-7-9Zm7 9L22 2"/></svg></span><span class="mp-faux-action" aria-hidden="true">Más información <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span></div>
+            </div>
+          </article>
+          <article class="mp-slide" id="mp-software" aria-label="Tu software incluido">
+            <p class="mp-card-label">Tu acceso a GISBA</p>
+            <div class="mp-portal mp-surface">
+              <div class="mp-portal-sidebar"><div class="mp-gisba">GISBA</div><p>Portal del cliente</p><ul aria-label="Menú ilustrativo"><li class="is-current"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 20v-6m7 6V5m7 15V9"/></svg> Resumen</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m4 10 15-6v16L4 14v-4Zm2 5 2 6h4l-2-5"/></svg> Campañas</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h16v13h-5l-5 4v-4H4Z"/></svg> Consultas</li></ul></div>
+              <div class="mp-portal-mobile-head"><div><strong>GISBA</strong><span>Portal del cliente</span></div><span class="mp-included"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="4"/><path d="M4 22v-4a8 8 0 0 1 16 0v4Z"/></svg> Incluido</span></div>
+              <div class="mp-portal-mobile-nav" aria-label="Menú ilustrativo"><span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 20v-6m7 6V5m7 15V9"/></svg> Resumen</span><span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h16v13h-5l-5 4v-4H4Z"/></svg> Consultas</span></div>
+              <div class="mp-portal-main">
+                <div class="mp-portal-heading"><div><h2>Campaña de iluminación</h2><p>Ejemplo · 30 días</p></div><span class="mp-included mp-included-desktop"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="4"/><path d="M4 22v-4a8 8 0 0 1 16 0v4Z"/></svg> 1 usuario incluido</span></div>
+                <dl class="mp-metrics"><div><dt>Consultas recibidas</dt><dd>42</dd></div><div><dt>Costo por consulta</dt><dd>$3.000 <span>CLP</span></dd></div></dl>
+                <div class="mp-proposal"><img src="assets/marketing-hero/numa-lampara-desktop.webp" width="571" height="233" alt="Miniatura del mismo anuncio de la lámpara" decoding="async"><div><h3>Propuesta de Órbita</h3><span class="mp-status mp-status-review">Por revisar</span></div><span class="mp-faux-action" aria-hidden="true">Revisar <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></span></div>
+                <div class="mp-followup"><span class="mp-person" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="4"/><path d="M4 22v-4a8 8 0 0 1 16 0v4Z"/></svg></span><div><h3>Consulta por 12 lámparas</h3><span class="mp-status mp-status-sent">Cotización enviada</span><p>Próximo paso: contactar mañana</p></div><p class="mp-responsibility">Seguimiento a cargo del equipo del cliente.</p></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="mp-controls" role="group" aria-label="Controles del carrusel de ejemplos">
+          <button class="mp-prev" type="button" aria-label="Ver ejemplo anterior" aria-controls="mp-campaign mp-software" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 4-8 8 8 8"/></svg></button>
+          <div><span class="mp-position" aria-live="polite" aria-atomic="true">1 de 2</span><p>Desliza para explorar</p></div>
+          <button class="mp-next" type="button" aria-label="Ver ejemplo siguiente" aria-controls="mp-campaign mp-software" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></button>
+        </div>
+        <p class="mp-demo-note" id="mp-demo-note">Vista ilustrativa · Datos de ejemplo</p>
+        <div class="mp-actions">
+          <a class="mp-cta" href="#contacto">Agenda una reunión <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+          <ul class="mp-terms"><li>1 usuario de GISBA incluido</li><li>Usuarios adicionales con costo extra</li><li>Inversión publicitaria aparte</li></ul>
+          <p class="mp-desktop-channels">Google Ads · Meta Ads · TikTok Ads, según el alcance acordado</p>
+        </div>
       </div>
     </section>
 
     <section class="marketing-managed" id="que-gestionamos" aria-labelledby="mg-title">
-      <div class="mg-shell">
-        <header class="mg-heading">
-          <h2 id="mg-title">Qué gestionamos por ti<span>.</span></h2>
-          <p>Publicidad para tu tienda en Google, Meta y TikTok, según la propuesta acordada.</p>
+      <div class="bv-shell">
+        <header class="bv-heading">
+          <p class="bv-eyebrow">EL TRABAJO DE ÓRBITA</p>
+          <h2 id="mg-title">Anuncios que muestran lo que vendes.</h2>
+          <p class="bv-description">Creamos las piezas, gestionamos tus campañas y revisamos qué ajustar.</p>
         </header>
-        <div class="mg-rows">
-          <article class="mg-row">
-            <h3>Preparamos tus anuncios</h3>
-            <p>Adaptamos piezas y mensajes a los productos que quieres promocionar.</p>
-          </article>
-          <article class="mg-row">
-            <h3>Gestionamos tus campañas</h3>
-            <p>Configuramos y gestionamos la publicidad para las audiencias definidas contigo.</p>
-          </article>
-          <article class="mg-row">
-            <h3>Proponemos ajustes</h3>
-            <p>Revisamos el rendimiento para proponer cambios en anuncios, audiencias e inversión.</p>
-          </article>
-        </div>
-        <div class="mg-closing">
-          <p>Tu equipo aporta la información de productos y atiende las consultas, según el alcance acordado.</p>
-          <a class="mg-cta" href="#contacto">Agenda una reunión <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="purchase-services" id="otros-servicios" aria-labelledby="otros-servicios-title">
-      <div class="purchase-shell">
-        <h2 class="purchase-projects-title" id="otros-servicios-title">Otros servicios</h2>
-        <div class="purchase-projects">
-          <div class="purchase-project-grid">
-            <article class="purchase-project-card">
-              <div class="purchase-project-top">
-                <span class="purchase-project-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01M13 6.5h.01M7 13h5M7 16h9"/></svg></span>
-                <p class="purchase-project-label">Por proyecto</p>
-              </div>
-              <h3>Diseño Web</h3>
-              <p class="purchase-project-benefit">Diseñamos y construimos tu sitio para presentar tu negocio o vender por internet.</p>
-              <div class="purchase-project-scope">
-                <p class="purchase-project-billing">Se cotiza por proyecto.</p>
-                <p>Hosting, dominio y mantenimiento se definen en la propuesta. GISBA no se incluye automáticamente.</p>
-              </div>
-            </article>
-            <article class="purchase-project-card">
-              <div class="purchase-project-top">
-                <span class="purchase-project-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="3" width="6" height="6" rx="1.5"/><rect x="15" y="15" width="6" height="6" rx="1.5"/><path d="M9 6h6a3 3 0 0 1 3 3v6M15 18H9a3 3 0 0 1-3-3V9M15 12l3 3 3-3"/></svg></span>
-                <p class="purchase-project-label">A medida</p>
-              </div>
-              <h3>Automatizaciones</h3>
-              <p class="purchase-project-benefit">La atención automatizada es un complemento opcional previsto. Evaluamos su disponibilidad y alcance para tu negocio.</p>
-              <div class="purchase-project-scope">
-                <p class="purchase-project-billing">Alcance y costos según propuesta.</p>
-                <p>Funciones, disponibilidad, integraciones y soporte por confirmar según tu proceso.</p>
-              </div>
-            </article>
+        <figure class="bv-media">
+          <div class="bv-player">
+            <video id="bruma-example-video" controls playsinline preload="none" tabindex="0" aria-label="Anuncio ilustrativo de BRUMA, marca ficticia" aria-describedby="bruma-video-caption">
+              Tu navegador no admite video HTML5. <a href="assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4">Abrir el anuncio de ejemplo</a>.
+            </video>
+            <button class="bv-play" type="button" aria-controls="bruma-example-video" hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m7 3 15 9-15 9Z"/></svg><span>Reproducir anuncio de ejemplo</span></button>
           </div>
-          <div class="purchase-project-closing">
-            <p>Cuéntanos qué necesitas y revisemos el alcance.</p>
-            <a href="#contacto">Agenda una reunión <span aria-hidden="true">→</span></a>
-          </div>
+          <figcaption id="bruma-video-caption">Ejemplo ilustrativo · BRUMA es una marca ficticia. La producción de piezas se define según el alcance contratado.</figcaption>
+          <p class="bv-error" role="alert" hidden>No se pudo reproducir el anuncio. Inténtalo con los controles del video.</p>
+          <noscript><p class="bv-fallback"><a href="assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4">Abrir el anuncio de ejemplo de BRUMA</a>.</p></noscript>
+        </figure>
+        <div class="bv-details">
+          <p class="bv-summary"><span>Preparamos tus anuncios</span> · <span>Gestionamos tus campañas</span> · <span>Proponemos ajustes</span></p>
+          <p class="bv-responsibility">Tu equipo aporta la información de productos y atiende las consultas, según el alcance acordado.</p>
         </div>
+        <a class="bv-cta" href="#contacto">Agenda una reunión <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
       </div>
     </section>
 

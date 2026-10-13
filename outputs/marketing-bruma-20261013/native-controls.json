@@ -1,0 +1,663 @@
+[
+  {
+    "nodeId": "44",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "Video"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 182
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Anuncio ilustrativo de BRUMA, marca ficticia",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "Anuncio ilustrativo de BRUMA, marca ficticia"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "Anuncio ilustrativo de BRUMA, marca ficticia"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "description": {
+      "type": "computedString",
+      "value": "Ejemplo ilustrativo · BRUMA es una marca ficticia. La producción de piezas se define según el alcance contratado."
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "focused",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "describedby",
+        "value": {
+          "type": "idrefList",
+          "value": "bruma-video-caption",
+          "relatedNodes": [
+            {
+              "backendDOMNodeId": 317,
+              "idref": "bruma-video-caption"
+            }
+          ]
+        }
+      }
+    ],
+    "parentId": "233",
+    "childIds": [
+      "234"
+    ],
+    "backendDOMNodeId": 44
+  },
+  {
+    "nodeId": "421",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "button"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 9
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Revisar mi consulta",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "relatedElement",
+          "nativeSource": "label"
+        },
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "Revisar mi consulta"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "372",
+    "childIds": [
+      "601"
+    ],
+    "backendDOMNodeId": 421
+  },
+  {
+    "nodeId": "261",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "slider"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 155
+    },
+    "name": {
+      "type": "computedString",
+      "value": "control deslizante de duración de vídeo",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "control deslizante de duración de vídeo"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "control deslizante de duración de vídeo"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "description": {
+      "type": "computedString",
+      "value": "Tiempo total: 0:10"
+    },
+    "value": {
+      "type": "number",
+      "value": 1.0422500371932983
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "settable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "orientation",
+        "value": {
+          "type": "token",
+          "value": "horizontal"
+        }
+      },
+      {
+        "name": "valuemin",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      {
+        "name": "valuemax",
+        "value": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      {
+        "name": "valuetext",
+        "value": {
+          "type": "string",
+          "value": "1.04225"
+        }
+      }
+    ],
+    "parentId": "239",
+    "childIds": [],
+    "backendDOMNodeId": 261
+  },
+  {
+    "nodeId": "242",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "button"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 9
+    },
+    "name": {
+      "type": "computedString",
+      "value": "reproducir",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "reproducir"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "reproducir"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "value",
+          "superseded": true
+        },
+        {
+          "type": "contents",
+          "superseded": true
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "241",
+    "childIds": [
+      "243"
+    ],
+    "backendDOMNodeId": 242
+  },
+  {
+    "nodeId": "257",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "button"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 9
+    },
+    "name": {
+      "type": "computedString",
+      "value": "activar pantalla completa",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "activar pantalla completa"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "activar pantalla completa"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "value",
+          "superseded": true
+        },
+        {
+          "type": "contents",
+          "superseded": true
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "241",
+    "childIds": [
+      "258"
+    ],
+    "backendDOMNodeId": 257
+  },
+  {
+    "nodeId": "259",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "button"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 137
+    },
+    "name": {
+      "type": "computedString",
+      "value": "mostrar más controles multimedia",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "mostrar más controles multimedia"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "mostrar más controles multimedia"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "value",
+          "superseded": true
+        },
+        {
+          "type": "contents",
+          "superseded": true
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "más opciones"
+          },
+          "attribute": "title",
+          "attributeValue": {
+            "type": "string",
+            "value": "más opciones"
+          },
+          "superseded": true
+        }
+      ]
+    },
+    "description": {
+      "type": "computedString",
+      "value": "más opciones"
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "hasPopup",
+        "value": {
+          "type": "token",
+          "value": "menu"
+        }
+      }
+    ],
+    "parentId": "241",
+    "childIds": [
+      "260"
+    ],
+    "backendDOMNodeId": 259
+  },
+  {
+    "nodeId": "249",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "slider"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 155
+    },
+    "name": {
+      "type": "computedString",
+      "value": "volume",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "volume"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "volume"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "value": {
+      "type": "number",
+      "value": 100
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "settable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "orientation",
+        "value": {
+          "type": "token",
+          "value": "horizontal"
+        }
+      },
+      {
+        "name": "valuemin",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      {
+        "name": "valuemax",
+        "value": {
+          "type": "number",
+          "value": 100
+        }
+      },
+      {
+        "name": "valuetext",
+        "value": {
+          "type": "string",
+          "value": "1"
+        }
+      }
+    ],
+    "parentId": "247",
+    "childIds": [],
+    "backendDOMNodeId": 249
+  },
+  {
+    "nodeId": "256",
+    "ignored": false,
+    "role": {
+      "type": "role",
+      "value": "button"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 9
+    },
+    "name": {
+      "type": "computedString",
+      "value": "silenciar",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "value": {
+            "type": "computedString",
+            "value": "silenciar"
+          },
+          "attribute": "aria-label",
+          "attributeValue": {
+            "type": "string",
+            "value": "silenciar"
+          }
+        },
+        {
+          "type": "relatedElement",
+          "superseded": true,
+          "nativeSource": "label"
+        },
+        {
+          "type": "attribute",
+          "attribute": "value",
+          "superseded": true
+        },
+        {
+          "type": "contents",
+          "superseded": true
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "invalid",
+        "value": {
+          "type": "token",
+          "value": "false"
+        }
+      },
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "247",
+    "childIds": [],
+    "backendDOMNodeId": 256
+  }
+]

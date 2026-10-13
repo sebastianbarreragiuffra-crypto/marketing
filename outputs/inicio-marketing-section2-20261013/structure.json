@@ -1,0 +1,47 @@
+{
+  "heroNavigationAndPrefixPreserved": true,
+  "FAQContactFooterSuffixPreserved": true,
+  "otherExistingFilesPreserved": true,
+  "changed": [
+    "index.html",
+    "css/home-work-v8.css",
+    "js/home-work-v8.js"
+  ],
+  "h1": 1,
+  "brokenLinks": [],
+  "forbiddenBlockRemoved": true,
+  "assets": [
+    {
+      "file": "assets/home-marketing-section2/lamparas-400.webp",
+      "dimensions": [
+        400,
+        400
+      ],
+      "bytes": 22510
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-800.webp",
+      "dimensions": [
+        800,
+        800
+      ],
+      "bytes": 67090
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-b-400.webp",
+      "dimensions": [
+        400,
+        267
+      ],
+      "bytes": 16596
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-b-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 47098
+    }
+  ]
+}

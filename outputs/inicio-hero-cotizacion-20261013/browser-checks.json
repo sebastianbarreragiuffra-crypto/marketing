@@ -1,0 +1,1441 @@
+[
+  {
+    "width": 1440,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 89,
+      "w": 1440,
+      "h": 705.46875
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 48,
+        "y": 137,
+        "w": 505.53125,
+        "h": 392.875
+      },
+      ".oh-terms": {
+        "x": 48,
+        "y": 639.875,
+        "w": 505.53125,
+        "h": 63
+      },
+      ".oh-ad": {
+        "x": 589.53125,
+        "y": 137,
+        "w": 295.703125,
+        "h": 554.96875
+      },
+      ".oh-gisba": {
+        "x": 907.234375,
+        "y": 137,
+        "w": 484.75,
+        "h": 556.140625
+      },
+      ".oh-cta": {
+        "x": 48,
+        "y": 551.875,
+        "w": 278.953125,
+        "h": 60
+      },
+      ".oh-example-note": {
+        "x": 589.53125,
+        "y": 732.875,
+        "w": 802.46875,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 48,
+          "y": 551.875,
+          "w": 278.953125,
+          "h": 60
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          300,
+          375
+        ],
+        "render": [
+          294,
+          338
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 89
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 89,
+      "w": 1920,
+      "h": 720.1875
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 240,
+        "y": 137,
+        "w": 542.640625,
+        "h": 398.28125
+      },
+      ".oh-terms": {
+        "x": 240,
+        "y": 649.9375,
+        "w": 542.640625,
+        "h": 67.65625
+      },
+      ".oh-ad": {
+        "x": 818.640625,
+        "y": 137,
+        "w": 318,
+        "h": 580.59375
+      },
+      ".oh-gisba": {
+        "x": 1158.640625,
+        "y": 137,
+        "w": 521.34375,
+        "h": 556.140625
+      },
+      ".oh-cta": {
+        "x": 240,
+        "y": 557.28125,
+        "w": 278.953125,
+        "h": 64.65625
+      },
+      ".oh-example-note": {
+        "x": 818.640625,
+        "y": 747.59375,
+        "w": 861.34375,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 240,
+          "y": 557.28125,
+          "w": 278.953125,
+          "h": 64.65625
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          300,
+          375
+        ],
+        "render": [
+          316,
+          363
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 89
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 65,
+      "w": 390,
+      "h": 1419.578125
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 20,
+        "y": 85,
+        "w": 350,
+        "h": 230.71875
+      },
+      ".oh-terms": {
+        "x": 20,
+        "y": 335.71875,
+        "w": 350,
+        "h": 58.78125
+      },
+      ".oh-ad": {
+        "x": 20,
+        "y": 414.5,
+        "w": 350,
+        "h": 398.875
+      },
+      ".oh-gisba": {
+        "x": 20,
+        "y": 835.375,
+        "w": 350,
+        "h": 520.609375
+      },
+      ".oh-cta": {
+        "x": 20,
+        "y": 1375.984375,
+        "w": 350,
+        "h": 50
+      },
+      ".oh-example-note": {
+        "x": 20,
+        "y": 1438.984375,
+        "w": 350,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 20,
+          "y": 1375.984375,
+          "w": 350,
+          "h": 50
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          349,
+          437
+        ],
+        "render": [
+          348,
+          205
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          36,
+          36
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          36,
+          36
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 65
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": [],
+    "menu": {
+      "expanded": "true",
+      "prices": true,
+      "login": true,
+      "closedOnEscape": true,
+      "focusReturned": true
+    },
+    "focus": {
+      "visible": true,
+      "outline": "3px",
+      "minHeight": 50
+    },
+    "contact": {
+      "url": "http://127.0.0.1:8767/hablemos.html",
+      "preview": true
+    }
+  },
+  {
+    "width": 320,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 65,
+      "w": 320,
+      "h": 1442.625
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 16,
+        "y": 85,
+        "w": 288,
+        "h": 208.96875
+      },
+      ".oh-terms": {
+        "x": 16,
+        "y": 313.96875,
+        "w": 288,
+        "h": 58.78125
+      },
+      ".oh-ad": {
+        "x": 16,
+        "y": 392.75,
+        "w": 288,
+        "h": 362.40625
+      },
+      ".oh-gisba": {
+        "x": 16,
+        "y": 777.15625,
+        "w": 288,
+        "h": 582.28125
+      },
+      ".oh-cta": {
+        "x": 16,
+        "y": 1379.4375,
+        "w": 288,
+        "h": 50
+      },
+      ".oh-example-note": {
+        "x": 16,
+        "y": 1442.4375,
+        "w": 288,
+        "h": 39.1875
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 16,
+          "y": 1379.4375,
+          "w": 288,
+          "h": 50
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          280,
+          350
+        ],
+        "render": [
+          286,
+          168
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          36,
+          36
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          36,
+          36
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 65
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 77,
+      "w": 768,
+      "h": 1198.9375
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 24,
+        "y": 107,
+        "w": 720,
+        "h": 294.203125
+      },
+      ".oh-terms": {
+        "x": 24,
+        "y": 425.203125,
+        "w": 720,
+        "h": 63
+      },
+      ".oh-ad": {
+        "x": 24,
+        "y": 512.203125,
+        "w": 274.96875,
+        "h": 531.140625
+      },
+      ".oh-gisba": {
+        "x": 320.96875,
+        "y": 512.203125,
+        "w": 423.03125,
+        "h": 598.140625
+      },
+      ".oh-cta": {
+        "x": 244.515625,
+        "y": 1134.34375,
+        "w": 278.953125,
+        "h": 60
+      },
+      ".oh-example-note": {
+        "x": 24,
+        "y": 1226.34375,
+        "w": 720,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 244.515625,
+          "y": 1134.34375,
+          "w": 278.953125,
+          "h": 60
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          268,
+          336
+        ],
+        "render": [
+          273,
+          314
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 768,
+      "h": 77
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 1100,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 89,
+      "w": 1100,
+      "h": 1190.796875
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 125,
+        "y": 119,
+        "w": 850,
+        "h": 294.203125
+      },
+      ".oh-terms": {
+        "x": 125,
+        "y": 437.203125,
+        "w": 850,
+        "h": 63
+      },
+      ".oh-ad": {
+        "x": 125,
+        "y": 524.203125,
+        "w": 326.171875,
+        "h": 590
+      },
+      ".oh-gisba": {
+        "x": 473.171875,
+        "y": 524.203125,
+        "w": 501.8125,
+        "h": 556.140625
+      },
+      ".oh-cta": {
+        "x": 410.515625,
+        "y": 1138.203125,
+        "w": 278.953125,
+        "h": 60
+      },
+      ".oh-example-note": {
+        "x": 125,
+        "y": 1230.203125,
+        "w": 850,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 410.515625,
+          "y": 1138.203125,
+          "w": 278.953125,
+          "h": 60
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          385,
+          481
+        ],
+        "render": [
+          324,
+          373
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 1100,
+      "h": 89
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 1101,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 89,
+      "w": 1101,
+      "h": 804.515625
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 48,
+        "y": 137,
+        "w": 374.515625,
+        "h": 394.328125
+      },
+      ".oh-terms": {
+        "x": 48,
+        "y": 690.125,
+        "w": 374.515625,
+        "h": 111.796875
+      },
+      ".oh-ad": {
+        "x": 458.515625,
+        "y": 137,
+        "w": 216.890625,
+        "h": 524.5625
+      },
+      ".oh-gisba": {
+        "x": 697.40625,
+        "y": 137,
+        "w": 355.59375,
+        "h": 664.921875
+      },
+      ".oh-cta": {
+        "x": 48,
+        "y": 553.328125,
+        "w": 278.953125,
+        "h": 108.796875
+      },
+      ".oh-example-note": {
+        "x": 458.515625,
+        "y": 831.921875,
+        "w": 594.484375,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 48,
+          "y": 553.328125,
+          "w": 278.953125,
+          "h": 108.796875
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          300,
+          375
+        ],
+        "render": [
+          215,
+          247
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 1101,
+      "h": 89
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 700,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 65,
+      "w": 700,
+      "h": 1522.53125
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 20,
+        "y": 85,
+        "w": 660,
+        "h": 191.828125
+      },
+      ".oh-terms": {
+        "x": 20,
+        "y": 296.828125,
+        "w": 660,
+        "h": 58.78125
+      },
+      ".oh-ad": {
+        "x": 20,
+        "y": 375.609375,
+        "w": 660,
+        "h": 581.21875
+      },
+      ".oh-gisba": {
+        "x": 20,
+        "y": 978.828125,
+        "w": 660,
+        "h": 480.109375
+      },
+      ".oh-cta": {
+        "x": 20,
+        "y": 1478.9375,
+        "w": 660,
+        "h": 50
+      },
+      ".oh-example-note": {
+        "x": 20,
+        "y": 1541.9375,
+        "w": 660,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 20,
+          "y": 1478.9375,
+          "w": 660,
+          "h": 50
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-800.webp",
+        "loaded": true,
+        "natural": [
+          660,
+          825
+        ],
+        "render": [
+          658,
+          387
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          36,
+          36
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          36,
+          36
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 65
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 701,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 77,
+      "w": 701,
+      "h": 1236.71875
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 24,
+        "y": 107,
+        "w": 653,
+        "h": 294.203125
+      },
+      ".oh-terms": {
+        "x": 24,
+        "y": 425.203125,
+        "w": 653,
+        "h": 63
+      },
+      ".oh-ad": {
+        "x": 24,
+        "y": 512.203125,
+        "w": 248.5625,
+        "h": 537.15625
+      },
+      ".oh-gisba": {
+        "x": 294.5625,
+        "y": 512.203125,
+        "w": 382.4375,
+        "h": 635.921875
+      },
+      ".oh-cta": {
+        "x": 211.015625,
+        "y": 1172.125,
+        "w": 278.953125,
+        "h": 60
+      },
+      ".oh-example-note": {
+        "x": 24,
+        "y": 1264.125,
+        "w": 653,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 211.015625,
+          "y": 1172.125,
+          "w": 278.953125,
+          "h": 60
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          245,
+          306
+        ],
+        "render": [
+          247,
+          283
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          40,
+          40
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          40,
+          40
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 701,
+      "h": 77
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 65,
+      "w": 390,
+      "h": 1419.578125
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 20,
+        "y": 85,
+        "w": 350,
+        "h": 230.71875
+      },
+      ".oh-terms": {
+        "x": 20,
+        "y": 335.71875,
+        "w": 350,
+        "h": 58.78125
+      },
+      ".oh-ad": {
+        "x": 20,
+        "y": 414.5,
+        "w": 350,
+        "h": 398.875
+      },
+      ".oh-gisba": {
+        "x": 20,
+        "y": 835.375,
+        "w": 350,
+        "h": 520.609375
+      },
+      ".oh-cta": {
+        "x": 20,
+        "y": 1375.984375,
+        "w": 350,
+        "h": 50
+      },
+      ".oh-example-note": {
+        "x": 20,
+        "y": 1438.984375,
+        "w": 350,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 20,
+          "y": 1375.984375,
+          "w": 350,
+          "h": 50
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          349,
+          437
+        ],
+        "render": [
+          348,
+          205
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          36,
+          36
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          36,
+          36
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 65
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "mode": {
+      "javaScriptEnabled": false
+    }
+  },
+  {
+    "width": 390,
+    "pageOverflow": false,
+    "h1Count": 1,
+    "title": "Un equipo para crear y gestionar tu publicidad.",
+    "heroText": "PUBLICIDAD PARA ECOMMERCE Y B2B\n\nUn equipo para\ncrear y gestionar\ntu publicidad.\n\nSoftware incluido para reunir conversaciones y seguir cotizaciones y ventas.\n\n1 usuario de GISBA incluido\n\nUsuarios adicionales con costo extra.\n\nInversión publicitaria aparte.\n\nÓrbita gestiona tu publicidad\n\nT\nTu negocio\nPublicidad en Instagram\nEscritorios\npara tu equipo.\nSolicita una cotización\n\nGoogle · Meta · TikTok, según propuesta\n\nTu equipo atiende con GISBA\n\nGISBA\nSoftware incluido\nConversaciones y cotizaciones\n\nCliente de ejemplo\n\nHola, ¿me cotizan 6 escritorios para la oficina?\n\nCarolina · Tu equipo comercial\n\nTe envié la cotización. ¿Revisamos las medidas?\n\nCotización de ejemplo\n6 escritorios de oficina\nEnviada\n\nEsperando respuesta del cliente\n\nPróximo paso\n\nRetomar contacto\nAgenda una reunión\n\nRecreación ilustrativa · Anuncio y datos de ejemplo",
+    "hero": {
+      "x": 0,
+      "y": 65,
+      "w": 390,
+      "h": 1419.578125
+    },
+    "layout": {
+      ".oh-heading": {
+        "x": 20,
+        "y": 85,
+        "w": 350,
+        "h": 230.71875
+      },
+      ".oh-terms": {
+        "x": 20,
+        "y": 335.71875,
+        "w": 350,
+        "h": 58.78125
+      },
+      ".oh-ad": {
+        "x": 20,
+        "y": 414.5,
+        "w": 350,
+        "h": 398.875
+      },
+      ".oh-gisba": {
+        "x": 20,
+        "y": 835.375,
+        "w": 350,
+        "h": 520.609375
+      },
+      ".oh-cta": {
+        "x": 20,
+        "y": 1375.984375,
+        "w": 350,
+        "h": 50
+      },
+      ".oh-example-note": {
+        "x": 20,
+        "y": 1438.984375,
+        "w": 350,
+        "h": 19.59375
+      }
+    },
+    "heroActions": [
+      {
+        "tag": "A",
+        "text": "Agenda una reunión",
+        "href": "hablemos.html",
+        "box": {
+          "x": 20,
+          "y": 1375.984375,
+          "w": 350,
+          "h": 50
+        }
+      }
+    ],
+    "essentialMinFont": 14,
+    "clippedText": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-400.webp",
+        "loaded": true,
+        "natural": [
+          349,
+          437
+        ],
+        "render": [
+          348,
+          205
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/cliente-03.webp",
+        "loaded": true,
+        "natural": [
+          64,
+          64
+        ],
+        "render": [
+          36,
+          36
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/software-consultas/ana.webp",
+        "loaded": true,
+        "natural": [
+          48,
+          48
+        ],
+        "render": [
+          36,
+          36
+        ]
+      }
+    ],
+    "duplicatedIds": [],
+    "fonts": "loaded",
+    "motion": [],
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 65
+    },
+    "lower": [
+      {
+        "id": "soluciones",
+        "class": "work-section"
+      },
+      {
+        "id": "preguntas",
+        "class": "fq"
+      },
+      {
+        "id": "contacto",
+        "class": "home-contact-reference"
+      }
+    ],
+    "ctaTarget": "hablemos.html",
+    "mode": {
+      "reducedMotion": "reduce"
+    }
+  }
+]

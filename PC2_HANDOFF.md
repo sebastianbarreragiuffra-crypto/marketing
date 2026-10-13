@@ -85,3 +85,18 @@ python live_preview.py --port 8767
 Si hay cambios locales, conservarlos y resolver antes del pull; no usar reset ni sobrescribir. Confirmar SHA con `git rev-parse HEAD` y `git ls-remote origin refs/heads/main`.
 
 Revisión de cierre: objetivo de preservar y sincronizar PC1 para PC2; manifiesto y whitespace verificados; recepción en PC2 pendiente de su pull. Estado durable actualizado en este documento. Aprendizaje reutilizable: ninguno nuevo. Siguiente acción: pull y comprobación de manifiesto en PC2.
+
+## Cierre PC2 → PC1 — 2026-10-13
+
+- El usuario autorizó explícitamente commit/push de todo el trabajo de hoy en PC2. Remoto y rama verificados: `sebastianbarreragiuffra-crypto/marketing`, `main`; sin divergencia antes del commit.
+- Inicio: nuevo hero, sección Marketing digital y una única sección Software incluido después de Marketing. Textos e interfaces editables, recursos separados y vistas ilustrativas; demás bloques conservados.
+- Marketing: nuevo hero con anuncio/portal y carrusel móvil manual, sección BRUMA con videos de escritorio/móvil y retirada de Otros servicios. Recursos activos y copias históricas incluidos.
+- Precios: cierre actualizado a la tarjeta «Hablemos de tu próxima campaña.» y retirados sus estilos anteriores exclusivos.
+- Versión de contenido preparada: `20d5368886b64378bb2bf0d2c51ccf45c57dce7c0554d8d8297f27dfddd3d6ec`. El nuevo commit que contiene este cierre identifica el trabajo; comprobar el HEAD más reciente de `origin/main`, sin reutilizar el SHA del cierre anterior.
+- Incluye HTML, CSS, JS, fotografías, logos, MP4 y portadas, históricos fuera de rutas públicas, capturas y evidencia de validación, manifiesto y documentación del día.
+- Validación de traslado: `site_state.py --check` coincide, 79 recursos activos, ninguno faltante ni histórico público; el control de whitespace pasa para fuente activa y evidencias. Se preserva un salto de línea final adicional del respaldo original de Precios, sin modificar su copia histórica. Se conservan las verificaciones visuales existentes de Inicio y Marketing. QA visual del nuevo cierre de Precios pendiente según su registro; no se repitió la auditoría completa en este cierre.
+- Excluidos: dos logs temporales de `outputs/precios-reportes-gisba-v1/qa/`, caches, estado del servidor/túnel, dependencias y configuración local. No se necesitan para mostrar la web.
+- No se ejecutó un despliegue en este cierre. Push de Git y sincronización con PC1 son estados diferentes: PC1 aún debe hacer pull y comprobar manifiesto y SHA.
+- Pendientes: contacto/reservas reales, validación técnica de campos y funciones propuestas de GISBA, condiciones comerciales y pruebas físicas de video/audio. Una interfaz ilustrativa no acredita esas capacidades.
+
+En PC1, con el repositorio correcto y sin cambios locales, actualizar `main` con `git pull --ff-only origin main`; comprobar `python site_state.py --check` y comparar el SHA de HEAD con `origin/main` antes de abrir su preview o túnel. Si hay cambios locales o divergencia, preservarlos y resolver antes del pull, sin reset ni sobrescritura.

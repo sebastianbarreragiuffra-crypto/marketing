@@ -1,0 +1,202 @@
+[
+  {
+    "width": 1440,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 1440,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 1440,
+        "height": 729.953125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 1440,
+        "height": 722.25,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1440,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1440,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 1920,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 1920,
+        "height": 815.328125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 1920,
+        "height": 724.453125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1920,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1920,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 390,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 390,
+        "height": 942.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 390,
+        "height": 1005.4375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 390,
+        "height": 1078.875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 390,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 360,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 360,
+        "height": 946.734375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 360,
+        "height": 1027.9375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 360,
+        "height": 1063.6875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 360,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  }
+]

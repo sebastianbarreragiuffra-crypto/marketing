@@ -1,0 +1,28 @@
+[
+  {
+    "source": "C:\\Users\\SEBAS\\Documents\\Codex\\2026-10-05\\files-pasted-by-the-user-absolutely\\outputs\\bruma-video-10s-v2\\bruma-cafetera-anuncio-10s-v2.mp4",
+    "asset": "assets\\marketing-video\\bruma-cafetera-anuncio-10s-v2.mp4",
+    "sha256": "6d1c98771f27f8ca6728e4bf13424b238ff26ed0f1f06c698b1794f95d90964d",
+    "copy_identical": true,
+    "video_bytes": 2526109,
+    "poster": "bruma-poster-desktop.webp",
+    "poster_size": [
+      832,
+      1040
+    ],
+    "poster_bytes": 76460
+  },
+  {
+    "source": "C:\\Users\\SEBAS\\Documents\\Codex\\2026-10-05\\files-pasted-by-the-user-absolutely\\outputs\\bruma-mobile-9x16-v1\\bruma-cafetera-mobile-9x16-10s.mp4",
+    "asset": "assets\\marketing-video\\bruma-cafetera-mobile-9x16-10s.mp4",
+    "sha256": "d66cce7c465dd697c7f65bbd7857f9a3ba6bc580b485c15de12dc58dd7ba492e",
+    "copy_identical": true,
+    "video_bytes": 2116904,
+    "poster": "bruma-poster-mobile.webp",
+    "poster_size": [
+      720,
+      1280
+    ],
+    "poster_bytes": 67428
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 80,
+      "top": 0,
+      "right": 1440,
+      "bottom": 80,
+      "left": 0
+    },
+    "rest": [
+      {
+        "id": "que-gestionamos",
+        "class": "marketing-managed",
+        "width": 1440,
+        "height": 588.703125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 1440,
+        "height": 722.25,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1440,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1440,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 47,
+      "top": 0,
+      "right": 390,
+      "bottom": 47,
+      "left": 0
+    },
+    "rest": [
+      {
+        "id": "que-gestionamos",
+        "class": "marketing-managed",
+        "width": 390,
+        "height": 958.109375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 390,
+        "height": 1005.4375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 390,
+        "height": 1078.875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 390,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ]
+  }
+]

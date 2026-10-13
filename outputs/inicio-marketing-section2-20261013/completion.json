@@ -1,0 +1,90 @@
+{
+  "objective": "Replace only Inicio section 2 using the supplied desktop/mobile mockups",
+  "result": "COMPLETE — local implementation, not published",
+  "review": "SAME_AGENT; approved layout implemented, no new concept or simulated independent review",
+  "files": [
+    "index.html",
+    "css/home-marketing-section2-20261013.css",
+    "assets/home-marketing-section2/lamparas-400.webp",
+    "assets/home-marketing-section2/lamparas-800.webp",
+    "assets/home-marketing-section2/lamparas-b-400.webp",
+    "assets/home-marketing-section2/lamparas-b-800.webp",
+    "site-manifest.json"
+  ],
+  "preserved": [
+    "Hero, H1, navigation and all preceding HTML except exclusive section CSS/JS references",
+    "FAQ, contact, footer and following HTML identical",
+    "Other pages and existing changes untouched"
+  ],
+  "retired": [
+    "css/home-work-v8.css",
+    "js/home-work-v8.js",
+    "assets/section-work/mochila-ejemplo.webp"
+  ],
+  "archive": "archive/2026-10-13-inicio-marketing-section2-before",
+  "verified": [
+    "Editable exact content; rejected text block fully removed",
+    "Two ads side by side at every tested width",
+    "Management tasks: three desktop columns and mobile rows",
+    "Mobile order: title/description, visual panel, channels, CTA",
+    "1440,1920,390,320,768,1024,900,901 px without overflow, cropped text, overlap or JS errors",
+    "Images loaded and proportionately cropped, no warped photos",
+    "One H1; valid internal links; CTA focus and navigation to existing Hablemos"
+  ],
+  "pending": [
+    "Actual contact reception/reservations: Hablemos remains a non-sending preview",
+    "Real campaign performance is not tested or claimed",
+    "Field Core Web Vitals/conversion and Safari testing not performed"
+  ],
+  "notApplicable": [
+    "Publication/deployment/commit/push: no authorization and not performed",
+    "New software features, actual ads, forms or integrations: outside scope"
+  ],
+  "assets": [
+    {
+      "file": "assets/home-marketing-section2/lamparas-400.webp",
+      "dimensions": [
+        400,
+        400
+      ],
+      "bytes": 22510
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-800.webp",
+      "dimensions": [
+        800,
+        800
+      ],
+      "bytes": 67090
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-b-400.webp",
+      "dimensions": [
+        400,
+        267
+      ],
+      "bytes": 16596
+    },
+    {
+      "file": "assets/home-marketing-section2/lamparas-b-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 47098
+    }
+  ],
+  "capturedDimensions": {
+    "section-1440.png": [
+      1440,
+      813
+    ],
+    "section-390.png": [
+      390,
+      918
+    ]
+  },
+  "methodLearning": "NOTHING REUSABLE — existing photo framing and replacement rules cover this work",
+  "stateUpdated": "This project-local completion record, QA evidence and public resource manifest; canonical Webmaster unchanged",
+  "nextAction": "User reviews the local section; no required implementation work remains"
+}

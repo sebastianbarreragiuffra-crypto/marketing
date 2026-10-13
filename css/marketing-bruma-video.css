@@ -1,0 +1,154 @@
+/* Only Marketing section 2: the approved BRUMA audiovisual integration. */
+#que-gestionamos.marketing-managed {
+  padding: 76px 0;
+  background: var(--paper);
+  color: var(--dark);
+  font-family: "DM Sans", Arial, sans-serif;
+  scroll-margin-top: 90px;
+}
+#que-gestionamos .bv-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 420px;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "heading media" "details media" "cta media";
+  column-gap: clamp(48px, 7vw, 120px);
+  row-gap: 26px;
+  width: min(calc(100% - 172px), 1440px);
+  margin-inline: auto;
+}
+#que-gestionamos .bv-heading { grid-area: heading; align-self: end; min-width: 0; }
+#que-gestionamos .bv-eyebrow {
+  margin: 0 0 18px;
+  color: var(--palette-accent-text);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .16em;
+  line-height: 1.5;
+}
+#que-gestionamos h2 {
+  max-width: 700px;
+  margin: 0;
+  font: 800 clamp(42px, 3.6vw, 54px)/1.08 Manrope, Arial, sans-serif;
+  letter-spacing: -.05em;
+  text-wrap: balance;
+}
+#que-gestionamos .bv-description {
+  max-width: 600px;
+  margin: 20px 0 0;
+  color: var(--palette-muted);
+  font-size: 20px;
+  line-height: 1.5;
+}
+#que-gestionamos .bv-details { grid-area: details; min-width: 0; max-width: 640px; }
+#que-gestionamos .bv-summary {
+  margin: 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.65;
+}
+#que-gestionamos .bv-summary span { white-space: nowrap; }
+#que-gestionamos .bv-responsibility {
+  margin: 18px 0 0;
+  color: var(--palette-muted);
+  font-size: 17px;
+  line-height: 1.55;
+}
+#que-gestionamos .bv-cta {
+  grid-area: cta;
+  align-self: start;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-height: 56px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: var(--lime);
+  color: var(--dark);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+#que-gestionamos .bv-cta svg { width: 22px; height: 22px; flex: none; }
+#que-gestionamos .bv-cta:hover { background: color-mix(in srgb, var(--lime) 80%, var(--paper)); }
+#que-gestionamos .bv-media { grid-area: media; margin: 0; min-width: 0; }
+#que-gestionamos .bv-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border: 1px solid #26251f;
+  border-radius: 18px;
+  background: #17100c;
+}
+#que-gestionamos video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 17px;
+  background: #17100c;
+}
+#que-gestionamos .bv-play {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: max-content;
+  max-width: calc(100% - 32px);
+  min-height: 52px;
+  padding: 14px 18px;
+  border: 1px solid #f8f5eb;
+  border-radius: 999px;
+  background: #10170ef2;
+  color: #f8f5eb;
+  font: 600 14px/1.35 "DM Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+#que-gestionamos .bv-play svg { width: 20px; height: 20px; flex: none; fill: var(--lime); }
+#que-gestionamos .bv-play:hover { background: #24311e; }
+#que-gestionamos .bv-play[hidden] { display: none; }
+#que-gestionamos .bv-play:focus-visible,
+#que-gestionamos video:focus-visible { outline: 3px solid var(--lime); outline-offset: 4px; }
+#que-gestionamos .bv-cta:focus-visible { outline: 3px solid var(--palette-accent-text); outline-offset: 4px; }
+#que-gestionamos figcaption {
+  margin-top: 14px;
+  color: var(--palette-muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+#que-gestionamos .bv-error { margin: 12px 0 0; font-size: 14px; line-height: 1.5; }
+#que-gestionamos .bv-fallback { font-size: 15px; line-height: 1.5; }
+@media (min-width: 768px) and (max-width: 1100px) {
+  #que-gestionamos .bv-shell { width: calc(100% - 80px); grid-template-columns: minmax(0, 1fr) minmax(280px, 38%); column-gap: 36px; row-gap: 22px; }
+  #que-gestionamos h2 { font-size: 38px; }
+  #que-gestionamos .bv-description { font-size: 18px; }
+  #que-gestionamos .bv-summary { font-size: 16px; }
+  #que-gestionamos .bv-responsibility { font-size: 16px; }
+}
+@media (max-width: 767px) {
+  #que-gestionamos.marketing-managed { padding: 48px 0; }
+  #que-gestionamos .bv-shell {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "heading" "media" "details" "cta";
+    gap: 26px;
+    width: calc(100% - 48px);
+  }
+  #que-gestionamos h2 { font-size: clamp(32px, 9.6vw, 38px); }
+  #que-gestionamos .bv-eyebrow { margin-bottom: 14px; font-size: 11px; }
+  #que-gestionamos .bv-description { margin-top: 18px; font-size: 18px; line-height: 1.5; }
+  #que-gestionamos .bv-player { aspect-ratio: 9 / 16; border-radius: 16px; }
+  #que-gestionamos video { border-radius: 15px; }
+  #que-gestionamos .bv-summary { padding-top: 0; border-top: 0; font-size: 17px; line-height: 1.7; }
+  #que-gestionamos .bv-responsibility { font-size: 16px; margin-top: 16px; }
+  #que-gestionamos .bv-cta { width: 100%; padding-inline: 18px; }
+  #que-gestionamos figcaption { font-size: 12px; }
+}

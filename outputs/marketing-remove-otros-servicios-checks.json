@@ -1,0 +1,110 @@
+[
+  {
+    "width": 1440,
+    "removed": true,
+    "adjacent": true,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 1440,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 1440,
+        "height": 729.953125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "que-gestionamos",
+        "class": "marketing-managed",
+        "width": 1440,
+        "height": 731.28125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1440,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1440,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "videoCount": 1
+  },
+  {
+    "width": 390,
+    "removed": true,
+    "adjacent": true,
+    "overflow": false,
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 390,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 390,
+        "height": 942.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "que-gestionamos",
+        "class": "marketing-managed",
+        "width": 390,
+        "height": 1290.015625,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 390,
+        "height": 1078.875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 390,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "videoCount": 1
+  }
+]

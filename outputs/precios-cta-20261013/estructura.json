@@ -1,0 +1,7 @@
+{
+  "same_other_pages": true,
+  "faq_and_prices_preserved": true,
+  "unique_cta": true,
+  "contact_anchor_exists": true,
+  "isolated_css": true
+}

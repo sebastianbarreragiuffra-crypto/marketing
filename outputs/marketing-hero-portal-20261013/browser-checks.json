@@ -1,0 +1,1255 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "width": 1440,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 1440,
+        "height": 729.953125,
+        "top": 80,
+        "right": 1440,
+        "bottom": 809.953125,
+        "left": 0
+      },
+      "track": {
+        "x": 48,
+        "y": 403.46875,
+        "width": 1344,
+        "height": 368.484375,
+        "top": 403.46875,
+        "right": 1392,
+        "bottom": 771.953125,
+        "left": 48
+      },
+      "cards": [
+        {
+          "x": 48,
+          "y": 403.46875,
+          "width": 585,
+          "height": 368.484375,
+          "top": 403.46875,
+          "right": 633,
+          "bottom": 771.953125,
+          "left": 48
+        },
+        {
+          "x": 651,
+          "y": 403.46875,
+          "width": 741,
+          "height": 368.484375,
+          "top": 403.46875,
+          "right": 1392,
+          "bottom": 771.953125,
+          "left": 651
+        }
+      ],
+      "cta": {
+        "x": 583.03125,
+        "y": 298.46875,
+        "width": 273.921875,
+        "height": 50,
+        "top": 298.46875,
+        "right": 856.953125,
+        "bottom": 348.46875,
+        "left": 583.03125
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": true,
+      "scrollLeft": 0,
+      "maxScroll": 0,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 80,
+        "top": 0,
+        "right": 1440,
+        "bottom": 80,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 1440,
+          "height": 588.703125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 1440,
+          "height": 722.25,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 1440,
+          "height": 606.296875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 1440,
+          "height": 458.5,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": true
+    },
+    "errors": [],
+    "regression": "same header/rest geometry and styles"
+  },
+  {
+    "width": 1920,
+    "initial": {
+      "width": 1920,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 1920,
+        "height": 815.328125,
+        "top": 80,
+        "right": 1920,
+        "bottom": 895.328125,
+        "left": 0
+      },
+      "track": {
+        "x": 240,
+        "y": 447.5625,
+        "width": 1440,
+        "height": 385.765625,
+        "top": 447.5625,
+        "right": 1680,
+        "bottom": 833.328125,
+        "left": 240
+      },
+      "cards": [
+        {
+          "x": 240,
+          "y": 447.5625,
+          "width": 627.34375,
+          "height": 385.765625,
+          "top": 447.5625,
+          "right": 867.34375,
+          "bottom": 833.328125,
+          "left": 240
+        },
+        {
+          "x": 885.34375,
+          "y": 447.5625,
+          "width": 794.65625,
+          "height": 385.765625,
+          "top": 447.5625,
+          "right": 1680,
+          "bottom": 833.328125,
+          "left": 885.34375
+        }
+      ],
+      "cta": {
+        "x": 823.03125,
+        "y": 334.5625,
+        "width": 273.921875,
+        "height": 50,
+        "top": 334.5625,
+        "right": 1096.953125,
+        "bottom": 384.5625,
+        "left": 823.03125
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": true,
+      "scrollLeft": 0,
+      "maxScroll": 0,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 80,
+        "top": 0,
+        "right": 1920,
+        "bottom": 80,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 1920,
+          "height": 592.609375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 1920,
+          "height": 724.453125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 1920,
+          "height": 606.296875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 1920,
+          "height": 458.5,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": true
+    },
+    "errors": [],
+    "regression": "not compared to pre-change render"
+  },
+  {
+    "width": 390,
+    "initial": {
+      "width": 390,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 390,
+        "height": 942.5,
+        "top": 47,
+        "right": 390,
+        "bottom": 989.5,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 383.4375,
+        "width": 390,
+        "height": 359.5625,
+        "top": 383.4375,
+        "right": 390,
+        "bottom": 743,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 383.4375,
+          "width": 330,
+          "height": 359.5625,
+          "top": 383.4375,
+          "right": 346,
+          "bottom": 743,
+          "left": 16
+        },
+        {
+          "x": 358,
+          "y": 383.4375,
+          "width": 330,
+          "height": 359.5625,
+          "top": 383.4375,
+          "right": 688,
+          "bottom": 743,
+          "left": 358
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 839,
+        "width": 350,
+        "height": 50,
+        "top": 839,
+        "right": 370,
+        "bottom": 889,
+        "left": 20
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "scrollLeft": 0,
+      "maxScroll": 314,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 47,
+        "top": 0,
+        "right": 390,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 390,
+          "height": 958.109375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 390,
+          "height": 1005.4375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 390,
+          "height": 1078.875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 390,
+          "height": 810.078125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "errors": [],
+    "regression": "same header/rest geometry and styles",
+    "second": {
+      "width": 390,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 390,
+        "height": 942.5,
+        "top": 47,
+        "right": 390,
+        "bottom": 989.5,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 383.4375,
+        "width": 390,
+        "height": 359.5625,
+        "top": 383.4375,
+        "right": 390,
+        "bottom": 743,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": -298,
+          "y": 383.4375,
+          "width": 330,
+          "height": 359.5625,
+          "top": 383.4375,
+          "right": 32,
+          "bottom": 743,
+          "left": -298
+        },
+        {
+          "x": 44,
+          "y": 383.4375,
+          "width": 330,
+          "height": 359.5625,
+          "top": 383.4375,
+          "right": 374,
+          "bottom": 743,
+          "left": 44
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 839,
+        "width": 350,
+        "height": 50,
+        "top": 839,
+        "right": 370,
+        "bottom": 889,
+        "left": 20
+      },
+      "counter": "2 de 2",
+      "selection": [
+        "false",
+        "true"
+      ],
+      "prevDisabled": false,
+      "nextDisabled": true,
+      "scrollLeft": 314,
+      "maxScroll": 314,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 47,
+        "top": 0,
+        "right": 390,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 390,
+          "height": 958.109375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 390,
+          "height": 1005.4375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 390,
+          "height": 1078.875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 390,
+          "height": 810.078125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "focus": {
+      "text": "Tu software incluido",
+      "visible": true,
+      "outline": "3px"
+    },
+    "touchForward": true,
+    "touchBack": true,
+    "verticalScrollPreserved": true,
+    "noAutoplay": true,
+    "reducedMotion": true,
+    "ctaFocus": {
+      "visible": true,
+      "outline": "3px"
+    },
+    "contactAnchor": true,
+    "contactDisabled": false
+  },
+  {
+    "width": 360,
+    "initial": {
+      "width": 360,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 360,
+        "height": 946.734375,
+        "top": 47,
+        "right": 360,
+        "bottom": 993.734375,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 370.875,
+        "width": 360,
+        "height": 376.359375,
+        "top": 370.875,
+        "right": 360,
+        "bottom": 747.234375,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 370.875,
+          "width": 300,
+          "height": 376.359375,
+          "top": 370.875,
+          "right": 316,
+          "bottom": 747.234375,
+          "left": 16
+        },
+        {
+          "x": 328,
+          "y": 370.875,
+          "width": 300,
+          "height": 376.359375,
+          "top": 370.875,
+          "right": 628,
+          "bottom": 747.234375,
+          "left": 328
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 843.234375,
+        "width": 320,
+        "height": 50,
+        "top": 843.234375,
+        "right": 340,
+        "bottom": 893.234375,
+        "left": 20
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "scrollLeft": 0,
+      "maxScroll": 284,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 47,
+        "top": 0,
+        "right": 360,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 360,
+          "height": 970.5,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 360,
+          "height": 1027.9375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 360,
+          "height": 1063.6875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 360,
+          "height": 810.078125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "errors": [],
+    "regression": "not compared to pre-change render",
+    "second": {
+      "width": 360,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 360,
+        "height": 946.734375,
+        "top": 47,
+        "right": 360,
+        "bottom": 993.734375,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 370.875,
+        "width": 360,
+        "height": 376.359375,
+        "top": 370.875,
+        "right": 360,
+        "bottom": 747.234375,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": -268,
+          "y": 370.875,
+          "width": 300,
+          "height": 376.359375,
+          "top": 370.875,
+          "right": 32,
+          "bottom": 747.234375,
+          "left": -268
+        },
+        {
+          "x": 44,
+          "y": 370.875,
+          "width": 300,
+          "height": 376.359375,
+          "top": 370.875,
+          "right": 344,
+          "bottom": 747.234375,
+          "left": 44
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 843.234375,
+        "width": 320,
+        "height": 50,
+        "top": 843.234375,
+        "right": 340,
+        "bottom": 893.234375,
+        "left": 20
+      },
+      "counter": "2 de 2",
+      "selection": [
+        "false",
+        "true"
+      ],
+      "prevDisabled": false,
+      "nextDisabled": true,
+      "scrollLeft": 284,
+      "maxScroll": 284,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 47,
+        "top": 0,
+        "right": 360,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 360,
+          "height": 970.5,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 360,
+          "height": 1027.9375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 360,
+          "height": 1063.6875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 360,
+          "height": 810.078125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "focus": {
+      "text": "Tu software incluido",
+      "visible": true,
+      "outline": "3px"
+    }
+  },
+  {
+    "width": 320,
+    "initial": {
+      "width": 320,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 320,
+        "height": 976.078125,
+        "top": 47,
+        "right": 320,
+        "bottom": 1023.078125,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 367.171875,
+        "width": 320,
+        "height": 409.40625,
+        "top": 367.171875,
+        "right": 320,
+        "bottom": 776.578125,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 367.171875,
+          "width": 260,
+          "height": 409.40625,
+          "top": 367.171875,
+          "right": 276,
+          "bottom": 776.578125,
+          "left": 16
+        },
+        {
+          "x": 288,
+          "y": 367.171875,
+          "width": 260,
+          "height": 409.40625,
+          "top": 367.171875,
+          "right": 548,
+          "bottom": 776.578125,
+          "left": 288
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 872.578125,
+        "width": 280,
+        "height": 50,
+        "top": 872.578125,
+        "right": 300,
+        "bottom": 922.578125,
+        "left": 20
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": false,
+      "scrollLeft": 0,
+      "maxScroll": 244,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 47,
+        "top": 0,
+        "right": 320,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 320,
+          "height": 1106.453125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 320,
+          "height": 1076.671875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 320,
+          "height": 1117.953125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 320,
+          "height": 833.46875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "errors": [],
+    "regression": "not compared to pre-change render",
+    "second": {
+      "width": 320,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 47,
+        "width": 320,
+        "height": 976.078125,
+        "top": 47,
+        "right": 320,
+        "bottom": 1023.078125,
+        "left": 0
+      },
+      "track": {
+        "x": 0,
+        "y": 367.171875,
+        "width": 320,
+        "height": 409.40625,
+        "top": 367.171875,
+        "right": 320,
+        "bottom": 776.578125,
+        "left": 0
+      },
+      "cards": [
+        {
+          "x": -228,
+          "y": 367.171875,
+          "width": 260,
+          "height": 409.40625,
+          "top": 367.171875,
+          "right": 32,
+          "bottom": 776.578125,
+          "left": -228
+        },
+        {
+          "x": 44,
+          "y": 367.171875,
+          "width": 260,
+          "height": 409.40625,
+          "top": 367.171875,
+          "right": 304,
+          "bottom": 776.578125,
+          "left": 44
+        }
+      ],
+      "cta": {
+        "x": 20,
+        "y": 872.578125,
+        "width": 280,
+        "height": 50,
+        "top": 872.578125,
+        "right": 300,
+        "bottom": 922.578125,
+        "left": 20
+      },
+      "counter": "2 de 2",
+      "selection": [
+        "false",
+        "true"
+      ],
+      "prevDisabled": false,
+      "nextDisabled": true,
+      "scrollLeft": 244,
+      "maxScroll": 244,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 47,
+        "top": 0,
+        "right": 320,
+        "bottom": 47,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 320,
+          "height": 1106.453125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 320,
+          "height": 1076.671875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 320,
+          "height": 1117.953125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 320,
+          "height": 833.46875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": false
+    },
+    "focus": {
+      "text": "Tu software incluido",
+      "visible": true,
+      "outline": "3px"
+    }
+  },
+  {
+    "width": 768,
+    "initial": {
+      "width": 768,
+      "pageOverflow": false,
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 768,
+        "height": 712.703125,
+        "top": 80,
+        "right": 768,
+        "bottom": 792.703125,
+        "left": 0
+      },
+      "track": {
+        "x": 32,
+        "y": 376.84375,
+        "width": 704,
+        "height": 377.859375,
+        "top": 376.84375,
+        "right": 736,
+        "bottom": 754.703125,
+        "left": 32
+      },
+      "cards": [
+        {
+          "x": 32,
+          "y": 376.84375,
+          "width": 302.640625,
+          "height": 377.859375,
+          "top": 376.84375,
+          "right": 334.640625,
+          "bottom": 754.703125,
+          "left": 32
+        },
+        {
+          "x": 352.640625,
+          "y": 376.84375,
+          "width": 383.34375,
+          "height": 377.859375,
+          "top": 376.84375,
+          "right": 735.984375,
+          "bottom": 754.703125,
+          "left": 352.640625
+        }
+      ],
+      "cta": {
+        "x": 247.03125,
+        "y": 271.84375,
+        "width": 273.921875,
+        "height": 50,
+        "top": 271.84375,
+        "right": 520.953125,
+        "bottom": 321.84375,
+        "left": 247.03125
+      },
+      "counter": "1 de 2",
+      "selection": [
+        "true",
+        "false"
+      ],
+      "prevDisabled": true,
+      "nextDisabled": true,
+      "scrollLeft": 0,
+      "maxScroll": 0,
+      "fonts": [
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "DM Sans",
+        "Manrope",
+        "Manrope",
+        "Manrope"
+      ],
+      "images": [
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        },
+        {
+          "currentSrc": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp",
+          "loaded": true
+        }
+      ],
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 80,
+        "top": 0,
+        "right": 768,
+        "bottom": 80,
+        "left": 0
+      },
+      "rest": [
+        {
+          "id": "que-gestionamos",
+          "class": "marketing-managed",
+          "width": 768,
+          "height": 845.515625,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "otros-servicios",
+          "class": "purchase-services",
+          "width": 768,
+          "height": 757.953125,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(11, 13, 11)",
+          "background": "rgb(246, 243, 235)"
+        },
+        {
+          "id": "contacto",
+          "class": "contact section-pad contact-proposal",
+          "width": 768,
+          "height": 922.484375,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(248, 250, 247)",
+          "background": "rgb(7, 21, 14)"
+        },
+        {
+          "id": "",
+          "class": "site-footer footer-2a",
+          "width": 768,
+          "height": 583.1875,
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "color": "rgb(246, 243, 235)",
+          "background": "rgb(11, 13, 11)"
+        }
+      ],
+      "channelVisible": true
+    },
+    "errors": [],
+    "regression": "not compared to pre-change render"
+  }
+]

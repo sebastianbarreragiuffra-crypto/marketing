@@ -1,0 +1,138 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "hero": {
+      "x": 0,
+      "y": 80,
+      "width": 1440,
+      "height": 760.953125,
+      "top": 80,
+      "right": 1440,
+      "bottom": 840.953125,
+      "left": 0
+    },
+    "track": {
+      "x": 48,
+      "y": 422.46875,
+      "width": 1344,
+      "height": 368.484375,
+      "top": 422.46875,
+      "right": 1392,
+      "bottom": 790.953125,
+      "left": 48
+    },
+    "cards": [
+      {
+        "x": 48,
+        "y": 422.46875,
+        "width": 585,
+        "height": 368.484375,
+        "top": 422.46875,
+        "right": 633,
+        "bottom": 790.953125,
+        "left": 48
+      },
+      {
+        "x": 651,
+        "y": 422.46875,
+        "width": 741,
+        "height": 368.484375,
+        "top": 422.46875,
+        "right": 1392,
+        "bottom": 790.953125,
+        "left": 651
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp"
+      }
+    ],
+    "fonts": "loaded",
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 80,
+      "top": 0,
+      "right": 1440,
+      "bottom": 80,
+      "left": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "hero": {
+      "x": 0,
+      "y": 47,
+      "width": 390,
+      "height": 976.5,
+      "top": 47,
+      "right": 390,
+      "bottom": 1023.5,
+      "left": 0
+    },
+    "track": {
+      "x": 0,
+      "y": 383.4375,
+      "width": 390,
+      "height": 393.5625,
+      "top": 383.4375,
+      "right": 390,
+      "bottom": 777,
+      "left": 0
+    },
+    "cards": [
+      {
+        "x": 16,
+        "y": 383.4375,
+        "width": 330,
+        "height": 393.5625,
+        "top": 383.4375,
+        "right": 346,
+        "bottom": 777,
+        "left": 16
+      },
+      {
+        "x": 358,
+        "y": 383.4375,
+        "width": 330,
+        "height": 393.5625,
+        "top": 383.4375,
+        "right": 688,
+        "bottom": 777,
+        "left": 358
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-mobile.webp"
+      },
+      {
+        "loaded": true,
+        "src": "http://127.0.0.1:8767/assets/marketing-hero/numa-lampara-desktop.webp"
+      }
+    ],
+    "fonts": "loaded",
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 47,
+      "top": 0,
+      "right": 390,
+      "bottom": 47,
+      "left": 0
+    },
+    "errors": []
+  }
+]

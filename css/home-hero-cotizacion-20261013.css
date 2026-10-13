@@ -1,0 +1,124 @@
+/* Hero de Inicio: publicidad de Órbita y seguimiento humano con GISBA.
+   Todos los estilos quedan limitados al hero y a la cabecera de esta página. */
+.oh-hero { position: relative; isolation: isolate; color: #f6f3eb; background: radial-gradient(ellipse at 77% 45%, #254b1470, transparent 53%), #0b0d0b; font-family: "DM Sans", Arial, sans-serif; }
+.oh-hero *, .oh-hero *::before, .oh-hero *::after { box-sizing: border-box; }
+.oh-hero__inner { display: grid; grid-template-columns: minmax(0,.63fr) minmax(0,1fr); grid-template-areas: "heading scenes" "cta scenes" "terms scenes" ". note"; column-gap: 36px; row-gap: 22px; width: min(calc(100% - 96px),1440px); margin-inline: auto; padding-block: 48px 42px; }
+.oh-heading { grid-area: heading; min-width: 0; padding-top: 32px; }
+.oh-eyebrow { margin: 0; color: #c7f45b; font-size: 13px; font-weight: 600; line-height: 1.5; letter-spacing: .13em; }
+.oh-hero h1 { margin: 24px 0 20px; color: #f6f3eb; font-family: Manrope, "DM Sans", sans-serif; font-size: clamp(42px,4.15vw,60px); font-weight: 800; line-height: 1.12; letter-spacing: -.055em; }
+.oh-hero h1 span, .oh-hero h1 em { display: block; }
+.oh-hero h1 em { color: #c7f45b; font-style: normal; }
+.oh-lead { max-width: 410px; margin: 0; font-size: 23px; line-height: 1.4; color: #f6f3eb; text-wrap: balance; }
+.oh-terms { grid-area: terms; display: flex; align-items: flex-start; gap: 16px; margin: 6px 0 0; }
+.oh-terms > svg { flex: none; width: 32px; height: 32px; color: #c7f45b; }
+.oh-terms p { margin: 0; font-size: 14px; line-height: 1.5; color: #e5e8df; }
+.oh-terms strong { color: #f6f3eb; font-weight: 700; }
+.oh-scenes { grid-area: scenes; display: grid; grid-template-columns: minmax(0,.61fr) minmax(0,1fr); align-items: start; gap: 22px; min-width: 0; }
+.oh-scenes article { min-width: 0; }
+.oh-role { margin: 0 0 12px; font-size: 17px; line-height: 1.4; font-weight: 500; color: #f6f3eb; }
+.oh-ad__card { overflow: hidden; border: 1px solid #d7ddd2; border-radius: 10px; color: #121b1b; background: #fff; }
+.oh-ad__account { display: flex; align-items: center; gap: 10px; min-height: 62px; padding: 10px 12px; }
+.oh-ad__avatar { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%; background: #b69b71; color: #fff; font-size: 23px; }
+.oh-ad__account > div { min-width: 0; }
+.oh-ad__account strong, .oh-ad__account span:not(.oh-ad__avatar) { display: block; font-size: 14px; line-height: 1.4; }
+.oh-ad__account span:not(.oh-ad__avatar) { color: #4b5967; }
+.oh-ad__menu { flex: none; width: 20px; height: 20px; margin-left: auto; }
+.oh-ad__photo { position: relative; aspect-ratio: .87; background: #d3b592; }
+.oh-ad__photo::after { position: absolute; inset: 0; content: ""; background: linear-gradient(180deg,#24180eaa 0,#24180eaa 90px,#24180e00 72%); pointer-events: none; }
+.oh-ad__photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 58%; }
+.oh-ad__photo h2 { position: absolute; z-index: 1; top: 18px; left: 16px; right: 12px; margin: 0; font-family: Manrope, "DM Sans", sans-serif; font-weight: 800; font-size: 29px; line-height: 1.06; letter-spacing: -.035em; color: #fff; text-shadow: 0 2px 8px #21160daa; }
+.oh-ad__strip { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 42px; padding: 10px 12px; background: #f4f4f2; font-size: 14px; font-weight: 700; }
+.oh-ad__strip svg { flex: none; width: 20px; height: 20px; }
+.oh-ad__social { display: flex; align-items: center; gap: 14px; min-height: 46px; padding: 10px 13px; }
+.oh-ad__social svg { flex: none; width: 24px; height: 24px; }
+.oh-ad__social .oh-ad__bookmark { margin-left: auto; }
+.oh-channel-note { margin: 10px 0 0; color: #dbe1d4; font-size: 14px; line-height: 1.4; }
+.oh-gisba__panel { padding: 22px; border: 1px solid #c7d3bb; border-radius: 12px; box-shadow: 0 0 0 4px #38652770; background: #fff; color: #12211d; }
+.oh-gisba__brand { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.oh-gisba__brand strong { font-family: Manrope, sans-serif; font-weight: 800; font-size: 20px; letter-spacing: -.04em; }
+.oh-gisba__brand > span { padding: 4px 10px; border-radius: 9px; background: #dcf8c8; color: #12211d; font-size: 14px; line-height: 1.4; }
+.oh-gisba h2 { margin: 16px 0 22px; font-family: Manrope, sans-serif; font-size: 25px; line-height: 1.16; letter-spacing: -.05em; color: #12211d; }
+.oh-message { display: grid; grid-template-columns: 40px minmax(0,1fr); gap: 12px; margin-bottom: 20px; }
+.oh-message > img { display: block; width: 40px; height: 40px; object-fit: cover; border-radius: 50%; }
+.oh-message > div { min-width: 0; }
+.oh-message__sender { margin: 0 0 6px; font-size: 14px; line-height: 1.35; color: #14201c; }
+.oh-message__sender span { color: #4b5967; }
+.oh-message__bubble { margin: 0; padding: 11px 13px; border-radius: 13px; background: #f1f1ef; color: #15201d; font-size: 15px; line-height: 1.4; }
+.oh-message--team { margin-bottom: 8px; }
+.oh-message--team .oh-message__bubble { background: #e5fad7; }
+.oh-quote { display: flex; align-items: center; gap: 11px; margin-left: 52px; padding: 10px; border: 1px solid #cddbca; border-radius: 10px; }
+.oh-quote__icon { display: grid; place-items: center; flex: none; width: 34px; height: 40px; border-radius: 8px; background: #f6f3eb; color: #254019; }
+.oh-quote__icon svg { width: 25px; height: 30px; }
+.oh-quote > div { flex: 1; min-width: 0; }
+.oh-quote strong, .oh-quote > div > span { display: block; font-size: 14px; line-height: 1.35; }
+.oh-quote > div > span { margin-top: 4px; color: #4b5967; }
+.oh-quote__state { flex: none; padding: 7px 10px; border-radius: 99px; background: #dcf8c8; color: #12211d; font-size: 14px; }
+.oh-status { display: flex; align-items: center; gap: 10px; margin: 18px 0 14px; padding-top: 15px; border-top: 1px solid #d9ddda; font-size: 15px; line-height: 1.4; color: #28392e; }
+.oh-status > span { flex: none; width: 16px; height: 16px; border: 1px solid #a06c00; border-radius: 50%; background: #ffbd28; }
+.oh-next-step { padding: 16px 18px; border-radius: 9px; background: #1c3419; color: #f6f3eb; }
+.oh-next-step p { margin: 0 0 4px; color: #c7f45b; font-size: 14px; line-height: 1.4; }
+.oh-next-step strong { font-family: Manrope, sans-serif; font-size: 23px; line-height: 1.2; letter-spacing: -.04em; }
+.oh-cta { grid-area: cta; display: inline-flex; align-items: center; justify-content: center; gap: 20px; width: fit-content; max-width: 100%; min-height: 60px; padding: 14px 28px; border-radius: 999px; background: #c7f45b; color: #0b0d0b; font-family: Manrope, sans-serif; font-size: 18px; font-weight: 800; line-height: 1.3; text-decoration: none; transition: background .15s ease; }
+.oh-cta svg { flex: none; width: 26px; height: 26px; }
+.oh-cta:hover { background: #d9ff85; }
+.oh-cta:focus-visible { outline: 3px solid #f6f3eb; outline-offset: 5px; }
+.oh-example-note { grid-area: note; margin: 8px 0 0; color: #dbe1d4; font-size: 14px; line-height: 1.4; text-align: center; }
+.oh-hero .site-motion-enter { animation: none; opacity: 1; transform: none; }
+@media (max-width: 1100px) {
+  .oh-hero__inner { grid-template-columns: minmax(0,1fr); grid-template-areas: "heading" "terms" "scenes" "cta" "note"; width: min(calc(100% - 48px),850px); padding-block: 30px; gap: 24px; }
+  .oh-heading { padding-top: 0; }
+  .oh-hero h1 { max-width: 700px; font-size: 52px; }
+  .oh-lead { max-width: 640px; font-size: 20px; }
+  .oh-scenes { grid-template-columns: minmax(0,.65fr) minmax(0,1fr); }
+  .oh-terms { margin: 0; }
+  .oh-cta { justify-self: center; }
+}
+@media (max-width: 700px) {
+  .home-cotizacion .header-inner { min-height: 64px; }
+  .home-cotizacion .main-nav { top: 64px; }
+  .oh-hero__inner { display: flex; flex-direction: column; width: calc(100% - 40px); padding-block: 20px 26px; gap: 20px; }
+  .oh-eyebrow { font-size: 11px; letter-spacing: .1em; }
+  .oh-hero h1 { margin: 12px 0; font-size: clamp(31px,9.7vw,40px); line-height: 1.07; letter-spacing: -.052em; }
+  .oh-lead { font-size: 17px; line-height: 1.35; }
+  .oh-terms { gap: 12px; }
+  .oh-terms > svg { width: 30px; height: 30px; }
+  .oh-terms p { font-size: 14px; line-height: 1.4; }
+  .oh-scenes { display: grid; grid-template-columns: minmax(0,1fr); gap: 22px; }
+  .oh-role { margin-bottom: 8px; font-size: 16px; }
+  .oh-ad__account { min-height: 54px; padding: 8px 12px; }
+  .oh-ad__avatar { width: 34px; height: 34px; font-size: 22px; }
+  .oh-ad__photo { aspect-ratio: 1.7; }
+  .oh-ad__photo img { object-position: center 64%; }
+  .oh-ad__photo h2 { top: 13px; font-size: 28px; }
+  .oh-ad__strip { min-height: 40px; }
+  .oh-ad__social { min-height: 40px; padding-block: 8px; }
+  .oh-channel-note { margin-top: 7px; }
+  .oh-gisba__panel { padding: 14px; }
+  .oh-gisba__brand { gap: 10px; }
+  .oh-gisba__brand strong { font-size: 18px; }
+  .oh-gisba__brand > span { padding-block: 2px; }
+  .oh-gisba h2 { margin: 9px 0 16px; font-size: 23px; }
+  .oh-message { grid-template-columns: 36px minmax(0,1fr); gap: 10px; margin-bottom: 16px; }
+  .oh-message > img { width: 36px; height: 36px; }
+  .oh-message__sender { font-size: 14px; line-height: 1.4; }
+  .oh-message__bubble { font-size: 15px; padding: 9px 10px; line-height: 1.35; }
+  .oh-message--team { margin-bottom: 8px; }
+  .oh-quote { margin-left: 0; padding: 9px 8px; gap: 9px; }
+  .oh-quote__icon { width: 27px; height: 34px; }
+  .oh-quote__state { padding: 6px 9px; }
+  .oh-status { margin: 12px 0; padding-top: 12px; font-size: 14px; }
+  .oh-status > span { width: 14px; height: 14px; }
+  .oh-next-step { padding: 12px 14px; }
+  .oh-next-step strong { font-size: 22px; }
+  .oh-cta { width: 100%; min-height: 48px; padding: 12px 18px; font-size: 17px; }
+  .oh-example-note { margin: -7px 0 0; font-size: 14px; }
+}
+@media (max-width: 359px) {
+  .oh-hero__inner { width: calc(100% - 32px); }
+  .oh-gisba__panel { padding: 12px; }
+  .oh-quote { flex-wrap: wrap; }
+  .oh-quote > div { flex-basis: calc(100% - 40px); }
+  .oh-quote__state { margin-left: 36px; }
+  .oh-eyebrow { letter-spacing: .07em; }
+}
+@media (prefers-reduced-motion: reduce) { .oh-cta { transition: none; } }

@@ -1,0 +1,872 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 809.953125,
+      "width": 1440,
+      "height": 731.28125,
+      "top": 809.953125,
+      "right": 1440,
+      "bottom": 1541.234375,
+      "left": 0
+    },
+    "heading": {
+      "x": 86,
+      "y": 916.03125,
+      "width": 747.203125,
+      "height": 227.96875,
+      "top": 916.03125,
+      "right": 833.203125,
+      "bottom": 1144,
+      "left": 86
+    },
+    "details": {
+      "x": 86,
+      "y": 1170,
+      "width": 640,
+      "height": 183.140625,
+      "top": 1170,
+      "right": 726,
+      "bottom": 1353.140625,
+      "left": 86
+    },
+    "cta": {
+      "x": 86,
+      "y": 1379.140625,
+      "width": 271.921875,
+      "height": 56,
+      "top": 1379.140625,
+      "right": 357.921875,
+      "bottom": 1435.140625,
+      "left": 86
+    },
+    "figure": {
+      "x": 934,
+      "y": 885.953125,
+      "width": 420,
+      "height": 579.28125,
+      "top": 885.953125,
+      "right": 1354,
+      "bottom": 1465.234375,
+      "left": 934
+    },
+    "player": {
+      "x": 934,
+      "y": 885.953125,
+      "width": 420,
+      "height": 525,
+      "top": 885.953125,
+      "right": 1354,
+      "bottom": 1410.953125,
+      "left": 934
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 1440,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 1440,
+        "height": 729.953125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 1440,
+        "height": 722.25,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1440,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1440,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "Header, hero and other sections match baseline geometry/styles"
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 868.328125,
+      "width": 1920,
+      "height": 731.28125,
+      "top": 868.328125,
+      "right": 1920,
+      "bottom": 1599.609375,
+      "left": 0
+    },
+    "heading": {
+      "x": 240,
+      "y": 972.859375,
+      "width": 900,
+      "height": 232.625,
+      "top": 972.859375,
+      "right": 1140,
+      "bottom": 1205.484375,
+      "left": 240
+    },
+    "details": {
+      "x": 240,
+      "y": 1231.484375,
+      "width": 640,
+      "height": 181.59375,
+      "top": 1231.484375,
+      "right": 880,
+      "bottom": 1413.078125,
+      "left": 240
+    },
+    "cta": {
+      "x": 240,
+      "y": 1439.078125,
+      "width": 271.921875,
+      "height": 56,
+      "top": 1439.078125,
+      "right": 511.921875,
+      "bottom": 1495.078125,
+      "left": 240
+    },
+    "figure": {
+      "x": 1260,
+      "y": 944.328125,
+      "width": 420,
+      "height": 579.28125,
+      "top": 944.328125,
+      "right": 1680,
+      "bottom": 1523.609375,
+      "left": 1260
+    },
+    "player": {
+      "x": 1260,
+      "y": 944.328125,
+      "width": 420,
+      "height": 525,
+      "top": 944.328125,
+      "right": 1680,
+      "bottom": 1469.328125,
+      "left": 1260
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header is-scrolled",
+        "width": 1920,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 1920,
+        "height": 815.328125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 1920,
+        "height": 724.453125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 1920,
+        "height": 606.296875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 1920,
+        "height": 458.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "Header, hero and other sections match baseline geometry/styles"
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 309.5,
+      "width": 390,
+      "height": 1290.015625,
+      "top": 309.5,
+      "right": 390,
+      "bottom": 1599.515625,
+      "left": 0
+    },
+    "heading": {
+      "x": 24,
+      "y": 357.5,
+      "width": 342,
+      "height": 223.765625,
+      "top": 357.5,
+      "right": 366,
+      "bottom": 581.265625,
+      "left": 24
+    },
+    "details": {
+      "x": 24,
+      "y": 1292.453125,
+      "width": 342,
+      "height": 177.0625,
+      "top": 1292.453125,
+      "right": 366,
+      "bottom": 1469.515625,
+      "left": 24
+    },
+    "cta": {
+      "x": 24,
+      "y": 1495.515625,
+      "width": 342,
+      "height": 56,
+      "top": 1495.515625,
+      "right": 366,
+      "bottom": 1551.515625,
+      "left": 24
+    },
+    "figure": {
+      "x": 24,
+      "y": 607.265625,
+      "width": 342,
+      "height": 659.1875,
+      "top": 607.265625,
+      "right": 366,
+      "bottom": 1266.453125,
+      "left": 24
+    },
+    "player": {
+      "x": 24,
+      "y": 607.265625,
+      "width": 342,
+      "height": 608,
+      "top": 607.265625,
+      "right": 366,
+      "bottom": 1215.265625,
+      "left": 24
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header is-scrolled",
+        "width": 390,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 390,
+        "height": 942.5,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 390,
+        "height": 1005.4375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 390,
+        "height": 1078.875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 390,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "Header, hero and other sections match baseline geometry/styles"
+  },
+  {
+    "width": 360,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 353.734375,
+      "width": 360,
+      "height": 1245.9375,
+      "top": 353.734375,
+      "right": 360,
+      "bottom": 1599.671875,
+      "left": 0
+    },
+    "heading": {
+      "x": 24,
+      "y": 401.734375,
+      "width": 312,
+      "height": 214.4375,
+      "top": 401.734375,
+      "right": 336,
+      "bottom": 616.171875,
+      "left": 24
+    },
+    "details": {
+      "x": 24,
+      "y": 1292.609375,
+      "width": 312,
+      "height": 177.0625,
+      "top": 1292.609375,
+      "right": 336,
+      "bottom": 1469.671875,
+      "left": 24
+    },
+    "cta": {
+      "x": 24,
+      "y": 1495.671875,
+      "width": 312,
+      "height": 56,
+      "top": 1495.671875,
+      "right": 336,
+      "bottom": 1551.671875,
+      "left": 24
+    },
+    "figure": {
+      "x": 24,
+      "y": 642.171875,
+      "width": 312,
+      "height": 624.4375,
+      "top": 642.171875,
+      "right": 336,
+      "bottom": 1266.609375,
+      "left": 24
+    },
+    "player": {
+      "x": 24,
+      "y": 642.171875,
+      "width": 312,
+      "height": 554.65625,
+      "top": 642.171875,
+      "right": 336,
+      "bottom": 1196.828125,
+      "left": 24
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header is-scrolled",
+        "width": 360,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 360,
+        "height": 946.734375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 360,
+        "height": 1027.9375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 360,
+        "height": 1063.6875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 360,
+        "height": 810.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "Header, hero and other sections match baseline geometry/styles"
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 792.703125,
+      "width": 768,
+      "height": 654.859375,
+      "top": 792.703125,
+      "right": 768,
+      "bottom": 1447.5625,
+      "left": 0
+    },
+    "heading": {
+      "x": 40,
+      "y": 868.703125,
+      "width": 372,
+      "height": 233.09375,
+      "top": 868.703125,
+      "right": 412,
+      "bottom": 1101.796875,
+      "left": 40
+    },
+    "details": {
+      "x": 40,
+      "y": 1123.796875,
+      "width": 372,
+      "height": 169.765625,
+      "top": 1123.796875,
+      "right": 412,
+      "bottom": 1293.5625,
+      "left": 40
+    },
+    "cta": {
+      "x": 40,
+      "y": 1315.5625,
+      "width": 271.921875,
+      "height": 56,
+      "top": 1315.5625,
+      "right": 311.921875,
+      "bottom": 1371.5625,
+      "left": 40
+    },
+    "figure": {
+      "x": 448,
+      "y": 868.703125,
+      "width": 280,
+      "height": 502.859375,
+      "top": 868.703125,
+      "right": 728,
+      "bottom": 1371.5625,
+      "left": 448
+    },
+    "player": {
+      "x": 448,
+      "y": 868.703125,
+      "width": 280,
+      "height": 350,
+      "top": 868.703125,
+      "right": 728,
+      "bottom": 1218.703125,
+      "left": 448
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-anuncio-10s-v2.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header",
+        "width": 768,
+        "height": 80,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 768,
+        "height": 712.703125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 768,
+        "height": 757.953125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 768,
+        "height": 922.484375,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 768,
+        "height": 583.1875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-desktop.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "No pre-change render at this extra width"
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 406.078125,
+      "width": 320,
+      "height": 1193.53125,
+      "top": 406.078125,
+      "right": 320,
+      "bottom": 1599.609375,
+      "left": 0
+    },
+    "heading": {
+      "x": 24,
+      "y": 454.078125,
+      "width": 272,
+      "height": 233.140625,
+      "top": 454.078125,
+      "right": 296,
+      "bottom": 687.21875,
+      "left": 24
+    },
+    "details": {
+      "x": 24,
+      "y": 1292.546875,
+      "width": 272,
+      "height": 177.0625,
+      "top": 1292.546875,
+      "right": 296,
+      "bottom": 1469.609375,
+      "left": 24
+    },
+    "cta": {
+      "x": 24,
+      "y": 1495.609375,
+      "width": 272,
+      "height": 56,
+      "top": 1495.609375,
+      "right": 296,
+      "bottom": 1551.609375,
+      "left": 24
+    },
+    "figure": {
+      "x": 24,
+      "y": 713.21875,
+      "width": 272,
+      "height": 553.328125,
+      "top": 713.21875,
+      "right": 296,
+      "bottom": 1266.546875,
+      "left": 24
+    },
+    "player": {
+      "x": 24,
+      "y": 713.21875,
+      "width": 272,
+      "height": 483.546875,
+      "top": 713.21875,
+      "right": 296,
+      "bottom": 1196.765625,
+      "left": 24
+    },
+    "video": {
+      "src": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "currentSrc": "http://127.0.0.1:8767/assets/marketing-video/bruma-cafetera-mobile-9x16-10s.mp4",
+      "poster": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+      "preload": "none",
+      "paused": true,
+      "currentTime": 0,
+      "readyState": 0,
+      "controls": true,
+      "playsInline": true,
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "style": "contain"
+    },
+    "count": 1,
+    "sectionCount": 1,
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "sections": [
+      {
+        "id": "arriba",
+        "class": "site-header is-scrolled",
+        "width": 320,
+        "height": 47,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 13, 11)"
+      },
+      {
+        "id": "marketing-hero",
+        "class": "marketing-portal-hero",
+        "width": 320,
+        "height": 976.078125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 19, 13)"
+      },
+      {
+        "id": "otros-servicios",
+        "class": "purchase-services",
+        "width": 320,
+        "height": 1076.671875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(11, 13, 11)",
+        "background": "rgb(246, 243, 235)"
+      },
+      {
+        "id": "contacto",
+        "class": "contact section-pad contact-proposal",
+        "width": 320,
+        "height": 1117.953125,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(248, 250, 247)",
+        "background": "rgb(7, 21, 14)"
+      },
+      {
+        "id": "",
+        "class": "site-footer footer-2a",
+        "width": 320,
+        "height": 833.46875,
+        "font": "\"DM Sans\", Arial, sans-serif",
+        "color": "rgb(246, 243, 235)",
+        "background": "rgb(11, 13, 11)"
+      }
+    ],
+    "requests": [
+      {
+        "url": "http://127.0.0.1:8767/assets/marketing-video/bruma-poster-mobile.webp",
+        "type": "image"
+      }
+    ],
+    "errors": [],
+    "regression": "No pre-change render at this extra width"
+  }
+]

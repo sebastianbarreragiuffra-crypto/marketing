@@ -1,0 +1,107 @@
+/* Sección 2 de Inicio. Anuncios ilustrativos y tareas de la agencia, sin controles simulados. */
+.omd-section { background: #f6f3eb; color: #0b0d0b; padding: 64px 0; scroll-margin-top: 96px; font-family: "DM Sans", Arial, sans-serif; }
+.omd-section, .omd-section * { box-sizing: border-box; }
+.omd-section :is(h2,h3,h4,p,figure) { margin: 0; }
+.omd-layout { display: grid; grid-template-columns: minmax(0,.39fr) minmax(0,.61fr); grid-template-rows: min-content min-content 1fr; grid-template-areas: "heading panel" "channels panel" "cta panel"; align-items: start; column-gap: 42px; row-gap: 32px; width: min(calc(100% - 96px),1440px); margin-inline: auto; }
+.omd-heading { grid-area: heading; min-width: 0; padding-top: 34px; }
+.omd-eyebrow { color: #48622e; font-size: 14px; font-weight: 700; line-height: 1.4; letter-spacing: .16em; }
+.omd-section h2 { margin: 16px 0 26px; font-family: Manrope, "DM Sans", sans-serif; font-size: clamp(42px,3.7vw,56px); font-weight: 800; line-height: 1.11; letter-spacing: -.055em; color: #0b0d0b; }
+.omd-section h2 > span { display: block; }
+.omd-section h2 em { color: #48622e; font-style: normal; }
+.omd-description { max-width: 480px; font-size: 24px; line-height: 1.4; color: #2e332c; }
+.omd-channels { grid-area: channels; font-size: 16px; line-height: 1.45; color: #596057; }
+.omd-cta { grid-area: cta; display: inline-flex; align-items: center; justify-content: center; gap: 24px; width: fit-content; max-width: 100%; min-height: 62px; padding: 15px 28px; border-radius: 99px; background: #c7f45b; color: #0b0d0b; font: 800 19px/1.35 Manrope, "DM Sans", sans-serif; text-decoration: none; transition: background .15s ease; }
+.omd-cta > svg { flex: none; width: 28px; height: 28px; }
+.omd-cta:hover { background: #d4fc78; }
+.omd-cta:focus-visible { outline: 3px solid #48622e; outline-offset: 5px; }
+.omd-panel { grid-area: panel; min-width: 0; padding: 28px; border: 1px solid #d3d1c7; border-radius: 10px; background: #fffdf8; }
+.omd-panel-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 24px; }
+.omd-panel h3 { font-family: Manrope, "DM Sans", sans-serif; font-size: 32px; font-weight: 800; line-height: 1.15; letter-spacing: -.045em; color: #0b0d0b; }
+.omd-panel-heading > p { flex: none; color: #596057; font-size: 15px; line-height: 1.4; }
+.omd-ads { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; padding-bottom: 20px; border-bottom: 1px solid #d3d1c7; }
+.omd-ad { min-width: 0; }
+.omd-ad figcaption { margin-bottom: 8px; color: #2e332c; font-size: 16px; line-height: 1.4; }
+.omd-ad__art { position: relative; aspect-ratio: 1; overflow: hidden; border: 1px solid #d3d1c7; border-radius: 6px; background: #e6dfcf; }
+.omd-ad img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.omd-ad--a img { object-position: center; }
+.omd-ad--a .omd-ad__art::after { position: absolute; inset: 0; content: ""; background: linear-gradient(180deg,#1b130a50,transparent 58%); pointer-events: none; }
+.omd-corner { position: absolute; z-index: 2; top: 24px; left: 24px; width: 34px; height: 34px; border-top: 1.5px solid currentColor; border-left: 1.5px solid currentColor; color: #f6f3eb; }
+.omd-ad--a h4 { position: absolute; z-index: 2; top: 51px; left: 38px; right: 20px; font: 800 29px/1.08 Manrope, "DM Sans", sans-serif; letter-spacing: -.035em; color: #fff; text-shadow: 0 1px 6px #20140a70; }
+.omd-ad--a h4 span { display: block; }
+.omd-ad--b .omd-ad__art { display: grid; grid-template-rows: auto minmax(0,1fr); }
+.omd-ad__banner { position: relative; background: #f6f3eb; }
+.omd-ad__banner .omd-corner { width: 28px; height: 28px; top: 18px; left: 24px; color: #273027; }
+.omd-ad--b h4 { padding: 38px 20px 14px 42px; font: 800 34px/1.07 Manrope, "DM Sans", sans-serif; letter-spacing: -.045em; color: #0b0d0b; }
+.omd-ad__image { min-height: 0; }
+.omd-ad--b img { object-position: center 63%; }
+.omd-management { margin-top: 16px; padding: 16px 18px; border-radius: 7px; background: #eef0e2; }
+.omd-management > h4 { margin-bottom: 12px; font: 800 21px/1.2 Manrope, "DM Sans", sans-serif; letter-spacing: -.035em; color: #48622e; }
+.omd-management ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin: 0; padding: 0; list-style: none; }
+.omd-management li { display: flex; align-items: center; gap: 12px; min-width: 0; padding-inline: 14px; font-size: 14px; line-height: 1.4; color: #0b0d0b; }
+.omd-management li:first-child { padding-left: 0; }
+.omd-management li:last-child { padding-right: 0; }
+.omd-management li + li { border-left: 1px solid #d2d7c5; }
+.omd-management li > svg { flex: none; width: 30px; height: 30px; color: #48622e; }
+.omd-example-note { margin-top: 14px!important; font-size: 14px; line-height: 1.4; color: #596057; }
+@media (min-width: 901px) and (max-width: 1200px) {
+  .omd-layout { width: calc(100% - 64px); column-gap: 28px; }
+  .omd-section h2 { font-size: 42px; }
+  .omd-description { font-size: 20px; }
+  .omd-panel { padding: 20px; }
+  .omd-panel h3 { font-size: 26px; }
+  .omd-panel-heading { flex-wrap: wrap; gap: 8px; }
+  .omd-ads { gap: 16px; }
+  .omd-ad--a h4 { top: 42px; left: 24px; right: 10px; font-size: 24px; }
+  .omd-ad--b h4 { padding: 32px 14px 12px 32px; font-size: 27px; }
+  .omd-corner { top: 18px; left: 16px; width: 25px; height: 25px; }
+  .omd-management ul { gap: 10px; }
+  .omd-management li { display: block; padding-inline: 10px; }
+  .omd-management li > svg { display: block; margin-bottom: 8px; }
+}
+@media (max-width: 900px) {
+  .omd-section { padding-block: 36px; }
+  .omd-layout { grid-template-columns: minmax(0,1fr); grid-template-rows: auto; grid-template-areas: "heading" "panel" "channels" "cta"; gap: 24px; width: min(calc(100% - 48px),720px); }
+  .omd-heading { padding-top: 0; }
+  .omd-section h2 { font-size: 48px; }
+  .omd-description { max-width: 660px; font-size: 21px; }
+  .omd-management ul { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .omd-management li { padding: 0; font-size: 16px; }
+  .omd-management li + li { border-left: 0; }
+  .omd-cta { width: 100%; }
+}
+@media (max-width: 700px) {
+  .omd-section { padding-block: 28px; }
+  .omd-layout { width: calc(100% - 32px); gap: 22px; }
+  .omd-eyebrow { font-size: 13px; letter-spacing: .13em; }
+  .omd-section h2 { margin: 10px 0 18px; font-size: clamp(29px,9.15vw,39px); line-height: 1.1; letter-spacing: -.05em; }
+  .omd-description { font-size: 18px; line-height: 1.4; }
+  .omd-panel { padding: 14px; border-radius: 8px; }
+  .omd-panel-heading { display: block; margin-bottom: 18px; }
+  .omd-panel h3 { font-size: 27px; }
+  .omd-panel-heading > p { margin-top: 3px; font-size: 15px; }
+  .omd-ads { gap: 12px; border-bottom: 0; padding-bottom: 0; }
+  .omd-ad figcaption { margin-bottom: 7px; font-size: 15px; }
+  .omd-ad__art { aspect-ratio: .84; }
+  .omd-corner { top: 13px; left: 12px; width: 20px; height: 20px; }
+  .omd-ad--a h4 { top: 27px; left: 18px; right: 8px; font-size: clamp(17px,4.85vw,22px); line-height: 1.08; letter-spacing: -.025em; }
+  .omd-ad__banner .omd-corner { top: 10px; left: 12px; width: 17px; height: 17px; }
+  .omd-ad--b h4 { padding: 18px 8px 8px 24px; font-size: clamp(18px,5.1vw,23px); line-height: 1.05; }
+  .omd-management { margin-top: 18px; padding: 14px 12px; }
+  .omd-management > h4 { margin-bottom: 14px; font-size: 24px; }
+  .omd-management ul { gap: 12px; }
+  .omd-management li { gap: 10px; font-size: 16px; }
+  .omd-management li > svg { width: 28px; height: 28px; }
+  .omd-example-note { margin-top: 12px!important; font-size: 14px; }
+  .omd-channels { font-size: 15px; line-height: 1.4; }
+  .omd-cta { min-height: 52px; padding: 13px 16px; font-size: 18px; }
+  .omd-cta > svg { width: 26px; height: 26px; }
+}
+@media (max-width: 359px) {
+  .omd-panel { padding: 12px; }
+  .omd-ads { gap: 10px; }
+  .omd-ad--a h4 { left: 12px; font-size: 17px; }
+  .omd-ad--b h4 { padding-left: 18px; font-size: 18px; }
+  .omd-panel h3 { font-size: 25px; }
+  .omd-management > h4 { font-size: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { .omd-cta { transition: none; } }

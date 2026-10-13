@@ -1,0 +1,24 @@
+{
+  "width": 360,
+  "height": 844,
+  "reducedMotion": {
+    "time": 0,
+    "paused": true,
+    "motion": true
+  },
+  "keyboardPlayPause": true,
+  "focusTransfer": {
+    "focus": true,
+    "visible": true,
+    "outline": "3px"
+  },
+  "ctaFocus": {
+    "visible": true,
+    "outline": "3px",
+    "href": "#contacto"
+  },
+  "contactAnchor": true,
+  "contactPreview": "Vista previa · Tu consulta no se enviará.",
+  "contactControlsDisabled": false,
+  "verticalTouchScroll": true
+}

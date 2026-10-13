@@ -1,0 +1,39 @@
+{
+  "tabTarget": "oh-cta",
+  "visibleFocus": true,
+  "outline": "3px",
+  "ctaBox": {
+    "x": 20,
+    "y": 1374.984375,
+    "width": 350,
+    "height": 50,
+    "top": 1374.984375,
+    "right": 370,
+    "bottom": 1424.984375,
+    "left": 20
+  },
+  "headerBox": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 65,
+    "top": 0,
+    "right": 390,
+    "bottom": 65,
+    "left": 0
+  },
+  "dpr": 2,
+  "photo": {
+    "src": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-800.webp",
+    "natural": 349,
+    "width": 348
+  },
+  "resources": [
+    {
+      "name": "http://127.0.0.1:8767/assets/hero-cotizacion/escritorios-800.webp",
+      "transferBytes": 95656,
+      "decodedBytes": 95356
+    }
+  ],
+  "heroButtons": 0
+}

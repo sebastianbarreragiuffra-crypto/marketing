@@ -1,0 +1,40 @@
+{
+  "lowerHTMLIdentical": true,
+  "headerNavigationIdentical": true,
+  "h1": 1,
+  "duplicates": [],
+  "brokenLinks": [],
+  "changedExistingFiles": [
+    "index.html",
+    "css/home-hero-v6.css",
+    "css/marketing-hero-portal.css",
+    "js/home-hero-v6.js",
+    "js/marketing-hero-carousel.js"
+  ],
+  "concurrentFilesPreserved": [
+    "css/marketing-hero-portal.css",
+    "js/marketing-hero-carousel.js"
+  ],
+  "removedExclusive": [
+    "css/home-hero-v6.css",
+    "js/home-hero-v6.js"
+  ],
+  "assets": [
+    {
+      "path": "assets/hero-cotizacion/escritorios-400.webp",
+      "dimensions": [
+        400,
+        500
+      ],
+      "bytes": 34162
+    },
+    {
+      "path": "assets/hero-cotizacion/escritorios-800.webp",
+      "dimensions": [
+        800,
+        1000
+      ],
+      "bytes": 95356
+    }
+  ]
+}

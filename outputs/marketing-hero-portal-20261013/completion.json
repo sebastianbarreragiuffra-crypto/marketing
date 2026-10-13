@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-13",
+  "result": "COMPLETE: implementation and requested browser checks completed locally.",
+  "objective": "Replace only the Marketing hero using approved desktop reference and one manual mobile carousel with two cards.",
+  "authority": "Explicit user implementation request; desktop v6 and mobile carousel v2 selected. No strategy reopening or new layout approval needed.",
+  "ownership": "Implementation Owner under Webmaster 2.11.0; same-agent execution with automated Chrome validation, no delegated review.",
+  "product_files": [
+    "marketing.html",
+    "css/marketing-header.css",
+    "css/marketing-hero-portal.css",
+    "js/marketing-hero-carousel.js",
+    "assets/marketing-hero/numa-lampara-desktop.webp",
+    "assets/marketing-hero/numa-lampara-detalle-mobile.webp",
+    "site-manifest.json"
+  ],
+  "retired": [
+    "css/marketing-hero-v12.css: full source archived; unchanged real header styles extracted into marketing-header.css.",
+    "Previous hero HTML replaced, not hidden."
+  ],
+  "photo_sources": {
+    "desktop": "Approved v6: only the photographic ad creative extracted and optimized as WebP.",
+    "mobile": "Original lamp photograph extracted from approved mobile v2; ad message reconstructed in editable HTML, serif only inside the illustrative ad."
+  },
+  "verified": [
+    "1440/1920 desktop; 390/360/320 mobile; intermediate 768.",
+    "Both mobile states are screenshots of the same carousel; exactly two cards.",
+    "No horizontal page overflow; no text clipped inside card surfaces.",
+    "Native touchscreen horizontal swipe in both directions and vertical page scroll at 390.",
+    "Labels, arrows, first/last disabled state, counter, ArrowLeft/Right, Home/End and visible keyboard focus.",
+    "Identical track heights and CTA coordinates before/after selecting another card at each mobile width.",
+    "No autoplay after idle; reduced-motion mode tested.",
+    "Manrope and DM Sans faces actually loaded; all hero images loaded.",
+    "Marketing navigation, footer and HTML after the hero byte-identical. Header/rest render geometry/style unchanged at baseline 1440/390.",
+    "Precios, Software and other unchanged source files preserved.",
+    "Existing contact anchor reached by keyboard; fieldset remains disabled.",
+    "Unique IDs, exact requested copy/conditions, noindex preserved; manifest --check passed."
+  ],
+  "validation_by_width": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "track_height": 368.484375,
+      "second_height": null,
+      "browser_errors": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "track_height": 385.765625,
+      "second_height": null,
+      "browser_errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "track_height": 359.5625,
+      "second_height": 359.5625,
+      "browser_errors": []
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "track_height": 376.359375,
+      "second_height": 376.359375,
+      "browser_errors": []
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "track_height": 409.40625,
+      "second_height": 409.40625,
+      "browser_errors": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "track_height": 377.859375,
+      "second_height": null,
+      "browser_errors": []
+    }
+  ],
+  "captures": {
+    "desktop-1440-first-screen.png": {
+      "width": 1440,
+      "height": 810,
+      "bytes": 392923
+    },
+    "desktop-1440.png": {
+      "width": 1440,
+      "height": 810,
+      "bytes": 392313
+    },
+    "desktop-1920.png": {
+      "width": 1920,
+      "height": 896,
+      "bytes": 578837
+    },
+    "desktop-768.png": {
+      "width": 768,
+      "height": 793,
+      "bytes": 211898
+    },
+    "mobile-320-campaign.png": {
+      "width": 320,
+      "height": 1024,
+      "bytes": 180151
+    },
+    "mobile-320-software.png": {
+      "width": 320,
+      "height": 1024,
+      "bytes": 155403
+    },
+    "mobile-360-campaign.png": {
+      "width": 360,
+      "height": 994,
+      "bytes": 169447
+    },
+    "mobile-360-software.png": {
+      "width": 360,
+      "height": 994,
+      "bytes": 135214
+    },
+    "mobile-390-campaign.png": {
+      "width": 390,
+      "height": 990,
+      "bytes": 184871
+    },
+    "mobile-390-software.png": {
+      "width": 390,
+      "height": 990,
+      "bytes": 141021
+    }
+  },
+  "pending": [
+    "Real receipt of inquiries and bookings: disabled and outside this task. No form submitted.",
+    "Field performance/conversion/human usability evidence not measured; not claimed."
+  ],
+  "not_applicable": [
+    "New strategy/layout/offer/SEO direction: already approved and out of scope.",
+    "Publication to Pages, commit and push: prohibited and not executed.",
+    "TinyFish: uninstalled and not used."
+  ],
+  "concurrent_work": "Inicio and its old/new hero dependencies were edited independently during this task. Those changes were preserved and excluded from attribution to Marketing. Manifest describes the current combined checkout.",
+  "rollback": "archive/2026-10-13-marketing-hero-before contains original Marketing source, original v12 stylesheet and earlier manifest; no automatic rollback over current concurrent work.",
+  "state_updates": [
+    "PROJECT_MEMORY.md",
+    "WEBMASTER_DECISIONS.md"
+  ],
+  "method_learning": "NOTHING REUSABLE: same-height DOM slides and bounded photo extraction follow existing S-003/S-004/S-023/S-032; no canonical changes.",
+  "next_action": "User visual review; no required implementation work remains.",
+  "evidence": [
+    "browser-checks.json",
+    "source-checks.json",
+    "text-clipping.json",
+    "captures.json",
+    "render-before.json"
+  ]
+}

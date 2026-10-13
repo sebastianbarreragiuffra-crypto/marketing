@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-13",
+  "result": "COMPLETE",
+  "scope": "Inicio: sección 3 de software incluido, inmediatamente después de Marketing digital",
+  "review": "SAME_AGENT: perspectivas A/B/C/Z y criterios de Webmaster; sin revisores independientes ni pruebas con usuarios",
+  "currentSourceObservation": "Inicio no tenía una sección independiente de software al comenzar. Se integró un único bloque en la ubicación expresamente autorizada, sin recuperar implementaciones históricas.",
+  "implementation": ["index.html", "css/home-software-section3-20261013.css", "assets/home-software-section3/gisba-logo-reference.png", "site-manifest.json"],
+  "preserved": "El HTML del hero, Marketing, FAQ, contacto, navegación y footer permanece byte a byte igual al preflight. No se cambiaron otras páginas ni sus estilos.",
+  "backup": "archive/2026-10-13-inicio-software-section3-before/",
+  "priorities": ["Representación comercial fiel al mockup y límites de producto", "Reflujo legible conservando todos los textos", "Una sola fuente activa con recursos pequeños y estilos acotados"],
+  "validation": {
+    "browser": "PASSED: Chromium local a 1440, 1920, 390, 360, 320, 768 y 1024 px; sin overflow, texto recortado ni errores de página",
+    "content": "PASSED: inventario completo de textos, estados y condiciones en escritorio y móvil; un H1 y un bloque de software",
+    "layout": "PASSED: conversación central más ancha en escritorio; lista, conversación y contexto en columna en móvil; altura natural",
+    "assets": "PASSED: imágenes cargadas, María usa la misma foto en lista y conversación; logo suministrado extraído sin redibujar; Google Ads solo junto al origen publicitario",
+    "contrast": "PASSED: pares de texto comprobados con mínimo de 4,99:1 en la interfaz",
+    "operations": "NOT APPLICABLE: buscador, menú y campo de respuesta son representaciones sin botones, inputs, envíos ni datos conectados",
+    "productCapabilities": "NOT VERIFIED: origen, historial, prioridad, integraciones y funcionamiento real no se validan con esta maqueta",
+    "publication": "NOT APPLICABLE: no se publicó, desplegó ni hizo commit/push",
+    "evidence": ["browser-checks.json", "integrity-checks.json", "section-1440.png", "section-1920.png", "section-390.png", "section-320.png"]
+  },
+  "pending": ["Validar origen, historial y prioridad con el producto", "Confirmar capacidades e integraciones reales y condiciones del complemento automatizado según contrato", "Recursos nuevos y cambios locales aún sin commit/push ni sincronización con otro PC"],
+  "learningReview": "El control de textos por ancho detectó un nombre comprimido a 1024 px al alinear el estado a la derecha. Se corrigió el reflujo de estados para columnas estrechas. Ya cubierto por las reglas vigentes de colisiones y validación de anchos intermedios; no se modifica Webmaster canónico."
+}

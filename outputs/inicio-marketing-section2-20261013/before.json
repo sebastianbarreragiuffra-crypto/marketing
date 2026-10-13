@@ -1,0 +1,168 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 794.46875,
+      "w": 1440,
+      "h": 939.953125
+    },
+    "h1Count": 1,
+    "h1": "Un equipo para crear y gestionar tu publicidad.",
+    "text": "EL TRABAJO DE ÓRBITA\n\nAsí trabajamos tu publicidad.\n\nCreamos los anuncios, gestionamos las campañas y revisamos contigo qué ajustar.\n\nPausar animaciones\nCreamos tus anuncios\nHecha\npara tu día.\nANUNCIO DE EJEMPLO\nHecha\npara tu día.\nANUNCIO DE EJEMPLO\nVersión 1\nVersión 2\n\nMensaje y diseño para tu negocio.\n\nGestionamos tus campañas\nRevisión de campaña\nEjemplo: campaña de consultas\n◎\nInversión publicitaria\n›\n◌\nConsultas recibidas\n›\n◇\nCosto por consulta\n›\n\n✳\nÓrbita analiza y decide qué ajustar.\n\nRevisamos la inversión y los resultados.\n\nTú ves el trabajo\nGISBA\n· Vista del cliente\n▤\nTrabajo revisado\nCampaña de consultas\n◷\nPendiente de tu revisión\nPropuesta de ajuste\n\n♧\nÓrbita propone. Tú aportas contexto.\n\nInformación y pendientes en un mismo lugar.\n\nAgenda una reunión\n→\n\nRecreación ilustrativa · Acceso según alcance",
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/section-work/mochila-ejemplo.webp",
+        "loaded": true,
+        "render": [
+          427,
+          348
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/section-work/mochila-ejemplo.webp",
+        "loaded": true,
+        "render": [
+          427,
+          348
+        ]
+      }
+    ],
+    "clipped": [],
+    "adBoxes": [],
+    "tasks": [],
+    "layout": {},
+    "actions": [
+      {
+        "tag": "BUTTON",
+        "text": "Pausar animaciones",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Versión 1",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Versión 2",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◎\nInversión publicitaria\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◌\nConsultas recibidas\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◇\nCosto por consulta\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "▤\nTrabajo revisado\nCampaña de consultas",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◷\nPendiente de tu revisión\nPropuesta de ajuste",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "Agenda una reunión\n→",
+        "href": "marketing.html#contacto"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 1484.578125,
+      "w": 390,
+      "h": 1550.578125
+    },
+    "h1Count": 1,
+    "h1": "Un equipo para crear y gestionar tu publicidad.",
+    "text": "EL TRABAJO DE ÓRBITA\n\nAsí trabajamos tu publicidad.\n\nCreamos los anuncios, gestionamos las campañas y revisamos contigo qué ajustar.\n\nPausar animaciones\nCreamos tus anuncios\nHecha\npara tu día.\nANUNCIO DE EJEMPLO\nHecha\npara tu día.\nANUNCIO DE EJEMPLO\nVersión 1\nVersión 2\n\nMensaje y diseño para tu negocio.\n\nGestionamos tus campañas\nRevisión de campaña\nEjemplo: campaña de consultas\n◎\nInversión publicitaria\n›\n◌\nConsultas recibidas\n›\n◇\nCosto por consulta\n›\n\n✳\nÓrbita analiza y decide qué ajustar.\n\nRevisamos la inversión y los resultados.\n\nTú ves el trabajo\nGISBA\n· Vista del cliente\n▤\nTrabajo revisado\nCampaña de consultas\n◷\nPendiente de tu revisión\nPropuesta de ajuste\n\n♧\nÓrbita propone. Tú aportas contexto.\n\nInformación y pendientes en un mismo lugar.\n\nAgenda una reunión\n→\n\nRecreación ilustrativa · Acceso según alcance",
+    "images": [
+      {
+        "src": "http://127.0.0.1:8767/assets/section-work/mochila-ejemplo.webp",
+        "loaded": true,
+        "render": [
+          352,
+          217
+        ]
+      },
+      {
+        "src": "http://127.0.0.1:8767/assets/section-work/mochila-ejemplo.webp",
+        "loaded": true,
+        "render": [
+          352,
+          217
+        ]
+      }
+    ],
+    "clipped": [],
+    "adBoxes": [],
+    "tasks": [],
+    "layout": {},
+    "actions": [
+      {
+        "tag": "BUTTON",
+        "text": "Pausar animaciones",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Versión 1",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Versión 2",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◎\nInversión publicitaria\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◌\nConsultas recibidas\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◇\nCosto por consulta\n›",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "▤\nTrabajo revisado\nCampaña de consultas",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "◷\nPendiente de tu revisión\nPropuesta de ajuste",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "text": "Agenda una reunión\n→",
+        "href": "marketing.html#contacto"
+      }
+    ],
+    "errors": []
+  }
+]
