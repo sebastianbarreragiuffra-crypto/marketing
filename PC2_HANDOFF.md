@@ -61,3 +61,27 @@ Conservar la versión que el usuario haya confirmado en la web activa. En octubr
 Las guías que describían la restauración del 4 de octubre y URLs antiguas están en `archive/2026-10-07-source-cleanup/`. No son instrucciones de restauración. Formularios, reservas, login, tarifas y capacidades de GISBA pendientes no se consideran conectados o aprobados por verse en una captura.
 
 Desde el 10 de octubre de 2026, por instrucción del usuario, `iniciar-sesion.html` es una ruta vacía reservada para redirigir al acceso externo. No restaurar el formulario ni añadir contenido, navegación o footer. La URL de destino no se ha proporcionado: la redirección permanece pendiente y no debe apuntar a un destino supuesto.
+
+## Cierre PC1 — 2026-10-12
+
+- Remoto: `https://github.com/sebastianbarreragiuffra-crypto/marketing.git`; rama: `main`.
+- Commit de contenido: `c3a2a5521e52a6eadf21b96ec4ef34bd874e71ec`. El commit posterior agrega este traspaso; usar el HEAD remoto más reciente de main.
+- Versión de contenido: `3fcaa28d05e549cede1e26da029aa04fc3b20dda9d7191e7d0085b3ed999ff67`.
+- Incluidos: páginas vigentes, CSS/JS/assets, reglas, memoria, mockups, históricos y evidencias de validación del 11 y 12 de octubre.
+- Solo local: `.claude/launch.json`, configuración del servidor de este PC; no necesaria para la web. Herramientas ignoradas, dependencias y túneles no se transfieren por Git.
+- Validación de cierre: `python site_state.py --check` y `git diff --check` pasan; no hay recursos activos faltantes. No se repitió la auditoría visual completa: se conservan las evidencias existentes en outputs.
+- No se desplegó el sitio en este cierre. Las URLs de túnel anteriores no sirven como referencia de PC2.
+
+Mañana en PC2, desde la carpeta Marketing y con el árbol limpio:
+
+```powershell
+git status --short
+git switch main
+git pull --ff-only origin main
+python site_state.py --check
+python live_preview.py --port 8767
+```
+
+Si hay cambios locales, conservarlos y resolver antes del pull; no usar reset ni sobrescribir. Confirmar SHA con `git rev-parse HEAD` y `git ls-remote origin refs/heads/main`.
+
+Revisión de cierre: objetivo de preservar y sincronizar PC1 para PC2; manifiesto y whitespace verificados; recepción en PC2 pendiente de su pull. Estado durable actualizado en este documento. Aprendizaje reutilizable: ninguno nuevo. Siguiente acción: pull y comprobación de manifiesto en PC2.

@@ -19,7 +19,7 @@ La fuente local prioritaria es `.cursor/rules/brief-orbita.mdc`, seguida por `AG
 
 ## Estado de la web al 2026-10-12
 
-El repositorio local tiene cambios sin commit en varias páginas; no asumir que Cloudflare Pages coincide con el preview. La portada local se puede ver en `http://127.0.0.1:8879/index.html` si el servidor local está encendido. La versión pública histórica `https://orbita-marketing.pages.dev/` puede estar atrasada.
+El trabajo local se guardó en Git para el traspaso PC1 → PC2 del 2026-10-12; consultar PC2_HANDOFF.md para rama, commit y comprobaciones. No asumir que Cloudflare Pages coincide con el preview. La portada local se puede ver en `http://127.0.0.1:8879/index.html` si el servidor local está encendido. La versión pública histórica `https://orbita-marketing.pages.dev/` puede estar atrasada.
 
 La **segunda sección de Inicio** se acaba de implementar solo en local: «Así trabajamos tu publicidad.» con tres escenas: «Creamos tus anuncios», «Gestionamos tus campañas» y «Tú ves el trabajo». Cada visual alterna automáticamente cada 3 segundos, con controles manuales y pausa, sin cambiar títulos, descripciones ni CTA. Se generó una foto ilustrativa de mochila; el anuncio, la revisión de campaña y la recreación de GISBA están construidos con HTML/CSS. CTA posterior a las escenas conserva el enlace `marketing.html#contacto`. Archivos: `index.html`, `css/home-work-v8.css`, `js/home-work-v8.js`, `assets/section-work/mochila-ejemplo.webp`. Preview: `http://127.0.0.1:8879/index.html#soluciones`. Evidencia de pruebas: `outputs/home-work-v8/validation.md`. **No se publicó ni desplegó.**
 
